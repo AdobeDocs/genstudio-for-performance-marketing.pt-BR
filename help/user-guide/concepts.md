@@ -34,85 +34,44 @@ Consulte a [Visão geral das diretrizes](../user-guide/guidelines/overview.md) p
 A demanda é alta por experiências de qualidade em vários canais em um ritmo mais rápido. O GenStudio for Performance Marketing simplifica a cadeia de fornecimento de conteúdo em um fluxo de trabalho bem organizado para profissionais de marketing. A GenStudio for Performance Marketing utiliza a tecnologia Adobe em cada estágio do ciclo de vida.
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
        <img alt="calendário" src="../assets/csc-workflow-planning.png" width="100">
-
     </td>
-
     <td>
-
         <p>Elabore ideias, defina diretrizes e crie uma estratégia em torno do conteúdo para envolver seu público-alvo.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="pincel e tela" src="../assets/csc-creation-production.png" width="100">
-
     </td>
-
     <td>
-
         <p>Produza o conteúdo com base no plano. Colabore em tempo real, receba feedback, faça edições e aprove o conteúdo.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="imagens e muito mais" src="../assets/csc-content-mgmt.png" width="100">
-
     </td>
-
     <td>
-
         <p>Armazene, compartilhe e encontre ativos criativos no repositório centralizado. Reutilizar e revitalizar conteúdo com base no desempenho.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="avião de papel" src="../assets/csc-delivery-activation.png" width="100">
-
     </td>
-
     <td>
-
         <p>Ative o conteúdo e publique em vários canais de marketing.</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="gráfico" src="../assets/csc-reporting-insights.png" width="100">
-
     </td>
-
     <td>
-
         <p>Colete dados e obtenha insights para a otimização do desempenho do ativo.</p>
-
     </td>
-
 </tr>
-
 </table>
