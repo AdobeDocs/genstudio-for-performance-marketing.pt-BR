@@ -4,10 +4,9 @@ description: Saiba como criar experiências de email no Adobe GenStudio para Mar
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -43,13 +42,12 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Clique em **[!UICONTROL Selecionar conteúdo]** para adicionar conteúdo a ser usado na experiência *e* para influenciar a geração de conteúdo.
-   * Para selecionar ativos (imagens) do seu repositório [!DNL Content], clique em **[!UICONTROL Selecionar do conteúdo]**. Filtre e selecione uma ou mais imagens.
+1. Adicione conteúdo para usar na experiência *e* para influenciar a geração de conteúdo:
+   * Clique em **[!UICONTROL Selecionar do Conteúdo]** para selecionar ativos (imagens) do repositório [!DNL Content], filtrar e selecionar uma ou mais imagens.
 
      Para usar ativos de um repositório [!DNL AEM Assets Content Hub] conectado, escolha um repositório no menu suspenso _Local_. Filtre e selecione uma ou mais imagens.
 
-   * Para carregar um ou mais novos ativos, clique em **[!UICONTROL Carregar]**, navegue pelos arquivos e escolha os ativos a serem usados. Além de navegar em seu dispositivo, você pode importar do Microsoft OneDrive ou Dropbox. Clique em para selecionar as imagens desejadas.
-   * Arraste e solte ativos na seção _Conteúdo_.
+   * Ou arraste e solte ativos na seção **[!UICONTROL Selecionar do conteúdo]** para carregar um ou mais ativos novos.
 1. Clique em **[!UICONTROL Usar]**.
 
 >[!NOTE]
@@ -81,7 +79,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 * **Para [editar o nome do rascunho do email](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer campo de texto editável (como linha de assunto, cabeçalho ou cópia de corpo) e edite conforme necessário
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
+* **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
 * **Para [adicionar ou trocar imagens em uma variante](/help/user-guide/create/manage-variants.md#swap-image)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique em **[!UICONTROL Selecionar/trocar conteúdo]** ou **[!UICONTROL Carregar nova imagem]** para adicionar ou trocar uma imagem em uma variante individual.
 * **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique para selecionar o título do email (por exemplo, &quot;Email 1/4&quot;) e clique em **[!UICONTROL Excluir variante]**.
 
@@ -124,7 +122,7 @@ Consulte [Revisões e aprovações](/help/user-guide/approvals/overview.md) para
 
 Para disponibilizar os emails gerados para uso atual e futuro, publique-os no [!UICONTROL Conteúdo] e exporte-os para uso em suas campanhas de marketing.
 
-1. **Para publicar sua(s) nova(s) experiência(s) de email**, clique em **[!UICONTROL Publish]** na barra de ferramentas superior.
+1. **Para publicar sua(s) nova(s) experiência(s) de email**, clique em **[!UICONTROL Publish]** na barra de ferramentas superior ou no fluxo de aprovações.
 1. **Para exportar sua(s) nova(s) experiência(s) de email**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
    1. Selecione o formato (somente CSV e imagens ou HTML) e clique em **[!UICONTROL Exportar]**.
 
