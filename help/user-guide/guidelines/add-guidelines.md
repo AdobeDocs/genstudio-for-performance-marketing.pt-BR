@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 0%
@@ -163,8 +163,7 @@ Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**j�
 
 * Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Products] para revisar e analisar um produto existente.
 * Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Products] para **Excluir** um produto.
-* 
-   * Selecione **[!UICONTROL Renomear]** no menu de ações [!DNL Products] para **Renomear** um produto.
+* Selecione **[!UICONTROL Renomear]** no menu de ações [!DNL Products] para **Renomear** um produto.
 
 ## Adicionar [!DNL Personas]
 
