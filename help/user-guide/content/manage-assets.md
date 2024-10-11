@@ -3,7 +3,7 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -36,7 +36,7 @@ O repositório AEM é somente leitura, o que significa que não é possível sal
 
 ## Gerenciamento do Assets
 
-No [!UICONTROL Conteúdo], os profissionais de marketing de desempenho podem armazenar, recuperar e gerenciar facilmente seus ativos digitais. Ao utilizar os repositórios `GenStudio assets` e AEM, os usuários podem garantir que seus ativos estejam bem organizados e acessíveis para várias campanhas de marketing. Essa abordagem de vários repositórios oferece flexibilidade e controle sobre o uso de ativos em todos os ambientes, garantindo que somente ativos aprovados e atualizados sejam usados em esforços de marketing.
+No [!UICONTROL Conteúdo], o Marketing de Desempenho pode armazenar, recuperar e gerenciar facilmente seus ativos digitais. Ao utilizar os repositórios `GenStudio assets` e AEM, os usuários podem garantir que seus ativos estejam bem organizados e acessíveis para várias campanhas de marketing. Essa abordagem de vários repositórios oferece flexibilidade e controle sobre o uso de ativos em todos os ambientes, garantindo que somente ativos aprovados e atualizados sejam usados em esforços de marketing.
 
 ### Adicionar ativos
 
@@ -66,7 +66,7 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
 1. Para exibir os novos ativos carregados, clique em **[!UICONTROL Atualizar]** na notificação _Novos ativos disponíveis_, na parte inferior da Tela.
 
-<!-- 
+<!--
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 

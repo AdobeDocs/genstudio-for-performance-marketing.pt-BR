@@ -3,7 +3,7 @@ title: Gravar prompts efetivos
 description: Saiba como escrever prompts efetivos para o Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -39,13 +39,13 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## Critérios de solicitação
 
-No GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), você pode usar **[!UICONTROL Critérios de solicitação]** ([_Parâmetros_](/help/user-guide/create/overview.md#parameters) e um prompt) na área de prompt para adicionar detalhes por meio da seleção para melhorar a interpretação da IA.
+No GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), você pode usar **[!UICONTROL Critérios de solicitação]** ([_Parâmetros_](/help/user-guide/create/overview.md#parameters) e um prompt) na gaveta do prompt para adicionar detalhes por meio da seleção para melhorar a interpretação da IA.
 
 Para [emails](/help/user-guide/create/email-experiences.md), os critérios de prompt podem incluir a adição de [diretrizes](/help/user-guide/guidelines/overview.md) em _Parâmetros_, o carregamento de um ativo para usar nas variantes de email e um prompt descritivo. Para um [Meta ad](/help/user-guide/create/create-meta-ad.md), os critérios de prompt podem incluir uma diretriz de marca em _Parâmetros_, a seleção ou o upload de um ativo existente, configurações relacionadas a imagens ou ativos, como proporção, e um prompt. A verdadeira potência começa com [diretrizes de configuração](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Se as diretrizes forem adicionadas em _Parâmetros_ na área de prompt, não será necessário incluir uma referência a elas no prompt. O GenStudio for Performance Marketing aproveita esses [!DNL Brands], [!DNL Products] e [!DNL Personas] na geração de conteúdo.
+>Se as diretrizes forem adicionadas em _Parâmetros_ na gaveta do prompt, não será necessário incluir uma referência a elas no prompt. O GenStudio for Performance Marketing aproveita esses [!DNL Brands], [!DNL Products] e [!DNL Personas] na geração de conteúdo.
 
 ### Diretrizes
 

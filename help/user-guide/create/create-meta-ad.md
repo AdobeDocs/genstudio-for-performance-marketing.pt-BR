@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Para começar a gerar uma nova experiência de Metadados, use um modelo disponí
 
 ## Adicionar parâmetros
 
-Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na área de prompt melhora o processo de geração de conteúdo e é uma etapa crucial na preparação para gerar um Metadado.
+Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompts melhora o processo de geração de conteúdo e é uma etapa crucial na preparação para gerar um Metadado.
 
 **Para adicionar parâmetros e ativos**:
 
-1. Clique no ícone _Parâmetros_ para expandir a área de prompt.
+1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
@@ -50,7 +50,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
    * Ou arraste e solte ativos na seção **[!UICONTROL Selecionar do conteúdo]** para carregar um ou mais ativos novos.
 1. Clique em **[!UICONTROL Usar]**.
 
-Quando terminar de adicionar parâmetros, você poderá recolher a área de prompt clicando no ícone _Parâmetros_ novamente.
+Quando terminar de adicionar parâmetros, você poderá recolher a gaveta do prompt clicando no ícone _Parâmetros_ novamente.
 
 ## Digite um prompt
 

@@ -4,7 +4,7 @@ description: Saiba como configurar seu GenStudio for Performance Marketing para 
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Três tipos de funções de usuário do GenStudio for Performance Marketing ofer
 
 **Editores** têm as permissões principais necessárias para criar ativos do GenStudio for Performance Marketing [!DNL Brands], [!DNL Campaigns] e [!DNL Content]. Eles também podem editar e excluir os ativos que criaram. O GenStudio for Performance Marketing oferece suporte à criação rápida de centenas de conteúdo. Esses usuários podem gerar seções de conteúdo ou experiências completas que orquestram partes distintas de conteúdo aprovado para atender às necessidades de campanhas de marketing específicas.
 
-Os editores interagem com as tecnologias de IA gerativa da GenStudio for Performance Marketing por meio de _prompts_. A área de prompt na Tela de Pintura fornece ferramentas para colocar prompts no contexto das diretrizes de uma campanha específica. Como resultado, a qualidade e o sucesso do conteúdo gerado dependem parcialmente da qualidade das diretrizes de marca que sua organização carregou e da especificidade do seu prompt.
+Os editores interagem com as tecnologias de IA gerativa da GenStudio for Performance Marketing por meio de _prompts_. A gaveta de prompts na Tela fornece ferramentas para colocar prompts no contexto das diretrizes de uma campanha específica. Como resultado, a qualidade e o sucesso do conteúdo gerado dependem parcialmente da qualidade das diretrizes de marca que sua organização carregou e da especificidade do seu prompt.
 
 Consulte [Gravar prompts efetivos](effective-prompts.md).
 

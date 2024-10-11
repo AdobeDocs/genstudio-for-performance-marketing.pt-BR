@@ -1,11 +1,11 @@
 ---
 title: Criar uma experiência de anúncio de exibição
-description: Saiba como criar experiências de anúncio de exibição no Adobe [!DNL GenStudio] para profissionais de marketing de desempenho.
+description: Saiba como criar experiências de anúncio de exibição no Adobe [!DNL GenStudio] para Marketing de desempenho.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 9fc0ad86b99ca61a73b46fd8febfcf66b2975d75
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -33,14 +33,14 @@ Para criar uma experiência de anúncio de exibição, use um modelo disponível
 
 ## Adicionar parâmetros
 
-Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na área de prompt sobrecarrega o processo de geração de conteúdo e é uma etapa preparatória integral para gerar uma experiência de anúncio de exibição.
+Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompt sobrecarrega o processo de geração de conteúdo e é uma etapa preparatória integral para gerar uma experiência de exibição de anúncio.
 
 **Para adicionar parâmetros e ativos**:
 
-1. Clique no ícone _Parâmetros_ para expandir a área de prompt.
+1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
-   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio para profissionais de marketing de desempenho](/help/user-guide/guidelines/add-guidelines.md).
+   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Para adicionar conteúdo a ser usado na experiência *e* para influenciar a geração de conteúdo:
    * Clique em **[!UICONTROL Selecionar do Conteúdo]** para selecionar ativos (imagens) do repositório [!DNL Content], filtrar e selecionar uma ou mais imagens.
@@ -50,7 +50,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
    * Ou arraste e solte ativos na seção **[!UICONTROL Selecionar do conteúdo]** para carregar um ou mais ativos novos.
 1. Clique em **[!UICONTROL Usar]**.
 
-Quando terminar de adicionar parâmetros, recolha a área de prompt clicando no ícone _Parâmetros_ novamente.
+Quando terminar de adicionar parâmetros, recolha a gaveta do prompt clicando novamente no ícone _Parâmetros_.
 
 ## Digite um prompt
 

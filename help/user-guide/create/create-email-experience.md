@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Para criar uma nova experiência de email, use um modelo disponível para fornec
 
 ## Adicionar parâmetros
 
-Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na área de prompt sobrecarrega o processo de geração de conteúdo e é uma etapa preparatória integral para gerar uma experiência de email.
+Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompt sobrecarrega o processo de geração de conteúdo e é uma etapa preparatória integral para gerar uma experiência de email.
 
 **Para adicionar parâmetros e ativos**:
 
-1. Clique no ícone _Parâmetros_ para expandir a área de prompt.
+1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
@@ -54,7 +54,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 >
 >Se o seu modelo de email tiver várias seções, selecione [!DNL Products] e conteúdo (ativos visuais) para cada seção de email em _Emails de várias seções_. Emails de várias seções suportam um ativo visual por seção.
 
-Quando terminar de adicionar parâmetros, você poderá recolher a área de prompt clicando no ícone _Parâmetros_ novamente.
+Quando terminar de adicionar parâmetros, você poderá recolher a gaveta do prompt clicando novamente no ícone _Parâmetros_.
 
 ## Digite um prompt
 
