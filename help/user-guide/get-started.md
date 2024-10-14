@@ -1,106 +1,64 @@
 ---
 title: Introdução ao Adobe GenStudio for Performance Marketing
-description: Saiba como configurar seu GenStudio for Performance Marketing para gerar novo conteúdo de marketing alinhado à marca.
+description: Saiba como começar a usar o GenStudio for Performance Marketing para gerar novo conteúdo de marketing alinhado à marca.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: 6454090c9fffb4b288b615680597b80e5b71a89c
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 1%
+source-wordcount: '641'
+ht-degree: 0%
 
 ---
 
 # Introdução ao Adobe GenStudio for Performance Marketing
 
-O Adobe GenStudio for Performance Marketing é uma plataforma abrangente para criar, avaliar e gerenciar experiências de marketing que refletem e seguem a identidade da sua marca.
+O Adobe GenStudio for Performance Marketing oferece um conjunto abrangente de ferramentas projetadas para simplificar a criação, o gerenciamento e a análise de conteúdo. Ele integra o ciclo de vida da criação de conteúdo aos recursos de IA gerativa que transformam a forma como o conteúdo de marketing é criado, revisado, compartilhado e analisado.
 
-O acesso das partes interessadas a seus vários recursos é controlado pelas _funções de usuário_ atribuídas. Sua função de usuário atribuída determina as tarefas que você pode executar no GenStudio for Performance Marketing. Um administrador de sistema do Adobe atribui suas permissões no perfil de produto do GenStudio for Performance Marketing no Adobe Admin Console. O email de boas-vindas identifica a função atribuída.
+## Comece a criar, compartilhar e revisar conteúdo
 
-Se você é novo em ferramentas generativas baseadas em IA ou está simplesmente curioso sobre os princípios básicos do GenStudio for Performance Marketing, consulte [Conceitos](concepts.md) e [Gravar prompts efetivos](effective-prompts.md).
+Se você é novo em ferramentas generativas baseadas em IA ou está simplesmente curioso sobre os princípios fundamentais do GenStudio for Performance Marketing, consulte [Conceitos](concepts.md) e [Gravar prompts efetivos](effective-prompts.md). Você pode conferir a [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), plataforma de aprendizado online de Adobe sobre o uso de tecnologias de IA gerativa no processo criativo.
 
-## Funções do usuário
+## Treinar o GenStudio for Performance Marketing
 
-A criação e a implantação de campanhas de marketing modernas exigem a colaboração entre as partes interessadas com diferentes responsabilidades e conjuntos de habilidades.
+O GenStudio for Performance Marketing usa informações sobre sua marca e mercados para aprimorar a criação de conteúdo compatível com a marca. Os materiais de treinamento incluem exemplos, descrições de [personas](/help/user-guide/guidelines/personas.md) e [produtos](/help/user-guide/guidelines/products.md) do cliente e [diretrizes de marca](/help/user-guide/guidelines/overview.md).
 
-Três tipos de funções de usuário do GenStudio for Performance Marketing oferecem suporte a essa diversidade de funções organizacionais. As permissões são personalizadas para cada um desses tipos de usuários e oferecem suporte às responsabilidades de cada usuário na organização de marketing.
+Os gerentes de sistema configuram o Adobe GenStudio for Performance Marketing inserindo ou fazendo upload de informações específicas da organização. Essa preparação garante que editores de conteúdo e colaboradores possam usar efetivamente os recursos de IA gerativa para criar e revisar ativos de campanha. Depois que um administrador de sistema do Adobe provisiona a instância de produto da organização e atribui permissões de gerente de sistema da GenStudio, o gerente de sistema da GenStudio pode preparar a estrutura de IA gerativa subjacente do produto usando diretrizes.
 
-**Os três tipos de função de usuário são**:
+### Etapa 1: adicionar diretrizes
 
-* **Os editores** usam os recursos de IA gerativa da GenStudio for Performance Marketing para criar ativos de campanha de marketing, solicitar revisão e aprovação de conteúdo e publicar rascunhos aprovados desse conteúdo. Todos os usuários do GenStudio for Performance Marketing podem acessar e usar um ativo depois que seu criador o tiver salvo no conteúdo.
+Configurar os elementos fundamentais da identidade de marca de sua organização é um pré-requisito essencial para o trabalho de editores de conteúdo e colaboradores. As [diretrizes](./guidelines/overview.md) capturam as características da marca, como logotipos, tom de voz e paletas de cores. Você pode carregar [[!DNL Brands] diretrizes](./guidelines/brands.md) documentos ou inserir manualmente informações sobre a marca. [[!DNL Personas] diretrizes](./guidelines/personas.md) e [[!DNL Products] diretrizes](./guidelines/products.md) também são importantes. Os recursos subjacentes de IA gerativa do GenStudio for Performance Marketing usam essas diretrizes para estabelecer medidas de proteção que orientam a geração de conteúdo.
 
-* **Colaboradores** são o maior número de usuários do GenStudio for Performance Marketing. Os colaboradores podem visualizar e aprovar o conteúdo e são uma parte essencial do fluxo de trabalho, garantindo que o conteúdo gerado corresponda às necessidades e padrões da sua organização.
+#### Preparar seus documentos de orientação
 
-* **Os gerenciadores de sistemas** têm o mais amplo conjunto de permissões no GenStudio for Performance Marketing. Os gerentes de sistema executam a tarefa essencial de integração de estabelecer as medidas de proteção fundamentais para a criação e implantação de ativos de campanha. Os gerentes de sistema implementam essas medidas de proteção fazendo upload das informações específicas da marca e da organização, como as [diretrizes da marca](/help/user-guide/guidelines/overview.md). Os gerentes de sistema da GenStudio for Performance Marketing têm permissão para criar e publicar marcas, mas não têm privilégios de administração do usuário.
+As diretrizes abrangentes e focalizadas do [[!DNL Brands]](./guidelines/brands.md), [[!DNL Products]](./guidelines/products.md) e [[!DNL Personas]](./guidelines/personas.md) definem os aspectos principais das campanhas de marketing da sua organização. A GenStudio for Performance Marketing extrai informações dessas diretrizes para começar a criar sua marca.
 
->[!NOTE]
->Antes que qualquer usuário seja provisionado nessas funções, um administrador de sistema do Adobe deve ser designado no Adobe Admin Console para executar tarefas de configuração únicas. Essa função de administrador de Adobe opera somente no contexto do Adobe Admin Console. Ele não tem nenhuma função na interface da plataforma do GenStudio for Performance Marketing.
+Siga estas práticas recomendadas ao preparar diretrizes:
 
-### editores do GenStudio for Performance Marketing
+* Use um idioma específico.
 
-**Editores** têm as permissões principais necessárias para criar ativos do GenStudio for Performance Marketing [!DNL Brands], [!DNL Campaigns] e [!DNL Content]. Eles também podem editar e excluir os ativos que criaram. O GenStudio for Performance Marketing oferece suporte à criação rápida de centenas de conteúdo. Esses usuários podem gerar seções de conteúdo ou experiências completas que orquestram partes distintas de conteúdo aprovado para atender às necessidades de campanhas de marketing específicas.
+* Inclua os melhores exemplos que encontrar do estilo e tom que deseja que os ativos da campanha incorporem.
 
-Os editores interagem com as tecnologias de IA gerativa da GenStudio for Performance Marketing por meio de _prompts_. A gaveta de prompts na Tela fornece ferramentas para colocar prompts no contexto das diretrizes de uma campanha específica. Como resultado, a qualidade e o sucesso do conteúdo gerado dependem parcialmente da qualidade das diretrizes de marca que sua organização carregou e da especificidade do seu prompt.
+* Evite redundância. Você pode ser tentado a repetir uma diretiva várias vezes, mas a redundância em suas diretrizes não ajuda a capturar e implementar as diretrizes de marca subjacentes do LLM.
 
-Consulte [Gravar prompts efetivos](effective-prompts.md).
+* Identifique elementos que você deseja que o LLM exclua durante a geração de conteúdo (por exemplo, pontos de exclamação no texto)
 
-A tabela a seguir exibe as permissões padrão do editor:
+Você pode fazer upload de documentos de orientação ou consultá-los à medida que insere informações manualmente no GenStudio for Performance Marketing. Consulte [Adicionar diretrizes](./guidelines/overview.md) para obter orientação sobre como carregar ou inserir essas informações.
 
-| Destaque | Criar | Atualizar o | Excluir | Exibir |
-|-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | não | não | não | sim |
-| [!DNL Campaigns] | sim | sim | sim | sim |
-| [!DNL Content] | sim | sim | sim | sim |
-| [!DNL Insights] | pode configurar apenas conectores de anúncios |    |     | sim |
-| [!DNL Personas] | sim | sim | sim | sim |
-| [!DNL Products] | sim | sim | sim | sim |
-| [!DNL Reviews and approvals] | sim | sim | sim | sim |
+#### Revisar diretrizes
 
-### Colaboradores da GenStudio for Performance Marketing
+Um gerente de sistema da GenStudio pode preparar a estrutura de IA gerativa subjacente do produto inserindo ou fazendo upload manualmente dos requisitos específicos da marca de sua organização. Embora a configuração das diretrizes de marca de uma organização seja uma ação única, você pode revisar e aprimorar essas diretrizes com base na volatilidade, no crescimento e na alteração das circunstâncias do mercado de sua organização.
 
-**Os colaboradores** podem exibir ativos na GenStudio for Performance Marketing, mas não podem criar, editar nem excluir esses ativos. Os colaboradores incluem participantes essenciais para o sucesso do processo de revisão e aprovação do conteúdo, mas que não precisam criar ou editar diretamente o conteúdo. Juristas e gerentes de criadores são exemplos de colaboradores potenciais. Os colaboradores da GenStudio for Performance Marketing podem ter permissões para criar e visualizar ativos em outros produtos Creative Cloud.
+### Etapa 2: Fazer upload de modelos
 
-A tabela a seguir exibe as permissões padrão do colaborador:
+Os modelos aceleram a criação de conteúdo. Um modelo contém recursos aprovados, como cabeçalhos e rodapés, e é otimizado para canais específicos. Os gerentes de sistema normalmente fazem upload e gerenciam modelos para sua organização. Os editores de conteúdo usam modelos para iniciar rapidamente o processo de criação de conteúdo dentro dos limites estabelecidos da marca organizacional.
 
-| Destaque | Criar | Atualizar o | Excluir | Exibir |
-|-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | não | não | não | sim |
-| [!DNL Campaigns] | não | não | não | sim |
-| [!DNL Content] | não | não | não | sim |
-| [!DNL Insights] | não | não | não | sim |
-| [!DNL Personas] | não | não | não | sim |
-| [!DNL Products] | não | não | não | sim |
-| [!DNL Reviews and approvals] | não | não | não | sim |
+Consulte [Trabalhar com modelos](./content/use-templates.md) para obter instruções sobre como personalizar e carregar modelos.
 
-### Gerenciadores de sistema da GenStudio for Performance Marketing
+### Etapa 3: Fazer upload de ativos aprovados
 
-Os **gerentes de sistema da GenStudio** concluem as tarefas iniciais que preparam sua organização para implantar o GenStudio for Performance Marketing.
+Os ativos aprovados em [!DNL Content] estão disponíveis para todos os editores do GenStudio for Performance Marketing. Você pode preencher [!DNL Content] com ativos para que os editores de conteúdo os usem na criação de novas experiências ou ativos. Consulte [Carregar ativos aprovados](./content/manage-assets.md) para obter orientação sobre como carregar e gerenciar ativos.
 
-A tabela a seguir exibe as permissões padrão do GenStudio for Performance Marketing System Manager:
+### Etapa 4: conectar-se a uma conta Meta (Facebook)
 
-| Destaque | Criar | Atualizar o | Excluir | Exibir |
-|-----------|----------------|----------------|----------------|----------------|
-| [!DNL Brands] | sim | sim | sim | sim |
-| [!DNL Campaigns] | sim | sim | sim | sim |
-| [!DNL Content] | sim | sim | sim | sim |
-| [!DNL Insights] | sim | sim | sim | sim |
-| [!DNL Personas] | sim | sim | sim | sim |
-| [!DNL Products] | sim | sim | sim | sim |
-| [!DNL Reviews and approvals] | sim | sim | sim | sim |
-
-
-## Preparar o GenStudio for Performance Marketing para gerar conteúdo
-
-Os gerentes de sistema da GenStudio for Performance Marketing preparam o ambiente GenStudio for Performance Marketing de sua organização para que editores e colaboradores criem ativos de campanha. Essas tarefas preliminares de configuração incluem:
-
-1. [Adicionar diretrizes](./guidelines/overview.md) para [!DNL Brands], [!DNL Products] e [!DNL Personas]. Configurar os elementos fundamentais da identidade de marca de sua organização é um pré-requisito essencial para o trabalho de criadores e colaboradores. Você pode fazer upload de documentos de diretrizes da marca ou inserir manualmente as informações da marca.
-   * **Prepare seus documentos de diretrizes**. Quanto mais descritivas e abrangentes forem as diretrizes da sua marca, melhor será o resultado. Inclua breves exemplos de recursos que você considera essenciais para sua marca e adicione descrições de comportamento que deseja excluir da criação de conteúdo. O GenStudio for Performance Marketing extrai informações desses documentos carregados e começa a criar sua marca. Informações como voz da marca, canal e diretrizes de imagem são preenchidas conforme a GenStudio for Performance Marketing monta cada diretriz dos documentos carregados.
-   * **Edite ou preencha os campos de diretriz da marca conforme necessário**. As diretrizes abrangentes da marca formam a base para a GenStudio for Performance Marketing entender a marca da sua organização. Depois que a GenStudio for Performance Marketing tiver extraído as informações necessárias dos documentos de diretrizes da marca, você será solicitado a editar ou preencher manualmente os campos das informações extraídas. Especifique áreas de foco de produto individuais para criação de conteúdo adicionando um [!DNL Product]. As diretrizes do [!DNL Personas] ajudam a adaptar a criação de conteúdo para segmentos de clientes definidos.
-
-   Embora a configuração das diretrizes de marca de uma organização possa ser uma ação única, talvez seja necessário revisar e aprimorar essas diretrizes com base na volatilidade, no crescimento e nas mudanças nas circunstâncias do mercado de sua organização.
-
-1. **[Carregar modelos](./content/use-templates.md)**. Os modelos fornecem atalhos e aceleram a criação de conteúdo. Um modelo contém recursos aprovados, como cabeçalhos e rodapés, e estabelece medidas de proteção para a criação de conteúdo. Os gerentes de sistema normalmente fazem upload e gerenciam modelos para sua organização. Os criadores usam modelos para iniciar rapidamente o processo de criação de conteúdo dentro dos limites estabelecidos da marca organizacional.
-
-1. **[Carregar ativos aprovados](./content/manage-assets.md)**. Os ativos aprovados em [!DNL Content] estão disponíveis para todos os criadores do GenStudio for Performance Marketing. Você pode propagar [!DNL Content] com ativos que os criadores podem usar para criar novas experiências ou ativos.
-
-1. **[Conectar a uma conta Meta (Facebook)](./insights/connect-channel.md)**. Configure uma conexão entre o GenStudio for Performance Marketing e as contas sociais de sua organização para receber dados de suas campanhas de marketing ativas, ativos e experiências. [[!DNL Insights]](./insights/overview.md) fornece ferramentas para analisar dados derivados de canais.
+Configure uma conexão entre o GenStudio for Performance Marketing e as contas sociais de sua organização para receber dados de suas campanhas de marketing ativas, ativos e experiências. [[!DNL Insights]](./insights/overview.md) fornece ferramentas para analisar dados derivados de canais. Consulte [Conectar a uma conta Meta (Facebook)](./insights/connect-channel.md#meta-ads-connect).
