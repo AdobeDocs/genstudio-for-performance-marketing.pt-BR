@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 0%
@@ -185,7 +185,7 @@ Consulte [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
 1. Selecione o botão **[!UICONTROL Adicionar persona]** e escolha **Carregar PDF**.
 1. Clique em **[!UICONTROL Continuar]**.
-1. No pop-up _Adicionar seu perfil, anexe ou arraste seu documento pessoal.
+1. No pop-up _Adicionar_, anexe ou arraste seu documento pessoal.
 
    Você pode anexar até cinco arquivos PDF com um máximo de 500 MG combinados.
 

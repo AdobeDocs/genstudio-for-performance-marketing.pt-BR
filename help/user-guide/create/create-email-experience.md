@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 
 >[!NOTE]
 >
->Se o seu modelo de email tiver várias seções, selecione [!DNL Products] e conteúdo (ativos visuais) para cada seção de email em _Emails de várias seções_. Emails de várias seções suportam um ativo visual por seção.
+>Se o seu modelo de email tiver várias seções, selecione [!DNL Products] e conteúdo (ativos visuais) para cada seção de email em _Emails de várias seções_. Emails de várias seções suportam um ativo visual por seção. Você só pode adicionar ativos visuais a emails de várias seções do [!DNL Content]; não é possível arrastar e soltar ou carregar ativos da sua origem local.
 
 Quando terminar de adicionar parâmetros, você poderá recolher a gaveta do prompt clicando novamente no ícone _Parâmetros_.
 
