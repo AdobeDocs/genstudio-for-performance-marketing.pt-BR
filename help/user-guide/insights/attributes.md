@@ -2,9 +2,9 @@
 title: Visão geral dos atributos
 description: Saiba como avaliar o desempenho de atributos específicos no Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ As métricas de Insights podem ajudar você a avaliar quais atributos inspiram m
 
 ### Detalhes das métricas
 
-A tabela a seguir fornece definições e insights para as métricas principais de marketing digital na exibição [!UICONTROL Atributos]. Cada métrica inclui uma breve definição, pois se relaciona a um ativo, como a métrica é calculada, e um ou mais insights para ajudar a entender sua importância e impacto em uma campanha publicitária.
+A tabela a seguir fornece definições e insights para as métricas principais de marketing digital na exibição de tabela [!UICONTROL Atributos]. Cada métrica inclui uma breve definição, pois se relaciona a um ativo, como a métrica é calculada, e um ou mais insights para ajudar a entender sua importância e impacto em uma campanha publicitária.
 
 | Métrica | Definição | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
@@ -120,5 +120,6 @@ A tabela a seguir fornece definições e insights para as métricas principais d
 | **[!UICONTROL Cliques]** | Número de vezes que os usuários interagem com uma imagem ou vídeo com esse atributo. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
 | **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques em imagens ou vídeos com esse atributo.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
 | **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo ($) para cada mil impressões de anúncios de uma imagem ou vídeo com esse atributo.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
+| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio ($) gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Ajuda a identificar atributos que resultam em ações valiosas do cliente. |
 | **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio ($) associado a cada clique em imagens ou vídeos com este atributo.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
 | **[!UICONTROL Gastar]** | O valor ($) gasto com o orçamento relacionado aos atributos em um determinado período. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor dos gastos em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
