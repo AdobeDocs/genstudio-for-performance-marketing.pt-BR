@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Quando terminar de adicionar parâmetros, recolha a gaveta do prompt clicando no
 ## Digite um prompt
 
 Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para a nova experiência de anúncio de exibição. Para aprimorar a qualidade das experiências de anúncio de exibição geradas, é fundamental criar prompts detalhados e descritivos.
+
+![Inserir um prompt](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
@@ -115,6 +117,11 @@ Consulte [Análises e aprovações](/help/user-guide/approvals/overview.md).
 Para disponibilizar os anúncios de exibição gerados para uso atual e futuro, publique-os no [!UICONTROL Conteúdo] e exporte-os para uso em suas campanhas de marketing.
 
 1. **Para publicar sua(s) nova(s) experiência(s) de anúncio de exibição**, clique em **[!UICONTROL Publish]** na barra de ferramentas superior ou no fluxo de aprovações.
+   1. Selecione _[!UICONTROL [!DNL Campaigns]]_e adicione_[!UICONTROL  Mais detalhes ]_, se desejar.
+   1. Clique em **[!UICONTROL Publicar]**.
+
+      ![Publish um anúncio de exibição](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+
 1. **Para exportar sua(s) nova(s) experiência(s) de anúncio de exibição**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
    1. Selecione o formato—somente JPG—e clique em **[!UICONTROL Exportar]**.
 

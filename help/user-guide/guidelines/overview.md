@@ -3,7 +3,7 @@ title: Visão geral de [!DNL Brands], [!DNL Products] e [!DNL Personas]
 description: Adicione [!DNL Brands], [!DNL Products], and [!DNL Personas] o GenStudio para Marketing de Desempenho para criar um perfil de marca abrangente que inclua todos os aspectos da representação de uma marca.
 feature: Guidelines, Brands Service, Personas Service, Products Service
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -44,4 +44,4 @@ Em colaboração com a funcionalidade de IA gerativa do Adobe, o [!DNL Brands], 
 
 O GenStudio for Performance Marketing realiza a validação da marca em vários aspectos da marca e fornece uma lista de verificação para conteúdo gerado para destacar áreas de aprimoramento, a fim de alinhar-se melhor com a identidade da sua marca.
 
-Consulte [Validação da Marca](/help/user-guide/guidelines/brand-validation.md).
+Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).

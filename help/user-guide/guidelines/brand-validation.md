@@ -3,9 +3,9 @@ title: Validação da marca em Adobe GenStudio para Marketing de desempenho
 description: Saiba como o sistema integrado de validação de marca funciona no GenStudio para Marketing de desempenho.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ O GenStudio para marketing de desempenho valida a marca em vários aspectos, inc
 * Copiar diretrizes para plataformas de canal diferentes
 * Considerações éticas relacionadas a gênero, etnia, raça, status de deficiência e idade no conteúdo gerado por IA
 
-## Verificação das diretrizes da marca
+## Verificação de diretrizes de [!DNL Brand]
 
-Um resumo das informações de validação de marca para cada variante de conteúdo gerada pode ser acessado por meio do ícone _Verificação das diretrizes de marca_ ao lado de cada variante na Tela.
+Um resumo das informações de validação de marca para cada variante de conteúdo gerada pode ser acessado por meio do ícone _[!DNL Brand]de verificação de diretrizes_ ao lado de cada variante na Tela.
 
-A _Verificação das diretrizes da marca_ exibe a porcentagem de conformidade com sua [marca](brands.md). A porcentagem é calculada como o número de [diretrizes](overview.md) aprovadas na validação em comparação ao número de diretrizes testadas.
+A _[!DNL Brand]verificação de diretrizes_ exibe a porcentagem de conformidade com sua [marca](brands.md). A porcentagem é calculada como o número de [diretrizes](overview.md) aprovadas na validação em comparação ao número de diretrizes testadas.
+
+![[!DNL Brand] verificação das diretrizes](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
 
 Clique no ícone para ver quantas diretrizes são compatíveis com sua marca e quantas precisam ser revisadas.
 
@@ -33,6 +35,8 @@ Consulte [Melhorar o alinhamento da marca](#improve-brand-alignment).
 ## Painel de validação da marca
 
 O painel _Validação da marca_ é aberto no lado direito da Tela ao clicar na barra de menu superior _ou_ no ícone _Verificação das diretrizes da marca_ para uma variante. Esse painel fornece informações detalhadas sobre a validação da marca e esclarece oportunidades de aprimoramento para cada seção de variante.
+
+![[!DNL Brand] painel de validação](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
 
 O painel _Validação da marca_ exibe informações sobre:
 

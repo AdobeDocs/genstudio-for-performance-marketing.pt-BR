@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
+   ![Escolher persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Adicione conteúdo para usar na experiência *e* para influenciar a geração de conteúdo:
    * Clique em **[!UICONTROL Selecionar do Conteúdo]** para selecionar ativos (imagens) do repositório [!DNL Content], filtrar e selecionar uma ou mais imagens.
+
+     ![Escolher conteúdo visual](/help/assets/content-select-email.png){width="500" zoomable="yes"}
 
      Para usar ativos de um repositório [!DNL AEM Assets Content Hub] conectado, escolha um repositório no menu suspenso _Local_. Filtre e selecione uma ou mais imagens.
 
@@ -51,8 +55,8 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 1. Clique em **[!UICONTROL Usar]**.
 
 >[!NOTE]
->
 >Se o seu modelo de email tiver várias seções, selecione [!DNL Products] e conteúdo (ativos visuais) para cada seção de email em _Emails de várias seções_. Emails de várias seções suportam um ativo visual por seção. Você só pode adicionar ativos visuais a emails de várias seções do [!DNL Content]; não é possível arrastar e soltar ou carregar ativos da sua origem local.
+>![Adicionar conteúdo e parâmetros para cada seção de email](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 Quando terminar de adicionar parâmetros, você poderá recolher a gaveta do prompt clicando novamente no ícone _Parâmetros_.
 
@@ -98,9 +102,15 @@ Para otimizar os emails gerados e garantir a adesão estrita à identidade da ma
 **Para verificar o alinhamento da marca**:
 
 1. Clique no ícone de verificação]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) das diretrizes de [**[!UICONTROL [!DNL Brand] para uma variante e veja um resumo de como essa variante é executada quando marcada em relação à sua marca.
+
+   ![Verificação das diretrizes da marca](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+
 1. Para obter os detalhes das seções e diretrizes que precisam ser aprimoradas, clique em **[!UICONTROL Revisão]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Alternar em cada email para ver como você pode melhorar o conteúdo gerado para estar mais alinhado à marca.
+
+   ![Painel de validação de marca](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
+
 1. [Revise emails manualmente](#revise-generated-emails) para garantir que seus emails estejam alinhados à sua marca.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).

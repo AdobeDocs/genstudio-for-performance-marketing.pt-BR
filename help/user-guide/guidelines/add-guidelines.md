@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,10 @@ Você pode adicionar detalhes da marca manualmente, em vez de carregar documento
    É possível preencher várias diretrizes e imagens opcionais para criar sua marca.
 
 1. Adicione informações sobre sua marca na seção _Sobre_.
-1. Insira as [_diretrizes de voz da marca_](brands.md#brand-voice-guidelines).
+1. Insira as [_[!DNL Brand] diretrizes de voz _](brands.md#brand-voice-guidelines).
+
+   ![Adicionar [!DNL Brand] diretrizes de voz ](/help/assets/brand-voice-add.png){width="650" zoomable="yes"}
+
 1. Insira as [_Diretrizes do canal_](brands.md#channel-guidelines) para cada canal aplicável.
 1. Insira as [_diretrizes de imagem_](brands.md#image-guidelines). Expanda cada categoria na seção Diretrizes de imagem para ver todas as diretrizes.
 
@@ -101,7 +104,9 @@ Para adicionar um produto, [carregue um guia de produto](#upload-a-product) ou [
 
 Na área de navegação esquerda, clique em **[!DNL Products]**. No painel _[!DNL Products]_, selecione **Adicionar produto**.
 
-Você pode adicionar [!DNL Products] no GenStudio para Marketing de Desempenho para especificar áreas de foco de produto individuais ao criar conteúdo. <!-- Add Rename, display, reposition functionality -->
+![Adicionar um [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
+
+Você pode adicionar [!DNL Products] no GenStudio para Marketing de Desempenho para especificar áreas de foco de produto individuais ao criar conteúdo.
 
 Consulte [[!DNL Products]](products.md).
 
@@ -212,7 +217,10 @@ Você pode adicionar detalhes de persona manualmente, em vez de carregar documen
 
    É possível preencher várias diretrizes e imagens opcionais para criar sua persona.
 
-1. Adicione informações sobre sua marca na seção _Descrição_.
+1. Adicione informações sobre [!DNL Persona] na seção _Descrição_.
+
+   ![Adicionar um [!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"}
+
 1. Clique em **[!UICONTROL Novo nome de persona]** e insira um nome para [!DNL Persona].
 1. Clique em _Descrição_ e insira uma descrição desta [!DNL Persona].
 1. Clique em _Preferências de mensagens_ e insira os detalhes de mensagens de [!DNL Persona].

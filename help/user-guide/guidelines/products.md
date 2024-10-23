@@ -3,9 +3,9 @@ title: GenStudio para marketing de desempenho [!DNL Products]
 description: O GenStudio para Marketing de Desempenho [!DNL Products] incorpora todos os aspectos do seu produto—imagens, descrições e propostas de valor—para criar conteúdo relevante que destaque os pontos fortes do produto e mantenha a consistência nas mensagens do produto.
 feature: Products Service, Guidelines
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 O [!DNL Products] no GenStudio para Marketing de Desempenho aproveita uma compreensão profunda das especificações do produto, vantagens e fatores diferenciadores para gerar conteúdo impactante.
 
 [!DNL Products] abrange todos os elementos de um produto específico, como imagens, descrições e propostas de valor, para criar uma representação de marca coesa. Utilizando a tecnologia avançada de IA do Adobe, as diretrizes de Marketing do GenStudio para desempenho (for Performance Marketing Guidelines)[[!DNL Brands], [!DNL Products] e [!DNL Personas]](/help/user-guide/guidelines/overview.md) trabalham juntas para gerar um conteúdo atraente que mostre os pontos fortes dos seus produtos e garanta a consistência em todas as mensagens.
-
-![[!DNL Products] diretrizes no GenStudio para Marketing de Desempenho](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
 
 **Para exibir ou modificar um produto**:
 
@@ -29,6 +27,8 @@ Consulte [Adicionar diretrizes](add-guidelines.md) para saber como adicionar ou 
 ## [!DNL Products] diretrizes
 
 As diretrizes de produtos individuais oferecem à GenStudio for Performance Marketing uma visão clara de seus produtos.
+
+![Diretrizes do produto](/help/assets/products.png){width="600" zoomable="yes"}
 
 Essas diretrizes detalham cada categoria de diretrizes e exemplos relacionados. Os exemplos são entradas de amostra que moldam a saída do conteúdo gerado. Use-as para informar suas diretrizes do [!DNL Products].
 
