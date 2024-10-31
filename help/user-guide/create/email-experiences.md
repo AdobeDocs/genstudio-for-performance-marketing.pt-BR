@@ -4,9 +4,9 @@ description: Saiba mais sobre experiências de email no Adobe GenStudio for Perf
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,9 @@ Cada campo e seção de experiências de email são carregados progressivamente 
 1. Manchetes, corpo do email (para emails de seção única) e planos de ação
 1. Corpo do email para seções subsequentes (para emails de várias seções)
 1. O processo de validação da marca ocorre e a [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) é preenchida para cada variante.
+
+## Contagens de caracteres
+
+Depois de gerar um conjunto de variantes de email, você pode ver a contagem de caracteres exibida para cada seção de email. Passe o mouse sobre ou clique em uma seção gerada, como a linha de assunto ou o corpo, e veja o nome da seção e a contagem de caracteres para essa seção.
+
+![Contagem de caracteres](/help/assets/character-count.png){width="500" zoomable="yes"}
