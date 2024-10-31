@@ -2,10 +2,10 @@
 title: Notas de versão do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: c3e6e5f4213074b4093591ac06e8341c9d46c212
+source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 1%
+source-wordcount: '369'
+ht-degree: 5%
 
 ---
 
@@ -13,7 +13,25 @@ ht-degree: 1%
 
 Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
 
-## Versão 2024.10.14 de Disponibilidade geral {#latest}
+## 2024.10.31  {#latest}
+
+### Novos recursos
+
+* O filtro de pesquisa **[!DNL Content]** agora oferece suporte para pesquisa por marca de cor.  <!-- GS-5501 -->
+
+* A tela **[!DNL Create]** agora exibe contagens de caracteres para fragmentos de email. <!-- GS-5819 -->
+
+### Correções
+
+* Rótulos de leitores de tela ausentes foram adicionados aos elementos `view` para dispositivos móveis e da área de trabalho. <!-- GS-5624 4729 -->
+
+* A linha de assunto do email da Tela **[!DNL Create]** e as áreas de texto pré-cabeçalho agora têm uma altura dinâmica. <!-- GS-6258 -->
+
+* Problemas de layout com bordas de email foram resolvidos. <!-- GS-6631 -->
+
+* O foco do teclado agora funciona conforme esperado no botão **[!DNL Content]** **[!UICONTROL Excluir]**. Anteriormente, esse botão não podia ser acessado ou operado pelo teclado.  <!-- GS-4065 -->
+
+## Versão 2024.10.14 de Disponibilidade geral
 
 Esta versão apresenta o Adobe GenStudio for Performance Marketing, um aplicativo generativo baseado em IA que acelera o planejamento, o desenvolvimento e a análise de campanhas de marketing. O GenStudio for Performance Marketing capacita as equipes de marketing a criar conteúdo multicanal na marca para anúncios, emails e campanhas enquanto fornece insights em tempo real para otimizar o desempenho do conteúdo.
 
