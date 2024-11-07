@@ -2,10 +2,10 @@
 title: Notas de versão do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
+source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 3%
 
 ---
 
@@ -13,11 +13,55 @@ ht-degree: 5%
 
 Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
 
-## 2024.10.31  {#latest}
+## 2024.11.07 {#latest}
+
+### Correções
+
+* O ponteiro _Salvar em andamento_ não é mais exibido quando um usuário clica em **[!UICONTROL Carregar nova imagem]** e cancela a operação antes de concluir o carregamento. <!-- GS-6780 -->
+
+* Agora os títulos de experiência são criados corretamente durante a regeneração da experiência. <!-- GS-7006 -->
+
+* Problemas com barras de rolagem oscilantes durante o carregamento de rascunho foram resolvidos. <!-- GS-5587 -->
+
+* O link `View documentation` no pop-up [!DNL Content] _Adicionar seu modelo aprovado_ agora funciona conforme esperado. <!-- GS-6881 -->
+
+* Excluir uma imagem da gaveta do prompt durante uma operação de redimensionamento não resulta mais em erro. <!-- GS-7115 7009 -->
+
+* Selecionar **[!UICONTROL Excluir]** no menu de ações [!DNL Create] (...) agora funciona conforme esperado. <!-- GS-6871 -->
+
+* Os usuários agora podem controlar todos os elementos interativos do modelo de Metadados apenas pelo teclado. <!-- GS-4066 -->
+
+* Adição da extração de dimensões de imagem de campos de imagem de modelo para exibir modelos de anúncio. As solicitações de corte inteligente agora são enviadas para a dimensão real da imagem e não para o modelo inteiro. <!-- GS-6926 -->
+
+* A cadeia de caracteres `Zoom to fit to screen` foi localizada no email gerado e em Meta ads. <!-- GS-5063 -->
+
+* A gaveta do prompt [!DNL Create] agora fecha conforme esperado quando um usuário clica. <!-- GS-5254 -->
+
+* A exportação de metadados agora inclui o rótulo de chamada para ação selecionado, conforme esperado. <!-- GS-6504 -->
+
+* A pontuação da marca agora é atualizada e mantida conforme esperado para experiências regeneradas. <!-- GS-6535 -->
+
+* A exportação de HTML de Metadados e anúncios de exibição não inclui mais elementos de wrapper `div` e `chrome`. <!-- GS-7116 -->
+
+* Problemas com a renderização de rascunho de email durante a publicação agora são resolvidos. <!-- GS-6394 -->
+
+* O botão **[!UICONTROL Marca]** da Tela de Pintura agora está desabilitado quando uma pontuação de marca não é gerada. <!-- GS-6429 -->
+
+* O botão Facebook/Instagram na barra de ação da Tela de Pintura agora atualiza as renderizações da experiência conforme esperado quando a configuração da Tela de Pintura `ReadOnly` está habilitada. <!-- GS-7039 -->
+
+#### Regeneração de imagem
+
+* O redimensionamento de várias variantes de metadados agora funciona conforme esperado. Anteriormente, o Canvas não exibia variantes regeneradas, mas permanecia em branco. <!-- GS-7010 -->
+
+* A regeneração de fragmentos agora funciona conforme esperado em experiências redimensionadas. <!-- GS-6836 -->
+
+* Gerar novamente as imagens do Metadado após redimensioná-las não resulta mais em um erro. Anteriormente, o redimensionamento de imagens antes da regeneração alterava os metadados do canal de `meta` para `facebook`. <!-- GS-7042 -->
+
+## 2024.10.31
 
 ### Novos recursos
 
-* O filtro de pesquisa **[!DNL Content]** agora oferece suporte para pesquisa por marca de cor.  <!-- GS-5501 -->
+* O filtro de pesquisa **[!DNL Content]** agora oferece suporte para pesquisa por marca de cor. <!-- GS-5501 -->
 
 * A tela **[!DNL Create]** agora exibe contagens de caracteres para fragmentos de email. <!-- GS-5819 -->
 
