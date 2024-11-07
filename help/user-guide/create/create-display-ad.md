@@ -5,7 +5,7 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: 5cd6abba1f56c9a2875c7e7dc5b94a353fc5e78e
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
-   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
+   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Para adicionar conteúdo a ser usado na experiência *e* para influenciar a geração de conteúdo:
    * Clique em **[!UICONTROL Selecionar do Conteúdo]** para selecionar ativos (imagens) do repositório [!DNL Content], filtrar e selecionar uma ou mais imagens.
@@ -65,7 +65,7 @@ Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para s
 1. Digite um prompt na caixa de prompt _&quot;Descrever as experiências que você deseja gerar&quot;_.
 1. Clique em **[!UICONTROL Gerar]**.
 
-Por padrão, uma variação, alimentada pelo prompt, pelas diretrizes e pelo conteúdo adicionado, é gerada e mostrada na Tela.
+Por padrão, quatro variações, alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado, são geradas e exibidas na Tela de desenho.
 
 ## Revisar anúncios de exibição gerados
 

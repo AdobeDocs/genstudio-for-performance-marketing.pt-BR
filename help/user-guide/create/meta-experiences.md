@@ -4,9 +4,9 @@ description: Saiba tudo sobre Meta experiências no Adobe GenStudio for Performa
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Com o Adobe GenStudio for Performance Marketing, você pode usar a IA gerativa para simplificar a [criação de Meta experiências](/help/user-guide/create/create-meta-ad.md) de alto impacto.
 
 O [!DNL Create] permite que os criadores de conteúdo usem [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt bem montado](/help/user-guide/effective-prompts.md) para [criar experiências de metadados](/help/user-guide/create/create-meta-ad.md) rapidamente.
+
+Ao gerar Meta experiências, quatro variações são criadas e mostradas na Tela.
 
 As seções editáveis de uma experiência de email incluem:
 
