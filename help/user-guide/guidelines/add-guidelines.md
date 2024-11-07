@@ -1,24 +1,24 @@
 ---
-title: Adicionar diretrizes ao Adobe GenStudio para Marketing de desempenho
-description: Saiba como adicionar diretrizes—[!DNL Brands], [!DNL Products] e [!DNL Personas]—no Adobe GenStudio para Marketing de Desempenho.
+title: Adicionar diretrizes ao Adobe GenStudio for Performance Marketing
+description: Saiba como adicionar diretrizes—[!DNL Brands], [!DNL Products] e [!DNL Personas]—no Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # Adicionar diretrizes
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md) são diretrizes definidas pelo usuário no GenStudio para Marketing de Desempenho, que garantem que qualquer conteúdo gerado por IA seja personalizado para alinhar-se à identidade da marca, permitindo a personalização eficiente do conteúdo.
+[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md) são diretrizes definidas pelo usuário no GenStudio for Performance Marketing que garantem que qualquer conteúdo gerado pela IA seja personalizado para se alinhar com a identidade da marca, permitindo a personalização eficiente do conteúdo.
 
 Consulte a [visão geral das diretrizes](/help/user-guide/guidelines/overview.md).
 
-Adicionar diretrizes ao GenStudio para Marketing de desempenho é uma etapa importante no processo de criação. As diretrizes informam o processo de criação de conteúdo, juntamente com prompts definidos pelo usuário e tecnologia de IA gerativa Adobe, para criar ativos impactantes.
+Adicionar diretrizes ao GenStudio for Performance Marketing é uma etapa importante no processo de criação. As diretrizes informam o processo de criação de conteúdo, juntamente com prompts definidos pelo usuário e tecnologia de IA gerativa Adobe, para criar ativos impactantes.
 
 ## Adicionar [!DNL Brands]
 
@@ -44,7 +44,7 @@ Consulte [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 1. Selecione **[!UICONTROL Adicionar marca]**.
 
-Usando a tecnologia de IA gerativa Adobe, o GenStudio for Performance Marketing extrai informações de seus documentos carregados e começa a criar sua marca. As informações da marca, como voz da marca, canal e diretrizes de imagem, são preenchidas à medida que cada diretriz dos documentos da marca é montada.
+Usando a tecnologia de IA gerativa Adobe, a GenStudio for Performance Marketing extrai informações de seus documentos carregados e começa a criar sua marca. As informações da marca, como voz da marca, canal e diretrizes de imagem, são preenchidas à medida que cada diretriz dos documentos da marca é montada.
 
 Um pop-up o lembrará de revisar o conteúdo extraído antes de [publicar a marca](#publish-brand).
 
@@ -72,31 +72,46 @@ Você pode adicionar detalhes da marca manualmente, em vez de carregar documento
 
 Para ver o [!DNL Brands] criado, clique na seta para trás próximo à parte superior do painel _Marca_ para navegar de volta à página inicial do _[!DNL Brands]_.
 
-Não é necessário [publicar](#publish-brand) sua marca para tornar as informações acessíveis. Qualquer informação adicionada manualmente fica disponível imediatamente após ser adicionada. Para que outras pessoas na sua organização usem as informações da marca no GenStudio para Marketing de desempenho, você deve publicá-las.
+Não é necessário [publicar](#publish-brand) sua marca para tornar as informações acessíveis. Qualquer informação adicionada manualmente fica disponível imediatamente após ser adicionada. Para que outras pessoas na sua organização usem as informações da marca no GenStudio for Performance Marketing, você deve publicá-las.
 
 ### marca Publish
 
 Antes de publicar sua marca, clique nas seções _Diretrizes de voz da marca_, _Diretrizes de canal_, _Diretrizes de imagem_ e _Logotipos_ para examinar todas as informações preenchidas. Faça as alterações necessárias nas diretrizes da marca.
 
-**Para publicar a marca**:
+**Para publicar um rascunho das diretrizes da marca**:
 
+1. Na área de navegação esquerda, clique em **[!UICONTROL [!DNL Brands]]**.
+
+   A medalha _Publicada_ está visível para todas as marcas publicadas no momento.
+
+1. Clique em para abrir uma marca não publicada. Se a marca não for publicada, o botão **[!UICONTROL Publish]** ficará visível.
+1. No pop-up da _marca Publish_, verifique quem tem acesso para visualizar e usar a marca publicada.
 1. Selecione **[!UICONTROL Publicar]**.
+1. Na janela pop-up _marca Publish_ exibida, selecione **[!UICONTROL Publish]**.
 
-   No pop-up da _marca Publish_, verifique quem tem acesso (para visualizar e usar) à marca publicada.
+   O pop-up confirma que a marca foi publicada—&quot;A nova marca está pronta&quot;.
 
-1. Clique em **[!UICONTROL Publicar]**.
+1. Clique em **[!UICONTROL Concluído]** para sair do pop-up.
 
-Quando a marca for publicada, um banner será exibido confirmando que sua marca está pronta para uso: &quot;*Marca publicada e disponível para uso*&quot;.
+A marca mostra um ponto verde e &quot;Publicado&quot;, e o botão **[!UICONTROL Publish]** é exibido.
+
+**Para desfazer a publicação de uma marca publicada**, clique para abri-la e clique em **[!UICONTROL Publish]**.
 
 A marca publicada agora está disponível para uso em _[!DNL Create]_ou_[!DNL Content]_.
 
 ### Gerenciar [!DNL Brands]
 
-Na página inicial de _[!DNL Brands]_, você pode clicar em **abrir uma marca já criada**para editá-la ou revisá-la, em **renomear**ou em **excluir uma marca**da lista do menu de ações [!DNL Brands]:
+Na página inicial do _[!DNL Brands]_, você pode clicar em para abrir uma marca já criada para gerenciá-la ou publicá-la.
 
-* Clique em um bloco de marca para abrir uma marca.
-* Selecione **[!UICONTROL Renomear]** no menu de ações [!DNL Brands] para renomear um perfil existente.
-* Selecione **[!UICONTROL Excluir]** no menu de ações [!DNL Brands] para excluir uma marca.
+**Para exibir ou modificar uma marca**:
+
+1. Na área de navegação esquerda, clique em **[!UICONTROL [!DNL Brands]]**.
+1. Para ver as informações de visão geral de uma marca, clique em para abrir uma marca definida.
+1. Para exibir detalhes individuais ou modificar as diretrizes da marca, clique em [**[!UICONTROL Diretrizes de voz da marca]**](#brand-voice-guidelines), [**[!UICONTROL Diretrizes do canal]**](#channel-guidelines), **[!UICONTROL Diretrizes da imagem]** ou **[!UICONTROL Logotipos]** na parte superior.
+1. Para renomear uma marca existente, selecione **[!UICONTROL Renomear]** no menu de ações [!DNL Brands].
+1. Para excluir uma marca, selecione **[!UICONTROL Excluir]** no menu de ações [!DNL Brands].
+
+Você pode fazer upload de documentos de diretrizes da marca (até três arquivos PDF ou DOC) para a GenStudio for Performance Marketing para criar uma marca automaticamente.
 
 ## Adicionar [!DNL Products]
 
@@ -106,7 +121,7 @@ Na área de navegação esquerda, clique em **[!DNL Products]**. No painel _[!DN
 
 ![Adicionar um [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
 
-Você pode adicionar [!DNL Products] no GenStudio para Marketing de Desempenho para especificar áreas de foco de produto individuais ao criar conteúdo.
+Você pode adicionar [!DNL Products] no GenStudio for Performance Marketing para especificar áreas de foco de produto individuais ao criar conteúdo.
 
 Consulte [[!DNL Products]](products.md).
 
@@ -176,7 +191,7 @@ Para adicionar uma persona, [carregue um guia personalizado](#upload-a-persona) 
 
 Na área de navegação esquerda, clique em **[!DNL Personas]**. No painel _[!DNL Personas]_, selecione **Adicionar persona**.
 
-Você pode adicionar um [!DNL Persona] no GenStudio for Performance Marketing para ajudar a direcionar o conteúdo que você cria para seu público-alvo ideal.
+Você pode adicionar um [!DNL Persona] no GenStudio for Performance Marketing para ajudar a direcionar o conteúdo que você cria para o seu público-alvo ideal.
 
 Consulte [[!DNL Personas]](personas.md).
 

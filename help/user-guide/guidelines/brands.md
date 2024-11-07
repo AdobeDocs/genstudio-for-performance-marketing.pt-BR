@@ -1,32 +1,36 @@
 ---
-title: GenStudio para marketing de desempenho [!DNL Brands]
-description: O GenStudio para marketing de desempenho [!DNL Brands] é uma coleção abrangente de ativos da marca—cópia de marketing, imagens, experiências e muito mais—para informar a criação de conteúdo alinhado à marca.
+title: GenStudio for Performance Marketing [!DNL Brands]
+description: O GenStudio for Performance Marketing [!DNL Brands] é uma coleção abrangente de ativos da marca—cópia de marketing, imagens, experiências e muito mais—para informar a criação de conteúdo alinhado à marca.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
-# GenStudio para marketing de desempenho [!DNL Brands]
+# GenStudio for Performance Marketing [!DNL Brands]
 
 Uma marca distingue uma organização, produto, serviço ou conceito de outras. Alguns aspectos de uma marca são objetivos, como um logotipo, enquanto outros são subjetivos, como o tom de voz.
 
-O GenStudio para Marketing de Desempenho usa a riqueza de informações de marca da sua marca, faz uma parceria com elas com informações de [!DNL Product] e [!DNL Persona] e cria uma identidade de marca abrangente. Essa identidade de marca é usada para informar a criação de conteúdo na marca usando a tecnologia de IA gerativa de Adobe.
+A GenStudio for Performance Marketing usa as informações da sua marca, faz parceria com elas com as informações do [!DNL Product] e do [!DNL Persona] e cria uma identidade de marca abrangente. Essa identidade de marca é usada para informar a criação de conteúdo na marca usando a tecnologia de IA gerativa de Adobe.
 
-**Para exibir ou modificar uma marca**:
+## Gerenciar [!DNL Brands]
 
-1. Na área de navegação esquerda, clique em **[!UICONTROL [!DNL Brands]]**.
-1. Para ver as informações de visão geral de uma marca, clique em para abrir uma marca definida.
-1. Para exibir detalhes individuais ou modificar uma marca, clique em [**[!UICONTROL Diretrizes de voz da marca]**](#brand-voice-guidelines), [**[!UICONTROL Diretrizes do canal]**](#channel-guidelines), **[!UICONTROL Diretrizes da imagem]** ou **[!UICONTROL Logotipos]** na parte superior.
+Depois de adicionar as diretrizes da marca à GenStudio for Performance Marketing, você pode [gerenciar](/help/user-guide/guidelines/add-guidelines.md#manage-brands) e [publicar](/help/user-guide/guidelines/add-guidelines.md#publish-brand). A publicação os disponibiliza para que sua equipe use na geração de ativos.
 
-Você pode fazer upload de documentos de diretrizes da marca (até três arquivos PDF ou DOC) para a GenStudio para que o Marketing de desempenho crie uma marca automaticamente. Consulte [Adicionar diretrizes](add-guidelines.md) para saber como adicionar uma marca ao GenStudio para Marketing de Desempenho, modificá-la, publicá-la e muito mais.
+[!DNL Brands] pode estar no estado _Rascunho_ ou _Publicado_. Novo [!DNL brands] começa como _Rascunho_.
+
+Você deve publicar um [!DNL brand] para torná-lo disponível para a geração de ativos pela sua equipe.
+
+Publicado [!DNL brands] pode ser editado, e as alterações estão imediatamente disponíveis. Somente [!DNL brands] publicado pode ser usado para criar e validar conteúdo.
+
+Os [!DNL brands] excluídos são arquivados por 30 dias e podem ser recuperados dentro desse período.
 
 ## [!DNL Brands] diretrizes
 
-As diretrizes fornecem ao GenStudio para Marketing de desempenho uma imagem clara da sua abordagem específica da marca, tom, sensação visual e muito mais.
+As diretrizes fornecem à GenStudio for Performance Marketing uma imagem clara da abordagem específica da sua marca, do tom, da sensação visual e muito mais.
 
 ![Diretrizes da marca](/help/assets/brands.png){width="600" zoomable="yes"}
 
@@ -84,6 +88,6 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 ## Validação da marca
 
-No GenStudio para Marketing de Desempenho, a validação da marca desempenha uma função crucial, em conjunto com a funcionalidade de IA gerativa do [!DNL Brands], [!DNL Products] e [!DNL Personas]. Ele garante que todo o conteúdo permaneça consistente com a identidade da marca.
+No GenStudio for Performance Marketing, a validação da marca desempenha uma função crucial, em conjunto com a funcionalidade de IA gerativa do [!DNL Brands], [!DNL Products] e [!DNL Personas]. Ele garante que todo o conteúdo permaneça consistente com a identidade da marca.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
