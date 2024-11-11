@@ -2,9 +2,10 @@
 title: Visão geral do Assets
 description: Saiba como avaliar o desempenho do ativo no Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
-source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
+exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
+source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -34,11 +35,9 @@ Na visualização de detalhes do ativo, é possível ver quais experiências usa
 
 ![Detalhes do ativo](/help/assets/insights-asset-details.png){zoomable="yes"}
 
-## Métricas de ativos
+## Desempenho do ativo
 
 As métricas de Insights podem ajudar a avaliar quais ativos contribuem para o sucesso de uma campanha e quais atributos de ativos são mais eficazes.
-
-### Detalhes das métricas
 
 A tabela a seguir fornece definições e insights para as métricas principais de marketing digital na exibição de tabela [!UICONTROL Assets]. Cada métrica inclui uma breve definição, pois se relaciona a um ativo, como a métrica é calculada, e um ou mais insights para ajudar a entender sua importância e impacto em um ativo.
 
@@ -48,9 +47,9 @@ A tabela a seguir fornece definições e insights para as métricas principais d
 | **[!UICONTROL Impressões]** | Uma contagem de cada vez que o ativo é carregado no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para obter um verdadeiro insight sobre o desempenho, considere com outras métricas de envolvimento. |
 | **[!UICONTROL Cliques]** | Número de vezes que os usuários interagem com um elemento clicável, como um link, no ativo. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
 | **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques em ativos em uma experiência.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
-| **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo ($) para cada mil impressões de anúncios do ativo.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
-| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio ($) gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Ajuda a identificar ativos que resultam em ações valiosas do cliente. |
-| **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio ($) associado a cada clique em um ativo.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
-| **[!UICONTROL Gastar]** | O valor ($) gasto com o orçamento relacionado a ativos individuais em um determinado período de tempo. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor dos gastos em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
+| **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncios do ativo.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
+| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Ajuda a identificar ativos que resultam em ações valiosas do cliente. |
+| **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em um ativo.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
+| **[!UICONTROL Gastar]** | O valor gasto com o orçamento relacionado a ativos individuais em um determinado período de tempo. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor dos gastos em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
 | **[!UICONTROL Contagem de experiências]** | O número de experiências que usam esse ativo. | |
 | **[!UICONTROL Atributos]** | Uma lista de atributos detectados e aplicados a este ativo. | |

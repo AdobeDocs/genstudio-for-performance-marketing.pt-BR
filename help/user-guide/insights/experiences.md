@@ -1,10 +1,11 @@
 ---
 title: Visão geral das experiências
 description: Consulte uma visão geral do envolvimento do cliente, orçamento e despesas para obter experiências e desempenho no posicionamento de anúncios no Adobe GenStudio for Performance Marketing.
-feature: Insights, Experiences
-source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
+feature: Insights, Experiences, Attributes
+exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
+source-git-commit: 693557104bc880445c021f942b728af10243fe27
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -39,15 +40,20 @@ O GenStudio for Performance Marketing é compatível com formatos de anúncios, 
 
 | Instagram | Facebook/Meta | Messenger | Rede de público-alvo |
 | ------------ | ---------------- | ------------ | ---------------- |
-| Explorar<br>Explorar Página Inicial<br>Explorar Página Inicial Do Grid<br>Feed<br>Rolos<br>Feed De Perfil<br>Pesquisa<br>Compras<br>Histórias | Business Explore<br>Feed<br>Vídeo em fluxo<br>Marketplace<br>Reels<br>Sobreposição de Reels<br>Coluna direita<br>Resultados da pesquisa<br>Histórias<br>Feeds de vídeo<br>Anúncios no Facebook Reels | Caixa de entrada<br>Histórias | Nativo, banner e intersticial<br>Vídeo recompensado |
+| Explorar<br>Explorar página inicial<br>Explorar página inicial da grade<br>Feed<br>Bobinas<br>Feed de perfil<br>Pesquisa<br>Compras<br>Histórias | Business Explore<br>Feed<br>Vídeo em fluxo<br>Marketplace<br>Reels<br>Sobreposição de bobinas<br>Coluna direita<br>Resultados da pesquisa<br>Histórias<br>Feeds de vídeo<br>Anúncios em bobinas do Facebook | Caixa de entrada<br>Histórias | Nativo, banner e intersticial<br>Vídeo premiado |
 
-## Métricas de experiência
+#### Posicionamentos não compatíveis
+
+O GenStudio for Performance Marketing não é compatível com os seguintes posicionamentos de anúncios:
+
+- Colaborativo
+- Catálogo/catálogo Advantage+
+- Experiência de instância
+- Carrossel
+
+## Desempenho da experiência
 
 As métricas de Insights podem ajudar a avaliar quais experiências contribuem para o sucesso de uma campanha e quais posicionamentos de anúncios são mais eficazes.
-
-<!-- For example, -->
-
-### Detalhes das métricas
 
 A tabela a seguir fornece definições e insights para as métricas principais de marketing digital na exibição de tabela [!UICONTROL Experiências]. Cada métrica inclui uma breve definição, pois se relaciona a nomes de anúncios, como a métrica é calculada, e um ou mais insights para ajudar a entender sua importância e impacto em uma experiência.
 
@@ -60,7 +66,18 @@ A tabela a seguir fornece definições e insights para as métricas principais d
 | **[!UICONTROL Impressões]** | Uma contagem de cada vez que o posicionamento do anúncio ou a experiência são carregados no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para obter um verdadeiro insight sobre o desempenho, considere com outras métricas de envolvimento. |
 | **[!UICONTROL Cliques]** | Número de vezes que os usuários interagem com um elemento clicável, como um link ou um botão de chamada para ação, em um posicionamento de experiência. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
 | **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques no posicionamento da experiência em uma campanha.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
-| **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo ($) para cada mil impressões de anúncios para a disposição da experiência.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
-| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio ($) gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Use para monitorar os gastos em experiências que resultam em ações valiosas do cliente. |
-| **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio ($) associado a cada clique em um posicionamento de experiência.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
-| **[!UICONTROL Gastar]** | O valor ($) gasto no orçamento durante um determinado período. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor dos gastos em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
+| **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncio para o posicionamento da experiência.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
+| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Use para monitorar os gastos em experiências que resultam em ações valiosas do cliente. |
+| **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em um posicionamento de experiência.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
+| **[!UICONTROL Gastar]** | O valor gasto do orçamento durante um determinado período. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor dos gastos em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
+
+## Desempenho de posicionamento
+
+Na exibição _Detalhes da experiência_, as três métricas principais refletem o desempenho geral da experiência selecionada. No entanto, a seção _Desempenho por posicionamento_ mostra as métricas detalhadas para cada posicionamento de anúncio. A tabela a seguir fornece definições para métricas de desempenho de posicionamento:
+
+| Métrica | Definição | Cálculo |
+| ---------------------- | ----------------------------- | ----------- |
+| **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques no posicionamento de anúncio da experiência. | `clicks` dividido por `impressions` |
+| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio gasto neste posicionamento de anúncio para realizar uma ação específica do cliente, como uma compra ou assinatura. | valor total `spent` dividido pelo número de ações de clientes concluídas |
+| **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em um posicionamento de experiência. | valor total `spent` dividido por `clicks` |
+| **[!UICONTROL Gastar]** | O valor gasto do orçamento durante um determinado período. | |
