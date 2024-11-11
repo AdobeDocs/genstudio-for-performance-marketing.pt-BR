@@ -3,10 +3,11 @@ title: Funções e permissões de usuário do Adobe GenStudio for Performance Ma
 description: Saiba mais sobre as funções e permissões de usuário do GenStudio for Performance Marketing.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 3e9a2a4f42ba79389691705c571bf6bbd0b990c5
+exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
+source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 2%
+source-wordcount: '1090'
+ht-degree: 1%
 
 ---
 
@@ -18,23 +19,33 @@ A criação e a implantação de campanhas de marketing modernas exigem a colabo
 >
 >Antes que qualquer usuário seja provisionado nessas funções, um administrador de sistema do Adobe deve ser designado no Adobe Admin Console para executar tarefas de configuração únicas. Essa função de administrador de Adobe opera somente no contexto do Adobe Admin Console. Ele não tem nenhuma função na interface da plataforma do GenStudio for Performance Marketing. Um administrador de sistema Adobe que precise de direitos de gerente de sistema deve provisionar-se como um gerente de sistema GenStudio no Adobe Admin Console. Consulte [Provisionar GenStudio for Performance Marketing](product-provisioning.md).
 
+## administrador de sistema Adobe vs gerenciador de sistema GenStudio
+
+Esses títulos de função de usuário podem parecer semelhantes, mas identificam funções exclusivas que fornecem direitos em ambientes diferentes.
+
+**administradores do sistema Adobe** têm privilégios de usuário avançado no Adobe Admin Console e executam todas as tarefas de gerenciamento de usuários, como adicionar ou excluir usuários. Essa função de administrador do sistema não fornece privilégios no aplicativo GenStudio for Performance Marketing, o que explica por que os administradores de sistema do Adobe não exigem uma licença para o GenStudio. Os administradores de sistema do Adobe normalmente usam o Admin Console para adicionar e excluir contas de usuário de implantações do GenStudio e atribuir ou remover direitos ou permissões de usuários individuais ou grupos de usuários.
+
+Os **gerentes de sistema do GenStudio** são usuários avançados do GenStudio for Performance Marketing, mas não têm permissão para executar tarefas no Adobe Admin Console. Esta função de gerente de sistema requer uma licença de produto do Genstudio e corresponde a um Usuário Avançado na [Descrição do Produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Os gerentes de sistema da GenStudio têm direito total aos recursos do GenStudio for Performance Marketing, incluindo criação, exclusão, atualização e publicação do [!DNL Brands], [!DNL Persona] e [!DNL Product]. A [Descrição de Produto do Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica como as funções de usuário do GenStudio estão relacionadas às licenças de produto.
+
+Consulte [Funções administrativas](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) no _Guia de administração de empresas e equipes_.
+
 ## Direitos
 
-_Os direitos_ concedem permissão para executar tarefas específicas e acessar recursos protegidos. Os direitos são definidos na função de usuário no perfil do produto e os usuários recebem esses direitos quando atribuídos a essa função.
+_Os direitos_ concedem permissão para executar tarefas específicas e acessar recursos protegidos. Os direitos, ou permissões, são definidos na função de usuário no perfil do produto e os usuários recebem esses direitos quando atribuídos a essa função.
 
 ## Funções do usuário
 
-Três tipos de funções de usuário do GenStudio for Performance Marketing oferecem suporte a essa diversidade de funções organizacionais. As permissões são personalizadas para cada um desses tipos de usuários e oferecem suporte às responsabilidades de cada usuário na organização de marketing. Esses três tipos de função de usuário são:
+Três tipos de funções de usuário do GenStudio for Performance Marketing oferecem suporte a essa diversidade de funções organizacionais. Os direitos são personalizados para cada um desses tipos de usuários e oferecem suporte às responsabilidades de cada usuário na organização de marketing. Esses três tipos de função de usuário são:
 
-* **Os editores do GenStudio** usam os recursos de IA gerativa da GenStudio for Performance Marketing para criar ativos de campanha de marketing, solicitar revisão e aprovação de conteúdo e publicar rascunhos aprovados desse conteúdo. Todos os usuários do GenStudio for Performance Marketing podem acessar e usar um ativo depois que seu editor o salvar em [!DNL Content].
+* **Os editores do GenStudio** usam os recursos de IA gerativa da GenStudio for Performance Marketing para criar ativos de campanha de marketing, solicitar revisão e aprovação de conteúdo e publicar rascunhos aprovados desse conteúdo. Todos os usuários do GenStudio for Performance Marketing podem acessar e usar um ativo depois que seu editor o salvar em [!DNL Content]. Os editores do GenStudio são usuários avançados no GenStudio for Performance Marketing.
 
-* **Os colaboradores do GenStudio** são o maior número de usuários do GenStudio for Performance Marketing. Os colaboradores podem visualizar e aprovar o conteúdo e são uma parte essencial do fluxo de trabalho, garantindo que o conteúdo gerado corresponda às necessidades e padrões da sua organização.
+* **Os colaboradores do GenStudio** são o maior número de usuários do GenStudio for Performance Marketing. Os colaboradores podem visualizar e aprovar o conteúdo e são uma parte essencial do fluxo de trabalho, garantindo que o conteúdo gerado corresponda às necessidades e padrões da sua organização. Os colaboradores do GenStudio são _usuários colaboradores_ no GenStudio for Performance Marketing.
 
-* **os gerenciadores de sistemas do GenStudio** têm o mais amplo conjunto de permissões da GenStudio for Performance Marketing. Os gerentes de sistema executam a tarefa essencial de integração de estabelecer as medidas de proteção fundamentais para a criação e implantação de ativos de campanha. Os gerentes de sistema implementam essas medidas de proteção fazendo upload das informações específicas da marca e da organização, como as [diretrizes da marca](./guidelines/overview.md). Os gerentes de sistema têm permissão para criar e publicar [!DNL Brands], mas não têm privilégios de administração de usuário.
+* **os gerenciadores de sistemas do GenStudio** têm o mais amplo conjunto de direitos, ou permissões, da GenStudio for Performance Marketing. Os gerentes de sistema executam a tarefa essencial de integração de estabelecer as medidas de proteção fundamentais para a criação e implantação de ativos de campanha. Os gerentes de sistema implementam essas medidas de proteção fazendo upload das informações específicas da marca e da organização, como as [diretrizes da marca](./guidelines/overview.md). Os gerentes de sistema têm permissão para criar e publicar [!DNL Brands], mas não têm privilégios de administração de usuário. Os gerentes de sistema da GenStudio são usuários avançados no GenStudio for Performance Marketing.
 
 ### editores do GenStudio
 
-Os _editores_ ou criadores de conteúdo têm as permissões principais necessárias para criar ativos do GenStudio for Performance Marketing [!DNL Brands], [!DNL Campaigns] e [!DNL Content]. Eles também podem editar e excluir os ativos que criaram. O GenStudio for Performance Marketing oferece suporte à criação rápida de centenas de conteúdo. Esses usuários podem gerar fragmentos de conteúdo ou experiências inteiras que orquestram partes distintas de conteúdo aprovado para atender às necessidades de campanhas de marketing específicas.
+Os _editores_ ou criadores de conteúdo têm as permissões principais necessárias para criar ativos do GenStudio for Performance Marketing [!DNL Brands], [!DNL Campaigns] e [!DNL Content]. Esses usuários avançados também podem editar e excluir os ativos que criaram. O GenStudio for Performance Marketing oferece suporte à criação rápida de centenas de conteúdo. Esses usuários podem gerar fragmentos de conteúdo ou experiências inteiras que orquestram partes distintas de conteúdo aprovado para atender às necessidades de campanhas de marketing específicas.
 
 Os editores interagem com as tecnologias de IA gerativa da GenStudio for Performance Marketing por meio de _prompts_. A gaveta de prompts na Tela fornece ferramentas para colocar prompts no contexto das diretrizes de uma campanha específica. Como resultado, a qualidade e o sucesso do conteúdo gerado dependem parcialmente da qualidade das diretrizes de marca que sua organização carregou e da especificidade do seu prompt. Consulte [Gravar prompts efetivos](effective-prompts.md).
 
@@ -46,10 +57,11 @@ A tabela a seguir exibe as permissões padrão do editor:
 | [!DNL Campaigns] | sim | sim | sim | sim |
 | [!DNL Content] | sim | sim | sim | sim |
 | [!DNL Create] | sim | sim | sim | sim |
-| [!DNL Insights] | pode configurar apenas conectores de anúncios |    |     | sim |
+| [!DNL Insights] | pode configurar apenas conectores |    |     | sim |
 | [!DNL Personas] | sim | sim* | sim* | sim |
 | [!DNL Products] | sim | sim* | sim* | sim |
 | [!DNL Reviews and approvals] | sim | sim | sim | sim |
+| [!DNL Templates] | não | não | não | sim |
 
 Editores podem editar e excluir [!DNL Personas] e [!DNL Products] criados por eles.
 
@@ -71,10 +83,11 @@ A tabela a seguir exibe as permissões padrão do colaborador:
 | [!DNL Personas] | não | não | não | sim |
 | [!DNL Products] | não | não | não | sim |
 | [!DNL Reviews and approvals] | não | não | não | sim |
+| [!DNL Templates] | não | não | não | sim |
 
 ### Gerenciadores de sistema da GenStudio
 
-_os gerenciadores de sistemas do GenStudio_ têm o conjunto de permissões mais avançado da GenStudio for Performance Marketing. Os gerentes de sistema executam a tarefa essencial de integração de estabelecer as medidas de proteção fundamentais para a criação e implantação de ativos de campanha. Os gerentes de sistema implementam essas medidas de proteção fazendo upload das informações específicas da marca e da organização, como as [diretrizes da marca](./guidelines/overview.md). Os gerentes de sistema têm permissão para criar e publicar [!DNL Brands], mas não têm privilégios de administração de usuário.
+_os gerenciadores de sistemas do GenStudio_ têm o conjunto de permissões mais avançado da GenStudio for Performance Marketing. Esses usuários avançados executam a tarefa essencial de integração, que é estabelecer as medidas de proteção fundamentais para a criação e a implantação dos ativos de campanha. Os gerentes de sistema implementam essas medidas de proteção fazendo upload das informações específicas da marca e da organização, como as [diretrizes da marca](./guidelines/overview.md). Os gerentes de sistema têm permissão para criar e publicar [!DNL Brands], mas não têm privilégios de administração de usuário.
 
 A tabela a seguir exibe as permissões padrão do gerenciador de sistemas:
 
@@ -87,5 +100,8 @@ A tabela a seguir exibe as permissões padrão do gerenciador de sistemas:
 | [!DNL Personas] | sim | sim | sim | sim |
 | [!DNL Products] | sim | sim | sim | sim |
 | [!DNL Reviews and approvals] | sim | sim | sim | sim |
+| [!DNL Templates] | sim | sim | sim | sim |
+
+Os gerentes de sistema também podem fazer upload de modelos.
 
 Consulte [Introdução ao Adobe GenStudio for Performance Marketing](get-started.md) para obter uma visão geral das tarefas de configuração preliminares.
