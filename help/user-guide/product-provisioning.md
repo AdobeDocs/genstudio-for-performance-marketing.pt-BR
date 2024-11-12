@@ -4,9 +4,9 @@ description: Saiba mais sobre o provisionamento do produto GenStudio for Perform
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Um administrador de sistema Adobe executa tarefas de provisionamento iniciais no
 >[!NOTE]
 >
 >Somente administradores de sistema Adobe podem implementar tarefas de ativação que exijam acesso à Adobe Admin Console.
+
+>[!IMPORTANT]
+>
+>Não adicione novos perfis de produto, nem edite ou exclua perfis de produto existentes. Alterar os perfis de produto padrão pode interromper seriamente a implantação do GenStudio for Performance Marketing.
 
 ## Etapa 1: acessar o perfil de produto no Adobe Admin Console
 

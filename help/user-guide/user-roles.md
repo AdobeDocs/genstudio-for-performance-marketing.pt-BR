@@ -4,9 +4,9 @@ description: Saiba mais sobre as funções e permissões de usuário do GenStudi
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1115'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,10 @@ Consulte [Funções administrativas](https://helpx.adobe.com/enterprise/using/ad
 ## Direitos
 
 _Os direitos_ concedem permissão para executar tarefas específicas e acessar recursos protegidos. Os direitos, ou permissões, são definidos na função de usuário no perfil do produto e os usuários recebem esses direitos quando atribuídos a essa função.
+
+>[!IMPORTANT]
+>
+>Não adicione novos perfis de produto, nem edite ou exclua perfis de produto existentes. Alterar os perfis de produto padrão pode interromper seriamente a implantação do GenStudio for Performance Marketing.
 
 ## Funções do usuário
 
