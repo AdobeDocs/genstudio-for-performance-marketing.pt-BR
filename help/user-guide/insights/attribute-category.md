@@ -3,9 +3,11 @@ title: Categorias de atributo
 description: Saiba mais sobre as categorias de atributo usadas no GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-source-git-commit: 3b5fc55595f766db0327b6aefb0e29c3896e00c0
+last-substanial-update: 2024-11-11T00:00:00Z
+exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
+source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 1%
 
 Uma categoria de atributo é um grupo de classificação que organiza atributos relacionados que compartilham uma característica comum. Essas categorias ajudam a simplificar a descoberta, a identificação e a compreensão de atributos específicos, fornecendo maior contexto e facilitando sua aplicação e uso.
 
-O GenStudio for Performance Marketing usa a Adobe e os recursos de aprendizado de máquina para estudar imagens, vídeos e texto e aplicar os [!UICONTROL atributos de ativo] com base no nível de confiança. _Confiança_ refere-se à probabilidade que a IA atribui a uma previsão ou classificação. No contexto do aprendizado de máquina, é um tipo de pontuação que mede o quanto a IA é &quot;confiante&quot; de que a classificação está correta. Quanto maior for a pontuação de confiança, maior será a certeza. Por exemplo, ao analisar uma imagem, a IA pode identificar vários recursos e atribuir uma pontuação a cada um, indicando o quanto é confiante que o recurso está correto. A lista de atributos de um ativo não é exaustiva. O Assets que contém um conjunto avançado de recursos pode ser limitado a um limite de confiança, como os três recursos mais dominantes identificados.
+O GenStudio for Performance Marketing usa a Adobe e os recursos de aprendizado de máquina para estudar imagens, vídeos e texto e aplicar os [!UICONTROL atributos de ativo] de acordo com a probabilidade de correção. A lista de atributos de um ativo não é exaustiva. O Assets que contém um conjunto avançado de recursos pode ser limitado aos três recursos mais dominantes identificados pela IA.
 
 ## Recursos da imagem
 
