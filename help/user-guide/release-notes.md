@@ -2,10 +2,11 @@
 title: Notas de versão do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
+exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
+source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '817'
+ht-degree: 2%
 
 ---
 
@@ -13,9 +14,35 @@ ht-degree: 3%
 
 Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
 
-## 2024.11.07 {#latest}
+## 2024.11.14 {#latest}
 
-### Correções
+### Novos recursos
+
+Adição de suporte para modelos de mídia avançada, permitindo que os clientes reutilizem ativos que já foram publicados por meio de seus próprios canais de conteúdo gerenciado. <!-- GS-6107 -->
+
+### Correções e aprimoramentos
+
+* Quando redimensionados em um navegador diferente do usado para gerar o conteúdo inicial, os rascunhos agora são carregados conforme esperado. <!-- GS-7204 -->
+
+* Todos os caracteres agora são representados corretamente no HTML exportado. <!-- GS-7246 -->
+
+* Os botões no pop-up [!DNL Content] _Experiências_ **[!UICONTROL Exportar]** não estão mais truncados em determinados idiomas. <!-- GS-6873 -->
+
+* Anúncios de exibição criados com modelos dimensionados em 50x50 agora são exportados no tamanho de imagem esperado. Anteriormente, os arquivos PNG exportados tinham o dobro das dimensões esperadas. <!-- GS-7192 -->
+
+* Os erros de modelo que ocorreram quando os anúncios de exibição foram redimensionados agora são resolvidos. <!-- GS-7322 -->
+
+### Localização
+
+Esta versão inclui melhorias na localização em toda a interface do usuário, incluindo:
+
+* Todas as cadeias de caracteres do pop-up [!DNL Content] _Carregar ativo_ agora estão corretamente localizadas. <!-- GS-6872 6770 -->
+* Todas as dicas de ferramentas no campo [!DNL Content] _Assets_ view **[!UICONTROL Search]** estão localizadas. <!-- GS-6879 -->
+* Ao substituir uma imagem existente em uma variante de email na Tela [!DNL Create], a exibição _Selecionar do Conteúdo_ agora está localizada. <!-- GS-6906 -->
+
+## 2024.11.07
+
+### Correções e aprimoramentos
 
 * O ponteiro _Salvar em andamento_ não é mais exibido quando um usuário clica em **[!UICONTROL Carregar nova imagem]** e cancela a operação antes de concluir o carregamento. <!-- GS-6780 -->
 
@@ -31,7 +58,7 @@ Estas informações de versão detalham as atualizações mais recentes do aplic
 
 * Os usuários agora podem controlar todos os elementos interativos do modelo de Metadados apenas pelo teclado. <!-- GS-4066 -->
 
-* Adição da extração de dimensões de imagem de campos de imagem de modelo para exibir modelos de anúncio. As solicitações de corte inteligente agora são enviadas para a dimensão real da imagem e não para o modelo inteiro. <!-- GS-6926 -->
+* Adição da extração de dimensões de imagem de campos de imagem de modelo para Exibir modelos de anúncio. As solicitações de corte inteligente agora são enviadas para a dimensão real da imagem e não para o modelo inteiro. <!-- GS-6926 -->
 
 * A cadeia de caracteres `Zoom to fit to screen` foi localizada no email gerado e em Meta ads. <!-- GS-5063 -->
 
@@ -65,7 +92,7 @@ Estas informações de versão detalham as atualizações mais recentes do aplic
 
 * A tela **[!DNL Create]** agora exibe contagens de caracteres para fragmentos de email. <!-- GS-5819 -->
 
-### Correções
+### Correções e aprimoramentos
 
 * Rótulos de leitores de tela ausentes foram adicionados aos elementos `view` para dispositivos móveis e da área de trabalho. <!-- GS-5624 4729 -->
 
@@ -101,4 +128,4 @@ Consulte os seguintes recursos úteis:
 
 * [Guia do Usuário do Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
 
-* [Adobe GenStudio Academy](genstudioacademy.md), plataforma de aprendizado online Adobe para usar tecnologias de IA gerativa no processo criativo. [Inscreva-se no GenStudio Academy](http://adobe.ly/genstudioacademyregistration).
+* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), plataforma de aprendizado online Adobe para usar tecnologias de IA gerativa no processo criativo.
