@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 0%
@@ -20,6 +20,8 @@ Consulte a [visão geral das diretrizes](/help/user-guide/guidelines/overview.md
 
 Adicionar diretrizes ao GenStudio for Performance Marketing é uma etapa importante no processo de criação. As diretrizes informam o processo de criação de conteúdo, juntamente com prompts definidos pelo usuário e tecnologia de IA gerativa Adobe, para criar ativos impactantes.
 
+{{in-academy}}
+
 ## Adicionar [!DNL Brands]
 
 Para adicionar uma marca, [carregue um guia de marca](#upload-a-brand) ou [crie uma marca manualmente](#manually-add-brand) selecionando diretrizes e inserindo os detalhes da sua marca. [Publish uma marca](#publish-brand) para [!DNL Content] para torná-la disponível para uso na geração futura de conteúdo.
@@ -27,6 +29,7 @@ Para adicionar uma marca, [carregue um guia de marca](#upload-a-brand) ou [crie 
 Na área de navegação esquerda, clique em **[!DNL Brands]**. No painel _[!DNL Brands]_, selecione **Adicionar marca**.
 
 >[!TIP]
+>
 >Cada marca opera independentemente sem relações hierárquicas. Para criar submarcas em uma marca principal, inclua as informações da marca principal durante o processo de criação.
 
 ### Carregar uma marca

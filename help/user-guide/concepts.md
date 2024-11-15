@@ -3,7 +3,7 @@ title: Conceitos do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre conceitos e terminologia do Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -25,9 +25,9 @@ Com o GenStudio for Performance Marketing, você pode:
 
 O GenStudio for Performance Marketing aproveita o potencial da IA gerativa para acelerar o processo de criação de conteúdo e garantir a geração de conteúdo de alta qualidade. O ciclo de vida iterativo de seus ativos criativos resulta em um conteúdo cada vez mais preciso e alinhado à marca, que repercute em seu público-alvo.
 
-Comece treinando efetivamente a GenStudio for Performance Marketing sobre a marca da sua organização, as personalidades do cliente e as descrições do produto por meio do poderoso recurso de diretrizes da marca.
+Comece treinando efetivamente a GenStudio for Performance Marketing sobre a marca da sua organização, as personalidades do cliente e as descrições do produto por meio do poderoso recurso de diretrizes da marca. Consulte a [Visão geral das diretrizes](../user-guide/guidelines/overview.md) para saber como preparar e carregar essas diretrizes.
 
-Consulte a [Visão geral das diretrizes](../user-guide/guidelines/overview.md) para saber como preparar e carregar essas diretrizes.
+{{in-academy}}
 
 ## Governança de dados
 
