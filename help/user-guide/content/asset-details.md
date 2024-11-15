@@ -3,9 +3,9 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
+source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,19 @@ Cada ativo (incluindo experiências e modelos) associou _detalhes_ (metadados) q
 ## Editar no Express
 
 Você pode editar ativos de imagem (JPG ou PNG) diretamente no GenStudio for Performance Marketing usando o Adobe Express. A Tela _[!UICONTROL Powered by Adobe Express]_ fornece recursos convenientes para aprimorar suas imagens sem sair do aplicativo do GenStudio. É possível remover facilmente planos de fundo, aplicar preenchimentos gerativos, ajustar efeitos e recortar imagens.
+
+>[!BEGINSHADEBOX]
+
+Critérios para aprimorar imagens com o recurso [!DNL Edit in Adobe Express]:
+
+- Os tipos MIME suportados incluem `image/png` e `image/jpeg`
+- As dimensões mínimas da imagem são 50x50 pixels
+- As dimensões máximas da imagem são 8000x8000 pixels
+- O tamanho máximo é 40MB (40.000.000 bytes)
+
+>[!ENDSHADEBOX]
+
+**Para editar um ativo com o Express**:
 
 1. Em _[!DNL Content]_, selecione um ativo de imagem. Clicar em um ativo abre uma exibição focada do ativo.
 
@@ -91,7 +104,7 @@ A tabela a seguir detalha os metadados (detalhes do ativo) que você pode defini
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio for Performance Marketing para uso |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio for Performance Marketing para uso |
 | Canais | Tipos de conteúdo no GenStudio for Performance Marketing para os quais o ativo é usado, como email e Metadados |
-| Cronograma | Período para o qual o ativo foi usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` |
+| Cronograma | Período para o qual o ativo é usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` |
 | Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` |
 | Idioma | Idiomas para os quais o ativo é usado. Exemplo: `Spanish` |
 | Palavras-chave | Palavras-chave usadas para identificação adicional de características e finalidade do ativo |
