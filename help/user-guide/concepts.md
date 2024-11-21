@@ -3,9 +3,9 @@ title: Conceitos do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre conceitos e terminologia do Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: e8a210a22856683f7d61c5309c451689e445c8fe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -16,26 +16,33 @@ O GenStudio for Performance Marketing é um produto empresarial independente que
 
 Com o GenStudio for Performance Marketing, você pode:
 
-* Criar conteúdo na marca usando prompts de idioma naturais
+* Crie conteúdo na marca usando prompts de idioma naturais para seus canais digitais de alta prioridade, como mídia paga, email e anúncios de exibição
+
 * Colaborar com as partes interessadas para revisar e aprovar o conteúdo gerado
 * Salvar conteúdo gerado e aprovado para acessar campanhas de marketing futuras
-* Avaliar o desempenho do conteúdo com insights sobre campanhas e atributos de conteúdo
+* Avaliar a eficácia do conteúdo analisando o desempenho dos ativos e identificando os principais atributos do conteúdo com melhor desempenho
 
 ## Tecnologia de IA gerativa
 
 O GenStudio for Performance Marketing aproveita o potencial da IA gerativa para acelerar o processo de criação de conteúdo e garantir a geração de conteúdo de alta qualidade. O ciclo de vida iterativo de seus ativos criativos resulta em um conteúdo cada vez mais preciso e alinhado à marca, que repercute em seu público-alvo.
 
-Comece treinando efetivamente a GenStudio for Performance Marketing sobre a marca da sua organização, as personalidades do cliente e as descrições do produto por meio do poderoso recurso de diretrizes da marca. Consulte a [Visão geral das diretrizes](../user-guide/guidelines/overview.md) para saber como preparar e carregar essas diretrizes.
+Comece assimilando a identidade visual, as personas do cliente e as descrições do produto de sua organização por meio do poderoso recurso de diretrizes da marca. Consulte a [Visão geral das diretrizes](../user-guide/guidelines/overview.md) para saber como preparar e carregar essas diretrizes.
 
 {{in-academy}}
 
+## Modelos de idiomas grandes
+
+O GenStudio for Performance Marketing utiliza a plataforma de IA gerativa Adobe, que oferece IA de base e serviços de aprendizado de máquina (ML). Essa plataforma simplifica o uso de grandes modelos de linguagem (LLMs), alimentando os recursos GenAI do Adobe para criar experiências envolventes.
+
+O GenStudio for Performance Marketing usa a série GPT de LLMs de terceiros por meio do Azure OpenAI.<!-- Claude, and Gemini models. -->
+
 ## Governança de dados
 
-Ao trabalhar com IA para gerar conteúdo, é essencial garantir que a saída seja segura e inclusiva para todos os usuários. Isso requer a avaliação do conteúdo em busca de possíveis preconceitos prejudiciais, discursos de ódio, material ofensivo ou profanação. Testes minuciosos sob várias perspectivas, uma análise ética abrangente e a implementação de planos de mitigação eficazes são importantes para evitar que conteúdos prejudiciais surjam nas saídas.
+Ao trabalhar com IA para gerar conteúdo, é essencial garantir que a saída seja segura e inclusiva para todos os usuários. Isso requer a avaliação do conteúdo em busca de possíveis preconceitos prejudiciais, discursos de ódio, material ofensivo ou profanação. O Adobe testa completamente a tecnologia de geração de conteúdo de várias perspectivas, realiza revisões éticas abrangentes e implementa planos de mitigação eficazes para evitar que conteúdo prejudicial surja nas saídas.
 
-Essa abordagem reforça a responsabilidade social, minimiza o risco de reputação e garante a adesão às políticas de Confiança e Segurança e Ética do Adobe.
+Essa abordagem reforça a responsabilidade social, minimiza o risco à reputação e garante a adesão às [políticas de Confiança e Segurança e Ética do Adobe](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf).
 
-O GenStudio for Performance Marketing incorpora planos de mitigação para evitar o uso de conteúdo mal-intencionado ou preconceituoso identificado de acordo com os padrões e as políticas de governança de dados. Quando esse conteúdo for detectado, você estará ciente de que a geração de ativos está bloqueada com uma mensagem &quot;Não é possível gerar&quot;.
+A GenStudio for Performance Marketing incorpora planos de mitigação para evitar o uso de conteúdo mal-intencionado ou preconceituoso identificado por padrões e políticas de governança de dados de Adobe. Quando esse conteúdo for detectado, você estará ciente de que a geração de ativos está bloqueada com uma mensagem &quot;Não é possível gerar&quot;.
 
 Quando esta mensagem for exibida, você poderá editar o prompt e tentar novamente _ou_ sinalizar o conteúdo do prompt para revisão pelo GenStudio for Performance Marketing. Os dados de prompt do conteúdo que está sinalizado para revisão são coletados para fins de revisão interna.
 
