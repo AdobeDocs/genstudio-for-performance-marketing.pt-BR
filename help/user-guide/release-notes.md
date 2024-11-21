@@ -2,10 +2,11 @@
 title: Notas de versão do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
+last-substanial-update: 2024-11-14T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
+source-git-commit: 720b23061d7e56a9b1e712d7787158c6a1bb771c
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ Adição de suporte para modelos de mídia avançada, permitindo que os clientes
 
 * Os botões no pop-up [!DNL Content] _Experiências_ **[!UICONTROL Exportar]** não estão mais truncados em determinados idiomas. <!-- GS-6873 -->
 
-* Anúncios de exibição criados com modelos dimensionados em 50x50 agora são exportados no tamanho de imagem esperado. Anteriormente, os arquivos PNG exportados tinham o dobro das dimensões esperadas. <!-- GS-7192 -->
+* Anúncios de exibição criados com modelos dimensionados em 50x50 agora são exportados no tamanho de imagem esperado. Anteriormente, os arquivos PNG eram exportados com o dobro das dimensões esperadas. <!-- GS-7192 -->
 
 * Os erros de modelo que ocorreram quando os anúncios de exibição foram redimensionados agora são resolvidos. <!-- GS-7322 -->
 
@@ -36,11 +37,13 @@ Adição de suporte para modelos de mídia avançada, permitindo que os clientes
 
 Esta versão inclui melhorias na localização em toda a interface do usuário, incluindo:
 
-* Todas as cadeias de caracteres do pop-up [!DNL Content] _Carregar ativo_ agora estão corretamente localizadas. <!-- GS-6872 6770 -->
+* Todas as cadeias de caracteres no pop-up [!DNL Content] _Carregar ativo_ agora estão corretamente localizadas. <!-- GS-6872 6770 -->
 * Todas as dicas de ferramentas no campo [!DNL Content] _Assets_ view **[!UICONTROL Search]** estão localizadas. <!-- GS-6879 -->
 * Ao substituir uma imagem existente em uma variante de email na Tela [!DNL Create], a exibição _Selecionar do Conteúdo_ agora está localizada. <!-- GS-6906 -->
 
-## 2024.11.07
+## Notas de versão anteriores
+
++++Notas de 2024.11.07
 
 ### Correções e aprimoramentos
 
@@ -84,7 +87,9 @@ Esta versão inclui melhorias na localização em toda a interface do usuário, 
 
 * Gerar novamente as imagens do Metadado após redimensioná-las não resulta mais em um erro. Anteriormente, o redimensionamento de imagens antes da regeneração alterava os metadados do canal de `meta` para `facebook`. <!-- GS-7042 -->
 
-## 2024.10.31
++++
+
++++Notas de 2024.10.31
 
 ### Novos recursos
 
@@ -122,10 +127,4 @@ O **[!DNL Insights]** oferece avaliação em tempo real do desempenho do conteú
 
 A GenStudio for Performance Marketing integra-se com outros produtos da Adobe Experience Cloud, incluindo o Adobe Express e o Adobe AEM Assets.
 
-### Informações adicionais
-
-Consulte os seguintes recursos úteis:
-
-* [Guia do Usuário do Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
-
-* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), plataforma de aprendizado online Adobe para usar tecnologias de IA gerativa no processo criativo.
++++
