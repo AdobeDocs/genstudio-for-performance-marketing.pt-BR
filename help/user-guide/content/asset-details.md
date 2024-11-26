@@ -3,9 +3,9 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
+source-git-commit: 7cb19de7f1fe61465046b0d27a528c2f5e1a4d5e
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -26,50 +26,15 @@ Cada ativo (incluindo experiências e modelos) associou _detalhes_ (metadados) q
    >
    >Se a seção _[!UICONTROL Detalhes]_ não estiver visível, clique no ícone **[!UICONTROL Informações]** (i).
 
-   Os detalhes do ativo incluem metadados aplicados durante o processo de criação ou upload. Os tipos de metadados de ativos incluem [metadados do sistema](#system-metadata) e [metadados definidos pelo usuário](#user-defined-metadata).
+Os detalhes do ativo incluem metadados aplicados durante o processo de criação ou upload. Os tipos de metadados de ativos incluem [metadados do sistema](#system-metadata) e [metadados definidos pelo usuário](#user-defined-metadata).
+
+O ativo de imagem a seguir contém metadados do sistema que descrevem o tipo de arquivo, o tamanho e outras características, uma palavra-chave definida pelo usuário e vários atributos e cores detectados pela IA.
+
+![detalhes de um ativo com várias marcas](/help/assets/content-asset-details.png)
 
 >[!NOTE]
 >
 >O Assets de repositórios AEM exibe metadados diferentes. Consulte [Configurar visibilidade do ativo](connect-aem-repo.md#step-4-configure-asset-visibility) para saber como configurar detalhes do ativo [!DNL AEM Assets Content Hub].
-
-## Editar no Express
-
-Você pode editar ativos de imagem (JPG ou PNG) diretamente no GenStudio for Performance Marketing usando o Adobe Express. A Tela _[!UICONTROL Powered by Adobe Express]_ fornece recursos convenientes para aprimorar suas imagens sem sair do aplicativo do GenStudio. É possível remover facilmente planos de fundo, aplicar preenchimentos gerativos, ajustar efeitos e recortar imagens.
-
->[!BEGINSHADEBOX]
-
-Critérios para aprimorar imagens com o recurso [!DNL Edit in Adobe Express]:
-
-- Os tipos MIME suportados incluem `image/png` e `image/jpeg`
-- As dimensões mínimas da imagem são 50x50 pixels
-- As dimensões máximas da imagem são 8000x8000 pixels
-- O tamanho máximo é 40MB (40.000.000 bytes)
-
->[!ENDSHADEBOX]
-
-**Para editar um ativo com o Express**:
-
-1. Em _[!DNL Content]_, selecione um ativo de imagem. Clicar em um ativo abre uma exibição focada do ativo.
-
-1. Na exibição de ativos, clique no ícone **[!UICONTROL Editar no Adobe Express]** no canto superior direito.
-
-1. Na Tela _[!UICONTROL Powered by Adobe Express]_, use os controles Expressos no painel esquerdo para aprimorar sua imagem.
-
-1. Quando estiver satisfeito com a imagem atualizada, clique em **[!UICONTROL Salvar uma cópia]** no canto superior direito.
-
-1. Selecione o formato de arquivo - JPG ou PNG - e clique em **[!UICONTROL Salvar uma cópia]**.
-
-1. No pop-up _[!UICONTROL Salvar uma cópia do ativo]_, atualize o **[!UICONTROL Nome do ativo]**.
-
-   - Selecione **[!UICONTROL Mesmos detalhes que o ativo original]** para transferir os detalhes do ativo para a nova imagem.
-
-   - Expanda a seção **[!UICONTROL Mais detalhes]** para atualizar a Campanha, as Diretrizes e outros metadados.
-
-   >[!TIP]
-   >
-   >Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio for Performance Marketing. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
-
-1. Clique em **[!UICONTROL Salvar]**.
 
 ## Metadados do sistema
 
@@ -107,7 +72,7 @@ A tabela a seguir detalha os metadados (detalhes do ativo) que você pode defini
 | Cronograma | Período para o qual o ativo é usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` |
 | Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` |
 | Idioma | Idiomas para os quais o ativo é usado. Exemplo: `Spanish` |
-| Palavras-chave | Palavras-chave usadas para identificação adicional de características e finalidade do ativo |
+| Palavras-chave | Palavras-chave definidas pelo usuário usadas para identificar melhor as características e a finalidade do ativo |
 
 <!-- ## History
 
