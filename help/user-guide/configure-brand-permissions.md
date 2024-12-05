@@ -4,9 +4,9 @@ description: Saiba mais sobre a atribuição de direitos para criadores e editor
 level: Intermediate
 feature: Brands Service, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: baa225419ba5e851f28d41f829971027655e103e
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '700'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Um _projeto_ fornece um local de armazenamento onde usuários selecionados podem
 
 1. Clique em **[!UICONTROL Criar projeto]**. O pop-up _Novo projeto_ é aberto.
 
-1. Digite `Adobe GenStudio Brands` no campo de nome do projeto. Digite este nome de projeto exatamente como exibido aqui. Não inclua espaços extras nem altere a letra.
+1. Digite `Adobe GenStudio Brands` no campo de nome do projeto. Digite este nome de projeto exatamente como exibido aqui. Não inclua espaços extras nem altere a caixa da letra.
 
 1. Clique em **[!UICONTROL Criar]**. A janela pop-up _Convidar para projeto_ é aberta.
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 36%
+source-wordcount: '311'
+ht-degree: 35%
 
 ---
 # Documentação do GenStudio for Performance Marketing
@@ -15,7 +15,7 @@ Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-co
 
 ### Pequenas alterações
 
-Se você estiver contribuindo com pequenas atualizações, abra o artigo e clique no link **Editar**, que direciona você à origem GitHub do artigo. Use a interface do GitHub para fazer suas atualizações. Consulte o [guia geral do colaborador do Adobe Docs](https://experienceleague.adobe.com/br/docs/contributor/contributor-guide/introduction).
+Se você estiver contribuindo com pequenas atualizações, abra o artigo e clique no link **Editar**, que direciona você à origem GitHub do artigo. Use a interface do GitHub para fazer suas atualizações. Consulte o [guia geral do colaborador do Adobe Docs](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction).
 
 As pequenas correções ou esclarecimentos enviados para documentação e exemplos de código neste repositório são cobertos pelos termos de uso da Adobe.
 
@@ -31,14 +31,14 @@ Se você for um autor técnico, gerente de programa ou desenvolvedor de uma equi
 
 Os colaboradores da comunidade podem usar a interface do usuário do GitHub para a edição básica ou bifurcar o repositório para fazer grandes contribuições.
 
-Consulte o [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/br/docs/contributor/contributor-guide/introduction) para obter detalhes.
+Consulte o [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction) para obter detalhes.
 
 ## Markdown
 
 Todos os artigos neste repositório usam GitHub-flavored markdown. Se não estiver familiarizado com a marcação, consulte:
 
 - [Noções básicas de marcação](https://docs.github.com/br/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Folha de dicas de marcação para impressão](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [Folha de características de markdown para impressão](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## Rótulos
 

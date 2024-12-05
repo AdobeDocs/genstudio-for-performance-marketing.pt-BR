@@ -4,7 +4,7 @@ description: Saiba mais sobre o provisionamento do produto GenStudio for Perform
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Você pode adicionar usuários individualmente ou importar informações de cont
 
 * [Gerenciar vários usuários/carregar CSV em massa](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
 
-Depois de integrar os usuários à GenStudio for Performance Marketing da sua organização, um gerente de sistema do Genstudio pode [configurar as diretrizes de marca e mídia da sua organização](get-started.md).
+Depois de integrar os usuários à GenStudio for Performance Marketing da sua organização, um gerente de sistema da GenStudio poderá [configurar as diretrizes de marca e mídia da sua organização](get-started.md).
