@@ -3,9 +3,9 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3a32c26ff746989798842afa5798ffa397a19ef8
+source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ A galeria mostra um inventário de ativos, experiências ou modelos aprovados, d
 
 A seguir, uma pesquisa sobre o termo `dog` na galeria [!UICONTROL Assets]:
 
-![exibição do Assets com pesquisa no cachorro](../../assets/content-assets.png)
+![exibição do Assets com pesquisa no cachorro](/help/assets/content-assets.png)
 
 ### Pesquisar conteúdo
 
@@ -120,7 +120,7 @@ In the future, need guidance on template upload errors. For now, the UI just say
 
 1. Em _[!DNL Content]_, selecione um ativo de imagem. Clicar em um ativo abre uma exibição focada do ativo.
 
-1. Na exibição do ativo, clique no ícone **[!UICONTROL Excluir]** (lixeira) no canto superior direito.
+1. Na exibição do ativo, clique em **[!UICONTROL Excluir]** (lixeira) no canto superior direito.
 
 1. No pop-up _Excluir ativo_, verifique o ativo e clique em **[!UICONTROL Excluir]**.
 
@@ -155,7 +155,7 @@ Critérios para aprimorar imagens com o recurso [!DNL Edit in Adobe Express]:
 
    - Selecione **[!UICONTROL Mesmos detalhes que o ativo original]** para transferir os detalhes do ativo para a nova imagem.
 
-   - Expanda a seção **[!UICONTROL Mais detalhes]** para atualizar a Campanha, as Diretrizes e outros metadados.
+   - Expanda a seção **[!UICONTROL Mais detalhes]** para atualizar as diretrizes e outros metadados.
 
    >[!TIP]
    >

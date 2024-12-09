@@ -3,10 +3,10 @@ title: Visão geral do Adobe GenStudio for Performance Marketing [!DNL Content]
 description: Saiba como localizar, editar, reutilizar e compartilhar ativos aprovados pela marca em um portal intuitivo.
 feature: Attributes, Content, Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,58 +17,111 @@ O GenStudio for Performance Marketing [!DNL Content] fornece um local central pa
 ## Casos de uso do [!DNL Content]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md#search">
+
          <img alt="lente de aumento" src="../../assets/icons/icon-search.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md#search">
+
          <strong>Localizar conteúdo</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../content/manage-assets.md">
+
          <img alt="imagens com sinal de mais" src="../../assets/icons/icon-addContent.png">
+
       </a>
+
       <p>
+
          <a href="../content/manage-assets.md">
+
          <strong>Adicionar ativos</strong>
+
          </a>
+
       </p>
+
    </td>
+
    <td align="center" valign="top" width="100">
-      <a href="../content/customize-template.md">
-         <img alt="raio parafuso no ativo" src="../../assets/icons/icon-template.png">
-      </a>
-      <p>
-         <a href="../content/customize-template.md">
-         <strong>Personalizar um modelo</strong>
-         </a>
-      </p>
-   </td>
-   <td align="center" valign="top" width="100">
-      <a href="../content/use-templates.md">
-         <img alt="raio parafuso no ativo com sinal de mais" src="../../assets/icons/icon-addTemplate.png">
-      </a>
-      <p>
-         <a href="../content/use-templates.md#upload-a-template">
-         <strong>Carregar modelo</strong>
-         </a>
-      </p>
-   </td>
-   <td align="center" valign="top" width="100">
+
       <a href="../content/asset-details.md#edit-in-express">
+
          <img alt="Editar no Adobe Express" src="../../assets/icons/icon-editExpress.png">
+
       </a>
+
       <p>
+
          <a href="../content/asset-details.md#edit-in-express">
+
          <strong>Editar ativos no Adobe Express</strong>
+
          </a>
+
       </p>
+
    </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../content/customize-template.md">
+
+         <img alt="raio parafuso no ativo" src="../../assets/icons/icon-template.png">
+
+      </a>
+
+      <p>
+
+         <a href="../content/customize-template.md">
+
+         <strong>Personalizar um modelo</strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="../content/use-templates.md">
+
+         <img alt="raio parafuso no ativo com sinal de mais" src="../../assets/icons/icon-addTemplate.png">
+
+      </a>
+
+      <p>
+
+         <a href="../content/use-templates.md#upload-a-template">
+
+         <strong>Carregar modelo</strong>
+
+         </a>
+
+      </p>
+
+   </td>
+
 </tr>
+
 </table>
 
 ## Recursos do [!DNL Content]
@@ -85,4 +138,4 @@ Quando você salva os ativos aprovados, o [!DNL Content] mantém os metadados av
 
 ### Trabalhar com modelos
 
-Os modelos aceleram o processo de criação para que você possa gerar conteúdo consistente em vários canais. Faça upload do modelo personalizado para usar como ponto de partida no processo de criação com layouts e elementos de design pré-configurados.
+Os modelos aceleram o processo de criação para que você possa gerar conteúdo consistente em vários canais. Faça upload do modelo personalizado para usar como ponto de partida no processo de criação com layouts e elementos de design pré-configurados. Saiba mais sobre elementos e procedimentos básicos do modelo em [Trabalhar com modelos](use-templates.md). Veja em detalhes a criação de modelos com o tópico [Personalizar um modelo](customize-template.md).

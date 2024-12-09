@@ -3,9 +3,9 @@ title: Criar modelos acessíveis
 description: Crie modelos no Adobe GenStudio for Performance Marketing que sejam capazes de alcançar mais do seu público-alvo e fornecer uma experiência ideal.
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
+source-git-commit: cc1d750a8a520c793b1b605747c091f8a5f5e1a2
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Fornecer alternativas em texto para conteúdo não textual, como imagens.
 <img alt="Collage of ideas, books, man holding giant pencil, computer" src="card-create-assets.png">
 ```
 
-![Colagem de ideias, livros, homem segurando lápis gigante, computador](../../assets/card-create-assets.png){width="400"}
+![Colagem de ideias, livros, homem segurando lápis gigante, computador](/help/assets/card-create-assets.png){width="400"}
 
 ## Fontes
 

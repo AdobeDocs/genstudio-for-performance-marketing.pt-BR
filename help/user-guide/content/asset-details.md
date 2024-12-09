@@ -3,9 +3,9 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,7 @@ Cada ativo (incluindo experiências e modelos) associou _detalhes_ (metadados) q
 
 1. Na exibição do ativo, revise a seção _[!UICONTROL Detalhes]_ à direita.
 
-   >[!TIP]
-   >
-   >Se a seção _[!UICONTROL Detalhes]_ não estiver visível, clique no ícone **[!UICONTROL Informações]** (i).
+1. Se a seção _[!UICONTROL Detalhes]_ não estiver visível, clique no ícone **[!UICONTROL Informações]** (i).
 
 Os detalhes do ativo incluem metadados aplicados durante o processo de criação ou upload. Os tipos de metadados de ativos incluem [metadados do sistema](#system-metadata) e [metadados definidos pelo usuário](#user-defined-metadata).
 
@@ -38,9 +36,7 @@ O ativo de imagem a seguir contém metadados do sistema que descrevem o tipo de 
 
 ## Metadados do sistema
 
-Alguns metadados de ativos são coletados automaticamente quando um ativo é carregado. Não é possível editar os metadados padrão do sistema.
-
-Os metadados padrão armazenados e capturados para um ativo incluem o nome do arquivo, as dimensões, a origem e muito mais.
+Alguns metadados de ativos são coletados automaticamente quando um ativo é carregado, como tipo de arquivo, tamanho, dimensões, origem e muito mais. Exceto pelo nome do arquivo, não é possível editar os metadados padrão do sistema.
 
 ### Tags geradas
 

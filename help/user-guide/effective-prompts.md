@@ -3,10 +3,10 @@ title: Gravar prompts efetivos
 description: Saiba como escrever prompts efetivos para o Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: 79430c3279529c4871141489e409240852e1f4fc
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,9 +57,9 @@ As diretrizes do GenStudio for Performance Marketing ajudam a IA gerativa a pers
 
 ### Prompts estruturados
 
-Para emails de várias seções, você pode estruturar prompts para fornecer instruções específicas da seção para gerar conteúdo variável para cada seção em um [email](/help/user-guide/create/email-experiences.md). Os prompts estruturados devem fazer referência direta aos [nomes de seção no modelo de email](/help/user-guide/content/email-template.md#multi-section-emails), para que o conteúdo gerado possa ser inserido nos espaços reservados de conteúdo correspondentes.
+Para emails de várias seções, você pode estruturar prompts para fornecer instruções específicas da seção para gerar conteúdo variável para cada seção em um email. Os prompts estruturados devem fazer referência direta aos [nomes de seção no modelo de email](/help/user-guide/content/customize-template.md#sections-or-groups), para que o conteúdo gerado possa ser inserido nos espaços reservados de conteúdo correspondentes.
 
-Por exemplo, você pode instruir o GenStudio for Performance Marketing a gerar conteúdo que promova um novo produto na primeira seção de um email e gerar conteúdo que detalhe os benefícios de economia do produto na segunda seção de email.
+Por exemplo, você pode instruir o GenStudio for Performance Marketing a gerar conteúdo para um email que promove um novo produto na primeira seção e detalha os benefícios de economia na segunda seção.
 
 O prompt estruturado deve:
 
@@ -72,7 +72,7 @@ O prompt estruturado deve:
   Por exemplo, se o modelo usa `moduleA` ou `Group-3` como um nome de seção, você pode fazer referência a esses nomes de seção no prompt.
 
 - Siga as regras/estruturas recomendadas. Se a estrutura de prompts não aderir ao formato fornecido, o prompt se aplica a *todas* as seções de email e ainda facilita a geração de conteúdo.
-- Use nomes de seção conforme [definido em seu modelo de email](/help/user-guide/content/email-template.md#code-an-email-template). As referências de prompt devem corresponder aos nomes de seção codificados em seu modelo de email.
+- Use nomes de seção conforme definidos no modelo de email. As referências de prompt devem corresponder aos nomes de seção codificados em seu modelo de email.
 - Não diferencie maiúsculas de minúsculas. Por exemplo, você pode usar `Pod` ou `pod` no modelo de email e no prompt estruturado.
 - Consulte o prompt de usuário genérico primeiro e, em seguida, as diretivas específicas da seção.
 - Use dois pontos, hífen, vírgula ou outra demarcação (`,:;#$!~|@=-%&*^_`) como uma separação entre a referência de nome de seção e a diretiva. Por exemplo, você pode usar o seguinte como uma diretiva de prompt específica de seção: `Pod1; Describe how to easily edit text and swap images.`
@@ -91,7 +91,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-Consulte [Preparar um modelo de email](/help/user-guide/content/email-template.md#code-an-email-template).
+Consulte [práticas recomendadas para usar modelos](/help/user-guide/content/best-practices-for-templates.md).
 
 ## Tente novamente
 

@@ -4,18 +4,25 @@ description: Saiba como personalizar e otimizar seu modelo para o Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: f95848546abc2decbb5ac52491307977820ce503
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Personalizar um modelo
 
-Adapte seus modelos de HTML para o Adobe GenStudio for Performance Marketing usando a linguagem de modelo _Handlebars_. A sintaxe [!DNL Handlebars] usa texto regular com chaves duplas como espaços reservados para conteúdo. Consulte [`What is [!DNL Handlebars]?`](https://handlebarsjs.com/guide/#what-is-handlebars) no _Guia de linguagem do Handlebars_ para saber como preparar seu modelo.
+Você pode personalizar um modelo para usar no GenStudio for Performance Marketing inserindo espaços reservados para conteúdo, ou campos, que a IA geradora usa para inserir conteúdo.
 
-As próximas seções explicam como adicionar espaços reservados para o conteúdo, ocultar elementos desnecessários da visualização e gerenciar links para conteúdo estático. Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio for Performance Marketing](use-templates.md#upload-a-template) e começar a gerar emails personalizados com base no modelo personalizado.
+As próximas seções explicam como adaptar seus modelos de HTML para o GenStudio for Performance Marketing usando a linguagem de modelo _Handlebars_. A sintaxe [!DNL Handlebars] usa texto regular com chaves duplas como espaços reservados para conteúdo. Consulte [O que é [!DNL Handlebars]?](https://handlebarsjs.com/guide/#what-is-handlebars) no _guia de idioma do Handlebars_ para saber como preparar seu modelo.
+
+
+Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio for Performance Marketing](use-templates.md#upload-a-template) e começar a gerar emails personalizados com base no modelo personalizado.
+
+>[!TIP]
+>
+>Siga as [diretrizes de acessibilidade](accessibility-for-templates.md) e as [práticas recomendadas](/help/user-guide/content/best-practices-for-templates.md) para que você possa alcançar mais de seu público-alvo e fornecer uma experiência ideal.
 
 ## Espaços reservados de conteúdo
 
@@ -34,14 +41,14 @@ Por exemplo, você pode usar `{{ headline }}` com a sintaxe [!DNL Handlebars] pa
 A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Performance Marketing para preenchimento em modelos. Adicione esses nomes de campos usando a sintaxe [!DNL Handlebars] ao modelo em que você precisa do GenStudio for Performance Marketing para gerar conteúdo.
 
 | Texto | Função | Modelo de canal |
-| -------------- | ---------------------- | ------------------------------ |
-| `pre_header` | Pré-cabeçalho | email |
-| `headline` | Título | email <br>Meta-anúncio |
-| `body` | Corpo do texto | email <br>Meta-anúncio |
-| `cta` | Chamada para ação | email <br>Meta-anúncio |
-| `on_image_text` | No texto da imagem | Meta-anúncio |
-| `image` | Imagem | email <br>Meta-anúncio |
-| `brand_logo` | Logotipo da marca selecionada<br>Consulte [Nome do campo do logotipo da marca](#brand-logo-field-name) para obter o uso recomendado. | email<br>Meta-anúncio |
+| ------------------ | ---------------------- | -------------------------------- |
+| `{{pre_header}}` | Pré-cabeçalho | email |
+| `{{headline}}` | Título | email <br>Meta-anúncio <br>Exibir anúncio |
+| `{{body}}` | Corpo do texto | email <br>Meta-anúncio <br>Exibir anúncio |
+| `{{cta}}` | Chamada para ação | email <br>Meta-anúncio <br>Exibir anúncio |
+| `{{on_image_text}}` | No texto da imagem | Meta-anúncio |
+| `{{image}}` | Imagem — selecione a partir do conteúdo | email <br>Meta-anúncio <br>Exibir anúncio |
+| `{{brand_logo}}` | Logotipo da marca selecionada<br>Consulte [Nome do campo do logotipo da marca](#brand-logo-field-name) para obter o uso recomendado. | email<br>Meta-anúncio |
 
 O GenStudio for Performance Marketing preenche determinados campos automaticamente nos seguintes modelos:
 
@@ -93,23 +100,27 @@ Para criar uma seção editável, adicione colchetes duplos ao redor do nome da 
 
 _As seções_ informam à GenStudio for Performance Marketing que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
 
-Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo. Por exemplo, talvez você queira destacar o conteúdo que aparece em uma área destacada:
+Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo. Use um nome de campo (`headline`, `body`, `image` ou `cta`) após o sublinhado (`_`). Por exemplo, o título e o corpo a seguir pertencem à seção `pod1`:
 
 - `pod1_headline`
 - `pod1_body`
 
-Cada seção pode usar apenas um de cada tipo de campo. No exemplo acima, a seção `pod1` só pode usar um campo `pod1_headline`.
+Cada seção pode usar apenas um de cada tipo de campo. No exemplo acima, a seção `pod1` só pode usar um campo `pod1_headline`. Por causa dessa regra, as seções não podem ser aninhadas.
 
-Um modelo pode incluir até três seções:
+Um template de email pode incluir até três seções. Por exemplo, a lista a seguir tem três seções de título e corpo:
 
-- `headline`
-- `body`
+- `pre-header`
 - `pod1_headline`
 - `pod1_body`
 - `pod2_headline`
 - `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
 
 A GenStudio for Performance Marketing entende que `pod1_headline` está mais intimamente relacionado a `pod1_body` do que a `pod2_body`.
+
+Consulte [Prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) para saber como criar um prompt que gera conteúdo variável para cada seção de um email.
 
 ## Visualização do modelo
 
@@ -117,7 +128,7 @@ Quando você [carrega um modelo](use-templates.md#upload-a-template), o GenStudi
 
 Exemplo de visualização para um modelo de email:
 
-![Campos de visualização detectados](../../assets/template-detected-fields.png){width="650"}
+![Campos de visualização detectados](/help/assets/template-detected-fields.png){width="650"}
 
 ### Visualização do controle
 
