@@ -1,12 +1,12 @@
 ---
 title: Criar uma experiência de email
-description: Saiba como criar experiências de email no Adobe GenStudio para Marketing de desempenho.
+description: Saiba como criar experiências de email no Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: 763c907598d92779483938295a99d640ee3f4d20
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Este tutorial demonstra como gerar [experiências de email](/help/user-guide/create/email-experiences.md) com a marca usando o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
 
-Para criar uma experiência de email eficaz, é recomendável [adicionar diretrizes ao GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md) e aprofundar as [noções básicas de criação de um prompt](/help/user-guide/effective-prompts.md) antes de começar.
+Para criar uma experiência de email eficaz, é recomendável [adicionar diretrizes ao GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e aprofundar as [noções básicas de criação de um prompt](/help/user-guide/effective-prompts.md) antes de começar.
 
 ## Escolher um modelo
 
@@ -42,7 +42,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 
    ![Escolher persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
-   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
+   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Adicione conteúdo para usar na experiência *e* para influenciar a geração de conteúdo:
    * Clique em **[!UICONTROL Selecionar do Conteúdo]** para selecionar ativos (imagens) do repositório [!DNL Content], filtrar e selecionar uma ou mais imagens.
@@ -82,7 +82,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 **Para revisar variantes geradas**:
 
 * **Para [editar o nome do rascunho do email](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
-* **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer campo de texto editável (como linha de assunto, cabeçalho ou cópia de corpo) e edite conforme necessário
+* **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer um dos campos de texto editáveis (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
 * **Para [adicionar ou trocar imagens em uma variante](/help/user-guide/create/manage-variants.md#swap-image)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique em **[!UICONTROL Selecionar/trocar conteúdo]** ou **[!UICONTROL Carregar nova imagem]** para adicionar ou trocar uma imagem em uma variante individual.
 * **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique para selecionar o título do email (por exemplo, &quot;Email 1/4&quot;) e clique em **[!UICONTROL Excluir variante]**.

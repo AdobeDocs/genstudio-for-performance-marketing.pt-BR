@@ -3,9 +3,9 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
+source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -54,25 +54,53 @@ Os metadados definidos pelo usuário adicionam contexto de marketing ao conteúd
 
 Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), você pode definir um conjunto de detalhes opcionais do ativo que existem no GenStudio for Performance Marketing como metadados. A inclusão de mais detalhes pode melhorar a identificação de ativos em pesquisas e filtragem.
 
+**Para editar os metadados definidos pelo usuário**:
+
+1. Em _[!DNL Content]_, selecione um ativo, experiência ou modelo.
+
+1. Na exibição do ativo, revise a seção _[!UICONTROL Detalhes]_ à direita.
+
+1. Clique em **[!UICONTROL Editar detalhes]** (lápis) para editar os metadados do ativo.
+
+   Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio for Performance Marketing. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
+
 ### Detalhes de metadados
 
 A tabela a seguir detalha os metadados (detalhes do ativo) que você pode definir ao criar um ativo.
 
 | Texto | Descrição |
-| ------------- | ----------- |
-| Campanhas (nome do projeto) | Metadados padrão capturados e armazenados com o ativo |
+| -------------- | ----------- |
+| Título | Nome do ativo; o título padrão pode ser o nome do arquivo original |
+| [!DNL Campaigns] | [[!DNL Campaigns]](/help/user-guide/campaigns/overview.md) inclua conteúdo promocional com mensagens consistentes para atingir uma meta comercial<br>Ao clicar em um link de campanha, você será direcionado para a página de visão geral da campanha |
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio for Performance Marketing e publicado para uso |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio for Performance Marketing para uso |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio for Performance Marketing para uso |
-| Canais | Tipos de conteúdo no GenStudio for Performance Marketing para os quais o ativo é usado, como email e Metadados |
+| Canais | Plataformas para distribuição de determinados tipos de conteúdo, como email e anúncios de exibição |
 | [!UICONTROL Cronograma] | Intervalo de tempo para o qual o ativo é usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` |
 | Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` |
 | Idioma | Idiomas para os quais o ativo é usado. Exemplo: `Spanish` |
-| Palavras-chave | Palavras-chave definidas pelo usuário usadas para identificar melhor as características e a finalidade do ativo |
+| Palavras-chave | As palavras-chave definidas pelo usuário são usadas para identificar melhor as características e a finalidade do ativo |
 
-<!-- ## History
+>[!TIP]
+>
+>Clique em **[!UICONTROL Editar detalhes]** (lápis) para editar os metadados do ativo. Por exemplo, você pode alterar o nome do ativo ou adicionar ou remover palavras-chave.
 
-Expand the _[!UICONTROL History]_ section to view a timeline of approvals and activity.
+## Contexto gerativo
 
-list other activity, show screenshot?
--->
+A seção [!UICONTROL Contexto Gerativo] mostra quais informações foram usadas para gerar a experiência, como o `Prompt` usado durante o processo [!DNL Create]. Esse insight pode ajudar você a criar variantes ainda mais bem-sucedidas.
+
+As informações podem incluir:
+
+- Parâmetros `Brand`, `Product` e `Persona`
+- `Subject line` e `Pre Header` para experiências de email
+- `Headline` e `Body` para Metadados
+
+## Histórico
+
+Expanda a seção _[!UICONTROL Histórico]_ em uma experiência para exibir uma linha do tempo de aprovações e atividades. Por exemplo, uma experiência aprovada revela a data, a hora e o aprovador da aprovação:
+
+```
+Approved
+
+December 10, 2024 at 6:00 PM by Username
+```

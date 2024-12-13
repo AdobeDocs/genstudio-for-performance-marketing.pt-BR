@@ -2,12 +2,12 @@
 title: Notas de versão do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2024-11-14T00:00:00Z
+last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 2%
+source-wordcount: '1268'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,83 @@ ht-degree: 2%
 
 Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
 
-## 2024.11.14 {#latest}
+## 2024.12.12 {#latest}
+
+### Novos recursos
+
+Os editores agora podem executar as seguintes tarefas relacionadas aos metadados:
+
+* Edite os metadados do ativo, da experiência e do modelo. Consulte [detalhes do ativo](/help/user-guide/content/asset-details.md#user-defined-metadata). <!-- GS-4905 6935-->
+
+* Exiba as marcas geradas de um ativo na exibição _Detalhes_ de qualquer experiência que use o ativo. Consulte _Tags geradas_ em [Detalhes do ativo](/help/user-guide/content/asset-details.md#generated-tags). <!-- GS-3705 -->
+
+Os editores agora podem especificar valores personalizados para esses aspectos das variantes geradas:
+
+* Largura e altura dos banners da Web em modelos de anúncios de exibição. Esses valores agora são salvos como metadados do modelo. <!-- GS-6735 -->
+
+* Dimension para imagens em experiências de anúncio de exibição durante o carregamento da imagem.<!-- GS-7166 -->
+
+* Consulte as diretrizes específicas do canal nas [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+
+As opções de exportação agora incluem:
+
+* Exporte anúncios de exibição e Meta anúncios como HTML, JPEG ou PNG. Consulte [Criar uma experiência de anúncio de exibição](/help/user-guide/create/create-display-ad.md) e [Criar uma experiência de meta anúncio](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
+
+Novos recursos adicionais permitem aos editores:
+
+* Use o botão **[!UICONTROL Atualizar]** na exibição _Detalhes do ativo_ do modelo [!DNL Content] para atualizar o modelo selecionado. <!-- GS-7102 -->
+
+* Gere novamente as seções do anúncio de exibição e das variantes de email. Consulte [Criar uma experiência de anúncio de exibição](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) e [Criar uma experiência de email](/help/user-guide/create/create-email-experience.md#revise-generated-emails). <!-- GS-5080 5078-->
+
+* Duplicar marcas existentes. Consulte [Gerenciar marcas](/help/user-guide/guidelines/brands.md#manage-brands). <!-- BRANDS-548 -->
+
+### Correções e aprimoramentos
+
+* Os títulos dos anúncios de exibição agora são salvos em [!DNL Content], conforme esperado. <!-- GS-7239 -->
+
+* A gaveta do prompt não fecha mais quando um editor clica fora do menu suspenso da gaveta. <!-- GS-7275 -->
+
+* O menu suspenso [!DNL Create] [!DNL Persona]/[!DNL Product] agora é carregado conforme esperado quando ocorre um erro de serviço de URL de miniatura. <!-- GS-7277 -->
+
+* Os anúncios de exibição que contêm elementos que sobrepõem fragmentos agora são editáveis. <!-- GS-7186 -->
+
+* O botão **[!UICONTROL Marca]** da Tela de Pintura agora está desabilitado quando as pontuações da marca não são geradas para uma experiência. <!-- GS-6429 -->
+
+* A Tela de desenho agora exibe experiências redimensionadas em ordem consistente. <!-- GS-7123 -->
+
+* O recorte manual agora usa dimensões de imagem, não dimensões de modelo, ao editar anúncios de exibição. Anteriormente, quando uma imagem era menor que as dimensões especificadas no modelo de anúncio de exibição, a caixa delimitadora usava dimensões de modelo, não dimensões de imagem. <!-- GS-7315 -->
+
+* Agora, os editores podem selecionar até quatro imagens ao criar um anúncio de exibição. <!-- GS-7189 -->
+
+* Agora os rascunhos de anúncio de exibição e Meta ad são carregados conforme esperado quando redimensionados em um navegador diferente. <!-- GS-7204 -->
+
+* Os campos de modelo não utilizados não são mais exibidos no conteúdo gerado.  <!-- GS-5670 -->
+
+* Os editores agora podem clicar uma vez nos links para editar conforme esperado nas variantes geradas. <!-- GS-7423 -->
+
+* [!DNL Create] agora respeita corretamente os privilégios de colaborador. <!-- GS-7614 -->
+
+* O botão **[!UICONTROL Redimensionar]** da Tela de Pintura agora está desabilitado depois que todas as opções de redimensionamento foram selecionadas e renderizadas. <!-- GS-5940 -->
+
+* Os revisores com acesso somente visualização agora podem ampliar e reduzir as variantes durante as revisões. <!-- GS-7371 -->
+
+* O foco do teclado foi adicionado somente aos botões acionáveis na exibição [!DNL Create] _Trabalho recente_. <!-- GS-4060 -->
+
+* A mensagem **Salvando em andamento** exibida durante as operações de salvamento de fragmento de email agora é exibida somente durante a operação de salvamento. Anteriormente, a Tela exibia essa mensagem indefinidamente. <!-- GS-6964 -->
+
+* Os editores agora veem uma mensagem de erro como esperado quando um rascunho não é carregado na área [!DNL Create] _Trabalho recente_.  <!-- GS-8081 -->
+
+* Agora a Tela de Pintura exibe metadados redimensionados e anúncios exibidos na ordem correta.  <!-- GS-7375 -->
+
+* Agora, os editores podem clicar uma vez nos campos de email e exibir anúncios. <!-- GS-6297 -->
+
+* A capacidade de edição de fragmentos para email e Meta ads agora é acionada conforme esperado por um único clique. <!-- GS-8081 -->
+
+* Desempenho aprimorado do botão [!DNL Create] **[!UICONTROL Voltar]**. <!-- GS-6767 -->
+
+## Notas de versão anteriores
+
++++Notas de 2024.11.14
 
 ### Novos recursos
 
@@ -41,7 +117,7 @@ Esta versão inclui melhorias na localização em toda a interface do usuário, 
 * Todas as dicas de ferramentas no campo [!DNL Content] _Assets_ view **[!UICONTROL Search]** estão localizadas. <!-- GS-6879 -->
 * Ao substituir uma imagem existente em uma variante de email na Tela [!DNL Create], a exibição _Selecionar do Conteúdo_ agora está localizada. <!-- GS-6906 -->
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2024.11.07
 
@@ -105,9 +181,11 @@ Esta versão inclui melhorias na localização em toda a interface do usuário, 
 
 * Problemas de layout com bordas de email foram resolvidos. <!-- GS-6631 -->
 
-* O foco do teclado agora funciona conforme esperado no botão **[!DNL Content]** **[!UICONTROL Excluir]**. Anteriormente, esse botão não podia ser acessado ou operado pelo teclado.  <!-- GS-4065 -->
+* O foco do teclado agora funciona conforme esperado no botão **[!DNL Content]** **[!UICONTROL Excluir]**. Anteriormente, os usuários não podiam acessar esse botão pelo teclado.  <!-- GS-4065 -->
 
-## Versão 2024.10.14 de Disponibilidade geral
++++
+
++++Notas de 2024.10.14 Disponibilidade geral
 
 Esta versão apresenta o Adobe GenStudio for Performance Marketing, um aplicativo generativo baseado em IA que acelera o planejamento, o desenvolvimento e a análise de campanhas de marketing. O GenStudio for Performance Marketing capacita as equipes de marketing a criar conteúdo multicanal na marca para anúncios, emails e campanhas enquanto fornece insights em tempo real para otimizar o desempenho do conteúdo.
 

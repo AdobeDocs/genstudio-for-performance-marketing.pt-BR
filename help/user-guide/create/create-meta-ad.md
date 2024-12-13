@@ -1,14 +1,14 @@
 ---
 title: Criar uma experiência de meta-anúncio
-description: Saiba como criar experiências de meta anúncios na marca, para Facebook ou Instagram, com o Adobe GenStudio para Marketing de desempenho.
+description: Saiba como criar experiências de meta anúncios na marca, para Facebook ou Instagram, com o Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
+source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Este tutorial demonstra como gerar experiências de [Metadados](/help/user-guide/create/meta-experiences.md) com a marca usando o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
 
-Antes de começar a gerar uma experiência de metadados, é importante [incorporar diretrizes](/help/user-guide/guidelines/add-guidelines.md) ao GenStudio para Marketing de Desempenho e familiarizar-se com as noções básicas de [criação de um prompt](/help/user-guide/effective-prompts.md).
+Antes de começar a gerar uma experiência de Metadados, é importante [incorporar as diretrizes](/help/user-guide/guidelines/add-guidelines.md) ao GenStudio for Performance Marketing e familiarizar-se com as noções básicas de [criação de um prompt](/help/user-guide/effective-prompts.md).
 
 ## Escolher um modelo
 
@@ -42,7 +42,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 
    ![Escolher persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
-   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
+   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Adicione conteúdo para usar na experiência *e* para influenciar a geração de conteúdo:
    * Clique em **[!UICONTROL Selecionar do Conteúdo]** para selecionar ativos (imagens) do repositório [!DNL Content], filtrar e selecionar uma ou mais imagens.
@@ -86,9 +86,9 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 **Para revisar variantes geradas**:
 
 * **Para [editar o nome do rascunho do Metaanúncio](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
-* **Para [editar um Metadado manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer seção de anúncio (como a linha de assunto,
+* **Para [editar um Metadado manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer uma das seções de anúncio (como a linha de assunto,
 cabeçalho ou cópia do corpo) e edite conforme necessário.
-* **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione nas opções de texto disponíveis do botão. Em _[!UICONTROL Link]_, insira uma URL para o texto de chamada para ação.
+* **Para alterar ou selecionar a frase de chamariz**, clique no botão que exibe a frase de chamariz e selecione nas opções de texto disponíveis do botão.<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
 * **Para [cortar ou reposicionar imagens](/help/user-guide/create/manage-variants.md#crop-assets)**, passe o mouse sobre uma imagem, clique no ícone de recorte exibido e ajuste o tamanho e o posicionamento da imagem.
 * **Para [excluir um Metadado](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no título do anúncio (por exemplo, &quot;Meta 4&quot;) e clique em **[!UICONTROL Excluir variante]**.
@@ -135,7 +135,7 @@ Para disponibilizar os Metadados gerados para uso atual e futuro, publique-os no
 
 1. **Para publicar sua(s) nova(s) experiência(s) de Metadados**, clique em **[!UICONTROL Publish]** na barra de ferramentas superior ou no fluxo de aprovações.
 1. **Para exportar sua(s) nova(s) experiência(s) de Metadados**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
-   1. Selecione o formato (somente CSV e imagens ou HTML) e clique em **[!UICONTROL Exportar]**.
+   1. Selecione o formato—HTML e imagens ou CSV e imagens (JPG ou PNG)—clique em **[!UICONTROL Exportar]**.
 
 Consulte [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) para obter mais informações.
 

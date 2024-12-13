@@ -4,13 +4,13 @@ description: Saiba tudo sobre Meta experiências no Adobe GenStudio for Performa
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # Metadadas experiências
 
@@ -54,3 +54,9 @@ Cada campo e seção das experiências do Metaanúncio são carregados progressi
 1. Manchetes
 1. Texto na imagem
 1. O processo de validação da marca ocorre e a [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) é preenchida para cada variante.
+
+## Contagens de caracteres
+
+Depois de gerar um conjunto de variantes Meta, você pode ver a contagem de caracteres exibida para cada seção. Passe o mouse sobre ou clique em uma seção gerada, como a linha de assunto ou o corpo, e veja o nome da seção e a contagem de caracteres para essa seção.
+
+![Contagem de caracteres](/help/assets/character-count.png){width="500" zoomable="yes"}

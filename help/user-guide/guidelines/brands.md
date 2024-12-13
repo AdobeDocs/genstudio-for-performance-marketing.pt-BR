@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: O GenStudio for Performance Marketing [!DNL Brands] é uma coleção abrangente de ativos da marca—cópia de marketing, imagens, experiências e muito mais—para informar a criação de conteúdo alinhado à marca.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: 435c792d1991c2e34c500d072f23f1ed1ccdbcc9
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ A GenStudio for Performance Marketing usa as informações da sua marca, faz par
 
 Depois de adicionar as diretrizes da marca à GenStudio for Performance Marketing, você pode [gerenciar](/help/user-guide/guidelines/add-guidelines.md#manage-brands) e [publicar](/help/user-guide/guidelines/add-guidelines.md#publish-brand). A publicação os disponibiliza para que sua equipe use na geração de ativos.
 
-[!DNL Brands] pode estar no estado _Rascunho_ ou _Publicado_. Novo [!DNL brands] começa como _Rascunho_.
+[!DNL Brands] pode estar em um estado _Não publicado_ ou _Publicado_. Novo início de [!DNL brands] como _Não publicado_.
 
-Você deve publicar um [!DNL brand] para torná-lo disponível para a geração de ativos pela sua equipe.
+Você deve [publicar uma marca](/help/user-guide/guidelines/add-guidelines.md#publish-brand) para disponibilizá-la para a geração de ativos pela sua equipe.
 
-Publicado [!DNL brands] pode ser editado, e as alterações estão imediatamente disponíveis. Somente [!DNL brands] publicado pode ser usado para criar e validar conteúdo.
+As marcas publicadas podem ser editadas (as alterações são disponibilizadas imediatamente), duplicadas ou não publicadas. Somente [!DNL brands] publicado pode ser usado para criar e validar conteúdo. Consulte [Gerenciar marcas](/help/user-guide/guidelines/add-guidelines.md#manage-brands).
 
 Os [!DNL brands] excluídos são arquivados por 30 dias e podem ser recuperados dentro desse período.
 

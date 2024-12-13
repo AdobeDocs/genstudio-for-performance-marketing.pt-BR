@@ -2,13 +2,13 @@
 title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
+exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
-
 
 # Gerenciar variantes
 
@@ -40,23 +40,36 @@ Os rascunhos de variante gerados têm um nome padrão mostrado na parte superior
 
 ## Gerar seções novamente
 
-O GenStudio for Performance Marketing tem a funcionalidade integrada de regenerar seções únicas de variantes geradas usando _[!UICONTROL edições sugeridas]_ e prompts atualizados.
+O GenStudio for Performance Marketing tem a funcionalidade integrada para regenerar seções de variantes geradas. Você pode reformular a frase, encurtar ou aumentar o texto ou adicionar novos prompts para gerar novo conteúdo.
 
-Por exemplo, você pode gerar novamente a seção de título de uma variante do Meta ad para ver sua aparência com um ativo de plano de fundo específico usando as _[!UICONTROL Edições sugeridas]_ opções—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_ ou _[!UICONTROL Lengthen]_—e inserindo um novo prompt.
+Por exemplo, você pode gerar novamente a seção de título de uma variante do Meta Ad para ver sua aparência com um ativo de plano de fundo específico. Você pode _[!UICONTROL Reformular]_, _[!UICONTROL Encurtar]_ ou _[!UICONTROL Ampliar]_ o conteúdo de uma seção ou _[!UICONTROL Gerar novo texto]_ para adicionar um novo prompt.
 
 ![Gerar seções novamente](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
 **Para gerar novamente seções individuais de variante**:
 
 1. Depois de gerar um conjunto de variantes, clique uma vez em qualquer texto editável em uma variante.
-1. Selecione uma opção de _[!UICONTROL Edições sugeridas]_—_[!UICONTROL Refrase]_, _[!UICONTROL Encurtar]_ ou _[!UICONTROL Ampliar]_.
-   * Escolha uma opção disponível e clique em **[!UICONTROL Substituir]**.
-1. (_Opcional_) Selecione _[!UICONTROL Gerar com prompt] e insira um novo prompt para alterar o foco do conteúdo gerado novamente.
-   * Clique em **[!UICONTROL Gerar]**.
-1. Se quiser regenerar os resultados para ver mais opções, clique no ícone de regeneração adjacente a _Resultados_.
-1. Nos _Resultados_ exibidos, selecione a opção desejada e clique em **[!UICONTROL Substituir]**.
+1. Para alterar o texto existente, selecione _[!UICONTROL Refrase]_, _[!UICONTROL Encurtar]_ ou _[!UICONTROL Ampliar]_.
+1. Para gerar novas opções de estilo, selecione _[!UICONTROL Gerar novo texto]_ e insira um novo prompt.
+   1. Clique em **[!UICONTROL Gerar]**.
+1. Quando estiver gerando novamente o texto de uma seção, clique no ícone de regeneração para ver mais opções de texto.
+1. Nos resultados exibidos, selecione a opção desejada e clique em **[!UICONTROL Substituir]**.
 
    A variante é atualizada com o texto revisado.
+
+## Revisar a frase de chamariz
+
+Depois de gerar um conjunto de variantes, você pode revisar o texto e o link de chamada para ação (CTA).
+
+**Para revisar a CTA em uma variante**:
+
+1. Depois de gerar um conjunto de variantes, clique no botão que exibe o texto do CTA.
+1. Para alterar o texto do botão CTA, selecione uma das opções disponíveis na lista _Chamada para ação_.
+1. Para alterar o link na CTA, clique em **[!UICONTROL Link]**.
+   1. Insira ou cole em um novo link ou revise o link existente na seção _Editar link_ e clique em **[!UICONTROL Aplicar]**. Você pode clicar em **[!UICONTROL Remover link]** para remover o link existente antes de inserir um novo.
+
+
+O link adicionado ou revisado é aplicado a todos os CTAs no conjunto de variantes.
 
 ## Cortar ativos
 

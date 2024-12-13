@@ -3,10 +3,10 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
+source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1271'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,6 @@ A lista **[!UICONTROL Local]** acima da galeria _[!UICONTROL Assets]_ à direita
 
 ![Lista de locais de repositórios](../../assets/content-location-selection.png){width="350"}
 
-
 Quando você seleciona um repositório AEM, a galeria mostra um inventário de ativos desse repositório, permitindo que você aproveite os ativos aprovados desses repositórios como entradas para a criação de conteúdo. As opções de filtro são alteradas para refletir as categorias configuradas em [!DNL AEM Assets Content Hub].
 
 Consulte [Conectar um repositório AEM](connect-aem-repo.md) para obter orientação sobre como adicionar seu repositório [!DNL AEM Assets Content Hub] ao GenStudio for Performance Marketing.
@@ -70,7 +69,20 @@ O repositório AEM é somente leitura, o que significa que você pode acessar o 
 
 ## Gerenciamento do Assets
 
-No [!UICONTROL Conteúdo], o Marketing de Desempenho pode armazenar, recuperar e gerenciar facilmente seus ativos digitais. Ao utilizar os repositórios `GenStudio assets` e AEM, os usuários podem garantir que seus ativos estejam bem organizados e acessíveis para várias campanhas de marketing. Essa abordagem de vários repositórios oferece flexibilidade e controle sobre o uso de ativos em todos os ambientes, garantindo que somente ativos aprovados e atualizados sejam usados em esforços de marketing.
+No [!UICONTROL Conteúdo], você pode armazenar, recuperar e gerenciar facilmente seus ativos digitais. Ao utilizar os repositórios `GenStudio assets` e AEM, é possível garantir que seus ativos estejam bem organizados e acessíveis para várias campanhas de marketing. Essa abordagem de vários repositórios oferece flexibilidade e controle sobre o uso de ativos em todos os ambientes, garantindo que somente ativos aprovados e atualizados sejam usados em esforços de marketing.
+
+A tabela a seguir lista as tarefas de gerenciamento disponíveis para ativos, experiências e modelos:
+
+| Tarefas | Ativos | Experiências | Modelos |
+| --------------------------------------------------------- | :----: | :---------: | :-------: |
+| [Exibir detalhes](/help/user-guide/content/asset-details.md) | ✓ µ | ✓ | ✓ |
+| [Criar experiência](/help/user-guide/create/overview.md) |        |             | ✓ |
+| [Editar no Adobe Express](#edit-in-express) | ✓ |             |           |
+| [Exportar para Ativação](#export-for-activation) |        | ✓ |           |
+| [Download](#download-assets) | ✓ |             | ✓ |
+| [Excluir](#delete-assets) | ✓ | ✓ | ✓ |
+
+<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### Adicionar ativos
 
@@ -100,10 +112,6 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
 1. Para exibir os novos ativos carregados, clique em **[!UICONTROL Atualizar]** na notificação _Novos ativos disponíveis_, na parte inferior da Tela.
 
-<!--
-In the future, need guidance on template upload errors. For now, the UI just says error.
--->
-
 ### Baixar ativos
 
 **Para baixar um ativo**:
@@ -123,6 +131,23 @@ In the future, need guidance on template upload errors. For now, the UI just say
 1. Na exibição do ativo, clique em **[!UICONTROL Excluir]** (lixeira) no canto superior direito.
 
 1. No pop-up _Excluir ativo_, verifique o ativo e clique em **[!UICONTROL Excluir]**.
+
+## Exportar para ativação
+
+É possível exportar uma experiência aprovada para ativação em um formato compatível com o canal de destino.
+
+**Para exportar uma experiência**:
+
+1. Em _[!DNL Content]_, selecione uma experiência. Clicar em uma experiência abre a exibição de detalhes ou clique no menu de atalho (`...`).
+
+1. Clique em **[!UICONTROL Exportar para ativação]** (caixa com a seta apontando para fora).
+
+1. No pop-up _Exportar para ativação_, selecione um dos formatos disponíveis:
+
+   - Email: `HTML`, `CSV`
+   - Anúncios de meta e exibição: `HTML`, `JPEG`, `PNG`
+
+Consulte [Ativação](/help/user-guide/activation/overview.md).
 
 ## Editar no Express
 

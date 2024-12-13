@@ -5,9 +5,10 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
+exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Para criar uma experiência atraente de anúncio de exibição, é recomendável
 
 ## Escolher um modelo
 
-Para criar uma experiência de anúncio de exibição, use um modelo disponível para fornecer a estrutura para o seu conteúdo.
+Para criar uma experiência de anúncio de exibição, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões de anúncios de exibição compatíveis.
 
 **Para escolher um modelo de anúncio de exibição**:
 
@@ -75,6 +76,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 * **Para [editar o nome do rascunho do anúncio de exibição](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar manualmente um anúncio de exibição](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer uma das seções ou campos do anúncio de exibição (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
+* **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções disponíveis para reformular, encurtar, aumentar ou gerar novo texto.
 * **Para [alterar o tamanho e a taxa de proporção do anúncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, clique no botão _[!UICONTROL Redimensionar]_ (caixa com um ícone de botão no lado esquerdo da Tela de Pintura) e selecione um novo tamanho e uma nova taxa de proporção a serem aplicados a todas as variantes. As variantes são duplicadas e redimensionadas.
 * **Para [cortar ou reposicionar imagens](/help/user-guide/create/manage-variants.md#crop-assets)**, passe o mouse sobre a imagem, clique no ícone de recorte exibido e ajuste o tamanho e o posicionamento da imagem. Clique em **[!UICONTROL Aplicar]**.
 
@@ -123,7 +125,7 @@ Para disponibilizar os anúncios de exibição gerados para uso atual e futuro, 
       ![Publish um anúncio de exibição](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
 1. **Para exportar sua(s) nova(s) experiência(s) de anúncio de exibição**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
-   1. Selecione o formato—somente JPG—e clique em **[!UICONTROL Exportar]**.
+   1. Selecione o formato—HTML e imagens, PNG ou JPG—e clique em **[!UICONTROL Exportar]**.
 
       O HTML exportado deve ser colocado em uma propriedade da Web predefinida, como um modelo ou contêiner `div`. Sem essas dimensões definidas, as imagens podem parecer distorcidas quando visualizadas independentemente.
 

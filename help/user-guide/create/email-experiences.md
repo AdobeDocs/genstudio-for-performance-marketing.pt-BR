@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 333d40a733f5417ea182d7708bef38907dfd5722
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ Cada campo e seção de experiências de email são carregados progressivamente 
 
 ## Contagens de caracteres
 
-Depois de gerar um conjunto de variantes de email, você pode ver a contagem de caracteres exibida para cada seção de email. Passe o mouse sobre ou clique em uma seção gerada, como a linha de assunto ou o corpo, e veja o nome da seção e a contagem de caracteres para essa seção.
+Depois de gerar um conjunto de variantes de email, você pode ver a contagem de caracteres exibida para cada seção. Passe o mouse sobre ou clique em uma seção gerada, como a linha de assunto ou o corpo, e veja o nome da seção e a contagem de caracteres para essa seção.
 
 ![Contagem de caracteres](/help/assets/character-count.png){width="500" zoomable="yes"}
