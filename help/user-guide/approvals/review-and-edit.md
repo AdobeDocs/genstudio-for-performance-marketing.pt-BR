@@ -1,11 +1,11 @@
 ---
 title: Revisar e editar conteúdo
-description: Saiba como revisar e editar o conteúdo interativamente.
+description: Saiba como revisar e editar conteúdo interativamente com o Adobe GenStudio for Performance Marketing.
 feature: Approval
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Como um aprovador designado, você pode acessar o conteúdo que deve ser revisad
 
 ## Solicitar alterações
 
-Você pode listar as alterações sugeridas ou fazer perguntas sobre o rascunho no painel _Aprovação_ do conteúdo. O status de rascunho **Precisa trabalhar** notifica o criador do conteúdo de que as alterações são solicitadas.
+Você pode listar as alterações sugeridas ou fazer perguntas sobre o rascunho do painel [!DNL Content] _Aprovação_. O status de rascunho **Precisa trabalhar** notifica o criador do conteúdo de que as alterações são solicitadas.
 
 Esse processo de revisão, sugestão de edições ao criador do conteúdo e, opcionalmente, revisão do conteúdo e solicitação de entrada adicional através de comentários `@mention` é altamente iterativo. É nessa parte do ciclo que você vê as capacidades de economizar tempo do GenStudio for Performance Marketing.
 
