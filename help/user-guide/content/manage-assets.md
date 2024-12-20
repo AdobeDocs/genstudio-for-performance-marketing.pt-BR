@@ -3,9 +3,9 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1302'
 ht-degree: 1%
 
 ---
@@ -14,10 +14,9 @@ ht-degree: 1%
 
 O Adobe GenStudio for Performance Marketing [!DNL Content] simplifica e aprimora o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 
-## Galeria de conteúdo
+## Galeria [!DNL Content]
 
 A galeria mostra um inventário de ativos, experiências ou modelos aprovados, dependendo da exibição selecionada. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar entre várias categorias para filtrar o conteúdo mostrado na galeria. No modo de exibição _[!UICONTROL Assets]_, clique no ícone de pesquisa (lupa) para usar uma palavra-chave para localizar um ativo.
-
 
 A seguir, uma pesquisa sobre o termo `dog` na galeria [!UICONTROL Assets]:
 
@@ -27,9 +26,10 @@ A seguir, uma pesquisa sobre o termo `dog` na galeria [!UICONTROL Assets]:
 
 O filtro e a interface de pesquisa são rápidos e responsivos e fornecem uma experiência produtiva de pesquisa. Cada exibição do [!DNL Content] fornece opções de filtro para restringir sua pesquisa pelo ativo, experiência ou modelo ideal. Para ativos e experiências, você pode selecionar uma campanha e diretrizes específicas, como o conteúdo criado para um produto específico.
 
-Há filtros baseados em [palavras-chave](asset-details.md#user-defined-metadata) e [categorias de atributo](/help/user-guide/insights/attribute-category.md) para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha.
+Há filtros baseados em [palavras-chave](asset-details.md#user-defined-metadata) e [categorias de atributo](/help/user-guide/insights/attribute-category.md) para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha. Ou você pode filtrar o conteúdo com base no seu nome de usuário ou no nome de um membro da equipe:
 
-Ao pesquisar por _Experiências_, você pode usar o filtro **[!UICONTROL Criado por]** para limitar a lista a fim de mostrar apenas as experiências criadas por você ou por uma pessoa específica.
+- O filtro **[!UICONTROL Carregado por]** limita a lista _[!UICONTROL Assets]_ para mostrar apenas os ativos carregados por você ou por uma pessoa específica.
+- O filtro **[!UICONTROL Criado por]** limita a lista _[!UICONTROL Experiências]_ para mostrar apenas as experiências criadas por você ou por uma pessoa específica.
 
 **Para pesquisar conteúdo a ser reutilizado**:
 
@@ -79,10 +79,9 @@ A tabela a seguir lista as tarefas de gerenciamento disponíveis para ativos, ex
 | [Criar experiência](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Editar no Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Exportar para Ativação](#export-for-activation) |        | ✓ |           |
+| [Atualizar](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Download](#download-assets) | ✓ |             | ✓ |
 | [Excluir](#delete-assets) | ✓ | ✓ | ✓ |
-
-<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### Adicionar ativos
 
@@ -116,7 +115,7 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
 **Para baixar um ativo**:
 
-1. Em _[!DNL Content]_, selecione um ativo de imagem. Clicar em um ativo abre uma exibição focada do ativo.
+1. Em _[!DNL Content]_, selecione um ativo ou modelo. Clicar em um ativo abre uma exibição focada do ativo.
 
 1. Na exibição de ativos, clique no ícone **[!UICONTROL Download]** (seta para baixo) no canto superior direito.
 
@@ -126,7 +125,7 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
 **Para excluir um ativo**:
 
-1. Em _[!DNL Content]_, selecione um ativo de imagem. Clicar em um ativo abre uma exibição focada do ativo.
+1. Em _[!DNL Content]_, selecione um ativo, experiência ou modelo. Clicar em um ativo abre uma exibição focada do ativo.
 
 1. Na exibição do ativo, clique em **[!UICONTROL Excluir]** (lixeira) no canto superior direito.
 

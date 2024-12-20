@@ -3,9 +3,9 @@ title: Trabalhar com modelos
 description: Descubra como usar modelos de maneira eficaz para simplificar seu processo criativo no Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,16 @@ ht-degree: 0%
 # Trabalhar com modelos
 
 O GenStudio for Performance Marketing permite que os criadores de conteúdo produzam conteúdo de marketing consistente na marca rapidamente usando _modelos_. Um modelo reduz significativamente o tempo e o esforço necessários para gerar novo conteúdo, fornecendo um ponto de partida que inclui layouts pré-configurados e elementos de design.
+
+Embora o GenStudio for Performance Marketing não ofereça suporte à criação direta de modelos no aplicativo, você pode facilmente projetar e preparar modelos usando ferramentas de design populares, como o Adobe InDesign, o Illustrator ou o Express. Depois que o design for concluído, você poderá adaptá-lo para uso no GenStudio for Performance Marketing. Comece a usar modelos seguindo estas etapas:
+
+1. **Criar seu Modelo**: use sua ferramenta de design preferencial para criar o layout visual do seu [modelo com elementos](#template-elements), como um pré-cabeçalho, título, corpo, CTA, imagens e rodapé.
+
+2. **Codifique seu modelo**: converta seu design em HTML e CSS em linha para garantir que ele seja limpo e responsivo em vários dispositivos. Considere as [diretrizes de acessibilidade](accessibility-for-templates.md) para ajudar a atingir o público-alvo máximo desejado.
+
+3. **Preparar para o GenStudio for Performance Marketing**: adapte seu modelo de HTML usando a linguagem de modelo Handlebars. Insira espaços reservados para indicar onde o GenStudio for Performance Marketing deve gerar conteúdo dinamicamente. Veja como [Personalizar um modelo](customize-template.md) para o GenStudio for Performance Marketing.
+
+Seguindo essas etapas, você pode criar modelos profissionais e eficazes que estejam prontos para uso no GenStudio for Performance Marketing, permitindo que você produza conteúdo sobre a marca de forma rápida e eficiente.
 
 ## Elementos do modelo
 
@@ -81,9 +91,15 @@ Você [personaliza seu modelo](customize-template.md) para uso no GenStudio for 
 >
 >Siga as [diretrizes de acessibilidade](accessibility-for-templates.md) e as [práticas recomendadas](/help/user-guide/content/best-practices-for-templates.md) para que você possa alcançar mais de seu público-alvo e fornecer uma experiência ideal.
 
-## Fazer upload de um modelo
+## Gerenciar modelos
 
-Use [Personalizar modelos](customize-template.md) como guia ao preparar um modelo para o GenStudio for Performance Marketing. Consulte as [diretrizes de acessibilidade para modelos](accessibility-for-templates.md) para obter orientação sobre como fornecer uma experiência melhor para todos os públicos-alvo.
+A galeria [!DNL Templates] exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing. Você pode filtrar modelos por tipo de canal, como email, anúncios de exibição e Metadados.
+
+![Lista de modelos de conteúdo](/help/assets/content-templates.png){width="650" zoomable="yes"}
+
+### Adicionar um modelo
+
+Antes de carregar um modelo, verifique se ele está totalmente preparado e pronto para uso no GenStudio for Performance Marketing seguindo as orientações de [Personalizar modelos](customize-template.md).
 
 **Para adicionar um modelo**:
 
@@ -114,7 +130,19 @@ Use [Personalizar modelos](customize-template.md) como guia ao preparar um model
 
 1. Clique em **[!UICONTROL Concluído]**.
 
-## Criar com um modelo
+### Atualizar modelo
+
+Os modelos podem incluir arquivos estáticos, como ícones ou logotipos. Use Atualizar para atualizar a visualização do modelo com as versões mais recentes desses ativos.
+
+**Para atualizar o modelo**:
+
+1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Modelos]**.
+
+1. Clique em um modelo para obter uma exibição completa e uma lista de detalhes.
+
+1. Clique em **[!UICONTROL Atualizar]** (setas circulares) no canto superior direito para atualizar todos os ativos usados no modelo.
+
+### Criar uma experiência com um modelo
 
 Encontre e use um modelo existente no GenStudio for Performance Marketing para criar mais experiências.
 
@@ -122,9 +150,7 @@ Encontre e use um modelo existente no GenStudio for Performance Marketing para c
 
 1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Modelos]**.
 
-   ![Lista de modelos de conteúdo](/help/assets/content-templates.png){width="650" zoomable="yes"}
-
-1. Selecione um modelo para obter uma exibição completa e uma lista de detalhes.
+1. Clique em um modelo para obter uma exibição completa e uma lista de detalhes.
 
 1. Clique em **[!UICONTROL Criar experiência]** (pincel) no canto superior direito para usar o modelo.
 

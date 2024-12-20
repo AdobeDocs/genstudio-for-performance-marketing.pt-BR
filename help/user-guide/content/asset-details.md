@@ -3,9 +3,9 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,11 @@ Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), vo
 
 **Para editar os metadados definidos pelo usuário**:
 
-1. Em _[!DNL Content]_, selecione um ativo, experiência ou modelo.
+1. Em _[!DNL Content]_, selecione um ativo, experiência ou modelo. Clicar em um ativo abre uma exibição focada do ativo.
 
 1. Na exibição do ativo, revise a seção _[!UICONTROL Detalhes]_ à direita.
 
-1. Clique em **[!UICONTROL Editar detalhes]** (lápis) para editar os metadados do ativo.
+1. Clique em **[!UICONTROL Editar detalhes]** (lápis) para editar os metadados do ativo, da experiência ou do modelo.
 
    Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio for Performance Marketing. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
 
@@ -91,8 +91,8 @@ A seção [!UICONTROL Contexto Gerativo] mostra quais informações foram usadas
 
 As informações podem incluir:
 
-- Parâmetros `Brand`, `Product` e `Persona`
-- `Subject line` e `Pre Header` para experiências de email
+- Parâmetros de `Brand`, `Product` e `Persona` selecionados durante o processo [!DNL Create]
+- `Subject line` e `Preheader` para experiências de email
 - `Headline` e `Body` para Metadados
 
 ## Histórico
