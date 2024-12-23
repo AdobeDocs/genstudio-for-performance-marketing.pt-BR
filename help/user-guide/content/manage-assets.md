@@ -3,10 +3,10 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,8 @@ Consulte [Conectar um repositório AEM](connect-aem-repo.md) para obter orienta�
 O repositório AEM é somente leitura, o que significa que você pode acessar o conteúdo, mas não pode salvar rascunhos, novos ativos ou metadados no repositório AEM. Todos os rascunhos e atualizações finais para ativos, experiências e modelos são salvos no repositório do `GenStudio assets` com os novos [metadados do sistema](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
+
+Um repositório AEM pode aplicar determinados requisitos de licenciamento, como a expiração de ativos. Esses ativos podem não estar disponíveis para uso nos fluxos de trabalho do [!DNL Create]. Os ativos expirados podem precisar ser renovados ou substituídos para manter a continuidade dos projetos. Consulte o administrador do [!DNL AEM Assets Content Hub] para obter assistência com esses ativos.
 
 ## Gerenciamento do Assets
 
