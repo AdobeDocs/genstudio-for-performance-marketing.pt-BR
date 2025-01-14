@@ -4,9 +4,9 @@ description: Saiba como personalizar e otimizar seu modelo para o Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ Use um prefixo de sua escolha no nome do campo para indicar que um campo faz par
 
 Cada seção pode usar apenas um de cada tipo de campo. No exemplo acima, a seção `pod1` só pode usar um campo `pod1_headline`. Por causa dessa regra, as seções não podem ser aninhadas.
 
-Um template de email pode incluir até três seções. Por exemplo, a lista a seguir tem três seções de título e corpo:
+Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) no tópico _Práticas recomendadas para usar modelos_.
+
+Por exemplo, um template de email pode incluir até três seções; portanto, você pode ter três seções de título e corpo:
 
 - `pre-header`
 - `pod1_headline`
