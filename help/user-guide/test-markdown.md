@@ -3,7 +3,8 @@ title: Página de teste para marcação
 description: Este artigo está oculto para testar diferentes transformações de marcação.
 hide: true
 hidefromtoc: true
-source-git-commit: 3b186165022be9ac98c7698cf1511e36332962d8
+recommendations: noDisplay, noCatalog
+source-git-commit: cac3ee686121c3b5eca6f91ab6cfe2c0e97def4a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -33,4 +34,4 @@ ht-degree: 0%
 
 Agora é possível gerar novas frases de chamada para ação (CTA) ao gerenciar variantes. Use as novas opções _Rephrase_ e _Adicionar link_ para gerar novas frases e editar o link CTA. Seu modelo deve ser configurado corretamente para que essas novas funções do CTA funcionem. Siga as diretrizes em _Personalizar um modelo_: [Chamadas para ação](/help/user-guide/content/customize-template.md#calls-to-action). Para obter diretrizes sobre como gerenciar CTAs em variantes, consulte [Chamada para ação de revisão](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
-![Refrase do CTA em ação](/help/assets/animation/rephrase-cta.gif "refrase do CTA"){width="250" align="center"}
+![Refrase do CTA em ação](/help/assets/animation/rephrase-cta.gif "refrase do CTA"){width="250" align="center" zoomable="yes"}
