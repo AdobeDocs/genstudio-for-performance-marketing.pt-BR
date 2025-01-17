@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ O [!DNL Create] permite que os criadores de conteúdo usem [diretrizes](/help/us
 
 Ao gerar Meta experiências, quatro variações são criadas e mostradas na Tela.
 
+O GenStudio for Performance Marketing oferece suporte a [Metadados de tamanho padrão e personalizado](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+
 As seções editáveis de uma experiência de email incluem:
 
 * Título
 * Corpo
-* Frase de chamariz (CTA)
+* Chamada para ação (CTA)
 * Texto na imagem
 * Imagem
 * Logotipo da marca

@@ -2,13 +2,14 @@
 title: Exibir experiências de anúncio
 description: Saiba mais sobre as experiências de anúncio de exibição no Adobe GenStudio for Performance Marketing.
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 1%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +21,13 @@ O [!DNL Create] capacita os profissionais de marketing modernos a [produzir expe
 
 Ao gerar experiências de anúncio de exibição, quatro variações são criadas e mostradas na Tela.
 
-A Adobe GenStudio for Performance Marketing oferece suporte a [anúncios de exibição de tamanho padrão e personalizado](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+A GenStudio for Performance Marketing oferece suporte a [anúncios de exibição de tamanho padrão e personalizado](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 As seções editáveis de uma experiência de anúncio de exibição incluem:
 
 * Título
 * Corpo
-* Frase de chamariz (CTA)
+* Chamada para ação (CTA)
 * Imagem
 
 Consulte [Elementos do modelo](/help/user-guide/content/use-templates.md#template-elements).

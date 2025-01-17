@@ -3,9 +3,9 @@ title: Trabalhar com modelos
 description: Descubra como usar modelos de maneira eficaz para simplificar seu processo criativo no Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,9 @@ Veja a seguir uma lista dos elementos usados em templates e alguns detalhes sobr
    - Capaz de incluir texto, imagens e outras mídias
    - Usado em modelos de email e de meta-anúncios
 
-- **CTA (Plano de ação)**
+- **CTA**
 
+   - O botão de frase de chamariz usa uma frase e um link
    - Incentiva o recipient a realizar uma ação específica, como clicar em um link ou fazer uma compra
    - Usado em modelos de email e de meta-anúncios
 

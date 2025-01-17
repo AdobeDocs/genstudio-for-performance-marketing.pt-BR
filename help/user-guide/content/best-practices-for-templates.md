@@ -4,9 +4,9 @@ description: Siga as práticas recomendadas ao usar modelos com o Adobe GenStudi
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ Siga estas práticas recomendadas de design ao personalizar modelos de metadados
 - Quadrado 1:1 (1080 x 1080 pixels)
 - Vertical 4:5 (1080 x 1350 pixels)
 - História 9:16 (1080 x 1920 pixels)
+- Tamanho de imagem personalizada: (largura mínima de imagem de 50 x 50 pixels)
 
 **Nomes de campos reconhecidos**:
 
@@ -121,6 +122,8 @@ Para Metadados, os campos `headline`, `body` e `CTA` são gerados automaticament
 Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
 
 >[!TAB Exibir anúncio]
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
 
 Siga estas práticas recomendadas de design ao personalizar modelos de anúncio de exibição para trabalhar com a GenStudio for Performance Marketing:
 

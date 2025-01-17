@@ -4,9 +4,9 @@ description: Saiba como personalizar e otimizar seu modelo para o Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
+source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Você pode personalizar um modelo para usar no GenStudio for Performance Marketing inserindo espaços reservados para conteúdo, ou campos, que a IA geradora usa para inserir conteúdo.
 
-As próximas seções explicam como adaptar seus modelos de HTML para o GenStudio for Performance Marketing usando a linguagem de modelo _Handlebars_. A sintaxe [!DNL Handlebars] usa texto regular com chaves duplas como espaços reservados para conteúdo. Consulte [O que é [!DNL Handlebars]?](https://handlebarsjs.com/guide/#what-is-handlebars) no _guia de idioma do Handlebars_ para saber como preparar seu modelo.
+As próximas seções explicam como adaptar seus modelos de HTML para o GenStudio for Performance Marketing usando a linguagem de modelo _[!DNL Handlebars]_. A sintaxe [!DNL Handlebars] usa texto regular com chaves duplas como espaços reservados para conteúdo. Consulte [O que é [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) no_ Guia de linguagem do Handlebars _para saber como preparar seu modelo.
 
 
 Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio for Performance Marketing](use-templates.md#upload-a-template) e começar a gerar emails personalizados com base no modelo personalizado.
@@ -123,6 +123,32 @@ Por exemplo, um template de email pode incluir até três seções; portanto, vo
 A GenStudio for Performance Marketing entende que `pod1_headline` está mais intimamente relacionado a `pod1_body` do que a `pod2_body`.
 
 Consulte [Prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) para saber como criar um prompt que gera conteúdo variável para cada seção de um email.
+
+### Planos de ação
+
+Um Plano de ação (CTA) inclui uma frase e um link. Para que os recursos _[!UICONTROL Rephrase]_ e _[!UICONTROL Adicionar link]_ do CTA funcionem corretamente durante o processo de geração de variante, você deve incluir espaços reservados para o link e a frase no modelo.
+
+Use a orientação a seguir para configurar espaços reservados para o CTA:
+
+- A refrase do CTA está disponível e o link é editável
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >{{cta}}</a>
+  ```
+
+- A refrase do CTA está disponível, mas o link **não** é editável porque o link real é fornecido no modelo
+
+  ```html
+  <a align="center" href="https://link">{{cta}}</a>
+  ```
+
+- O link do CTA é editável, mas a refrase está **não** disponível porque a frase é fornecida no modelo
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >Register now</a>
+  ```
+
+O GenStudio for Performance Marketing também pode fornecer frases de chamada para ação de variante. Consulte [Revisar chamada para ação](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ## Visualização do modelo
 

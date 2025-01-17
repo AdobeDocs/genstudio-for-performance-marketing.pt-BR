@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Antes de começar a gerar uma experiência de Metadados, é importante [incorpor
 
 ## Escolher um modelo
 
-Para começar a gerar uma nova experiência de Metadados, use um modelo disponível para fornecer a estrutura para o seu conteúdo.
+Para começar a gerar uma nova experiência de Metadados, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre as taxas de proporção do metaanúncio com suporte.
 
 **Para escolher um modelo de meta-anúncio**:
 
@@ -58,7 +58,7 @@ Quando terminar de adicionar parâmetros, você poderá recolher a gaveta do pro
 
 ## Digite um prompt
 
-Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de Meta ad. Prompts detalhados produzem uma saída de qualidade superior aos prompts vagos ou indescritivos.
+Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de Meta ad. Prompts detalhados produzem uma saída de qualidade superior aos prompts vagos ou ambíguos.
 
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
@@ -88,7 +88,8 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 * **Para [editar o nome do rascunho do Metaanúncio](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar um Metadado manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer uma das seções de anúncio (como a linha de assunto,
 cabeçalho ou cópia do corpo) e edite conforme necessário.
-* **Para alterar ou selecionar a frase de chamariz**, clique no botão que exibe a frase de chamariz e selecione nas opções de texto disponíveis do botão.<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
+* **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione nas opções de texto disponíveis do botão. Em _Link_, insira uma URL para o texto de chamada para ação.
+<!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
 * **Para [cortar ou reposicionar imagens](/help/user-guide/create/manage-variants.md#crop-assets)**, passe o mouse sobre uma imagem, clique no ícone de recorte exibido e ajuste o tamanho e o posicionamento da imagem.
 * **Para [excluir um Metadado](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no título do anúncio (por exemplo, &quot;Meta 4&quot;) e clique em **[!UICONTROL Excluir variante]**.

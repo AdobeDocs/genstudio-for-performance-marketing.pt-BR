@@ -3,9 +3,9 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 O Adobe GenStudio for Performance Marketing [!DNL Create] permite personalizar e aprimorar as variantes geradas—[emails](/help/user-guide/create/email-experiences.md), [Metadados](/help/user-guide/create/meta-experiences.md) e muito mais — para uso em iniciativas de marketing digital.
 
-Ao [criar experiências](/help/user-guide/create/overview.md), você pode modificar o conteúdo e os ativos das variantes geradas individualmente ou em lote. A capacidade de gerenciar variantes em nível micro individual permite gerenciar explicitamente cada parte do conteúdo gerado.
+Ao [criar experiências](/help/user-guide/create/overview.md), você pode modificar o conteúdo e os ativos das variantes geradas individualmente ou em lote. A capacidade de gerenciar variantes em nível micro individual permite gerenciar cada parte do conteúdo gerado.
 
 ## Alterar nome do rascunho
 
@@ -52,22 +52,38 @@ Por exemplo, você pode gerar novamente a seção de título de uma variante do 
 1. Para alterar o texto existente, selecione _[!UICONTROL Refrase]_, _[!UICONTROL Encurtar]_ ou _[!UICONTROL Ampliar]_.
 1. Para gerar novas opções de estilo, selecione _[!UICONTROL Gerar novo texto]_ e insira um novo prompt.
    1. Clique em **[!UICONTROL Gerar]**.
-1. Quando estiver gerando novamente o texto de uma seção, clique no ícone de regeneração para ver mais opções de texto.
+1. Ao gerar novamente o texto de uma seção, clique no ícone gerar novamente (setas circulares) para ver mais opções de texto.
 1. Nos resultados exibidos, selecione a opção desejada e clique em **[!UICONTROL Substituir]**.
 
    A variante é atualizada com o texto revisado.
 
-## Revisar a frase de chamariz
+## Revisar frase de chamariz
 
 Depois de gerar um conjunto de variantes, você pode revisar o texto e o link de chamada para ação (CTA).
 
+>[!NOTE]
+>
+>Você poderá editar o texto do rótulo do CTA usando a opção _[!UICONTROL Rephrase]_ se o texto do rótulo for um campo de modelo gerado (não codificado no modelo). É possível editar um link do CTA usando a opção _[!UICONTROL Editar link]_ se o link for existente e editável (não embutido em código no modelo).
+
 **Para revisar a CTA em uma variante**:
 
-1. Depois de gerar um conjunto de variantes, clique no botão que exibe o texto do CTA.
-1. Para alterar o texto do botão CTA, selecione uma das opções disponíveis na lista _Chamada para ação_.
-1. Para alterar o link na CTA, clique em **[!UICONTROL Link]**.
-   1. Insira ou cole em um novo link ou revise o link existente na seção _Editar link_ e clique em **[!UICONTROL Aplicar]**. Você pode clicar em **[!UICONTROL Remover link]** para remover o link existente antes de inserir um novo.
+1. Clique em um botão CTA em uma das variantes.
 
+   O botão está selecionado, exibe a contagem de caracteres e apresenta duas opções: _[!UICONTROL Refrase]_ e _[!UICONTROL Adicionar link]_.
+
+1. Clique em **[!UICONTROL Refrase]**.
+
+   1. Escolha na lista de frases geradas novamente ou clique em **[!UICONTROL Atualizar resultados]** para obter mais opções.
+
+   1. Clique em **[!UICONTROL Substituir]**.
+
+      O texto do CTA é atualizado e uma mensagem _&quot;Um rótulo de botão foi substituído&quot;_ é exibida confirmando a alteração.
+
+1. Clique em **[!UICONTROL Adicionar link]**.
+
+   1. Digite ou cole uma URL e clique em **[!UICONTROL Aplicar]**.
+
+      Para revisar um link existente na sua CTA, edite o URL existente ou cole em um novo URL e clique em **[!UICONTROL Aplicar]**.
 
 O link adicionado ou revisado é aplicado a todos os CTAs no conjunto de variantes.
 
