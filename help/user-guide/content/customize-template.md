@@ -4,9 +4,9 @@ description: Saiba como personalizar e otimizar seu modelo para o Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -181,17 +181,13 @@ Outro exemplo pode ser impedir o uso de códigos de rastreamento ao visualizar u
 
 ## Conteúdo estático
 
-Os modelos de email e meta geralmente vinculam a imagens e arquivos CSS hospedados fora do GenStudio for Performance Marketing. Quando o GenStudio for Performance Marketing gera miniaturas para esses modelos ou as experiências derivadas deles, ele pode ignorar esses recursos externos se eles não tiverem os cabeçalhos corretos do CORS (Cross-Origin Resource Sharing, Compartilhamento de recursos entre origens).
+Os modelos de email e meta geralmente vinculam-se a imagens e arquivos CSS hospedados em outros domínios. Quando o GenStudio for Performance Marketing gera miniaturas para visualizações de modelo ou as experiências derivadas delas, ele valida a fonte de conteúdo e incorpora uma cópia para fins de visualização.
 
-Para garantir que esses recursos estejam disponíveis durante o processo de geração de miniaturas, considere duas opções:
+Os arquivos externos são temporariamente incorporados apenas para criar a pré-visualização do modelo, o que garante que a pré-visualização reflita com precisão o conteúdo conforme ele aparece no momento da criação. Estes arquivos externos **não** são armazenados permanentemente no GenStudio for Performance Marketing. Após a criação da pré-visualização do modelo, o GenStudio for Performance Marketing continua fazendo referência ao link de origem original fornecido no modelo.
 
-1. **Usar cabeçalhos CORS**: o servidor host deve enviar respostas com um cabeçalho `Access-Control-Allow-Origin` definido como valor `https://experience.adobe.com` para ambientes de produção. Esse método permite que o GenStudio for Performance Marketing acesse e inclua os recursos.
+### Atualizar conteúdo
 
-1. **Usar URLs de Dados**: Incorpore os recursos externos diretamente no modelo usando URLs de Dados. Esse método ignora as restrições do CORS e garante que os recursos estejam disponíveis durante a geração de miniaturas.
-
->[!TIP]
->
->Use [atualizar](/help/user-guide/content/use-templates.md#refresh-template) para atualizar a visualização do modelo com o conteúdo estático mais recente.
+Se a origem for alterada após a criação da visualização inicial, use a função [atualizar](/help/user-guide/content/use-templates.md#refresh-template) para atualizar a visualização do modelo com a versão mais recente do conteúdo das fontes externas.
 
 ## Exemplos de modelo
 
