@@ -3,9 +3,9 @@ title: Visão geral de canais
 description: Consulte uma visão geral do envolvimento do cliente, desempenho, orçamento e despesas para campanhas de marketing no Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 8d85d47bdda981838771f9401d26f04fbb48d371
+source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ A tabela a seguir fornece definições e insights para as principais métricas d
 | **[!UICONTROL Nome da metacampanha]** | Uma lista de nomes de campanha para a conta de canal conectada. O status da campanha pode ser `Active`, `Paused`, `Deleted` ou `Archived`. Filtrar campanhas por status e objetivo. | Classifique a tabela clicando no cabeçalho da coluna para qualquer uma das métricas principais. |
 | **[!UICONTROL Iniciar]** | A data em que a campanha foi lançada ou publicada no mercado. | Uma alta contagem de impressões pode indicar que o anúncio está atingindo o público-alvo desejado. |
 | **[!UICONTROL Impressões]** | Uma contagem de cada vez que o conteúdo é carregado no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para obter um insight verdadeiro sobre o desempenho, considere-a juntamente com outras métricas de envolvimento. |
-| **[!UICONTROL Cliques]** | Número de vezes que os usuários interagem com um elemento clicável, como um link ou um botão de chamada para ação, na campanha publicitária. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
+| **[!UICONTROL Cliques]** | O número de vezes que os usuários interagem com um elemento clicável, como um link ou um botão de chamada para ação, na campanha publicitária. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
 | **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques de campanha em um canal.<br>**Cálculo**: (`clicks` dividido por `impressions`) x 100 = % | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
 | **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncios da campanha publicitária. <br>**Cálculo**: (valor total `spent` dividido por `impressions`) x 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
 | **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em uma campanha publicitária.<br>**Cálculo**: valor total `spent` dividido por `clicks` = $ | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |

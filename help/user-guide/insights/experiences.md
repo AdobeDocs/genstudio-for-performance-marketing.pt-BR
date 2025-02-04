@@ -3,9 +3,9 @@ title: Visão geral das experiências
 description: Consulte uma visão geral do envolvimento do cliente, orçamento e despesas para obter experiências e desempenho no posicionamento de anúncios no Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 693557104bc880445c021f942b728af10243fe27
+source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,11 @@ A tabela a seguir fornece definições e insights para as métricas principais d
 | Métrica | Definição | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Nome da experiência]** | Uma lista de experiências para a conta de canal conectada. Filtre anúncios selecionando uma campanha. | Classifique a lista de experiências clicando em qualquer uma das métricas principais. |
-| **[!UICONTROL Campanha]** | Uma campanha é um conjunto de experiências projetadas para atingir um objetivo específico. | |
-| **[!UICONTROL Posicionamentos]** | Uma contagem de [posicionamentos](#ad-placements) de anúncios, locais em que uma experiência apareceu na campanha. | Os posicionamentos aumentam o alcance do público-alvo. |
-| **[!UICONTROL Assets]** | Uma contagem dos ativos usados no anúncio ou na experiência. | |
-| **[!UICONTROL Impressões]** | Uma contagem de cada vez que o posicionamento do anúncio ou a experiência são carregados no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para obter um verdadeiro insight sobre o desempenho, considere com outras métricas de envolvimento. |
-| **[!UICONTROL Cliques]** | Número de vezes que os usuários interagem com um elemento clicável, como um link ou um botão de chamada para ação, em um posicionamento de experiência. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
+| **[!UICONTROL Campanha]** | Uma campanha é um conjunto de experiências projetadas para atingir um objetivo específico. | Ao filtrar a tabela Experiências por campanha, as métricas de resumo de todas as experiências da campanha podem ser diferentes da linha de resumo da campanha na exibição [!UICONTROL Canais]. Essa discrepância pode ocorrer se a origem do canal, como Meta e GenStudio, usar cálculos de resumo ligeiramente diferentes. |
+| **[!UICONTROL Posicionamentos]** | Uma contagem de [posicionamentos](#ad-placements) de anúncios, locais em que uma experiência apareceu na campanha. | Os posicionamentos aumentam o alcance do público-alvo.<p>Anúncios que mostram zero posicionamento e zero ativos podem indicar um [tipo de anúncio sem suporte](#unsupported-placements).</p> |
+| **[!UICONTROL Assets]** | O número de ativos usados no anúncio ou na experiência. | A contagem na tabela Experiências pode ser diferente da contagem na visualização Detalhes da experiência. Essa discrepância pode ocorrer se a origem do canal, como Meta e GenStudio, usar cálculos de resumo ligeiramente diferentes. |
+| **[!UICONTROL Impressões]** | Uma contagem de cada vez que o posicionamento do anúncio ou a experiência são carregados no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para obter um insight verdadeiro sobre o desempenho, considere-a em relação a outras métricas de envolvimento. |
+| **[!UICONTROL Cliques]** | O número de vezes que os usuários interagem com um elemento clicável, como um link ou um botão de chamada para ação, em um posicionamento de experiência. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
 | **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques no posicionamento da experiência em uma campanha.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
 | **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncio para o posicionamento da experiência.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
 | **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Use para monitorar os gastos em experiências que resultam em ações valiosas do cliente. |

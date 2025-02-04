@@ -3,9 +3,9 @@ title: Visão geral do Assets
 description: Saiba como avaliar o desempenho do ativo no Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
+source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,8 @@ A tabela a seguir fornece definições e insights para as métricas principais d
 | Métrica | Definição | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL ID do ativo]** | O nome associado a este ativo. | Classifique a tabela clicando no cabeçalho da coluna para qualquer uma das métricas principais. |
-| **[!UICONTROL Impressões]** | Uma contagem de cada vez que o ativo é carregado no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para obter um verdadeiro insight sobre o desempenho, considere com outras métricas de envolvimento. |
-| **[!UICONTROL Cliques]** | Número de vezes que os usuários interagem com um elemento clicável, como um link, no ativo. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
+| **[!UICONTROL Impressões]** | Uma contagem de cada vez que o ativo é carregado no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para obter um insight verdadeiro sobre o desempenho, considere-a em relação a outras métricas de envolvimento. |
+| **[!UICONTROL Cliques]** | O número de vezes que os usuários interagem com um elemento clicável, como um link, no ativo. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
 | **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques em ativos em uma experiência.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
 | **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncios do ativo.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
 | **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Ajuda a identificar ativos que resultam em ações valiosas do cliente. |
