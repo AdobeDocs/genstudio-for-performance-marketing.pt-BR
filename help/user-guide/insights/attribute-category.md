@@ -5,9 +5,9 @@ feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
 last-substantial-update: 2024-11-11T00:00:00Z
 exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 976358742e598b55b1f0c4ca4664d2bcd8f1e9b9
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '609'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Uma categoria de atributo é um grupo de classificação que organiza atributos relacionados que compartilham uma característica comum. Essas categorias ajudam a simplificar a descoberta, a identificação e a compreensão de atributos específicos, fornecendo maior contexto e facilitando sua aplicação e uso.
 
-O GenStudio for Performance Marketing usa a Adobe e os recursos de aprendizado de máquina para estudar imagens, vídeos e texto e aplicar os [!UICONTROL atributos de ativo] de acordo com a probabilidade de correção. A lista de atributos de um ativo não é exaustiva. O Assets que contém um conjunto avançado de recursos pode ser limitado aos três recursos mais dominantes identificados pela IA.
+O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar imagens, vídeos e texto e aplicar os [!UICONTROL atributos de ativos] com base na probabilidade de correção. A lista de atributos de um ativo não é exaustiva. O Assets que contém um conjunto avançado de recursos pode ser limitado aos três recursos mais dominantes identificados pela IA.
 
 ## Recursos da imagem
 
@@ -29,7 +29,8 @@ Os recursos de imagem representam elementos ou padrões distintos e informativos
 | Ângulo da câmera | A localização e o ângulo da câmera em relação ao assunto. |                                                                                                                                                                                |
 | Distância do assunto | A distância entre a câmera e o assunto de uma imagem. | `close up`, `mid shot`, `long shot` |
 | Configuração da câmera | A configuração dos controles da câmera para produzir a imagem. |                                                                                                                                                                                |
-| Cor e tom | Avalia as cores usadas nos elementos da imagem. Identifica de uma a três cores de um conjunto de 40 cores predeterminadas nas seguintes camadas de imagem:<br>**[!UICONTROL Cores do primeiro plano ]**—elementos na camada da frente da imagem<br>**[!UICONTROL Cores do plano de fundo]**—elementos na camada de fundo de uma imagem<p>**[!UICONTROL Temperatura de cor]** descreve o calor geral ou a frieza das cores da imagem.<br>Valores de tom ou temperatura: `warm`, `cool`, `neutral` | ![cores e tons suaves](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
+| Cor e tom | Avalia as cores usadas nos elementos da imagem. Identifica de uma a três cores de um conjunto de 40 cores predeterminadas nas seguintes camadas de imagem:<br>**[!UICONTROL Cores do primeiro plano ]**—elementos na camada da frente da imagem<br>**[!UICONTROL Cores do plano de fundo]**—elementos na camada de fundo de uma imagem | Valores de cor: `Red`, `Dark_Red`, `Green`, `Bright_Green`, `Dark_Green`, `Light_Green`, `Mud_Green`, `Blue`, `Dark_Blue`, `Light_Blue`, `Royal_Blue`, `Black`, `White`, `Off_White`, `Gray`, `Dark_Gray`, `Silver`, `Cream`, `Magenta`, `Cyan`, `Yellow`, `Mustard`, `Khaki`, `Brown`, `Dark_Brown`, `Violet`, `Pink`, `Dark_Pink`, `Maroon`, `Tan`, `Purple`, `Lavender`, `Turquoise`, `Plum`, `Gold`, `Emerald`, `Orange`, `Beige`, `Lilac`, `Olive` |
+| Temperatura de cor | Descreve o calor geral ou a frieza das cores na imagem. | Valores de tom ou temperatura: `warm`, `cool`, `neutral`<br>![cores e tons frios](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
 | Estilo da imagem | O tratamento visual de uma imagem. |                                                                                                                                                                                |
 | Condição de iluminação | O tipo de luz em uma imagem. |                                                                                                                                                                                |
 | Objetos | Identifica um ou mais itens, entidades e elementos que compõem a imagem. | ![girassol, plano, objeto de flor](../../assets/category/image-objects.png){width="200" zoomable="yes"} |
