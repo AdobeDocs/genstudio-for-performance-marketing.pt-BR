@@ -3,9 +3,9 @@ title: Visão geral de canais
 description: Consulte uma visão geral do envolvimento do cliente, desempenho, orçamento e despesas para campanhas de marketing no Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 A exibição [!DNL Insights] _[!UICONTROL Canais]_ mostra uma lista de campanhas para a conta de anúncio do canal conectado.
 
->[!TIP]
->
->O GenStudio for Performance Marketing exige que você se conecte a uma conta de canal para começar a receber dados. Consulte [Conectar conta de canal](connect-channel.md).
+{{connect-insights}}
 
 A tabela _[!UICONTROL Canais]_ é organizada com o uso da campanha publicitária baseada em canais. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, no qual você pode selecionar entre as listas [!UICONTROL Conta], [!UICONTROL Status] e [!UICONTROL Objetivo] para filtrar as campanhas na tabela.
 
 ![Filtro de canais e tabela](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 Quando você seleciona uma campanha, a guia [[!UICONTROL Experiências]](experiences.md) abre uma lista de nomes de anúncios associados a essa campanha, o que permite identificar quais experiências contribuíram para seu sucesso geral.
 

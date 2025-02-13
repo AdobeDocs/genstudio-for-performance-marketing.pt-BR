@@ -3,9 +3,9 @@ title: Visão geral do Assets
 description: Saiba como avaliar o desempenho do ativo no Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,20 @@ ht-degree: 0%
 
 A exibição [!DNL Insights] _[!UICONTROL Assets]_ mostra uma lista de ativos usados em experiências e campanhas de anúncios para a conta de canal selecionada.
 
-A galeria _[!UICONTROL Assets]_ é a exibição padrão que mostra uma intercalação de visualizações de ativos e uma métrica, como taxa de cliques. Clique no ícone de configurações (cog) acima do lado direito da galeria para alternar uma das três métricas visualizáveis:
+{{connect-insights}}
+
+A tabela _[!UICONTROL Assets]_ é organizada com a [!UICONTROL ID de Ativo]. Você pode alternar entre as exibições usando o ícone lista de exibições (tabela) e o ícone exibição de galeria (grade). Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar em várias listas.
+
+![Filtro e tabela do Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
+
+A exibição de galeria do _[!UICONTROL Assets]_ mostra uma intercalação de visualizações de ativos e uma métrica, como taxa de click-through. Clique no ícone de configurações (cog) acima do lado direito da galeria para abrir **[!UICONTROL Configurações de cartão]** e alternar uma das três métricas visualizáveis:
 
 - CPA (Custo por ação)
 - CTR (taxa de cliques)
 - CPC (Custo por clique)
 - Gastos
-
-A tabela _[!UICONTROL Assets]_ é organizada com a [!UICONTROL ID de Ativo]. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar em várias listas.
-
-![Filtro e tabela do Assets](/help/assets/insights-assets-filter.png){zoomable="yes"}
-
-Você pode alternar entre as exibições usando o ícone lista de exibições (tabela) e o ícone exibição de galeria (grade).
 
 ## Detalhes do ativo
 

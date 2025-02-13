@@ -3,7 +3,7 @@ title: Visão geral dos atributos
 description: Saiba como avaliar o desempenho de atributos específicos no Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -14,11 +14,15 @@ ht-degree: 0%
 
 A exibição [!DNL Insights] _[!UICONTROL Atributos]_ mostra uma lista de atributos usados em campanhas de publicidade para a conta de canal selecionada.
 
+{{connect-insights}}
+
 A tabela _[!UICONTROL Atributos]_ é organizada com o nome [!UICONTROL Atributo]. Você pode alternar entre os tipos de lista usando os botões **[!UICONTROL Imagens]** e **[!UICONTROL Vídeo]**. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis.
 
 O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, no qual você pode selecionar da [!UICONTROL Conta] e da [!UICONTROL Categoria de atributo] para filtrar os atributos na tabela. O exemplo a seguir mostra uma lista de atributos na categoria `Lighting Condition`.
 
 ![Filtro e tabela de atributos](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Detalhes do atributo
 

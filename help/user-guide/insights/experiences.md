@@ -3,7 +3,7 @@ title: Visão geral das experiências
 description: Consulte uma visão geral do envolvimento do cliente, orçamento e despesas para obter experiências e desempenho no posicionamento de anúncios no Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -12,11 +12,15 @@ ht-degree: 0%
 
 # Visão geral das experiências
 
-A exibição [!DNL Insights] _[!UICONTROL Experiências]_ mostra uma lista de experiências para a conta de anúncio do canal conectado. Para o Facebook, as experiências são nomes de Metadados.
+A exibição [!DNL Insights] _[!UICONTROL Experiências]_ mostra uma lista de experiências para a conta de anúncio do canal conectado. Para o Facebook, as experiências são nomes de metadados.
+
+{{connect-insights}}
 
 A tabela _[!UICONTROL Experiências]_ é organizada com [!UICONTROL Nomes de anúncios]. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar nas listas [!UICONTROL Conta] e [!UICONTROL Campanha] para filtrar os nomes de anúncios na tabela.
 
 ![Filtro e tabela de experiências](/help/assets/insights-experiences-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Detalhes da experiência
 
@@ -40,7 +44,7 @@ O GenStudio for Performance Marketing é compatível com formatos de anúncios, 
 
 | Instagram | Facebook/Meta | Messenger | Rede de público-alvo |
 | ------------ | ---------------- | ------------ | ---------------- |
-| Explorar<br>Explorar página inicial<br>Explorar página inicial da grade<br>Feed<br>Bobinas<br>Feed de perfil<br>Pesquisa<br>Compras<br>Histórias | Business Explore<br>Feed<br>Vídeo em fluxo<br>Marketplace<br>Reels<br>Sobreposição de bobinas<br>Coluna direita<br>Resultados da pesquisa<br>Histórias<br>Feeds de vídeo<br>Anúncios em bobinas do Facebook | Caixa de entrada<br>Histórias | Nativo, banner e intersticial<br>Vídeo premiado |
+| Explorar<br>Explorar página inicial<br>Explorar página inicial da grade<br>Feed<br>Bobinas<br>Feed de perfil<br>Pesquisa<br>Compras<br>Histórias | Business Explore<br>Feed<br>Vídeo em fluxo<br>Marketplace<br>Reels<br>Sobreposição de movimentos<br>Coluna direita<br>Resultados da pesquisa<br>Histórias<br>Feeds de vídeo<br>Anúncios em movimentos do Facebook | Caixa de entrada<br>Histórias | Nativo, banner e intersticial<br>Vídeo premiado |
 
 #### Posicionamentos não compatíveis
 

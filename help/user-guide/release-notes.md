@@ -2,11 +2,11 @@
 title: Notas de versão do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-01-16T00:00:00Z
+last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
+source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1746'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,19 @@ ht-degree: 1%
 
 Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
 
-## 2025.1.16 {#latest}
+## 2025.2.13 {#latest}
+
+### Melhorias na página de aterrissagem para [!DNL Create]
+
+A página de aterrissagem do [!DNL Create] no GenStudio for Performance Marketing inclui aprimoramentos na interface do usuário que melhoram a experiência do usuário. A seção _Trabalho recente_ é refinada e configurada com a exibição em lista como a exibição padrão. O preenchimento e outras melhorias visuais simplificam a aparência da Tela [!DNL Create].
+
+### Exportação de insights para CSV
+
+Agora você pode baixar a tabela visível de qualquer exibição [!DNL Insights] em um arquivo CSV. Esse recurso permite exportar e analisar dados facilmente de várias exibições do [!DNL Insights], facilitando a análise de dados e as opções de relatório.
+
+## Notas de versão anteriores
+
++++Notas de 2025.1.16
 
 ### Integração com o Adobe Workfront Proof
 
@@ -28,10 +40,6 @@ Os programas da Beta fornecem uma maneira de ajudar a moldar o desenvolvimento d
 ### Gerar novas chamadas para ação
 
 Agora é possível gerar novas frases de chamada para ação (CTA) ao gerenciar variantes. Use as novas opções _Rephrase_ e _Adicionar link_ para gerar novas frases e editar o link CTA. Seu modelo deve ser configurado corretamente para que essas novas funções do CTA funcionem. Siga as diretrizes em _Personalizar um modelo_: [Chamadas para ação](/help/user-guide/content/customize-template.md#calls-to-action). Para obter diretrizes sobre como gerenciar CTAs em variantes, consulte [Chamada para ação de revisão](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
-
-A visualização a seguir mostra a contagem de caracteres do CTA, novas opções e um exemplo de refrase e substituição:
-
-![Refrase do CTA em ação](/help/assets/animation/rephrase-cta.gif "refrase do CTA"){width="250" zoomable="yes"}
 
 ### Correções e aprimoramentos
 
@@ -59,7 +67,7 @@ A visualização a seguir mostra a contagem de caracteres do CTA, novas opções
 
 * O botão **[!UICONTROL Voltar]** agora retorna os usuários à página anterior ou à página de aterrissagem [!DNL Create], conforme esperado. <!-- GS-8622 -->
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2024.12.12
 
@@ -75,13 +83,13 @@ Os editores agora podem especificar valores personalizados para esses aspectos d
 
 * Largura e altura dos banners da Web em modelos de anúncios de exibição. Esses valores agora são salvos como metadados do modelo. <!-- GS-6735 -->
 
-* Dimension para imagens em experiências de anúncio de exibição durante o carregamento da imagem.<!-- GS-7166 -->
+* Dimensões de imagens em experiências de anúncio de exibição durante o carregamento da imagem.<!-- GS-7166 -->
 
 * Consulte as diretrizes específicas do canal nas [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 As opções de exportação agora incluem:
 
-* Exporte anúncios de exibição e Meta anúncios como HTML, JPEG ou PNG. Consulte [Criar uma experiência de anúncio de exibição](/help/user-guide/create/create-display-ad.md) e [Criar uma experiência de meta anúncio](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
+* Exporte anúncios de exibição e Metadados como HTML, JPEG ou PNG. Consulte [Criar uma experiência de anúncio de exibição](/help/user-guide/create/create-display-ad.md) e [Criar uma experiência de meta anúncio](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
 
 Novos recursos adicionais permitem aos editores:
 
@@ -193,13 +201,13 @@ Esta versão inclui melhorias na localização em toda a interface do usuário, 
 
 * A pontuação da marca agora é atualizada e mantida conforme esperado para experiências regeneradas. <!-- GS-6535 -->
 
-* A exportação de HTML de Metadados e anúncios de exibição não inclui mais elementos de wrapper `div` e `chrome`. <!-- GS-7116 -->
+* A exportação de Metadados e anúncios de exibição do HTML não inclui mais elementos `div` e `chrome` do invólucro. <!-- GS-7116 -->
 
 * Problemas com a renderização de rascunho de email durante a publicação agora são resolvidos. <!-- GS-6394 -->
 
 * O botão **[!UICONTROL Marca]** da Tela de Pintura agora está desabilitado quando uma pontuação de marca não é gerada. <!-- GS-6429 -->
 
-* O botão Facebook/Instagram na barra de ação da Tela de Pintura agora atualiza as renderizações da experiência conforme esperado quando a configuração da Tela de Pintura `ReadOnly` está habilitada. <!-- GS-7039 -->
+* O botão Facebook/Instagram na barra de ação da Tela agora atualiza as renderizações da experiência conforme esperado quando a configuração da Tela `ReadOnly` está habilitada. <!-- GS-7039 -->
 
 #### Regeneração de imagem
 
