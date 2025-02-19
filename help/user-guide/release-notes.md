@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
+source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1729'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Agora você pode baixar a tabela visível de qualquer exibição [!DNL Insights]
 
 O programa Beta de integração do GenStudio for Performance Marketing e do Adobe Workfront Proof é iniciado este mês. O Workfront Proof impulsiona o ciclo de vida de criação e ativação de conteúdo com modelos de aprovação, fluxos de trabalho de vários estágios e anotações. Usuários do GenStudio for Performance Marketing com direitos ao Workfront Proof podem usar os recursos avançados do Proof no GenStudio for Performance Marketing para revisar e comentar sobre conteúdo gerado pelo GenStudio.
 
-Os programas da Beta fornecem uma maneira de ajudar a moldar o desenvolvimento de produtos e determinar a disponibilidade geral. Entre em contato com Etienne Bosch (etienneb@adobe.com) para obter informações sobre o programa Beta de integração do GenStudio for Performance Marketing/Workfront Proof.
+Os programas da Beta fornecem uma maneira de ajudar a moldar o desenvolvimento de produtos e determinar a disponibilidade geral.
 
 ### Gerar novas chamadas para ação
 
