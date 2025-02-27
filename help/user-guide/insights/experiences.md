@@ -3,9 +3,9 @@ title: Visão geral das experiências
 description: Consulte uma visão geral do envolvimento do cliente, orçamento e despesas para obter experiências e desempenho no posicionamento de anúncios no Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ A exibição [!DNL Insights] _[!UICONTROL Experiências]_ mostra uma lista de ex
 
 {{connect-insights}}
 
-A tabela _[!UICONTROL Experiências]_ é organizada com [!UICONTROL Nomes de anúncios]. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar nas listas [!UICONTROL Conta] e [!UICONTROL Campanha] para filtrar os nomes de anúncios na tabela.
+A tabela _[!UICONTROL Experiências]_ é organizada com [!UICONTROL Nomes de anúncios]. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar nas listas [!UICONTROL Conta] e [!UICONTROL Campanha] para filtrar os nomes de anúncios na tabela. Clique em **Redefinir** para limpar todas as seleções de filtro.
 
 ![Filtro e tabela de experiências](/help/assets/insights-experiences-filter.png){zoomable="yes"}
 
@@ -26,7 +26,7 @@ A tabela _[!UICONTROL Experiências]_ é organizada com [!UICONTROL Nomes de an�
 
 Uma _experiência_ é um ativo promocional que inclui conteúdo visual e interativo destinado à distribuição para um público específico como parte de uma campanha de marketing.
 
-Selecione uma experiência (nome do anúncio) e visualize as métricas de desempenho, os atributos de texto e os posicionamentos associados a cada anúncio. Na visualização de detalhes, é possível analisar as métricas de uma experiência com base em seus esforços de posicionamento de anúncios e marketing em um intervalo de datas especificado.
+Selecione uma experiência e visualize as métricas de desempenho, os atributos de texto e os posicionamentos associados a cada anúncio. Na visualização de detalhes, é possível analisar as métricas de uma experiência com base em seus esforços de posicionamento de anúncios e marketing em um intervalo de datas especificado.
 
 A exibição de detalhes inclui uma métrica para o anúncio geral `click-through rate`, `cost per action` e `spend`—quanto do orçamento tem estado no anúncio. Como os anúncios podem ter vários posicionamentos, como um feed ou um banner, você pode ver um detalhamento das mesmas métricas para cada posicionamento de anúncio. Use as setas para a esquerda e para a direita em **[!UICONTROL Desempenho por posicionamento de anúncio]** para percorrer as métricas de posicionamento.
 
@@ -34,7 +34,7 @@ A exibição de detalhes inclui uma métrica para o anúncio geral `click-throug
 
 ### Atributos de texto
 
-Abaixo da visualização da experiência está uma lista de [!UICONTROL Atributos de texto] associados ao anúncio. Quando ativos e experiências são aprovados e armazenados no [!DNL Content], a GenStudio for Performance Marketing gera tags com base em seus recursos inerentes. Consulte [detalhes do ativo](../content/asset-details.md#system-metadata) para obter detalhes sobre metadados do sistema.
+Abaixo da visualização da experiência está uma lista de [!UICONTROL Atributos de texto] associados ao anúncio. Quando ativos e experiências são aprovados e armazenados no [!DNL Content], a GenStudio for Performance Marketing gera tags com base em seus recursos inerentes. Consulte [detalhes do ativo](/help/user-guide/content/asset-details.md#system-metadata) para obter detalhes sobre metadados do sistema.
 
 ### Posicionamentos de anúncios
 
@@ -73,15 +73,17 @@ A tabela a seguir fornece definições e insights para as métricas principais d
 | **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncio para o posicionamento da experiência.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
 | **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Use para monitorar os gastos em experiências que resultam em ações valiosas do cliente. |
 | **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em um posicionamento de experiência.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
-| **[!UICONTROL Gastar]** | O valor gasto do orçamento durante um determinado período. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor dos gastos em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
+| **[!UICONTROL Gastar]** | O valor gasto com o orçamento da campanha durante um determinado período para colocar essa experiência de anúncio. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor gasto em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
 
 ## Desempenho de posicionamento
 
-Na exibição _Detalhes da experiência_, as três métricas principais refletem o desempenho geral da experiência selecionada. No entanto, a seção _Desempenho por posicionamento_ mostra as métricas detalhadas para cada posicionamento de anúncio. A tabela a seguir fornece definições para métricas de desempenho de posicionamento:
+Na exibição _Detalhes da experiência_, as três métricas principais refletem o desempenho geral da experiência selecionada. No entanto, a seção _Desempenho por posicionamento_ mostra as métricas detalhadas para cada posicionamento de anúncio. Use as setas para a direita e para a esquerda para navegar pelos diferentes posicionamentos de anúncios.
 
-| Métrica | Definição | Cálculo |
+A tabela a seguir fornece definições para as métricas de desempenho de posicionamento de anúncios:
+
+| Métrica | Definição | Insight |
 | ---------------------- | ----------------------------- | ----------- |
-| **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques no posicionamento de anúncio da experiência. | `clicks` dividido por `impressions` |
-| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio gasto neste posicionamento de anúncio para realizar uma ação específica do cliente, como uma compra ou assinatura. | valor total `spent` dividido pelo número de ações de clientes concluídas |
-| **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em um posicionamento de experiência. | valor total `spent` dividido por `clicks` |
-| **[!UICONTROL Gastar]** | O valor gasto do orçamento durante um determinado período. | |
+| **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | A porcentagem (%) de impressões para um único posicionamento de anúncio que resultou em cliques.<p>**Cálculo**:`clicks` dividido por `impressions`<p>Essa métrica ajuda a determinar a eficácia do posicionamento do anúncio em envolver o público-alvo. | Um CTR alto indica que o posicionamento do anúncio é relevante e atraente para o público-alvo, resultando em mais interações. |
+| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | O custo médio gasto em um único posicionamento de anúncio para atingir a ação desejada do cliente, como uma compra ou assinatura.<p>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas<p>Essa métrica ajuda a avaliar a relação custo-eficiência do posicionamento do anúncio ao gerar ações valiosas. | Um CPA mais baixo sugere que a inserção de anúncios é eficaz na conversão de interações de público-alvo em ações desejadas a um custo mais baixo. |
+| **[!UICONTROL CPC ]**<br>_Custo por clique_ | O custo médio associado a cada clique em um único posicionamento de anúncio.<p>**Cálculo**: valor total `spent` dividido por `clicks`<p>Essa métrica ajuda a avaliar a relação custo-eficácia do posicionamento do anúncio na geração de cliques. | Um CPC menor indica que o posicionamento do anúncio está gerando cliques a um custo menor, o que pode ser benéfico para maximizar o retorno sobre o investimento. |
+| **[!UICONTROL Gastar]** | O valor gasto em um único posicionamento de anúncio, representando uma fração do valor total gasto em toda a experiência. Essa métrica ajuda a rastrear a alocação de orçamento e a eficiência dos gastos para cada posicionamento de anúncio. | O monitoramento dos gastos pode ajudar a garantir que os recursos estejam sendo usados de maneira eficaz em diferentes posicionamentos. |

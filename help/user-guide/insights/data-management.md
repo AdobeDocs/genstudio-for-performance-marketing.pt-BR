@@ -1,44 +1,45 @@
 ---
 title: Gestão de dados
-description: Saiba mais sobre a assimilação e o armazenamento de dados para Insights no GenStudio for Performance Marketing.
+description: Saiba mais sobre a assimilação e o armazenamento de dados do  [!DNL Insights]  no GenStudio for Performance Marketing.
 feature: Insights
 level: Experienced
 role: Admin
 last-substantial-update: 2025-1-7
-source-git-commit: 5dbe645f2ccf033f515da22ffdcce86edcb9fb24
+exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # Gestão de dados
 
-O GenStudio for Performance Marketing usa o Adobe Experience Platform (AEP) para assimilação e armazenamento de dados das métricas e metadados que alimentam o [!DNL Insights]. A AEP usa _esquemas_ para definir as estruturas de dados e _conjuntos de dados_ para armazenar e gerenciar coleções de dados.
+O GenStudio for Performance Marketing usa o Adobe Experience Platform (AEP) para assimilação e armazenamento de dados das métricas e metadados que alimentam o [!DNL Insights]. O AEP usa _esquemas_ para definir as estruturas de dados e _conjuntos de dados_ para armazenar e gerenciar coleções de dados.
 
 ## Conexões de dados
 
-O GenStudio for Performance Marketing usa o Customer Journey Analytics (CJA) para agregar várias fontes de dados criando uma conexão com um ou mais conjuntos de dados da AEP. O CJA usa essas conexões de dados para criar visualizações de dados para analisar métricas com [!DNL Insights].
+O GenStudio for Performance Marketing usa o Customer Journey Analytics (CJA) para agregar várias fontes de dados criando uma conexão com um ou mais conjuntos de dados do AEP. O CJA usa essas conexões de dados para criar visualizações de dados para analisar métricas com [!DNL Insights].
 
 >[!BEGINSHADEBOX]
 
 **Informações importantes sobre conexões de dados**
 
-Se você for um [administrador de sistema do Adobe](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), poderá ter direitos que permitem acesso ao gerenciamento de sandbox da AEP e a componentes de data lake que oferecem suporte ao GenStudio for Performance Marketing.
+Se você for um [administrador do sistema Adobe](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager), poderá ter direitos que permitem acesso ao gerenciamento de sandbox da AEP e a componentes do data lake que oferecem suporte ao GenStudio for Performance Marketing.
 
 >[!WARNING]
 >
->Redefinir a sandbox de produção na AEP exclui todas as conexões de dados e faz com que [!DNL Insights] pare de funcionar.
+>Redefinir a sandbox de produção no AEP exclui todas as conexões de dados e faz com que [!DNL Insights] pare de funcionar.
 
 Tenha cuidado e não exclua as seguintes conexões de dados necessárias para que o GenStudio for Performance Marketing opere de forma confiável:
 
-- Conjuntos de dados da AEP prefixados com `GS Insights`
-- Esquemas, classes e grupos de campos da AEP com o prefixo `GS Insights`
+- Conjuntos de dados AEP com o prefixo `GS Insights`
+- Esquemas, classes e grupos de campos do AEP com o prefixo `GS Insights`
 - Grupo de campos personalizado `timestamp for metadata`
-- Conexões da AEP: fluxos de dados com o prefixo `GS Insights`
+- Conexões do AEP: fluxos de dados com o prefixo `GS Insights`
 - Conexões da AEP: conta do GS Insights
 
-Consulte [Excluir implicações](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) no guia _Customer Journey Analytics_ antes de excluir quaisquer componentes de dados na AEP.
+Consulte [Excluir implicações](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) no guia do _Customer Journey Analytics_ antes de excluir quaisquer componentes de dados no AEP.
 
 >[!ENDSHADEBOX]
 

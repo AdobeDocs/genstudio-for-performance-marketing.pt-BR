@@ -3,9 +3,9 @@ title: Visão geral de canais
 description: Consulte uma visão geral do envolvimento do cliente, desempenho, orçamento e despesas para campanhas de marketing no Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ No momento em que você criou uma campanha com Meta anúncios, é possível que 
 
 ## Desempenho do canal
 
-Dependendo das suas metas de desempenho, as métricas de Insights podem ajudar a avaliar se você está alcançando seu objetivo.
+Dependendo das suas metas de desempenho, as métricas [!DNL Insights] podem ajudá-lo a avaliar se você está alcançando seu objetivo.
 
 Por exemplo, se o reconhecimento for seu objetivo, um aumento na taxa de `impressions` pode indicar que você está expandindo seu alcance. Para entender se isso é atingir seu objetivo, você pode consultar métricas que indicam que seu conteúdo é envolvente, como `clicks` ou `video plays`. Qual é a eficiência do seu público-alvo interagindo com o seu conteúdo?
 

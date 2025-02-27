@@ -3,10 +3,10 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1348'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ A seguir, uma pesquisa sobre o termo `dog` na galeria [!UICONTROL Assets]:
 
 O filtro e a interface de pesquisa são rápidos e responsivos e fornecem uma experiência produtiva de pesquisa. Cada exibição do [!DNL Content] fornece opções de filtro para restringir sua pesquisa pelo ativo, experiência ou modelo ideal. Para ativos e experiências, você pode selecionar uma campanha e diretrizes específicas, como o conteúdo criado para um produto específico.
 
-Há filtros baseados em [palavras-chave](asset-details.md#user-defined-metadata) e [categorias de atributo](/help/user-guide/insights/attribute-category.md) para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha. Ou você pode filtrar o conteúdo com base no seu nome de usuário ou no nome de um membro da equipe:
+Há filtros baseados em [palavras-chave](asset-details.md#user-defined-metadata) e [categorias de atributo](/help/user-guide/insights/attributes.md#categories) para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha. Ou você pode filtrar o conteúdo com base no seu nome de usuário ou no nome de um membro da equipe:
 
 - O filtro **[!UICONTROL Carregado por]** limita a lista _[!UICONTROL Assets]_ para mostrar apenas os ativos carregados por você ou por uma pessoa específica.
 - O filtro **[!UICONTROL Criado por]** limita a lista _[!UICONTROL Experiências]_ para mostrar apenas as experiências criadas por você ou por uma pessoa específica.
@@ -39,7 +39,7 @@ Há filtros baseados em [palavras-chave](asset-details.md#user-defined-metadata)
 
    >[!IMPORTANT]
    >
-   >A lista _Local_ está disponível somente quando você [se conecta a um repositório AEM](connect-aem-repo.md).
+   >A lista _Local_ está disponível somente quando você [se conecta a um repositório do AEM](connect-aem-repo.md).
 
 1. Clique em **[!UICONTROL Pesquisar]** (lupa) para inserir uma palavra-chave ou descrição.
 
@@ -55,19 +55,19 @@ Há filtros baseados em [palavras-chave](asset-details.md#user-defined-metadata)
 
 Por padrão, os ativos adicionados a [!DNL Content] por meio do processo [!DNL Create] ou através de upload são armazenados no repositório `GenStudio assets`. O repositório `GenStudio assets` é um repositório leitura-gravação no GenStudio for Performance Marketing. Isso significa que você pode salvar, editar e excluir ativos no repositório `GenStudio assets`.
 
-A lista **[!UICONTROL Local]** acima da galeria _[!UICONTROL Assets]_ à direita permite selecionar entre repositórios do Adobe Experience Manager (AEM) [!DNL Assets Content Hub] conectados.
+A lista **[!UICONTROL Local]** acima da galeria _[!UICONTROL Assets]_ à direita permite selecionar entre repositórios conectados do Adobe Experience Manager (AEM) [!DNL Assets Content Hub].
 
 ![Lista de locais de repositórios](../../assets/content-location-selection.png){width="350"}
 
-Quando você seleciona um repositório AEM, a galeria mostra um inventário de ativos desse repositório, permitindo que você aproveite os ativos aprovados desses repositórios como entradas para a criação de conteúdo. As opções de filtro são alteradas para refletir as categorias configuradas em [!DNL AEM Assets Content Hub].
+Quando você seleciona um repositório do AEM, a galeria mostra um inventário de ativos desse repositório, permitindo que você aproveite os ativos aprovados desses repositórios como entradas para a criação de conteúdo. As opções de filtro são alteradas para refletir as categorias configuradas em [!DNL AEM Assets Content Hub].
 
-Consulte [Conectar um repositório AEM](connect-aem-repo.md) para obter orientação sobre como adicionar seu repositório [!DNL AEM Assets Content Hub] ao GenStudio for Performance Marketing.
+Consulte [Conectar um repositório do AEM](connect-aem-repo.md) para obter orientação sobre como adicionar seu repositório do [!DNL AEM Assets Content Hub] ao GenStudio for Performance Marketing.
 
-O repositório AEM é somente leitura, o que significa que você pode acessar o conteúdo, mas não pode salvar rascunhos, novos ativos ou metadados no repositório AEM. Todos os rascunhos e atualizações finais para ativos, experiências e modelos são salvos no repositório do `GenStudio assets` com os novos [metadados do sistema](asset-details.md#system-metadata).
+O repositório do AEM é somente leitura, o que significa que você pode acessar o conteúdo, mas não pode salvar rascunhos, novos ativos ou metadados no repositório do AEM. Todos os rascunhos e atualizações finais para ativos, experiências e modelos são salvos no repositório do `GenStudio assets` com os novos [metadados do sistema](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
 
-Um repositório AEM pode aplicar determinados requisitos de licenciamento, como a expiração de ativos. Esses ativos podem não estar disponíveis para uso nos fluxos de trabalho do [!DNL Create]. Os ativos expirados podem precisar ser renovados ou substituídos para manter a continuidade dos projetos. Consulte o administrador do [!DNL AEM Assets Content Hub] para obter assistência com esses ativos.
+Um repositório do AEM pode aplicar determinados requisitos de licenciamento, como a expiração de ativos. Esses ativos podem não estar disponíveis para uso nos fluxos de trabalho do [!DNL Create]. Os ativos expirados podem precisar ser renovados ou substituídos para manter a continuidade dos projetos. Consulte o administrador do [!DNL AEM Assets Content Hub] para obter assistência com esses ativos.
 
 ## Gerenciamento do Assets
 
@@ -77,7 +77,7 @@ A tabela a seguir lista as tarefas de gerenciamento disponíveis para ativos, ex
 
 | Tarefas | Ativos | Experiências | Modelos |
 | --------------------------------------------------------- | :----: | :---------: | :-------: |
-| [Exibir detalhes](/help/user-guide/content/asset-details.md) | ✓ µ | ✓ | ✓ |
+| [Exibir detalhes](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [Criar experiência](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Editar no Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Exportar para Ativação](#export-for-activation) |        | ✓ |           |
@@ -152,7 +152,7 @@ Consulte [Ativação](/help/user-guide/activation/overview.md).
 
 ## Editar no Express
 
-Você pode editar ativos de imagem (JPG ou PNG) diretamente no GenStudio for Performance Marketing usando o Adobe Express. A Tela _[!UICONTROL Powered by Adobe Express]_ fornece recursos convenientes para aprimorar suas imagens sem sair do aplicativo do GenStudio. É possível remover facilmente planos de fundo, aplicar preenchimentos gerativos, ajustar efeitos e recortar imagens.
+Você pode editar ativos de imagem (JPG ou PNG) diretamente no GenStudio for Performance Marketing usando o Adobe Express. O Canvas _[!UICONTROL Powered by Adobe Express]_ fornece recursos convenientes para aprimorar suas imagens sem sair do aplicativo do GenStudio. É possível remover facilmente planos de fundo, aplicar preenchimentos gerativos, ajustar efeitos e recortar imagens.
 
 >[!BEGINSHADEBOX]
 
@@ -169,13 +169,13 @@ Critérios para aprimorar imagens com o recurso [!DNL Edit in Adobe Express]:
 
 1. Em _[!DNL Content]_, selecione um ativo de imagem. Clicar em um ativo abre uma exibição focada do ativo.
 
-1. Na exibição de ativos, clique no ícone **[!UICONTROL Editar no Adobe Express]** no canto superior direito.
+1. Na exibição do ativo, clique no ícone **[!UICONTROL Editar no Adobe Express]** no canto superior direito.
 
 1. Na Tela _[!UICONTROL Powered by Adobe Express]_, use os controles Expressos no painel esquerdo para aprimorar sua imagem.
 
 1. Quando estiver satisfeito com a imagem atualizada, clique em **[!UICONTROL Salvar uma cópia]** no canto superior direito.
 
-1. Selecione o formato de arquivo - JPG ou PNG - e clique em **[!UICONTROL Salvar uma cópia]**.
+1. Selecione o formato de arquivo (JPG ou PNG) e clique em **[!UICONTROL Salvar uma cópia]**.
 
 1. No pop-up _[!UICONTROL Salvar uma cópia do ativo]_, atualize o **[!UICONTROL Nome do ativo]**.
 

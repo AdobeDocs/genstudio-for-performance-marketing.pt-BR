@@ -3,7 +3,7 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,7 +32,7 @@ O ativo de imagem a seguir contém metadados do sistema que descrevem o tipo de 
 
 >[!NOTE]
 >
->O Assets de repositórios AEM exibe metadados diferentes. Consulte [Configurar visibilidade do ativo](connect-aem-repo.md#step-4-configure-asset-visibility) para saber como configurar detalhes do ativo [!DNL AEM Assets Content Hub].
+>O Assets dos repositórios AEM exibe metadados diferentes. Consulte [Configurar visibilidade do ativo](connect-aem-repo.md#step-4-configure-asset-visibility) para saber como configurar detalhes do ativo [!DNL AEM Assets Content Hub].
 
 ## Metadados do sistema
 
@@ -40,9 +40,9 @@ Alguns metadados de ativos são coletados automaticamente quando um ativo é car
 
 ### Tags geradas
 
-Quando você armazena um ativo aprovado no [!DNL Content], a GenStudio for Performance Marketing usa a IA de Adobe e os recursos de aprendizado de máquina para estudar o ativo e aplicar tags com base nos recursos do ativo. Por exemplo, uma imagem de um gato pode resultar em marcas de atributo como `pet photography` ou `cat`, e marcas de cor que identificam cores dominantes na imagem. Não é possível editar tags detectadas e aplicadas automaticamente.
+Quando você armazena um ativo aprovado no [!DNL Content], a GenStudio for Performance Marketing usa os recursos de aprendizado de máquina e IA da Adobe para estudar o ativo e aplicar marcas com base nos recursos do ativo. Por exemplo, uma imagem de um gato pode resultar em marcas de atributo como `pet photography` ou `cat`, e marcas de cor que identificam cores dominantes na imagem. Não é possível editar tags detectadas e aplicadas automaticamente.
 
-Consulte [!DNL Insights] [Categorias de atributo](/help/user-guide/insights/attribute-category.md) para obter listas detalhadas de recursos de imagem, vídeo e texto.
+Consulte [!DNL Insights] [Categorias de atributo](/help/user-guide/insights/attributes.md#categories) para obter listas detalhadas de recursos de imagem, vídeo e texto.
 
 ### Metadados de conteúdo gerados
 
