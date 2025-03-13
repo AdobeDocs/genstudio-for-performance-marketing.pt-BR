@@ -112,3 +112,4 @@ Clique nos ícones de classificação (grade ou tabela) para exibir itens de _Tr
 O GenStudio for Performance Marketing permite [controle abrangente sobre seções de variantes individuais](/help/user-guide/create/manage-variants.md).
 
 Você pode revisar seções de uma única variante, gerar novamente o conteúdo de seções individuais e usar as edições sugeridas para melhorar a mensagem, dimensionar ativos e muito mais, tudo dentro da Tela de desenho.
+
