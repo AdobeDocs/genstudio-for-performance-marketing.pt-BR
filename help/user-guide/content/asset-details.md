@@ -3,9 +3,9 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: f401f93e7dd08db4837b8709e28acec5571052f7
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ A tabela a seguir detalha os metadados (detalhes do ativo) que você pode defini
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio for Performance Marketing e publicado para uso |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio for Performance Marketing para uso |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio for Performance Marketing para uso |
-| Canais | Plataformas para distribuição de determinados tipos de conteúdo, como email e anúncios de exibição |
+| Canais | Plataformas para distribuição de determinados tipos de conteúdo, como email e banner e anúncio de exibição |
 | [!UICONTROL Cronograma] | Intervalo de tempo para o qual o ativo é usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` |
 | Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` |
 | Idioma | Idiomas para os quais o ativo é usado. Exemplo: `Spanish` |

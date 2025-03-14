@@ -4,10 +4,10 @@ breadcrumb-title: Guia do usuário
 user-guide-description: Explore os recursos do Adobe GenStudio for Performance Marketing. Saiba como criar rapidamente ativos de marca, gerar variações e otimizar experiências.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
+source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 22%
+source-wordcount: '189'
+ht-degree: 20%
 
 ---
 
@@ -34,11 +34,15 @@ ht-degree: 22%
    + [[!DNL Create] visão geral](create/overview.md)
    + [Experiências de email](create/email-experiences.md)
    + [Metadadas experiências](create/meta-experiences.md)
+   + [Experiências do LinkedIn](create/linkedin-experiences.md)
    + [Exibir experiências de anúncio](create/display-ad-experiences.md)
+   + [Experiências com o banner](create/banner-experiences.md)
    + [Gerenciar variantes](create/manage-variants.md)
    + [Criar uma experiência de email](create/create-email-experience.md)
    + [Criar uma experiência de meta-anúncio](create/create-meta-ad.md)
+   + [Criar uma experiência do LinkedIn](create/create-linkedin.md)
    + [Criar uma experiência de anúncio de exibição](create/create-display-ad.md)
+   + [Criar uma experiência de banner](create/create-banner-experience.md)
 + Revisões e aprovações {#approve}
    + [Visão geral de Revisão e Aprovações](approvals/overview.md)
    + [Solicitar revisão e aprovação do conteúdo](approvals/request-review.md)
@@ -53,6 +57,7 @@ ht-degree: 22%
    + Modelos {#templates}
       + [Trabalhar com modelos](content/use-templates.md)
       + [Personalizar um modelo](content/customize-template.md)
+      + [Editor de código de modelo](content/code-editor.md)
       + [Criar modelos acessíveis](content/accessibility-for-templates.md)
       + [Práticas recomendadas para modelos](content/best-practices-for-templates.md)
 + Campanhas {#campaigns}
@@ -63,8 +68,8 @@ ht-degree: 22%
    + [Visão geral dos insights](insights/overview.md)
    + [Conectar conta de canal](insights/connect-channel.md)
    + [Canais](insights/channels.md)
-   + [Experiências](insights/experiences.md)
-   + [Assets](insights/assets.md)
+   + [Anúncios e posicionamento de anúncios](insights/ads.md)
+   + [Mídia](insights/media.md)
    + [Atributos](insights/attributes.md)
    + Categorias de atributo {#categories}
       + [Recursos de imagem](insights/image-features.md)

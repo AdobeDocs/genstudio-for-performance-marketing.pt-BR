@@ -5,7 +5,8 @@ feature: Insights, Attributes, Generative AI
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 Os recursos de texto incluem contagens para determinados elementos de texto, como palavras, sentenças, emojis e classificações para semântica, emoção e tom usados para análise com [!DNL Insights]. O texto também pode receber uma pontuação de legibilidade.
 
-O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar texto e aplicar [!UICONTROL atributos de ativos] com base nos tons de texto associados e na narrativa de marketing. O processo valida o texto de entrada para garantir que ele contenha caracteres alfanuméricos, removendo espaços em branco extras e caracteres não imprimíveis e truncando o texto para o máximo permitido de 1500 palavras. Antes de aplicar as tags de atributo detectadas, a IA prevê o tom predominante.
+O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar texto e aplicar [!UICONTROL atributos de mídia] com base nos tons de texto associados e na narrativa de marketing. O processo valida o texto de entrada para garantir que ele contenha caracteres alfanuméricos, removendo espaços em branco extras e caracteres não imprimíveis e truncando o texto para o máximo permitido de 1500 palavras. Antes de aplicar as tags de atributo detectadas, a IA prevê o tom predominante.
 
 ## Tom de voz
 
@@ -52,7 +53,7 @@ Outros valores secundários para tom incluem: `Enthusiastic`, `Assertive`, `Humo
 
 ## Narrativa
 
-Os atributos narrativos ajudam a identificar ativos que comunicam os valores, a finalidade ou a identidade que repercutem com seu público-alvo.
+Os atributos narrativos ajudam a identificar a mídia que comunica os valores, a finalidade ou a identidade que repercute com seu público-alvo.
 
 | Narrativa | Descrição | Exemplo |
 | ----------------- | ----------- | ------- |

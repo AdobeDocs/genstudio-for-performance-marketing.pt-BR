@@ -2,9 +2,10 @@
 title: Recursos de vídeo
 description: Saiba mais sobre o recurso de vídeo das categorias de atributo usadas no GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -35,7 +36,7 @@ A detecção de áudio no GenStudio for Performance Marketing envolve a análise
 
 1. Alterne o botão **desativar som** (localizado no canto inferior esquerdo de uma visualização de vídeo) e ouça o áudio da visualização do vídeo.
 
-A tabela a seguir lista as categorias de recursos de vídeo reconhecidas pela IA do GenStudio for Performance Marketing. A lista de atributos detectados de um ativo não é exaustiva. O Assets que contém um conjunto avançado de recursos pode ser limitado aos três recursos mais dominantes identificados pela IA.
+A tabela a seguir lista as categorias de recursos de vídeo reconhecidas pela IA do GenStudio for Performance Marketing. A lista de atributos detectados para um conteúdo de mídia não é exaustiva. As mídias que contêm um conjunto avançado de recursos podem ser limitadas aos três recursos mais dominantes identificados pela IA.
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

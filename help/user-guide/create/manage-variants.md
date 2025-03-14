@@ -3,9 +3,9 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 504f556825c5645172c2315877cb6c06f015cf0e
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -139,18 +139,31 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 
 **Para adicionar ou trocar imagens em uma variante**:
 
+1. Depois de gerar um conjunto de variantes, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento).
+1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
+1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
+
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
+
+1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
+
+   A imagem é adicionada ou trocada pela variante aplicável.
+
+## Adicionar link de imagem
+
+Semelhante à adição ou troca de imagens em variantes geradas, é possível adicionar um link para imagens. O modelo usado para gerar variantes _deve_ conter um [espaço reservado para conteúdo para o link](/help/user-guide/content/customize-template.md#content-placeholders) para habilitar essa funcionalidade.
+
+**Para adicionar um link de imagem em uma variante**:
+
 1. Depois de gerar um conjunto de variantes, clique em um ativo de imagem.
 
    Se a variante não tiver um ativo de imagem inserido no momento, clique na área do ativo de imagem.
 
-1. Para selecionar um ativo de imagem já publicado em [!DNL Content]:
-   1. Clique em **[!UICONTROL Selecionar do conteúdo]**. Use os filtros para restringir ainda mais os resultados da pesquisa.
-   1. Clique em **[!UICONTROL Usar]**
-1. Para fazer upload de um ativo de imagem:
-   1. Clique em **[!UICONTROL Carregar nova imagem]** para procurar seus arquivos e escolher os ativos a serem usados. Além de navegar em seu dispositivo, você pode importar do Microsoft OneDrive ou Dropbox.
-   1. Clique em **[!UICONTROL Adicionar Assets]**.
+1. Clique no ícone de link.
+1. Clique em **[!UICONTROL Remover link]** para remover o link padrão existente.
+1. Adicione um link no campo de texto e clique em **[!UICONTROL Aplicar]**.
 
-   As imagens são adicionadas ou trocadas pela variante aplicável.
+   O link definido é aplicado a todas as imagens no conjunto de variantes.
 
 ## Visualizar para dispositivo
 
@@ -176,9 +189,9 @@ Exclua variantes desnecessárias para que a Tela de trabalho mostre apenas as va
 
 ## Validação de marca por variante
 
-Use a _[!UICONTROL Verificação das diretrizes da marca]_ e o _[!UICONTROL Painel de validação da marca]_ para manter a identidade da marca e o alinhamento consistentes das variantes.
+Use o painel _Verificação de conteúdo_ para manter a consistência da identidade da marca, os [padrões de acessibilidade da ADA, as diretrizes da plataforma](/help/user-guide/guidelines/overview.md#content-checks) e o alinhamento das variantes.
 
-Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment).
+Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
 
 ## Feedback de geração
 

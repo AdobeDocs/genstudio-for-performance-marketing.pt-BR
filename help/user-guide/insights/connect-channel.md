@@ -1,12 +1,12 @@
 ---
 title: Conectar conta do canal
-description: Conecte uma conta de canal para monitorar as campanhas de marketing e o desempenho do ativo do Adobe GenStudio for Performance Marketing.
+description: Conecte uma conta do canal para monitorar suas campanhas do Adobe GenStudio for Performance Marketing e o desempenho da mídia.
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
+source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Na primeira vez que você abrir o [!DNL Insights], poderá ver um banner para orientá-lo a conectar o Adobe GenStudio for Performance Marketing a uma conta de canal.
 
-Essa conexão permite que o GenStudio for Performance Marketing receba dados estatísticos de suas campanhas de marketing ativas, ativos e experiências. Inicialmente, o GenStudio for Performance Marketing assimila os últimos 6 meses de dados para que você tenha as ferramentas para analisar os dados mais recentes e tomar medidas.
+Essa conexão permite que o GenStudio for Performance Marketing receba dados estatísticos de suas campanhas de marketing, mídia e anúncios ativos. Inicialmente, o GenStudio for Performance Marketing assimila os últimos 6 meses de dados para que você tenha as ferramentas para analisar os dados mais recentes e tomar medidas.
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ O GenStudio for Performance Marketing retém os dados do canal por 13 meses. Ess
 
 **Pré-requisitos**:
 
-- Conta do facebook/Meta ads
+- Conta do Facebook/Meta ads
 - Acesso à conta de Metadados com nível de permissão `View performance` para acessar relatórios e exibir anúncios
 - Remova os bloqueadores de pop-up do navegador
 
@@ -41,9 +41,9 @@ O GenStudio for Performance Marketing retém os dados do canal por 13 meses. Ess
 
 1. Em _[!DNL Insights]_, clique em **[!UICONTROL Conectar uma conta de canal]**no banner ou clique no botão **[!UICONTROL Adicionar contas]**(forma de pessoa com sinal de adição) no canto superior direito.
 
-   Você pode ser direcionado para fazer logon no Facebook. No momento, o facebook é a única opção disponível.
+   Você pode ser direcionado para fazer logon no Facebook. O Facebook é a única opção disponível no momento.
 
-1. Faça logon em sua conta da Facebook.
+1. Faça logon em sua conta do Facebook.
 
    Talvez seja necessário remover os bloqueadores de pop-ups e usar **[!UICONTROL Atualizar]** para tentar novamente.
 

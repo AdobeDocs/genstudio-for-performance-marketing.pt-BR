@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent Meta ad experiences 
 
 ## Canais de metadados
 
-Ao criar experiências de Metadados, você pode gerar variantes para os canais do Facebook e do Instagram. Alterne entre anúncios do Facebook e do Instagram para visualizar as variantes de cada canal.
+Ao criar experiências de Meta ad, você pode gerar variantes para canais do Facebook e do Instagram. Alterne entre anúncios do Facebook e do Instagram para visualizar as variantes de cada canal.
 
 Consulte [Escolher canal de Metadados](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel).
 
@@ -55,7 +55,9 @@ Cada campo e seção das experiências do Metaanúncio são carregados progressi
 1. Frases de chamariz e URLs associados
 1. Manchetes
 1. Texto na imagem
-1. O processo de validação da marca ocorre e a [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) é preenchida para cada variante.
+1. Validação da marca
+
+   O processo de validação de marca e verificação de conteúdo ocorre e o [_resumo da verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-summary) é preenchido para cada variante.
 
 ## Contagens de caracteres
 

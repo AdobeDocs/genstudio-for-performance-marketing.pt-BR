@@ -1,42 +1,40 @@
 ---
-title: Criar uma experiência de anúncio de exibição
-description: Saiba como criar experiências de anúncio de exibição no Adobe [!DNL GenStudio] para Marketing de Desempenho.
+title: Criar uma experiência de banner
+description: Saiba como criar experiências de banner no Adobe [!DNL GenStudio] para Marketing de desempenho.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
+badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 role: User
 level: Beginner
 recommendations: noDisplay
-exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
 
-# Criar uma experiência de anúncio de exibição
+# Criar uma experiência de banner
 
-Este tutorial demonstra como gerar experiências de anúncio de exibição [da marca](display-ad-experiences.md) usando o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
+Este tutorial mostra como criar [experiências de banner](banner-experiences.md) com a marca usando o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação esquerda).
 
-Para criar uma experiência atraente de anúncio de exibição, é recomendável [adicionar diretrizes ao GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e analisar as [noções básicas sobre como escrever prompts](/help/user-guide/effective-prompts.md) antes de começar.
+Para criar uma experiência de banner envolvente, é recomendável [adicionar diretrizes ao GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e revisar as [noções básicas sobre como escrever prompts](/help/user-guide/effective-prompts.md) antes de começar.
 
 ## Escolher um modelo
 
-Para criar uma experiência de anúncio de exibição, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões de anúncios de exibição compatíveis.
+Para criar uma experiência de banner, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões de banner compatíveis.
 
-**Para escolher um modelo de anúncio de exibição**:
+**Para escolher um modelo de banner**:
 
-1. Em _[!DNL Create]_, clique em **[!UICONTROL Exibir anúncios]**na_&quot;O que deseja criar hoje?&quot;seção _.
-1. Use a opção de pesquisa, adjacente ao _Filtro_, para localizar um modelo de anúncio de exibição específico.
-1. No modo de exibição _Selecionar modelo_, clique em um modelo de anúncio de exibição.
+1. Em _[!DNL Create]_, clique em **[!UICONTROL Banners]**na_&quot;O que você deseja criar hoje?&quot;seção _.
+1. Use a opção de pesquisa, adjacente ao _Filtro_, para localizar um modelo de banner específico.
+1. Na exibição _Selecionar modelo_, clique em um modelo de banner.
 1. Clique em **[!UICONTROL Usar]**.
 
-   A Tela, que serve como hub central para a criação de conteúdo, é exibida.
+   A Tela, que é a base inicial para a criação de conteúdo, é exibida.
 
 ## Adicionar parâmetros
 
-Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompt sobrecarrega o processo de geração de conteúdo e é uma etapa preparatória integral para gerar uma experiência de exibição de anúncio.
-
-Se você estiver usando um modelo com diretrizes predefinidas—[!DNL Brands], [!DNL Personas] ou [!DNL Products]—essas diretrizes se aplicam às suas variantes. Você pode alterá-los se desejar.
+Incorporar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompts melhora o processo de geração de conteúdo e é uma etapa preparatória crucial para criar uma experiência de banner.
 
 **Para adicionar parâmetros e ativos**:
 
@@ -57,7 +55,7 @@ Quando terminar de adicionar parâmetros, recolha a gaveta do prompt clicando no
 
 ## Digite um prompt
 
-Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para a nova experiência de anúncio de exibição. Para aprimorar a qualidade das experiências de anúncio de exibição geradas, é fundamental criar prompts detalhados e descritivos.
+Depois de selecionar as diretrizes, use a linguagem natural para criar um prompt para iniciar a geração de conteúdo para sua nova experiência com o banner. Para garantir resultados de alta qualidade, é essencial criar avisos detalhados e descritivos.
 
 ![Inserir um prompt](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
@@ -70,14 +68,14 @@ Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para s
 
 Por padrão, quatro variações, alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado, são geradas e exibidas na Tela de desenho.
 
-## Revisar variantes geradas
+## Revisar banners gerados
 
-Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar seções de anúncio de exibição e campos de texto ou excluir uma variante gerada.
+Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar seções de banner e campos de texto ou excluir uma variante gerada.
 
 **Para revisar variantes geradas**:
 
-* **Para [editar o nome do rascunho do anúncio de exibição](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
-* **Para [editar manualmente um anúncio de exibição](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer uma das seções ou campos do anúncio de exibição (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
+* **Para [editar o nome do rascunho do banner](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
+* **Para [editar um banner manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer uma das seções ou campos do banner (como o título ou o CTA) e edite conforme necessário.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt na _[!UICONTROL seção Gerar novo texto_] e clique em **[!UICONTROL Gerar]**.
 * **Para [adicionar ou trocar imagens em uma variante](/help/user-guide/create/manage-variants.md#swap-image)**, clique em um ativo de imagem (ou na área do ativo de imagem, se uma imagem não existir no momento) e clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 * **Para [adicionar um link a uma imagem em uma variante](/help/user-guide/create/manage-variants.md#add-image-link)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique no ícone de link.
@@ -98,7 +96,7 @@ Para otimizar as variantes geradas e garantir a estrita adesão à identidade da
 
 **Para executar verificações de conteúdo em uma variante**:
 
-1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ações à direita, para abrir o painel [_Verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Veja um resumo das *Verificações de Necessidades de revisão* e *Aprovadas* para ver quais seções e diretrizes precisam ser aprimoradas.
+1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ações à direita, para abrir o painel [_Verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Veja um resumo das _Verificações de Necessidades de revisão_ e _Aprovadas_ para ver quais seções e diretrizes precisam ser aprimoradas.
 
    ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
@@ -108,28 +106,28 @@ Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md)
 
 ## Obter revisões e aprovações
 
-Use o painel Aprovações, acessível como um ícone na barra de ação direita da Tela, para obter revisões, rastrear comentários de revisão e obter aprovações das partes interessadas.
+Use o painel _Aprovações_, acessível como um ícone na barra de ação direita da Tela, para obter revisões, rastrear comentários de revisão e obter aprovações dos participantes.
 
 **Para obter revisões e aprovações**:
 
-1. [Iniciar uma solicitação de aprovação](/help/user-guide/approvals/request-review.md) para solicitar uma [aprovação de experiências de anúncio de exibição rascunho](/help/user-guide/approvals/approve-content.md).
+1. [Iniciar uma solicitação de aprovação](/help/user-guide/approvals/request-review.md) para solicitar uma [aprovação de experiências de banner de rascunho](/help/user-guide/approvals/approve-content.md).
 1. [Remover ou adicionar revisores](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante o processo de revisão.
 1. [Acesse o conteúdo para revisão](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) e exiba as solicitações de revisão.
-1. Edite os rascunhos por comentários de revisão e [publique suas experiências de anúncio de exibição](#publish-and-export-experience).
+1. Edite os rascunhos de acordo com os comentários de revisão e [publique suas experiências no banner](#publish-and-export-experience).
 
 Consulte [Análises e aprovações](/help/user-guide/approvals/overview.md).
 
 ## Publicar e exportar experiência
 
-Para disponibilizar os anúncios de exibição gerados para uso atual e futuro, publique-os no [!UICONTROL Conteúdo] e exporte-os para uso em suas campanhas de marketing.
+Para disponibilizar os banners gerados para uso atual e futuro, publique-o no [!UICONTROL Content] e exporte-o para uso em suas campanhas de marketing.
 
-1. **Para publicar sua(s) nova(s) experiência(s) de anúncio de exibição**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
+1. **Para publicar suas novas experiências com o banner**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
    1. Selecione _[!UICONTROL [!DNL Campaigns]]_e adicione_[!UICONTROL  Mais detalhes ]_, se desejar.
    1. Clique em **[!UICONTROL Publicar]**.
 
-      ![Publicar um anúncio de exibição](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![Publicar um banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **Para exportar sua(s) nova(s) experiência(s) de anúncio de exibição**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
+1. **Para exportar seus novos banners**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
    1. Selecione o formato (HTML e imagens, PNG ou JPG) e clique em **[!UICONTROL Exportar]**.
 
       O HTML exportado deve ser colocado em uma propriedade da Web predefinida, como um modelo ou contêiner `div`. Sem essas dimensões definidas, as imagens podem parecer distorcidas quando visualizadas independentemente.

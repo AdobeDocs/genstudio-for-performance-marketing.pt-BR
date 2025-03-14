@@ -1,24 +1,24 @@
 ---
-title: Exibir experiências de anúncio
-description: Saiba mais sobre as experiências de anúncio de exibição no Adobe GenStudio for Performance Marketing.
+title: Experiências com o banner
+description: Saiba mais sobre as experiências com banner no Adobe GenStudio for Performance Marketing.
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 role: User
 level: Beginner
-exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 25c3ad69774301d82573f2eec89f0eb0ea15404b
+source-git-commit: ee1fa197fbf67903e8871e8d88cb7f1fd7cb06d0
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# Exibir experiências de anúncio
+# Experiências com o banner
 
-Com o Adobe GenStudio for Performance Marketing, você pode usar a IA gerativa para simplificar a [criação de experiências de anúncios de exibição bem-sucedidas](/help/user-guide/create/create-display-ad.md).
+O Adobe GenStudio for Performance Marketing permite aproveitar a IA gerativa para aprimorar a [criação de experiências de banner bem-sucedidas](/help/user-guide/create/create-banner-experience.md).
 
-O [!DNL Create] capacita os profissionais de marketing modernos a [produzir experiências de anúncio de exibição consistentes com a marca](/help/user-guide/create/create-display-ad.md) usando [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt bem trabalhado](/help/user-guide/effective-prompts.md).
+O [!DNL Create] permite que profissionais de marketing modernos [criem experiências de banner coesas](/help/user-guide/create/create-banner-experience.md) utilizando [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [bem-criado](/help/user-guide/effective-prompts.md).
 
-Ao gerar experiências de anúncio de exibição, quatro variações são criadas e mostradas na Tela.
+Ao gerar experiências de banner, quatro variações são criadas e mostradas na Tela.
 
 Consulte [Seguir as diretrizes do modelo específico do canal](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões, nomes de campos reconhecidos e muito mais.
 

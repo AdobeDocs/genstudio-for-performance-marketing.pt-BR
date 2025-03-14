@@ -1,14 +1,14 @@
 ---
 title: Criar uma experiência de meta-anúncio
-description: Saiba como criar experiências de meta anúncios na marca, para Facebook ou Instagram, com o Adobe GenStudio for Performance Marketing.
+description: Saiba como criar experiências de meta-anúncios na marca (para Facebook ou Instagram) com o Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Para começar a gerar uma nova experiência de Metadados, use um modelo disponí
 ## Adicionar parâmetros
 
 Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompts melhora o processo de geração de conteúdo e é uma etapa crucial na preparação para gerar um Metadado.
+
+Se você estiver usando um modelo com diretrizes predefinidas—[!DNL Brands], [!DNL Personas] ou [!DNL Products]—essas diretrizes se aplicam às suas variantes. Você pode alterá-los se desejar.
 
 **Para adicionar parâmetros e ativos**:
 
@@ -73,13 +75,13 @@ O conteúdo gerado é carregado progressivamente — à medida que cada seção 
 
 ## Escolher canal de metadados
 
-Ao gerar um meta anúncio, você pode escolher entre anúncios do Facebook ou do Instagram.
+Ao gerar um Meta ad, você pode escolher entre anúncios do Facebook ou do Instagram.
 
-Alterne a opção de canal de Metadados (entre **Facebook** e **Instagram**) para a barra de menu direita (ícones do Facebook e do Instagram) para ver e gerenciar as variantes de cada canal.
+Alterne a opção de canal de metaanúncios (entre **Facebook** e **Instagram**) na barra de menu direita (ícones do Facebook e do Instagram) para ver e gerenciar variantes de cada canal.
 
-Ao [revisar os Metadados](#revise-generated-meta-ads), é possível alterar a proporção da Facebook e dos anúncios do Instagram.
+Ao [revisar os Meta ads](#revise-generated-variants), você pode alterar a proporção dos anúncios do Facebook e do Instagram.
 
-## Revisar metadados gerados
+## Revisar variantes geradas
 
 Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar os Metadados ou excluir uma variante do conjunto de anúncios gerados.
 
@@ -90,33 +92,33 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 cabeçalho ou cópia do corpo) e edite conforme necessário.
 * **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione nas opções de texto disponíveis do botão. Em _Link_, insira uma URL para o texto de chamada para ação.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
+* **Para [adicionar um link a uma imagem em uma variante](/help/user-guide/create/manage-variants.md#add-image-link)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique no ícone de link.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
+* **Para [adicionar ou trocar imagens em uma variante](/help/user-guide/create/manage-variants.md#swap-image)**, clique em um ativo de imagem (ou na área do ativo de imagem, se uma imagem não existir no momento) e clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 * **Para [cortar ou reposicionar imagens](/help/user-guide/create/manage-variants.md#crop-assets)**, passe o mouse sobre uma imagem, clique no ícone de recorte exibido e ajuste o tamanho e o posicionamento da imagem.
-* **Para [excluir um Metadado](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no título do anúncio (por exemplo, &quot;Meta 4&quot;) e clique em **[!UICONTROL Excluir variante]**.
+* **Para [excluir um Metadado](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no menu de opções de uma variante e clique em **[!UICONTROL Excluir variante]**.
 
 ## Enviar feedback de geração
 
 Para [enviar comentários](/help/user-guide/create/manage-variants.md#generation-feedback) sobre a qualidade da saída de geração, clique no ícone de opções (três pontos) e selecione **[!UICONTROL Boa saída]** ou **[!UICONTROL Má saída]**.
 
-## Verificar o alinhamento da marca
+## Verificar o alinhamento da verificação de conteúdo
 
-Para otimizar os anúncios gerados e garantir a adesão estrita à identidade da marca, aproveite o potencial da [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)—fornecendo um resumo do alinhamento da marca para uma variante—e do [_painel Validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)—exibindo detalhes abrangentes da validação da marca e áreas de aprimoramento mais claras.
+Para otimizar as variantes geradas e garantir a estrita adesão à identidade da marca, às diretrizes da plataforma e aos padrões de acessibilidade, aproveite o potencial do painel [_Verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Esse painel exibe detalhes abrangentes da verificação de conteúdo e ilumina áreas de aprimoramento.
 
-**Para verificar o alinhamento da marca**:
+**Para executar verificações de conteúdo em uma variante**:
 
-1. Clique no ícone de verificação]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) das diretrizes de [**[!UICONTROL [!DNL Brand] para uma variante e veja um resumo de como essa variante é executada quando marcada em relação à sua marca.
-1. Para obter os detalhes das seções e diretrizes que precisam ser aprimoradas, clique em **[!UICONTROL Revisão]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ações à direita, para abrir o painel [_Verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Veja um resumo das *Verificações de Necessidades de revisão* e *Aprovadas* para ver quais seções e diretrizes precisam ser aprimoradas.
 
-   ![Painel de validação de marca](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. Alterne cada anúncio para ver como você pode melhorar o conteúdo gerado para torná-lo mais alinhado à marca.
-1. [Revise os anúncios manualmente](#revise-generated-meta-ads) para garantir que seus anúncios estejam alinhados à sua marca.
+1. [Revise manualmente as variantes](#revise-generated-variants) para garantir que suas variantes estejam alinhadas às verificações de conteúdo realizadas.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
 
 ## Obter revisões e aprovações
 
-Use o painel Aprovações, acessível na barra de menu superior da Tela, para obter revisões, rastrear comentários de revisão e obter aprovações das partes interessadas.
+Use o painel Aprovações, acessível como um ícone na barra de ação direita da Tela, para obter revisões, rastrear comentários de revisão e obter aprovações das partes interessadas.
 
 **Para obter revisões e aprovações**:
 
@@ -130,13 +132,13 @@ Use o painel Aprovações, acessível na barra de menu superior da Tela, para ob
 
 Consulte [Revisões e aprovações](/help/user-guide/approvals/overview.md) para obter mais informações.
 
-## Experiência do Publish e de exportação
+## Publicar e exportar experiência
 
 Para disponibilizar os Metadados gerados para uso atual e futuro, publique-os no [!UICONTROL Content] e exporte-os para uso em suas campanhas de marketing.
 
-1. **Para publicar sua(s) nova(s) experiência(s) de Metadados**, clique em **[!UICONTROL Publish]** na barra de ferramentas superior ou no fluxo de aprovações.
+1. **Para publicar sua(s) nova(s) experiência(s) de Metadados**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
 1. **Para exportar sua(s) nova(s) experiência(s) de Metadados**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
-   1. Selecione o formato—HTML e imagens ou CSV e imagens (JPG ou PNG)—clique em **[!UICONTROL Exportar]**.
+   1. Selecione o formato — HTML e imagens ou CSV e imagens (JPG ou PNG) — clique em **[!UICONTROL Exportar]**.
 
 Consulte [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) para obter mais informações.
 

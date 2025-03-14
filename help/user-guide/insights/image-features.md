@@ -2,7 +2,8 @@
 title: Recursos da imagem
 description: Saiba mais sobre o recurso de imagem das categorias de atributo usadas no GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
-source-git-commit: c15140ed3fe3d07e9112e9ad4781cb8fcf65045d
+exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Se o estilo de imagem for identificado como `sketch` ou `digital cartoon`, um co
 
 1. A página _Detalhes do atributo_ lista todas as imagens com esse atributo.
 
-A tabela a seguir lista as categorias de recursos de imagem reconhecidas pela IA do GenStudio for Performance Marketing. A lista de atributos detectados de um ativo não é exaustiva. O Assets que contém um conjunto avançado de recursos pode ser limitado aos três recursos mais dominantes identificados pela IA.
+A tabela a seguir lista as categorias de recursos de imagem reconhecidas pela IA do GenStudio for Performance Marketing. A lista de atributos detectados para conteúdo de mídia não é exaustiva. As mídias que contêm um conjunto avançado de recursos podem ser limitadas aos três recursos mais dominantes identificados pela IA.
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

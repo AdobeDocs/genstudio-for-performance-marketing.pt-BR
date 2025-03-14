@@ -3,9 +3,9 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1361'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ O Adobe GenStudio for Performance Marketing [!DNL Content] simplifica e aprimora
 
 A galeria mostra um inventário de ativos, experiências ou modelos aprovados, dependendo da exibição selecionada. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar entre várias categorias para filtrar o conteúdo mostrado na galeria. No modo de exibição _[!UICONTROL Assets]_, clique no ícone de pesquisa (lupa) para usar uma palavra-chave para localizar um ativo.
 
-A seguir, uma pesquisa sobre o termo `dog` na galeria [!UICONTROL Assets]:
+A seguir, uma pesquisa sobre o termo `space` na galeria [!UICONTROL Assets]:
 
-![exibição do Assets com pesquisa no cachorro](/help/assets/content-assets.png)
+![exibição do Assets com pesquisa no espaço](/help/assets/content-assets-filter.png "Pesquisando ativos com atributo de espaço")
 
 ### Pesquisar conteúdo
 
@@ -57,7 +57,7 @@ Por padrão, os ativos adicionados a [!DNL Content] por meio do processo [!DNL C
 
 A lista **[!UICONTROL Local]** acima da galeria _[!UICONTROL Assets]_ à direita permite selecionar entre repositórios conectados do Adobe Experience Manager (AEM) [!DNL Assets Content Hub].
 
-![Lista de locais de repositórios](../../assets/content-location-selection.png){width="350"}
+![Lista de locais de repositórios](/help/assets/content-location-selection.png "Selecione um repositório de conteúdo"){width="350"}
 
 Quando você seleciona um repositório do AEM, a galeria mostra um inventário de ativos desse repositório, permitindo que você aproveite os ativos aprovados desses repositórios como entradas para a criação de conteúdo. As opções de filtro são alteradas para refletir as categorias configuradas em [!DNL AEM Assets Content Hub].
 
@@ -89,7 +89,7 @@ A tabela a seguir lista as tarefas de gerenciamento disponíveis para ativos, ex
 
 Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repositório `GenStudio assets`. O botão _[!UICONTROL Adicionar ativos]_ está disponível somente quando o _[!UICONTROL Local]_ é o repositório `GenStudio assets`.
 
-![Campo de localização](../../assets/content-location.png){width="350"}
+![Campo de localização](/help/assets/content-location.png "Campo de localização"){width="350"}
 
 **Para adicionar um ou mais ativos**:
 
@@ -146,7 +146,7 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 1. No pop-up _Exportar para ativação_, selecione um dos formatos disponíveis:
 
    - Email: `HTML`, `CSV`
-   - Anúncios de meta e exibição: `HTML`, `JPEG`, `PNG`
+   - Meta, banner e anúncio de exibição: `HTML`, `JPEG`, `PNG`
 
 Consulte [Ativação](/help/user-guide/activation/overview.md).
 

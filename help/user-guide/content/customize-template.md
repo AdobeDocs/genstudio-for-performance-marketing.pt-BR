@@ -4,9 +4,9 @@ description: Saiba como personalizar e otimizar seu modelo para o Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
+source-git-commit: eb7f19ebc0854db3a33599b56c857875ee67982b
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,7 @@ ht-degree: 0%
 
 Você pode personalizar um modelo para usar no GenStudio for Performance Marketing inserindo espaços reservados para conteúdo, ou campos, que a IA geradora usa para inserir conteúdo.
 
-As próximas seções explicam como adaptar seus modelos de HTML para o GenStudio for Performance Marketing usando a linguagem de modelo _[!DNL Handlebars]_. A sintaxe [!DNL Handlebars] usa texto regular com chaves duplas como espaços reservados para conteúdo. Consulte [O que é [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) no_ Guia de linguagem do Handlebars _para saber como preparar seu modelo.
-
+As próximas seções explicam como adaptar seus modelos do HTML para o GenStudio for Performance Marketing usando a linguagem de modelo _[!DNL Handlebars]_. A sintaxe [!DNL Handlebars] usa texto regular com chaves duplas como espaços reservados para conteúdo. Consulte [O que é [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) no_ Guia de linguagem do Handlebars _para saber como preparar seu modelo.
 
 Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio for Performance Marketing](use-templates.md#upload-a-template) e começar a gerar emails personalizados com base no modelo personalizado.
 
@@ -26,35 +25,38 @@ Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio for Perf
 
 ## Espaços reservados de conteúdo
 
-A GenStudio for Performance Marketing reconhece determinados [elementos](use-templates.md#template-elements) em um modelo, mas somente se você identificá-los com um nome de campo reconhecido.
+A GenStudio for Performance Marketing reconhece determinados [elementos](use-templates.md#template-elements) em um modelo, mas somente se você identificá-los com um [nome de campo reconhecido](#recognized-field-names).
 
-Dentro do cabeçalho ou do corpo de um modelo, você pode usar a sintaxe [!DNL Handlebars] como um espaço reservado de conteúdo, em que você requer que o GenStudio for Performance Marketing preencha o modelo com conteúdo real. A GenStudio for Performance Marketing reconhece e interpreta os espaços reservados de conteúdo com base no [nome do _campo_ reconhecido](#recognized-field-names).
+No cabeçalho ou no corpo de um modelo do HTML, é possível usar a sintaxe [!DNL Handlebars] para inserir um espaço reservado para conteúdo, em que você precisa que o GenStudio for Performance Marketing preencha o modelo com conteúdo real. A GenStudio for Performance Marketing reconhece e interpreta os espaços reservados de conteúdo com base no [nome do _campo_ reconhecido](#recognized-field-names).
 
-Por exemplo, você pode usar `{{ headline }}` com a sintaxe [!DNL Handlebars] para indicar onde o título do email deve ser colocado:
+Por exemplo, você pode usar `{{ headline }}` com a sintaxe [!DNL Handlebars] para indicar onde o título do email deve ser colocado. O GenStudio reconhece esse campo, gera um título relevante com base nas diretrizes e critérios de prompt e insere o título neste local:
 
 ```handlebars
-<div>{{headline}}</div>
+<div>{{ headline }}</div>
 ```
 
 ### Nomes de campo reconhecidos
 
-A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Performance Marketing para preenchimento em modelos. Adicione esses nomes de campos usando a sintaxe [!DNL Handlebars] ao modelo em que você precisa do GenStudio for Performance Marketing para gerar conteúdo.
+A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Performance Marketing para adicionar um espaço reservado em um modelo. Adicione esses nomes de campos usando a sintaxe [!DNL Handlebars] ao modelo em que você precisa do GenStudio for Performance Marketing para gerar um determinado tipo de conteúdo.
 
 | Texto | Função | Modelo de canal |
-| ------------------ | ---------------------- | -------------------------------- |
+| ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Pré-cabeçalho | email |
-| `{{headline}}` | Título | email <br>Meta-anúncio <br>Exibir anúncio |
-| `{{body}}` | Corpo do texto | email <br>Meta-anúncio <br>Exibir anúncio |
-| `{{cta}}` | Chamada para ação | email <br>Meta-anúncio <br>Exibir anúncio |
-| `{{on_image_text}}` | No texto da imagem | Meta-anúncio |
-| `{{image}}` | Imagem — selecione a partir do conteúdo | email <br>Meta-anúncio <br>Exibir anúncio |
-| `{{brand_logo}}` | Logotipo da marca selecionada<br>Consulte [Nome do campo do logotipo da marca](#brand-logo-field-name) para obter o uso recomendado. | email<br>Meta-anúncio |
+| `{{headline}}` | Título | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
+| `{{introductory_text}}` | Texto introdutório | Anúncio do LinkedIn |
+| `{{body}}` | Corpo do texto | email <br>Meta-anúncio <br>Banner e Anúncio de exibição |
+| `{{cta}}` | Chamada para ação | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
+| `{{image}}` | Imagem — selecione de [!DNL Content] | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
+| `{{on_image_text}}` | No texto da imagem | Metadado <br>Anúncio do LinkedIn |
+| `{{link}}` | Chamada para ação na imagem<br>Consulte [Link na imagem](#link-on-image). | email |
+| `{{brand_logo}}` | Logotipo da marca selecionada<br>Consulte [Nome do campo do logotipo da marca](#brand-logo-field-name). | email<br>Meta-anúncio <br>Anúncio do LinkedIn |
 
 O GenStudio for Performance Marketing preenche determinados campos automaticamente nos seguintes modelos:
 
 - **O modelo de email** não requer que você identifique o campo `subject`
 - **O modelo de metadados** não requer que você identifique os campos `headline`, `body` e `CTA`
-- **O modelo Exibir Anúncios** não requer que você identifique o campo `CTA`
+- **Modelo de banner e anúncio de exibição** não requer que você identifique o campo `CTA`
+- **Os modelos de anúncios do LinkedIn** não exigem que você identifique os campos `headline`, `introductory_text` e `CTA`
 
 >[!WARNING]
 >
@@ -65,64 +67,6 @@ Há um limite de 20 campos ao fazer upload de um modelo para o GenStudio for Per
 >[!TIP]
 >
 >Você pode verificar seu modelo usando a [visualização do modelo](#template-preview) no GenStudio for Performance Marketing.
-
-#### Nome do campo de logotipo da marca
-
-No momento, não é possível selecionar o logotipo da marca para o upload do modelo. Os exemplos a seguir demonstram dois métodos que renderizam condicionalmente o logotipo da marca. Cada método verifica a origem, fornece uma imagem padrão ou alternativa caso o logotipo da marca não esteja disponível e aplica um estilo:
-
-**Exemplo 1**: usando a condição [!DNL Handlebars] Built-in Helpers diretamente no atributo HTML `img src`:
-
-```html
-<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
-```
-
-**Exemplo 2**: usando a instrução de condição interna [!DNL Handlebars] para envolver a marca HTML `img`:
-
-```handlebars
-{{#if brand_logo}}
-    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-    {{else}}
-    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-{{/if}}
-```
-
-#### Nomes de campo manuais
-
-Todos os outros nomes de campo são tratados como campos preenchidos manualmente.
-
-Para criar uma seção editável, adicione colchetes duplos ao redor do nome da seção:
-
-```handlebars
-{{customVariable}}
-```
-
-### Seções ou grupos
-
-_As seções_ informam à GenStudio for Performance Marketing que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
-
-Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo. Use um nome de campo (`headline`, `body`, `image` ou `cta`) após o sublinhado (`_`). Por exemplo, o título e o corpo a seguir pertencem à seção `pod1`:
-
-- `pod1_headline`
-- `pod1_body`
-
-Cada seção pode usar apenas um de cada tipo de campo. No exemplo acima, a seção `pod1` só pode usar um campo `pod1_headline`. Por causa dessa regra, as seções não podem ser aninhadas.
-
-Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) no tópico _Práticas recomendadas para usar modelos_.
-
-Por exemplo, um template de email pode incluir até três seções; portanto, você pode ter três seções de título e corpo:
-
-- `pre-header`
-- `pod1_headline`
-- `pod1_body`
-- `pod2_headline`
-- `pod2_body`
-- `pod3_headline`
-- `pod3_body`
-- `cta`
-
-A GenStudio for Performance Marketing entende que `pod1_headline` está mais intimamente relacionado a `pod1_body` do que a `pod2_body`.
-
-Consulte [Prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) para saber como criar um prompt que gera conteúdo variável para cada seção de um email.
 
 ### Planos de ação
 
@@ -150,13 +94,94 @@ Use a orientação a seguir para configurar espaços reservados para o CTA:
 
 O GenStudio for Performance Marketing também pode fornecer frases de chamada para ação de variante. Consulte [Revisar chamada para ação](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
+### Link na imagem
+
+Você pode personalizar seu modelo de email para permitir que os criadores adicionem um link a uma imagem. Semelhante ao link do CTA, use a seguinte orientação para aplicar um espaço reservado `link` a uma marca de imagem:
+
+```html
+<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+```
+
+Neste exemplo:
+
+- `{{link}}` é um espaço reservado para a URL real.
+- `src="image-source.jpg"` deve ser substituído pela URL de origem da imagem real.
+- O `alt="description"` fornece um texto alternativo para a imagem, que é útil para acessibilidade e SEO.
+
+### Nome do campo de logotipo da marca
+
+No momento, não é possível selecionar o logotipo da marca para o upload do modelo. Os exemplos a seguir demonstram dois métodos que renderizam condicionalmente o logotipo da marca. Cada método verifica a origem, fornece uma imagem padrão ou alternativa caso o logotipo da marca não esteja disponível e aplica um estilo:
+
+**Exemplo 1**: usando a condição [!DNL Handlebars] Built-in Helpers diretamente no atributo `img src` do HTML:
+
+```html
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
+```
+
+**Exemplo 2**: usando a instrução de condição interna [!DNL Handlebars] para envolver a marca HTML `img`:
+
+```html
+{{#if brand_logo}}
+    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+    {{else}}
+    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+{{/if}}
+```
+
+### Nomes de campo manuais
+
+Todos os outros nomes de campo são tratados como campos preenchidos manualmente. Por exemplo, talvez você queira reservar uma seção para conteúdo de rodapé.
+
+Para criar uma seção editável, adicione colchetes duplos ao redor do nome da seção:
+
+```html
+<tbody>
+    <tr>
+        <td>
+            <p><span class="s1">{{ footerLegal }}</span></p>
+        </td>
+    </tr>
+</tbody>
+```
+
+## Seções ou grupos
+
+_As seções_ informam à GenStudio for Performance Marketing que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
+
+Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo. Use um nome de campo (`headline`, `body`, `image` ou `cta`) após o sublinhado (`_`). Por exemplo, o título e o corpo a seguir pertencem à seção `pod1`:
+
+- `pod1_headline`
+- `pod1_body`
+
+Cada seção pode usar apenas um de cada tipo de campo. No exemplo acima, a seção `pod1` só pode usar um campo `pod1_headline`. Por causa dessa regra, as seções não podem ser aninhadas.
+
+Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) no tópico _Práticas recomendadas para usar modelos_.
+
+Por exemplo, um template de email pode incluir até três seções; portanto, você pode ter três seções de título e corpo:
+
+- `pre_header`
+- `pod1_headline`
+- `pod1_body`
+- `pod2_headline`
+- `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
+
+A GenStudio for Performance Marketing entende que `pod1_headline` está mais intimamente relacionado a `pod1_body` do que a `pod2_body`.
+
+Consulte [Prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) para saber como criar um prompt que gera conteúdo variável para cada seção em um email de várias seções.
+
+
 ## Visualização do modelo
 
 Quando você [carrega um modelo](use-templates.md#upload-a-template), o GenStudio for Performance Marketing verifica o arquivo HTML em busca de campos reconhecidos. Use a visualização para revisar seus [elementos do modelo](use-templates.md#template-elements) e confirmar se você os identificou corretamente com os [nomes de campo reconhecidos](#recognized-field-names).
 
 Exemplo de visualização para um modelo de email:
 
-![Campos de visualização detectados](/help/assets/template-detected-fields.png){width="650"}
+![Campos de visualização detectados](/help/assets/template-detected-fields.png "Verificar campos detectados"){zoomable="yes"}
+
+Consulte [Editor de código de modelo](/help/user-guide/content/code-editor.md).
 
 ### Visualização do controle
 
@@ -172,7 +197,7 @@ O valor `_genStudio.browser` é definido ao renderizar um modelo, e o valor `gen
 
 Outro exemplo pode ser impedir o uso de códigos de rastreamento ao visualizar um modelo no GenStudio for Performance Marketing. O exemplo a seguir mostra como adicionar parâmetros de rastreamento a links no modelo exportado, mantendo os links de visualização limpos:
 
-```handlebars
+```html
 <a class="button" {{#if _genStudio.browser }}
    href="{{ link }}"{{/if}}{{#if _genStudio.export }}
    href="{{ link }}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
@@ -193,9 +218,9 @@ Se a origem for alterada após a criação da visualização inicial, use a fun�
 
 +++Exemplo: modelo de email com uma seção
 
-Este é um exemplo básico de um modelo de HTML para um email que contém uma seção. O cabeçalho contém CSS simples e em linha para estilo. O corpo contém um `pre-header`, `headline`, e `image` [espaço reservado](#content-placeholders) para uso do GenStudio for Performance Marketing para inserir conteúdo durante o processo de geração de email.
+Este é um exemplo básico de um modelo HTML para um email que contém uma seção. O cabeçalho contém CSS simples e em linha para estilo. O corpo contém um `pre_header`, `headline`, e `image` [espaço reservado](#content-placeholders) para uso do GenStudio for Performance Marketing para inserir conteúdo durante o processo de geração de email.
 
-```handlebars {line-numbers="true" highlight="13"}
+```html {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
 <html>
 <head>
@@ -211,10 +236,11 @@ Este é um exemplo básico de um modelo de HTML para um email que contém uma se
 <body>{{ pre_header }}
     <div class="container">
         <h1>{{ headline }}</h1>
-        <p><img alt="{{ headline }}"
+        <p><a href="{{ link }}">
+           <img alt="{{ headline }}"
                 src="{{ image }}"
                 width="600" height="600"
-                border="0"/></p>
+                border="0"/></a></p>
         <p>{{ body }}</p>
     </div>
 </body>
@@ -227,7 +253,7 @@ Este é um exemplo básico de um modelo de HTML para um email que contém uma se
 
 O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas seções. O cabeçalho contém CSS em linha para estilizar um grupo. O corpo usa dois grupos com [espaços reservados para o conteúdo](#content-placeholders) usando um prefixo.
 
-```handlebars {line-numbers="true" highlight="33"}
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -255,20 +281,18 @@ O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas 
 <body>{{ pre_header }}
     <div class="container">
         <h1>{{ headline }}</h1>
-        <p><img alt="{{ headline }}"
-                src="{{ image }}"
-                width="600" height="600"
-                border="0"/></p>
         <p>{{ body }}</p>
-    <!-- Pod1 -->
+        <!-- Pod1 -->
         <div class="pod">
-            <h2>{{ pod1_header }}</h2>
+            <h2>{{ pod1_headline }}</h2>
+            <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
             <p>{{ pod1_body }}</p>
         </div>
         <!-- End of Pod1 -->
-    <!-- Pod2 -->
+        <!-- Pod2 -->
         <div class="pod">
-            <h2>{{ pod2_header }}</h2>
+            <h2>{{ pod2_headline }}</h2>
+            <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
             <p>{{ pod2_body }}</p>
         </div>
         <!-- End of Pod2 -->
@@ -283,7 +307,7 @@ O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas 
 
 Este é um exemplo básico de um modelo de Meta-anúncio. O cabeçalho contém CSS em linha para estilo. O corpo usa [espaços reservados para o conteúdo](#content-placeholders) usando um prefixo.
 
-```handlebars {line-numbers="true" highlight="33"}
+```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
 <html>
 <head>
@@ -324,9 +348,9 @@ Este é um exemplo básico de um modelo de Meta-anúncio. O cabeçalho contém C
 <body>
 <div class="ad-container">
     <img src="{{ image }}" alt="Ad Image" class="ad-image">
-    <div class="ad-headline">"{{ headline }}"</div>
-    <div class="ad-body">"{{ body }}"</div>
-    <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
+    <div class="ad-headline">{{ headline }}</div>
+    <div class="ad-body">{{ body }}</div>
+    <a href="{{ link }}" class="ad-cta">{{ CTA }}</a>
 </div>
 </body>
 </html>

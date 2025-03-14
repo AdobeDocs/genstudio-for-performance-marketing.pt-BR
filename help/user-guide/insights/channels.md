@@ -3,9 +3,9 @@ title: Visão geral de canais
 description: Consulte uma visão geral do envolvimento do cliente, desempenho, orçamento e despesas para campanhas de marketing no Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ A exibição [!DNL Insights] _[!UICONTROL Canais]_ mostra uma lista de campanhas
 
 {{connect-insights}}
 
-A tabela _[!UICONTROL Canais]_ é organizada com o uso da campanha publicitária baseada em canais. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, no qual você pode selecionar entre as listas [!UICONTROL Conta], [!UICONTROL Status] e [!UICONTROL Objetivo] para filtrar as campanhas na tabela.
+A tabela _[!UICONTROL Canais]_ é organizada com o uso da campanha publicitária baseada em canais. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar em várias listas. Selecione **[!UICONTROL Limpar tudo]** acima da tabela para remover todos os filtros.
 
 ![Filtro de canais e tabela](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 {{$include /help/_includes/download-insights.md}}
 
-Quando você seleciona uma campanha, a guia [[!UICONTROL Experiências]](experiences.md) abre uma lista de nomes de anúncios associados a essa campanha, o que permite identificar quais experiências contribuíram para seu sucesso geral.
+Quando você seleciona uma campanha, a [[!UICONTROL guia Anúncios]](ads.md) abre uma lista de nomes de anúncios associados a essa campanha, o que permite identificar quais anúncios contribuíram para seu sucesso geral.
 
 ## Objetivos
 

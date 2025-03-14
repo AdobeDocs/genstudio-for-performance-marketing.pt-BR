@@ -3,9 +3,9 @@ title: Visão geral dos atributos
 description: Saiba como avaliar o desempenho de atributos específicos no Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ A exibição [!DNL Insights] _[!UICONTROL Atributos]_ mostra uma lista de atribu
 
 A tabela _[!UICONTROL Atributos]_ é organizada com o nome [!UICONTROL Atributo]. Você pode alternar entre os tipos de lista usando os botões **[!UICONTROL Imagens]** e **[!UICONTROL Vídeo]**. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis.
 
-O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, no qual você pode selecionar da [!UICONTROL Conta] e da [!UICONTROL Categoria de atributo] para filtrar os atributos na tabela. O exemplo a seguir mostra uma lista de atributos na categoria `Lighting Condition`. Clique em **Redefinir** para limpar todas as seleções de filtro.
+O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar em várias listas. Selecione **[!UICONTROL Limpar tudo]** acima da tabela para remover todos os filtros.
 
 ![Filtro e tabela de atributos](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -26,23 +26,23 @@ O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICO
 
 ## Detalhes do atributo
 
-Os atributos ajudam a identificar ativos por seus detalhes inerentes, como cor, composição, elementos visuais e outras propriedades.
+Os atributos ajudam a identificar [mídia](media.md#media-details) pelos seus detalhes inerentes, como cor, composição, elementos visuais e outras propriedades.
 
-Na visualização de detalhes do atributo, você pode ver quais experiências usam o atributo selecionado. Os detalhes incluem o desempenho total do atributo e um detalhamento das métricas de desempenho relacionadas a cada experiência.
+Na visualização de detalhes do atributo, é possível ver quais anúncios usam o atributo selecionado. Os detalhes incluem o desempenho total do atributo e uma análise das métricas de desempenho relacionadas a cada anúncio.
 
 ![Atribuir métricas de desempenho](/help/assets/insights-attribute-details.png){zoomable="yes"}
 
-O GenStudio for Performance Marketing detecta determinados recursos e aplica o atributo apropriado a um ativo ou experiência como uma tag. Consulte [Categorias](#categories) para ver exemplos dessas marcas. Para ver todos os atributos associados a uma experiência, clique no ícone de configurações (cog) acima do lado direito da tabela para selecionar a coluna **[!UICONTROL Atributos]**.
+O GenStudio for Performance Marketing detecta determinados recursos e aplica o atributo apropriado ao conteúdo de mídia ou anúncio como uma tag. Consulte [Categorias](#categories) para ver exemplos dessas marcas. Para ver todos os atributos associados a um anúncio, clique no ícone de configurações (cog) acima do lado direito da tabela para selecionar a coluna **[!UICONTROL Atributos]**.
 
 ## Categorias
 
-Uma categoria de atributo é um grupo de classificação que organiza atributos relacionados que compartilham uma característica comum. Essas categorias ajudam a simplificar a descoberta, a identificação e a compreensão de atributos específicos, fornecendo maior contexto e facilitando sua aplicação e uso.
+Um atributo _categoria_ é um grupo de classificação que organiza atributos relacionados que compartilham uma característica comum. Essas categorias ajudam a simplificar a descoberta, a identificação e a compreensão de atributos específicos, fornecendo maior contexto e facilitando sua aplicação e uso.
 
-O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar [imagens](image-features.md), [vídeos](video-features.md) e texto e aplicar [!UICONTROL atributos de ativos] de acordo com a probabilidade de correção.
+O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar [imagens](image-features.md), [vídeos](video-features.md) e texto e aplicar [!UICONTROL atributos de mídia] com base na probabilidade de correção.
 
-A lista de atributos detectados de um ativo não é exaustiva. O Assets que contém um conjunto avançado de recursos pode ser limitado aos três recursos mais dominantes identificados pela IA. Por exemplo, a ilustração a seguir contém vários atributos de imagem detectados, incluindo vários objetos, cores do primeiro plano e do plano de fundo.
+A lista de atributos detectados para conteúdo de mídia não é exaustiva. As mídias que contêm um conjunto avançado de recursos podem ser limitadas aos três recursos mais dominantes identificados pela IA. Por exemplo, a ilustração a seguir contém vários atributos de imagem detectados, incluindo vários objetos, cores do primeiro plano e do plano de fundo.
 
-![atributos de ativos de imagem](/help/assets/category/asset-attributes.png "A imagem de Toucan inclui vários atributos detectados"){width="300" zoomable="yes"}
+![atributos de imagem](/help/assets/category/asset-attributes.png "A imagem de Toucan inclui vários atributos detectados"){width="300" zoomable="yes"}
 
 >[!INFO]
 >
@@ -52,7 +52,7 @@ A lista de atributos detectados de um ativo não é exaustiva. O Assets que cont
 
 As métricas de Insights podem ajudar você a avaliar quais atributos inspiram mais engajamento do cliente.
 
-A tabela a seguir fornece definições e insights para as métricas principais de marketing digital na exibição de tabela [!UICONTROL Atributos]. Cada métrica inclui uma breve definição, pois se relaciona a um ativo, como a métrica é calculada, e um ou mais insights para ajudar a entender sua importância e impacto em uma campanha publicitária.
+A tabela a seguir fornece definições e insights para as métricas principais de marketing digital na exibição de tabela [!UICONTROL Atributos]. Cada métrica inclui uma breve definição, pois se relaciona a atributos, como a métrica é calculada e um ou mais insights para ajudar a entender sua importância e impacto em uma campanha publicitária.
 
 | Métrica | Definição | Insight |
 | ---------------------- | ----------------------------- | -------------------------------- |
