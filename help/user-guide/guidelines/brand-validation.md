@@ -1,9 +1,9 @@
 ---
 title: Validação da marca no Adobe GenStudio for Performance Marketing
 description: Saiba como o sistema integrado de validação de marca funciona no GenStudio for Performance Marketing.
-feature: Brands Service, Guidelines
+feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
+source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

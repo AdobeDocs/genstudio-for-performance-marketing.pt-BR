@@ -1,11 +1,12 @@
 ---
 title: Experiências com o banner
 description: Saiba mais sobre as experiências com banner no Adobe GenStudio for Performance Marketing.
-feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+feature: Create Canvas, Media Templates
 badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 role: User
 level: Beginner
-source-git-commit: ee1fa197fbf67903e8871e8d88cb7f1fd7cb06d0
+exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
