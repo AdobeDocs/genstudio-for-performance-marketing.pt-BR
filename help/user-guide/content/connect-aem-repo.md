@@ -2,24 +2,24 @@
 title: 'Conectar-se a um repositório  [!DNL AEM Assets Content Hub] '
 description: Saiba como conectar o Adobe GenStudio for Performance Marketing a um repositório do Adobe Experience Manager (AEM) [!DNL Content Hub] e aproveitar o conteúdo aprovado existente.
 level: Experienced
-feature: Assets, Content
+feature: Content Management
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
-source-git-commit: abe1de42b81bff63d473a67632d27f96db7c1c7d
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
 # Conectar a um repositório [!DNL AEM Assets Content Hub]
 
-Se você tiver ativos no Adobe Experience Manager (AEM), poderá seguir essas etapas para torná-los acessíveis no GenStudio for Performance Marketing.
+Se você tiver ativos no Adobe Experience Manager (AEM), siga essas etapas para torná-los acessíveis no GenStudio for Performance Marketing.
 
 >[!BEGINSHADEBOX]
 
 **Pré-requisitos**:
 
-As etapas a seguir exigem acesso administrativo ao Admin Console e AEM Assets as a Cloud Service.
+As etapas a seguir exigem acesso administrativo ao Admin Console e ao AEM Assets as a Cloud Service.
 
 >[!ENDSHADEBOX]
 
@@ -27,7 +27,7 @@ As etapas a seguir exigem acesso administrativo ao Admin Console e AEM Assets as
 
 Siga o processo de autoatendimento **Implantar Content Hub** para habilitar o [!DNL Content Hub] para sua AEM Assets existente no Cloud Manager. Consulte [Implantar [!DNL Content Hub]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub) na documentação do _AEM as a Cloud Service_.
 
-Depois de habilitar [!DNL AEM Assets Content Hub], você tem uma nova instância com o sufixo `contenthub` em [!DNL AEM Assets as a Cloud Service] no Admin Console.
+Depois de habilitar [!DNL AEM Assets Content Hub], você terá uma nova instância com o sufixo `contenthub` em [!DNL AEM Assets as a Cloud Service] no Admin Console.
 
 >[!IMPORTANT]
 >

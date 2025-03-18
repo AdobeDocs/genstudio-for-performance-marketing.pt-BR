@@ -1,18 +1,18 @@
 ---
 title: Criar modelos acessíveis
 description: Crie modelos no Adobe GenStudio for Performance Marketing que sejam capazes de alcançar mais do seu público-alvo e fornecer uma experiência ideal.
-feature: Templates, Content
+feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: cc1d750a8a520c793b1b605747c091f8a5f5e1a2
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
 # Criar modelos acessíveis
 
-O Adobe tem o compromisso de fornecer uma experiência ideal para todos os públicos-alvo. Consulte [Iniciativas de acessibilidade em Adobe](https://www.adobe.com/trust/accessibility/initiatives.html) para obter mais informações.
+A Adobe tem o compromisso de fornecer uma experiência ideal para todos os públicos-alvo. Consulte [Iniciativas de acessibilidade no Adobe](https://www.adobe.com/trust/accessibility/initiatives.html) para obter mais informações.
 
 No GenStudio for Performance Marketing, você pode fazer upload de ativos e modelos que permitem a criação de conteúdo para uma variedade de experiências. A adesão aos padrões de acessibilidade ajuda seu conteúdo a alcançar o público-alvo máximo desejado.
 

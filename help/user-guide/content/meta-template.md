@@ -2,12 +2,13 @@
 title: Preparar um modelo de meta anúncios para o Adobe GenStudio for Performance Marketing
 description: Saiba como criar um modelo de meta anúncio personalizado para o Adobe GenStudio for Performance Marketing.
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Se o anúncio não for projetado em uma dessas taxas de aspecto, a GenStudio for
 
 ## Testar um modelo de meta-anúncio
 
-Teste seu modelo usando o Creative Hub do Meta para ver como o anúncio é exibido em diferentes posicionamentos, como em um feed ou como uma história.
+Teste seu modelo usando o Hub Creative do Meta para ver como o anúncio é exibido em diferentes posicionamentos, como em um feed ou como uma história.
 
 Use sua plataforma de entrega ou prova de email para testar seu email e verificar se ele é renderizado corretamente em diferentes clientes e dispositivos de email.
 
@@ -53,7 +54,7 @@ Defina as áreas no seu modelo de email que devem ser preenchidas dinamicamente 
 Para definir áreas de conteúdo geradas:
 
 * Identifique os elementos de texto no modelo que o GenStudio for Performance Marketing deve gerar automaticamente, como o título ou o CTA.
-* Adapte seu modelo de HTML inserindo espaços reservados dentro dele usando a sintaxe Handlebars.
+* Adapte o modelo do HTML inserindo espaços reservados usando a sintaxe Handlebars.
 
 Consulte [Espaços reservados para conteúdo](/help/user-guide/content/customize-template.md#content-placeholders).
 
