@@ -2,9 +2,9 @@
 title: Solicitar revisões e aprovações
 description: Solicite uma análise do conteúdo gerado com o Adobe GenStudio for Performance Marketing.
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: 1e66e13df8f1d7ddb6b6a11af6f751ba3a9b8a04
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Depois de gerar as variantes de conteúdo, você pode solicitar revisão e aprov
 **Para solicitar uma revisão**:
 
 1. Clique no botão **[!UICONTROL Enviar para aprovador]** na barra de menu superior da Tela. A janela pop-up _Enviar para aprovação_ é aberta e identifica o rascunho para o qual você está solicitando uma revisão. Se você gerar várias variantes, a Tela inteira será enviada para revisão.
+
+1. Confirme se o título de rascunho é descritivo, informativo e concentra os aprovadores no objetivo de revisão. Selecione o campo _Título_ para alterar o título do rascunho, se necessário. Alterar o título aqui também altera o título subjacente da experiência de rascunho.
 
 1. Selecione o aprovador ou aprovadores do(s) qual(is) deseja solicitar uma revisão. Quando você começa a digitar, o campo **[!UICONTROL Aprovador]** preenche automaticamente o nome de usuário do aprovador na lista de usuários com permissões de exibição e aprovação do GenStudio for Performance Marketing. O botão **[!UICONTROL Enviar]** é ativado depois que você insere pelo menos um nome de aprovador.
 
