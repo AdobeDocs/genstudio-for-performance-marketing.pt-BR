@@ -1,9 +1,9 @@
 ---
 title: Campanhas do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre o planejamento centralizado de campanhas e a criação de resumos de campanha.
-feature: Campaigns, Campaign Brief, Content
+feature: Campaign Planning, Campaign Brief, Workflow
 exl-id: bbf66552-5a42-48d4-9bcd-944cf643e513
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 445b5c2fce07ee8bc67e96f95e670fecda356b22
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
