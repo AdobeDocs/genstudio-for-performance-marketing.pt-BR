@@ -1,11 +1,13 @@
 ---
 title: Práticas recomendadas para modelos
 description: Siga as práticas recomendadas ao usar modelos com o Adobe GenStudio for Performance Marketing.
+level: Intermediate
+role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -41,7 +43,13 @@ Consulte [diretrizes do canal](/help/user-guide/guidelines/brands.md#channel-gui
 
 ## Seguir as diretrizes do modelo específico do canal
 
-Crie modelos que acomodam os requisitos visuais e de layout de cada canal. Considere as seguintes dicas e restrições ao trabalhar com cada tipo de modelo para garantir o desempenho e a compatibilidade ideais:
+Ao criar modelos, verifique se eles atendem aos requisitos específicos do canal pretendido. Crie modelos que acomodam os requisitos visuais e de layout de cada canal. Há diretrizes gerais que se aplicam a qualquer modelo, como:
+
+- Usar HTML limpo e responsivo e CSS em linha
+- Usar fontes do Adobe ou Google
+- **não** usar o JavaScript
+
+Considere as seguintes dicas e restrições ao trabalhar com cada tipo de modelo para garantir o desempenho e a compatibilidade ideais:
 
 >[!BEGINTABS]
 
@@ -83,20 +91,11 @@ Siga estas práticas recomendadas de design ao personalizar modelos de metadados
 - Usar largura de 360 pixels para layouts de coluna
 - Use uma resolução mínima de 1080 x 1080 pixels para imagens
 - **não** usar tamanho de fonte relativo
-- **não** definir janelas de visualização
+- Fazer **não** definir viewport
 - **não** usar o JavaScript
 - **não** substitua um elemento HTML no CSS
-- Use as seguintes configurações para imagens de fundo:
-
-  Adicionar o valor `object-fit: cover` à classe CSS `background-image`:
-
-  ```css
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  ```
+- Usar a marca `<img>` em vez de `background-image`
+- Usar o mascaramento para melhorar a legibilidade do texto em imagens de plano de fundo
 
 **Restrições**:
 
@@ -151,11 +150,10 @@ Siga estas práticas recomendadas de design ao personalizar modelos de Banner e 
 
 **Nomes de campos reconhecidos**:
 
-Use espaços reservados para o conteúdo para os seguintes campos:
+Para anúncios em banner e Exibição, o campo `CTA` é gerado automaticamente. Use espaços reservados para o conteúdo para os seguintes campos:
 
 - `headline`
 - `body`
-- `cta`
 - `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
 
 Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
@@ -188,21 +186,20 @@ Siga estas práticas recomendadas de design ao personalizar modelos de anúncios
    - dispositivo móvel
    - Mín: 360 x 640 pixels
    - Máx.: 2430 x 4320 pixels
-- Verticle 2.3
+- Vertical 2.3
    - dispositivo móvel
    - Mín: 360 x 640 pixels
    - Máx.: 2430 x 4320 pixels
-- Verticle 4.5 (recomendado)
+- Vertical 4.5 (recomendado)
    - dispositivo móvel
    - Mín: 360 x 640 pixels
    - Máx.: 2430 x 4320 pixels
 
 **Nomes de campos reconhecidos**:
 
-Para anúncios do LinkedIn, os campos `headline` e `CTA` são gerados automaticamente. Use espaços reservados para o conteúdo para os seguintes campos:
+Para anúncios do LinkedIn, os campos `headline`, `introductory_text` e `CTA` são gerados automaticamente. Use espaços reservados para o conteúdo para os seguintes campos:
 
 - `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
-- `introductory_text`
 - `on_image_text`
 - `brand_logo`
 
