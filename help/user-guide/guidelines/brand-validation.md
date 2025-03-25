@@ -3,7 +3,7 @@ title: Validação da marca no Adobe GenStudio for Performance Marketing
 description: Saiba como o sistema integrado de validação de marca funciona no GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Consulte [Melhorar o alinhamento da marca](#improve-brand-alignment).
 
 O painel _Verificação de conteúdo_ é aberto no lado direito da Tela quando clicado na barra de ação direita _ou_ no ícone de resumo [_Verificação de conteúdo_](#content-check-summary) de uma variante. Esse painel oferece validação detalhada da marca. diretrizes da plataforma e informações sobre padrões de acessibilidade iluminam oportunidades de melhoria para cada seção de variante.
 
-![Painel de verificação de conteúdo](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+![Painel de verificação de conteúdo](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 O painel _Verificação de conteúdo_ exibe as [informações de conformidade](/help/user-guide/guidelines/overview.md#compliance) e validação para cada seção da variante:
 
