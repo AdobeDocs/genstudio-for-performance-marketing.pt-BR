@@ -1,16 +1,16 @@
 ---
-title: Conteúdo aprovado pelo Publish
+title: Publicar conteúdo aprovado
 description: Saiba como publicar conteúdo aprovado com o Adobe GenStudio for Performance Marketing.
-feature: Approval, Content
+feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Conteúdo aprovado pelo Publish
+# Publicar conteúdo aprovado
 
 A etapa final da criação de conteúdo aprovado e alinhado à marca é salvá-lo em [!DNL Content] com metadados apropriados. Você (o editor de conteúdo ou criador) pode finalizar o ativo aprovado publicando-o ou salvando-o em [!DNL Content].
 
@@ -20,9 +20,9 @@ Você pode então finalizar o rascunho publicando-o em [!DNL Content] com os met
 
 **Para publicar o conteúdo aprovado**:
 
-1. Acesse o rascunho aprovado diretamente ou pelo pop-up _Variantes aprovadas prontas para publicar_. Este pop-up inclui um botão **[!UICONTROL Fechar]** para adiar a publicação do ativo aprovado e um botão **[!UICONTROL Publish]** para iniciar o processo de publicação.
+1. Acesse o rascunho aprovado diretamente ou pelo pop-up _Variantes aprovadas prontas para publicar_. Este pop-up inclui um botão **[!UICONTROL Fechar]** para adiar a publicação do ativo aprovado e um botão **[!UICONTROL Publicar]** para iniciar o processo de publicação.
 
-1. Clique em **[!UICONTROL Publish]** para salvar o ativo ou a experiência em [!DNL Content]. O GenStudio for Performance Marketing exibe a janela _Confirmar detalhes do conteúdo aprovado_, que exibe miniaturas dos ativos aprovados.
+1. Clique em **[!UICONTROL Publicar]** para salvar o ativo ou a experiência em [!DNL Content]. O GenStudio for Performance Marketing exibe a janela _Confirmar detalhes do conteúdo aprovado_, que exibe miniaturas dos ativos aprovados.
 
 1. Adicione informações sobre o conteúdo conforme solicitado pelo GenStudio for Performance Marketing. Essas informações são salvas como metadados, o que adiciona valor ao filtro [!DNL Content] e às operações de pesquisa. Você pode adicionar o ativo a uma campanha do GenStudio for Performance Marketing neste ponto do processo de publicação.
 

@@ -1,9 +1,10 @@
 ---
 title: Revisões e aprovações do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre o processo de revisão e aprovação do GenStudio for Performance Marketing.
-feature: Approval
+level: Beginner
+feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: d6f9673c7b6c8bc1aa051c2133759876a59217eb
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -53,7 +54,7 @@ Status de rascunho disponíveis:
 
 As notificações no produto da GenStudio for Performance Marketing atualizam os aprovadores e editores de conteúdo em tempo real das alterações de status do ativo e `@mention` comentários. As notificações suportam iteração rápida por meio de vários ciclos de revisão, edição e aprovação.
 
-Os editores e aprovadores de conteúdo podem se inscrever para receber essas notificações no Slack. Consulte [Assinar serviços no Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+Os editores de conteúdo e aprovadores podem se inscrever para receber essas notificações no Slack. Consulte [Assinar serviços no Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 As ações executadas pelos participantes da aprovação acionam notificações automáticas no produto e notificações por email. Ao iniciar um processo de aprovação, os aprovadores designados recebem notificações por email e no produto. Você é mantido no loop com notificações no produto e por email sempre que um aprovador adiciona `@mention` comentários ou toma uma decisão. As notificações incluem links para o rascunho do conteúdo.
 
