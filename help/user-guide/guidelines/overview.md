@@ -1,9 +1,10 @@
 ---
 title: Visão geral de [!DNL Brands], [!DNL Products] e [!DNL Personas]
 description: Adicione [!DNL Brands], [!DNL Products], and [!DNL Personas] ao GenStudio for Performance Marketing para criar um perfil de marca abrangente que inclua todos os aspectos da representação de uma marca.
+level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: f08e92fd8d71fb8e918d8c8167d1e62ed86e35cb
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
