@@ -4,7 +4,7 @@ description: Saiba como avaliar o desempenho de atributos específicos no Adobe 
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 4afdde6fd08a9f33ff599f5f85b9c1b9d79870ec
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -39,7 +39,7 @@ O GenStudio for Performance Marketing detecta determinados recursos e aplica o a
 
 Um atributo _categoria_ é um grupo de classificação que organiza atributos relacionados que compartilham uma característica comum. Essas categorias ajudam a simplificar a descoberta, a identificação e a compreensão de atributos específicos, fornecendo maior contexto e facilitando sua aplicação e uso.
 
-O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar [imagens](image-features.md), [vídeos](video-features.md) e texto e aplicar [!UICONTROL atributos de mídia] com base na probabilidade de correção.
+O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar [imagens](image-features.md), [vídeos](video-features.md) e [texto](text-features.md) e aplicar [!UICONTROL atributos de mídia] com base na probabilidade de correção.
 
 A lista de atributos detectados para conteúdo de mídia não é exaustiva. As mídias que contêm um conjunto avançado de recursos podem ser limitadas aos três recursos mais dominantes identificados pela IA. Por exemplo, a ilustração a seguir contém vários atributos de imagem detectados, incluindo vários objetos, cores do primeiro plano e do plano de fundo.
 

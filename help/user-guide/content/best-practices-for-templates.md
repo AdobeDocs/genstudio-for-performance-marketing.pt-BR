@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
+source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -80,7 +80,6 @@ Para email, o campo `subject` é incluído automaticamente. Use espaços reserva
 - `body`
 - `cta`
 - `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
-- `brand_logo`
 
 Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
 
@@ -115,7 +114,6 @@ Para Metadados, os campos `headline`, `body` e `CTA` são gerados automaticament
 
 - `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
 - `on_image_text`
-- `brand_logo`
 
 Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
 
@@ -201,7 +199,6 @@ Para anúncios do LinkedIn, os campos `headline`, `introductory_text` e `CTA` s�
 
 - `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
 - `on_image_text`
-- `brand_logo`
 
 Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
 
