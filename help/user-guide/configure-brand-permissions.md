@@ -2,9 +2,9 @@
 title: Atribuir  [!DNL Brand] permissões
 description: Saiba mais sobre a atribuição de direitos para criadores e editores do GenStudio for Performance Marketing [!DNL Brand] .
 level: Intermediate
-feature: Brands Service, Generative AI
+feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # Atribuir [!DNL Brand] permissões
 
-Por padrão, os gerentes de sistema da GenStudio podem criar e editar [!DNL Brands]. As funções de editor de conteúdo e colaborador têm permissões de edição e criação, mas podem não exigir direitos de gerenciamento do sistema. Para conceder aos editores de conteúdo e colaboradores esses direitos relacionados ao [!DNL Brand], um administrador de sistema do Adobe deve executar algumas tarefas de configuração adicionais na Adobe Admin Console. Consulte [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) em _Guia de administração de empresas e equipes_.
+Por padrão, os gerentes de sistema da GenStudio podem criar e editar [!DNL Brands]. As funções de editor de conteúdo e colaborador têm permissões de edição e criação, mas podem não exigir direitos de gerenciamento do sistema. Para conceder aos editores de conteúdo e colaboradores esses direitos relacionados ao [!DNL Brand], um administrador do sistema do Adobe deve executar algumas tarefas de configuração adicionais na Adobe Admin Console. Consulte [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) em _Guia de administração de empresas e equipes_.
 
-A adição de usuários e grupos de usuários é uma tarefa básica comum a todos os produtos Adobe com direitos gerenciados pelo Admin Console. Consulte [Usuários do Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/users.html) no _Guia de administração de empresas e equipes_ para obter uma visão geral do gerenciamento de usuários e dos procedimentos para adicionar usuários e grupos de usuários.
+Adicionar usuários e grupos de usuários é uma tarefa básica comum a todos os produtos da Adobe com direitos gerenciados pela Admin Console. Consulte [Usuários do Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/users.html) no _Guia de administração de empresas e equipes_ para obter uma visão geral do gerenciamento de usuários e dos procedimentos para adicionar usuários e grupos de usuários.
 
 ## Etapa 1: Criar um grupo de usuários
 
 **Para criar um grupo de usuários**:
 
-1. Faça logon no Admin Console e navegue até **[!UICONTROL Usuários]** > **[!UICONTROL Grupos de Usuários]**.
+1. Faça logon na Admin Console e navegue até **[!UICONTROL Usuários]** > **[!UICONTROL Grupos de Usuários]**.
 
 1. Clique em **[!UICONTROL Novo Grupo de Usuários]**. O pop-up _Criar um novo grupo de usuários_ é aberto.
 
@@ -35,7 +35,7 @@ Consulte [Gerenciar grupos de usuários](https://helpx.adobe.com/br/enterprise/u
 
 ## Etapa 2: atribuir um perfil do GenStudio System Manager ao grupo de usuários
 
-Depois de criar um novo grupo de usuários e adicionar usuários, você pode atribuir o perfil **gerenciador do sistema de Adobe GenStudio** a esse grupo. O direito associado ao perfil atribuído fornece a todos os usuários neste grupo permissões do GenStudio [!DNL Brands] (criar, atualizar e excluir marcas).
+Depois de criar um novo grupo de usuários e adicionar usuários, você pode atribuir o perfil do **Adobe GenStudio system manager** a esse grupo. O direito associado ao perfil atribuído fornece a todos os usuários neste grupo permissões do GenStudio [!DNL Brands] (criar, atualizar e excluir marcas).
 
 **Para atribuir um perfil ao grupo de usuários**:
 
@@ -71,7 +71,7 @@ Para atribuir aos usuários a permissão para criar, editar e publicar [!DNL Bra
 
 1. Adicione um usuário novo ou existente por nome de usuário ou endereço de email. Ao inserir um nome ou endereço de email para um usuário existente, esse campo é preenchido automaticamente com nomes correspondentes para usuários conhecidos que pertencem a esta Organização IMS. Saiba mais sobre como gerenciar grupos de usuários em [Gerenciar grupos de usuários](https://helpx.adobe.com/br/enterprise/using/user-groups.html) no _Guia de administração de empresas e equipes_.
 
-Os usuários recebem as permissões de criação, edição e publicação do [!DNL Brand] dos gerentes de sistema do Adobe GenStudio quando adicionados ao grupo. Os usuários também recebem um convite automatizado por email para editar o projeto [!DNL Brands] do Adobe GenStudio for Performance Marketing.
+Os usuários recebem as permissões de criação, edição e publicação do [!DNL Brand] dos gerenciadores de sistema do Adobe GenStudio quando adicionados ao grupo. Os usuários também recebem um convite automatizado por email para editar o projeto [!DNL Brands] do Adobe GenStudio for Performance Marketing.
 
 ## Etapa 4: Criar um projeto [!DNL Brands]
 
@@ -79,7 +79,7 @@ Um _projeto_ fornece um local de armazenamento onde usuários selecionados podem
 
 **Para criar um projeto [!DNL Brands] a partir da _guia Armazenamento_**:
 
-1. Navegue até a guia _Armazenamento_ no Admin Console.
+1. Navegue até a guia _Armazenamento_ na Admin Console.
 
 1. Clique em **[!UICONTROL Projetos]** na navegação lateral. A guia _Projetos_ é aberta.
 
