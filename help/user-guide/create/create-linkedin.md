@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Para gerar uma nova experiência no LinkedIn, você precisa de um modelo para fo
 **Para escolher um modelo do LinkedIn**:
 
 1. Em _[!DNL Create]_, clique em **[!UICONTROL LinkedIn]**na_&quot;O que você deseja criar hoje?&quot;seção _.
-1. Use a opção de pesquisa, adjacente ao _Filtro_, para localizar um modelo específico.
+1. Use as [opções de pesquisa e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) para localizar um modelo específico.
 1. Clique para selecionar um modelo e clique em **[!UICONTROL Usar]**.
 
    Essa ação abre a Tela, que é o hub central para a criação de conteúdo.
@@ -80,7 +80,7 @@ Antes de enviar variantes para aprovação ou publicação para [!DNL Content], 
 
 * **Para [editar o nome do rascunho do anúncio do LinkedIn](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar manualmente um anúncio do LinkedIn](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer uma das seções do anúncio (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
-* **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione nas opções de texto disponíveis do botão. Em _Link_, insira uma URL para o texto de chamada para ação.
+* **Para alterar ou selecionar o plano de ação**, clique no botão call-to-action e selecione entre as opções de texto de botão disponíveis. Em _Link_, insira uma URL para o texto do call-to-action.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt na _[!UICONTROL seção Gerar novo texto_] e clique em **[!UICONTROL Gerar]**.
 * **Para [cortar ou reposicionar imagens](/help/user-guide/create/manage-variants.md#crop-assets)**, passe o mouse sobre uma imagem, clique no ícone de recorte exibido e ajuste o tamanho e o posicionamento da imagem.
 * **Para [excluir um anúncio do LinkedIn](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no menu de opções de uma variante e clique em **[!UICONTROL Excluir variante]**.

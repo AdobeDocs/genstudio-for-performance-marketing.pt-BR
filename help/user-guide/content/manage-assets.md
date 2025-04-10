@@ -3,9 +3,9 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1409'
 ht-degree: 1%
 
 ---
@@ -26,10 +26,13 @@ A seguir, uma pesquisa sobre o termo `space` na galeria [!UICONTROL Assets]:
 
 O filtro e a interface de pesquisa são rápidos e responsivos e fornecem uma experiência produtiva de pesquisa. Cada exibição do [!DNL Content] fornece opções de filtro para restringir sua pesquisa pelo ativo, experiência ou modelo ideal. Para ativos e experiências, você pode selecionar uma campanha e diretrizes específicas, como o conteúdo criado para um produto específico.
 
-Há filtros baseados em [palavras-chave](asset-details.md#user-defined-metadata) e [categorias de atributo](/help/user-guide/insights/attributes.md#categories) para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha. Ou você pode filtrar o conteúdo com base no seu nome de usuário ou no nome de um membro da equipe:
+Há filtros baseados em [diretrizes](/help/user-guide/guidelines/overview.md), [palavras-chave](asset-details.md#user-defined-metadata) e [categorias de atributo](/help/user-guide/insights/attributes.md#categories) para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha. Ou você pode filtrar o conteúdo com base no seu nome de usuário ou no nome de um membro da equipe:
 
-- O filtro **[!UICONTROL Carregado por]** limita a lista _[!UICONTROL Assets]_ para mostrar apenas os ativos carregados por você ou por uma pessoa específica.
-- O filtro **[!UICONTROL Criado por]** limita a lista _[!UICONTROL Experiências]_ para mostrar apenas as experiências criadas por você ou por uma pessoa específica.
+- **[!UICONTROL Carregado por]**: limita a lista _[!UICONTROL Assets]_ para mostrar apenas os ativos carregados por você ou por uma pessoa específica.
+- **[!UICONTROL Criado por]**: limita a lista _[!UICONTROL Experiências]_ para mostrar apenas as experiências criadas por você ou por uma pessoa específica.
+- **[!UICONTROL Modelo]**: limita a lista _[!UICONTROL Experiências]_ para mostrar somente as experiências criadas com o modelo selecionado.
+
+Se determinadas opções de filtro não estiverem visíveis, isso indicará que nenhum modelo no repositório corresponde aos critérios de metadados correspondentes. Verifique se os modelos estão marcados corretamente com metadados para torná-los detectáveis por meio desses filtros.
 
 **Para pesquisar conteúdo a ser reutilizado**:
 

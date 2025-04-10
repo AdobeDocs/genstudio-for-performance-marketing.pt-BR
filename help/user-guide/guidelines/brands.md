@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: O GenStudio for Performance Marketing [!DNL Brands] é uma coleção abrangente de ativos da marca—cópia de marketing, imagens, experiências e muito mais—para informar a criação de conteúdo alinhado à marca.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -72,15 +72,15 @@ A tabela a seguir mostra cada seção de canal, canais para os quais ela está d
 
 | Seções | Canais | Descrição | Práticas recomendadas |
 | ------------------| --------- | --------- | -------- |
-| Geral | email, Meta, exibir anúncios | Uma segunda linha de assunto ou texto de visualização de email | Defina o tom/emoção geral para ser consistente em todo o email (2-5 diretrizes).<br>_Exemplos_: &quot;Manter um tom amigável e acessível&quot;, &quot;Evitar linguagem excessivamente formal&quot;<br><br> |
+| Geral | email, Meta, Banner e anúncios de exibição | Uma segunda linha de assunto ou texto de visualização de email | Defina o tom/emoção geral para ser consistente em todo o email (2-5 diretrizes).<br>_Exemplos_: &quot;Manter um tom amigável e acessível&quot;, &quot;Evitar linguagem excessivamente formal&quot;<br><br> |
 | Assunto | email | Um título atraente e interessante para resumir o conteúdo de um email | Forneça orientação específica (2 a 5 diretrizes) sobre tom, comprimento, etc. Adicione linhas de assunto anteriormente bem-sucedidas na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplo_: &quot;Alinhar assunto ao corpo do email&quot; |
 | Pré-cabeçalho | email | Uma segunda linha de assunto ou texto de visualização de email | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione pré-cabeçalhos anteriormente bem-sucedidos na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplo_: &quot;Limite de 60 a 80 caracteres&quot; |
-| Título | email, Meta, anúncios de exibição, LinkedIn | Um título ou frase para chamar a atenção do leitor | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione títulos anteriormente bem-sucedidos na seção _Exemplos_ para obter resultados de melhor qualidade.<br>_Exemplos_: &quot;Use instruções furtivas para chamar atenção&quot; |
-| Subtítulo | email, Anúncios de exibição | Um segundo ou terceiro título ou frase para chamar a atenção do leitor | Fornecer orientação específica (2-5 diretrizes) que definem o tom, o comprimento ideal, etc. Adicione subtítulos anteriormente bem-sucedidos na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Use instruções furtivas para chamar atenção&quot; |
+| Título | email, Meta, Banner e anúncios de exibição, LinkedIn | Um título ou frase para chamar a atenção do leitor | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione títulos anteriormente bem-sucedidos na seção _Exemplos_ para obter resultados de melhor qualidade.<br>_Exemplos_: &quot;Use instruções furtivas para chamar atenção&quot; |
+| Subtítulo | email, banner e anúncios de exibição | Um segundo ou terceiro título ou frase para chamar a atenção do leitor | Fornecer orientação específica (2-5 diretrizes) que definem o tom, o comprimento ideal, etc. Adicione subtítulos anteriormente bem-sucedidos na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Use instruções furtivas para chamar atenção&quot; |
 | Descrição | LinkedIn | Frases descritivas que definem a emoção geral do tom | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione descrições anteriormente bem-sucedidas na seção _Exemplos_ para obter resultados de melhor qualidade.<br>_Exemplos_: &quot;Manter um tom amigável e acessível&quot; |
-| Corpo | email, Meta, anúncios de exibição, LinkedIn | Conteúdo de marketing que inclui mensagens, links e imagens | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione uma cópia anteriormente bem-sucedida à seção _Exemplos_ para obter uma saída com melhor qualidade.<br>_Exemplos_: &quot;Limitar a 80-100 caracteres&quot;, &quot;Evitar acrônimos em excesso&quot; |
+| Corpo | email, Meta, Banner e anúncios de exibição, LinkedIn | Conteúdo de marketing que inclui mensagens, links e imagens | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione uma cópia anteriormente bem-sucedida à seção _Exemplos_ para obter uma saída com melhor qualidade.<br>_Exemplos_: &quot;Limitar a 80-100 caracteres&quot;, &quot;Evitar acrônimos em excesso&quot; |
 | Texto na imagem | Meta, LinkedIn | Orientação específica sobre o tom, comprimento ideal, etc. para texto que aparece sobre imagens | Forneça orientação específica (1-2 frases) sobre o tom, o comprimento ideal, etc. Adicione um texto anteriormente bem-sucedido à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Concentre-se no momento&quot; |
-| Frase de chamariz (CTA) | email, Meta, exibir anúncios | (Chamada para ação) Uma instrução dada ao leitor que inspira uma resposta. Geralmente uma ou duas palavras, como `Get started` | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione CTAs anteriormente bem-sucedidos à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Não use pontuação final&quot; |
+| Call-to-action (CTA) | email, Meta, Banner e anúncios de exibição | (Chamada para ação) Uma instrução dada ao leitor que inspira uma resposta. Geralmente uma ou duas palavras, como `Get started` | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione CTAs anteriormente bem-sucedidos à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Não use pontuação final&quot; |
 
 #### Diretrizes de canal padrão
 

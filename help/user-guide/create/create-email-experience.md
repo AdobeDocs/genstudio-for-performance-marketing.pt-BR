@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para criar uma nova experiência de email, use um modelo disponível para fornec
 **Para escolher um modelo de email**:
 
 1. Em _[!DNL Create]_, clique em **[!UICONTROL Email]**na_&quot;O que deseja criar hoje?&quot;seção _.
-1. Use a opção de pesquisa, ao lado de _Filtro_, para localizar um modelo de email específico.
+1. Use as [opções de pesquisa e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) para localizar um modelo específico.
 1. Clique para selecionar um modelo de email e clique em **[!UICONTROL Usar]**.
 
    A Tela, o epicentro da criação de conteúdo, é exibida.
@@ -85,7 +85,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 * **Para [editar o nome do rascunho do email](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer um dos campos de texto editáveis (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário
-* **Para [alterar ou selecionar o Plano de ação](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, clique no botão de plano de ação e selecione _[!UICONTROL Reformular]_ ou _[!UICONTROL Adicionar link]_.
+* **Para [alterar ou selecionar o Chamado para ação](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, clique no botão call-to-action e selecione _[!UICONTROL Refrase]_ ou _[!UICONTROL Adicionar link]_.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
 * **Para [adicionar ou trocar imagens em uma variante](/help/user-guide/create/manage-variants.md#swap-image)**, clique em um ativo de imagem (ou na área do ativo de imagem, se uma imagem não existir no momento) e clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 * **Para [adicionar um link a uma imagem em uma variante](/help/user-guide/create/manage-variants.md#add-image-link)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique no ícone de link.

@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2198'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 1%
 
 Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
 
-## 2025.03.13 {#latest}
+## 2025.04.10 {#latest}
+
+### Correções e aprimoramentos
+
+* Novas opções de filtro para modelos! Agora você pode refinar sua lista _[!UICONTROL Selecionar modelos]_ em [!DNL Create] e em _[!UICONTROL Conteúdo]_ > _[!UICONTROL Modelos]_. Consulte [Modelos de pesquisa](/help/user-guide/content/use-templates.md#search-templates). Verifique se os modelos estão marcados corretamente com metadados para torná-los detectáveis por meio desses filtros.
+* Funcionalidade habilitada para [exibir e selecionar camadas individuais](/help/user-guide/create/manage-variants.md#view-layers)—campos de texto editáveis ou imagens editáveis—de uma experiência para destacá-las para revisões, como regeneração de conteúdo ou recorte de imagens.
+* Adição de um [novo campo de modelo](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional em experiências para capturar a atenção do público e destacar mensagens de marketing.
+
+## Notas de versão anteriores
+
++++Notas de 2025.03.13
 
 ### Ativar meta anúncios
 
@@ -60,7 +70,7 @@ A nova [estrutura de extensibilidade](/help/extensibility/overview.md) do GenStu
 * Melhoria na experiência do usuário e na visibilidade das categorias de canal [em Criar página inicial](/help/user-guide/create/overview.md), separando-as em Mídia própria, Mídia paga e Seções de conteúdo.
 * Filtragem aprimorada em [!DNL Insights] exibições de tabela e galeria.
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2025.02.13
 
@@ -100,7 +110,7 @@ Agora é possível gerar novas frases de chamada para ação (CTA) ao gerenciar 
 
 * As seleções de persona, marca e produto agora são pré-carregadas durante a geração do modelo. <!-- GS-8069 -->
 
-* O link de chamada para ação por email não é mais um campo obrigatório. <!-- GS-8103 -->
+* O link do call-to-action de email não é mais um campo obrigatório. <!-- GS-8103 -->
 
 * O menu suspenso do seletor [!DNL Brand] agora funciona conforme esperado para modelos. Anteriormente, o seletor não carregava com êxito alguns modelos. <!-- GS-8908 -->
 
@@ -244,7 +254,7 @@ Esta versão inclui melhorias na localização em toda a interface do usuário, 
 
 * A gaveta do prompt [!DNL Create] agora fecha conforme esperado quando um usuário clica. <!-- GS-5254 -->
 
-* A exportação de metadados agora inclui o rótulo de chamada para ação selecionado, conforme esperado. <!-- GS-6504 -->
+* A exportação de metadados agora inclui o rótulo call-to-action selecionado, conforme esperado. <!-- GS-6504 -->
 
 * A pontuação da marca agora é atualizada e mantida conforme esperado para experiências regeneradas. <!-- GS-6535 -->
 

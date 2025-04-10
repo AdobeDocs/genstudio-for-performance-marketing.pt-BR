@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para criar uma experiência de anúncio de exibição, use um modelo disponível
 **Para escolher um modelo de anúncio de exibição**:
 
 1. Em _[!DNL Create]_, clique em **[!UICONTROL Exibir anúncios]**na_&quot;O que deseja criar hoje?&quot;seção _.
-1. Use a opção de pesquisa, adjacente ao _Filtro_, para localizar um modelo de anúncio de exibição específico.
+1. Use as [opções de pesquisa e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) para localizar um modelo específico.
 1. No modo de exibição _Selecionar modelo_, clique em um modelo de anúncio de exibição.
 1. Clique em **[!UICONTROL Usar]**.
 
@@ -73,6 +73,8 @@ Por padrão, quatro variações, alimentadas pelo prompt, pelas diretrizes e pel
 ## Revisar variantes geradas
 
 Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar seções de anúncio de exibição e campos de texto ou excluir uma variante gerada.
+
+Para realçar uma camada individual a ser revisada, clique em um campo ou imagem editável e clique em _[!UICONTROL Exibir Camadas]_.
 
 **Para revisar variantes geradas**:
 

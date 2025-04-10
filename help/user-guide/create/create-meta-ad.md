@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para começar a gerar uma nova experiência de Metadados, use um modelo disponí
 **Para escolher um modelo de meta-anúncio**:
 
 1. Em _[!DNL Create]_, clique em **[!UICONTROL Meta anúncios]**na_&quot;O que você deseja criar hoje?&quot;seção _.
-1. Use a opção de pesquisa, adjacente ao _Filtro_, para localizar um Modelo de Metadados específico.
+1. Use as [opções de pesquisa e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) para localizar um modelo específico.
 1. Clique para selecionar um modelo e clique em **[!UICONTROL Usar]**.
 
    Essa ação abre a Tela, que é o hub central para a criação de conteúdo.
@@ -85,12 +85,14 @@ Ao [revisar os Meta ads](#revise-generated-variants), você pode alterar a propo
 
 Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar os Metadados ou excluir uma variante do conjunto de anúncios gerados.
 
+Para realçar uma camada individual a ser revisada, clique em um campo ou imagem editável e clique em _[!UICONTROL Exibir Camadas]_.
+
 **Para revisar variantes geradas**:
 
 * **Para [editar o nome do rascunho do Metaanúncio](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar um Metadado manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer uma das seções de anúncio (como a linha de assunto,
 cabeçalho ou cópia do corpo) e edite conforme necessário.
-* **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione nas opções de texto disponíveis do botão. Em _Link_, insira uma URL para o texto de chamada para ação.
+* **Para alterar ou selecionar o plano de ação**, clique no botão call-to-action e selecione entre as opções de texto de botão disponíveis. Em _Link_, insira uma URL para o texto do call-to-action.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Para [adicionar um link a uma imagem em uma variante](/help/user-guide/create/manage-variants.md#add-image-link)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique no ícone de link.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
@@ -144,6 +146,6 @@ Consulte [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-a
 
 ## Conectar Meta
 
-Você pode conectar o GenStudio for Performance Marketing ao Meta para receber análises avançadas e [insights](/help/user-guide/insights/overview.md) sobre o desempenho do conteúdo.
+É possível conectar o GenStudio for Performance Marketing ao Meta para receber análises e insights avançados sobre o desempenho do conteúdo.
 
-Consulte [Conectar conta de canal](/help/user-guide/insights/connect-channel.md) para obter mais informações.
+Consulte [Metadados e anúncios conectados](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).

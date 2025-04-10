@@ -5,10 +5,10 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: b53a6aeee056a987064833f1fc99bfd6bfe3556a
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 1%
+source-wordcount: '1326'
+ht-degree: 0%
 
 ---
 
@@ -37,12 +37,14 @@ Veja a seguir uma lista dos elementos usados em templates e alguns detalhes sobr
 | **Pré-cabeçalho** | Email | Uma linha de assunto secundária em um email, normalmente entre 40 e 50 caracteres, que melhora a linha de assunto principal. Ele fica visível na caixa de entrada ao lado do assunto antes que o email seja aberto. |
 | **Cabeçalho** | Email | A seção superior do email que o recipient vê ao abrir o email define o tom e fornece o contexto para o conteúdo incluído. |
 | **Título** | Meta anúncio, banner e anúncios de exibição, LinkedIn | O primeiro conteúdo que o recipient vê deve ser atraente para capturar interesse. |
-| **Texto introdutório** | LinkedIn | A mensagem principal transmite a mensagem principal, semelhante à cópia do corpo. Pode usar até 150 caracteres, incluindo espaços, no máximo quatro emojis e pontuação. |
-| **Corpo** | Email, Meta anúncio, Banner e Anúncios de exibição | O texto principal do anúncio transmite a mensagem principal. Deve ser envolvente, informativo e persuasivo para incentivar a ação desejada do público. |
-| **CTA** | Email, Meta anúncio, Banner e Anúncios de exibição, LinkedIn | Um botão de frase de chamariz usa uma frase e um link para incentivar o recipient a realizar uma ação específica, como clicar em um link ou fazer uma compra. |
-| **Imagens** | Email, Meta anúncio, Banner e Anúncios de exibição, LinkedIn | Aprimorar o apelo visual, dividir o texto e dar suporte à mensagem. As imagens devem ser de alta qualidade e atraentes. |
-| **Rodapé** | Email | A seção inferior do email contém conteúdo adicional, como detalhes de contato, links de redes sociais, avisos de isenção de responsabilidade e opções de cancelamento de inscrição. |
-| **Sobreposição de Texto** | Meta-anúncio | Texto inserido em uma imagem para suportar e aprimorar o conteúdo do título e do corpo. |
+| **Subtítulo** | Email, banner e anúncios gráficos | Um elemento de texto secundário compatível com o título. Normalmente, é conciso e projetado para complementar o título principal, chamando a atenção do leitor ainda mais para o conteúdo. |
+
+| **Texto introdutório**| LinkedIn                                 | A mensagem principal transmite a mensagem principal, semelhante à cópia do corpo. Pode usar até 150 caracteres, incluindo espaços, no máximo quatro emojis e pontuação. |
+| **Corpo**             | Email, Meta anúncio, Banner e Anúncios de exibição    | O texto principal do anúncio transmite a mensagem principal. Deve ser envolvente, informativo e persuasivo para incentivar a ação desejada do público. |
+| **CTA**              | Email, Meta anúncio, Banner e Anúncios de exibição, LinkedIn | Um botão do call-to-action usa uma frase e um link para incentivar o recipient a realizar uma ação específica, como clicar em um link ou fazer uma compra.      |
+| **Imagens**           | Email, Meta anúncio, Banner e Anúncios de exibição, LinkedIn | Aprimorar o apelo visual, dividir o texto e dar suporte à mensagem. As imagens devem ser de alta qualidade e atraentes.                                                   |
+| **Rodapé**           | E-mail                                    | A seção inferior do email contém conteúdo adicional, como detalhes de contato, links de redes sociais, avisos de isenção de responsabilidade e opções de cancelamento de inscrição.            |
+| **Sobreposição de Texto**     | Meta-anúncio                                  | Texto inserido em uma imagem para suportar e aprimorar o conteúdo do título e do corpo.                                                                                  |
 
 >[!TIP]
 >
@@ -58,13 +60,26 @@ Você [personaliza seu modelo](customize-template.md) para uso no GenStudio for 
 
 ## Gerenciar modelos
 
-A galeria _[!DNL Templates]_exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing. Você pode filtrar modelos por tipo de canal, como email, Anúncios de exibição, Metadados e Anúncios do LinkedIn.
+A galeria _[!DNL Templates]_exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing.
+
+### Pesquisar modelos
+
+Cada exibição do [!DNL Content] fornece opções de filtro para restringir sua pesquisa pelo ativo, experiência ou modelo ideal. Há filtros baseados em [diretrizes](/help/user-guide/guidelines/overview.md), [palavras-chave](asset-details.md#user-defined-metadata) e [categorias de atributo](/help/user-guide/insights/attributes.md#categories) para restringir os resultados da pesquisa.
+
+Por exemplo, talvez você queira encontrar um modelo de um tipo de canal específico ou proporção criada por você:
+
+- **[!UICONTROL Criado por]**: limita a lista _[!UICONTROL Modelos]_ para mostrar apenas os modelos criados por você ou por uma pessoa específica.
+- **[!UICONTROL Taxa de Proporção]**: limita a lista _[!UICONTROL Modelos]_ para mostrar modelos criados para uma taxa de proporção específica.
+
+Os programas a seguir filtram por tipo de canal, como email, Anúncios de exibição, Metadados e Anúncios do LinkedIn.
 
 ![Lista de modelos de conteúdo](/help/assets/content-templates-filter.png "Pesquisar os modelos do LinkedIn"){width="650" zoomable="yes"}
 
+O recurso de pesquisa de modelo está disponível durante [!UICONTROL Criar] ao selecionar um modelo para mídia própria ou paga. Se determinadas opções de filtro não estiverem visíveis, isso indicará que nenhum modelo no repositório corresponde aos critérios de metadados correspondentes. Verifique se os modelos estão marcados corretamente com metadados para torná-los detectáveis por meio desses filtros.
+
 ### Adicionar um modelo
 
-Antes de carregar um modelo, verifique se ele está totalmente preparado e pronto para uso no GenStudio for Performance Marketing seguindo as orientações de [Personalizar modelos](customize-template.md).
+Antes de carregar um modelo, verifique se ele está totalmente preparado e pronto para uso no GenStudio for Performance Marketing seguindo as orientações em [Personalizar modelos](customize-template.md).
 
 **Para adicionar um modelo**:
 
@@ -86,7 +101,7 @@ Antes de carregar um modelo, verifique se ele está totalmente preparado e pront
 
 1. Clique em **[!UICONTROL Avançar]** quando estiver satisfeito com a visualização do modelo.
 
-1. No painel _[!UICONTROL Fornecer detalhes do modelo e carregar]_, nomeie o modelo e selecione um tipo de **[!UICONTROL Canal]**.
+1. Em _[!UICONTROL Fornecer detalhes do modelo e carregar]_, nomeie o modelo e selecione um tipo de **[!UICONTROL Canal]**.
 
    O nome do modelo e o tipo de canal são obrigatórios. Os requisitos adicionais podem incluir:
 

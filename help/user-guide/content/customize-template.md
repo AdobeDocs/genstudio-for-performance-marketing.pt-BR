@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Perfor
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Pré-cabeçalho | email |
 | `{{headline}}` | Título | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
+| `{{sub_headline}}` | Subtítulo | email<br>Banner e Anúncio de exibição |
 | `{{introductory_text}}` | Texto introdutório | Anúncio do LinkedIn |
 | `{{body}}` | Corpo do texto | email <br>Meta-anúncio <br>Banner e Anúncio de exibição |
 | `{{cta}}` | Chamada para ação<br>Consulte [Chamadas para ação](#calls-to-action) | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
@@ -101,14 +102,14 @@ O GenStudio for Performance Marketing também pode fornecer frases de chamada pa
 Você pode personalizar seu modelo de email para permitir que os criadores adicionem um link a uma imagem. Semelhante ao link do CTA, use a seguinte orientação para aplicar um espaço reservado `link` a uma marca de imagem:
 
 ```html
-<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+<a href="{{link}}"><img src="image-source.jpg" alt="{{imageDescription}}"></a>
 ```
 
 Neste exemplo:
 
 - `{{link}}` é um espaço reservado para a URL real.
 - `src="image-source.jpg"` deve ser substituído pela URL de origem da imagem real.
-- O `alt="description"` fornece um texto alternativo para a imagem, que é útil para acessibilidade e SEO.
+- `{{imageDescription}}` é um nome de campo definido pelo usuário que fornece um espaço reservado para o texto alternativo da imagem, útil para acessibilidade e SEO.
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -136,7 +137,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ### Nomes de campo manuais
 
-Todos os outros nomes de campo são tratados como campos preenchidos manualmente. Por exemplo, talvez você queira reservar uma seção para conteúdo de rodapé.
+Todos os outros nomes de campo são definidos pelo usuário e tratados como campos preenchidos manualmente. Por exemplo, talvez você queira reservar uma seção para conteúdo de rodapé.
 
 Para criar uma seção editável, adicione colchetes duplos ao redor do nome da seção:
 
