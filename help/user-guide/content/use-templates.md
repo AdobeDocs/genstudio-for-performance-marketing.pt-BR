@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: b53a6aeee056a987064833f1fc99bfd6bfe3556a
+source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 0%
@@ -38,13 +38,12 @@ Veja a seguir uma lista dos elementos usados em templates e alguns detalhes sobr
 | **Cabeçalho** | Email | A seção superior do email que o recipient vê ao abrir o email define o tom e fornece o contexto para o conteúdo incluído. |
 | **Título** | Meta anúncio, banner e anúncios de exibição, LinkedIn | O primeiro conteúdo que o recipient vê deve ser atraente para capturar interesse. |
 | **Subtítulo** | Email, banner e anúncios gráficos | Um elemento de texto secundário compatível com o título. Normalmente, é conciso e projetado para complementar o título principal, chamando a atenção do leitor ainda mais para o conteúdo. |
-
-| **Texto introdutório**| LinkedIn                                 | A mensagem principal transmite a mensagem principal, semelhante à cópia do corpo. Pode usar até 150 caracteres, incluindo espaços, no máximo quatro emojis e pontuação. |
-| **Corpo**             | Email, Meta anúncio, Banner e Anúncios de exibição    | O texto principal do anúncio transmite a mensagem principal. Deve ser envolvente, informativo e persuasivo para incentivar a ação desejada do público. |
-| **CTA**              | Email, Meta anúncio, Banner e Anúncios de exibição, LinkedIn | Um botão do call-to-action usa uma frase e um link para incentivar o recipient a realizar uma ação específica, como clicar em um link ou fazer uma compra.      |
-| **Imagens**           | Email, Meta anúncio, Banner e Anúncios de exibição, LinkedIn | Aprimorar o apelo visual, dividir o texto e dar suporte à mensagem. As imagens devem ser de alta qualidade e atraentes.                                                   |
-| **Rodapé**           | E-mail                                    | A seção inferior do email contém conteúdo adicional, como detalhes de contato, links de redes sociais, avisos de isenção de responsabilidade e opções de cancelamento de inscrição.            |
-| **Sobreposição de Texto**     | Meta-anúncio                                  | Texto inserido em uma imagem para suportar e aprimorar o conteúdo do título e do corpo.                                                                                  |
+| **Texto introdutório** | LinkedIn | A mensagem principal transmite a mensagem principal, semelhante à cópia do corpo. Pode usar até 150 caracteres, incluindo espaços, no máximo quatro emojis e pontuação. |
+| **Corpo** | Email, Meta anúncio, Banner e Anúncios de exibição | O texto principal do anúncio transmite a mensagem principal. Deve ser envolvente, informativo e persuasivo para incentivar a ação desejada do público. |
+| **CTA** | Email, Meta anúncio, Banner e Anúncios de exibição, LinkedIn | Um botão do call-to-action usa uma frase e um link para incentivar o recipient a realizar uma ação específica, como clicar em um link ou fazer uma compra. |
+| **Imagens** | Email, Meta anúncio, Banner e Anúncios de exibição, LinkedIn | Aprimorar o apelo visual, dividir o texto e dar suporte à mensagem. As imagens devem ser de alta qualidade e atraentes. |
+| **Rodapé** | Email | A seção inferior do email contém conteúdo adicional, como detalhes de contato, links de redes sociais, avisos de isenção de responsabilidade e opções de cancelamento de inscrição. |
+| **Sobreposição de Texto** | Meta-anúncio | Texto inserido em uma imagem para suportar e aprimorar o conteúdo do título e do corpo. |
 
 >[!TIP]
 >
