@@ -4,9 +4,9 @@ description: Saiba como otimizar anúncios com base em métricas de desempenho d
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c1c595f3be42b86d0e0aebd42c9c50c9d9aa4cdc
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ No painel [!DNL Insights], é possível:
 - **Identifique o conteúdo mais eficiente**: identifique qual conteúdo tem melhor desempenho para públicos diferentes e adapte conteúdo ou campanhas futuras para preferências de tendência.
 - **Otimizar conteúdo de baixo desempenho**: encontre conteúdo que não esteja funcionando bem e use a IA gerativa integrada para criar variações imediatamente, possivelmente melhorando sua eficácia sem começar do zero.
 - **Revitalize conteúdo de alto desempenho**: pegue o conteúdo bem-sucedido e ajuste-o para atualizar o anúncio para o público ou adaptar o conteúdo principal para uso em novas campanhas, potencialmente estendendo seu ciclo de vida e desempenho.
+
+## Conectores de dados
+
+Na primeira vez que você abrir o [!DNL Insights], poderá ver um banner para orientá-lo a conectar o Adobe GenStudio for Performance Marketing a uma conta de canal.
+
+Essa conexão permite que o GenStudio for Performance Marketing receba dados estatísticos de suas campanhas de marketing, mídia e anúncios ativos. Inicialmente, o GenStudio for Performance Marketing assimila os últimos 6 meses de dados para que você tenha as ferramentas para analisar os dados mais recentes e tomar medidas.
 
 {{connect-insights}}
 
@@ -35,7 +41,7 @@ Cada exibição exibe uma tabela correspondente, que pode ser pesquisada por pal
 
 ### Canais
 
-A exibição [[!DNL Insights] _[!UICONTROL Canais ]_](channels.md) é a exibição padrão e mostra uma lista de detalhes da campanha ativa, como objetivos, orçamento, data de inicialização e atividade. Certifique-se de [conectar uma conta de canal](connect-channel.md) para que a GenStudio for Performance Marketing comece a receber seus dados estatísticos.
+A exibição [[!DNL Insights] _[!UICONTROL Canais ]_](channels.md) é a exibição padrão e mostra uma lista de detalhes da campanha ativa, como objetivos, orçamento, data de inicialização e atividade. Certifique-se de [conectar uma conta de canal](/help/user-guide/connectors/connect-channel.md) para que a GenStudio for Performance Marketing comece a receber seus dados estatísticos.
 
 ### Anúncios
 

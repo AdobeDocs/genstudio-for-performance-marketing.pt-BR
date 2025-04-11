@@ -5,42 +5,44 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: f3fe4228b089ec71d0568b5e39830f2c1d7ae4d8
+source-git-commit: beeaa7e9b434321b99c58827ea0ca62e31e114a5
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '199'
 ht-degree: 19%
 
 ---
 
 
-# Guia do Adobe GenStudio for Performance Marketing {#user-guide}
+# Adobe Systems GenStudio para o Guia de marketing de desempenho {#user-guide}
 
-+ [Guia do GenStudio for Performance Marketing](home.md)
++ [GenStudio para o Guia de marketing de desempenho](home.md)
 + [Notas de versão](release-notes.md)
-+ [Introdução](get-started.md)
++ [Começar](get-started.md)
 + Introdução {#intro}
    + [Conceitos](concepts.md)
-   + [Provisionamento de produto](product-provisioning.md)
+   + [Provisionamento do produto](product-provisioning.md)
    + [Configurar [!DNL Brand] permissões](configure-brand-permissions.md)
    + [Funções do usuário](user-roles.md)
    + [Prompts efetivos](effective-prompts.md)
++ Configurações {#settings}
+   + [Conectar mídia paga](connectors/connect-channel.md)
 + Diretrizes {#guidelines}
    + [Visão geral das diretrizes](guidelines/overview.md)
    + [Marcas](guidelines/brands.md)
    + [Personalidades](guidelines/personas.md)
    + [Produtos](guidelines/products.md)
    + [Adicionar diretrizes](guidelines/add-guidelines.md)
-   + [Validação da marca](guidelines/brand-validation.md)
+   + [validação de marca](guidelines/brand-validation.md)
 + Criar {#create}
    + [[!DNL Create] visão geral](create/overview.md)
    + [Experiências de email](create/email-experiences.md)
    + [Metadadas experiências](create/meta-experiences.md)
-   + [Experiências do LinkedIn](create/linkedin-experiences.md)
-   + [Exibir experiências de anúncio](create/display-ad-experiences.md)
-   + [Experiências com o banner](create/banner-experiences.md)
+   + [Experiências no LinkedIn](create/linkedin-experiences.md)
+   + [Exibir experiências publicidade](create/display-ad-experiences.md)
+   + [Experiências do banner](create/banner-experiences.md)
    + [Gerenciar variantes](create/manage-variants.md)
-   + [Criar uma experiência de email](create/create-email-experience.md)
-   + [Criar uma experiência de meta-anúncio](create/create-meta-ad.md)
+   + [Criar um experiência de email](create/create-email-experience.md)
+   + [Criar uma experiência de Meta publicidade](create/create-meta-ad.md)
    + [Criar uma experiência do LinkedIn](create/create-linkedin.md)
    + [Criar uma experiência de anúncio de exibição](create/create-display-ad.md)
    + [Criar uma experiência de banner](create/create-banner-experience.md)
@@ -52,12 +54,12 @@ ht-degree: 19%
    + [Publicar conteúdo aprovado](approvals/publish-content.md)
 + Conteúdo {#content}
    + [Visão geral do conteúdo](content/overview.md)
-   + [Gerenciar ativos e experiências](content/manage-assets.md)
+   + [Gerencie ativos e experiências](content/manage-assets.md)
    + [Conectar um repositório do AEM](content/connect-aem-repo.md)
    + [Detalhes do ativo](content/asset-details.md)
    + Modelos {#templates}
       + [Trabalhar com modelos](content/use-templates.md)
-      + [Personalizar um modelo](content/customize-template.md)
+      + [Personalizar uma modelo](content/customize-template.md)
       + [Editor de código de modelo](content/code-editor.md)
       + [Criar modelos acessíveis](content/accessibility-for-templates.md)
       + [Práticas recomendadas para modelos](content/best-practices-for-templates.md)
@@ -71,14 +73,13 @@ ht-degree: 19%
    + [Otimizar ativações](activation/troubleshooting.md)
 + Insights {#insights}
    + [Visão geral dos insights](insights/overview.md)
-   + [Conectar conta de canal](insights/connect-channel.md)
    + [Canais](insights/channels.md)
-   + [Anúncios e posicionamento de anúncios](insights/ads.md)
+   + [Anúncios e posicionamento de publicidade](insights/ads.md)
    + [Mídia](insights/media.md)
    + [Atributos](insights/attributes.md)
-   + Categorias de atributo {#categories}
-      + [Recursos de imagem](insights/image-features.md)
-      + [Recursos de vídeo](insights/video-features.md)
+   + Categorias de atributos {#categories}
+      + [Recursos do Imagem](insights/image-features.md)
+      + [recursos do Vídeo](insights/video-features.md)
       + [Recursos de texto](insights/text-features.md)
    + [Gerenciamento de dados](insights/data-management.md)
 + [GenStudio Academy - Oculto](genstudioacademy.md)
