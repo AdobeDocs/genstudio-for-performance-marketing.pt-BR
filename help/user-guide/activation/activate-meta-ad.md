@@ -41,9 +41,9 @@ Após a conclusão da sincronização, você poderá visualizar as contas adicio
 
 Os gerentes e editores de sistema da GenStudio podem ativar experiências de anúncios.
 
-**Para preparar suas experiência para o ativação**:
+**Para preparar sua experiência para a ativação**:
 
-1. A partir de _[!DNL Activate]_então, clique **[!UICONTROL Novo]**no mosaico de metadados. A_ visualização de configuração _Creative é aberta.
+1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**no bloco de produtos Meta. A exibição_ Configuração do Creative _é aberta.
 
    A página de configuração do Creative fornece um local central para preparar a ativação do Meta ad. A preparação do anúncio inclui estas três tarefas:
 
@@ -56,11 +56,11 @@ Os gerentes e editores de sistema da GenStudio podem ativar experiências de an�
 
 ### Selecione seus ativos de mídia
 
-Use a _seção Mídia_ para selecionar pelo menos uma imagem ativo para incluir no experiência. As disposições de anúncios estão associadas às taxas de proporção de imagem suportadas, que são listadas como opções no _menu suspenso Posições_ . Esse menu exibe as disposições de publicidade suportadas para postagens do Facebook ou histórias do Instagram, organizadas por proporção de aspecto.
+Use a seção _Mídia_ para selecionar pelo menos um ativo de imagem a ser incluído na sua experiência. Os posicionamentos de anúncios estão associados a proporções de imagem com suporte, que estão listadas como opções no menu suspenso _Posicionamentos_. Esse menu exibe os posicionamentos de anúncios compatíveis com postagens do Facebook ou histórias do Instagram, organizados por taxa de proporção.
 
-Após upload, ativos são salvas _[!DNL Content]_em . A_&#x200B;área mídia _exibe a imagem por padrão com uma taxa de proporção de 1:1. As taxas de proporção alternativas incluem apenas os valores suportados pelo publicidade pago canal. Eles são agrupados por orientação vertical e horizontal. GenStudio para Marketing de desempenho suporta a inclusão de até seis taxas de proporção por experiência ativado.
+Após o carregamento, os ativos são salvos em _[!DNL Content]_. A área_ Mídia _exibe a imagem por padrão com uma taxa de proporção de 1:1. As taxas de aspecto alternativas incluem apenas os valores compatíveis com o canal de anúncios pagos. Eles são agrupados por orientação vertical e horizontal. O GenStudio for Performance Marketing oferece suporte à inclusão de até seis taxas de aspecto por experiência ativada.
 
-**Para upload um ativo de Conteúdo**:
+**Para carregar um ativo do Conteúdo**:
 
 O _[!DNL Content]_fornece uma exibição central para os ativos e experiências aprovados da sua organização. Você pode focalizar o inventário de ativos exibido na galeria[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) usando as opções de menu **[!UICONTROL Pesquisar]** (lupa) e _Filtrar_.
 
@@ -78,13 +78,13 @@ Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui u
 
 Você pode carregar até seis imagens estáticas externas para a galeria _[!DNL Content]_do Microsoft OneDrive ou do Dropbox.
 
-1. De _[!DNL Activate]_outra forma, clique **[!UICONTROL Novo]**no bloco Meta. A_ janela de configuração _do Creative é aberta.
+1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**no bloco Meta. A janela_ Configuração do Creative _é aberta.
 
-1. _Na seção Mídia_, clique **[!UICONTROL em Selecionar]**. Um menu suspenso exibe opções para _Selecionar a partir de Conteúdo_ ou _Fazer upload_.
+1. Na seção _Mídia_, clique em **[!UICONTROL Selecionar]**. Um menu suspenso exibe opções para _Selecionar Conteúdo_ ou _Carregar_.
 
-1. Clique em **[!UICONTROL Fazer upload]**.A _janela Adicionar proporções de proporção_ é aberta.
+1. Clique em **[!UICONTROL Fazer upload]**. A janela _Adicionar taxas de proporção_ é aberta.
 
-1. Selecione imagens nas proporções de aspecto compatíveis arrastando e soltando arquivos de imagem na área de upload imagem. Como alternativa, você pode procurar ativos no seu dispositivo.
+1. Selecione imagens nas taxas de proporções compatíveis arrastando e soltando arquivos de imagem na área de upload de imagem. Como alternativa, você pode procurar ativos no seu dispositivo.
 
 1. (Opcional) Para carregar ativos do seu dispositivo, clique em **[!UICONTROL Procurar]** e selecione _Procurar arquivos_ ou _Procurar pastas_ para identificar ativos a serem carregados.
 
@@ -103,7 +103,7 @@ Use a seção _Texto_ da página _Ativar Metadado_ para adicionar texto atraente
 | Título | sim | 255 |
 | Descrição | não | 125 |
 | Chamada para ação | sim | somente opções do menu suspenso |
-| Exibir URL | Não | 1000 |
+| Exibir URL | não | 1000 |
 | URL do site | sim | 1000 |
 | Imagem | é necessário pelo menos um |                                 |
 
@@ -126,9 +126,9 @@ Os detalhes da experiência são salvos como metadados e ajudam os usuários a p
 
 Depois de reunir o criativo, clique em **[!UICONTROL Avançar]** para confirmar a configuração do Meta.
 
-## Etapa 4: confirmar configuração de meta conta
+## Etapa 4: Confirmar configuração da conta Meta
 
-Depois de preparar sua criativo, você deve confirmar suas informações de Meta conta e atribuir um ID de rastreamento ao experiência publicidade. A _configuração visualização de configuração_ do Meta publicidade é preenchida com opções derivadas das contas Meta configuradas.
+Depois de preparar o criativo, você deve confirmar as informações da conta Meta e atribuir uma ID de rastreamento à experiência de anúncio. A exibição _Configuração de metadados_ foi preenchida com opções derivadas das contas Meta configuradas.
 
 | Detalhe | Descrição |
 |------------|-------------|
