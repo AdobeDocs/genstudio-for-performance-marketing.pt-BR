@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Para começar a gerar uma nova experiência de Metadados, use um modelo disponí
 
 **Para escolher um modelo de meta-anúncio**:
 
-1. Em _[!DNL Create]_, clique em **[!UICONTROL Meta anúncios]**na_&quot;O que você deseja criar hoje?&quot;seção _.
-1. Use as [opções de pesquisa e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) para localizar um modelo específico.
+1. Em _[!DNL Create]_, clique em **[!UICONTROL Metadados]**.
+1. Use a opção de pesquisa, adjacente ao _Filtro_, para localizar um Modelo de Metadados específico.
 1. Clique para selecionar um modelo e clique em **[!UICONTROL Usar]**.
 
    Essa ação abre a Tela, que é o hub central para a criação de conteúdo.

@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Para gerar uma nova experiência no LinkedIn, você precisa de um modelo para fo
 
 **Para escolher um modelo do LinkedIn**:
 
-1. Em _[!DNL Create]_, clique em **[!UICONTROL LinkedIn]**na_&quot;O que você deseja criar hoje?&quot;seção _.
-1. Use as [opções de pesquisa e _Filtro_](/help/user-guide/content/use-templates.md#search-templates) para localizar um modelo específico.
+1. Em _[!DNL Create]_, clique em **[!UICONTROL LinkedIn]**.
+1. Use a opção de pesquisa, adjacente ao _Filtro_, para localizar um modelo específico.
 1. Clique para selecionar um modelo e clique em **[!UICONTROL Usar]**.
 
    Essa ação abre a Tela, que é o hub central para a criação de conteúdo.
