@@ -4,10 +4,10 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
+source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 1%
+source-wordcount: '2252'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,7 @@ Estas informações de versão detalham as atualizações mais recentes do aplic
 * Novas opções de filtro para modelos! Agora você pode refinar sua lista _[!UICONTROL Selecionar modelos]_ em [!DNL Create] e em _[!UICONTROL Conteúdo]_ > _[!UICONTROL Modelos]_. Consulte [Modelos de pesquisa](/help/user-guide/content/use-templates.md#search-templates). Verifique se os modelos estão marcados corretamente com metadados para torná-los detectáveis por meio desses filtros.
 * Funcionalidade habilitada para [exibir e selecionar camadas individuais](/help/user-guide/create/manage-variants.md#view-layers)—campos de texto editáveis ou imagens editáveis—de uma experiência para destacá-las para revisões, como regeneração de conteúdo ou recorte de imagens.
 * Adição de um [novo campo de modelo](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional em experiências para capturar a atenção do público e destacar mensagens de marketing.
+* Adicionado suporte para [publicar experiências de anúncio](/help/user-guide/activation/overview.md) do GenStudio for Performance Marketing no Google Campaign Manager 360. A Ativate oferece suporte a visualizações detalhadas de anúncios do Google Campaign Manager 360 antes da publicação em um anunciante do Campaign Manager 360. Os anúncios publicados por meio da função Ativar são automaticamente transferidos para os Insights uma vez ao vivo, permitindo que os usuários acompanhem e relatem o desempenho dos anúncios.
 
 ## Notas de versão anteriores
 
