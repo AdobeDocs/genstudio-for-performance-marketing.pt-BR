@@ -3,9 +3,9 @@ title: Ativar um meta anúncio
 description: Saiba como ativar uma experiência de Metadados.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1356'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ O Adobe GenStudio for Performance Marketing é compatível com a ativação de M
 
 Você pode [criar uma Metaexperiência](/help/user-guide/create/create-meta-ad.md) no GenStudio for Performance Marketing e selecioná-la para ativação ou criar uma nova experiência a partir de ativos aprovados em [!DNL Activate].
 
-A ativação de um Metadado segue as [mesmas etapas gerais](create-activation.md) necessárias para a ativação em outros canais pagos. O processo de ativação permite preparar suas experiências de anúncio para os requisitos específicos do Meta. Depois de ativar uma experiência Meta, ou um criativo, no GenStudio for Performance Marketing, use o [Gerenciador de Metads](https://adsmanager.facebook.com/) para ajustar a experiência para inserções específicas de metaanúncios antes da publicação final.
+A ativação de um Metadado segue as [mesmas etapas gerais](create-activation.md) necessárias para a ativação em outros canais pagos. O processo de ativação permite preparar sua experiência criativa a partir de anúncios para os requisitos específicos do Meta. Depois de ativar uma experiência Meta, ou um criativo, no GenStudio for Performance Marketing, use o [Gerenciador de Metads](https://adsmanager.facebook.com/) para ajustar a experiência para inserções específicas de metaanúncios antes da publicação final.
 
 ## Etapa 1: configurar suas contas Meta
 
@@ -107,7 +107,7 @@ Use a seção _Texto_ da página _Ativar Metadado_ para adicionar texto atraente
 | URL do site | sim | 1000 |
 | Imagem | é necessário pelo menos um |                                 |
 
-_Texto primário_ e _título_ são exigidos apenas pelo GenStudio for Performance Marketing, não pelo Meta.
+O GenStudio for Performance Marketing requer _Texto primário_ e _título_, não Meta.
 
 ### Atribuir metadados
 
@@ -148,10 +148,10 @@ Clique em **[!UICONTROL Avançar]** no canto superior direito para visualizar su
 
 A página _Revisão_ exibe sua experiência de anúncio conforme reunido na _configuração do Creative_ e fornece uma oportunidade final de visualizar e editar sua experiência. Clique em **[!UICONTROL Editar seção]** ao lado do rótulo _Configuração do Creative_ para fazer as alterações. Você também pode clicar em **[!UICONTROL Voltar]** no canto superior direito para retornar à página _Configuração do Creative_.
 
-### Ativação completa da sua experiência com anúncios
+### Etapa 6: conclua a ativação de sua experiência de anúncio
 
-Clique em **[!UICONTROL Publicar]**. A experiência completa do Meta Ads e seus metadados associados são enviados diretamente para o conjunto de anúncios do Gerenciador de metadados selecionado. As experiências são entregues ao Gerenciador de metadados inativado. No Gerenciador de metadados, é possível gerenciar as etapas finais de implantação da experiência de publicidade e da campanha Meta.
+1. Clique em **[!UICONTROL Publicar]**.
 
-### Faça logon no Gerenciador de metadados para concluir a ativação
+   A experiência completa do Meta Ads e seus metadados associados são enviados diretamente para o conjunto de anúncios do Gerenciador de metadados selecionado. As experiências são entregues ao Gerenciador de metadados em um estado inativo. No Gerenciador de metadados, é possível gerenciar as etapas finais de implantação da experiência de publicidade e da campanha Meta.
 
-Depois que a ativação for concluída, você deverá fazer logon no Gerenciador de metadados. No [Meta Ads Manager](https://adsmanager.facebook.com/), você pode revisar sua experiência com anúncios e finalizar a publicação em canais Meta específicos.
+1. [Faça logon no Gerenciador de Metadados](https://adsmanager.facebook.com/) para analisar sua experiência de publicidade e finalizar a publicação em canais Meta específicos.

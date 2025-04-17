@@ -5,9 +5,9 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
+source-git-commit: 291b287fec24acaa7b6be6bd663d918842764bd9
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 21%
 
 ---
@@ -66,9 +66,10 @@ ht-degree: 21%
       + [Práticas recomendadas para modelos](content/best-practices-for-templates.md)
 + Campanhas {#campaigns}
    + [Visão geral das campanhas](campaigns/overview.md)
-+ Ativação {#activation}
++ Ativar {#activation}
    + [Visão geral da ativação](activation/overview.md)
    + [Fluxo de trabalho de ativação](activation/create-activation.md)
+   + [Ativar um anúncio do Google Campaign Manager 360](activation/activate-cm360-ad.md)
    + [Ativar um Metadado](activation/activate-meta-ad.md)
    + [Gerenciar ativações](activation/manage-activations.md)
    + [Otimizar ativações](activation/troubleshooting.md)

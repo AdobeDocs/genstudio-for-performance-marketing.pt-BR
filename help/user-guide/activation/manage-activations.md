@@ -1,9 +1,9 @@
 ---
 title: Gerenciar ativações
-description: Saiba como gerenciar experiências ativadas com o Adobe Genstudio para Marketing de desempenho.
+description: Saiba como gerenciar experiências ativadas com o Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: f6e0d0138f30527a1fdf7bef6fc4c30884316e0e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 O _[!DNL Activate]_oferece uma exibição centralizada do status de ativação de cada canal de publicidade, incluindo ativações Publicadas (bem-sucedidas), Falha (malsucedidas) e Publicação (pendentes). A exibição_ Experiências Ativadas _exibe todas as ativações de uma conta de anúncio de canal conectada.
 
-As experiências ativadas são organizadas por canal de anúncio. Em _[!DNL Activate]_, clique em **[!UICONTROL Exibir]**no bloco de canais. A exibição_ Experiências ativadas _do canal selecionado é aberta. As experiências são listadas por nome de experiência e ordenadas por data de ativação. Se sua organização não ativou as experiências para esse canal, o bloco de produtos não inclui o botão **[!UICONTROL Exibir]**.
+_[!DNL Activate]_organiza experiências ativadas por canal de anúncio. Clique em **[!UICONTROL Exibir]**no bloco de canais. A exibição_ Experiências ativadas _do canal selecionado é aberta. Essa exibição lista as experiências por nome e as ordena por data de ativação. Se sua organização não ativou as experiências para esse canal, o bloco de produtos não inclui o botão **[!UICONTROL Exibir]**.
 
 ## Exibição de experiência ativada
 
-As ativações são listadas por nome de experiência em ordem cronológica descendente (listadas mais recentemente primeiro).
+Essa exibição lista as ativações por nome de experiência em ordem cronológica decrescente (as mais recentes listadas primeiro).
 
 A tabela a seguir lista os atributos que definem cada experiência.
 
