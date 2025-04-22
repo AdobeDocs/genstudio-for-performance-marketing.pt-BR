@@ -4,9 +4,9 @@ description: Saiba como avaliar o desempenho de atributos específicos no Adobe 
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 4afdde6fd08a9f33ff599f5f85b9c1b9d79870ec
+source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICO
 
 ## Detalhes do atributo
 
-Os atributos ajudam a identificar [mídia](media.md#media-details) pelos seus detalhes inerentes, como cor, composição, elementos visuais e outras propriedades.
+Os atributos ajudam a identificar [anúncios](ads.md#ad-details) e [mídia](media.md#media-details) por seus detalhes inerentes, como cor, composição, elementos visuais e outras propriedades.
 
 Na visualização de detalhes do atributo, é possível ver quais anúncios usam o atributo selecionado. Os detalhes incluem o desempenho total do atributo e uma análise das métricas de desempenho relacionadas a cada anúncio.
 
@@ -39,9 +39,9 @@ O GenStudio for Performance Marketing detecta determinados recursos e aplica o a
 
 Um atributo _categoria_ é um grupo de classificação que organiza atributos relacionados que compartilham uma característica comum. Essas categorias ajudam a simplificar a descoberta, a identificação e a compreensão de atributos específicos, fornecendo maior contexto e facilitando sua aplicação e uso.
 
-O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar [imagens](image-features.md), [vídeos](video-features.md) e [texto](text-features.md) e aplicar [!UICONTROL atributos de mídia] com base na probabilidade de correção.
+O GenStudio for Performance Marketing usa os recursos de IA e aprendizado de máquina do Adobe para estudar [imagens](image-features.md), [vídeos](video-features.md) e [texto](text-features.md) e aplicar atributos a anúncios e mídia com base em uma probabilidade de correção.
 
-A lista de atributos detectados para conteúdo de mídia não é exaustiva. As mídias que contêm um conjunto avançado de recursos podem ser limitadas aos três recursos mais dominantes identificados pela IA. Por exemplo, a ilustração a seguir contém vários atributos de imagem detectados, incluindo vários objetos, cores do primeiro plano e do plano de fundo.
+A lista de atributos detectados para anúncios e conteúdo de mídia não é exaustiva. O conteúdo que contém um conjunto avançado de recursos pode ser limitado aos três recursos mais dominantes identificados pela IA. Por exemplo, a ilustração a seguir contém vários atributos de imagem detectados, incluindo vários objetos, cores do primeiro plano e do plano de fundo:
 
 ![atributos de imagem](/help/assets/category/asset-attributes.png "A imagem de Toucan inclui vários atributos detectados"){width="300" zoomable="yes"}
 
@@ -61,7 +61,7 @@ A tabela a seguir fornece definições e insights para as métricas principais d
 | **[!UICONTROL Categoria]** | A [categoria](#categories) que representa a qualidade inerente de um atributo. |  |
 | **[!UICONTROL # de imagens]** | O número de imagens que têm este atributo. | A contagem na tabela Atributos pode ser diferente da contagem na exibição Detalhes do atributo. Essa discrepância pode ocorrer se a origem do canal, como Meta e GenStudio, usar cálculos de resumo ligeiramente diferentes. |
 | **[!UICONTROL # de vídeos]** | O número de vídeos com este atributo. | A contagem na tabela Atributos pode ser diferente da contagem na exibição Detalhes do atributo. Essa discrepância pode ocorrer se a origem do canal, como Meta e GenStudio, usar cálculos de resumo ligeiramente diferentes. |
-| **[!UICONTROL Impressões]** | Uma contagem de cada vez que uma imagem ou vídeos com esse atributo são carregados no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para obter um insight verdadeiro sobre o desempenho, considere-a em relação a outras métricas de envolvimento. |
+| **[!UICONTROL Impressões]** | Uma contagem de cada vez que uma imagem ou vídeos com esse atributo são carregados no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para um verdadeiro desempenho do insight, considere-a em relação a outras métricas de envolvimento. |
 | **[!UICONTROL Cliques]** | O número de vezes que os usuários interagem com uma imagem ou vídeo com esse atributo. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
 | **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques em imagens ou vídeos com esse atributo.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
 | **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncios de uma imagem ou vídeo com esse atributo.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
