@@ -4,7 +4,7 @@ description: Saiba como avaliar o desempenho da mídia no Adobe GenStudio for Pe
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -20,6 +20,8 @@ A exibição [!DNL Insights] _[!UICONTROL Mídia]_ mostra uma lista de mídias u
 A tabela _[!UICONTROL Mídia]_ é organizada com a **[!UICONTROL ID de Mídia]**. Você pode alternar entre as exibições usando o ícone lista de exibições (tabela) e o ícone exibição de galeria (grade). Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar em várias listas. Selecione **[!UICONTROL Limpar tudo]** acima da tabela para remover todos os filtros.
 
 ![Filtro de mídia e tabela](/help/assets/insights-media-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 
