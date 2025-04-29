@@ -4,9 +4,9 @@ description: Consulte uma visão geral do envolvimento do cliente, desempenho, o
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: 997bd2ce2243bbfe59567c5dd3b389408446f5e7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,21 @@ A exibição [!DNL Insights] _[!UICONTROL Canais]_ mostra uma lista de campanhas
 
 {{connect-insights}}
 
-A tabela _[!UICONTROL Canais]_ é organizada com o uso da campanha publicitária baseada em canais. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar em várias listas. Selecione **[!UICONTROL Limpar tudo]** acima da tabela para remover todos os filtros.
+A tabela _[!UICONTROL Canais]_ é organizada com o uso da campanha publicitária baseada em canais. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis.
 
 ![Filtro de canais e tabela](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
+Quando você seleciona uma campanha, a [[!UICONTROL guia Anúncios]](ads.md) abre uma lista de nomes de anúncios associados a essa campanha, o que permite identificar quais anúncios contribuíram para seu sucesso geral.
+
 {{empty-table}}
 
-{{$include /help/_includes/download-insights.md}}
+## Filtrar canais
 
-Quando você seleciona uma campanha, a [[!UICONTROL guia Anúncios]](ads.md) abre uma lista de nomes de anúncios associados a essa campanha, o que permite identificar quais anúncios contribuíram para seu sucesso geral.
+O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar em várias listas. O filtro aplicado persiste em todas as exibições em [!DNL Insights]. Selecione **[!UICONTROL Limpar tudo]** acima da tabela de anúncios ou galeria para remover todos os filtros selecionados.
+
+### Baixar resultados da tabela
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Objetivos
 
@@ -57,4 +63,4 @@ A tabela a seguir fornece definições e insights para as principais métricas d
 | **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em uma campanha publicitária.<br>**Cálculo**: valor total `spent` dividido por `clicks` = $ | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
 | **[!UICONTROL Reproduções de vídeo]** | O número de vezes que um vídeo começa a ser reproduzido em uma campanha publicitária, excluindo as repetições. Um vídeo começa a ser reproduzido quando um usuário clica em Reproduzir ou o vídeo é reproduzido automaticamente. | Uma alta contagem de reproduções de vídeo pode indicar que o vídeo está capturando atenção e pode significar que a miniatura, o título ou a disposição estão efetivamente atraindo os visualizadores. |
 | **[!UICONTROL Orçamento]** | Fundos totais alocados para uma campanha publicitária para atingir as metas da campanha. | Um orçamento alto significa mais recursos para maior alcance e impacto potencialmente maior. |
-| **[!UICONTROL Gastar]** | O valor gasto do orçamento durante um determinado período para colocar anúncios em diferentes plataformas. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor dos gastos em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
+| **[!UICONTROL Gastar]** | O valor gasto do orçamento durante um determinado período para colocar anúncios em diferentes plataformas. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor gasto em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
