@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
+source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -59,12 +59,32 @@ A exibição _[!UICONTROL contas do Google Campaign Manager 360]_ lista o `Accou
 
 ### Metadados conectados
 
+Quando você conecta seu perfil do _Meta Business_ à GenStudio for Performance Marketing, ele garante um acesso perfeito aos dados de publicidade de suas páginas de negócios, contas de Meta Ads e outros ativos do Meta.
+
 >[!BEGINSHADEBOX]
 
 **Pré-requisitos**:
 
-- Conta do Facebook/Meta ads
-- Acesso à conta de Metadados com nível de permissão `View performance` para acessar relatórios e exibir anúncios
+- Logon no Facebook/Meta que pode acessar todos os serviços Meta, como a conta Meta Ads e o Perfil comercial do Facebook
+- Acesso à conta de Metadados com nível de permissão `View performance` para acessar relatórios e exibir anúncios, incluindo os seguintes
+   - Permissões necessárias para uso com [!DNL Insights]:
+
+      - `pages_show_list`
+      - `ads_read`
+      - `ads_management`
+      - `pages_read_engagement`
+
+   - Permissões necessárias para uso com [!DNL Activate]:
+
+      - `ads_management`
+      - `ads_read`
+      - `business_management`
+      - `instagram_basic`
+      - `instagram_content_publish`
+      - `pages_manage_ads`
+      - `pages_manage_posts`
+      - `pages_show_list`
+
 - Remova os bloqueadores de pop-up do navegador
 
 >[!ENDSHADEBOX]
@@ -77,19 +97,26 @@ A exibição _[!UICONTROL contas do Google Campaign Manager 360]_ lista o `Accou
 
    Talvez seja necessário remover os bloqueadores de pop-ups e usar **[!UICONTROL Atualizar]** para tentar novamente.
 
-1. Siga as instruções de autenticação do Facebook.
+1. Siga as instruções de autenticação do Facebook, verifique as informações da conta e clique em **[!UICONTROL Continuar como...]**
 
-1. No pop-up _[!UICONTROL Logon do Facebook para Empresas]_ (Símbolo de meta para Adobe), passe pelas seleções a seguir.
+1. Em _[!UICONTROL Logon do Facebook para Empresas]_ (símbolo de Meta para Adobe), passe pelas seguintes seleções para conceder acesso ao GenStudio for Performance Marketing:
 
-   - Verifique as informações da conta e clique em **[!UICONTROL Continuar como]**
-   - Conceda acesso a páginas selecionadas e clique em **[!UICONTROL Continuar]**
-   - Conceda acesso a empresas selecionadas e clique em **[!UICONTROL Continuar]**
-   - Aceite uma ou mais contas do Instagram e clique em **[!UICONTROL Continuar]**
+   - Selecione um ou mais perfis da Meta Business e clique em **[!UICONTROL Continuar]**
+   - Selecione uma ou mais metapáginas e clique em **[!UICONTROL Continuar]**
+   - Selecione uma ou mais contas do Instagram e clique em **[!UICONTROL Continuar]**
    - Revise as seleções e clique em **[!UICONTROL Salvar]**
 
-1. No modo de exibição _[!UICONTROL Meta Ads]_, selecione uma ou mais contas e clique em **[!UICONTROL Selecionar]**.
+1. Depois de receber a verificação de que sua conta está conectada, clique em **[!UICONTROL Obteve]**.
 
-A exibição das _[!UICONTROL Contas de meta anúncios]_ lista as `Account name`, `Added by`, `Date added` e `Status`. Use **[!UICONTROL Adicionar conta]** para adicionar mais contas à lista.
+   Essa etapa garante que o GenStudio for Performance Marketing tenha acesso a todos os anúncios, metadados e métricas para obter o desempenho ideal.
+
+1. Em _[!UICONTROL Meta Ads]_, selecione uma ou mais contas a serem incluídas em [!DNL Insights] e clique em **[!UICONTROL Selecionar]**.
+
+1. Depois de receber uma confirmação de _Plataforma conectada_, clique em **[!UICONTROL Exibir contas]**.
+
+   A exibição das _[!UICONTROL Contas de meta anúncios]_ lista as `Account name`, `Added by`, `Date added` e `Status`.
+
+Use **[!UICONTROL Adicionar conta]** para adicionar mais contas à lista. O fluxo de autorização pode ser um pouco diferente quando você adiciona contas vinculadas ao mesmo perfil de Meta Business. Você seleciona somente as novas contas de Meta Ads durante o processo de conexão.
 
 ## Assimilação de dados
 
