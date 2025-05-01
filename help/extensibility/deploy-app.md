@@ -3,7 +3,7 @@ title: Implante seu aplicativo App Builder
 description: Implante seu aplicativo ou complemento do App Builder para o GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Implante seu aplicativo
 
 A execução do aplicativo fornece um instantâneo preliminar do comportamento do complemento antes de implantá-lo. Essas informações podem facilitar a depuração. Você pode forçar a criação e a implantação de um aplicativo implantado sem reenviá-lo para aprovação.
-
 
 **Para executar o aplicativo**:
 
