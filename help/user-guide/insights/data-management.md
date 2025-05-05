@@ -39,7 +39,7 @@ Tenha cuidado e não exclua as seguintes conexões de dados necessárias para qu
 - Conexões do AEP: fluxos de dados com o prefixo `GS Insights`
 - Conexões da AEP: conta do GS Insights
 
-Consulte [Excluir implicações](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) no guia do _Customer Journey Analytics_ antes de excluir quaisquer componentes de dados no AEP.
+Consulte [Excluir implicações](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/deletion) no guia do _Customer Journey Analytics_ antes de excluir quaisquer componentes de dados no AEP.
 
 >[!ENDSHADEBOX]
 

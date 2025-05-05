@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Provisionar Adobe GenStudio for Performance Marketing
 
-Um administrador de sistema do Adobe executa tarefas de provisionamento iniciais no [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). No Admin Console, um administrador de sistema do Adobe pode acessar o perfil de produto do GenStudio e atribuir licenças de produto disponíveis aos usuários.
+Um administrador de sistema do Adobe executa tarefas de provisionamento iniciais no [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html#Overview). No Admin Console, um administrador de sistema do Adobe pode acessar o perfil de produto do GenStudio e atribuir licenças de produto disponíveis aos usuários.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Na Admin Console, o perfil de produto define regras e perfis de usuário exclusi
 
 **Para acessar o perfil de produto do GenStudio**
 
-1. Clique no link **Introdução** no email de boas-vindas para navegar até a [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview).
+1. Clique no link **Introdução** no email de boas-vindas para navegar até a [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html#Overview).
 
 1. Faça logon na Admin Console usando sua Adobe ID.
 
@@ -62,8 +62,8 @@ Consulte [Funções e permissões de usuário](user-roles.md) para obter orienta
 
 Você pode adicionar usuários individualmente ou importar informações de conta de vários usuários:
 
-* [Gerenciar usuário individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
+* [Gerenciar usuário individualmente](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html#add-users)
 
-* [Gerenciar vários usuários/carregar CSV em massa](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
+* [Gerenciar vários usuários/carregar CSV em massa](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html)
 
 Depois de integrar os usuários à GenStudio for Performance Marketing da sua organização, um gerente de sistema da GenStudio poderá [configurar as diretrizes de marca e mídia da sua organização](get-started.md).

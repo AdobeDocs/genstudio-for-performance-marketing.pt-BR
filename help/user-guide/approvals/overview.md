@@ -54,7 +54,7 @@ Status de rascunho disponíveis:
 
 As notificações no produto da GenStudio for Performance Marketing atualizam os aprovadores e editores de conteúdo em tempo real das alterações de status do ativo e `@mention` comentários. As notificações suportam iteração rápida por meio de vários ciclos de revisão, edição e aprovação.
 
-Os editores de conteúdo e aprovadores podem se inscrever para receber essas notificações no Slack. Consulte [Assinar serviços no Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+Os editores de conteúdo e aprovadores podem se inscrever para receber essas notificações no Slack. Consulte [Assinar serviços no Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences#slack).
 
 As ações executadas pelos participantes da aprovação acionam notificações automáticas no produto e notificações por email. Ao iniciar um processo de aprovação, os aprovadores designados recebem notificações por email e no produto. Você é mantido no loop com notificações no produto e por email sempre que um aprovador adiciona `@mention` comentários ou toma uma decisão. As notificações incluem links para o rascunho do conteúdo.
 

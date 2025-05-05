@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Atribuir [!DNL Brand] permissões
 
-Por padrão, os gerentes de sistema da GenStudio podem criar e editar [!DNL Brands]. As funções de editor de conteúdo e colaborador têm permissões de edição e criação, mas podem não exigir direitos de gerenciamento do sistema. Para conceder aos editores de conteúdo e colaboradores esses direitos relacionados ao [!DNL Brand], um administrador do sistema do Adobe deve executar algumas tarefas de configuração adicionais na Adobe Admin Console. Consulte [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) em _Guia de administração de empresas e equipes_.
+Por padrão, os gerentes de sistema da GenStudio podem criar e editar [!DNL Brands]. As funções de editor de conteúdo e colaborador têm permissões de edição e criação, mas podem não exigir direitos de gerenciamento do sistema. Para conceder aos editores de conteúdo e colaboradores esses direitos relacionados ao [!DNL Brand], um administrador do sistema do Adobe deve executar algumas tarefas de configuração adicionais na Adobe Admin Console. Consulte [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html#Overview) em _Guia de administração de empresas e equipes_.
 
 Adicionar usuários e grupos de usuários é uma tarefa básica comum a todos os produtos da Adobe com direitos gerenciados pela Admin Console. Consulte [Usuários do Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/users.html) no _Guia de administração de empresas e equipes_ para obter uma visão geral do gerenciamento de usuários e dos procedimentos para adicionar usuários e grupos de usuários.
 
@@ -89,7 +89,7 @@ Um _projeto_ fornece um local de armazenamento onde usuários selecionados podem
 
 1. Clique em **[!UICONTROL Criar]**. A janela pop-up _Convidar para projeto_ é aberta.
 
-Consulte [Gerenciar projetos](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) no _Guia de administração de empresas e equipes_.
+Consulte [Gerenciar projetos](https://helpx.adobe.com/br/enterprise/using/projects-in-business-storage.html) no _Guia de administração de empresas e equipes_.
 
 ## Etapa 5: Convidar grupo de usuários para projeto
 
