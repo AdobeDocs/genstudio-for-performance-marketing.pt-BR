@@ -13,7 +13,7 @@ ht-degree: 0%
 
 O Adobe GenStudio for Performance Marketing permite que os gerentes e editores de sistema da GenStudio publiquem anúncios criativos na plataforma do Google Campaign Manager 360.
 
-Você pode iniciar a publicação de uma experiência de anúncio do Google Campaign Manager 360 na galeria _[!DNL Content]_ou na página inicial de_[!DNL Activate]_.
+Você pode iniciar a publicação de uma experiência de anúncio do Google Campaign Manager 360 na galeria _[!DNL Content]_&#x200B;ou na página inicial de&#x200B;_[!DNL Activate]_.
 
 ## Etapa 1: configurar as contas do Google Campaign Manager 360
 
@@ -29,11 +29,11 @@ Após a conclusão da sincronização, você poderá visualizar as contas adicio
 
 ## Etapa 3: escolha o conteúdo para seu criativo
 
-Você pode iniciar o processo de publicação na galeria de Experiências do _[!DNL Content]_ou na página inicial do_[!DNL Activate]_. Experiências aprovadas não podem ser editadas. Cada experiência pode conter apenas um ativo.
+Você pode iniciar o processo de publicação na galeria de Experiências do _[!DNL Content]_&#x200B;ou na página inicial do&#x200B;_[!DNL Activate]_. Experiências aprovadas não podem ser editadas. Cada experiência pode conter apenas um ativo.
 
 **Para selecionar uma experiência**:
 
-1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_para identificar a experiência que você deseja ativar e clique em **[!UICONTROL Ativar]**. (Como alternativa, você pode selecionar uma experiência de_[!DNL Activate]_ clicando em **[!UICONTROL Novo]** no cartão de produto do Google Campaign Manager 360.)
+1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_&#x200B;para identificar a experiência que você deseja ativar e clique em **[!UICONTROL Ativar]**. (Como alternativa, você pode selecionar uma experiência de&#x200B;_[!DNL Activate]_ clicando em **[!UICONTROL Novo]** no cartão de produto do Google Campaign Manager 360.)
 
    A página _Configuração do Creative_ do Google Campaign Manager 360 é aberta para essa experiência. Ela é pré-preenchida com detalhes, que não podem ser revisados, a partir da experiência selecionada.
 
@@ -59,7 +59,7 @@ Clique em **[!UICONTROL Avançar]** no canto superior direito para visualizar su
 
 A página _Revisão_ fornece uma oportunidade final de exibir sua experiência de anúncio antes de publicar.
 
-Se você iniciou esta ativação a partir de _[!DNL Activate]_, pode clicar em **[!UICONTROL Editar seção]**ao lado do rótulo_ Configuração do Creative _para fazer as alterações. Você também pode clicar em **[!UICONTROL Voltar]**no canto superior direito para retornar à página_ Configuração do Creative _. Não é possível editar o conteúdo da experiência.
+Se você iniciou esta ativação a partir de _[!DNL Activate]_, pode clicar em **[!UICONTROL Editar seção]**&#x200B;ao lado do rótulo_ Configuração do Creative _para fazer as alterações. Você também pode clicar em **[!UICONTROL Voltar]**&#x200B;no canto superior direito para retornar à página_ Configuração do Creative _. Não é possível editar o conteúdo da experiência.
 
 ## Etapa 6: Conclua a publicação de sua experiência com anúncios
 

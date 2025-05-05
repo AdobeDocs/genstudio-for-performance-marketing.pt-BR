@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Fluxo de trabalho de ativação
 
-O _[!DNL Activate]_oferece suporte à ativação de experiências de anúncio na forma de um criativo em formatos específicos de canal, como uma experiência de anúncio Meta ou Google Campaign Manager 360.
+O _[!DNL Activate]_&#x200B;oferece suporte à ativação de experiências de anúncio na forma de um criativo em formatos específicos de canal, como uma experiência de anúncio Meta ou Google Campaign Manager 360.
 
 Uma experiência do GenStudio for Performance Marketing é um componente de campanha de marketing, como um anúncio, preparado como criativo para um público específico em um canal de anúncio pago ou email. A criação contém três componentes principais:
 
@@ -36,11 +36,11 @@ Embora requisitos exclusivos de posicionamento definam cada canal pago, todas as
 
   >[!TIP]
   >
-  >Você pode selecionar experiências de anúncio aprovadas diretamente da galeria de experiências _[!DNL Content]_para se preparar para as criações do Google Campaign Manager 360. Depois de selecionar uma experiência na galeria_[!DNL Content]_, não é possível editar nem adicionar ativos ao criativo.
+  >Você pode selecionar experiências de anúncio aprovadas diretamente da galeria de experiências _[!DNL Content]_&#x200B;para se preparar para as criações do Google Campaign Manager 360. Depois de selecionar uma experiência na galeria&#x200B;_[!DNL Content]_, não é possível editar nem adicionar ativos ao criativo.
 
 * **Revise e publique sua experiência no canal de destino**. Use o painel _Visualização_ durante a configuração criativa para avaliar sua escolha de posicionamento de anúncio e elementos de texto antes de finalizar sua ativação. Sua revisão final antes da publicação ocorre no aplicativo de gerenciamento de anúncios do canal de destino. Por exemplo, depois de ativar uma experiência de anúncio Meta no GenStudio for Performance Marketing, você deve fazer logon no Gerenciador de anúncios Meta, revisar o criativo e selecionar os atributos específicos antes de publicá-lo.
 
-Depois que um criativo estiver no seu canal de mídia paga de destino, _[!DNL Insights]_poderá acompanhar e analisar seus dados de desempenho.
+Depois que um criativo estiver no seu canal de mídia paga de destino, _[!DNL Insights]_&#x200B;poderá acompanhar e analisar seus dados de desempenho.
 
 ## Canais compatíveis
 

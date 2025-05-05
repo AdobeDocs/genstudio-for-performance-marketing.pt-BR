@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Conectar contas de mídia paga
 
-O _[!DNL Data connectors]_habilita a integração perfeita entre o GenStudio for Performance Marketing e suas contas de rede de mídia paga. Conectando-se a contas de canal de terceiros, você pode trocar dados críticos, como métricas de desempenho de campanha no [[!DNL Insights]](/help/user-guide/insights/overview.md), e pode fornecer novos posicionamentos de anúncios com o [[!DNL Activate]](/help/user-guide/activation/overview.md). Essa integração permite que o GenStudio for Performance Marketing gerencie suas mídias e anúncios enquanto recebe insights valiosos, incluindo impressões, cliques e conversões, de suas campanhas ativas.
+O _[!DNL Data connectors]_&#x200B;habilita a integração perfeita entre o GenStudio for Performance Marketing e suas contas de rede de mídia paga. Conectando-se a contas de canal de terceiros, você pode trocar dados críticos, como métricas de desempenho de campanha no [[!DNL Insights]](/help/user-guide/insights/overview.md), e pode fornecer novos posicionamentos de anúncios com o [[!DNL Activate]](/help/user-guide/activation/overview.md). Essa integração permite que o GenStudio for Performance Marketing gerencie suas mídias e anúncios enquanto recebe insights valiosos, incluindo impressões, cliques e conversões, de suas campanhas ativas.
 
 **Para se conectar a uma conta de mídia paga**:
 

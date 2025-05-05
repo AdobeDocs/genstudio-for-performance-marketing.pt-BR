@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gerenciar ativações
 
-O _[!DNL Activate]_oferece uma exibição centralizada do status de ativação de cada canal de publicidade, incluindo ativações Publicadas (bem-sucedidas), Falha (malsucedidas) e Publicação (pendentes). A exibição_ Experiências Ativadas _exibe todas as ativações de uma conta de anúncio de canal conectada.
+O _[!DNL Activate]_&#x200B;oferece uma exibição centralizada do status de ativação de cada canal de publicidade, incluindo ativações Publicadas (bem-sucedidas), Falha (malsucedidas) e Publicação (pendentes). A exibição_ Experiências Ativadas _exibe todas as ativações de uma conta de anúncio de canal conectada.
 
-_[!DNL Activate]_organiza experiências ativadas por canal de anúncio. Clique em **[!UICONTROL Exibir]**no bloco de canais. A exibição_ Experiências ativadas _do canal selecionado é aberta. Essa exibição lista as experiências por nome e as ordena por data de ativação. Se sua organização não ativou as experiências para esse canal, o bloco de produtos não inclui o botão **[!UICONTROL Exibir]**.
+_[!DNL Activate]_&#x200B;organiza experiências ativadas por canal de anúncio. Clique em **[!UICONTROL Exibir]**&#x200B;no bloco de canais. A exibição_ Experiências ativadas _do canal selecionado é aberta. Essa exibição lista as experiências por nome e as ordena por data de ativação. Se sua organização não ativou as experiências para esse canal, o bloco de produtos não inclui o botão **[!UICONTROL Exibir]**.
 
 ## Exibição de experiência ativada
 

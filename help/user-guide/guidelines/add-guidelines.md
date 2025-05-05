@@ -200,7 +200,7 @@ Você pode adicionar detalhes de persona manualmente, em vez de carregar documen
 
 ### Gerenciar [!DNL Personas]
 
-Na página inicial de _[!DNL Personas]_, você pode **abrir um[!DNL Persona]**já criado para editá-lo ou revisá-lo, ou **excluir um**da lista:
+Na página inicial de _[!DNL Personas]_, você pode **abrir um[!DNL Persona]**&#x200B;já criado para editá-lo ou revisá-lo, ou **excluir um**&#x200B;da lista:
 
 - Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Personas] para revisar e revisar um perfil existente.
 - Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Personas] para **Excluir** um perfil.
@@ -268,7 +268,7 @@ Você pode adicionar detalhes do produto manualmente, em vez de carregar documen
 
 ### Gerenciar [!DNL Products]
 
-Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**já criado para editá-lo ou revisá-lo, ou **excluir um produto**da lista:
+Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**&#x200B;já criado para editá-lo ou revisá-lo, ou **excluir um produto**&#x200B;da lista:
 
 - Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Products] para revisar e analisar um produto existente.
 - Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Products] para **Excluir** um produto.
