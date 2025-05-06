@@ -4,9 +4,9 @@ description: Saiba como avaliar o desempenho de atributos específicos no Adobe 
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,7 @@ A tabela _[!UICONTROL Atributos]_ é organizada com o nome [!UICONTROL Atributo]
 
 ![Filtro e tabela de atributos](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
-{{empty-table}}
-
-## Filtrar atributos
-
-O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar em várias listas. Consulte [Filtrar mídia](/help/user-guide/insights/media.md#filter-media) para saber mais sobre filtros de palavras-chave para Campanhas e Anúncios.
-
-
->[!NOTE]
->
->O filtro aplicado persiste em todas as exibições em [!DNL Insights]. Selecione **[!UICONTROL Limpar tudo]** acima da tabela de anúncios ou galeria para remover todos os filtros selecionados.
-
-### Baixar resultados da tabela
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Detalhes do atributo
 
@@ -74,8 +61,8 @@ A tabela a seguir fornece definições e insights para as métricas principais d
 | **[!UICONTROL # de vídeos]** | O número de vídeos com este atributo. | A contagem na tabela Atributos pode ser diferente da contagem na exibição Detalhes do atributo. Essa discrepância pode ocorrer se a origem do canal, como Meta e GenStudio, usar cálculos de resumo ligeiramente diferentes. |
 | **[!UICONTROL Impressões]** | Uma contagem de cada vez que uma imagem ou vídeos com esse atributo são carregados no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para um verdadeiro desempenho do insight, considere-a em relação a outras métricas de envolvimento. |
 | **[!UICONTROL Cliques]** | O número de vezes que os usuários interagem com uma imagem ou vídeo com esse atributo. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
-| **[!UICONTROL CTR &#x200B;]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques em imagens ou vídeos com esse atributo.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncios de uma imagem ou vídeo com esse atributo.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
-| **[!UICONTROL CPA &#x200B;]**<br>_Custo por Ação_ | Custo médio gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Ajuda a identificar atributos que resultam em ações valiosas do cliente. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Custo por clique_ | Custo médio associado a cada clique em imagens ou vídeos com este atributo.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
+| **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultaram em cliques em imagens ou vídeos com esse atributo.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
+| **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncios de uma imagem ou vídeo com esse atributo.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
+| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | Custo médio gasto para realizar uma ação específica do cliente, como uma compra ou assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas | Ajuda a identificar atributos que resultam em ações valiosas do cliente. |
+| **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em imagens ou vídeos com este atributo.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
 | **[!UICONTROL Gastar]** | O valor gasto com o orçamento em relação aos atributos em um determinado período. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor gasto em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
