@@ -3,9 +3,10 @@ title: Filtrar visualizações do Insights
 description: Saiba como usar os recursos aprimorados de filtro com Insights.
 level: Intermediate
 feature: Reporting and Insights
-source-git-commit: 656395e517fcb334b64865dcdbde09d8d982dc0a
+exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
+source-git-commit: 04bc6f911394d0f4c324abc347ce125203011960
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ O painel [!DNL Insights] fornece um conjunto abrangente de filtros para uma expe
 
 ## Noções básicas de filtro
 
-Cada modo de exibição em [!DNL Insights] oferece uma lista de opções de filtro. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**. Se você estiver visualizando a tabela ou a galeria, os filtros aplicados aparecerão na lista **[!UICONTROL Filtrar por]** acima da tabela ou galeria. Por padrão, um canal e uma conta são selecionados.
+Cada modo de exibição em [!DNL Insights] oferece uma lista de opções de filtro. O botão de alternância de filtro (funil) à esquerda abre o menu **[!UICONTROL Filtro]**. Se você estiver visualizando a tabela ou a galeria, os filtros aplicados aparecerão na lista **[!UICONTROL Filtrar por]** acima da tabela ou galeria. Por padrão, um canal e uma conta são selecionados.
 
 ![Filtrar por](/help/assets/insights-filter-by.png "Filtrar por"){width=600 zoomable="yes"}
 
@@ -24,9 +25,9 @@ Os filtros aplicados persistem em todas as exibições. Selecione **[!UICONTROL 
 
 ### Campo de pesquisa
 
-Clique no ícone de pesquisa (lupa) para usar um termo de pesquisa para localizar itens específicos na tabela ou galeria. Por exemplo, inserir o termo `pink` na tabela [!UICONTROL Anúncios] filtra os resultados para exibir somente anúncios usando o termo `pink` no nome.
+Clique no ícone de pesquisa (lupa) para digitar um termo de pesquisa para localizar itens específicos na tabela ou galeria. Por exemplo, inserir o termo `Gear` na tabela [!UICONTROL Anúncios] filtra os resultados para exibir somente anúncios usando o termo `Gear` no nome.
 
-![Exemplo de campo de pesquisa](/help/assets/insights-search.png "Pesquisar anúncios em rosa"){width=600 zoomable="yes"}
+![Pesquisar exemplo de campo](/help/assets/insights-search.png "Pesquisar anúncios com engrenagem no nome"){width=600 zoomable="yes"}
 
 ### Intervalo de datas
 
@@ -52,15 +53,15 @@ Com os filtros _[!UICONTROL Campanhas]_ e _[!UICONTROL Anúncios]_, você pode u
 - Acrônimos de tipo de conteúdo: `EB`, `CHT` ou `DSP`
 - Códigos de oferta ou acrônimos: `OFFER2023`, `PROMO`
 
-Com o tempo, a lista de campanhas e anúncios cresce exponencialmente. Considere o seguinte cenário para usar o filtro _[!UICONTROL Campanhas]_ para refinar a tabela [!UICONTROL Anúncios].
+Com o tempo, sua lista de campanhas e anúncios pode crescer exponencialmente. Considere o seguinte cenário para usar o filtro _[!UICONTROL Campanhas]_ para refinar a tabela [!UICONTROL Anúncios].
 
 **Para refinar a tabela Anúncios usando o filtro Campanhas**:
 
 1. Em _[!DNL Insights]_, selecione a exibição **[!UICONTROL Anúncios]**.
 
-   ![Filtro de anúncios e tabela](/help/assets/insights-ads-filter.png "Exibição de anúncios com lista de filtros"){zoomable="yes"}
+   ![Filtro de anúncios e tabela](/help/assets/insights-ads-filter.png "Exibição de anúncios com menu de filtro"){zoomable="yes"}
 
-1. Clique no ícone de filtro (funil) acima do lado esquerdo da tabela para abrir o menu **[!UICONTROL Filtro]**.
+1. Clique na opção de filtro (funil) acima do lado esquerdo da tabela para abrir o menu **[!UICONTROL Filtro]**.
 
 1. Verifique se o canal `Filter by` e a conta corretos estão selecionados.
 
@@ -70,11 +71,17 @@ Com o tempo, a lista de campanhas e anúncios cresce exponencialmente. Considere
 
 1. No campo de pesquisa _[!UICONTROL Selecionar campanhas]_, insira palavras-chave separadas por vírgulas.
 
-   - Use quantas palavras-chave forem necessárias para refinar a lista. O exemplo a seguir procura campanhas com `evergreen`, `ROI` e `Meta` no nome:
+   Use palavras-chave para refinar sua pesquisa com filtragem lógica e precisa.
 
-     ![Pesquisa por palavra-chave](/help/assets/insights-select-campaigns-keywords.png "Insira palavras-chave para pesquisar nomes de campanha"){width=500}
+   - Para localizar nomes de campanha que contenham `adventure` **AND** `ready`, insira as duas palavras-chave separadas por vírgula:
 
-   - Você pode adicionar outro conjunto de palavras-chave para ampliar sua pesquisa. Usar vários conjuntos de palavras-chave permite incluir campanhas que correspondem ao primeiro conjunto de palavras-chave ou ao segundo conjunto de palavras-chave. Por exemplo, você pode pesquisar campanhas rotuladas `evergreen` e `web` _OU_ campanhas rotuladas `photoshop` e `roi`:
+     ![Pesquisar todas as palavras-chave](/help/assets/insights-select-campaigns-and.png "Pesquisar nomes de campanha que contenham ambas as palavras-chave"){width=500}
+
+   - Para localizar nomes de campanha que contenham `adventure` **OU** `ready`, insira cada palavra-chave separadamente:
+
+     ![Pesquise por palavras-chave](/help/assets/insights-select-campaigns-or.png "Pesquise nomes de campanha que contenham pelo menos uma palavra-chave"){width=500}
+
+   - Para realizar pesquisas avançadas, combine vários conjuntos de palavras-chave. Por exemplo, pesquise nomes de campanha com `adventure` e `apparel` **OU** `sun` e `gear`:
 
      ![Pesquisar com vários conjuntos de palavras-chave](/help/assets/insights-advanced-or.png "Pesquisar nomes de campanha usando vários conjuntos de palavras-chave"){width=500}
 
@@ -82,7 +89,7 @@ Com o tempo, a lista de campanhas e anúncios cresce exponencialmente. Considere
 
    ![Lista de campanhas](/help/assets/insights-select-campaigns-list.png "Selecionar campanhas a serem incluídas")
 
-As campanhas selecionadas agora aparecem na lista _[!UICONTROL Filtrar por]_ acima da tabela de anúncios ou galeria. Você pode se concentrar exclusivamente nos anúncios vinculados às campanhas escolhidas. Neste exemplo, os resultados filtrados incluem 28 anúncios, fornecendo uma visualização mais direcionada para análise.
+As campanhas selecionadas agora aparecem na lista _[!UICONTROL Filtrar por]_ acima da tabela de anúncios ou galeria. Você pode se concentrar exclusivamente nos anúncios vinculados às campanhas escolhidas. Neste exemplo, os resultados filtrados incluem 6 anúncios, fornecendo uma visualização mais direcionada para análise.
 
 ![Tabela filtrada por campanhas](/help/assets/insights-filter-by-campaigns.png "Tabela com filtro de campanhas"){zoomable="yes"}
 

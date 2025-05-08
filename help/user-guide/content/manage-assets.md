@@ -3,7 +3,7 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
+source-git-commit: 67a760051b513dfd2bd6e69c886598efd7142090
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 1%
@@ -16,7 +16,7 @@ O Adobe GenStudio for Performance Marketing [!DNL Content] simplifica e aprimora
 
 ## Galeria [!DNL Content]
 
-A galeria mostra um inventário de ativos, experiências ou modelos aprovados, dependendo da exibição selecionada. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar entre várias categorias para filtrar o conteúdo mostrado na galeria. No modo de exibição _[!UICONTROL Assets]_, clique no ícone de pesquisa (lupa) para usar uma palavra-chave para localizar um ativo.
+A galeria mostra um inventário de ativos, experiências ou modelos aprovados, dependendo da exibição selecionada. O botão de alternância de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar entre várias categorias para filtrar o conteúdo mostrado na galeria. No modo de exibição _[!UICONTROL Assets]_, clique no ícone de pesquisa (lupa) para usar uma palavra-chave para localizar um ativo.
 
 A seguir, uma pesquisa sobre o termo `space` na galeria [!UICONTROL Assets]:
 
