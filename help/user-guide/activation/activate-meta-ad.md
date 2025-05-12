@@ -3,9 +3,9 @@ title: Ativar um meta anúncio
 description: Saiba como ativar uma experiência de Metadados.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1354'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Você deve ter permissão para publicar conteúdo no Gerenciador de metadados.
 
 Antes que sua organização possa ativar experiências, um gerente de sistema da GenStudio precisa conectar suas contas Meta à GenStudio for Performance Marketing. Essa conexão permite que os dados fluam entre o GenStudio e as ferramentas de marketing externas, como o Meta, permitindo os processos de ativação.
 
-Consulte [Conectar-se a uma conta Meta (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
+Consulte [Conectar-se a Metadados](/help/user-guide/connectors/meta-ads.md).
 
 Após a conclusão da sincronização, você poderá visualizar as contas adicionadas. Grandes quantidades de dados levam mais tempo para sincronizar.
 
@@ -43,7 +43,7 @@ Os gerentes e editores de sistema da GenStudio podem ativar experiências de an�
 
 **Para preparar sua experiência para a ativação**:
 
-1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**&#x200B;no bloco de produtos Meta. A exibição_ Configuração do Creative _é aberta.
+1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**no bloco de produtos Meta. A exibição_ Configuração do Creative _é aberta.
 
    A página de configuração do Creative fornece um local central para preparar a ativação do Meta ad. A preparação do anúncio inclui estas três tarefas:
 
@@ -62,23 +62,23 @@ Após o carregamento, os ativos são salvos em _[!DNL Content]_. A área_ Mídia
 
 **Para carregar um ativo do Conteúdo**:
 
-O _[!DNL Content]_&#x200B;fornece uma exibição central para os ativos e experiências aprovados da sua organização. Você pode focalizar o inventário de ativos exibido na galeria[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) usando as opções de menu **[!UICONTROL Pesquisar]** (lupa) e _Filtrar_.
+O _[!DNL Content]_fornece uma exibição central para os ativos e experiências aprovados da sua organização. Você pode focalizar o inventário de ativos exibido na galeria[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) usando as opções de menu **[!UICONTROL Pesquisar]** (lupa) e _Filtrar_.
 
-1. De _[!DNL Activate]_, clique em **[!UICONTROL Novo]**&#x200B;no bloco de Meta Ads. A exibição_ Configuração do Creative _é aberta.
+1. De _[!DNL Activate]_, clique em **[!UICONTROL Novo]**no bloco de Meta Ads. A exibição_ Configuração do Creative _é aberta.
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione **[!UICONTROL Selecionar do Conteúdo]**. A exibição _Selecionar conteúdo_ é aberta, exibindo uma galeria de ativos de imagem que você pesquisa ou filtra.
 
-1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_&#x200B;para selecionar pelo menos um ativo para carregamento.
+1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_para selecionar pelo menos um ativo para carregamento.
 
 1. Clique em **[!UICONTROL Usar]** para incluir o ativo selecionado no criativo. A janela _Configuração do Creative_ inclui o ativo em sua proporção padrão na área _Mídia_. O painel _Visualização_ visualiza o ativo no posicionamento do anúncio que dá suporte a essa taxa de proporção.
 
-Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_&#x200B;será aberta.
+Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_será aberta.
 
 **Para carregar um ativo externo**:
 
-Você pode carregar até seis imagens estáticas externas para a galeria _[!DNL Content]_&#x200B;do Microsoft OneDrive ou do Dropbox.
+Você pode carregar até seis imagens estáticas externas para a galeria _[!DNL Content]_do Microsoft OneDrive ou do Dropbox.
 
-1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**&#x200B;no bloco Meta. A janela_ Configuração do Creative _é aberta.
+1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**no bloco Meta. A janela_ Configuração do Creative _é aberta.
 
 1. Na seção _Mídia_, clique em **[!UICONTROL Selecionar]**. Um menu suspenso exibe opções para _Selecionar Conteúdo_ ou _Carregar_.
 
