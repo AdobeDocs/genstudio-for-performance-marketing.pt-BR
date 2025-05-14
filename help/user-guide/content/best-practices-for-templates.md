@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -48,6 +48,8 @@ Ao criar modelos, verifique se eles atendem aos requisitos específicos do canal
 - Usar HTML limpo e responsivo e CSS em linha
 - Usar fontes do Adobe ou Google
 - **não** usar o JavaScript
+
+{{note-css-effects}}
 
 Considere as seguintes dicas e restrições ao trabalhar com cada tipo de modelo para garantir o desempenho e a compatibilidade ideais:
 
