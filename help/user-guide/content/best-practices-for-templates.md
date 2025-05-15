@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -107,8 +107,9 @@ Siga estas práticas recomendadas de design ao personalizar modelos de metadados
 **Taxas de proporção com suporte**:
 
 - Quadrado 1:1 (1080 x 1080 pixels)
-- Vertical 4:5 (1080 x 1350 pixels)
+- Retrato 4:5 (1080 x 1350 pixels)
 - História 9:16 (1080 x 1920 pixels)
+- Paisagem: 1,91:1 (largura de 1080 pixels)
 - Tamanho de imagem personalizada: (largura mínima de imagem de 50 x 50 pixels)
 
 **Nomes de campos reconhecidos**:
@@ -137,17 +138,17 @@ Siga estas práticas recomendadas de design ao personalizar modelos de Banner e 
 
 **Dimensões com suporte**:
 
-- Vertical: (pixels)
+- Largura x altura (pixels)
+- Vertical:
    - 300 x 600
    - 160 x 600&#x200B;
-- Horizontal: (pixels)
+- Horizontal:
    - 300 x 250
    - 728 x 90
    - 336 x 280
    - 320 x 50
    - 970 x 250&#x200B;
-- Personalizado: (pixels)
-   - 50 x 50 a 2000 x 2000
+- Personalizado: 50 x 50 a 2000 x 2000
 
 **Nomes de campos reconhecidos**:
 

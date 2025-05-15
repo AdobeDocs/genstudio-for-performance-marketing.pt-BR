@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Perfor
 | `{{sub_headline}}` | Subtítulo | email<br>Banner e Anúncio de exibição |
 | `{{introductory_text}}` | Texto introdutório | Anúncio do LinkedIn |
 | `{{body}}` | Corpo do texto | email <br>Meta-anúncio <br>Banner e Anúncio de exibição |
-| `{{cta}}` | Chamada para ação<br>Consulte [Chamadas para ação](#calls-to-action) | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
+| `{{cta}}` | Call to action<br>Consulte [Chamadas para ação](#calls-to-action) | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
 | `{{image}}` | Imagem — selecione de [!DNL Content] | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
 | `{{on_image_text}}` | No texto da imagem<br>Consulte [No texto da imagem](#on-image-text). | Metadado <br>Anúncio do LinkedIn |
 | `{{link}}` | Chamada para ação na imagem<br>Consulte [Link na imagem](#link-on-image). | email |
@@ -111,6 +111,27 @@ Neste exemplo:
 - `src="image-source.jpg"` deve ser substituído pela URL de origem da imagem real.
 - `{{imageDescription}}` é um nome de campo definido pelo usuário que fornece um espaço reservado para o texto alternativo da imagem, útil para acessibilidade e SEO.
 
+### Texto alternativo
+
+Use um nome de campo definido pelo usuário como um espaço reservado para gerar uma descrição de texto alternativo (atributo HTML `alt="text"`) para uma imagem. O espaço reservado `{{imageDescription}}` a seguir é usado com o campo `{{image}}` dentro da mesma marca `<img>`, garantindo que a relação entre a imagem e sua descrição persista.
+
+```html
+<img src="{{image}}" alt="{{imageDescription}}">
+```
+
+Neste exemplo:
+
+- `{{image}}` é o espaço reservado para a URL de origem da imagem.
+- `{{imageDescription}}` é o espaço reservado para o texto alternativo, que fornece uma descrição da imagem para fins de acessibilidade e SEO.
+
+### No texto da imagem
+
+O espaço reservado `{{ on_image_text }}` é usado para especificar uma sobreposição de texto de mensagens de impacto curto, colocadas diretamente na imagem em uma experiência.
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
+```
+
 <!-- this field does not work in Create canvas 2025/03
 
 ### Brand logo field name
@@ -151,22 +172,14 @@ Para criar uma seção editável, adicione colchetes duplos ao redor do nome da 
 </tbody>
 ```
 
-## No texto da imagem
-
-O espaço reservado `{{ on_image_text }}` é usado para especificar uma sobreposição de texto de mensagens de impacto curto, colocadas diretamente na imagem em uma experiência.
-
-```html
-<div class="image-text">{{ on_image_text }}</div>
-```
-
 ## Seções ou grupos
 
 _As seções_ informam à GenStudio for Performance Marketing que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
 
-Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo. Use um nome de campo (`headline`, `body`, `image` ou `cta`) após o sublinhado (`_`).
+Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo. Use um nome de campo (como `headline`, `body`, `image` ou `cta`) após o sublinhado (`_`).
 
-- _Correção_ (??): `pod1_body`
-- _Incorreto_ (❌): `pod1_link`
+- _Correção_ (👍): `pod1_body`
+- _Incorreto_ (❌): `pod1body`
 
 Cada seção pode usar apenas um de cada tipo de campo. Por exemplo, os seguintes campos pertencem à seção `pod1`:
 
@@ -177,9 +190,10 @@ Cada seção pode usar apenas um de cada tipo de campo. Por exemplo, os seguinte
 
 Por causa dessa regra, as seções não podem ser aninhadas.
 
-Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) no tópico _Práticas recomendadas para usar modelos_.
+Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) no tópico _Práticas recomendadas para usar modelos_.
 
 Por exemplo, um template de email pode incluir até três seções; portanto, você pode ter três seções de título e corpo:
+
 
 - `pre_header`
 - `pod1_headline`
@@ -192,7 +206,9 @@ Por exemplo, um template de email pode incluir até três seções; portanto, vo
 
 A GenStudio for Performance Marketing entende que `pod1_headline` está mais intimamente relacionado a `pod1_body` do que a `pod2_body`.
 
-Consulte [Prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) para saber como criar um prompt que gera conteúdo variável para cada seção em um email de várias seções.
+>[!TIP]
+>
+>Consulte [Prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) para saber como criar um prompt que gera conteúdo variável para cada seção em um email de várias seções.
 
 ## Visualização do modelo
 

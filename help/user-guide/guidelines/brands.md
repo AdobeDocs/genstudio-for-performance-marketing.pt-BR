@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: O GenStudio for Performance Marketing [!DNL Brands] é uma coleção abrangente de ativos da marca—cópia de marketing, imagens, experiências e muito mais—para informar a criação de conteúdo alinhado à marca.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -80,38 +80,13 @@ A tabela a seguir mostra cada seção de canal, canais para os quais ela está d
 | Descrição | LinkedIn | Frases descritivas que definem a emoção geral do tom | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione descrições anteriormente bem-sucedidas na seção _Exemplos_ para obter resultados de melhor qualidade.<br>_Exemplos_: &quot;Manter um tom amigável e acessível&quot; |
 | Corpo | email, Meta, Banner e anúncios de exibição, LinkedIn | Conteúdo de marketing que inclui mensagens, links e imagens | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione uma cópia anteriormente bem-sucedida à seção _Exemplos_ para obter uma saída com melhor qualidade.<br>_Exemplos_: &quot;Limitar a 80-100 caracteres&quot;, &quot;Evitar acrônimos em excesso&quot; |
 | Texto na imagem | Meta, LinkedIn | Orientação específica sobre o tom, comprimento ideal, etc. para texto que aparece sobre imagens | Forneça orientação específica (1-2 frases) sobre o tom, o comprimento ideal, etc. Adicione um texto anteriormente bem-sucedido à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Concentre-se no momento&quot; |
-| Call-to-action (CTA) | email, Meta, Banner e anúncios de exibição | (Chamada para ação) Uma instrução dada ao leitor que inspira uma resposta. Geralmente uma ou duas palavras, como `Get started` | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione CTAs anteriormente bem-sucedidos à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Não use pontuação final&quot; |
+| Call-to-action (CTA) | email, Meta, Banner e anúncios de exibição | (Call to action) Uma instrução dada ao leitor que inspira uma resposta. Geralmente uma ou duas palavras, como `Get started` | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione CTAs anteriormente bem-sucedidos à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Não use pontuação final&quot; |
 
 #### Diretrizes de canal padrão
 
 As seguintes diretrizes de canal padrão para [!DNL Brands] são aplicadas por canal, com base nas práticas recomendadas do setor e especificações de plataforma individuais.
 
 >[!BEGINTABS]
-
->[!TAB Email]
-
-| Seção | Diretriz padrão |
-|-----------|-------------------------------|
-| Assunto | Limitar a 2 linhas ou menos |
-| Pré-cabeçalho | Limitar a 2 linhas ou menos |
-| Título | Limitar a 8 palavras ou menos |
-| Corpo | Limitar a 3-4 linhas |
-| CTA | Limitar a 2 palavras ou menos |
-
->[!TAB Social pago]
-
-| Seção | Diretriz padrão |
-|-----------|-------------------------------|
-| Título | Limitar a 40 caracteres ou menos |
-| Corpo | Limitar a 125 caracteres ou menos |
-
->[!TAB Exibir anúncios]
-
-| Seção | Diretriz padrão |
-|-----------|-------------------------------|
-| Título | Limitar a 6 palavras ou menos |
-| Corpo | Limitar a 6 palavras ou menos |
-| CTA | Limitar a 2 palavras ou menos |
 
 >[!TAB Meta]
 

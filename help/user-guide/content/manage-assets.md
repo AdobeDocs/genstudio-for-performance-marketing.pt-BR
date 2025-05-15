@@ -3,9 +3,9 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 67a760051b513dfd2bd6e69c886598efd7142090
+source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1489'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ A tabela a seguir lista as tarefas de gerenciamento disponíveis para ativos, ex
 | [Exibir detalhes](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [Criar experiência](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Editar no Adobe Express](#edit-in-express) | ✓ |             |           |
-| [Exportar para Ativação](#export-for-activation) |        | ✓ |           |
+| [Exportar experiências](#export-experiences) |        | ✓ |           |
 | [Atualizar](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Download](#download-assets) | ✓ |             | ✓ |
 | [Excluir](#delete-assets) | ✓ | ✓ | ✓ |
@@ -136,22 +136,28 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
 1. No pop-up _Excluir ativo_, verifique o ativo e clique em **[!UICONTROL Excluir]**.
 
-## Exportar para ativação
+## Exportar experiências
 
-É possível exportar uma experiência aprovada para ativação em um formato compatível com o canal de destino.
+É possível selecionar uma ou mais experiências aprovadas para download em um formato compatível com o canal de destino. O arquivo baixado é nomeado usando a data de exportação: `2025-06-15-export.zip`. Ao descompactar o arquivo, há uma pasta para cada tipo de canal que inclui os ativos exportados nos formatos selecionados. Cada ativo exportado retém o nome do ativo original como o nome do arquivo.
 
-**Para exportar uma experiência**:
+**Para exportar ou baixar experiências**:
 
-1. Em _[!DNL Content]_, selecione uma experiência. Clicar em uma experiência abre a exibição de detalhes ou clique no menu de atalho (`...`).
+1. Em _[!DNL Content]_, selecione uma ou mais experiências.
 
-1. Clique em **[!UICONTROL Exportar para ativação]** (caixa com a seta apontando para fora).
+   Um banner é exibido com o número de experiências selecionadas à esquerda e as opções de [!UICONTROL Ativar], [!UICONTROL Baixar] ou [!UICONTROL Excluir] à direita.
 
-1. No pop-up _Exportar para ativação_, selecione um dos formatos disponíveis:
+1. (Opcional) Se optar por ativar, talvez você precise selecionar uma plataforma e continuar com o fluxo de trabalho [!DNL Activate]. Consulte [Ativar](/help/user-guide/activation/overview.md).
 
-   - Email: `HTML`, `CSV`
+1. Clique em **[!UICONTROL Baixar]**.
+
+1. No pop-up _Download_, selecione um dos formatos disponíveis.
+
+   Se você selecionou várias experiências de canais diferentes, é possível selecionar o formato para cada tipo de canal.
+
+   - Email, LinkedIn: `HTML`, `CSV`
    - Meta, banner e anúncio de exibição: `HTML`, `JPEG`, `PNG`
 
-Consulte [Ativação](/help/user-guide/activation/overview.md).
+   ![Baixar experiências](/help/assets/content-bulk-export.png "Baixar várias experiências"){width=350}
 
 ## Editar no Express
 

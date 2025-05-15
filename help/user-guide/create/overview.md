@@ -4,9 +4,9 @@ description: Gere rapidamente conteúdo de alto desempenho na marca com IA gerat
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -35,68 +35,131 @@ Editores e gerentes de sistema têm acesso total a [!DNL Create]. Consulte [Fun�
 ## Casos de uso do [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Criar novo conteúdo" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Criar uma experiência de email</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Criar uma experiência de meta-anúncio" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Criar uma experiência de meta-anúncio</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Criar uma experiência de anúncio do LinkedIn" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>Criar uma experiência de anúncio do LinkedIn</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Criar uma experiência de anúncio de exibição" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Criar uma experiência de anúncio de exibição</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="Criar uma experiência de banner" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>Criar uma experiência de banner</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="Criar imagens" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>Gerar imagens</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 O GenStudio for Performance Marketing permite que os profissionais de marketing **criem novo conteúdo de marketing**. Neste caso de uso, use [diretrizes](/help/user-guide/guidelines/overview.md) definidas e imagens de inspiração para informar sobre a criação de conteúdo alinhado à marca.
@@ -137,11 +200,11 @@ Depois de gerar as variações de conteúdo, envie seus rascunhos para aprovaç�
 
 ### Rascunhos
 
-Na seção _Trabalho recente_ de [!DNL Create], acesse e gerencie todos os rascunhos recentes. Exiba e conclua seu trabalho anterior para prepará-lo para publicação no [[!DNL Content]](/help/user-guide/content/overview.md) ou exportação para uso.
+Na seção _Recentes_ do [!DNL Create], você pode acessar e gerenciar todos os rascunhos recentes. Exiba e conclua seu trabalho anterior para prepará-lo para publicação no [[!DNL Content]](/help/user-guide/content/overview.md) ou exportação para uso. Clique no ícone de opções (três pontos) para excluir um rascunho.
 
-Os rascunhos em andamento são salvos automaticamente. Ao navegar de volta para a página inicial do [!DNL Create], a seção _Trabalho recente_ é atualizada com seus rascunhos mais recentes. Cada rascunho desta seção exibe um status, como _Rascunho_ ou _Aprovado_.
+Os rascunhos são salvos automaticamente e mostrados na seção _Recentes_ da página inicial [!DNL Create]. Cada rascunho desta seção exibe um status, como _Rascunho_ ou _Aprovado_.
 
-Clique nos ícones de classificação (grade ou tabela) para exibir itens de _Trabalho recente_ em uma exibição de grade ou tabela.
+Clique no ícone de exibição de galeria (grade) para exibir itens de _Recentes_ em uma exibição de grade ou tabela.
 
 ### Gerenciar variantes
 

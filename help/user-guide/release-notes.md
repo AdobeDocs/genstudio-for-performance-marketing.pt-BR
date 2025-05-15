@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
+source-git-commit: c3c3ca28d31539383863cf7c8ad11a24aed0965f
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2300'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,18 @@ ht-degree: 0%
 
 Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
 
-## 2025.04.10 {#latest}
+## 2025.05.15 {#latest}
+
+### Correções e aprimoramentos
+
+* Funcionalidade habilitada para [adicionar texto alternativo](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a uma imagem para uma variante individual.
+* Adição de uma [nova Taxa de proporção Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paisagem 1.19:1 (largura de 1080 pixels).
+* Agora é possível escolher mais de uma experiência para exportar ou baixar. Consulte [Exportar experiências](/help/user-guide/content/manage-assets.md#export-experiences).
+<!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
+
+## Notas de versão anteriores
+
++++Notas de 2025.05.15
 
 ### Correções e aprimoramentos
 
@@ -23,8 +34,6 @@ Estas informações de versão detalham as atualizações mais recentes do aplic
 * Funcionalidade habilitada para [exibir e selecionar camadas individuais](/help/user-guide/create/manage-variants.md#view-layers)—campos de texto editáveis ou imagens editáveis—de uma experiência para destacá-las para revisões, como regeneração de conteúdo ou recorte de imagens.
 * Adição de um [novo campo de modelo](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional em experiências para capturar a atenção do público e destacar mensagens de marketing.
 * Adicionado suporte para [publicar experiências de anúncio](/help/user-guide/activation/overview.md) do GenStudio for Performance Marketing no Google Campaign Manager 360. A Ativate oferece suporte a visualizações detalhadas de anúncios do Google Campaign Manager 360 antes da publicação em um anunciante do Campaign Manager 360. Os anúncios publicados por meio da função Ativar são automaticamente transferidos para os Insights uma vez ao vivo, permitindo que os usuários acompanhem e relatem o desempenho dos anúncios.
-
-## Notas de versão anteriores
 
 +++Notas de 2025.03.13
 
