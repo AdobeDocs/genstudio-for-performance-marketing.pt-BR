@@ -51,7 +51,7 @@ Você pode iniciar uma ativação de duas maneiras:
 
 * **Ativar diretamente de [!DNL Content]_**. Selecionar uma experiência aprovada com configurações predefinidas é a maneira mais simples de iniciar uma ativação em um único canal.
 
-* **Reunir a experiência de anúncio em [!DNL Activate] > _Configuração da experiência_**Você pode criar uma experiência selecionando ativos visuais em_[!DNL Content]_, adicionando elementos de texto e selecionando taxas de proporções. Essa abordagem tem mais etapas, mas oferece maior flexibilidade ao criar sua experiência criativa.
+* **Reunir a experiência de anúncio em [!DNL Activate] > _Configuração da experiência_**&#x200B;Você pode criar uma experiência selecionando ativos visuais em&#x200B;_[!DNL Content]_, adicionando elementos de texto e selecionando taxas de proporções. Essa abordagem tem mais etapas, mas oferece maior flexibilidade ao criar sua experiência criativa.
 
 ### Ativar uma experiência aprovada pelo Conteúdo
 
@@ -59,7 +59,7 @@ Você pode selecionar mais de uma experiência para ativar em um único canal pa
 
 Se você selecionou mais de uma experiência para ativar como grupo, use a barra lateral esquerda para focalizar a exibição _Configuração da experiência_ nos detalhes da experiência selecionada.
 
-1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_para identificar a experiência que você deseja ativar e clique em **[!UICONTROL Ativar]**.
+1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_&#x200B;para identificar a experiência que você deseja ativar e clique em **[!UICONTROL Ativar]**.
 
    A página Metadados _Configuração de experiência_ é aberta para esta experiência. Ela é pré-preenchida com detalhes da experiência selecionada. Você pode editar os campos **[!UICONTROL Call-to-action]**, **[!UICONTROL URL do site]** e **[!UICONTROL Exibir link]**. Se você selecionar mais de uma experiência para ativar, a exibição _Configuração da experiência_ incluirá uma barra lateral esquerda que exibirá miniaturas de todas as experiências selecionadas. Use esta barra lateral esquerda para focalizar a exibição _Configuração da experiência_ nos detalhes da experiência selecionada.
 
@@ -77,12 +77,12 @@ Se você optar por não ativar diretamente uma experiência aprovada do _[!DNL C
 
 **Para preparar sua experiência para a ativação**:
 
-1. De _[!DNL Activate]_, clique em **[!UICONTROL Novo]**no ícone que representa o canal pago escolhido. A exibição_ Configuração de experiência _é aberta.
+1. De _[!DNL Activate]_, clique em **[!UICONTROL Novo]**&#x200B;no ícone que representa o canal pago escolhido. A exibição_ Configuração de experiência _é aberta.
 
    A página _Configuração da experiência_ fornece um local central para preparar a ativação de seus anúncios. A preparação do anúncio inclui estas três tarefas:
 
 1. Atribua um nome à sua experiência. Após a ativação, você poderá usar esse nome para procurar essa experiência na tabela _Experiências ativadas_.
-1. Selecione ativos de mídia. Você pode usar ativos de _[!DNL Content]_ou carregar ativos externos (por exemplo, do OneDrive ou Dropbox).
+1. Selecione ativos de mídia. Você pode usar ativos de _[!DNL Content]_&#x200B;ou carregar ativos externos (por exemplo, do OneDrive ou Dropbox).
 1. [Adicionar texto](#add-ad-text).
 1. [Adicionar metadados](#assign-metadata).
 
@@ -96,23 +96,23 @@ Após o carregamento, os ativos são salvos em _[!DNL Content]_. A área_ Mídia
 
 **Para carregar um ativo do Conteúdo**:
 
-O _[!DNL Content]_fornece uma exibição central para os ativos e experiências aprovados da sua organização. Você pode focalizar o inventário de ativos exibido na galeria[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) usando as opções de menu **[!UICONTROL Pesquisar]** (lupa) e _Filtrar_.
+O _[!DNL Content]_&#x200B;fornece uma exibição central para os ativos e experiências aprovados da sua organização. Você pode focalizar o inventário de ativos exibido na galeria[_[!DNL Content]_](/help/user-guide/content/manage-assets.md) usando as opções de menu **[!UICONTROL Pesquisar]** (lupa) e _Filtrar_.
 
-1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**no cartão do canal. A exibição_ Configuração de experiência _é aberta.
+1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**&#x200B;no cartão do canal. A exibição_ Configuração de experiência _é aberta.
 
 1. Clique em **[!UICONTROL Selecionar]** e selecione **[!UICONTROL Selecionar do Conteúdo]**. A exibição _Selecionar conteúdo_ é aberta, exibindo uma galeria de ativos de imagem que você pesquisa ou filtra.
 
-1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_para selecionar pelo menos um ativo para carregamento.
+1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_&#x200B;para selecionar pelo menos um ativo para carregamento.
 
 1. Clique em **[!UICONTROL Usar]** para incluir o ativo selecionado na sua experiência com anúncios. A janela _Configuração de experiência_ inclui o ativo em sua taxa de proporção padrão na área _Mídia_. O painel _Visualização_ visualiza o ativo no posicionamento do anúncio que dá suporte a essa taxa de proporção.
 
-Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_será aberta.
+Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_&#x200B;será aberta.
 
 **Para carregar um ativo externo**:
 
-Você pode carregar até seis imagens estáticas externas para a galeria _[!DNL Content]_do Microsoft OneDrive ou do Dropbox.
+Você pode carregar até seis imagens estáticas externas para a galeria _[!DNL Content]_&#x200B;do Microsoft OneDrive ou do Dropbox.
 
-1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**no bloco Meta. A janela_ Configuração da experiência _é aberta.
+1. Em _[!DNL Activate]_, clique em **[!UICONTROL Novo]**&#x200B;no bloco Meta. A janela_ Configuração da experiência _é aberta.
 
 1. Na seção _Mídia_, clique em **[!UICONTROL Selecionar]**. Um menu suspenso exibe opções para _Selecionar Conteúdo_ ou _Carregar_.
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 O Adobe GenStudio for Performance Marketing permite que os gerentes e editores de sistema da GenStudio publiquem experiências de anúncios na plataforma Google Campaign Manager 360.
 
-Você pode iniciar a publicação de uma experiência de anúncio do Google Campaign Manager 360 na galeria _[!DNL Content]_ou na página inicial de_[!DNL Activate]_.
+Você pode iniciar a publicação de uma experiência de anúncio do Google Campaign Manager 360 na galeria _[!DNL Content]_&#x200B;ou na página inicial de&#x200B;_[!DNL Activate]_.
 
 ## Etapa 1: configurar as contas do Google Campaign Manager 360
 
@@ -30,11 +30,11 @@ Após a conclusão da sincronização, você poderá visualizar as contas adicio
 
 ## Etapa 3: Selecione o conteúdo para sua experiência de anúncio
 
-Você pode iniciar o processo de publicação na galeria de Experiências do _[!DNL Content]_ou na página inicial do_[!DNL Activate]_. Experiências aprovadas não podem ser editadas. Cada experiência pode conter apenas um ativo.
+Você pode iniciar o processo de publicação na galeria de Experiências do _[!DNL Content]_&#x200B;ou na página inicial do&#x200B;_[!DNL Activate]_. Experiências aprovadas não podem ser editadas. Cada experiência pode conter apenas um ativo.
 
 **Para selecionar experiências**:
 
-1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_para identificar a experiência que deseja ativar e clique em **[!UICONTROL Usar]**. (Como alternativa, você pode selecionar uma experiência de_[!DNL Activate]_ clicando em **[!UICONTROL Novo]** no cartão de produto do Google Campaign Manager 360.)
+1. Use as ferramentas de pesquisa e filtro da galeria _[!DNL Content]_&#x200B;para identificar a experiência que deseja ativar e clique em **[!UICONTROL Usar]**. (Como alternativa, você pode selecionar uma experiência de&#x200B;_[!DNL Activate]_ clicando em **[!UICONTROL Novo]** no cartão de produto do Google Campaign Manager 360.)
 
    A página _Configuração da experiência_ do Google Campaign Manager 360 é aberta para essa experiência. Ela é pré-preenchida com os detalhes da experiência, que não podem ser revisados. Talvez seja necessário selecionar uma plataforma antes de continuar com a ativação.
 
