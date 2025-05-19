@@ -3,7 +3,7 @@ title: Gerenciar ativações
 description: Saiba como gerenciar experiências ativadas com o Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 9efa42bac9e5623ace963d0de19eeb24467b69d8
+source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Gerenciar ativações
 
-O _[!DNL Activate]_&#x200B;oferece uma exibição centralizada do status de ativação de cada canal de publicidade, incluindo ativações Publicadas (bem-sucedidas), Falha (malsucedidas) e Publicação (pendentes). A exibição_ Experiências Ativadas _exibe todas as ativações de uma conta de anúncio de canal conectada.
+O _[!DNL Activate]_oferece uma exibição centralizada do status de ativação de cada canal de publicidade, incluindo ativações Publicadas (bem-sucedidas), Falha (malsucedidas) e Publicação (pendentes). A exibição_ Experiências Ativadas _exibe todas as ativações de uma conta de anúncio de canal conectada.
 
-_[!DNL Activate]_&#x200B;organiza experiências ativadas por canal de anúncio. Clique em **[!UICONTROL Exibir]**&#x200B;no bloco de canais. A exibição_ Experiências ativadas _do canal selecionado é aberta. Essa exibição lista as experiências por nome e as ordena por data de ativação. Se sua organização não ativou as experiências para esse canal, o bloco de produtos não inclui o botão **[!UICONTROL Exibir]**.
+_[!DNL Activate]_organiza experiências ativadas por canal de anúncio. Clique em **[!UICONTROL Exibir]**no bloco de canais. A exibição_ Experiências ativadas _do canal selecionado é aberta. Essa exibição lista as experiências por nome e as ordena por data de ativação. Se sua organização não ativou as experiências para esse canal, o bloco de produtos não inclui o botão **[!UICONTROL Exibir]**.
 
 ## Exibição de experiência ativada
 
@@ -41,7 +41,7 @@ Na exibição _Experiências ativadas_, clique em uma ativação. A exibição s
 
 * **Hora e data da publicação**: hora e data da publicação do gerenciador de canal de publicidade
 * **ID do anúncio**: ID atribuída pelo canal pago e usada para rastreamento. Clique no botão **[!UICONTROL Abrir]** adjacente a este campo para exibir o anúncio publicado no Gerenciador de Metadados
-* **Detalhes do Creative**: os ativos de imagem, textos e metadados selecionados atribuídos durante o fluxo de trabalho de ativação do GenStudio for Performance Marketing
+* **Detalhes da experiência**: os ativos de imagem, textos e metadados selecionados atribuídos durante o fluxo de trabalho de ativação do GenStudio for Performance Marketing
 * **Configuração do canal**: as contas de canal pagas usadas para ativar a experiência de anúncio
 
 A exibição _Detalhes_ de uma ativação com falha inclui o motivo da falha.
