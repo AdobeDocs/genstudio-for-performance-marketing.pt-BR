@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
+source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio for Perf
 
 A GenStudio for Performance Marketing reconhece determinados [elementos](use-templates.md#template-elements) em um modelo, mas somente se você identificá-los com um [nome de campo reconhecido](#recognized-field-names).
 
-No cabeçalho ou no corpo de um modelo do HTML, é possível usar a sintaxe [!DNL Handlebars] para inserir um espaço reservado para conteúdo, em que você precisa que o GenStudio for Performance Marketing preencha o modelo com conteúdo real. A GenStudio for Performance Marketing reconhece e interpreta os espaços reservados de conteúdo com base no [nome do _campo_ reconhecido](#recognized-field-names).
+No cabeçalho ou no corpo de um modelo do HTML, é possível usar a sintaxe [!DNL Handlebars] para inserir um espaço reservado para conteúdo, em que você precisa que o GenStudio for Performance Marketing preencha o modelo com conteúdo real. A GenStudio for Performance Marketing reconhece e interpreta esses espaços reservados com base no [nome do _campo_ reconhecido](#recognized-field-names). Cada nome de campo está associado a regras e comportamentos específicos que determinam como o conteúdo é gerado e inserido no modelo.
 
 Por exemplo, você pode usar `{{headline}}` com a sintaxe [!DNL Handlebars] para indicar onde o título do email deve ser colocado. O GenStudio reconhece esse campo, gera um título relevante com base nas diretrizes e critérios de prompt e insere o título neste local:
 
@@ -38,7 +38,7 @@ Por exemplo, você pode usar `{{headline}}` com a sintaxe [!DNL Handlebars] para
 
 ### Nomes de campo reconhecidos
 
-A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Performance Marketing para adicionar um espaço reservado em um modelo. Adicione esses nomes de campos usando a sintaxe [!DNL Handlebars] ao modelo em que você precisa do GenStudio for Performance Marketing para gerar um determinado tipo de conteúdo.
+A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Performance Marketing para adicionar um espaço reservado em um modelo. Cada campo segue diretrizes de canal específicas, instruções LLM e regras baseadas em função. Adicione esses nomes de campos usando a sintaxe [!DNL Handlebars] ao modelo em que você precisa do GenStudio for Performance Marketing para gerar um determinado tipo de conteúdo.
 
 | Texto | Função | Modelo de canal |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
@@ -174,9 +174,12 @@ Para criar uma seção editável, adicione colchetes duplos ao redor do nome da 
 
 ## Seções ou grupos
 
-_As seções_ informam à GenStudio for Performance Marketing que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
+Você pode usar seções em um template de email de marketing quando tiver dois ou três agrupamentos de campos. _As seções_ informam à GenStudio for Performance Marketing que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
 
-Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo. Use um nome de campo (como `headline`, `body`, `image` ou `cta`) após o sublinhado (`_`).
+
+Use um nome de grupo de sua escolha como um prefixo para indicar que um campo faz parte de uma seção ou grupo. Use um nome de campo (como `headline`, `body`, `image` ou `cta`) após o sublinhado (`_`).
+
+Sintaxe: `groupname_fieldname`
 
 - _Correção_ (👍): `pod1_body`
 - _Incorreto_ (❌): `pod1body`
@@ -190,10 +193,9 @@ Cada seção pode usar apenas um de cada tipo de campo. Por exemplo, os seguinte
 
 Por causa dessa regra, as seções não podem ser aninhadas.
 
-Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) no tópico _Práticas recomendadas para usar modelos_.
+Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) no tópico _Práticas recomendadas para usar modelos_.
 
 Por exemplo, um template de email pode incluir até três seções; portanto, você pode ter três seções de título e corpo:
-
 
 - `pre_header`
 - `pod1_headline`

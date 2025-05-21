@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
+source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Siga estas práticas recomendadas de design ao personalizar modelos de email par
 
 **Restrições**:
 
-- Uso de [seções](customize-template.md#sections-or-groups):
-   - Um modelo básico (apenas uma seção) pode gerar um único conjunto de elementos de modelo.
-   - Um modelo complexo (várias seções) pode gerar até três conjuntos de elementos de modelo.
+- Os emails de marketing podem ter 0, 2 ou 3 [seções](customize-template.md#sections-or-groups):
+   - Um modelo básico (seções zero) pode gerar um único conjunto de elementos de modelo, o que não requer a convenção de nomenclatura de grupo.
+   - Um modelo complexo (várias seções) pode gerar até três conjuntos de elementos de modelo, o que requer que você siga a convenção de nomenclatura de grupo: (`groupname_fieldname`)
 - O número máximo de campos permitidos em um modelo é 20
 - O tamanho máximo do arquivo do HTML é 102 KB
 
@@ -77,7 +77,7 @@ Siga estas práticas recomendadas de design ao personalizar modelos de email par
 
 Para email, o campo `subject` é incluído automaticamente. Use espaços reservados para o conteúdo para os seguintes campos:
 
-- `pre_header`
+- `pre_header` (rich text não habilitado)
 - `headline`
 - `sub_headline`
 - `body`
@@ -103,8 +103,11 @@ Siga estas práticas recomendadas de design ao personalizar modelos de metadados
 
 - Uso de [seções](customize-template.md#sections-or-groups):
    - Somente uma seção pode ser usada, gerando um único conjunto de elementos de modelo.
+- É necessário exatamente um campo de imagem.
 
 **Taxas de proporção com suporte**:
+
+A taxa de proporção deve ser definida:
 
 - Quadrado 1:1 (1080 x 1080 pixels)
 - Retrato 4:5 (1080 x 1350 pixels)
@@ -135,10 +138,11 @@ Siga estas práticas recomendadas de design ao personalizar modelos de Banner e 
 
 - Uso de [seções](customize-template.md#sections-or-groups):
    - Somente uma seção pode ser usada, gerando um único conjunto de elementos de modelo.
+- É necessário exatamente um campo de imagem.
 
 **Dimensões com suporte**:
 
-- Largura x altura (pixels)
+- A largura x altura (pixels) deve ser definida
 - Vertical:
    - 300 x 600
    - 160 x 600&#x200B;
@@ -171,6 +175,7 @@ Siga estas práticas recomendadas de design ao personalizar modelos de anúncios
 
 - Uso de [seções](customize-template.md#sections-or-groups):
    - Somente uma seção pode ser usada, gerando um único conjunto de elementos de modelo.
+- É necessário exatamente um campo de imagem.
 - Tamanho máximo de imagem de 5 MB
 - Máximo de 70 caracteres no título
 - Texto introdutório com no máximo 150 caracteres

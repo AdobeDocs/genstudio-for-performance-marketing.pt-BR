@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,18 @@ Se houver erros no modelo, você poderá ver uma mensagem `Template is invalid` 
 ![Corrigir modelo inválido](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
 
 O painel _[!UICONTROL Verificar campos detectados]_ atualiza para refletir as alterações feitas. Quando estiver satisfeito com o preenchimento e os campos corretos, clique em **[!UICONTROL Avançar]** para continuar [carregando seu modelo](/help/user-guide/content/use-templates.md#add-a-template).
+
+## Problemas comuns de modelos e soluções
+
+| **Erro** | **Descrição** | **Solução** |
+|-----------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Falha ao analisar | O conteúdo do modelo não pôde ser analisado como Handlebars válidos. | Verifique se há erros de sintaxe do HTML e Handlebars no modelo e corrija-os para garantir uma formatação válida para os [espaços reservados para o conteúdo](/help/user-guide/content/customize-template.md#content-placeholders). |
+| Grupo não atribuído | Um campo de imagem em um modelo de email de vários grupos não está atribuído a nenhum grupo. | Verifique se os prefixos de seção são usados de maneira consistente. Cada [seção](/help/user-guide/content/customize-template.md#sections-or-groups) pode usar apenas um de cada tipo de campo (`headline`, `body`, `image` `cta`). Atribua o campo `image` a um grupo válido no modelo. |
+| Imagem ausente | Um campo de imagem obrigatório está ausente. | Exatamente um campo `image` é necessário para determinados tipos de modelo, como Meta, exibição ou anúncio de banner. Adicione o campo `image` necessário ao modelo. |
+| Grupo único inválido | O template de email contém exatamente um grupo, que é inválido. | Um modelo de email básico contém um único conjunto de elementos de modelo, que não requerem a convenção de nomenclatura de grupo conforme definido em [Seções ou grupos](/help/user-guide/content/customize-template.md#sections-or-groups). Ajuste seu template para ter zero seções removendo qualquer sintaxe de nomeação de grupo. |
+| Nenhum campo | O modelo não contém nenhum campo. | Adicione [nomes de campo reconhecidos](/help/user-guide/content/customize-template.md#recognized-field-names) usando a sintaxe Handlebars no modelo em que você precisa do GenStudio for Performance Marketing para gerar um determinado tipo de conteúdo. |
+| Propriedades obrigatórias ausentes | Algumas propriedades de metadados necessárias estão ausentes. | Cada tipo de modelo tem requisitos e restrições com base nas diretrizes de canal. Por exemplo, o Meta requer uma proporção e os anúncios de exibição exigem dimensões. [Siga as diretrizes do modelo específico do canal](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |
+| Nome reservado usado | Um nome de campo proibido ou reservado está sendo usado. | Determinados [nomes de campos](/help/user-guide/content/customize-template.md#recognized-field-names), como `subject` ou `introductory_text`, estão reservados. Renomeie os campos que usam nomes reservados ou proibidos. |
+| Muitos campos | O número de campos excede o limite global de 20. | Remova campos desnecessários para garantir que o total não exceda 20. |
+| Muitos grupos | O número de grupos excede o máximo permitido do canal. | Os modelos Meta, display e LinkedIn não permitem várias seções. O email exige o nome do grupo ao definir duas ou três seções. Reduza o número de grupos no modelo para atender aos [requisitos do canal](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |
+| Campo incompatível | O modelo está usando um campo para o qual o canal não oferece suporte. | Substitua ou remova campos sem suporte de acordo com os [nomes de campo reconhecidos](/help/user-guide/content/customize-template.md#recognized-field-names). |
