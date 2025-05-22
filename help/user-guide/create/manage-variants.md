@@ -3,9 +3,9 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 654adf4f774b5e4915a67e0c0c3e5d07268d1a89
+source-git-commit: 3060aa0a75dd39fe5b73f246d57666e8a62fd42b
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -114,18 +114,11 @@ Você pode cortar e reposicionar manualmente os ativos de imagem em variantes ge
 
 ## Alterar taxa de proporção
 
-Você pode alterar rapidamente a proporção dos meta anúncios para acomodar o dimensionamento desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada 1:1 pode cortar os lados, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
-
-As taxas de tamanho/aspecto disponíveis são:
-
-* Quadrado 1:1 (Meta)
-* Vertical 4:5 (Meta)
-* 9:16 vertical (Meta)
-* 250 x 980 (anúncio de exibição)
+Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada 1:1 pode cortar os lados, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
 
 >[!NOTE]
 >
->Outras taxas de proporção e tamanhos podem estar disponíveis com base em modelos disponíveis.
+>É possível que proporções e tamanhos variados estejam disponíveis com base nos modelos disponíveis.
 
 **Para alterar a proporção de metadados gerados**:
 
@@ -135,7 +128,7 @@ As taxas de tamanho/aspecto disponíveis são:
 
    O número de variações afetadas por essa revisão é anotado no canto superior direito da janela. _Exemplo_: &quot;4 de 4 variações&quot;
 
-1. Selecione uma taxa de proporção disponível.
+1. Selecione uma [taxa de proporção disponível](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
    Somente os tamanhos de taxa de proporção que não estão representados atualmente na Tela de desenho estão disponíveis para escolha.
 
@@ -155,7 +148,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 
