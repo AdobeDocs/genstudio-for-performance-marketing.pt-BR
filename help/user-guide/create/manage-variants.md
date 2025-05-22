@@ -3,9 +3,9 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
+source-git-commit: 654adf4f774b5e4915a67e0c0c3e5d07268d1a89
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Você pode cortar e reposicionar manualmente os ativos de imagem em variantes ge
 
 ## Alterar taxa de proporção
 
-Você pode alterar rapidamente a proporção dos meta anúncios para acomodar o dimensionamento desejado.
+Você pode alterar rapidamente a proporção dos meta anúncios para acomodar o dimensionamento desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada 1:1 pode cortar os lados, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
 
 As taxas de tamanho/aspecto disponíveis são:
 
@@ -155,7 +155,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 
