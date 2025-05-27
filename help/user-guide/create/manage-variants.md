@@ -3,9 +3,9 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 3060aa0a75dd39fe5b73f246d57666e8a62fd42b
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 
@@ -211,7 +211,7 @@ Exclua variantes desnecessárias para que a Tela de trabalho mostre apenas as va
 
    A variante é excluída.
 
-## Validação de marca por variante
+## Validação da marca
 
 Use o painel _Verificação de conteúdo_ para manter a consistência da identidade da marca, os [padrões de acessibilidade da ADA, as diretrizes da plataforma](/help/user-guide/guidelines/overview.md#content-checks) e o alinhamento das variantes.
 

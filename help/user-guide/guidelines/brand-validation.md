@@ -3,9 +3,9 @@ title: Validação da marca no Adobe GenStudio for Performance Marketing
 description: Saiba como o sistema integrado de validação de marca funciona no GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ A GenStudio for Performance Marketing realiza a validação da marca e outras ve
 
 ## Resumo da verificação de conteúdo
 
-Um resumo da validação de marca e outras informações de verificação de conteúdo para cada variante de conteúdo gerada podem ser acessadas por meio do ícone de resumo _Verificação de conteúdo_ para cada variante na Tela.
+Um resumo da validação de marca e outras informações de verificação de conteúdo para cada item de conteúdo gerado podem ser acessadas por meio do ícone de resumo _Verificação de conteúdo_ para cada variante na Tela.
 
 O resumo de _Verificação de conteúdo_ exibe:
 
@@ -33,17 +33,17 @@ O resumo de _Verificação de conteúdo_ exibe:
 
 ![Resumo da verificação de conteúdo](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
-Clique na porcentagem para ver a compatibilidade da variante. As pontuações são atualizadas automaticamente à medida que você edita as variantes. Você pode clicar em _Exibir e corrigir problemas_ para garantir mais conformidade.
+Clique na porcentagem para ver a compatibilidade da variante. As pontuações são atualizadas automaticamente à medida que você edita as variantes ou outro conteúdo. Você pode clicar em _Exibir e corrigir problemas_ para garantir mais conformidade.
 
 Consulte [Melhorar o alinhamento da marca](#improve-brand-alignment).
 
 ## Painel de verificação de conteúdo
 
-O painel _Verificação de conteúdo_ é aberto no lado direito da Tela quando clicado na barra de ação direita _ou_ no ícone de resumo [_Verificação de conteúdo_](#content-check-summary) de uma variante. Esse painel oferece validação detalhada da marca. diretrizes da plataforma e informações sobre padrões de acessibilidade iluminam oportunidades de melhoria para cada seção de variante.
+O painel _Verificação de conteúdo_ é aberto no lado direito da Tela quando clicado na barra de ação direita _ou_ a partir do ícone de resumo [_Verificação de conteúdo_](#content-check-summary). Este painel oferece validação detalhada da marca, diretrizes da plataforma e informações sobre os padrões de acessibilidade, além de apontar oportunidades para melhorias.
 
 ![Painel de verificação de conteúdo](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
-O painel _Verificação de conteúdo_ exibe as [informações de conformidade](/help/user-guide/guidelines/overview.md#compliance) e validação para cada seção da variante:
+O painel _Verificação de conteúdo_ exibe as [informações de conformidade](/help/user-guide/guidelines/overview.md#compliance) e validação para imagens e seções de variantes:
 
 * Representação das informações de resumo da _Verificação de conteúdo_ para [!DNL Brand], diretrizes da plataforma e padrões de acessibilidade
 * A seção _Precisa de revisão_ exibindo o número de diretrizes com falha e informações detalhadas sobre cada diretriz que precisa de revisão
@@ -67,22 +67,21 @@ Para maximizar a eficácia do conteúdo gerado e manter a identidade de marca co
 
 **Para melhorar o alinhamento da marca para variantes geradas**:
 
-1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ação à direita, para ver as informações de validação e acessibilidade de uma única variante.
+1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ação direita, para ver informações sobre validação e acessibilidade.
 
-   Você pode ver um resumo das verificações de _Precisa de revisão_ e _Aprovado_ para ver quais seções e diretrizes precisam ser aprimoradas.
+   Você pode ver um resumo das _Verificações de necessidades_ e _Aprovadas_ para ver o que precisa ser melhorado.
 
    >[!NOTE]
    >
    > A diretriz _Voz da marca_ anotada no painel _Verificação de conteúdo_ aplica-se a toda a variante, não a uma seção individual. Toda a variante de conteúdo é destacada para melhoria sugerida.
 
 1. Clique para corrigir as diretrizes que não estão em conformidade no momento.
-1. Clique para expandir e inspecionar cada verificação que precisa de revisão em seções disponíveis, como _Título_ e _Voz da marca_.
+1. Clique para expandir e inspecionar cada verificação que precisa de revisão em seções disponíveis, como _Título_, _Cor_ e _Voz da marca_.
 
-   Use o raciocínio fornecido para cada verificação para orientá-lo na revisão das variantes.
+   Use o raciocínio fornecido para cada verificação para orientá-lo na revisão de imagens e variantes.
 
 1. Depois de fazer as revisões necessárias, clique em **[!UICONTROL Verificar novamente a pontuação]** para verificar novamente e validar suas alterações para garantir que elas estejam mais alinhadas à identidade da sua marca, às diretrizes da plataforma e aos padrões de acessibilidade.
 
    O processo de verificação de conteúdo é executado novamente. Se os itens revisados passarem na validação, um banner verde será exibido na parte inferior da Tela para confirmar se a pontuação foi atualizada. Se não houve alteração após uma nova verificação, o banner confirma que não houve alteração na pontuação. A porcentagem no ícone de resumo _Verificação de conteúdo_ para a variante revisada também mostra seu progresso.
 
 1. Continue revisando as seções para garantir que toda a variante seja aprovada nas verificações de validação e acessibilidade. Navegue por cada variante usando as setas adjacentes a uma variante individual na Tela de Pintura.
-
