@@ -5,9 +5,9 @@ level: Beginner
 feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: a7b1665f9d735dad9f33aa4f92c56088ae85a625
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1123'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ Esses títulos de função de usuário podem parecer semelhantes, mas identifica
 
 **Os administradores do sistema do Adobe** têm privilégios de usuário avançado no Adobe Admin Console e executam todas as tarefas de gerenciamento de usuários, como adicionar ou excluir usuários. Essa função de administrador do sistema não fornece privilégios no aplicativo do GenStudio for Performance Marketing, o que explica por que os administradores de sistema do Adobe não exigem uma licença para o GenStudio. Os administradores de sistema do Adobe geralmente usam o Admin Console para adicionar e excluir contas de usuário de implantações do GenStudio e atribuir ou remover direitos ou permissões de usuários individuais ou grupos de usuários.
 
-Os **gerentes de sistema do GenStudio** são usuários avançados do GenStudio for Performance Marketing, mas não têm permissão para executar tarefas no Adobe Admin Console. Esta função de gerente de sistema requer uma licença de produto do GenStudio e corresponde a um Usuário Avançado na [Descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Os gerentes de sistema da GenStudio têm direito total aos recursos do GenStudio for Performance Marketing, incluindo criação, exclusão, atualização e publicação do [!DNL Brands], [!DNL Persona] e [!DNL Product]. A [Descrição de Produto do Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica como as funções de usuário do GenStudio estão relacionadas às licenças de produto.
+Os **gerentes de sistema do GenStudio** são usuários avançados do GenStudio for Performance Marketing, mas não têm permissão para executar tarefas no Adobe Admin Console. Esta função de gerente de sistema requer uma licença de produto do GenStudio e corresponde a um Usuário Avançado na [Descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Os gerentes de sistema da GenStudio têm direito total aos recursos do GenStudio for Performance Marketing, incluindo criação, exclusão, atualização e publicação do [!DNL Brands], [!DNL Persona] e [!DNL Product]. A [Descrição de Produto do Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica como as funções de usuário do GenStudio estão relacionadas às licenças de produto.
 
-Consulte [Funções administrativas](https://helpx.adobe.com/br/enterprise/using/admin-roles.html#enterprise) no _Guia de administração de empresas e equipes_.
+Consulte [Funções administrativas](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) no _Guia de administração de empresas e equipes_.
 
 ## Direitos
 
@@ -63,12 +63,10 @@ A tabela a seguir exibe as permissões padrão do editor:
 | [!DNL Content] | sim | sim | sim | sim |
 | [!DNL Create] | sim | sim | sim | sim |
 | [!DNL Insights] | pode configurar apenas conectores |    |     | sim |
-| [!DNL Personas] | sim | sim* | sim* | sim |
-| [!DNL Products] | sim | sim* | sim* | sim |
+| [!DNL Personas] | sim | sim | sim | sim |
+| [!DNL Products] | sim | sim | sim | sim |
 | [!DNL Reviews and approvals] | sim | sim | sim | sim |
 | [!DNL Templates] | não | não | não | sim |
-
-Editores podem editar e excluir [!DNL Personas] e [!DNL Products] criados por eles.
 
 Os gerentes de sistema da GenStudio podem dar permissão aos editores para editar e excluir um [!DNL Brand].
 
