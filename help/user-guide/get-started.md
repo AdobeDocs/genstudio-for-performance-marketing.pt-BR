@@ -1,14 +1,14 @@
 ---
 title: Introdução ao Adobe GenStudio for Performance Marketing
-description: Saiba como começar a usar o GenStudio for Performance Marketing para gerar um novo conteúdo de marketing alinhado à marca.
+description: Saiba como começar a usar o GenStudio for Performance Marketing para gerar conteúdo de marketing alinhado à marca e acelerar o gerenciamento de campanhas.
 level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
+source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 2%
+source-wordcount: '624'
+ht-degree: 0%
 
 ---
 
@@ -18,21 +18,21 @@ O Adobe GenStudio for Performance Marketing oferece um conjunto abrangente de fe
 
 ## Comece a criar, compartilhar e revisar conteúdo
 
-Se você é novo em ferramentas generativas baseadas em IA ou está simplesmente curioso sobre os princípios fundamentais do GenStudio for Performance Marketing, consulte [Conceitos](concepts.md) e [Gravar prompts efetivos](effective-prompts.md). Você pode conferir a [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), a plataforma de aprendizado online da Adobe, sobre o uso de tecnologias de IA gerativa no processo criativo.
+Se você é novo em ferramentas generativas baseadas em IA ou está simplesmente curioso sobre os princípios fundamentais do GenStudio for Performance Marketing, consulte [Conceitos](/help/user-guide/concepts.md) e [Gravar prompts efetivos](/help/user-guide/effective-prompts.md). Você pode conferir a [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), a plataforma de aprendizado online da Adobe, sobre o uso de tecnologias de IA gerativa no processo criativo.
 
-## Treinar o GenStudio for Performance Marketing
+## Personalizar o GenStudio for Performance Marketing
 
-O GenStudio for Performance Marketing usa informações sobre sua marca e mercados para aprimorar a criação de conteúdo compatível com a marca. Os materiais de treinamento incluem exemplos, descrições de [personas](/help/user-guide/guidelines/personas.md) e [produtos](/help/user-guide/guidelines/products.md) do cliente e [diretrizes de marca](/help/user-guide/guidelines/overview.md).
+O GenStudio for Performance Marketing usa informações sobre sua marca e mercados para aprimorar a criação de conteúdo compatível com a marca. A IA gerativa aproveita as descrições das [personas](/help/user-guide/guidelines/personas.md), [produtos](/help/user-guide/guidelines/products.md) e [diretrizes de marca](/help/user-guide/guidelines/overview.md) do cliente para orientar a geração de conteúdo em alinhamento com os requisitos da sua organização.
 
 Os gerentes de sistema configuram o Adobe GenStudio for Performance Marketing inserindo ou fazendo upload de informações específicas da organização. Essa preparação garante que editores de conteúdo e colaboradores possam usar efetivamente os recursos de IA gerativa para criar e revisar ativos de campanha. Depois que um administrador do sistema do Adobe provisiona a instância de produto da organização e atribui permissões de gerente de sistema do GenStudio, o gerente de sistema do GenStudio pode preparar a estrutura de IA gerativa subjacente do produto usando diretrizes.
 
 ### Etapa 1: adicionar diretrizes
 
-Configurar os elementos fundamentais da identidade de marca de sua organização é um pré-requisito essencial para o trabalho de editores de conteúdo e colaboradores. As [diretrizes](./guidelines/overview.md) capturam as características da marca, como logotipos, tom de voz e paletas de cores. Você pode carregar [[!DNL Brands] diretrizes](./guidelines/brands.md) documentos ou inserir manualmente informações sobre a marca. [[!DNL Personas] diretrizes](./guidelines/personas.md) e [[!DNL Products] diretrizes](./guidelines/products.md) também são importantes. Os recursos subjacentes de IA gerativa do GenStudio for Performance Marketing usam essas diretrizes para estabelecer medidas de proteção que orientam a geração de conteúdo.
+Configurar os elementos fundamentais da identidade de marca de sua organização é um pré-requisito essencial para o trabalho de editores de conteúdo e colaboradores. As [diretrizes](/help/user-guide/guidelines/overview.md) capturam as características da marca, como logotipos, tom de voz e paletas de cores. Você pode carregar [[!DNL Brands] diretrizes](/help/user-guide/guidelines/brands.md) documentos ou inserir manualmente informações sobre a marca. [[!DNL Personas] diretrizes](/help/user-guide/guidelines/personas.md) e [[!DNL Products] diretrizes](/help/user-guide/guidelines/products.md) também são importantes. Os recursos subjacentes de IA gerativa do GenStudio for Performance Marketing usam essas diretrizes para estabelecer medidas de proteção que orientam a geração de conteúdo.
 
 #### Preparar seus documentos de orientação
 
-As diretrizes abrangentes e focalizadas do [[!DNL Brands]](./guidelines/brands.md), [[!DNL Products]](./guidelines/products.md) e [[!DNL Personas]](./guidelines/personas.md) definem os aspectos principais das campanhas de marketing da sua organização. A GenStudio for Performance Marketing extrai informações dessas diretrizes para começar a criar sua marca. Você pode fazer upload de documentos de orientação ou consultá-los à medida que insere informações manualmente no GenStudio for Performance Marketing. Consulte [Adicionar diretrizes](./guidelines/overview.md) para obter orientação sobre como carregar ou inserir essas informações.
+As diretrizes abrangentes e focalizadas do [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md) definem os aspectos principais das campanhas de marketing da sua organização. A GenStudio for Performance Marketing extrai informações dessas diretrizes para começar a criar sua marca. Você pode fazer upload de documentos de orientação ou consultá-los à medida que insere informações manualmente no GenStudio for Performance Marketing. Consulte [Adicionar diretrizes](/help/user-guide/guidelines/overview.md) para obter orientação sobre como carregar ou inserir essas informações.
 
 #### Revisar diretrizes
 
@@ -52,14 +52,14 @@ Consulte [Atribuir permissões de marca](configure-brand-permissions.md).
 
 Os modelos aceleram a criação de conteúdo. Um modelo contém recursos aprovados, como cabeçalhos e rodapés, e é otimizado para canais específicos. Os gerentes de sistema normalmente fazem upload e gerenciam modelos para sua organização. Os editores de conteúdo usam modelos para iniciar rapidamente o processo de criação de conteúdo dentro dos limites estabelecidos da marca organizacional.
 
-Consulte [Trabalhar com modelos](./content/use-templates.md).
+Consulte [Trabalhar com modelos](/help/user-guide/content/use-templates.md).
 
 ### Etapa 4: Fazer upload de ativos aprovados
 
 Os ativos aprovados em [!DNL Content] estão disponíveis para todos os editores do GenStudio for Performance Marketing. Você pode preencher [!DNL Content] com ativos para que os editores de conteúdo os usem na criação de novas experiências ou ativos.
 
-Consulte [Carregar ativos aprovados](./content/manage-assets.md).
+Consulte [Carregar ativos aprovados](/help/user-guide/content/manage-assets.md).
 
-### Etapa 5: conectar-se a uma conta Meta (Facebook)
+### Etapa 5: conectar-se a uma conta de mídia paga
 
-Configure uma conexão entre o GenStudio for Performance Marketing e as contas sociais de sua organização para receber dados de suas campanhas de marketing ativas, ativos e experiências. [!DNL Insights] fornece ferramentas para analisar dados derivados de canais. Consulte [Conectar-se a Metadados](/help/user-guide/connectors/meta-ads.md).
+Configure uma conexão entre o GenStudio for Performance Marketing e suas contas de mídia paga para receber dados de campanhas de marketing ativas, ativos e experiências. Use [!DNL Insights] para analisar dados derivados de canal. Consulte [Conectar conta de mídia paga](/help/user-guide/connectors/connect-channel.md).
