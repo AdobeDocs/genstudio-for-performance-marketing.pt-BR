@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Antes de começar a gerar um anúncio do LinkedIn, é importante [adicionar dire
 
 ## Escolher um modelo
 
-Para gerar uma nova experiência no LinkedIn, você precisa de um modelo para fornecer a estrutura para o seu conteúdo. Consulte [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre as taxas de proporção do LinkedIn com suporte.
+Para gerar uma nova experiência no LinkedIn, você precisa de um modelo para fornecer a estrutura para o seu conteúdo. Consulte [diretrizes do modelo do LinkedIn](/help/user-guide/templates/linkedin-template.md) para obter informações sobre as taxas de proporção do LinkedIn com suporte.
 
 **Para escolher um modelo do LinkedIn**:
 

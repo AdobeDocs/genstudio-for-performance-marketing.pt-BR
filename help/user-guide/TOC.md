@@ -5,10 +5,10 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 2745df9f67c1af4261bfdbf096b721e9bb97bc4b
+source-git-commit: 7ac97f040917ee737cd29ba8f5c7d8c72a75e577
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 19%
+source-wordcount: '237'
+ht-degree: 18%
 
 ---
 
@@ -61,12 +61,18 @@ ht-degree: 19%
    + [Gerenciar ativos e experiências](content/manage-assets.md)
    + [Conectar um repositório do AEM](content/connect-aem-repo.md)
    + [Detalhes do ativo](content/asset-details.md)
-   + Modelos {#templates}
-      + [Trabalhar com modelos](content/use-templates.md)
-      + [Personalizar um modelo](content/customize-template.md)
-      + [Editor de código de modelo](content/code-editor.md)
-      + [Criar modelos acessíveis](content/accessibility-for-templates.md)
-      + [Práticas recomendadas para modelos](content/best-practices-for-templates.md)
++ Modelos {#templates}
+   + [Trabalhar com modelos](content/use-templates.md)
+   + [Modelos iniciais](templates/starter-templates.md)
+   + [Personalizar um modelo](content/customize-template.md)
+   + [Editor de código de modelo](content/code-editor.md)
+   + [Criar modelos acessíveis](content/accessibility-for-templates.md)
+   + [Práticas recomendadas para modelos](content/best-practices-for-templates.md)
+   + Prática recomendada do canal {#channel-best-practice}
+      + [Guia de exibição de anúncios](templates/display-template.md)
+      + [Guia de email](templates/email-template.md)
+      + [Guia de anúncios do LinkedIn](templates/linkedin-template.md)
+      + [Guia de metadados](templates/meta-template.md)
 + Campanhas {#campaigns}
    + [Visão geral das campanhas](campaigns/overview.md)
    + [Criar campanhas](campaigns/create-campaign.md)

@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
+source-git-commit: adf987b016825861b5522b44b61263000eb63859
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,13 @@ Consulte [Elementos do modelo](use-templates.md#template-elements).
 
 ## Configurar diretrizes do canal
 
-Configure as diretrizes do canal para cada marca antes de usar os modelos na GenStudio for Performance Marketing. As diretrizes de canal influenciam diretamente o tipo de conteúdo gerado ao usar o template. Por exemplo, você pode definir limites de caracteres no corpo de um email.
+Definir diretrizes claras de canal é essencial para garantir que o conteúdo gerado esteja alinhado aos requisitos e objetivos da sua marca. As diretrizes de canal permitem especificar regras para elementos como tom, comprimento e estilo usados no modelo. Por exemplo, é possível definir uma contagem máxima de caracteres para o corpo ou exigir um estilo de call-to-action específico. Ao definir essas diretrizes antecipadamente, você reduz a necessidade de escrever instruções detalhadas em cada prompt de IA, simplificando o processo de geração de conteúdo e garantindo a consistência em seus emails.
+
+Revise e defina as [diretrizes de canal](/help/user-guide/guidelines/brands.md#channel-guidelines) da sua marca para todos os campos principais do seu modelo. Se você não definir diretrizes, as [diretrizes de canal padrão](/help/user-guide/guidelines/brands.md#default-channel-guidelines) serão aplicadas, o que pode não refletir totalmente os requisitos da sua marca.
 
 ![Especificações do corpo](/help/assets/channel-email-body.png)
 
-Consulte [diretrizes do canal](/help/user-guide/guidelines/brands.md#channel-guidelines).
+Saiba como as [diretrizes de Marcas, Produtos e Personalidades](/help/user-guide/guidelines/overview.md) influenciam o conteúdo gerado e como adaptá-lo às suas metas de marketing.
 
 ## Seguir as diretrizes do modelo específico do canal
 
@@ -51,165 +53,9 @@ Ao criar modelos, verifique se eles atendem aos requisitos específicos do canal
 
 {{note-css-effects}}
 
-Considere as seguintes dicas e restrições ao trabalhar com cada tipo de modelo para garantir o desempenho e a compatibilidade ideais:
+Consulte mais dicas e restrições ao trabalhar com cada tipo de modelo para garantir o desempenho e a compatibilidade ideais:
 
->[!BEGINTABS]
-
->[!TAB Email]
-
-Siga estas práticas recomendadas de design ao personalizar modelos de email para funcionar com o GenStudio for Performance Marketing:
-
-- Usar fontes do Adobe ou Google
-- Usar HTML limpo e responsivo e CSS em linha
-- **não** usar o JavaScript
-- **não** usar largura fixa no corpo ou contêiner
-- **não** usar a codificação base64 para imagens porque ela pode aumentar significativamente o tamanho do modelo
-
-**Restrições**:
-
-- Os emails de marketing podem ter 0, 2 ou 3 [seções](customize-template.md#sections-or-groups):
-   - Um modelo básico (seções zero) pode gerar um único conjunto de elementos de modelo, o que não requer a convenção de nomenclatura de grupo.
-   - Um modelo complexo (várias seções) pode gerar até três conjuntos de elementos de modelo, o que requer que você siga a convenção de nomenclatura de grupo: (`groupname_fieldname`)
-- O número máximo de campos permitidos em um modelo é 20
-- O tamanho máximo do arquivo do HTML é 102 KB
-
-**Nomes de campos reconhecidos**:
-
-Para email, o campo `subject` é incluído automaticamente. Use espaços reservados para o conteúdo para os seguintes campos:
-
-- `pre_header` (rich text não habilitado)
-- `headline`
-- `sub_headline`
-- `body`
-- `cta`
-- `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
-
-Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
-
->[!TAB Meta-anúncio]
-
-Siga estas práticas recomendadas de design ao personalizar modelos de metadados para funcionar com o GenStudio for Performance Marketing:
-
-- Usar largura de 360 pixels para layouts de coluna
-- Use uma resolução mínima de 1080 x 1080 pixels para imagens
-- **não** usar tamanho de fonte relativo
-- Fazer **não** definir viewport
-- **não** usar o JavaScript
-- **não** substitua um elemento HTML no CSS
-- Usar a marca `<img>` em vez de `background-image`
-- Usar o mascaramento para melhorar a legibilidade do texto em imagens de plano de fundo
-
-**Restrições**:
-
-- Uso de [seções](customize-template.md#sections-or-groups):
-   - Somente uma seção pode ser usada, gerando um único conjunto de elementos de modelo.
-- É necessário exatamente um campo de imagem.
-
-**Taxas de proporção com suporte**:
-
-A taxa de proporção deve ser definida:
-
-- Quadrado 1:1 (1080 x 1080 pixels)
-- Retrato 4:5 (1080 x 1350 pixels)
-- História 9:16 (1080 x 1920 pixels)
-- Paisagem: 1,91:1 (largura de 1080 pixels)
-- Tamanho de imagem personalizada: (largura mínima de imagem de 50 x 50 pixels)
-
-**Nomes de campos reconhecidos**:
-
-Para Metadados, os campos `headline`, `body` e `CTA` são gerados automaticamente. Use espaços reservados para o conteúdo para os seguintes campos:
-
-- `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
-- `on_image_text`
-
-Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
-
->[!TAB Banner e anúncio de exibição]
-
-Siga estas práticas recomendadas de design ao personalizar modelos de Banner e Anúncio de exibição para funcionar com o GenStudio for Performance Marketing:
-
-- Usar fontes do Adobe ou Google
-- Prepare ativos que sejam bem exibidos em dimensões finas
-- **não** usar imagens de fundo inseridas ou codificadas
-- Usar imagens de plano de fundo (campo `image`) carregadas no repositório de conteúdo do GenStudio for Performance Marketing
-- **não** usar o JavaScript
-
-**Restrições**:
-
-- Uso de [seções](customize-template.md#sections-or-groups):
-   - Somente uma seção pode ser usada, gerando um único conjunto de elementos de modelo.
-- É necessário exatamente um campo de imagem.
-
-**Dimensões com suporte**:
-
-- A largura x altura (pixels) deve ser definida
-- Vertical:
-   - 300 x 600
-   - 160 x 600&#x200B;
-- Horizontal:
-   - 300 x 250
-   - 728 x 90
-   - 336 x 280
-   - 320 x 50
-   - 970 x 250&#x200B;
-- Personalizado: 50 x 50 a 2000 x 2000
-
-**Nomes de campos reconhecidos**:
-
-Para anúncios em banner e Exibição, o campo `CTA` é gerado automaticamente. Use espaços reservados para o conteúdo para os seguintes campos:
-
-- `headline`
-- `sub_headline`
-- `body`
-- `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
-
-Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
-
->[!TAB Anúncio do LinkedIn]
-
-[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
-
-Siga estas práticas recomendadas de design ao personalizar modelos de anúncios do LinkedIn para funcionar com o GenStudio for Performance Marketing:
-
-**Restrições**:
-
-- Uso de [seções](customize-template.md#sections-or-groups):
-   - Somente uma seção pode ser usada, gerando um único conjunto de elementos de modelo.
-- É necessário exatamente um campo de imagem.
-- Tamanho máximo de imagem de 5 MB
-- Máximo de 70 caracteres no título
-- Texto introdutório com no máximo 150 caracteres
-
-**Taxas de proporção com suporte**:
-
-- Quadrado 1:1
-   - desktop ou portátil
-   - Mín: 360 x 360 pixels
-   - Máx.: 4320 x 4320 pixels
-- Horizontal 1.91:1
-   - desktop
-   - Mín: 640 x 360 pixels
-   - Máx.: 7680 x 4320 pixels
-- Vertical 1:1.91
-   - dispositivo móvel
-   - Mín: 360 x 640 pixels
-   - Máx.: 2430 x 4320 pixels
-- Vertical 2.3
-   - dispositivo móvel
-   - Mín: 360 x 640 pixels
-   - Máx.: 2430 x 4320 pixels
-- Vertical 4.5 (recomendado)
-   - dispositivo móvel
-   - Mín: 360 x 640 pixels
-   - Máx.: 2430 x 4320 pixels
-
-**Nomes de campos reconhecidos**:
-
-Para anúncios do LinkedIn, os campos `headline`, `introductory_text` e `CTA` são gerados automaticamente. Use espaços reservados para o conteúdo para os seguintes campos:
-
-- `image` (selecionado no JPEG de conteúdo, PNG ou GIF)
-- `on_image_text`
-
-Consulte [Espaços reservados para conteúdo](customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
-
->[!ENDTABS]
+- [Emails](/help/user-guide/templates/email-template.md)
+- [Anúncios de exibição e banner](/help/user-guide/templates/display-template.md)
+- [LinkedIn](/help/user-guide/templates/linkedin-template.md)
+- [Meta ads](/help/user-guide/templates/meta-template.md)

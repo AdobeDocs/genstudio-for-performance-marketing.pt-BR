@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -20,14 +20,14 @@ O [!DNL Create] capacita os profissionais de marketing modernos a [produzir expe
 
 Ao gerar experiências de anúncio de exibição, quatro variações são criadas e mostradas na Tela.
 
-Consulte [Seguir as diretrizes do modelo específico do canal](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões, nomes de campos reconhecidos e muito mais.
+Consulte [Exibir diretrizes de modelo de anúncio](/help/user-guide/templates/display-template.md) para obter informações sobre dimensões com suporte, nomes de campos reconhecidos e muito mais.
 
 As seções editáveis de uma experiência de anúncio de exibição incluem:
 
 * Título
 * Subtítulo
 * Corpo
-* Chamada para ação (CTA)
+* Call to action (CTA)
 * Imagem
 
 Consulte [Elementos do modelo](/help/user-guide/content/use-templates.md#template-elements).

@@ -4,7 +4,7 @@ description: Saiba mais sobre conceitos e terminologia do Adobe GenStudio for Pe
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -39,7 +39,7 @@ O GenStudio for Performance Marketing usa a série GPT de LLMs de terceiros por 
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
+_[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### Taxas
 
-Você receberá uma alocação padrão de [!DNL Generative Actions], conforme descrito na [descrição do produto GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Você receberá uma alocação padrão de [!DNL Generative Actions], conforme descrito na [descrição do produto GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 >[!NOTE]
 >
->As taxas de uso podem variar. Os planos estão sujeitos a mudanças. Consulte a [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obter informações atualizadas sobre tarifas.
+>As taxas de uso podem variar. Os planos estão sujeitos a mudanças. Consulte a [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obter informações atualizadas sobre tarifas.
 
 As funções a seguir consomem [!DNL Generative Actions] na taxa especificada.
 

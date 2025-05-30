@@ -3,7 +3,7 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Você pode cortar e reposicionar manualmente os ativos de imagem em variantes ge
 
 ## Alterar taxa de proporção
 
-Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada 1:1 pode cortar os lados, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
+Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada 1:1 pode cortar os lados, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/cont
 
    O número de variações afetadas por essa revisão é anotado no canto superior direito da janela. _Exemplo_: &quot;4 de 4 variações&quot;
 
-1. Selecione uma [taxa de proporção disponível](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+1. Selecione uma [taxa de proporção disponível](/help/user-guide/templates/meta-template.md#supported-aspect-ratios).
 
    Somente os tamanhos de taxa de proporção que não estão representados atualmente na Tela de desenho estão disponíveis para escolha.
 
@@ -148,7 +148,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Antes de começar a gerar uma experiência de Metadados, é importante [incorpor
 
 ## Escolher um modelo
 
-Para começar a gerar uma nova experiência de Metadados, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre as taxas de proporção do metaanúncio com suporte.
+Para começar a gerar uma nova experiência de Metadados, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Diretrizes do modelo de metadados](/help/user-guide/templates/meta-template.md) para obter informações sobre as taxas de proporções de metadados compatíveis.
 
 **Para escolher um modelo de meta-anúncio**:
 
