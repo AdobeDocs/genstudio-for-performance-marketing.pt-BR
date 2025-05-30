@@ -3,7 +3,7 @@ title: Fluxo de trabalho de ativação
 description: Saiba mais sobre o fluxo de trabalho de ativação para experiências de anúncio.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: 46453d7cf1901312001aa3b304be9d0832a46079
+source-git-commit: c622b86ae2977026207edb8919102620ef582d39
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Fluxo de trabalho de ativação
 
-O _[!DNL Activate]_&#x200B;oferece suporte à ativação de experiências de anúncio em formatos específicos de canal, como uma experiência de anúncio Meta ou Google Campaign Manager 360.
+O _[!DNL Activate]_oferece suporte à ativação de experiências de anúncio em formatos específicos de canal, como uma experiência de anúncio Meta ou Google Campaign Manager 360.
 
 Uma experiência do GenStudio for Performance Marketing é um componente de campanha de marketing, como um anúncio, que é preparado como uma experiência de anúncio para um público específico em um canal de anúncio pago ou email. As experiências para ativação contêm três componentes principais:
 
@@ -34,17 +34,17 @@ Embora requisitos exclusivos de posicionamento definam cada canal pago, todas as
 
 1. **Prepare sua experiência para ativação**. Você pode preparar experiências para ativação de duas maneiras:
 
-   * Ativar uma experiência aprovada com configurações predefinidas diretamente do _[!DNL Content]_. Essa maneira simplificada de ativar uma ou mais experiências de anúncio em um único canal. Depois de selecionar uma experiência na galeria&#x200B;_[!DNL Content]_, não é possível editar nem adicionar ativos à sua experiência com anúncios. Ativar a partir de _[!DNL Content]_&#x200B;está disponível para experiências de anúncio do Meta e Google Campaign Manager 360.
+   * Ativar uma experiência aprovada com configurações predefinidas diretamente do _[!DNL Content]_. Essa maneira simplificada de ativar uma ou mais experiências de anúncio em um único canal. Depois de selecionar uma experiência na galeria_[!DNL Content]_, não é possível editar nem adicionar ativos à sua experiência com anúncios. Ativar a partir de _[!DNL Content]_está disponível para experiências de anúncio do Meta e Google Campaign Manager 360.
 
    * Combine sua experiência de anúncio selecionando ativos visuais de _[!DNL Content]_, adicionando elementos de texto e selecionando taxas de proporções. Esse método envolve mais etapas, mas oferece maior flexibilidade criativa. A preparação inclui selecionar os ativos de mídia na proporção apropriada para o posicionamento específico do anúncio e atribuir o texto aos elementos de chamada para ação e cópia do corpo. Você pode adicionar metadados informativos que ajudam os usuários a pesquisar a experiência após a ativação. Cada posicionamento de canal de anúncio especifica taxas de proporção válidas para ativos visuais incluídos no posicionamento.
 
 1. **Revise e publique sua experiência no canal de destino**. Use o painel _Visualização_ durante a configuração da experiência para avaliar sua escolha de posicionamento de anúncio e elementos de texto antes de finalizar sua ativação. Sua revisão final antes da publicação ocorre no aplicativo de gerenciamento de anúncios do canal de destino. Por exemplo, depois de ativar uma experiência de anúncio no GenStudio for Performance Marketing, você deve fazer logon no Gerenciador de metadados, revisar a experiência de anúncio e selecionar os atributos específicos antes de publicá-la.
 
-Quando uma experiência de anúncio estiver ativa em seu canal de mídia paga de destino, o _[!DNL Insights]_&#x200B;poderá acompanhar e analisar seus dados de desempenho.
+Quando uma experiência de anúncio estiver ativa em seu canal de mídia paga de destino, o _[!DNL Insights]_poderá acompanhar e analisar seus dados de desempenho.
 
 ## Canais compatíveis
 
 Cada canal de mídia paga tem um fluxo de trabalho de ativação exclusivo. Selecione o canal pago para as diretrizes de ativação:
 
-* [Meta](activate-meta-ad.md)
-* [Google Campaign Manager 360](activate-cm360-ad.md)
+* [Meta](/help/user-guide/activation/activate-meta-ad.md)
+* [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md)
