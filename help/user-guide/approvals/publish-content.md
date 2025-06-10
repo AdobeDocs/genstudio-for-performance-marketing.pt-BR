@@ -3,16 +3,16 @@ title: Publicar conteúdo aprovado
 description: Saiba como publicar conteúdo aprovado com o Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
 # Publicar conteúdo aprovado
 
-A etapa final da criação de conteúdo aprovado e alinhado à marca é salvá-lo em [!DNL Content] com metadados apropriados. Você (o editor de conteúdo ou criador) pode finalizar o ativo aprovado publicando-o ou salvando-o em [!DNL Content].
+A etapa final da criação de conteúdo aprovado e alinhado à marca é salvá-lo em [!DNL Content] com metadados apropriados. Você (o editor de conteúdo ou criador) pode finalizar o ativo aprovado publicando-o em [!DNL Content].
 
 Quando todos os aprovadores designados aprovarem um rascunho, o status do rascunho será alterado para **Aprovado**. O Adobe GenStudio for Performance Marketing exibe o pop-up _Variantes aprovadas prontas para publicação_ na Tela do editor.
 
@@ -34,9 +34,11 @@ Você pode então finalizar o rascunho publicando-o em [!DNL Content] com os met
 
 ## Após a publicação
 
-Todos os usuários do GenStudio for Performance Marketing podem acessar ativos ou experiências aprovados no [!DNL Content]. O painel Detalhes do ativo identifica o histórico de upload e aprovação do ativo. Esses atributos identificam o conteúdo salvo:
+Todos os usuários do GenStudio for Performance Marketing podem acessar ativos ou experiências aprovados no [!DNL Content]. O painel _Detalhes do ativo_ identifica o histórico de carregamento e aprovação do ativo. Esses atributos identificam o conteúdo salvo:
 
 * **[!UICONTROL Criado por]**: identifica o usuário do GenStudio que carregou o ativo ou a experiência.
 * **[!UICONTROL Histórico de Aprovação]**: Identifica a data e a hora da aprovação e o aprovador.
 
 URLs de rascunho são inválidas depois que um ativo ou experiência de rascunho é salvo em [!DNL Content].
+
+Se você tiver ativado a integração do Workfront Proof, os comentários e as versões de prova serão salvos após a publicação do ativo ou da experiência.
