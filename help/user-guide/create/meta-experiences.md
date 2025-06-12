@@ -5,18 +5,18 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
 # Metadadas experiências
 
-Com o Adobe GenStudio for Performance Marketing, você pode usar a IA gerativa para simplificar a [criação de Meta experiências](/help/user-guide/create/create-meta-ad.md) de alto impacto.
+Com o Adobe GenStudio for Performance Marketing, você pode usar a IA gerativa para simplificar a [criação de Meta experiências](/help/user-guide/create/create-meta-ad.md) de alto impacto. O [!DNL Create] permite que os criadores de conteúdo usem [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt bem montado](/help/user-guide/effective-prompts.md) para [criar experiências de metadados](/help/user-guide/create/create-meta-ad.md) rapidamente.
 
-O [!DNL Create] permite que os criadores de conteúdo usem [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt bem montado](/help/user-guide/effective-prompts.md) para [criar experiências de metadados](/help/user-guide/create/create-meta-ad.md) rapidamente.
+Ao gerar metaexperiências, quatro variações são criadas e mostradas na Tela. O GenStudio for Performance Marketing oferece suporte a [Metadados de tamanho padrão e personalizado](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Ao gerar Meta experiências, quatro variações são criadas e mostradas na Tela.
 
@@ -28,13 +28,9 @@ As seções editáveis de uma experiência de email incluem:
 * Corpo
 * Call to action (CTA)
 * Texto na imagem
-* Imagem
+* Imagem/Vídeo
 
 Consulte [Elementos do modelo](/help/user-guide/content/use-templates.md#template-elements).
-
-<!-- ## Meta ad capabilities
-
-Content creators and marketers can produce brand-consistent Meta ad experiences in GenStudio for Performance Marketing. -->
 
 ## Canais de metadados
 

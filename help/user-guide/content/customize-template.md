@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
+source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio for Perf
 
 ## Espaços reservados de conteúdo
 
-A GenStudio for Performance Marketing reconhece determinados [elementos](use-templates.md#template-elements) em um modelo, mas somente se você identificá-los com um [nome de campo reconhecido](#recognized-field-names).
+O GenStudio for Performance Marketing reconhece determinados tipos de conteúdo ou [elementos](use-templates.md#template-elements) em um modelo, mas somente se você identificá-los com um [nome de campo reconhecido](#recognized-field-names).
 
 No cabeçalho ou no corpo de um modelo do HTML, é possível usar a sintaxe [!DNL Handlebars] para inserir um espaço reservado para conteúdo, em que você precisa que o GenStudio for Performance Marketing preencha o modelo com conteúdo real. A GenStudio for Performance Marketing reconhece e interpreta esses espaços reservados com base no [nome do _campo_ reconhecido](#recognized-field-names). Cada nome de campo está associado a regras e comportamentos específicos que determinam como o conteúdo é gerado e inserido no modelo.
 
@@ -124,6 +124,14 @@ Neste exemplo:
 - `{{image}}` é o espaço reservado para a URL de origem da imagem.
 - `{{imageDescription}}` é o espaço reservado para o texto alternativo, que fornece uma descrição da imagem para fins de acessibilidade e SEO.
 
+### Rótulo de acessibilidade
+
+O atributo `aria-label` é usado para definir um nome acessível para elementos que não têm rótulos visíveis. Esse atributo é especialmente útil em modelos nos quais é importante fornecer contexto para elementos interativos, como um botão do CTA.
+
+```html
+<a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
+```
+
 ### No texto da imagem
 
 O espaço reservado `{{on_image_text}}` é usado para especificar uma sobreposição de texto de mensagens de impacto curto, colocadas diretamente na imagem em uma experiência.
@@ -172,9 +180,38 @@ Para criar uma seção editável, adicione colchetes duplos ao redor do nome da 
 </tbody>
 ```
 
+### Edição de rich text
+
+Aprimore seu conteúdo criativo durante o processo do [!DNL Create] com a edição de rich text. A tela determina a capacidade de rich text com base no local do espaço reservado para conteúdo. A capacidade de Rich Text está disponível somente quando você usa espaços reservados de conteúdo como elementos autônomos ou em marcas HTML de nível de bloco, como `<p>`, `<div>` ou `<span>`.
+
+A edição de rich text está disponível para conteúdo independente em um parágrafo:
+
+```html
+<p>{{body}}</p>
+```
+
+Se você usar um espaço reservado para conteúdo dentro de um atributo do HTML (como `alt`, `href` ou `src`), a edição de rich text não será suportada para esse campo.
+
+A edição de rich text **não** está disponível para o conteúdo `alt`:
+
+```html
+<img src="image.jpg" alt="{{image_description}}">
+```
+
+Se um campo for exibido mais de uma vez, a capacidade de rich text será determinada com base no fato de ser usado como um atributo do HTML em qualquer uma das instâncias. Por exemplo, quando o título é usado como um título e como texto alternativo para uma imagem, a marca `alt` tem prioridade.
+
+A edição de rich text **não** está disponível para `headline`, pois é usada como conteúdo `alt`:
+
+```html
+<h1>{{headline}}</h1>
+<img src="image.jpg" alt="{{headline}}">
+```
+
+A edição de rich text pode estar disponível para determinados campos em canais específicos, como `on_image_text` em canais sociais (Meta, LinkedIn).
+
 ## Seções ou grupos
 
-Você pode usar seções em um template de email de marketing quando tiver dois ou três agrupamentos de campos. _As seções_ informam à GenStudio for Performance Marketing que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
+Se o seu modelo de email exigir várias áreas de conteúdo, como várias ofertas ou histórias, você poderá organizá-las usando seções ou grupos. _As seções_ informam à GenStudio for Performance Marketing que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
 
 Use um nome de grupo de sua escolha como um prefixo para indicar que um campo faz parte de uma seção ou grupo. Use um nome de campo (como `headline`, `body`, `image` ou `cta`) após o sublinhado (`_`).
 
@@ -192,7 +229,7 @@ Cada seção pode usar apenas um de cada tipo de campo. Por exemplo, os seguinte
 
 Por causa dessa regra, as seções não podem ser aninhadas.
 
-Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) no tópico _Práticas recomendadas para usar modelos_.
+Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](/help/user-guide/content/best-practices-for-templates.md) no tópico _Práticas recomendadas para usar modelos_.
 
 Por exemplo, um template de email pode incluir até três seções; portanto, você pode ter três seções de título e corpo:
 

@@ -4,9 +4,10 @@ description: Siga as práticas recomendadas ao usar modelos de anúncio de exibi
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -27,12 +28,16 @@ Siga estas práticas recomendadas de design ao personalizar modelos de Banner e 
 
 ## Nomes de campo reconhecidos
 
-Para anúncios em banner e exibição, o GenStudio for Performance Marketing gera automaticamente o campo `cta`. Ao personalizar o modelo, use espaços reservados para o conteúdo para os seguintes campos obrigatórios:
+Ao personalizar seu banner ou modelo de anúncio de exibição, use espaços reservados para conteúdo para os seguintes campos obrigatórios:
 
 - `headline`
 - `sub_headline`
 - `body`
 - `image` (obrigatório, selecionado no JPEG de conteúdo, PNG ou GIF)
+
+O GenStudio for Performance Marketing gera automaticamente os campos a seguir. Não é necessário aplicar espaços reservados para conteúdo para:
+
+- `cta`
 
 Consulte [Espaços reservados para conteúdo](/help/user-guide/content/customize-template.md#content-placeholders) para entender mais sobre o uso de nomes de campo em modelos.
 

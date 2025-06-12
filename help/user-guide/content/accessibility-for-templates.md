@@ -3,9 +3,9 @@ title: Criar modelos acessíveis
 description: Crie modelos no Adobe GenStudio for Performance Marketing que sejam capazes de alcançar mais do seu público-alvo e fornecer uma experiência ideal.
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,11 @@ Fornecer alternativas em texto para conteúdo não textual, como imagens.
 ```
 
 ![Colagem de ideias, livros, homem segurando lápis gigante, computador](/help/assets/card-create-assets.png){width="400"}
+
+Ao personalizar seu modelo, use espaços reservados para o conteúdo para os atributos `alt` e `aria-label`:
+
+- [Texto alternativo](/help/user-guide/content/customize-template.md#alternative-text)
+- [Rótulo de acessibilidade](/help/user-guide/content/customize-template.md#accessibility-label)
 
 ## Fontes
 

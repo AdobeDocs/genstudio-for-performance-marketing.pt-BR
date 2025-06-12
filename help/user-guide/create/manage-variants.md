@@ -3,9 +3,9 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,27 @@ Os rascunhos de variante gerados têm um nome padrão mostrado na parte superior
 
 ## Editar texto manualmente
 
-É possível editar os campos de texto em variantes geradas. Refine o texto para o público experimentando com frases e verbos diferentes. Por exemplo, você pode revisar manualmente o texto em variantes para visualizar a aparência de um título com uma imagem escolhida.
+É possível editar os campos de texto em variantes geradas. Refine o texto para o público-alvo fazendo experiências com diferentes frases e verbos e aplicando a formatação. Por exemplo, é possível alinhar em negrito e à direita o texto de uma variante para acomodar o layout de uma imagem.
+
+A formatação de texto disponível inclui:
+
+* Negrito, Itálico e Sublinhado
+* Alinhamento à esquerda, ao centro e à direita
+* Listas com marcadores e ordenadas
+* Cor do texto
+* Tamanho do texto
+* Link
+
+As opções de formatação de texto variam de acordo com o canal (meta, email etc.)
 
 **Para editar o texto manualmente nas variantes geradas**:
 
 1. Depois de gerar um conjunto de variantes, clique duas vezes no texto editável em uma variante.
 1. Insira o novo texto.
+1. Para formatar o texto, realce o texto aplicável e clique em **[!UICONTROL Formatar texto**].
+
+   Aplique qualquer uma (ou todas!) das opções de formatação disponíveis ao texto.
+
 1. Clique no campo de texto para salvá-lo.
 
 ## Visualizar camadas
@@ -101,16 +116,49 @@ O link adicionado ou revisado é aplicado a todos os CTAs no conjunto de variant
 
 ## Cortar ativos
 
-Você pode cortar e reposicionar manualmente os ativos de imagem em variantes geradas individuais.
+Você pode cortar e reposicionar manualmente os ativos de imagem em variantes geradas individuais com a ferramenta Corte demarcado.
 
 **Para recortar e reposicionar imagens nas variantes**:
 
-1. Depois de gerar um conjunto de variantes, passe o mouse sobre uma imagem em uma variante.
-1. Clique no ícone de corte que aparece no canto esquerdo da imagem.
+1. Depois de gerar um conjunto de variantes, passe o mouse sobre e clique em uma imagem em uma variante.
+1. Clique em **[!UICONTROL Editar]** (lápis).
+1. Clique em **[!UICONTROL Cortar]**.
 1. Ajuste a caixa delimitadora de imagem e arraste a imagem para a posição desejada.
 1. Clique em **[!UICONTROL Aplicar]** para aplicar o recorte a uma única imagem ou **[!UICONTROL Aplicar a todas as imagens]** para aplicar a todas as imagens nas variantes.
 
    A imagem cortada é salva e visível para as variantes.
+
+## Usar expansão gerativa
+
+Expanda as dimensões das suas imagens e adicione conteúdo gerativo com Expansão gerativa. Generative Expand permite transformar imagens mal ajustadas na proporção mais adequada para modelos de Banners, Meta ads, anúncios do LinkedIn ou anúncios de exibição.
+
+Esse recurso de expansão gerativa é combinado com a ferramenta Corte Demarcado para fornecer controle total dos ativos em uma variedade de taxas de aspecto para canais de mídia pagos.
+
+**Para usar a Expansão Gerativa para ajustar as imagens ao modelo de canal**:
+
+1. Depois de gerar um conjunto de variantes, passe o mouse sobre e clique em uma imagem em uma variante.
+1. Clique em **[!UICONTROL Editar]** (lápis).
+1. Clique em **[!UICONTROL Expandir]**.
+
+   A imagem é aberta na exibição de Tela de Pintura _Editar Imagem_ com uma caixa delimitadora que corresponde à proporção do seu modelo de trabalho.
+
+1. Mova a imagem para chegar ao local ideal.
+1. _Opcional_ Adicione um prompt na caixa de prompt que fornece detalhes sobre como você deseja expandir a imagem.
+
+   Por exemplo, se você estiver expandindo uma imagem de uma camisa xadrez pendurada em um varal sobre um incêndio em um acampamento, você pode adicionar &quot;montanhas nebulosas com um fogo crepitante enquanto acampam nas montanhas&quot;.
+
+   Antes de usar a Expansão gerativa:
+
+   ![Antes da Expansão Gerativa](/help/assets/before-genexpand.png){width="300" zoomable="yes"}
+
+   Depois de usar a Expansão gerativa:
+
+   ![Depois da Expansão Gerativa](/help/assets/after-genexpand.png){width="300" zoomable="yes"}
+
+1. Clique em **[!UICONTROL Gerar]**.
+1. Clique e selecione uma opção gerada ou clique em **[!UICONTROL Mais]** (ícone de adição) para obter uma lista de opções geradas.
+1. Clique em **[!UICONTROL Manter]** para salvar o resultado da Expansão Gerativa.
+1. Para aplicar esse resultado à única imagem, clique em **[!UICONTROL Aplicar]**. Clique em **[!UICONTROL Aplicar a todas as imagens]** para aplicar o resultado a todas as imagens relevantes no seu conjunto de variantes.
 
 ## Alterar taxa de proporção
 
@@ -148,7 +196,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 
@@ -188,6 +236,19 @@ Para habilitar a funcionalidade de texto alternativo, [adicione um espaço reser
    1. Clique em **[!UICONTROL Gerar]** novamente se não estiver satisfeito com o resultado inicial.
    1. Clique em **[!UICONTROL Aplicar]**.
 1. Repita o procedimento para cada imagem no conjunto de variantes.
+
+## Adicionar rótulos de acessibilidade
+
+Forneça um nome acessível para links de imagem e call-to-action em suas variantes, adicionando rótulos de acessibilidade (rótulos Aria). Os rótulos de acessibilidade complementam o texto visível para ajudar os usuários a entender a finalidade do link ou botão.
+
+**Para adicionar rótulos de acessibilidade a links de imagem ou call-to-action em suas variantes**:
+
+1. Depois de gerar um conjunto de variantes, clique em uma imagem ou call-to-action em uma variante.
+1. Clique no botão **[!UICONTROL ARIA-label]**.
+1. Clique na caixa de texto e adicione uma breve descrição que explique o que o link ou o botão faz. Por exemplo, você pode usar &quot;Comprar no site oficial da WKND&quot; para um link de botão do call to action.
+1. Clique em **[!UICONTROL Aplicar]**.
+
+Para habilitar a funcionalidade de rótulo de acessibilidade, [adicione um espaço reservado para conteúdo](/help/user-guide/content/customize-template.md) no modelo.
 
 ## Visualizar para dispositivo
 

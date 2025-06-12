@@ -4,7 +4,7 @@ description: Saiba como ativar conteúdo com o Adobe Experience Cloud e aplicati
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 11513e8cb4bc629ae205183aa1ebb02f18150527
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe GenStudio for Performance Marketing Ativate
 
-O GenStudio for Performance Marketing _[!DNL Activate]_&#x200B;fornece um local central para preparar sua experiência de anúncio para ativação para selecionar canais de anúncios pagos. A_ Ativação _é o processo de preparar experiências de anúncios, ativos e texto como uma experiência de anúncio criativo personalizada exclusivamente para posicionamento em um canal pago específico. A Ativation fornece a experiência criativa para os canais designados em um estado inativo, pronta para a revisão final e implantação a partir do canal. As experiências de anúncios podem então ser distribuídas nos mercados a que se destinam.
+O GenStudio for Performance Marketing [!DNL Activate] fornece um local central para preparar sua experiência de anúncio para ativação para selecionar canais de anúncios pagos. A _Ativação_ é o processo de preparar experiências de anúncios, ativos e texto como uma experiência de anúncio criativo personalizada exclusivamente para posicionamento em um canal pago específico. A Ativation fornece a experiência criativa para os canais designados em um estado inativo, pronta para a revisão final e implantação a partir do canal. As experiências de anúncios podem então ser distribuídas nos mercados a que se destinam.
 
 Os editores de conteúdo e gerentes de sistema podem publicar experiências cujos ativos são gerados no GenStudio for Performance Marketing ou carregados nele.
 
@@ -23,19 +23,19 @@ Cada conta de canal de mídia paga deve estar conectada ao GenStudio for Perform
 
 ## Ativar casos de uso
 
-* Ative experiências aprovadas diretamente de _[!DNL Content]_&#x200B;para canais de anúncios pagos selecionados.
+* Ative experiências aprovadas diretamente de [!DNL Content] para canais de anúncios pagos selecionados.
 
 * [Criar uma ativação](create-activation.md). Você pode criar uma experiência de anúncio selecionando ativos visuais, atribuindo texto e definindo metadados antes de enviar para um canal pago.
 
-* [Gerenciar ativações](manage-activations.md). _[!DNL Activate]_&#x200B;fornece uma visão geral de todas as experiências ativadas. Você também pode exibir os detalhes de ativações individuais.
+* [Gerenciar ativações](manage-activations.md). _[!DNL Activate]_fornece uma visão geral de todas as experiências ativadas. Você também pode exibir os detalhes de ativações individuais.
 
 ## Ativar recursos
 
-O _[!DNL Activate]_&#x200B;facilita a preparação das experiências de anúncio para distribuição nos canais pagos de destino.
+O [!DNL Activate] facilita a preparação das experiências de anúncio para distribuição nos canais pagos de destino.
 
 ### Ativar uma experiência aprovada diretamente do Conteúdo
 
-Você pode ativar uma experiência aprovada diretamente do _[!DNL Content]_&#x200B;ou ativar várias experiências aprovadas como um grupo de ativação para canais pagos selecionados. Todas as experiências em um grupo devem direcionar o mesmo canal pago.
+Você pode ativar uma experiência aprovada diretamente do [!DNL Content] ou ativar várias experiências aprovadas como um grupo de ativação para canais pagos selecionados. Todas as experiências em um grupo devem direcionar o mesmo canal pago.
 
 ### Preparar uma experiência para ativação
 
@@ -43,7 +43,7 @@ A página _Configuração da experiência_ consolida as ferramentas necessárias
 
 ### Selecionar ativos para experiência de anúncio
 
-Procure e selecione ativos visuais aprovados de _[!DNL Content]_&#x200B;ou carregue ativos do Dropbox ou OneDrive. Você pode fazer upload de ativos diretamente do seu dispositivo. Uma experiência de anúncio pode ser executada em vários posicionamentos. O Assets pode ser carregado nas taxas de proporção exigidas pelos posicionamentos do anúncio.
+Procure e selecione ativos visuais aprovados de [!DNL Content] ou carregue ativos do Dropbox ou OneDrive. Você pode fazer upload de ativos diretamente do seu dispositivo. Uma experiência de anúncio pode ser executada em vários posicionamentos. O Assets pode ser carregado nas taxas de proporção exigidas pelos posicionamentos do anúncio.
 
 ### Pré-visualizar e ativar sua experiência em um canal de publicidade
 

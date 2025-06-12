@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2667'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,45 @@ ht-degree: 0%
 
 Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
 
-## 2025.05.15 {#latest}
+## 2025,06 {#latest}
+
+### Modelos iniciais disponíveis
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
+
+Os [modelos iniciais](/help/user-guide/templates/starter-templates.md) oferecem uma maneira de dar um salto inicial no processo criativo. Agora é possível selecionar um modelo inicial de anúncio do Meta ou LinkedIn.
+
+### Funcionalidade de IA de expansão de geração
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
+
+Agora, no GenStudio for Performance Marketing [!DNL Create] você pode usar os [recursos de IA de expansão gerativa](/help/user-guide/create/manage-variants.md#use-generative-expand) para expandir as dimensões das imagens e adicionar conteúdo gerativo para ajustar os modelos de anúncios em variantes de mídia paga.
+
+### Adicionar vídeos a anúncios
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
+
+Juntamente com o conteúdo da imagem, agora é possível adicionar vídeos ao [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos) e ao [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos) anúncios. Veja as visualizações de reprodução automática dos vídeos diretamente no GenStudio for Performance Marketing conforme você escolhe e adiciona vídeos às suas variantes.
+
+### Correções e aprimoramentos
+
+* Adicionado suporte para [publicar experiências de anúncio](/help/user-guide/activation/activate-linkedin-ad.md) do GenStudio for Performance Marketing no LinkedIn Campaign Manager. [!DNL Activate] dá suporte a visualizações detalhadas de anúncios do LinkedIn antes de publicar no Gerenciador de campanhas do LinkedIn.
+
+* A [integração com o Workfront Proof](/help/user-guide/approvals/overview.md) traz os recursos robustos de revisão e aprovação da Proof para a GenStudio for Performance Marketing. O conteúdo revisado no GenStudio for Performance Marketing é sincronizado com o Workfront Proof, e os comentários e o status da revisão são preservados.
+
+* Adicionada a capacidade de [fornecer nomes acessíveis para imagens e links do call-to-action](/help/user-guide/create/manage-variants.md#add-accessibility-labels) em suas variantes, adicionando rótulos de acessibilidade (rótulos de Aria).
+
+* Ao adicionar ou revisar as [Diretrizes da marca](/help/user-guide/guidelines/brands.md) em um idioma diferente do inglês, o GenStudio for Performance Marketing exibe essas diretrizes no mesmo idioma.
+
+* Depois de adicionar manualmente uma [!DNL Brand] ou criar uma [!DNL Brand] por extração manual de um documento, você pode [alterar ou adicionar imagens de miniatura da marca](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail) para garantir que cada marca seja facilmente distinguível na sua lista [!DNL Brands].
+
+* Agora você pode [usar a formatação de edição de rich text](/help/user-guide/create/manage-variants.md#manually-edit-text) nas variantes geradas. Experimente uma variedade de opções de formatação para textos variantes, como cor, tamanho, listas e muito mais.
+
+* Agora você pode [criar um novo conjunto de anúncios](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) durante a configuração da plataforma, clonando um conjunto de anúncios existente durante a configuração da plataforma. Os conjuntos de metadados definem o tempo, os detalhes do canal e o público-alvo de um anúncio específico. Uma Meta campanha pode conter vários conjuntos de anúncios, mas um conjunto de anúncios é associado exclusivamente a uma campanha.
+
+## Notas de versão anteriores
+
++++Notas de 2025.05.15
 
 ### Correções e aprimoramentos
 
@@ -24,7 +62,7 @@ Estas informações de versão detalham as atualizações mais recentes do aplic
 * Agora é possível escolher mais de uma experiência para exportar ou baixar. Consulte [Exportar experiências](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2025.04.15
 
@@ -34,6 +72,8 @@ Estas informações de versão detalham as atualizações mais recentes do aplic
 * Funcionalidade habilitada para [exibir e selecionar camadas individuais](/help/user-guide/create/manage-variants.md#view-layers)—campos de texto editáveis ou imagens editáveis—de uma experiência para destacá-las para revisões, como regeneração de conteúdo ou recorte de imagens.
 * Adição de um [novo campo de modelo](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional em experiências para capturar a atenção do público e destacar mensagens de marketing.
 * Adicionado suporte para [publicar experiências de anúncio](/help/user-guide/activation/overview.md) do GenStudio for Performance Marketing no Google Campaign Manager 360. A Ativate oferece suporte a visualizações detalhadas de anúncios do Google Campaign Manager 360 antes da publicação em um anunciante do Campaign Manager 360. Os anúncios publicados por meio da função Ativar são automaticamente transferidos para os Insights uma vez ao vivo, permitindo que os usuários acompanhem e relatem o desempenho dos anúncios.
+
++++
 
 +++Notas de 2025.03.13
 

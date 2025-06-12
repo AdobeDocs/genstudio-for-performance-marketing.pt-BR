@@ -3,12 +3,12 @@ title: Preparar um modelo de email para o GenStudio for Performance Marketing
 description: Saiba como preparar um modelo de email para uso no Adobe GenStudio for Performance Marketing.
 level: Beginner
 feature: Media Templates
-hide: true
-hidefromtoc: true
+badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 recommendations: noDisplay, noCatalog
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
+source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 _Os modelos iniciais_ são opções de modelo predefinidas projetadas para ajudá-lo a começar rapidamente a usar o GenStudio for Performance Marketing e aprender a criar mídia eficiente. Em [!DNL Create], selecione um tipo de mídia. Se os modelos iniciais estiverem disponíveis, alterne para a guia **[!UICONTROL Modelos iniciais]** para procurar e selecionar um modelo que atenda às suas necessidades.
 
 ![Guia Modelos iniciais](/help/assets/starter-templates.png "Selecionar guias de modelo"){width="350"}
-
-## Escolha da taxa de proporção correta
 
 Selecionar a taxa de proporção apropriada para seu anúncio é importante para maximizar o impacto e garantir que seu conteúdo seja exibido corretamente em diferentes plataformas e posicionamentos. Leve em consideração o seguinte ao escolher uma taxa de proporção:
 
