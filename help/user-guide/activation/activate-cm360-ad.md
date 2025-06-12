@@ -30,7 +30,7 @@ Após a conclusão da sincronização, você poderá visualizar as contas adicio
 
 ## Etapa 3: Selecione o conteúdo para sua experiência de anúncio
 
-Você pode iniciar o processo de publicação na galeria de Experiências do _[!DNL Content]_ou na página inicial do_[!DNL Activate]_. Experiências aprovadas não podem ser editadas. Cada experiência pode conter apenas um ativo.
+Você pode iniciar o processo de publicação na galeria de Experiências do _[!DNL Content]_&#x200B;ou na página inicial do&#x200B;_[!DNL Activate]_. Experiências aprovadas não podem ser editadas. Cada experiência pode conter apenas um ativo.
 
 **Para selecionar experiências**:
 

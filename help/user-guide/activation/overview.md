@@ -27,7 +27,7 @@ Cada conta de canal de mídia paga deve estar conectada ao GenStudio for Perform
 
 * [Criar uma ativação](create-activation.md). Você pode criar uma experiência de anúncio selecionando ativos visuais, atribuindo texto e definindo metadados antes de enviar para um canal pago.
 
-* [Gerenciar ativações](manage-activations.md). _[!DNL Activate]_fornece uma visão geral de todas as experiências ativadas. Você também pode exibir os detalhes de ativações individuais.
+* [Gerenciar ativações](manage-activations.md). _[!DNL Activate]_&#x200B;fornece uma visão geral de todas as experiências ativadas. Você também pode exibir os detalhes de ativações individuais.
 
 ## Ativar recursos
 
