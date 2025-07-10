@@ -3,9 +3,9 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -196,27 +196,26 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 
    A imagem é adicionada ou trocada pela variante aplicável.
 
-## Adicionar link de imagem
+## Adicionar links
 
-Semelhante à adição ou troca de imagens em variantes geradas, é possível adicionar um link para imagens. O modelo usado para gerar variantes _deve_ conter um [espaço reservado para conteúdo para o link](/help/user-guide/content/customize-template.md#content-placeholders) para habilitar essa funcionalidade.
+Você pode adicionar um link para texto, imagens e botões CTA em suas variantes. O modelo usado para gerar variantes _deve_ conter um [espaço reservado para conteúdo para o link](/help/user-guide/content/customize-template.md#content-placeholders) para habilitar essa funcionalidade.
 
-**Para adicionar um link de imagem em uma variante**:
+**Para adicionar um link em uma variante**:
 
-1. Depois de gerar um conjunto de variantes, clique em um ativo de imagem.
-
-   Se a variante não tiver um ativo de imagem inserido no momento, clique na área do ativo de imagem.
-
-1. Clique no ícone de link.
-1. Clique em **[!UICONTROL Remover link]** para remover o link padrão existente.
-1. Adicione um link no campo de texto e clique em **[!UICONTROL Aplicar]**.
-
-   O link definido é aplicado a todas as imagens no conjunto de variantes.
+1. Ao editar um anúncio, clique na variável de elemento e localize o ícone **[!UICONTROL Adicionar link]** ou **[!UICONTROL Editar link]**.
+2. Clique no ícone para abrir a janela para o campo de texto.
+3. Insira o destino. Links que incluem endereços URL, endereços de email ou números de telefone são aceitos:
+   * `https://`
+   * `mailto:`
+   * `tel:`
+   * `sms:`
+   * `https://wa.me/` ou `whatsapp://`
 
 ## Adicionar texto alternativo para imagens
 
