@@ -3,9 +3,9 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
+source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2101'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Por exemplo, você pode gerar novamente a seção de título de uma variante do 
 
    A variante é atualizada com o texto revisado.
 
-## Revisar frase de chamariz
+## Revisar Call to action
 
 Depois de gerar um conjunto de variantes, você pode revisar o texto e o link do call-to-action (CTA).
 
@@ -162,7 +162,7 @@ Esse recurso de expansão gerativa é combinado com a ferramenta Corte Demarcado
 
 ## Alterar taxa de proporção
 
-Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada 1:1 pode cortar os lados, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
+Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada de 1:1 pode cortar as laterais, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/temp
 
 **Para alterar a proporção de metadados gerados**:
 
-1. Depois de gerar um conjunto de variantes, selecione o ícone de redimensionamento da taxa de proporção (seta apontando para o canto da caixa) no lado esquerdo da Tela de desenho.
+1. Depois de gerar um conjunto de variantes, clique em **[!UICONTROL Redimensionamento da taxa de proporção]** (seta apontando para o canto da caixa) no lado esquerdo da Tela de Pintura.
 
    A proporção usada atualmente para seus anúncios é mostrada na parte superior da janela _[!UICONTROL Redimensionar]_.
 
@@ -184,7 +184,7 @@ Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/temp
 
    [!DNL Create] cria uma cópia de cada variante com base na nova taxa de proporção selecionada. Todas as variantes, incluindo as da taxa de proporção inicial, estão presentes na Tela de desenho.
 
-   Por exemplo, se você gerar quatro variantes em uma proporção de 1:1 inicialmente e, em seguida, alterar a proporção para 4:5, _oito_ as variantes totais agora estarão disponíveis na Tela de desenho.
+   Por exemplo, se você gerar quatro variantes em uma taxa de proporção de 1:1 inicialmente e, em seguida, alterar a taxa de proporção para 4:5, _oito_ variantes totais agora estarão disponíveis na Tela.
 
 ## Trocar imagem
 
@@ -196,7 +196,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 
