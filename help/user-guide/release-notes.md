@@ -4,24 +4,57 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
+source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '3052'
 ht-degree: 0%
 
 ---
 
 # Notas de versão do GenStudio for Performance Marketing
 
-Estas informações de versão detalham as atualizações mais recentes do aplicativo do GenStudio for Performance Marketing.
+Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2025,06 {#latest}
+## 2025.07.25 {#latest}
+
+### Filtro de ativos compatíveis
+
+Um novo filtro no módulo [!DNL Insights] oculta automaticamente [ativos de imagem e vídeo não suportados](/help/user-guide/insights/ads.md#ad-formats) das visualizações de anúncios, eliminando a confusão visual e os blocos com falha. Esse aprimoramento garante que os usuários vejam apenas as mídias que estão realmente disponíveis e prontas para uso, criando uma experiência mais limpa e confiável. O filtro funciona junto com o filtro de anúncios de Compatibilidade existente.
+
+### Ativação de vários ativos para o Meta
+
+A Ativação de imagem com proporção múltipla para metadados permite que os anunciantes façam o upload e ativem vários ativos de imagem em proporções diferentes em um único anúncio criativo. Esse recurso permite que um anúncio forneça a adequação criativa certa para vários posicionamentos de Meta, como Feed, Histórias e Bobinas. Os anunciantes podem visualizar como cada imagem será renderizada entre os posicionamentos e publicar todas as versões no Meta em uma única chamada de API.
+
+### Formatação de rich text em variantes
+
+[Editar campos de texto em variantes geradas com formatação rich text](/help/user-guide/create/manage-variants.md#manually-edit-text) opções incluindo negrito, itálico, sublinhado, alinhamento de texto, listas, cor do texto, tamanho do texto e links. Isso permite refinar o texto e o estilo para o público-alvo e aplicar formatação para acomodar os requisitos de layout.
+
+### Rótulos de acessibilidade para imagens e links
+
+Adicione rótulos de acessibilidade (rótulos Aria) a imagens e links do call-to-action em suas variantes para fornecer nomes acessíveis que ajudam os usuários a entender a finalidade dos elementos interativos. Consulte [Gerenciar variantes](/help/user-guide/create/manage-variants.md) para obter instruções detalhadas.
+
+### Geração de conteúdo em outros idiomas
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
+
+O novo menu suspenso Seletor de idioma na gaveta de prompts é compatível com a criação de conteúdo multilíngue, permitindo que os profissionais de marketing regionais desenvolvam conteúdo na marca para seus públicos locais. Atualmente, esse recurso é compatível com 12 idiomas GA e 5 idiomas Beta, com a lista de idiomas fornecendo um fluxo de trabalho definido e uma diretiva de idioma clara para o LLM para saídas mais consistentes.
+
+### Seleção opcional de modelo para meta anúncios
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
+
+A seleção de modelos agora é opcional com Meta anúncios, permitindo que os usuários criem anúncios sem exigir texto e logotipo na parte superior da mídia. Esse aprimoramento permite outros tipos de mídia, como GIFs animados e vídeos que podem não exigir sobreposições de texto ou posicionamento de logotipo.
+
+
+## Notas de versão anteriores
+
++++Notas de 2025.06.15
 
 ### Modelos iniciais disponíveis
 
 [!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
 
-Os [modelos iniciais](/help/user-guide/templates/starter-templates.md) oferecem uma maneira de dar um salto inicial no processo criativo. Agora é possível selecionar um modelo inicial de anúncio do Meta ou LinkedIn.
+Os [modelos iniciais](/help/user-guide/templates/starter-templates.md) oferecem uma maneira de iniciar rapidamente o processo criativo. Agora é possível selecionar um modelo inicial de anúncio do Meta ou LinkedIn.
 
 ### Funcionalidade de IA de expansão de geração
 
@@ -53,7 +86,7 @@ Juntamente com o conteúdo da imagem, agora é possível adicionar vídeos ao [L
 
 * Agora você pode exportar detalhes da campanha para torná-los acessíveis externamente como resumos de campanha no Word ou PDF. Selecione uma campanha e clique em **[!UICONTROL Exportar]** (canto superior direito).
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2025.05.15
 
@@ -148,7 +181,7 @@ Os programas da Beta fornecem uma maneira de ajudar a moldar o desenvolvimento d
 
 ### Gerar novas chamadas para ação
 
-Agora é possível gerar novas frases de chamada para ação (CTA) ao gerenciar variantes. Use as novas opções _Rephrase_ e _Adicionar link_ para gerar novas frases e editar o link CTA. Seu modelo deve ser configurado corretamente para que essas novas funções do CTA funcionem. Siga as diretrizes em _Personalizar um modelo_: [Chamadas para ação](/help/user-guide/content/customize-template.md#calls-to-action). Para obter diretrizes sobre como gerenciar CTAs em variantes, consulte [Chamada para ação de revisão](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Agora é possível gerar novas frases do call-to-action (CTA) ao gerenciar variantes. Use as novas opções _Rephrase_ e _Adicionar link_ para gerar novas frases e editar o link CTA. Seu modelo deve ser configurado corretamente para que essas novas funções do CTA funcionem. Siga as diretrizes em _Personalizar um modelo_: [Chamadas para ação](/help/user-guide/content/customize-template.md#calls-to-action). Para obter diretrizes sobre o gerenciamento de CTAs em variantes, consulte [Revise Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correções e aprimoramentos
 
@@ -202,7 +235,7 @@ As opções de exportação agora incluem:
 
 Novos recursos adicionais permitem aos editores:
 
-* Use o botão **[!UICONTROL Atualizar]** na exibição _Detalhes do ativo_ do modelo [!DNL Content] para atualizar o modelo selecionado. <!-- GS-7102 -->
+* Use o botão **[!UICONTROL Atualizar]** na exibição [!DNL Content]Detalhes do ativo _do modelo_ para atualizar o modelo selecionado. <!-- GS-7102 -->
 
 * Gere novamente as seções do anúncio de exibição e das variantes de email. Consulte [Criar uma experiência de anúncio de exibição](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) e [Criar uma experiência de email](/help/user-guide/create/create-email-experience.md#revise-generated-emails). <!-- GS-5080 5078-->
 
