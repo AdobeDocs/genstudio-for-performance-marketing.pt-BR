@@ -1,13 +1,13 @@
 ---
-title: Editor de código de modelo
+title: Editor de código do modelo
 description: Saiba como usar o editor de código de modelo no GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
+source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,24 @@ O painel _[!UICONTROL Verificar campos detectados]_ mostra uma lista de campos q
 
 Se você observar que um campo está ausente na lista, pesquise o código do modelo e localize o local do campo ausente. Insira o espaço reservado correto usando a sintaxe Handlebars e um [nome de campo reconhecido](/help/user-guide/content/customize-template.md#recognized-field-names). Use o formulário Localizar e substituir, exibido na parte inferior do editor de código, para procurar strings específicas no código. (Windows `CTRL`+`F` ou macOS `CMD`+`F`)
 
-### Fazer uma correção
+## Ajustar funções para uma variável
+
+Você pode selecionar e alterar funções de campo para funções de campos baseados em texto (por exemplo, `headline`, `sub_headline`, `body`, `cta`, `on_image_text`, `custom`) com uma lista suspensa durante a verificação de estrutura de modelo. As seleções de funções de campo persistem durante as edições de modelo, portanto, as personalizações não são perdidas, melhorando a eficiência do fluxo de trabalho.
+
+>[!NOTE]
+>
+>As variáveis de imagem não podem ter suas funções ajustadas.
+
+![Seleção de campo de várias funções](/help/assets/multirole-dropdown-field.png "Seleção de campo de várias funções"){width="600" zoomable="yes"}
+
+Para atribuir uma função a uma variável:
+
+1. Localize a variável no painel _[!UICONTROL Verificar campos detectados]_. Essas variáveis são descobertas automaticamente.
+2. Revise as funções atribuídas a cada variável. As funções são atribuídas automaticamente, mas podem ser ajustadas usando a lista suspensa para qualquer variável no modelo.
+3. Ajuste uma função selecionando uma nova função na lista suspensa.
+4. Clique em **[!UICONTROL Avançar]** para continuar.
+
+## Fazer uma correção
 
 Se houver erros no modelo, você poderá ver uma mensagem `Template is invalid` que inclui uma breve explicação do problema. No exemplo a seguir, a mensagem indica que o campo `_image` não está em conformidade com a convenção de nomenclatura de campos estabelecida no modelo de vários pods. A mensagem informa ainda que é necessário atualizar o nome do campo com o prefixo correto. Localize o campo `_image` no editor de código de modelo e atualize o nome conforme recomendado.
 
