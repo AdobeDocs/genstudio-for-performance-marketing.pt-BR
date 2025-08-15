@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
+source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
 workflow-type: tm+mt
-source-wordcount: '3052'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,60 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2025.07.25 {#latest}
+## 2025.08.15 {#latest}
+
+### Insights para atributos de texto
+
+Os Insights de atributo de texto no Adobe GenStudio analisam o tom emocional, as técnicas de persuasão e o estilo narrativo usados na cópia de anúncio. Quando uma campanha é ativada, o GenStudio acompanha a forma como esses atributos de texto se correlacionam com as principais métricas de desempenho, como CTR, CPA, CPC, impressões e gastos.
+
+No momento, isso está disponível somente para anúncios em inglês. Consulte [Recursos de Texto](/help/user-guide/insights/text-features.md) para obter informações detalhadas.
+
+### Melhorias no modelo de insights
+
+* O cartão Visualização de anúncio agora inclui a opção &quot;Ver mais&quot; para texto.
+* Novos modelos para cartões de Alvenaria de página de anúncios.
+
+### Gerar conteúdo em vários idiomas com validação de marca
+
+O novo seletor de Idioma na gaveta de prompt suporta a criação de conteúdo multilíngue, permitindo que os profissionais de marketing regionais desenvolvam conteúdo na marca para seus públicos locais. No momento, esse recurso oferece suporte a 12 idiomas.
+
+### Suporte a ativos de vídeo em modelos
+
+* Os ativos de vídeo podem ser adicionados aos modelos Meta e LinkedIn.
+
+### Ativar melhorias de experiência
+
+* Nova funcionalidade para salvar rascunhos de ativações.
+* Nova funcionalidade para repetir ativações com falha.
+
+### Usar a mesma função em vários campos de texto
+
+Agora há suporte para vários campos de texto com a mesma função (por exemplo, &quot;body&quot;, &quot;cta&quot;, &quot;on image text&quot; etc.) para modelos de clientes complexos.
+
+Explore os detalhes em [as orientações para o Editor de Código de Modelo](/help/user-guide/content/code-editor.md).
+
+### Novos modelos de geração de imagens Clio 4 Standard e Clio 4 Ultra compatíveis
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
+
+O Adobe GenStudio for Performance Marketing agora é compatível com o conjunto Firefly Image Model 4 mais recente, incluindo duas variantes avançadas:
+
+**Clio 4 Standard**: otimizado para velocidade e simplicidade, ideal para gerar ilustrações, ícones, fotos básicas de objetos e retratos de uma única pessoa, cobrindo 90% das necessidades criativas diárias.
+
+**Clio 4 Ultra**: prioriza o fotorealismo e a precisão, destacando a renderização de retratos humanos, grupos de médio porte e cenas complexas para tarefas criativas sofisticadas.
+
+Consulte [Gerar ativos](/help/user-guide/create/generate-assets.md) para obter informações detalhadas sobre como usar esses novos modelos de geração de imagem.
+
+### Tradução pronta para uso para email
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
+
+O Adobe GenStudio for Performance Marketing agora oferece recursos de tradução de email integrados que permitem aos profissionais de marketing dimensionar suas campanhas de email globalmente de maneira eficiente. Esse recurso permite que você obtenha uma experiência de email aprovada e a traduza para vários idiomas de destino usando os serviços de tradução da IA aberta do Azure.
+
+
+## Notas de versão anteriores
+
++++Notas de 2025.07.25
 
 ### Filtro de ativos compatíveis
 
@@ -45,8 +98,7 @@ O novo menu suspenso Seletor de idioma na gaveta de prompts é compatível com a
 
 A seleção de modelos agora é opcional com Meta anúncios, permitindo que os usuários criem anúncios sem exigir texto e logotipo na parte superior da mídia. Esse aprimoramento permite outros tipos de mídia, como GIFs animados e vídeos que podem não exigir sobreposições de texto ou posicionamento de logotipo.
 
-
-## Notas de versão anteriores
++++
 
 +++Notas de 2025.06.15
 
