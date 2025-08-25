@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
+source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3411'
 ht-degree: 0%
 
 ---
@@ -47,15 +47,15 @@ Agora há suporte para vários campos de texto com a mesma função (por exemplo
 
 Explore os detalhes em [as orientações para o Editor de Código de Modelo](/help/user-guide/content/code-editor.md).
 
-### Novos modelos de geração de imagens Clio 4 Standard e Clio 4 Ultra compatíveis
+### Novos modelos de geração de imagens do Firefly compatíveis
 
 [!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
 
 O Adobe GenStudio for Performance Marketing agora é compatível com o conjunto Firefly Image Model 4 mais recente, incluindo duas variantes avançadas:
 
-**Clio 4 Standard**: otimizado para velocidade e simplicidade, ideal para gerar ilustrações, ícones, fotos básicas de objetos e retratos de uma única pessoa, cobrindo 90% das necessidades criativas diárias.
+**Imagem do Firefly 4**: otimizada para velocidade e simplicidade, ideal para gerar ilustrações, ícones, fotos básicas de objetos e retratos de uma única pessoa, cobrindo 90% das necessidades criativas diárias.
 
-**Clio 4 Ultra**: prioriza o fotorealismo e a precisão, destacando a renderização de retratos humanos, grupos de médio porte e cenas complexas para tarefas criativas sofisticadas.
+**Firefly Image 4 Ultra**: prioriza o fotorealismo e a precisão, destacando a renderização de retratos humanos, grupos de médio porte e cenas complexas para tarefas criativas sofisticadas.
 
 Consulte [Gerar ativos](/help/user-guide/create/generate-assets.md) para obter informações detalhadas sobre como usar esses novos modelos de geração de imagem.
 
