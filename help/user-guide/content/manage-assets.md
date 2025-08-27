@@ -1,11 +1,11 @@
 ---
-title: Gerenciar ativos e experiências
+title: Gerenciar Assets e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
+source-git-commit: 6880aadb104aac6b3282980760406168df3da5fe
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1514'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ A tabela a seguir lista as tarefas de gerenciamento disponíveis para ativos, ex
 
 ### Adicionar ativos
 
-Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repositório `GenStudio assets`. O botão _[!UICONTROL Adicionar ativos]_ está disponível somente quando o _[!UICONTROL Local]_ é o repositório `GenStudio assets`.
+Ao adicionar ativos a [!DNL Content], eles são armazenados no repositório `GenStudio assets` por padrão. O botão _[!UICONTROL Adicionar ativos]_ está disponível somente quando o _[!UICONTROL Local]_ é o repositório `GenStudio assets`.
 
 ![Campo de localização](/help/assets/content-location.png "Campo de localização"){width="350"}
 
@@ -98,11 +98,11 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
 1. Em _[!DNL Content]_, clique em **[!UICONTROL Adicionar ativos]**.
 
-1. No modo de exibição _Adicionar ativos aprovados_, solte um ou mais arquivos no espaço. Como opção, você pode selecionar arquivos locais usando o **[!UICONTROL Procurar]** ou importar arquivos do Dropbox ou do Microsoft OneDrive.
+2. No modo de exibição _Adicionar ativos aprovados_, solte um ou mais arquivos no espaço. Como opção, você pode selecionar arquivos locais usando o **[!UICONTROL Procurar]** ou importar arquivos do Dropbox ou do Microsoft OneDrive.
 
-1. Na seção _Adicionar detalhes_, selecione um **[!UICONTROL nome da campanha]** ou insira um novo nome.
+3. Na seção _Adicionar detalhes_, selecione um **[!UICONTROL nome da campanha]** ou insira um novo nome.
 
-1. Para melhorar a descoberta, adicione detalhes opcionais, como _Marca_, _Personas_, _Região_ e _Palavras-chave_, na seção **Mais detalhes**.
+4. Para facilitar a descoberta, adicione detalhes opcionais, como _Nome da marca_, _Personas_, _Região_ e _Palavras-chave_, na seção **Mais detalhes**.
 
    Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio for Performance Marketing. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
 
@@ -110,11 +110,11 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
    Consulte [detalhes de metadados](/help/user-guide/content/asset-details.md#system-metadata).
 
-1. Clique em **[!UICONTROL Adicionar ativos]**.
+5. Clique em **[!UICONTROL Adicionar ativos]**.
 
-1. Quando o carregamento do ativo for concluído, clique em **Concluído**.
+6. Quando o carregamento do ativo for concluído, clique em **Concluído**.
 
-1. Para exibir os novos ativos carregados, clique em **[!UICONTROL Atualizar]** na notificação _Novos ativos disponíveis_, na parte inferior da Tela.
+7. Para exibir os novos ativos carregados, clique em **[!UICONTROL Atualizar]** na notificação _Novos ativos disponíveis_, na parte inferior da Tela.
 
 ### Baixar ativos
 
@@ -140,17 +140,21 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
 É possível selecionar uma ou mais experiências aprovadas para download em um formato compatível com o canal de destino. O arquivo baixado é nomeado usando a data de exportação: `2025-06-15-export.zip`. Ao descompactar o arquivo, há uma pasta para cada tipo de canal que inclui os ativos exportados nos formatos selecionados. Cada ativo exportado retém o nome do ativo original como o nome do arquivo.
 
+>[!WARNING]
+>
+>Os ativos recuperados não são seguros para exibir sem limpeza. Todos os usuários devem lidar com script entre sites (XSS) a partir dos modelos usando técnicas de limpeza de entrada no seu lado.
+
 **Para exportar ou baixar experiências**:
 
 1. Em _[!DNL Content]_, selecione uma ou mais experiências.
 
    Um banner é exibido com o número de experiências selecionadas à esquerda e as opções de [!UICONTROL Ativar], [!UICONTROL Baixar] ou [!UICONTROL Excluir] à direita.
 
-1. (Opcional) Se optar por ativar, talvez você precise selecionar uma plataforma e continuar com o fluxo de trabalho [!DNL Activate]. Consulte [Ativar](/help/user-guide/activation/overview.md).
+2. (Opcional) Se optar por ativar, talvez você precise selecionar uma plataforma e continuar com o fluxo de trabalho [!DNL Activate]. Consulte [Ativar](/help/user-guide/activation/overview.md).
 
-1. Clique em **[!UICONTROL Baixar]**.
+3. Clique em **[!UICONTROL Baixar]**.
 
-1. No pop-up _Download_, selecione um dos formatos disponíveis.
+4. No pop-up _Download_, selecione um dos formatos disponíveis.
 
    Se você selecionou várias experiências de canais diferentes, é possível selecionar o formato para cada tipo de canal.
 
