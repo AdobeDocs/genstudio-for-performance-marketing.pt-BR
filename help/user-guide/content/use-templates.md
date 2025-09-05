@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
+source-git-commit: 2f15dc05f65ec216c7d242ffb3e14a83c76f3000
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Você [personaliza seu modelo](customize-template.md) para uso no GenStudio for 
 
 ## Gerenciar modelos
 
-A galeria _[!DNL Templates]_&#x200B;exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing.
+A galeria _[!DNL Templates]_exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing.
 
 ### Pesquisar modelos
 
@@ -72,7 +72,7 @@ Por exemplo, talvez você queira encontrar um modelo de um tipo de canal especí
 
 Os programas a seguir filtram por tipo de canal, como email, Anúncios de exibição, Metadados e Anúncios do LinkedIn.
 
-![Lista de modelos de conteúdo](/help/assets/content-templates-filter.png "Pesquisar os modelos do LinkedIn"){width="650" zoomable="yes"}
+![Lista de modelos de conteúdo](/help/assets/content-templates-filter.png "Pesquisar os modelos do LinkedIn"){width="650"}
 
 O recurso de pesquisa de modelo está disponível durante [!UICONTROL Criar] ao selecionar um modelo para mídia própria ou paga. Se determinadas opções de filtro não estiverem visíveis, isso indicará que nenhum modelo no repositório corresponde aos critérios de metadados correspondentes. Verifique se os modelos estão marcados corretamente com metadados para torná-los detectáveis por meio desses filtros.
 
@@ -84,32 +84,32 @@ Antes de carregar um modelo, verifique se ele está totalmente preparado e pront
 
 1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Modelos]**.
 
-1. Clique em **[!UICONTROL Adicionar modelo]**.
+2. Clique em **[!UICONTROL Adicionar modelo]**.
 
-1. No painel _[!UICONTROL Adicionar modelo aprovado]_, procure o arquivo de modelo do HTML ou arraste o arquivo de modelo do HTML para o espaço. Clique em **[!UICONTROL Avançar]**.
+3. No painel _[!UICONTROL Adicionar modelo aprovado]_, procure o arquivo de modelo do HTML ou arraste o arquivo de modelo do HTML para o espaço. Clique em **[!UICONTROL Avançar]**.
 
-1. No painel _[!UICONTROL Verificar campos detectados]_, examine os campos. Verifique se você está usando o modelo correto e se todos os detalhes estão conforme esperado.
+4. No painel _[!UICONTROL Verificar campos detectados]_, examine os campos. Verifique se você está usando o modelo correto e se todos os detalhes estão conforme esperado.
 
    Exemplo de visualização para um modelo de email:
 
-   ![Campos de visualização detectados](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
+   ![Campos de visualização detectados](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
    >Se o modelo não estiver correto, clique em **[!UICONTROL Voltar]** e retorne à etapa anterior. Faça upload do arquivo de modelo corrigido. Ou use o [editor de código de modelo](/help/user-guide/content/code-editor.md) para fazer correções simples.
 
-1. Clique em **[!UICONTROL Avançar]** quando estiver satisfeito com a visualização do modelo.
+5. Clique em **[!UICONTROL Avançar]** quando estiver satisfeito com a visualização do modelo.
 
-1. Em _[!UICONTROL Fornecer detalhes do modelo e carregar]_, nomeie o modelo e selecione um tipo de **[!UICONTROL Canal]**.
+6. Em _[!UICONTROL Fornecer detalhes do modelo e carregar]_, nomeie o modelo e selecione um tipo de **[!UICONTROL Canal]**.
 
    O nome do modelo e o tipo de canal são obrigatórios. Os requisitos adicionais podem incluir:
 
    - **Meta**: requer taxa de proporção
    - **Banner e Anúncio de exibição**: requer Dimensões
 
-1. Adicione quantos detalhes forem possíveis para melhorar a identificação do modelo em pesquisas e filtragem.
+7. Adicione quantos detalhes forem possíveis para melhorar a identificação do modelo em pesquisas e filtragem.
 
-1. Clique em **[!UICONTROL Concluído]**.
+8. Clique em **[!UICONTROL Concluído]**.
 
 ### Atualizar modelo
 
@@ -119,9 +119,9 @@ Os modelos podem incluir arquivos estáticos, como ícones ou logotipos. [O cont
 
 1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Modelos]**.
 
-1. Clique em um modelo para obter uma exibição completa e uma lista de detalhes.
+2. Clique em um modelo para obter uma exibição completa e uma lista de detalhes.
 
-1. Clique em **[!UICONTROL Atualizar]** (setas circulares) no canto superior direito para atualizar todos os ativos usados no modelo.
+3. Clique em **[!UICONTROL Atualizar]** (setas circulares) no canto superior direito para atualizar todos os ativos usados no modelo.
 
 ### Criar uma experiência com um modelo
 
@@ -131,11 +131,11 @@ Encontre e use um modelo existente no GenStudio for Performance Marketing para c
 
 1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Modelos]**.
 
-1. Clique em um modelo para obter uma exibição completa e uma lista de detalhes.
+2. Clique em um modelo para obter uma exibição completa e uma lista de detalhes.
 
-1. Clique em **[!UICONTROL Criar experiência]** (pincel) no canto superior direito para usar o modelo.
+3. Clique em **[!UICONTROL Criar experiência]** (pincel) no canto superior direito para usar o modelo.
 
-1. Continue para [Criar](/help/user-guide/create/overview.md#create-use-cases) uma experiência.
+4. Continue para [Criar](/help/user-guide/create/overview.md#create-use-cases) uma experiência.
 
 ## Modelos do AJO e do Marketo
 
