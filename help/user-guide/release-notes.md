@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
+source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
 workflow-type: tm+mt
-source-wordcount: '3411'
+source-wordcount: '3502'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2025.08.15 {#latest}
+## 2025.09.11 {#latest}
+
+### Nova funcionalidade generativa de IA de expansão para mídia paga
+
+O novo recurso GenExpand permite que os profissionais de marketing adaptem dinamicamente seus ativos criativos para suportar diferentes taxas de aspecto em canais de mídia paga como Meta, LinkedIn, Anúncios de exibição e Banners. Quando uma imagem não corresponde à taxa de proporção desejada, como adicionar uma imagem estreita a um layout amplo, você pode usar GenExpand para revisar a imagem para ajustá-la.
+
+Esse recurso simplifica o processo de edição e redimensionamento de imagens diretamente no GenStudio for Performance Marketing. Consulte [Recursos de IA de expansão de geração](/help/user-guide/create/manage-variants.md#use-generative-expand) para obter informações detalhadas.
+
+## Notas de versão anteriores
+
++++Notas de 2025.08.15
 
 ### Insights para atributos de texto
 
@@ -65,8 +75,7 @@ Consulte [Gerar ativos](/help/user-guide/create/generate-assets.md) para obter i
 
 O Adobe GenStudio for Performance Marketing agora oferece recursos de tradução de email integrados que permitem aos profissionais de marketing dimensionar suas campanhas de email globalmente de maneira eficiente. Esse recurso permite que você obtenha uma experiência de email aprovada e a traduza para vários idiomas de destino usando os serviços de tradução da IA aberta do Azure.
 
-
-## Notas de versão anteriores
++++
 
 +++Notas de 2025.07.25
 
