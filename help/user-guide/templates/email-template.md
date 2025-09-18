@@ -1,13 +1,13 @@
 ---
-title: Diretrizes do modelo de email
+title: Diretrizes de modelo de email
 description: Siga as práticas recomendadas ao usar modelos de email com o Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
+source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -44,17 +44,18 @@ Os campos máximos permitidos em um modelo são 20. Consulte [Espaços reservado
 
 ## Email de várias seções
 
-_Seções_ permitem que você organize o conteúdo em grupos distintos, que oferecem suporte a layouts mais complexos. No Genstudio para Marketing de desempenho, é possível definir cada seção usando uma convenção de nomenclatura de grupo. Consulte [Personalizar seções de modelo](/help/user-guide/content/customize-template.md#sections-or-groups).
+_Seções_ permitem que você organize o conteúdo em grupos distintos, suportando layouts mais complexos. No GenStudio for Performance Marketing, você pode definir cada seção usando uma convenção de nomenclatura de grupo. Consulte [Personalizar seções de modelo](/help/user-guide/content/customize-template.md#sections-or-groups).
 
 Os modelos de várias seções podem ter 0, 2 ou 3 seções:
 
 - Um modelo básico (seções zero) pode gerar um único conjunto de elementos de modelo, o que não requer a convenção de nomenclatura de grupo.
-- Um modelo complexo (várias seções) pode gerar até três conjuntos de elementos de modelo, o que requer que você siga a convenção de nomenclatura de grupo: (`groupname_fieldname`)
+- Um modelo complexo (várias seções) pode gerar até três conjuntos de elementos de modelo, o que requer que você siga a convenção de nomenclatura de grupo: `<groupname_fieldname>`.
+- Ao usar várias seções, todos os elementos deixados independentes, fora de uma seção, não serão preenchidos.
 
-Exemplo de nomes de campo para duas seções:
+Estes são exemplos de nomes de campos, usando a convenção de nomenclatura de grupo, para duas seções:
 
-- `pod1_headline`, `pod1_body`, `pod1_cta`
-- `pod2_headline`, `pod2_body`, `pod2_cta`
+- Na seção 1:`pod1_headline`, `pod1_body`, `pod1_cta`
+- Na seção 2:`pod2_headline`, `pod2_body`, `pod2_cta`
 
 ## Exemplos de modelo
 
@@ -109,7 +110,7 @@ Este é um exemplo básico de um template de email do HTML com uma seção. O `<
 
 +++Exemplo: modelo de email com várias seções
 
-O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas seções. O cabeçalho contém CSS em linha para estilizar um grupo. O corpo usa dois grupos com [espaços reservados para o conteúdo](#content-placeholders) usando um prefixo.
+Este é o mesmo modelo de HTML no exemplo acima, mas com mais duas seções. O cabeçalho contém CSS em linha para estilizar um grupo. O corpo usa dois grupos com [espaços reservados para o conteúdo](#content-placeholders) usando um prefixo.
 
 ```html
 <!DOCTYPE html>
@@ -151,8 +152,6 @@ O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas 
     </head>
     <body>{{pre_header}}
         <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
