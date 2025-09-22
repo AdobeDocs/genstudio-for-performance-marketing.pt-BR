@@ -4,7 +4,7 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a666052494382be09bb24ef5d4d803d5ec710baf
+source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
 workflow-type: tm+mt
 source-wordcount: '3502'
 ht-degree: 0%
@@ -195,7 +195,7 @@ Como parte do processo de validação da marca, os [padrões de conformidade](/h
 
 ### Extensibilidade
 
-A nova [estrutura de extensibilidade](/help/extensibility/overview.md) do GenStudio for Performance Marketing fornece ferramentas para que as organizações incorporem seus próprios protocolos de conformidade com declarações no fluxo de trabalho de criação de conteúdo e validação por meio de complementos ou aplicativos extensíveis.
+A nova [estrutura de extensibilidade](/help/extensibility/setup.md) do GenStudio for Performance Marketing fornece ferramentas para que as organizações incorporem seus próprios protocolos de conformidade com declarações no fluxo de trabalho de criação de conteúdo e validação por meio de complementos ou aplicativos extensíveis.
 
 ### Modelos
 

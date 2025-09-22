@@ -1,18 +1,18 @@
 ---
-title: Implante seu aplicativo App Builder
+title: Implantar o aplicativo App Builder
 description: Implante seu aplicativo ou complemento do App Builder para o GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
+source-git-commit: 7fdd3f54a0a031bfe26b48983de9cd24baad2f62
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
 # Implante seu aplicativo
 
-A execução do aplicativo fornece um instantâneo preliminar do comportamento do complemento antes de implantá-lo. Essas informações podem facilitar a depuração. Você pode forçar a criação e a implantação de um aplicativo implantado sem reenviá-lo para aprovação.
+A execução do aplicativo oferece um instantâneo preliminar do comportamento do complemento antes de implantá-lo. Essas informações podem facilitar a depuração.
 
 **Para executar o aplicativo**:
 
@@ -24,13 +24,13 @@ aio app run
 
 **Para implantar o aplicativo**:
 
-1. Navegue até o espaço de trabalho Implantação. Por exemplo, para navegar até o espaço de trabalho Produção:
+1. Navegue até o espaço de trabalho Implantação:
 
    ```bash
-   aio app use -w Production
+   aio app use -w [deployment_workspace]
    ```
 
-1. Implante o aplicativo:
+2. Implante o aplicativo:
 
    ```bash
    aio app deploy
@@ -38,9 +38,11 @@ aio app run
 
 **Para forçar a reimplantação**:
 
+Você pode forçar uma criação e implantação do seu aplicativo sem reenviá-lo para aprovação.
+
 >[!NOTE]
 >
->Forçar a criação e a implantação substitui a implantação existente. Primeiro, teste completamente seu aplicativo em um ambiente de teste.
+>Forçar uma criação e implantação substitui a implantação existente. **Primeiro teste completamente seu aplicativo** em um ambiente de teste.
 
 ```bash
 aio app build --force-build
@@ -60,8 +62,10 @@ aio app deploy --force-build --force-deploy
 
 Após a implantação, é possível exibir o aplicativo no GenStudio for Performance Marketing adicionando um parâmetro `query` à URL do GenStudio for Performance Marketing:
 
-`https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.net/index.html#/@<ims-org>/genstudio/create`
+```txt
+https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.net/index.html#/@<ims-org>/genstudio/create
+```
 
-Se você estiver satisfeito com o Complemento, estará pronto para distribuí-lo sem o parâmetro `query`.
+Se estiver satisfeito com o Complemento, você estará pronto para distribuí-lo sem o parâmetro `query`.
 
 Agora você pode [distribuir seu aplicativo](distribute-app.md).
