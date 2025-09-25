@@ -1,9 +1,9 @@
 ---
-title: Validação da marca no Adobe GenStudio for Performance Marketing
+title: Validação de marca no Adobe GenStudio for Performance Marketing
 description: Saiba como o sistema integrado de validação de marca funciona no GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Um resumo da validação de marca e outras informações de verificação de con
 O resumo de _Verificação de conteúdo_ exibe:
 
 * Porcentagem de conformidade com suas [[!DNL Brand]](brands.md) calculada como o número de [diretrizes](overview.md) que passaram na validação em comparação ao número de diretrizes testadas
-* `Pass` ou `Fail` resultado para as diretrizes da plataforma, como Meta ou LinkedIn
+* `Pass` ou `Fail` resultado das diretrizes da plataforma, como Meta ou LinkedIn
 * `Pass` ou `Fail` resultado para padrões de acessibilidade ADA
 
 ![Resumo da verificação de conteúdo](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
@@ -56,7 +56,7 @@ Consulte [Melhorar o alinhamento da marca](#improve-brand-alignment) para saber 
 No painel _Verificação de conteúdo_, é possível alternar quais verificações de diretrizes e padrões de acessibilidade são executadas. Clique no ícone _Tipo de conteúdo_ (ícone de níveis) na parte superior do painel para ativar ou desativar:
 
 * **[!DNL Brand]** — Executa as verificações associadas a [!DNL Brand] diretrizes
-* **Diretrizes da plataforma** — Executa as verificações associadas à plataforma específica do canal, como Meta
+* **Diretrizes da plataforma**—Executa as verificações associadas à plataforma específica do canal, como o Meta
 * **Acessibilidade** — Executa as verificações associadas aos padrões de acessibilidade ADA
 
 Para **definir o tipo de conteúdo** para as verificações que deseja executar, clique para desativar ou nos tipos disponíveis e clique em **Aplicar**.

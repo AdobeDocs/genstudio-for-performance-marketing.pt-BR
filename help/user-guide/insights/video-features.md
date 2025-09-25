@@ -4,7 +4,7 @@ description: Saiba mais sobre o recurso de vídeo das categorias de atributo usa
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%

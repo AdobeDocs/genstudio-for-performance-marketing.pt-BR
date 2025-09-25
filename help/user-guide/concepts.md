@@ -4,7 +4,7 @@ description: Saiba mais sobre conceitos e terminologia do Adobe GenStudio for Pe
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Conceitos 
 
-O GenStudio for Performance Marketing é um produto corporativo independente que incorpora a cadeia de fornecimento de conteúdo da Adobe para simplificar campanhas de marketing. É desafiador criar conteúdo personalizado e aprovado pela marca em escala, monitorar a eficácia e adaptar-se rapidamente ao mercado em constante mudança. O GenStudio for Performance Marketing reúne o Creative Cloud e o Experience Cloud em um único aplicativo que usa a IA gerativa como um multiplicador de desempenho para equipes de marketing corporativas.
+O GenStudio for Performance Marketing é um produto corporativo independente que incorpora o conteúdo supply chain da Adobe para simplificar campanhas de marketing. É desafiador criar conteúdo personalizado e aprovado pela marca em escala, monitorar a eficácia e adaptar-se rapidamente ao mercado em constante mudança. O GenStudio for Performance Marketing reúne o Creative Cloud e o Experience Cloud em um único aplicativo que usa a IA gerativa como um multiplicador de desempenho para equipes de marketing corporativas.
 
 Com o GenStudio for Performance Marketing, você pode:
 
@@ -39,7 +39,7 @@ O GenStudio for Performance Marketing usa a série GPT de LLMs de terceiros por 
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
+_[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### Taxas
 
-Você receberá uma alocação padrão de [!DNL Generative Actions], conforme descrito na [descrição do produto GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Você receberá uma alocação padrão de [!DNL Generative Actions], conforme descrito na [descrição do produto GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 >[!NOTE]
 >
->As taxas de uso podem variar. Os planos estão sujeitos a mudanças. Consulte a [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obter informações atualizadas sobre tarifas.
+>As taxas de uso podem variar. Os planos estão sujeitos a mudanças. Consulte a [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obter informações atualizadas sobre tarifas.
 
 As funções a seguir consomem [!DNL Generative Actions] na taxa especificada.
 
@@ -91,7 +91,7 @@ Quando esta mensagem for exibida, você poderá editar o prompt e tentar novamen
 
 ## Ciclo de vida do conteúdo
 
-A demanda é alta por experiências de qualidade em vários canais em um ritmo mais rápido. O GenStudio for Performance Marketing simplifica a cadeia de fornecimento de conteúdo em um fluxo de trabalho bem organizado para profissionais de marketing. A GenStudio for Performance Marketing utiliza a tecnologia Adobe em cada estágio do ciclo de vida.
+A demanda é alta por experiências de qualidade em vários canais em um ritmo mais rápido. O GenStudio for Performance Marketing simplifica o conteúdo supply chain em um fluxo de trabalho bem organizado para profissionais de marketing. A GenStudio for Performance Marketing utiliza a tecnologia Adobe em cada estágio do ciclo de vida.
 
 <table style="table-layout:auto">
 

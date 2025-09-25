@@ -4,7 +4,7 @@ description: Saiba como usar os recursos aprimorados de filtro com Insights.
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: 04bc6f911394d0f4c324abc347ce125203011960
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 0%
@@ -17,7 +17,7 @@ O painel [!DNL Insights] fornece um conjunto abrangente de filtros para uma expe
 
 ## Noções básicas de filtro
 
-Cada modo de exibição em [!DNL Insights] oferece uma lista de opções de filtro. O botão de alternância de filtro (funil) à esquerda abre o menu **[!UICONTROL Filtro]**. Se você estiver visualizando a tabela ou a galeria, os filtros aplicados aparecerão na lista **[!UICONTROL Filtrar por]** acima da tabela ou galeria. Por padrão, um canal e uma conta são selecionados.
+Cada modo de exibição em [!DNL Insights] oferece uma lista de opções de filtro. O botão de alternância Filtro (funnel) à esquerda abre o menu **[!UICONTROL Filtro]**. Se você estiver visualizando a tabela ou a galeria, os filtros aplicados aparecerão na lista **[!UICONTROL Filtrar por]** acima da tabela ou galeria. Por padrão, um canal e uma conta são selecionados.
 
 ![Filtrar por](/help/assets/insights-filter-by.png "Filtrar por"){width=600 zoomable="yes"}
 
@@ -61,7 +61,7 @@ Com o tempo, sua lista de campanhas e anúncios pode crescer exponencialmente. C
 
    ![Filtro de anúncios e tabela](/help/assets/insights-ads-filter.png "Exibição de anúncios com menu de filtro"){zoomable="yes"}
 
-1. Clique na opção de filtro (funil) acima do lado esquerdo da tabela para abrir o menu **[!UICONTROL Filtro]**.
+1. Clique no botão de alternância filtro (funnel) acima do lado esquerdo da tabela para abrir o menu **[!UICONTROL Filtro]**.
 
 1. Verifique se o canal `Filter by` e a conta corretos estão selecionados.
 

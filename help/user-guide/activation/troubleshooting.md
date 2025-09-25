@@ -4,7 +4,7 @@ description: Saiba como otimizar ativações para canais de anúncios pagos de t
 level: Intermediate
 feature: Ad Activation
 exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
@@ -35,15 +35,15 @@ Estas são algumas práticas recomendadas comuns e os erros que podem ser evitad
 
 * **Revise seu conjunto de anúncios e certifique-se de que apenas um anúncio esteja ativo a qualquer momento**
 
-  Se precisar ativar vários Meta Ads, crie um Conjunto de anúncios dinâmico do Creative separado para cada um. Exemplo de erro: _O Conjunto de Anúncios Dinâmicos do Creative permite no máximo um anúncio ativo. Os usuários não podem criar mais de um anúncio no mesmo Conjunto de anúncios dinâmico do Creative. (100)_
+  Se precisar ativar vários anúncios do Meta, crie um Conjunto de anúncios dinâmico do Creative separado para cada um. Exemplo de erro: _O Conjunto de Anúncios Dinâmicos do Creative permite no máximo um anúncio ativo. Os usuários não podem criar mais de um anúncio no mesmo Conjunto de anúncios dinâmico do Creative. (100)_
 
 * **Corresponder o número de regras aplicadas com a quantidade especificada pela plataforma**
 
   Os canais pagos esperam que o número de regras aplicadas corresponda ao formato especificado.  Se necessário, ajuste o número de regras para corresponder ao valor que a plataforma especifica. Exemplo de erro: _O Ad AssetFeed tem X regra(s) de destino para o formato: nome do formato, mas exatamente X regra de destino para esse formato é esperada. (100)_
 
-* **Escolha uma chamada para ação (CTA) que seja compatível com seu objetivo de conjunto de anúncios**
+* **Escolha uma call-to-action (CTA) compatível com seu objetivo de conjunto de anúncios**
 
-  Frases de chamariz incompatíveis com o objetivo em Conjuntos de anúncios dinâmicos do Creative acionam um erro. Erro de exemplo: _O objetivo Y do Conjunto de Anúncios do Dynamic Creative não oferece suporte para a chamada para o tipo de ação X. (100)_
+  Frases de chamariz incompatíveis com o objetivo em Conjuntos de anúncios dinâmicos do Creative acionam um erro. Erro de exemplo: _O tipo de call to action X não é suportado para o objetivo Y no Conjunto de Anúncios do Dynamic Creative. (100)_
 
 * **Verifique se o limite do conjunto de anúncios de destino oferece suporte ao número de experiências de anúncio**
 
@@ -51,4 +51,4 @@ Estas são algumas práticas recomendadas comuns e os erros que podem ser evitad
 
 * **Verifique se a plataforma oferece suporte ao tipo de CTA selecionado**
 
-  Confirme se sua experiência inclui um tipo de CTA compatível. Erro de exemplo: _(#100) Chamada inválida para tipo de ação (100)_
+  Confirme se sua experiência inclui um tipo de CTA compatível. Exemplo de erro: _(#100) Tipo de call to action inválido (100)_

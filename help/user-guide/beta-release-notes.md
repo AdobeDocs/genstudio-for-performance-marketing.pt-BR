@@ -4,7 +4,7 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 hidefromtoc: true
 hide: true
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: ad532813338a7506483c2ab5892a61d7dc4785d4
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 2%
@@ -35,13 +35,13 @@ Essas notas destacam correções e aprimoramentos significativos do Adobe GenStu
 
 * A Tela de Pintura [!DNL Create] agora renderiza fontes personalizadas de modelos conforme esperado. <!-- GS-3415 -->
 
-* A fonte correta agora é aplicada durante a exportação de Metadados. <!-- GS-5875 -->
+* A fonte correta agora é aplicada durante a exportação de anúncios do Meta. <!-- GS-5875 -->
 
 * Problemas com o upload do modelo que resultaram em upload bem-sucedido, mas a falta de visibilidade na interface do produto foi resolvida. <!-- GS-4815 5650-->
 
-* Os usuários agora podem recortar manualmente os Metadados após redimensioná-los. <!-- GS-5871 -->
+* Agora os usuários podem recortar manualmente os anúncios do Meta depois de redimensioná-los. <!-- GS-5871 -->
 
-* Os usuários não precisam mais fazer logon duas vezes em uma conta de Metadados do canal quando também estão conectados ao Facebook. <!-- GS-3009 -->
+* Os usuários não precisam mais fazer logon duas vezes em uma conta de canal do Meta ads quando também estão conectados ao Facebook. <!-- GS-3009 -->
 
 * A visualização da Tela de ativos e experiências agora permanece consistente em todo o processo de criação, revisão e aprovação de conteúdo. <!-- GS-5877 -->
 
@@ -63,7 +63,7 @@ Essas notas destacam correções e aprimoramentos significativos do Adobe GenStu
 
 * Os efeitos de carregamento do shimmer agora persistem até que a regeneração da imagem seja concluída.  <!-- GS-5811 -->
 
-* As pontuações de validação de marca não são mais invalidadas depois que um usuário faz edições em emails gerados, Metadados ou anúncios de exibição. Anteriormente, essa pontuação estava oculta. <!-- GS-5379 -->
+* As pontuações de validação de marca não são mais invalidadas depois que um usuário faz edições em emails gerados, anúncios do Meta ou anúncios de exibição. Anteriormente, essa pontuação estava oculta. <!-- GS-5379 -->
 
 * Os modelos que têm estilos CSS anexados ao elemento `body` agora são aproveitados conforme esperado durante a exportação de experiências. <!-- GS-5947 -->
 
@@ -73,7 +73,7 @@ Essas notas destacam correções e aprimoramentos significativos do Adobe GenStu
 
 * Aprimoramento do desempenho da Tela de desenho durante a edição de texto.  <!-- GS-5118 -->
 
-* Adicionados espaços ausentes entre cadeias de caracteres no Email ou na Meta ad Canvas do [!DNL Create]. <!-- GS-5019 -->
+* Adicionados espaços ausentes entre cadeias de caracteres no Email [!DNL Create] ou na Tela de anúncio do Meta. <!-- GS-5019 -->
 
 * Os editores agora podem salvar um arquivo com nomes que contêm caracteres especiais após a edição no Express. <!-- GS-6131 -->
 

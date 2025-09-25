@@ -1,36 +1,36 @@
 ---
-title: Criar uma experiência de meta-anúncio
-description: Saiba como criar experiências de meta-anúncios na marca (para Facebook ou Instagram) com o Adobe GenStudio for Performance Marketing.
+title: Criar uma experiência de anúncio do Meta
+description: Saiba como criar experiências de anúncio de Meta na marca, para Facebook ou Instagram, com o Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
-# Criar uma experiência de meta-anúncio
+# Crie uma experiência de anúncio do Meta
 
-Este tutorial demonstra como gerar experiências de [Metadados](/help/user-guide/create/meta-experiences.md) com a marca usando o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
+Este tutorial demonstra como gerar [experiências de anúncio do Meta](/help/user-guide/create/meta-experiences.md) usando o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação esquerda).
 
-Antes de começar a gerar uma experiência de Metadados, é importante [incorporar as diretrizes](/help/user-guide/guidelines/add-guidelines.md) ao GenStudio for Performance Marketing e familiarizar-se com as noções básicas de [criação de um prompt](/help/user-guide/effective-prompts.md).
+Antes de começar a gerar uma experiência de anúncio do Meta, é importante [incorporar as diretrizes](/help/user-guide/guidelines/add-guidelines.md) no GenStudio for Performance Marketing e familiarizar-se com as noções básicas do [criação de um prompt](/help/user-guide/effective-prompts.md).
 
 ## Escolher um modelo
 
-Para começar a gerar uma nova experiência de Metadados, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Diretrizes do modelo de metadados](/help/user-guide/templates/meta-template.md) para obter informações sobre as taxas de proporções de metadados compatíveis.
+Para começar a gerar uma nova experiência de anúncio do Meta, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [diretrizes de modelos de anúncios do Meta](/help/user-guide/templates/meta-template.md) para obter informações sobre as taxas de proporção de anúncios do Meta com suporte.
 
 Ao selecionar um modelo, você tem a opção de usar um dos modelos carregados ou um modelo inicial.
 
-**Para escolher um modelo de meta-anúncio**:
+**Para escolher um modelo de anúncio do Meta**:
 
-1. Em _[!DNL Create]_, clique em **[!UICONTROL Metadados]**.
+1. Em _[!DNL Create]_, clique em **[!UICONTROL Meta ads]**.
 1. Selecione **[!UICONTROL Modelos personalizados]** para procurar os modelos carregados ou **[!UICONTROL Modelos iniciais]** para procurar os modelos pré-criados.
 
-   Se você planeja adicionar ativos de vídeo às suas Variantes Meta, é necessário escolher um modelo inicial. Eles são pré-carregados com áreas de conteúdo definidas pelo sistema que facilitam o uso de vídeos.
+   Se você planeja adicionar ativos de vídeo às variantes do Meta, é necessário escolher um modelo inicial. Eles são pré-carregados com áreas de conteúdo definidas pelo sistema que facilitam o uso de vídeos.
 
 1. Clique para selecionar um modelo e clique em **[!UICONTROL Usar]**.
 
@@ -38,7 +38,7 @@ Ao selecionar um modelo, você tem a opção de usar um dos modelos carregados o
 
 ## Adicionar parâmetros
 
-Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompts melhora o processo de geração de conteúdo e é uma etapa crucial na preparação para gerar um Metadado.
+Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompts melhora o processo de geração de conteúdo e é uma etapa crucial na preparação para gerar um anúncio do Meta.
 
 Se você estiver usando um modelo com diretrizes predefinidas—[!DNL Brands], [!DNL Personas] ou [!DNL Products]—essas diretrizes se aplicam às suas variantes. Você pode alterá-los se desejar.
 
@@ -68,7 +68,7 @@ Quando terminar de adicionar parâmetros, você poderá recolher a gaveta do pro
 
 ## Digite um prompt
 
-Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de Meta ad. Prompts detalhados produzem uma saída de qualidade superior aos prompts vagos ou ambíguos.
+Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de anúncio do Meta. Prompts detalhados produzem uma saída de qualidade superior aos prompts vagos ou ambíguos.
 
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
@@ -81,28 +81,28 @@ Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para s
 
 Por padrão, quatro variações — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são geradas e mostradas na Tela.
 
-O conteúdo gerado é carregado progressivamente — à medida que cada seção das metaexperiências é gerada, elas aparecem na Tela. Consulte [Metaexperiências](/help/user-guide/create/meta-experiences.md#progressive-loading) para saber como essas alterações são carregadas na Tela.
+O conteúdo gerado é carregado progressivamente — à medida que cada seção das experiências do Meta é gerada, elas aparecem na Tela. Consulte [Experiências do Meta](/help/user-guide/create/meta-experiences.md#progressive-loading) para saber como essas alterações são carregadas na Tela.
 
-## Escolher canal de metadados
+## Escolher canal de anúncios do Meta
 
-Ao gerar um Meta ad, você pode escolher entre anúncios do Facebook ou do Instagram.
+Ao gerar um anúncio do Meta, você pode escolher entre anúncios do Facebook ou do Instagram.
 
-Alterne a opção de canal de metaanúncios (entre **Facebook** e **Instagram**) na barra de menu direita (ícones do Facebook e do Instagram) para ver e gerenciar variantes de cada canal.
+Alterne a opção de canal de anúncios do Meta (entre **Facebook** e **Instagram**) na barra de menu direita (ícones do Facebook e do Instagram) para ver e gerenciar variantes de cada canal.
 
-Ao [revisar os Meta ads](#revise-generated-variants), você pode alterar a proporção dos anúncios do Facebook e do Instagram.
+Ao [revisar os anúncios do Meta](#revise-generated-variants), você pode alterar a proporção dos anúncios do Facebook e do Instagram.
 
 ## Revisar variantes geradas
 
-Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar os Metadados ou excluir uma variante do conjunto de anúncios gerados.
+Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar os anúncios do Meta ou excluir uma variante do conjunto de anúncios gerados.
 
 Para realçar uma camada individual a ser revisada, clique em um campo ou imagem editável e clique em _[!UICONTROL Exibir Camadas]_.
 
 **Para revisar variantes geradas**:
 
-* **Para [editar o nome do rascunho do Metaanúncio](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
-* **Para [editar um Metadado manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer uma das seções de anúncio (como a linha de assunto,
+* **Para [editar o nome do rascunho do anúncio do Meta](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
+* **Para [editar manualmente um anúncio do Meta](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer uma das seções de anúncio (como a linha de assunto,
 cabeçalho ou cópia do corpo) e edite conforme necessário.
-* **Para alterar ou selecionar o plano de ação**, clique no botão call-to-action e selecione entre as opções de texto de botão disponíveis. Em _Link_, insira uma URL para o texto do call-to-action.
+* **Para alterar ou selecionar o call to action**, clique no botão call-to-action e selecione entre as opções de texto do botão disponíveis. Em _Link_, insira uma URL para o texto do call-to-action.
 * **Para [aplicar formatação de texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** a uma variante, clique no texto da imagem ou no link embutido de uma variante e clique em **[!UICONTROL Formatar texto]**.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Para [adicionar um link a uma imagem em uma variante](/help/user-guide/create/manage-variants.md#add-image-link)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique no ícone de link.
@@ -113,7 +113,7 @@ cabeçalho ou cópia do corpo) e edite conforme necessário.
 * **Para [usar a Expansão Gerativa para dimensionar e ajustar as imagens](/help/user-guide/create/manage-variants.md#use-generative-expand) ao seu modelo de trabalho**, clique em uma imagem, clique em **[!UICONTROL Editar]** (ícone de lápis) e em **[!UICONTROL Expandir]**. Ajuste a imagem para ajustar as proporções de tamanho e o modelo necessários.
 * **Para [adicionar texto alternativo para imagens em uma variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, clique em um ativo de imagem e use a opção _Texto alternativo_ para adicionar ou gerar manualmente texto alternativo por imagem.
 * **Para [adicionar rótulos de acessibilidade](/help/user-guide/create/manage-variants.md#add-accessibility-labels) às suas variantes**, clique em uma imagem ou em um link do call-to-action e forneça uma breve descrição que explique o que o link ou o botão faz.
-* **Para [excluir um Metadado](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no menu de opções de uma variante e clique em **[!UICONTROL Excluir variante]**.
+* **Para [excluir um anúncio do Meta](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no menu de opções de uma variante e clique em **[!UICONTROL Excluir variante]**.
 
 ### Gerenciar vídeos
 
@@ -145,28 +145,28 @@ Use o painel Aprovações, acessível como um ícone na barra de ação direita 
 
 **Para obter revisões e aprovações**:
 
-1. [Iniciar uma solicitação de aprovação](/help/user-guide/approvals/request-review.md) para solicitar uma [aprovação de experiências de Metadados rascunhados](/help/user-guide/approvals/approve-content.md).
+1. [Iniciar uma solicitação de aprovação](/help/user-guide/approvals/request-review.md) para solicitar uma [aprovação de experiências de anúncio de rascunho do Meta](/help/user-guide/approvals/approve-content.md).
 
    ![Enviar rascunhos para revisão e aprovação](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. [Remover ou adicionar revisores](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante o processo de revisão.
 1. [Acesse o conteúdo para revisão](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) e exiba as solicitações de revisão.
-1. Edite os rascunhos por comentários de revisão e [publique suas experiências de Metadados](#publish-and-export-experience).
+1. Edite os rascunhos por comentários de revisão e [publique suas experiências de anúncio do Meta](#publish-and-export-experience).
 
 Consulte [Revisões e aprovações](/help/user-guide/approvals/overview.md) para obter mais informações.
 
 ## Publicar e exportar experiência
 
-Para disponibilizar os Metadados gerados para uso atual e futuro, publique-os no [!UICONTROL Content] e exporte-os para uso em suas campanhas de marketing.
+Para disponibilizar os anúncios gerados do Meta para uso atual e futuro, publique-os no [!UICONTROL Conteúdo] e exporte-os para uso em suas campanhas de marketing.
 
-1. **Para publicar sua(s) nova(s) experiência(s) de Metadados**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
-1. **Para exportar sua(s) nova(s) experiência(s) de Metadados**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
+1. **Para publicar sua(s) nova(s) experiência(s) de anúncio do Meta**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
+1. **Para exportar sua(s) nova(s) experiência(s) de anúncio do Meta**, clique em **[!UICONTROL Exportar]** na barra de ferramentas superior.
    1. Selecione o formato — HTML e imagens ou CSV e imagens (JPG ou PNG) — clique em **[!UICONTROL Exportar]**.
 
 Consulte [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content) para obter mais informações.
 
-## Conectar Meta
+## Conectar o Meta
 
-É possível conectar o GenStudio for Performance Marketing ao Meta para receber análises e insights avançados sobre o desempenho do conteúdo.
+Você pode conectar o GenStudio for Performance Marketing ao Meta para receber análises e insights avançados sobre o desempenho do conteúdo.
 
-Consulte [Metadados e anúncios conectados](/help/user-guide/connectors/meta-ads.md).
+Consulte [Meta ads connect](/help/user-guide/connectors/meta-ads.md).

@@ -3,7 +3,7 @@ title: Gerenciar ativações
 description: Saiba como gerenciar experiências ativadas com o Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Clique na ativação para abrir uma exibição focalizada dos detalhes da ativa�
 Na exibição _Experiências ativadas_, clique em uma ativação. A exibição somente leitura _Detalhes de ativação_ captura os detalhes de definição de uma experiência ativada, incluindo ativações com falha. Essa visualização inclui informações derivadas do GenStudio for Performance Marketing e do canal de publicidade.
 
 * **Hora e data da publicação**: hora e data da publicação do gerenciador de canal de publicidade
-* **ID do anúncio**: ID atribuída pelo canal pago e usada para rastreamento. Clique no botão **[!UICONTROL Abrir]** adjacente a este campo para exibir o anúncio publicado no Gerenciador de Metadados
+* **ID do anúncio**: ID atribuída pelo canal pago e usada para rastreamento. Clique no botão **[!UICONTROL Abrir]** adjacente a este campo para exibir o anúncio publicado no Meta Ads Manager
 * **Detalhes da experiência**: os ativos de imagem, textos e metadados selecionados atribuídos durante o fluxo de trabalho de ativação do GenStudio for Performance Marketing
 * **Configuração do canal**: as contas de canal pagas usadas para ativar a experiência de anúncio
 

@@ -1,11 +1,11 @@
 ---
-title: Criar modelos acessíveis
+title: Criar Modelos Acessíveis
 description: Crie modelos no Adobe GenStudio for Performance Marketing que sejam capazes de alcançar mais do seu público-alvo e fornecer uma experiência ideal.
 feature: Media Templates
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: 28c128ad6f3d173b7516a6b1309555c12e6a4e2d
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Use fontes fáceis de ler. Por exemplo, as fontes Sans Serif têm uma aparência
 
 Forneça um contraste apropriado entre o texto e o plano de fundo. Evite usar cores de fonte que produzem texto escuro em um plano de fundo escuro e texto claro em um plano de fundo claro. Considere as diretrizes de contraste para obter uma proporção ideal:
 
-- Texto e imagens de texto: taxa de contraste de pelo menos 4.5:1
+- Texto e imagens de texto: taxa de contraste de pelo menos 4,5:1
 - Texto e imagens grandes de texto em grande escala: taxa de contraste de pelo menos 3:1
 
 ## Finalidade do link (somente link)

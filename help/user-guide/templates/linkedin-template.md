@@ -1,12 +1,13 @@
 ---
-title: Diretrizes de modelo do LinkedIn
+title: Diretrizes do modelo do LinkedIn
 description: Siga as práticas recomendadas ao usar modelos do LinkedIn com o Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 85432185-8311-411b-b57b-f482c3d45854
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---

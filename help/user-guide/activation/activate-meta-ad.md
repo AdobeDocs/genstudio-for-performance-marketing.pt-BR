@@ -1,47 +1,47 @@
 ---
-title: Ativar um meta anúncio
-description: Saiba como ativar uma experiência de Metadados.
+title: Ativar um anúncio do Meta
+description: Saiba como ativar uma experiência de anúncio do Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 2d43b1b3373c5ed0b80d9740906d372955816831
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '1907'
 ht-degree: 1%
 
 ---
 
-# Ativar um meta anúncio
+# Ativar um anúncio do Meta
 
-O Adobe GenStudio for Performance Marketing oferece suporte à ativação de experiências de Meta ad para o Instagram e o Facebook.
+O Adobe GenStudio for Performance Marketing oferece suporte à ativação de experiências de anúncios do Meta para o Instagram e o Facebook.
 
-Você pode [criar uma Metaexperiência](/help/user-guide/create/create-meta-ad.md) no GenStudio for Performance Marketing e selecioná-la para ativação ou criar uma nova experiência a partir de ativos aprovados em [!DNL Activate].
+Você pode [criar uma experiência do Meta](/help/user-guide/create/create-meta-ad.md) no GenStudio for Performance Marketing e selecioná-la para ativação ou criar uma nova experiência a partir de ativos aprovados em [!DNL Activate].
 
-A ativação de um Metadado segue as [mesmas etapas gerais](create-activation.md) necessárias para a ativação em outros canais pagos. O processo de ativação permite preparar sua experiência de anúncio para os requisitos específicos do Meta. Depois de ativar uma experiência Meta no GenStudio for Performance Marketing, use o [Gerenciador de Metadados](https://adsmanager.facebook.com/) para ajustar a experiência para inserções específicas de metadados antes da publicação final.
+A ativação de um anúncio Meta segue as [mesmas etapas gerais](create-activation.md) necessárias para a ativação em outros canais pagos. O processo de ativação permite preparar sua experiência de anúncio para os requisitos específicos do Meta. Depois de ativar uma experiência do Meta no GenStudio for Performance Marketing, use o [Meta Ads Manager](https://adsmanager.facebook.com/) para ajustar a experiência para inserções específicas de anúncios do Meta antes da publicação final.
 
 Os gerentes e editores de sistema da GenStudio podem ativar experiências de anúncios.
 
-## Etapa 1: configurar suas contas Meta
+## Etapa 1: configurar as contas do Meta
 
-Antes de iniciar uma ativação, [faça logon no Meta](https://adsmanager.facebook.com/) para acessar sua conta do Gerenciador de Metadados.
+Antes de iniciar uma ativação, [faça logon no Meta](https://adsmanager.facebook.com/) para acessar sua conta do Meta Ads Manager.
 
 >[!BEGINSHADEBOX]
 
 **Pré-requisitos**:
 
-Confirme se suas contas conectadas do MetaAd têm permissão total para gerenciar anúncios nesses componentes da plataforma de publicidade do Meta:
+Confirme se suas contas de anúncio conectadas do Meta têm permissão total para gerenciar anúncios nestes componentes da plataforma de publicidade da Meta:
 
 * Página do Facebook
-* Meta campaign
-* Conjunto de metadados
+* Campanha do Meta
+* Conjunto de anúncios do Meta
 * Perfil do Instagram (opcional)
 
 >[!ENDSHADEBOX]
 
-## Etapa 2: conectar-se às suas contas Meta
+## Etapa 2: conectar-se às contas do Meta
 
-Antes que sua organização possa ativar experiências, um gerente de sistema da GenStudio deve conectar suas contas Meta à GenStudio for Performance Marketing. Essa conexão permite que os dados fluam entre o GenStudio e as ferramentas de marketing externas, como o Meta, permitindo o processo de ativação.
+Antes que sua organização possa ativar experiências, um gerente de sistema da GenStudio deve conectar suas contas da Meta à GenStudio for Performance Marketing. Essa conexão permite que os dados fluam entre o GenStudio e as ferramentas de marketing externas, como o Meta, habilitando o processo de ativação.
 
-Consulte [Conectar-se a Metadados](/help/user-guide/connectors/meta-ads.md).
+Consulte [Conectar-se ao Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
 Após a conclusão da sincronização, você poderá visualizar as contas adicionadas. Grandes quantidades de dados levam mais tempo para sincronizar.
 
@@ -61,13 +61,13 @@ Se você selecionou mais de uma experiência para ativar como grupo, use a barra
 
 1. Use as ferramentas de pesquisa e filtro da galeria [!DNL Content] para identificar a experiência que você deseja ativar e clique em **[!UICONTROL Ativar]**.
 
-   A página Metadados _Configuração de experiência_ é aberta para esta experiência. Ela é pré-preenchida com detalhes da experiência selecionada. Você pode editar os campos **[!UICONTROL Call-to-action]**, **[!UICONTROL URL do site]** e **[!UICONTROL Exibir link]**. Se você selecionar mais de uma experiência para ativar, a exibição _Configuração da experiência_ incluirá uma barra lateral esquerda que exibirá miniaturas de todas as experiências selecionadas. Use esta barra lateral esquerda para focalizar a exibição _Configuração da experiência_ nos detalhes da experiência selecionada.
+   A página _Configuração da experiência_ dos anúncios do Meta é aberta para esta experiência. Ela é pré-preenchida com detalhes da experiência selecionada. Você pode editar os campos **[!UICONTROL Call-to-action]**, **[!UICONTROL URL do site]** e **[!UICONTROL Exibir link]**. Se você selecionar mais de uma experiência para ativar, a exibição _Configuração da experiência_ incluirá uma barra lateral esquerda que exibirá miniaturas de todas as experiências selecionadas. Use esta barra lateral esquerda para focalizar a exibição _Configuração da experiência_ nos detalhes da experiência selecionada.
 
 1. Selecione uma campanha no menu suspenso **[!UICONTROL Campanhas]**.
 
    Se estiver trabalhando com várias experiências, alterne pelas experiências na barra lateral esquerda até concluir a preparação de cada experiência.
 
-1. Clique em **[!UICONTROL Avançar]** para confirmar a configuração de Metadados.
+1. Clique em **[!UICONTROL Avançar]** para confirmar a configuração dos anúncios do Meta.
 
 1. Atribua um nome a cada experiência. Após a ativação, você poderá usar esse nome para procurar essa experiência na tabela _Experiências ativadas_.
 
@@ -92,7 +92,7 @@ Se você optar por não ativar diretamente uma experiência aprovada do [!DNL Co
 
 Use a seção _Mídia_ para selecionar pelo menos um ativo de imagem a ser incluído na sua experiência. Os posicionamentos de anúncios estão associados a proporções de imagem com suporte, que estão listadas como opções no menu suspenso _Posicionamentos_. Esse menu exibe os posicionamentos de anúncios compatíveis com postagens do Facebook ou histórias do Instagram, organizados por taxa de proporção.
 
-Após o carregamento, os ativos são salvos em [!DNL Content]. A área _Mídia_ exibe a imagem por padrão com uma taxa de proporção de 1:1. As taxas de aspecto alternativas incluem apenas os valores compatíveis com o canal de anúncios pagos. Eles são agrupados por orientação vertical e horizontal. O GenStudio for Performance Marketing oferece suporte à inclusão de até seis taxas de aspecto por experiência ativada.
+Após o carregamento, os ativos são salvos em [!DNL Content]. A área _Mídia_ exibe a imagem por padrão com uma proporção de 1:1. As taxas de aspecto alternativas incluem apenas os valores compatíveis com o canal de anúncios pagos. Eles são agrupados por orientação vertical e horizontal. O GenStudio for Performance Marketing oferece suporte à inclusão de até seis taxas de aspecto por experiência ativada.
 
 **Para carregar um ativo do Conteúdo**:
 
@@ -106,13 +106,13 @@ O [!DNL Content] fornece uma exibição central para os ativos e experiências a
 
 1. Clique em **[!UICONTROL Usar]** para incluir o ativo selecionado na sua experiência com anúncios. A janela _Configuração de experiência_ inclui o ativo em sua taxa de proporção padrão na área _Mídia_. O painel _Visualização_ visualiza o ativo no posicionamento do anúncio que dá suporte a essa taxa de proporção.
 
-Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_&#x200B;será aberta.
+Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_será aberta.
 
 **Para carregar um ativo externo**:
 
 Você pode carregar até seis imagens estáticas externas para a galeria [!DNL Content] do Microsoft OneDrive ou do Dropbox.
 
-1. Em [!DNL Activate], clique em **[!UICONTROL Novo]** no bloco Meta. A janela _Configuração da experiência_ é aberta.
+1. Em [!DNL Activate], clique em **[!UICONTROL Novo]** no bloco do Meta. A janela _Configuração da experiência_ é aberta.
 
 1. Na seção _Mídia_, clique em **[!UICONTROL Selecionar]**. Um menu suspenso exibe opções para _Selecionar Conteúdo_ ou _Carregar_.
 
@@ -128,7 +128,7 @@ Você pode carregar até seis imagens estáticas externas para a galeria [!DNL C
 
 ### Adicionar texto de anúncio
 
-Use a seção _Texto_ da página _Ativar Metadado_ para adicionar texto atraente e que siga a marca aos campos de texto necessários. O texto inclui o texto principal (corpo) do anúncio e o texto da frase de chamariz. Você não pode editar os campos _Texto primário_, _Títulos_ e _Descrição_. Você pode editar os campos _Call-to-action_, _Exibir link_ e _URL do site_.
+Use a seção _Texto_ da página _Ativar anúncio do Meta_ para adicionar texto convincente e compatível com a marca aos campos de texto necessários. O texto inclui o texto principal (corpo) do anúncio e do call-to-action. Você não pode editar os campos _Texto primário_, _Títulos_ e _Descrição_. Você pode editar os campos _Call-to-action_, _Exibir link_ e _URL do site_.
 
 | Texto | Obrigatório | Limite de caracteres (máximo) |
 |-----------------|---------------------------|---------------------------------|
@@ -136,7 +136,7 @@ Use a seção _Texto_ da página _Ativar Metadado_ para adicionar texto atraente
 | Texto primário | sim | 500 |
 | Título | sim | 255 |
 | Descrição | não | 125 |
-| Chamada para ação | sim | somente opções do menu suspenso |
+| Call to action | sim | somente opções do menu suspenso |
 | Exibir URL | não | 1000 |
 | URL do site | sim | 1000 |
 | Imagem | é necessário pelo menos um |                                 |
@@ -158,19 +158,19 @@ Os detalhes da experiência são salvos como metadados e ajudam os usuários a p
 | Idioma | Idiomas para os quais a experiência de anúncio é usada |
 | Palavras-chave | Palavras-chave definidas pelo usuário que facilitam a pesquisa e a categorização da experiência de anúncio |
 
-Depois de reunir ou selecionar sua experiência, clique em **[!UICONTROL Avançar]** para confirmar a configuração do Meta.
+Depois de reunir ou selecionar sua experiência, clique em **[!UICONTROL Avançar]** para confirmar a instalação do Meta.
 
-## Etapa 4: Confirmar configuração da conta Meta
+## Etapa 4: confirmar configuração de conta do Meta
 
-Depois de preparar suas experiências de anúncio, você deve confirmar as informações de sua conta Meta. A exibição _Configuração de metadados_ foi preenchida com opções derivadas das contas Meta configuradas.
+Depois de preparar suas experiências de anúncio, você deve confirmar as informações de sua conta do Meta. A exibição _Anúncio do Meta_ é preenchida com opções que são derivadas das contas do Meta configuradas.
 
 | Detalhe | Descrição |
 |------------|-------------|
-| Contas | Metacontas que foram conectadas ao GenStudio for Performance Marketing |
+| Contas | Contas do Meta que foram conectadas ao GenStudio for Performance Marketing |
 | Página do Facebook | Página do Facebook onde a experiência é publicada |
 | Conta do Instagram | Contas do Instagram que foram conectadas ao GenStudio for Performance Marketing |
-| Campanhas | Meta campanhas às quais a experiência de anúncio pertence |
-| Conjuntos de anúncios | Conjuntos de metadados aos quais a experiência de anúncio ativada pertence. As configurações determinam os posicionamentos finais do anúncio. |
+| Campanhas | Campanhas do Meta às quais a experiência de anúncio pertence |
+| Conjuntos de anúncios | Conjuntos de anúncios do Meta aos quais a experiência de anúncio ativada pertence. As configurações determinam os posicionamentos finais do anúncio. |
 
 ### Criar um novo conjunto de anúncios
 
@@ -178,13 +178,13 @@ Você pode criar um novo conjunto de anúncios durante a configuração da plata
 
 **Para criar um novo conjunto de anúncios**:
 
-1. Selecione uma campanha no menu suspenso _Meta campaigns_.
+1. Selecione uma campanha no menu suspenso _Campanhas do Meta_.
 
    A campanha selecionada determina os conjuntos de anúncios disponíveis como opções no menu suspenso _Conjuntos de anúncios_.
 
 1. Clique em **[!UICONTROL + Criar novo conjunto de anúncios]**.
 
-   O pop-up _Criar novo conjunto de anúncios_ é aberto, identificando a Meta campanha na qual o novo conjunto de anúncios é criado.
+   O pop-up _Criar novo conjunto de anúncios_ é aberto, identificando a campanha do Meta em que o novo conjunto de anúncios é criado.
 
 1. Selecione o conjunto de anúncios que deseja clonar no menu suspenso _Usar configuração de_.
 
@@ -194,11 +194,11 @@ Você pode criar um novo conjunto de anúncios durante a configuração da plata
 
 1. Clique em **[!UICONTROL Criar conjunto de anúncios]**.
 
-   Você retornará à exibição _Configuração da plataforma_, na qual o novo conjunto de anúncios é pré-selecionado. Uma mensagem de sucesso é exibida, incluindo um link para o anúncio definido no Gerenciador de meta anúncios. Este conjunto de anúncios está disponível para ativações futuras.
+   Você retornará à exibição _Configuração da plataforma_, na qual o novo conjunto de anúncios é pré-selecionado. Uma mensagem de sucesso é exibida, incluindo um link para o anúncio definido no Meta Ads Manager. Este conjunto de anúncios está disponível para ativações futuras.
 
 >[!NOTE]
 >
->Se o conjunto de anúncios for criado com sucesso, mas o nome do conjunto de anúncios não puder ser salvo, o conjunto de anúncios será salvo no Gerenciador de Metadados com seu nome padrão (_nome do conjunto de anúncios original - Cópia_).
+>Se o conjunto de anúncios for criado com êxito, mas não for possível salvar o nome do conjunto de anúncios, o conjunto de anúncios será salvo no Meta Ads Manager com o nome padrão (_nome do conjunto de anúncios original - Cópia_).
 
 ### ID de rastreamento
 
@@ -214,6 +214,6 @@ A página _Revisão_ exibe sua experiência de anúncio conforme reunido na _Con
 
 1. Clique em **[!UICONTROL Publicar]**.
 
-   A experiência completa do Meta Ads e seus metadados associados são enviados diretamente para o conjunto de anúncios do Gerenciador de metadados selecionado. As experiências são entregues ao Gerenciador de metadados em um estado inativo. No Gerenciador de metadados, é possível gerenciar as etapas finais de implantação da experiência de publicidade e da campanha Meta.
+   A experiência completa de anúncios do Meta e seus metadados associados são enviados diretamente para o conjunto de anúncios selecionado do Meta Ads Manager. As experiências são entregues ao Meta Ads Manager no estado inativo. No Meta Ads Manager, é possível gerenciar as etapas finais da implantação da experiência de anúncio e da campanha do Meta.
 
-1. [Faça logon no Gerenciador de Metadados](https://adsmanager.facebook.com/) para analisar sua experiência de publicidade e finalizar a publicação em canais Meta específicos.
+1. [Faça logon no Meta Ads Manager](https://adsmanager.facebook.com/) para analisar sua experiência com anúncios e finalizar a publicação em canais específicos da Meta.

@@ -1,26 +1,26 @@
 ---
-title: Metadadas experiências
-description: Saiba tudo sobre Meta experiências no Adobe GenStudio for Performance Marketing.
+title: Experiências do Meta
+description: Saiba tudo sobre as experiências do Meta no Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
 
 ---
 
-# Metadadas experiências
+# Experiências do Meta
 
-Com o Adobe GenStudio for Performance Marketing, você pode usar a IA gerativa para simplificar a [criação de Meta experiências](/help/user-guide/create/create-meta-ad.md) de alto impacto. O [!DNL Create] permite que os criadores de conteúdo usem [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt bem montado](/help/user-guide/effective-prompts.md) para [criar experiências de metadados](/help/user-guide/create/create-meta-ad.md) rapidamente.
+Com o Adobe GenStudio for Performance Marketing, você pode usar a IA gerativa para simplificar a [criação de experiências de Meta de alto impacto](/help/user-guide/create/create-meta-ad.md). O [!DNL Create] permite que os criadores de conteúdo usem [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt bem montado](/help/user-guide/effective-prompts.md) para [criar experiências de anúncio do Meta](/help/user-guide/create/create-meta-ad.md) rapidamente.
 
-Ao gerar metaexperiências, quatro variações são criadas e mostradas na Tela. O GenStudio for Performance Marketing oferece suporte a [Metadados de tamanho padrão e personalizado](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+Ao gerar experiências do Meta, quatro variações são criadas e mostradas na Tela. A GenStudio for Performance Marketing oferece suporte a [anúncios Meta de tamanho padrão e personalizado](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
-Ao gerar Meta experiências, quatro variações são criadas e mostradas na Tela.
+Ao gerar experiências do Meta, quatro variações são criadas e mostradas na Tela.
 
-O GenStudio for Performance Marketing oferece suporte a [Metadados de tamanho padrão e personalizado](/help/user-guide/templates/meta-template.md).
+A GenStudio for Performance Marketing oferece suporte a [anúncios Meta de tamanho padrão e personalizado](/help/user-guide/templates/meta-template.md).
 
 As seções editáveis de uma experiência de email incluem:
 
@@ -32,11 +32,11 @@ As seções editáveis de uma experiência de email incluem:
 
 Consulte [Elementos do modelo](/help/user-guide/content/use-templates.md#template-elements).
 
-## Canais de metadados
+## Canais de anúncios do Meta
 
-Ao criar experiências de Meta ad, você pode gerar variantes para canais do Facebook e do Instagram. Alterne entre anúncios do Facebook e do Instagram para visualizar as variantes de cada canal.
+Ao criar experiências de anúncio do Meta, você pode gerar variantes para canais do Facebook e do Instagram. Alterne entre anúncios do Facebook e do Instagram para visualizar as variantes de cada canal.
 
-Consulte [Escolher canal de Metadados](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel).
+Consulte [Escolher canal de anúncios do Meta](/help/user-guide/create/create-meta-ad.md#choose-meta-ads-channel).
 
 ## Carregamento progressivo
 
@@ -44,7 +44,7 @@ Quando o processo de geração de conteúdo é iniciado, cada seção do conteú
 
 Ao clicar em **[!UICONTROL Gerar]**, um indicador de carregamento é exibido na parte inferior da Tela, atualizando você sobre o progresso da geração.
 
-Cada campo e seção das experiências do Metaanúncio são carregados progressivamente nesta sequência:
+Cada campo e seção das experiências de anúncio do Meta é carregado progressivamente nesta sequência:
 
 1. Texto principal para todas as variações
 1. Frases de chamariz e URLs associados
@@ -56,6 +56,6 @@ Cada campo e seção das experiências do Metaanúncio são carregados progressi
 
 ## Contagens de caracteres
 
-Depois de gerar um conjunto de variantes Meta, você pode ver a contagem de caracteres exibida para cada seção. Passe o mouse sobre ou clique em uma seção gerada, como a linha de assunto ou o corpo, e veja o nome da seção e a contagem de caracteres para essa seção.
+Depois de gerar um conjunto de variantes do Meta, você pode ver a contagem de caracteres exibida para cada seção. Passe o mouse sobre ou clique em uma seção gerada, como a linha de assunto ou o corpo, e veja o nome da seção e a contagem de caracteres para essa seção.
 
 ![Contagem de caracteres](/help/assets/character-count.png){width="500" zoomable="yes"}

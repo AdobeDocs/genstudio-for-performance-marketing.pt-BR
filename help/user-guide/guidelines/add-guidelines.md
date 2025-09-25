@@ -5,7 +5,7 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Em _[!DNL Brands]_, qualquer rascunho ou [!DNL Brands] publicado aparece como mo
 
 >[!TIP]
 >
->Para ver apenas as marcas criadas por você, selecione **[!UICONTROL Criado por você]** no filtro [!DNL Brands] (ícone de funil).
+>Para ver apenas as marcas criadas por você, selecione **[!UICONTROL Criado por você]** no filtro [!DNL Brands] (ícone do funnel).
 
 **Para publicar um rascunho da Marca**:
 
@@ -223,7 +223,7 @@ Você pode adicionar detalhes de persona manualmente, em vez de carregar documen
 
 ### Gerenciar [!DNL Personas]
 
-Na página inicial de _[!DNL Personas]_, você pode **abrir um[!DNL Persona]**&#x200B;já criado para editá-lo ou revisá-lo, ou **excluir um**&#x200B;da lista:
+Na página inicial de _[!DNL Personas]_, você pode **abrir um[!DNL Persona]**já criado para editá-lo ou revisá-lo, ou **excluir um**da lista:
 
 - Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Personas] para revisar e revisar um perfil existente.
 - Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Personas] para **Excluir** um perfil.
@@ -291,7 +291,7 @@ Você pode adicionar detalhes do produto manualmente, em vez de carregar documen
 
 ### Gerenciar [!DNL Products]
 
-Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**&#x200B;já criado para editá-lo ou revisá-lo, ou **excluir um produto**&#x200B;da lista:
+Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**já criado para editá-lo ou revisá-lo, ou **excluir um produto**da lista:
 
 - Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Products] para revisar e analisar um produto existente.
 - Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Products] para **Excluir** um produto.

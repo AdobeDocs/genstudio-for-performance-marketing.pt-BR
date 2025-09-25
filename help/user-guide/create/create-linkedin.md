@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Você pode selecionar na lista de modelos personalizados ou escolher um modelo i
 1. Em _[!DNL Create]_, clique em **[!UICONTROL LinkedIn]**.
 1. Selecione **[!UICONTROL Modelos personalizados]** para procurar os modelos carregados ou **[!UICONTROL Modelos iniciais]** para procurar os modelos pré-criados.
 
-   Se você planeja adicionar ativos de vídeo às suas Variantes Meta, é necessário escolher um modelo inicial. Eles são pré-carregados com áreas de conteúdo definidas pelo sistema que facilitam o uso de vídeos.
+   Se você planeja adicionar ativos de vídeo às variantes do Meta, é necessário escolher um modelo inicial. Eles são pré-carregados com áreas de conteúdo definidas pelo sistema que facilitam o uso de vídeos.
 
 1. Clique para selecionar um modelo e clique em **[!UICONTROL Usar]**.
 
@@ -89,7 +89,7 @@ Antes de enviar variantes para aprovação ou publicação para [!DNL Content], 
 
 * **Para [editar o nome do rascunho do anúncio do LinkedIn](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar manualmente um anúncio do LinkedIn](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer uma das seções do anúncio (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
-* **Para alterar ou selecionar o plano de ação**, clique no botão call-to-action e selecione entre as opções de texto de botão disponíveis. Em _Link_, insira uma URL para o texto do call-to-action.
+* **Para alterar ou selecionar o call to action**, clique no botão call-to-action e selecione entre as opções de texto do botão disponíveis. Em _Link_, insira uma URL para o texto do call-to-action.
 * **Para [aplicar a formatação do texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** a uma variante, clique no texto da imagem de uma variante e clique em **[!UICONTROL Formatar texto]**.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt na _[!UICONTROL seção Gerar novo texto_] e clique em **[!UICONTROL Gerar]**.
 * **Para [usar a Expansão Gerativa para dimensionar e ajustar as imagens](/help/user-guide/create/manage-variants.md#use-generative-expand) ao seu modelo de trabalho**, clique em uma imagem, clique em **[!UICONTROL Editar]** (ícone de lápis) e em **[!UICONTROL Expandir]**. Ajuste a imagem para ajustar as proporções de tamanho e o modelo necessários.
@@ -130,13 +130,13 @@ Use o painel Aprovações, acessível na barra de menu superior da Tela, para ob
 
 **Para obter revisões e aprovações**:
 
-1. [Iniciar uma solicitação de aprovação](/help/user-guide/approvals/request-review.md) para solicitar uma [aprovação de experiências de Metadados rascunhados](/help/user-guide/approvals/approve-content.md).
+1. [Iniciar uma solicitação de aprovação](/help/user-guide/approvals/request-review.md) para solicitar uma [aprovação de experiências de anúncio de rascunho do Meta](/help/user-guide/approvals/approve-content.md).
 
    ![Enviar rascunhos para revisão e aprovação](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 
 1. [Remover ou adicionar revisores](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante o processo de revisão.
 1. [Acesse o conteúdo para revisão](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) e exiba as solicitações de revisão.
-1. Edite os rascunhos por comentários de revisão e [publique suas experiências de Metadados](#publish-and-export-experience).
+1. Edite os rascunhos por comentários de revisão e [publique suas experiências de anúncio do Meta](#publish-and-export-experience).
 
 Consulte [Revisões e aprovações](/help/user-guide/approvals/overview.md) para obter mais informações.
 

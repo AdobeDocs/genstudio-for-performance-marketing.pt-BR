@@ -6,7 +6,8 @@ badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portant
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 277731aeea966da3cbd1fdabf015bfab3b907d39
+exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 # Gerar imagens
 
-Com o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel), você pode gerar _[!DNL On-brand images]_&#x200B;ativos gerados que se inspiram em uma imagem escolhida, capturando seu impacto visual e estética geral.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Com o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel), você pode gerar _[!DNL On-brand images]_ativos gerados que se inspiram em uma imagem escolhida, capturando seu impacto visual e estética geral.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Para criar uma imagem atraente e eficiente, é recomendável [adicionar diretrizes ao GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e analisar as [noções básicas sobre como escrever prompts](/help/user-guide/effective-prompts.md).
 
 ## Tipos de imagem
 
-_[!DNL On-brand images]_&#x200B;são ativos gerados que se inspiram em uma imagem escolhida, capturando seu impacto visual e estética geral. Essas imagens são criadas usando imagens já disponíveis no [!DNL Content] e um prompt cuidadosamente criado que orienta o design. Eles seguem estritamente as diretrizes e os parâmetros de marca escolhidos durante o processo de geração.
+_[!DNL On-brand images]_são ativos gerados que se inspiram em uma imagem escolhida, capturando seu impacto visual e estética geral. Essas imagens são criadas usando imagens já disponíveis no [!DNL Content] e um prompt cuidadosamente criado que orienta o design. Eles seguem estritamente as diretrizes e os parâmetros de marca escolhidos durante o processo de geração.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> incorpore diretrizes, parâmetros e um [prompt cuidadosamente preparado](/help/user-guide/effective-prompts.md) para fornecer ativos de imagem atraentes.
 
@@ -104,9 +105,9 @@ Depois de gerar variantes de imagem, você pode editá-las diretamente no Adobe 
 
    Uma janela _Powered by Adobe Express_ é exibida.
 
-1. Execute a edição de imagens, como [recortando uma imagem](https://helpx.adobe.com/br/express/create-and-edit-images/edit-images/crop-images.html), [removendo um objeto](https://helpx.adobe.com/br/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) e aplicando efeitos.
+1. Execute a edição de imagens, como [recortando uma imagem](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [removendo um objeto](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) e aplicando efeitos.
 
-   Consulte a [documentação do Adobe Express](https://helpx.adobe.com/br/express/user-guide.html) para saber como revisar imagens no GenStudio for Performance Marketing com o Adobe Express.
+   Consulte a [documentação do Adobe Express](https://helpx.adobe.com/express/user-guide.html) para saber como revisar imagens no GenStudio for Performance Marketing com o Adobe Express.
 
 1. Clique em _[!UICONTROL Aplicar alterações]_ para salvar suas edições.
 1. Continue editando variantes de imagem individuais conforme desejado e aplicando as alterações para salvar seu progresso.

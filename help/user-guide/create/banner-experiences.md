@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portant
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -28,7 +28,7 @@ As seções editáveis de uma experiência de anúncio de exibição incluem:
 * Título
 * Subtítulo
 * Corpo
-* Chamada para ação (CTA)
+* Call to action (CTA)
 * Imagem
 
 Consulte [Elementos do modelo](/help/user-guide/content/use-templates.md#template-elements).

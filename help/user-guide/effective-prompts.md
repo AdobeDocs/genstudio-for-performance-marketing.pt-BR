@@ -1,11 +1,11 @@
 ---
-title: Gravar prompts efetivos
+title: Gravar Prompts Efetivos
 description: Saiba como escrever prompts efetivos para o Adobe GenStudio for Performance Marketing.
 role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Veja a seguir um exemplo de prompt que articula informações sobre sua intenç�
 Write an email to motivate infrequent users of Photoshop to follow an in-app tutorial that teaches them to combine elements of two photos into a beautiful work of art. Highlight the generative AI capabilities of Photoshop and use references to natural imagery.
 ```
 
-+++Ver resultados de exemplo
++++Ver resultados de amostra
 
 ![três emails gerados](/help/assets/sample-email.png)
 
@@ -43,7 +43,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 No GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), você pode usar **[!UICONTROL Critérios de solicitação]** ([_Parâmetros_](/help/user-guide/create/overview.md#parameters) e um prompt) na gaveta do prompt para adicionar detalhes por meio da seleção para melhorar a interpretação da IA.
 
-Para [emails](/help/user-guide/create/email-experiences.md), os critérios de prompt podem incluir a adição de [diretrizes](/help/user-guide/guidelines/overview.md) em _Parâmetros_, o carregamento de um ativo para usar nas variantes de email e um prompt descritivo. Para um [Meta ad](/help/user-guide/create/create-meta-ad.md), os critérios de prompt podem incluir uma diretriz de marca em _Parâmetros_, a seleção ou o upload de um ativo existente, configurações relacionadas a imagens ou ativos, como proporção, e um prompt. A verdadeira potência começa com [diretrizes de configuração](/help/user-guide/guidelines/add-guidelines.md).
+Para [emails](/help/user-guide/create/email-experiences.md), os critérios de prompt podem incluir a adição de [diretrizes](/help/user-guide/guidelines/overview.md) em _Parâmetros_, o carregamento de um ativo para usar nas variantes de email e um prompt descritivo. Para um [anúncio Meta](/help/user-guide/create/create-meta-ad.md), os critérios de prompt podem incluir uma diretriz de marca em _Parâmetros_, a seleção ou o upload de um ativo existente, configurações relacionadas a imagens ou ativos, como proporção, e um prompt. A verdadeira potência começa com [diretrizes de configuração](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >

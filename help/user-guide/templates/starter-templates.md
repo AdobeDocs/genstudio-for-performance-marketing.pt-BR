@@ -6,9 +6,9 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ A seguir, é feito um resumo dos modelos iniciais disponíveis, seus tipos de m�
 
 ### Modelos de anúncios do LinkedIn
 
-Todas as taxas de proporção são compatíveis com imagens estáticas. Para vídeos, use 9:16 para histórias do LinkedIn e certifique-se de que seu vídeo esteja otimizado para formatos curtos e verticais.
+Todas as taxas de proporção são compatíveis com imagens estáticas. Para vídeo, use o 9:16 para Histórias do LinkedIn e certifique-se de que seu vídeo esteja otimizado para formatos curtos e verticais.
 
 | Taxa de proporção | Orientação | Orientação |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Todas as taxas de proporção são compatíveis com imagens estáticas. Para ví
 | 2:3, 4:5 | Retrato | Adequado para formatos de retrato e ajuda a criatividade a se destacar em dispositivos móveis. |
 | 9:16 | Vertical | Melhor para o LinkedIn Stories (experiência de tela inteira para vídeo). |
 
-### Modelos de meta-anúncios
+### Modelos de anúncio do Meta
 
 Todas as taxas de proporção são suportadas para imagens estáticas e tipos de mídia de vídeo.
 

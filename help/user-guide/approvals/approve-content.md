@@ -3,7 +3,7 @@ title: Aprovar conteúdo
 description: Saiba como aprovar o conteúdo gerado com o Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 1240a608d704a6fe1a99eace97fc0a6029b08f71
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Aprovar conteúdo
 
-Os aprovadores recebem notificações no produto, email e, se ativadas, notificações do Slack quando sua revisão e aprovação são necessárias. As notificações fornecem um link para a Tela que exibe o conteúdo sob revisão. Consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences) para obter informações sobre como gerenciar suas notificações.
+Os aprovadores recebem notificações no produto, email e, se ativadas, notificações do Slack quando sua revisão e aprovação são necessárias. As notificações fornecem um link para a Tela que exibe o conteúdo sob revisão. Consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) para obter informações sobre como gerenciar suas notificações.
 
 Se o rascunho de conteúdo atender aos padrões da sua organização e às suas expectativas, você estará pronto para aprovar o rascunho.
 

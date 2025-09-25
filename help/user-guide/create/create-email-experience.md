@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 12336812e8f4f55935f624ad0a195b5928850c7f
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 * **Para [editar o nome do rascunho do email](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer um dos campos de texto editáveis (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário
-* **Para [alterar ou selecionar o Chamado para ação](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, clique no botão call-to-action e selecione _[!UICONTROL Refrase]_ ou _[!UICONTROL Adicionar link]_.
+* **Para [alterar ou selecionar o Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, clique no botão call-to-action e selecione _[!UICONTROL Refrase]_ ou _[!UICONTROL Adicionar link]_.
 * **Para [aplicar a formatação do texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** a uma variante, clique no texto da imagem de uma variante e clique em **[!UICONTROL Formatar texto]**.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
 * **Para [adicionar ou trocar imagens em uma variante](/help/user-guide/create/manage-variants.md#swap-image)**, clique em um ativo de imagem (ou na área do ativo de imagem, se uma imagem não existir no momento) e clique no ícone **[!UICONTROL Trocar do conteúdo]**.

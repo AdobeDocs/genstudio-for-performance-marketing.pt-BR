@@ -3,7 +3,7 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar variantes
 
-O Adobe GenStudio for Performance Marketing [!DNL Create] permite personalizar e aprimorar as variantes geradas—[emails](/help/user-guide/create/email-experiences.md), [Metadados](/help/user-guide/create/meta-experiences.md) e muito mais — para uso em iniciativas de marketing digital.
+O Adobe GenStudio for Performance Marketing [!DNL Create] permite personalizar e aprimorar as variantes geradas—[emails](/help/user-guide/create/email-experiences.md), [anúncios do Meta](/help/user-guide/create/meta-experiences.md) e muito mais — para uso em iniciativas de marketing digital.
 
 Ao [criar experiências](/help/user-guide/create/overview.md), você pode modificar o conteúdo e os ativos das variantes geradas individualmente ou em lote. A capacidade de gerenciar variantes em nível micro individual permite gerenciar cada parte do conteúdo gerado.
 
@@ -20,7 +20,7 @@ Ao [criar experiências](/help/user-guide/create/overview.md), você pode modifi
 
 Os rascunhos de variante gerados têm um nome padrão mostrado na parte superior da Tela. Os nomes de rascunho padrão usam a seguinte convenção que inclui o tipo de canal, a data e a hora de geração.
 
-*Exemplo*: &quot;Meta: Rascunho Sem Título - 09.5.24, 9:56 AM&quot;
+*Exemplo*: &quot;Meta: Rascunho sem Título - 09.5.24, 9:56 AM&quot;
 
 **Para alterar o nome padrão**:
 
@@ -41,7 +41,7 @@ A formatação de texto disponível inclui:
 * Tamanho do texto
 * Link
 
-As opções de formatação de texto variam de acordo com o canal (meta, email etc.)
+As opções de formatação de texto variam de acordo com o canal (Meta, email, etc.)
 
 **Para editar o texto manualmente nas variantes geradas**:
 
@@ -69,7 +69,7 @@ As opções de formatação de texto variam de acordo com o canal (meta, email e
 
 O GenStudio for Performance Marketing tem a funcionalidade integrada para regenerar seções de variantes geradas. Você pode reformular a frase, encurtar ou aumentar o texto ou adicionar novos prompts para gerar novo conteúdo.
 
-Por exemplo, você pode gerar novamente a seção de título de uma variante do Meta Ad para ver sua aparência com um ativo de plano de fundo específico. Você pode _[!UICONTROL Reformular]_, _[!UICONTROL Encurtar]_ ou _[!UICONTROL Ampliar]_ o conteúdo de uma seção ou _[!UICONTROL Gerar novo texto]_ para adicionar um novo prompt.
+Por exemplo, você pode gerar novamente a seção de título de uma variante de anúncio do Meta para ver sua aparência com um ativo de plano de fundo específico. Você pode _[!UICONTROL Reformular]_, _[!UICONTROL Encurtar]_ ou _[!UICONTROL Ampliar]_ o conteúdo de uma seção ou _[!UICONTROL Gerar novo texto]_ para adicionar um novo prompt.
 
 ![Gerar seções novamente](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Você pode cortar e reposicionar manualmente os ativos de imagem em variantes ge
 
 ## Usar expansão gerativa
 
-Expanda as dimensões das suas imagens e adicione conteúdo gerativo com Expansão gerativa. Generative Expand permite transformar imagens mal ajustadas na proporção mais adequada para modelos de Banners, Meta ads, anúncios do LinkedIn ou anúncios de exibição.
+Expanda as dimensões das suas imagens e adicione conteúdo gerativo com Expansão gerativa. A Expansão gerativa permite transformar imagens ajustadas na proporção mais adequada para modelos de Banners, Meta ads, anúncios do LinkedIn ou anúncios de exibição.
 
 Esse recurso de expansão gerativa é combinado com a ferramenta Corte Demarcado para fornecer controle total dos ativos em uma variedade de taxas de aspecto para canais de mídia pagos.
 
@@ -162,13 +162,13 @@ Esse recurso de expansão gerativa é combinado com a ferramenta Corte Demarcado
 
 ## Alterar taxa de proporção
 
-Você pode alterar rapidamente a [proporção de Meta ads](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada de 1:1 pode cortar as laterais, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
+Você pode alterar rapidamente a [proporção dos anúncios do Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada de 1:1 pode cortar as laterais, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
 
 >[!NOTE]
 >
 >É possível que proporções e tamanhos variados estejam disponíveis com base nos modelos disponíveis.
 
-**Para alterar a proporção de metadados gerados**:
+**Para alterar a taxa de proporção dos anúncios gerados do Meta**:
 
 1. Depois de gerar um conjunto de variantes, clique em **[!UICONTROL Redimensionamento da taxa de proporção]** (seta apontando para o canto da caixa) no lado esquerdo da Tela de Pintura.
 
@@ -196,7 +196,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 
