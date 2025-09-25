@@ -106,7 +106,7 @@ O [!DNL Content] fornece uma exibição central para os ativos e experiências a
 
 1. Clique em **[!UICONTROL Usar]** para incluir o ativo selecionado na sua experiência com anúncios. A janela _Configuração de experiência_ inclui o ativo em sua taxa de proporção padrão na área _Mídia_. O painel _Visualização_ visualiza o ativo no posicionamento do anúncio que dá suporte a essa taxa de proporção.
 
-Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_será aberta.
+Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_&#x200B;será aberta.
 
 **Para carregar um ativo externo**:
 

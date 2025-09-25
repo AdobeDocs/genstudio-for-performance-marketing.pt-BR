@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Gerar imagens
 
-Com o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel), você pode gerar _[!DNL On-brand images]_ativos gerados que se inspiram em uma imagem escolhida, capturando seu impacto visual e estética geral.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
+Com o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel), você pode gerar _[!DNL On-brand images]_&#x200B;ativos gerados que se inspiram em uma imagem escolhida, capturando seu impacto visual e estética geral.<!-- [two types of images](#image-types) using GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (paintbrush icon)—_[!DNL On-brand images]_ and _[!DNL Similar images]_. -->
 
 Para criar uma imagem atraente e eficiente, é recomendável [adicionar diretrizes ao GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) e analisar as [noções básicas sobre como escrever prompts](/help/user-guide/effective-prompts.md).
 
 ## Tipos de imagem
 
-_[!DNL On-brand images]_são ativos gerados que se inspiram em uma imagem escolhida, capturando seu impacto visual e estética geral. Essas imagens são criadas usando imagens já disponíveis no [!DNL Content] e um prompt cuidadosamente criado que orienta o design. Eles seguem estritamente as diretrizes e os parâmetros de marca escolhidos durante o processo de geração.
+_[!DNL On-brand images]_&#x200B;são ativos gerados que se inspiram em uma imagem escolhida, capturando seu impacto visual e estética geral. Essas imagens são criadas usando imagens já disponíveis no [!DNL Content] e um prompt cuidadosamente criado que orienta o design. Eles seguem estritamente as diretrizes e os parâmetros de marca escolhidos durante o processo de geração.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> incorpore diretrizes, parâmetros e um [prompt cuidadosamente preparado](/help/user-guide/effective-prompts.md) para fornecer ativos de imagem atraentes.
 
