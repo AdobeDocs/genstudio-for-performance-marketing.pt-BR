@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Integração do Workfront Proof com o GenStudio for Performance Marketing
 
-A integração com o Workfront Proof aprimora o ciclo de vida de revisão e aprovação do GenStudio for Performance Marketing com recursos avançados, incluindo modelos de aprovação, fluxos de trabalho de vários estágios e a capacidade de [comparar versões de prova](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Esse controle de versão estruturado garante transparência, responsabilidade e colaboração simplificada por todo o ciclo de vida da análise do conteúdo.
+A integração com o Workfront Proof aprimora o ciclo de vida de revisão e aprovação do GenStudio for Performance Marketing com recursos avançados, incluindo modelos de aprovação, fluxos de trabalho de vários estágios e a capacidade de [comparar versões de prova](https://experienceleague.adobe.com/pt-br/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Esse controle de versão estruturado garante transparência, responsabilidade e colaboração simplificada por todo o ciclo de vida da análise do conteúdo.
 
 >[!BEGINSHADEBOX]
 
 **Pré-requisitos**:
 
-Instalar a [extensão do Adobe Workfront Web Viewer](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+Instalar a [extensão do Adobe Workfront Web Viewer](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ A tabela abaixo compara os recursos padrão de revisão e aprovação do GenStud
 
 ### Licenças e funções de usuário
 
-As licenças identificam o conjunto de direitos do usuário em um produto. O Workfront Proof fornece mais tipos de licença ou funções de usuário do que o GenStudio for Performance Marketing. [Visão geral das funções de prova](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) apresenta as funções de usuário associadas ao fluxo de trabalho de revisão e aprovação do Workfront Proof.
+As licenças identificam o conjunto de direitos do usuário em um produto. O Workfront Proof fornece mais tipos de licença ou funções de usuário do que o GenStudio for Performance Marketing. [Visão geral das funções de prova](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) apresenta as funções de usuário associadas ao fluxo de trabalho de revisão e aprovação do Workfront Proof.
 
 | Licença do GenStudio for Performance Marketing       | Licença do Workfront                 | Descrição                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Os administradores de sistema da Adobe gerenciam o provisionamento de usuários 
 
 >[!NOTE]
 >
-> A Workfront Proof fornece [funções de usuário adicionais](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). Nem todas as funções estão visíveis no Marketing de desempenho. No entanto, o sistema respeita qualquer função definida em um modelo do Workfront Proof.
+> A Workfront Proof fornece [funções de usuário adicionais](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). Nem todas as funções estão visíveis no Marketing de desempenho. No entanto, o sistema respeita qualquer função definida em um modelo do Workfront Proof.
 
 ### Rascunhos e provas
 
@@ -79,9 +79,9 @@ Os modelos de aprovação são compatíveis com aprovações em vários estágio
 
 Os revisores podem clicar diretamente em áreas específicas da prova para deixar comentários precisos e contextuais. Todos os comentários recebem carimbo de data e hora e são salvos como parte do histórico de versões da prova. O histórico de comentários não está disponível no GenStudio for Performance Marketing.
 
-Você pode [comparar duas versões de uma prova](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) para avaliar comentários de revisão e conteúdo.
+Você pode [comparar duas versões de uma prova](https://experienceleague.adobe.com/pt-br/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) para avaliar comentários de revisão e conteúdo.
 
 ## Notificações e lembretes
 
 Revisores e aprovadores recebem notificações por email quando uma nova prova está disponível para revisão ou quando uma revisão em andamento mudou o status.
-[Notificações e lembretes de prova](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) incluem um link personalizado para a prova, detalhes sobre a prova e seu progresso pelo processo de aprovação e informações sobre controle de versão.
+[Notificações e lembretes de prova](https://experienceleague.adobe.com/pt-br/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) incluem um link personalizado para a prova, detalhes sobre a prova e seu progresso pelo processo de aprovação e informações sobre controle de versão.

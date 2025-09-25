@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Aprovar conteúdo
 
-Os aprovadores recebem notificações no produto, email e, se ativadas, notificações do Slack quando sua revisão e aprovação são necessárias. As notificações fornecem um link para a Tela que exibe o conteúdo sob revisão. Consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) para obter informações sobre como gerenciar suas notificações.
+Os aprovadores recebem notificações no produto, email e, se ativadas, notificações do Slack quando sua revisão e aprovação são necessárias. As notificações fornecem um link para a Tela que exibe o conteúdo sob revisão. Consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences) para obter informações sobre como gerenciar suas notificações.
 
 Se o rascunho de conteúdo atender aos padrões da sua organização e às suas expectativas, você estará pronto para aprovar o rascunho.
 
