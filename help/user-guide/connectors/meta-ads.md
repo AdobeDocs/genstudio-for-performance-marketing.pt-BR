@@ -6,9 +6,9 @@ role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: 40c7d2d40f1c4bea9794e706d8e1ce7bf92042e3
+source-git-commit: dce3d9bbf3ed2d26872b324c04ab7e78bbb034dc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,15 @@ Esta página explica como conectar e gerenciar a conta de perfil do Meta Ads com
 
 **Pré-requisitos**:
 
-- Logon do Facebook/Meta que pode acessar todos os serviços da Meta
-
+- Um logon do Facebook/Meta que pode acessar todos os serviços da Meta
 - _Controle total_ sobre o Meta Business Portfolio e contas de anúncios, incluindo:
-
    - Gerenciar campanhas
    - Exibir desempenho
    - Gerenciar modelos de hub do Creative
    - Análises avançadas
-
 - Desative qualquer bloqueador de pop-up no navegador
+- Verifique quaisquer associações de página de conta do Instagram no Meta Business Manager antes de tentar uma conexão
+- Confirmar o acesso de administrador a todos os ativos que estão sendo conectados
 
 >[!ENDSHADEBOX]
 
@@ -69,6 +68,16 @@ Esta página explica como conectar e gerenciar a conta de perfil do Meta Ads com
 
 Use **[!UICONTROL Adicionar conta]** para adicionar mais contas à lista. O fluxo de autorização pode ser um pouco diferente quando você adiciona contas vinculadas ao mesmo perfil do Meta Business. Você seleciona somente as novas contas do Meta Ads durante o processo de conexão.
 
+## Práticas recomendadas de conexão
+
+Para evitar erros, considere estas práticas recomendadas ao configurar conexões:
+
+- [ ] Comece com uma seleção mínima de ativos (apenas uma página) para a conexão inicial
+- [ ] Adicione contas do Instagram somente depois de confirmar que o acesso à página funciona
+- [ ] Verifique se as contas do Instagram estão associadas corretamente à página do Facebook selecionada no Meta Business Manager
+- [ ] Use uma abordagem em fases: primeiro estabeleça a conexão básica e depois expanda os ativos
+- [ ] Verifique as permissões de administrador para todos os ativos antes de tentar a conexão
+
 ## Desconectar e solucionar problemas de uma integração do Meta Ads
 
 Às vezes, uma instância do GenStudio for Performance Marketing é conectada incorretamente a uma conta do Meta Ads. As configurações comuns que podem causar problemas incluem:
@@ -91,3 +100,24 @@ Essas etapas limpam as permissões em cache e redefinem o fluxo de integração:
 1. Confirme a remoção quando solicitado.
 
 Agora você pode reconectar suas contas de anúncio do Meta, perfis do Instagram e páginas do Facebook.
+
+## Problemas de conexão com a conta do Instagram
+
+Problemas podem ocorrer quando contas do Instagram são selecionadas sem conectar uma página do Facebook associada durante a configuração da conexão. Isso pode causar erros como:
+
+- &quot;Não foi possível conectar a {Page_Name}&quot; ou falhas de conexão genéricas.
+- Tempos limite da conexão durante o logon do Facebook para o fluxo comercial.
+- Falhas silenciosas quando vários ativos são selecionados.
+- A conexão falha ao selecionar o Instagram, a Página e a Conta de anúncio simultaneamente.
+
+### Etapas de resolução:
+
+1. Navegue até [Meta Business Manager](https://business.facebook.com) > Integrações > Aplicativos conectados.
+1. Remova a integração &quot;Adobe GenStudio&quot; existente, se houver uma. Clique em **Remover**.
+1. Retorne ao GenStudio e tente executar o processo de conexão novamente.
+1. Selecione SOMENTE a página do Facebook de destino durante a conexão inicial.
+1. NÃO selecione a conta do Instagram durante a primeira tentativa de conexão.
+1. Verifique se a conexão foi bem-sucedida antes de adicionar outros ativos.
+1. Quando a conexão de Page estiver estável, adicione contas do Instagram separadamente.
+
+
