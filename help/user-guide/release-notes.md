@@ -4,7 +4,7 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a294111abbe89030a7095458c4b08de18722230f
+source-git-commit: 015f2f14edfb05cab11a66a8e5bc9b357f2e3ab9
 workflow-type: tm+mt
 source-wordcount: '3763'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2025.10.26 {#latest}
+## 2025.10.16 {#latest}
 
-### Novos plug-ins do GenStudio para Photoshop e Figma
+### Novos plug-ins do GenStudio para o Photoshop e o Figma
 
 * Crie anúncios personalizados e sob marca diretamente usando os novos Plug-ins da GenStudio para as ferramentas de design do Adobe Photoshop e do Figma.
 
