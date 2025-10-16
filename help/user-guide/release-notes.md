@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
+source-git-commit: a294111abbe89030a7095458c4b08de18722230f
 workflow-type: tm+mt
-source-wordcount: '3502'
+source-wordcount: '3763'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,54 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2025.09.11 {#latest}
+## 2025.10.26 {#latest}
+
+### Novos plug-ins do GenStudio para Photoshop e Figma
+
+* Crie anúncios personalizados e sob marca diretamente usando os novos Plug-ins da GenStudio para as ferramentas de design do Adobe Photoshop e do Figma.
+
+### Recursos de vídeo expandidos
+
+* Agora, os profissionais de marketing podem adicionar facilmente clipes de introdução e de encerramento para enquadrar anúncios de vídeo com marcas ou mensagens pré-produzidas.
+* Adicionar sobreposições de imagem, texto e logotipo durante todo o vídeo
+
+### Insights estendidos para o LinkedIn, o Meta e o TikTok
+
+* O GenStudio Insights agora inclui relatórios de desempenho do LinkedIn Ads, permitindo que os profissionais de marketing visualizem e analisem o desempenho de suas campanhas e anúncios diretamente na plataforma para:
+   * Anúncios do LinkedIn
+   * Anúncios do Meta
+   * Anúncios do TikTok
+
+### Ativação do Amazon Ads
+
+* O GenStudio agora oferece suporte à ativação de Anúncios de exibição diretamente na Plataforma de anúncios da Amazon.
+
+### Ativação do Flashtalk
+
+* O GenStudio agora oferece suporte à ativação de Anúncios de exibição diretamente na Plataforma de veiculação de anúncios Flashtalk (Innovid).
+* Os usuários devem configurar manualmente o token da API do Flashtalk em coordenação com a equipe de Ativação de engenharia. A configuração do token de autoatendimento será adicionada em uma versão futura.
+
+### Integração com o Adobe Campaign V8
+
+* O GenStudio for Performance Marketing agora se integra ao Adobe Campaign V8, permitindo que os profissionais de marketing aproveitem perfeitamente a criação de conteúdo alimentado por IA juntamente com os recursos avançados de orquestração do Campaign.
+
+### Reprodução automática de vídeo
+
+* Os vídeos agora são reproduzidos automaticamente nos módulos [!DNL Create], [!DNL Content] e [!DNL Insights], fornecendo experiências de visualização perfeitas.
+
+### Importação de modelo de email de terceiros
+
+* O GenStudio for Performance Marketing agora oferece suporte à integração perfeita com sistemas de design de email de terceiros por meio de uma estrutura de extensibilidade. Os principais recursos incluem:
+
+   * Importar automaticamente modelos de sistemas de design de email de terceiros durante a criação do conteúdo
+   * Traga os metadados do modelo junto com os modelos importados
+   * Mantenha uma única fonte de verdade conectando-se diretamente a sistemas de terceiros
+   * SDK e aplicativo de amostra fornecidos para criação de integrações personalizadas
+
+
+## Notas de versão anteriores
+
++++Notas de 2025.09.11
 
 ### Nova funcionalidade generativa de IA de expansão para mídia paga
 
@@ -23,7 +70,7 @@ O novo recurso GenExpand permite que os profissionais de marketing adaptem dinam
 
 Esse recurso simplifica o processo de edição e redimensionamento de imagens diretamente no GenStudio for Performance Marketing. Consulte [Recursos de IA de expansão de geração](/help/user-guide/create/manage-variants.md#use-generative-expand) para obter informações detalhadas.
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2025.08.15
 
@@ -101,11 +148,11 @@ Adicione rótulos de acessibilidade (rótulos Aria) a imagens e links do call-to
 
 O novo menu suspenso Seletor de idioma na gaveta de prompts é compatível com a criação de conteúdo multilíngue, permitindo que os profissionais de marketing regionais desenvolvam conteúdo na marca para seus públicos locais. Atualmente, esse recurso é compatível com 12 idiomas GA e 5 idiomas Beta, com a lista de idiomas fornecendo um fluxo de trabalho definido e uma diretiva de idioma clara para o LLM para saídas mais consistentes.
 
-### Seleção opcional de modelo para meta anúncios
+### Seleção opcional de modelo para anúncios do Meta
 
 [!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
 
-A seleção de modelos agora é opcional com Meta anúncios, permitindo que os usuários criem anúncios sem exigir texto e logotipo na parte superior da mídia. Esse aprimoramento permite outros tipos de mídia, como GIFs animados e vídeos que podem não exigir sobreposições de texto ou posicionamento de logotipo.
+A seleção de modelos agora é opcional com o Meta ads, permitindo que os usuários criem anúncios sem exigir texto e logotipo na parte superior da mídia. Esse aprimoramento permite outros tipos de mídia, como GIFs animados e vídeos que podem não exigir sobreposições de texto ou posicionamento de logotipo.
 
 +++
 
@@ -175,7 +222,7 @@ Juntamente com o conteúdo da imagem, agora é possível adicionar vídeos ao [L
 
 ### Ativar meta anúncios
 
-Agora os profissionais de marketing podem [publicar experiências de anúncios](/help/user-guide/activation/overview.md) do GenStudio for Performance Marketing no Gerenciador de metadados. [!DNL Activate] dá suporte a visualizações detalhadas de Metadados antes da implantação. Os meta anúncios publicados por meio do [!DNL Activate] são automaticamente puxados para o [!DNL Insights] assim que estiverem online, permitindo que os usuários acompanhem e relatem o desempenho do anúncio.
+Agora os profissionais de marketing podem [publicar experiências de anúncios](/help/user-guide/activation/overview.md) do GenStudio for Performance Marketing no Gerenciador de metadados. [!DNL Activate] dá suporte a visualizações detalhadas de Metadados antes da implantação. Os anúncios do Meta publicados por meio do [!DNL Activate] são automaticamente enviados para o [!DNL Insights] uma vez ao vivo, permitindo que os usuários acompanhem e relatem o desempenho do anúncio.
 
 ### Criar experiências do LinkedIn
 
@@ -292,7 +339,7 @@ Os editores agora podem especificar valores personalizados para esses aspectos d
 
 As opções de exportação agora incluem:
 
-* Exporte anúncios de exibição e Metadados como HTML, JPEG ou PNG. Consulte [Criar uma experiência de anúncio de exibição](/help/user-guide/create/create-display-ad.md) e [Criar uma experiência de meta anúncio](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
+* Exportar anúncios de exibição e anúncios do Meta como HTML, JPEG ou PNG. Consulte [Criar uma experiência de anúncio de exibição](/help/user-guide/create/create-display-ad.md) e [Criar uma experiência de meta anúncio](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
 
 Novos recursos adicionais permitem aos editores:
 
@@ -320,7 +367,7 @@ Novos recursos adicionais permitem aos editores:
 
 * Agora, os editores podem selecionar até quatro imagens ao criar um anúncio de exibição. <!-- GS-7189 -->
 
-* Agora os rascunhos de anúncio de exibição e Meta ad são carregados conforme esperado quando redimensionados em um navegador diferente. <!-- GS-7204 -->
+* Exibir rascunhos de anúncios de anúncio e de anúncios do Meta agora são carregados conforme esperado quando redimensionados em um navegador diferente. <!-- GS-7204 -->
 
 * Os campos de modelo não utilizados não são mais exibidos no conteúdo gerado.  <!-- GS-5670 -->
 
@@ -338,7 +385,7 @@ Novos recursos adicionais permitem aos editores:
 
 * Os editores agora veem uma mensagem de erro como esperado quando um rascunho não é carregado na área [!DNL Create] _Trabalho recente_.  <!-- GS-8081 -->
 
-* Agora a Tela de Pintura exibe metadados redimensionados e anúncios exibidos na ordem correta.  <!-- GS-7375 -->
+* A Tela agora exibe anúncios redimensionados do Meta e anúncios exibidos na ordem correta.  <!-- GS-7375 -->
 
 * Agora, os editores podem clicar uma vez nos campos de email e exibir anúncios. <!-- GS-6297 -->
 
@@ -400,7 +447,7 @@ Esta versão inclui melhorias na localização em toda a interface do usuário, 
 
 * A gaveta do prompt [!DNL Create] agora fecha conforme esperado quando um usuário clica. <!-- GS-5254 -->
 
-* A exportação de metadados agora inclui o rótulo call-to-action selecionado, conforme esperado. <!-- GS-6504 -->
+* A exportação de anúncios do Meta agora inclui o rótulo call-to-action selecionado, conforme esperado. <!-- GS-6504 -->
 
 * A pontuação da marca agora é atualizada e mantida conforme esperado para experiências regeneradas. <!-- GS-6535 -->
 
@@ -418,7 +465,7 @@ Esta versão inclui melhorias na localização em toda a interface do usuário, 
 
 * A regeneração de fragmentos agora funciona conforme esperado em experiências redimensionadas. <!-- GS-6836 -->
 
-* Gerar novamente as imagens do Metadado após redimensioná-las não resulta mais em um erro. Anteriormente, o redimensionamento de imagens antes da regeneração alterava os metadados do canal de `meta` para `facebook`. <!-- GS-7042 -->
+* A regeneração de imagens de anúncios do Meta depois de redimensioná-las não resulta mais em um erro. Anteriormente, o redimensionamento de imagens antes da regeneração alterava os metadados do canal de `meta` para `facebook`. <!-- GS-7042 -->
 
 +++
 
