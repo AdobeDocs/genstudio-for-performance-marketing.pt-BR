@@ -2,7 +2,7 @@
 title: GenStudio Experience Seletor MFE
 description: Entenda e implemente o Experience Seletor Micro FrontEnd para seus aplicativos e complementos do GenStudio.
 feature: Extensibility, Extensions, Experiences
-source-git-commit: d6e580763d85df6d9d295d4e87501af4b022f57b
+source-git-commit: d9d6d3825cd953245049de119c66f54274f20fd9
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 6%
@@ -107,15 +107,15 @@ O objeto `susiConfig` pode incluir:
 
 Este repositório inclui exemplos de trabalho para estruturas diferentes:
 
-- [Um aplicativo React completo demonstrando integração com o sistema de compilação Vite](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js).
+- [Um **aplicativo React completo** demonstrando integração com o sistema de compilação Vite](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js).
 
-- [Um aplicativo do Vue 3 com integração de API de composição](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js).
+- [Um **aplicativo do Vue 3** com integração de API de Composição](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js).
 
-- [Duas implementações básicas do JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
+- [Duas **implementações do Vanilla JavaScript**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
 
-- [Esta versão do Vanilla ESM usa módulos ES6 e o JavaScript moderno](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
+   - [Esta versão **Vanilla ESM** usa módulos ES6 e o JavaScript moderno](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
 
-- [Esta versão de UMD Vanilla usa o pacote UMD carregado pela marca de script &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
+   - [Esta versão **Vanilla UMD** usa o pacote UMD carregado pela marca de script](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
 
 ## Fluxo de autenticação
 
