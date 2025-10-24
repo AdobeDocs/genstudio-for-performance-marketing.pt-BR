@@ -5,9 +5,9 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
+source-git-commit: 48dae1e6ce14a7dc1f2cc5fbad60eefebe99bf4e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 18%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 18%
    + Contas de mídia paga {#connect-account}
       + [Google Campaign Manager 360](connectors/google-cm360.md)
       + [LinkedIn](connectors/linkedin-ads.md)
-      + [Metaanúncios](connectors/meta-ads.md)
+      + [Anúncios do Meta](connectors/meta-ads.md)
 + Diretrizes {#guidelines}
    + [Visão geral das diretrizes](guidelines/overview.md)
    + [Marcas](guidelines/brands.md)
@@ -40,13 +40,13 @@ ht-degree: 18%
 + Criar {#create}
    + [[!DNL Create] visão geral](create/overview.md)
    + [Experiências de email](create/email-experiences.md)
-   + [Metadadas experiências](create/meta-experiences.md)
+   + [Experiências do Meta](create/meta-experiences.md)
    + [Experiências do LinkedIn](create/linkedin-experiences.md)
    + [Exibir experiências de anúncio](create/display-ad-experiences.md)
    + [Experiências com o banner](create/banner-experiences.md)
    + [Gerenciar variantes](create/manage-variants.md)
    + [Criar uma experiência de email](create/create-email-experience.md)
-   + [Criar uma experiência de meta-anúncio](create/create-meta-ad.md)
+   + [Criar uma experiência de anúncio do Meta](create/create-meta-ad.md)
    + [Criar uma experiência do LinkedIn](create/create-linkedin.md)
    + [Criar uma experiência de anúncio de exibição](create/create-display-ad.md)
    + [Criar uma experiência de banner](create/create-banner-experience.md)
@@ -63,6 +63,7 @@ ht-degree: 18%
    + [Gerenciar ativos e experiências](content/manage-assets.md)
    + [Conectar um repositório do AEM](content/connect-aem-repo.md)
    + [Detalhes do ativo](content/asset-details.md)
+   + [Content Credentials](content/content-credentials.md)
 + Modelos {#templates}
    + [Trabalhar com modelos](content/use-templates.md)
    + [Modelos iniciais](templates/starter-templates.md)
@@ -74,7 +75,7 @@ ht-degree: 18%
       + [Guia de exibição de anúncios](templates/display-template.md)
       + [Guia de email](templates/email-template.md)
       + [Guia de anúncios do LinkedIn](templates/linkedin-template.md)
-      + [Guia de metadados](templates/meta-template.md)
+      + [guia de anúncios do Meta](templates/meta-template.md)
 + Campanhas {#campaigns}
    + [Visão geral das campanhas](campaigns/overview.md)
    + [Criar campanhas](campaigns/create-campaign.md)
