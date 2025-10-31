@@ -3,7 +3,7 @@ title: Content Credentials para organizações
 description: Saiba como aplicar e revisar o Content Credentials no GenStudio for Performance Marketing.
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
+source-git-commit: 488bc7d7b7447ee6e807dd91f83766844c24abb9
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Os administradores são responsáveis por fazer upload de um certificado X.509 v
 
 ## O que são Content Credentials? 
 
-Content Credentials são um tipo de metadados durável e padrão do setor, com detalhes sobre como o conteúdo foi feito e informações de identidade sobre os criadores. O Content Credentials pode ser visualizado quando o conteúdo é publicado online em plataformas de suporte ou usando ferramentas como a [ferramenta Inspect da Adobe](https://contentauthenticity.adobe.com/inspect) ou a [extensão de navegador Adobe Content Authenticity Chrome](https://helpx.adobe.com/br/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials são um tipo de metadados durável e padrão do setor, com detalhes sobre como o conteúdo foi feito e informações de identidade sobre os criadores. O Content Credentials pode ser visualizado quando o conteúdo é publicado online em plataformas de suporte ou usando ferramentas como a [ferramenta Inspect da Adobe](https://contentauthenticity.adobe.com/inspect) ou a [extensão de navegador Adobe Content Authenticity Chrome](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 A aplicação do Content Credentials pode ajudar a aumentar a transparência sobre como o conteúdo foi feito e pode ajudar seus usuários a se conectarem ao conteúdo.
 
-[Saiba mais sobre o Content Credentials](https://helpx.adobe.com/br/creative-cloud/help/content-credentials.html) na Adobe.
+[Saiba mais sobre o Content Credentials](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) na Adobe.
 
 ## Assinatura da marca e rastreamento de ativos
 
@@ -61,7 +61,7 @@ Selecionar conteúdo assinado exibe os metadados detalhados: marca publicada, gr
 
 O conteúdo pode ser filtrado por status da credencial.
 
-![Dados de credencial em um ativo](./images/import-discovery2.png)
+![Dados de credencial em um ativo](./images/import-discovery2.jpg)
 
 ### Criação e seleção
 
