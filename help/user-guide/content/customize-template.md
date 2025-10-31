@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
+source-git-commit: 730e8f89f466ab457670cefe98833f5f4732636c
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 0%
@@ -43,21 +43,21 @@ A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Perfor
 | Texto | Função | Modelo de canal |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Pré-cabeçalho | email |
-| `{{headline}}` | Título | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
+| `{{headline}}` | Título | email <br>Anúncio do Meta <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
 | `{{sub_headline}}` | Subtítulo | email<br>Banner e Anúncio de exibição |
 | `{{introductory_text}}` | Texto introdutório | Anúncio do LinkedIn |
-| `{{body}}` | Corpo do texto | email <br>Meta-anúncio <br>Banner e Anúncio de exibição |
-| `{{cta}}` | Call to action<br>Consulte [Chamadas para ação](#calls-to-action) | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
-| `{{image}}` | Imagem — selecione de [!DNL Content] | email <br>Meta-anúncio <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
-| `{{on_image_text}}` | No texto da imagem<br>Consulte [No texto da imagem](#on-image-text). | Metadado <br>Anúncio do LinkedIn |
-| `{{link}}` | Chamada para ação na imagem<br>Consulte [Link na imagem](#link-on-image). | email |
+| `{{body}}` | Corpo do texto | email <br>Anúncio do Meta <br>Banner e Anúncio de exibição |
+| `{{cta}}` | Call to action<br>Consulte [Chamadas para ação](#calls-to-action) | email <br>Anúncio do Meta <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
+| `{{image}}` | Imagem — selecione de [!DNL Content] | email <br>Anúncio do Meta <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
+| `{{on_image_text}}` | No texto da imagem<br>Consulte [No texto da imagem](#on-image-text). | Anúncio do Meta <br>LinkedIn |
+| `{{link}}` | Call to action na imagem<br>Consulte [Link na imagem](#link-on-image). | email |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
 O GenStudio for Performance Marketing gera determinados campos automaticamente nos seguintes modelos:
 
 - **O modelo de email** não requer que você identifique o campo `subject`
-- **O modelo de metadados** não requer que você identifique os campos `headline`, `body` e `CTA`
+- **O modelo de anúncio do Meta** não requer que você identifique os campos `headline`, `body` e `CTA`
 - **Modelo de banner e anúncio de exibição** não requer que você identifique o campo `CTA`
 - **O modelo de anúncio do LinkedIn** não requer que você identifique os campos `headline`, `introductory_text` e `CTA`
 
@@ -73,7 +73,7 @@ Há um limite de 20 campos ao fazer upload de um modelo para o GenStudio for Per
 
 ### Planos de ação
 
-Um Plano de ação (CTA) inclui uma frase e um link. Para que os recursos _[!UICONTROL Rephrase]_ e _[!UICONTROL Adicionar link]_ funcionem corretamente durante o processo de geração de variante, você deve incluir espaços reservados para o link e a frase no modelo.
+Um Call to action (CTA) inclui uma frase e um link. Para que os recursos _[!UICONTROL Rephrase]_ e _[!UICONTROL Adicionar link]_ funcionem corretamente durante o processo de geração de variante, você deve incluir espaços reservados para o link e a frase no modelo.
 
 Use a orientação a seguir para configurar espaços reservados para o CTA:
 
@@ -95,7 +95,7 @@ Use a orientação a seguir para configurar espaços reservados para o CTA:
   <a class="button" href="{{pod1_link}}" >Register now</a>
   ```
 
-O GenStudio for Performance Marketing também pode fornecer frases de chamada para ação de variante. Consulte [Revisar chamada para ação](/help/user-guide/create/manage-variants.md#revise-call-to-action).
+O GenStudio for Performance Marketing também pode fornecer frases de chamada para ação de variante. Consulte [Revise o Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ### Link na imagem
 
@@ -229,7 +229,7 @@ Cada seção pode usar apenas um de cada tipo de campo. Por exemplo, os seguinte
 
 Por causa dessa regra, as seções não podem ser aninhadas.
 
-Cada tipo de modelo, como email ou Meta ad, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](/help/user-guide/content/best-practices-for-templates.md) no tópico _Práticas recomendadas para usar modelos_.
+Cada tipo de modelo, como email ou anúncio do Meta, tem restrições específicas de canal no uso de seções. Consulte as [diretrizes específicas do canal](/help/user-guide/content/best-practices-for-templates.md) no tópico _Práticas recomendadas para usar modelos_.
 
 Por exemplo, um template de email pode incluir até três seções; portanto, você pode ter três seções de título e corpo:
 
@@ -259,7 +259,7 @@ Consulte [Editor de código de modelo](/help/user-guide/content/code-editor.md).
 
 Você pode controlar a visibilidade de conteúdo especial usando Auxiliares Internos (expressões especiais na linguagem de modelo [!DNL Handlebars] que executam determinadas ações). Por exemplo, é possível adicionar uma declaração condicional que adicione parâmetros de rastreamento aos links no modelo exportado, mantendo os links de visualização limpos.
 
-O valor `_genStudio.browser` é definido ao renderizar um modelo, e o valor `genStudio.export` é definido ao exportar um modelo. Você pode decidir incluir determinado conteúdo na parte superior de um email usando um invólucro condicional, por exemplo, quando o modelo for usado para exportação:
+O valor `_genStudio.canvas` é definido ao renderizar um modelo, e o valor `genStudio.export` é definido ao exportar um modelo. Você pode decidir incluir determinado conteúdo na parte superior de um email usando um invólucro condicional, por exemplo, quando o modelo for usado para exportação:
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -270,7 +270,7 @@ O valor `_genStudio.browser` é definido ao renderizar um modelo, e o valor `gen
 Outro exemplo pode ser impedir o uso de códigos de rastreamento ao visualizar um modelo no GenStudio for Performance Marketing. O exemplo a seguir mostra como adicionar parâmetros de rastreamento a links no modelo exportado, mantendo os links de visualização limpos:
 
 ```html
-<a class="button" {{#if _genStudio.browser }}
+<a class="button" {{#if _genStudio.canvas }}
    href="{{link}}"{{/if}}{{#if _genStudio.export }}
    href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
    target="_blank">{{cta}}</a>
@@ -278,7 +278,7 @@ Outro exemplo pode ser impedir o uso de códigos de rastreamento ao visualizar u
 
 ## Conteúdo estático
 
-Os modelos de email e meta geralmente vinculam-se a imagens e arquivos CSS hospedados em outros domínios. Quando o GenStudio for Performance Marketing gera miniaturas para visualizações de modelo ou as experiências derivadas delas, ele valida a fonte de conteúdo e incorpora uma cópia para fins de visualização.
+Os modelos de email e Meta geralmente vinculam-se a imagens e arquivos CSS hospedados em outros domínios. Quando o GenStudio for Performance Marketing gera miniaturas para visualizações de modelo ou as experiências derivadas delas, ele valida a fonte de conteúdo e incorpora uma cópia para fins de visualização.
 
 Os arquivos externos são temporariamente incorporados apenas para criar a pré-visualização do modelo, o que garante que a pré-visualização reflita com precisão o conteúdo conforme ele aparece no momento da criação. Estes arquivos externos **não** são armazenados permanentemente no GenStudio for Performance Marketing. Após a criação da pré-visualização do modelo, o GenStudio for Performance Marketing continua fazendo referência ao link de origem original fornecido no modelo.
 
