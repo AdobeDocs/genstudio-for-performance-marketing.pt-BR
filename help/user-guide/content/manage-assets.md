@@ -3,9 +3,9 @@ title: Gerenciar Assets e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 6880aadb104aac6b3282980760406168df3da5fe
+source-git-commit: 279bf9e1fab24c286df4a0600b472c456231ddb6
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1509'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ O Adobe GenStudio for Performance Marketing [!DNL Content] simplifica e aprimora
 
 ## Galeria [!DNL Content]
 
-A galeria mostra um inventário de ativos, experiências ou modelos aprovados, dependendo da exibição selecionada. O botão de alternância de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar entre várias categorias para filtrar o conteúdo mostrado na galeria. No modo de exibição _[!UICONTROL Assets]_, clique no ícone de pesquisa (lupa) para usar uma palavra-chave para localizar um ativo.
+A galeria mostra um inventário de ativos, experiências ou modelos aprovados, dependendo da exibição selecionada. O botão de alternância de filtro (funnel) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar entre várias categorias para filtrar o conteúdo mostrado na galeria. No modo de exibição _[!UICONTROL Assets]_, clique no ícone de pesquisa (lupa) para usar uma palavra-chave para localizar um ativo.
 
 A seguir, uma pesquisa sobre o termo `space` na galeria [!UICONTROL Assets]:
 
@@ -158,10 +158,9 @@ Ao adicionar ativos a [!DNL Content], eles são armazenados no repositório `Gen
 
    Se você selecionou várias experiências de canais diferentes, é possível selecionar o formato para cada tipo de canal.
 
-   - Email, LinkedIn: `HTML`, `CSV`
-   - Meta, banner e anúncio de exibição: `HTML`, `JPEG`, `PNG`
+   - Email, LinkedIn: `HTML`, `CSV`, `PDF`
+   - Meta, banner e anúncio de exibição: `HTML`, `JPEG`, `PNG`, `PDF`
 
-   ![Baixar experiências](/help/assets/content-bulk-export.png "Baixar várias experiências"){width=350}
 
 ## Editar no Express
 
