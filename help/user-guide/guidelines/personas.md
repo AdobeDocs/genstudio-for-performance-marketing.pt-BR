@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Personas]
 description: O GenStudio for Performance Marketing [!DNL Personas] é uma representação real dos segmentos de clientes, capturando seus interesses, pontos problemáticos, preferências e características comportamentais.
 feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 O [!DNL Personas] fornece uma representação autêntica dos segmentos de clientes, abrangendo suas informações, interesses, pontos problemáticos, preferências e características comportamentais.
 
-O GenStudio for Performance Marketing aproveita o potencial das diretrizes —[[!DNL Brands], [!DNL Products] e [!DNL Personas]](overview.md) — e a tecnologia de IA generativa da Adobe para preparar conteúdo de marketing personalizado para seus clientes-alvo.&#x200B;
+O GenStudio for Performance Marketing aproveita o [potencial das diretrizes](overview.md)—e a tecnologia de IA generativa da Adobe para preparar conteúdo de marketing personalizado para seus clientes-alvo.&#x200B;
 
 **Para exibir ou modificar uma persona**:
 
 1. Na área de navegação à esquerda, clique em **[!UICONTROL Personas]**.
-1. Para [exibir detalhes individuais ou modificar uma persona](add-guidelines.md#manage-personas), clique no menu de ação _[!DNL Personas]_&#x200B;e selecione **Abrir**.
+1. Para [exibir detalhes individuais ou modificar uma persona](add-guidelines.md#manage-personas), clique no menu de ação _[!DNL Personas]_e selecione **Abrir**.
 1. Revise as diretrizes de personas clicando em um campo de texto de categoria de diretrizes.
 
 Consulte [Adicionar diretrizes](add-guidelines.md) para saber como adicionar ou modificar uma persona no GenStudio for Performance Marketing.

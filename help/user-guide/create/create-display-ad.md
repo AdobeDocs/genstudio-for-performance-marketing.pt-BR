@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Para criar uma experiência de anúncio de exibição, use um modelo disponível
 
 Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompt sobrecarrega o processo de geração de conteúdo e é uma etapa preparatória integral para gerar uma experiência de exibição de anúncio.
 
-Se você estiver usando um modelo com diretrizes predefinidas—[!DNL Brands], [!DNL Personas] ou [!DNL Products]—essas diretrizes se aplicam às suas variantes. Você pode alterá-los se desejar.
+Se você estiver usando um modelo com diretrizes predefinidas (como [!DNL Brands], [!DNL Personas] ou [!DNL Products]), essas diretrizes se aplicam às suas variantes. Você pode alterá-los se desejar.
 
 **Para adicionar parâmetros e ativos**:
 
@@ -130,7 +130,7 @@ Consulte [Análises e aprovações](/help/user-guide/approvals/overview.md).
 Para disponibilizar os anúncios de exibição gerados para uso atual e futuro, publique-os no [!UICONTROL Conteúdo] e exporte-os para uso em suas campanhas de marketing.
 
 1. **Para publicar sua(s) nova(s) experiência(s) de anúncio de exibição**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
-   1. Selecione _[!UICONTROL [!DNL Campaigns]]_&#x200B;e adicione&#x200B;_[!UICONTROL &#x200B; Mais detalhes &#x200B;]_, se desejar.
+   1. Selecione _[!UICONTROL [!DNL Campaigns]]_e adicione_[!UICONTROL  Mais detalhes ]_, se desejar.
    1. Clique em **[!UICONTROL Publicar]**.
 
       ![Publicar um anúncio de exibição](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

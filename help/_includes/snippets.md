@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Enriqueça suas habilidades sobre este tópico com o [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
+>Aprofunde sua compreensão deste tópico com o [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
 
 ## Dica sobre tabelas de filtragem {#filter-table}
 
