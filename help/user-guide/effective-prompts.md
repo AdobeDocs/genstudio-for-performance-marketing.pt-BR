@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 2%
@@ -59,7 +59,7 @@ As diretrizes do GenStudio for Performance Marketing ajudam a IA gerativa a pers
 
 ### Prompts estruturados
 
-Para emails de várias seções, você pode estruturar prompts para fornecer instruções específicas da seção para gerar conteúdo variável para cada seção em um email. Os prompts estruturados devem fazer referência direta aos [nomes de seção no modelo de email](/help/user-guide/content/customize-template.md#sections-or-groups), para que o conteúdo gerado possa ser inserido nos espaços reservados de conteúdo correspondentes.
+Para emails de várias seções, você pode estruturar prompts para fornecer instruções específicas da seção para gerar conteúdo variável para cada seção em um email. Os prompts estruturados devem fazer referência direta aos [nomes de seção no modelo de email](/help/user-guide/templates/customize-template.md#sections-or-groups), para que o conteúdo gerado possa ser inserido nos espaços reservados de conteúdo correspondentes.
 
 Por exemplo, você pode instruir o GenStudio for Performance Marketing a gerar conteúdo para um email que promove um novo produto na primeira seção e detalha os benefícios de economia na segunda seção.
 
@@ -93,7 +93,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-Consulte [práticas recomendadas para usar modelos](/help/user-guide/content/best-practices-for-templates.md).
+Consulte [práticas recomendadas para usar modelos](/help/user-guide/templates/best-practices-for-templates.md).
 
 ## Tente novamente
 

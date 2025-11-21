@@ -5,7 +5,7 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 826e5e2f5e78805c43872e828b5ac3eafb5a5ffa
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 18%
@@ -65,12 +65,12 @@ ht-degree: 18%
    + [Detalhes do ativo](content/asset-details.md)
    + [Content Credentials](content/content-credentials.md)
 + Modelos {#templates}
-   + [Trabalhar com modelos](content/use-templates.md)
+   + [Trabalhar com modelos](templates/use-templates.md)
    + [Modelos iniciais](templates/starter-templates.md)
-   + [Personalizar um modelo](content/customize-template.md)
-   + [Editor de código de modelo](content/code-editor.md)
-   + [Criar modelos acessíveis](content/accessibility-for-templates.md)
-   + [Práticas recomendadas para modelos](content/best-practices-for-templates.md)
+   + [Personalizar um modelo](templates/customize-template.md)
+   + [Editor de código de modelo](templates/code-editor.md)
+   + [Criar modelos acessíveis](templates/accessibility-for-templates.md)
+   + [Práticas recomendadas para modelos](templates/best-practices-for-templates.md)
    + Prática recomendada do canal {#channel-best-practice}
       + [Guia de exibição de anúncios](templates/display-template.md)
       + [Guia de email](templates/email-template.md)

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Para criar uma experiência de banner envolvente, é recomendável [adicionar di
 
 ## Escolher um modelo
 
-Para criar uma experiência de banner, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões de banner compatíveis.
+Para criar uma experiência de banner, use um modelo disponível para fornecer a estrutura para o seu conteúdo. Consulte [Práticas recomendadas para modelos](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões de banner compatíveis.
 
 **Para escolher um modelo de banner**:
 
@@ -127,7 +127,7 @@ Consulte [Análises e aprovações](/help/user-guide/approvals/overview.md).
 Para disponibilizar os banners gerados para uso atual e futuro, publique-o no [!UICONTROL Content] e exporte-o para uso em suas campanhas de marketing.
 
 1. **Para publicar suas novas experiências com o banner**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
-   1. Selecione _[!UICONTROL [!DNL Campaigns]]_&#x200B;e adicione&#x200B;_[!UICONTROL &#x200B; Mais detalhes &#x200B;]_, se desejar.
+   1. Selecione _[!UICONTROL [!DNL Campaigns]]_e adicione_[!UICONTROL  Mais detalhes ]_, se desejar.
    1. Clique em **[!UICONTROL Publicar]**.
 
       ![Publicar um banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

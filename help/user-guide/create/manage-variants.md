@@ -3,7 +3,7 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 0%
@@ -196,7 +196,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 1. Clique no ícone **[!UICONTROL Trocar do conteúdo]**.
 1. Use os filtros e a função de pesquisa na exibição [!DNL Content] dos ativos do GenStudio para restringir ainda mais os resultados da pesquisa.
 
-   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local &#x200B;]**](/help/user-guide/content/manage-assets.md#location).
+   Você também pode usar imagens disponíveis nos repositórios conectados do Assets Content Hub do Adobe Experience Manager (AEM) selecionando esse repositório no menu [**[!UICONTROL Local ]**](/help/user-guide/content/manage-assets.md#location).
 
 1. Clique para selecionar uma imagem e clique em **[!UICONTROL Usar]**.
 
@@ -204,7 +204,7 @@ Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela 
 
 ## Adicionar links
 
-Você pode adicionar um link para texto, imagens e botões CTA em suas variantes. O modelo usado para gerar variantes _deve_ conter um [espaço reservado para conteúdo para o link](/help/user-guide/content/customize-template.md#content-placeholders) para habilitar essa funcionalidade.
+Você pode adicionar um link para texto, imagens e botões CTA em suas variantes. O modelo usado para gerar variantes _deve_ conter um [espaço reservado para conteúdo para o link](/help/user-guide/templates/customize-template.md#content-placeholders) para habilitar essa funcionalidade.
 
 **Para adicionar um link em uma variante**:
 
@@ -221,7 +221,7 @@ Você pode adicionar um link para texto, imagens e botões CTA em suas variantes
 
 Ao adicionar conteúdo (imagens) durante o processo de criação, é possível definir um texto alternativo para cada imagem incluída. Adicionar texto alternativo a imagens melhora a acessibilidade, a otimização do mecanismo de pesquisa e a experiência do usuário.
 
-Para habilitar a funcionalidade de texto alternativo, [adicione um espaço reservado para conteúdo](/help/user-guide/content/customize-template.md#alternative-text) no modelo.
+Para habilitar a funcionalidade de texto alternativo, [adicione um espaço reservado para conteúdo](/help/user-guide/templates/customize-template.md#alternative-text) no modelo.
 
 **Para adicionar texto alternativo a imagens em variantes geradas**:
 
@@ -247,7 +247,7 @@ Forneça um nome acessível para links de imagem e call-to-action em suas varian
 1. Clique na caixa de texto e adicione uma breve descrição que explique o que o link ou o botão faz. Por exemplo, você pode usar &quot;Comprar no site oficial da WKND&quot; para um link de botão do call to action.
 1. Clique em **[!UICONTROL Aplicar]**.
 
-Para habilitar a funcionalidade de rótulo de acessibilidade, [adicione um espaço reservado para conteúdo](/help/user-guide/content/customize-template.md) no modelo.
+Para habilitar a funcionalidade de rótulo de acessibilidade, [adicione um espaço reservado para conteúdo](/help/user-guide/templates/customize-template.md) no modelo.
 
 ## Visualizar para dispositivo
 

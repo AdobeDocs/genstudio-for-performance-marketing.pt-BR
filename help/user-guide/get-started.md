@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Consulte [Atribuir permissões de marca](configure-brand-permissions.md).
 
 Os modelos aceleram a criação de conteúdo. Um modelo contém recursos aprovados, como cabeçalhos e rodapés, e é otimizado para canais específicos. Os gerentes de sistema normalmente fazem upload e gerenciam modelos para sua organização. Os editores de conteúdo usam modelos para iniciar rapidamente o processo de criação de conteúdo dentro dos limites estabelecidos da marca organizacional.
 
-Consulte [Trabalhar com modelos](/help/user-guide/content/use-templates.md).
+Consulte [Trabalhar com modelos](/help/user-guide/templates/use-templates.md).
 
 ### Etapa 4: Fazer upload de ativos aprovados
 

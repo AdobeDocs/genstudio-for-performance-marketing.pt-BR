@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Com o Adobe GenStudio for Performance Marketing, você pode usar a IA gerativa para simplificar a [criação de experiências de Meta de alto impacto](/help/user-guide/create/create-meta-ad.md). O [!DNL Create] permite que os criadores de conteúdo usem [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt bem montado](/help/user-guide/effective-prompts.md) para [criar experiências de anúncio do Meta](/help/user-guide/create/create-meta-ad.md) rapidamente.
 
-Ao gerar experiências do Meta, quatro variações são criadas e mostradas na Tela. A GenStudio for Performance Marketing oferece suporte a [anúncios Meta de tamanho padrão e personalizado](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+Ao gerar experiências do Meta, quatro variações são criadas e mostradas na Tela. A GenStudio for Performance Marketing oferece suporte a [anúncios Meta de tamanho padrão e personalizado](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Ao gerar experiências do Meta, quatro variações são criadas e mostradas na Tela.
 
@@ -30,7 +30,7 @@ As seções editáveis de uma experiência de email incluem:
 * Texto na imagem
 * Imagem/Vídeo
 
-Consulte [Elementos do modelo](/help/user-guide/content/use-templates.md#template-elements).
+Consulte [Elementos do modelo](/help/user-guide/templates/use-templates.md#template-elements).
 
 ## Canais de anúncios do Meta
 

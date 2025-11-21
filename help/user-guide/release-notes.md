@@ -4,7 +4,7 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '4162'
 ht-degree: 0%
@@ -149,7 +149,7 @@ O novo seletor de Idioma na gaveta de prompt suporta a criação de conteúdo mu
 
 Agora há suporte para vários campos de texto com a mesma função (por exemplo, &quot;body&quot;, &quot;cta&quot;, &quot;on image text&quot; etc.) para modelos de clientes complexos.
 
-Explore os detalhes em [as orientações para o Editor de Código de Modelo](/help/user-guide/content/code-editor.md).
+Explore os detalhes em [as orientações para o Editor de Código de Modelo](/help/user-guide/templates/code-editor.md).
 
 ### Novos modelos de geração de imagens do Firefly compatíveis
 
@@ -248,7 +248,7 @@ Você pode adicionar vídeos ao conteúdo de imagem ao [LinkedIn](/help/user-gui
 ### Correções e aprimoramentos
 
 * Funcionalidade habilitada para [adicionar texto alternativo](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) a uma imagem para uma variante individual.
-* Adição de uma [nova taxa de proporção do Meta](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paisagem 1.19:1 (largura de 1080 pixels).
+* Adição de uma [nova taxa de proporção do Meta](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) —Paisagem 1.19:1 (largura de 1080 pixels).
 * Agora é possível escolher mais de uma experiência para exportar ou baixar. Consulte [Exportar experiências](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -258,9 +258,9 @@ Você pode adicionar vídeos ao conteúdo de imagem ao [LinkedIn](/help/user-gui
 
 ### Correções e aprimoramentos
 
-* Novas opções de filtro para modelos! Agora você pode refinar sua lista _[!UICONTROL Selecionar modelos]_ em [!DNL Create] e em _[!UICONTROL Conteúdo]_ > _[!UICONTROL Modelos]_. Consulte [Modelos de pesquisa](/help/user-guide/content/use-templates.md#search-templates). Verifique se os modelos estão marcados corretamente com metadados para torná-los detectáveis por meio desses filtros.
+* Novas opções de filtro para modelos! Agora você pode refinar sua lista _[!UICONTROL Selecionar modelos]_ em [!DNL Create] e em _[!UICONTROL Conteúdo]_ > _[!UICONTROL Modelos]_. Consulte [Modelos de pesquisa](/help/user-guide/templates/use-templates.md#search-templates). Verifique se os modelos estão marcados corretamente com metadados para torná-los detectáveis por meio desses filtros.
 * Funcionalidade habilitada para [exibir e selecionar camadas individuais](/help/user-guide/create/manage-variants.md#view-layers)—campos de texto editáveis ou imagens editáveis—de uma experiência para destacá-las para revisões, como regeneração de conteúdo ou recorte de imagens.
-* Adição de um [novo campo de modelo](/help/user-guide/content/use-templates.md#template-elements), `sub-headline`, para texto adicional em experiências para capturar a atenção do público e destacar mensagens de marketing.
+* Adição de um [novo campo de modelo](/help/user-guide/templates/use-templates.md#template-elements), `sub-headline`, para texto adicional em experiências para capturar a atenção do público e destacar mensagens de marketing.
 * Adicionado suporte para [publicar experiências de anúncio](/help/user-guide/activation/overview.md) do GenStudio for Performance Marketing no Google Campaign Manager 360. A Ativate oferece suporte a visualizações detalhadas de anúncios do Google Campaign Manager 360 antes da publicação em um anunciante do Campaign Manager 360. Os anúncios publicados por meio da função Ativar são automaticamente transferidos para os Insights uma vez ao vivo, permitindo que os usuários acompanhem e relatem o desempenho dos anúncios.
 
 +++
@@ -275,13 +275,13 @@ Agora os profissionais de marketing podem [publicar experiências de anúncios](
 
 [!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
 
-Adicionado suporte para [criar experiências do LinkedIn](/help/user-guide/create/create-linkedin.md). Consulte a guia [Anúncio do LinkedIn](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nas diretrizes específicas do canal.
+Adicionado suporte para [criar experiências do LinkedIn](/help/user-guide/create/create-linkedin.md). Consulte a guia [Anúncio do LinkedIn](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nas diretrizes específicas do canal.
 
 ### Criar experiências com banner
 
 [!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
 
-Adicionado suporte para [criar experiências de banner](/help/user-guide/create/create-banner-experience.md). Consulte a guia [Banner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nas diretrizes específicas do canal.
+Adicionado suporte para [criar experiências de banner](/help/user-guide/create/create-banner-experience.md). Consulte a guia [Banner](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) nas diretrizes específicas do canal.
 
 ### Conformidade
 
@@ -293,12 +293,12 @@ A nova [estrutura de extensibilidade](/help/extensibility/setup.md) do GenStudio
 
 ### Modelos
 
-* **Editor de código de modelo** — o novo [Editor de código de modelo](/help/user-guide/content/code-editor.md) ajuda a verificar e refinar seu modelo para uso ideal ao gerar novas experiências com o GenStudio for Performance Marketing.
+* **Editor de código de modelo** — o novo [Editor de código de modelo](/help/user-guide/templates/code-editor.md) ajuda a verificar e refinar seu modelo para uso ideal ao gerar novas experiências com o GenStudio for Performance Marketing.
 
   ![Modo de exibição do editor de código](/help/assets/template-detected-fields.png "Verificar campos detectados"){width="500" zoomable="yes"}
 
-* **Links na imagem** — Personalize seu modelo de email habilitando links de imagem. Consulte [Personalizar um modelo: Link na imagem](/help/user-guide/content/customize-template.md#link-on-image).
-* **Modelos do AJO e do Marketo**—Carregue um modelo criado no Adobe Journey Optimizer (AJO) ou no Marketo. Consulte [Trabalhar com modelos do AJO e do Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+* **Links na imagem** — Personalize seu modelo de email habilitando links de imagem. Consulte [Personalizar um modelo: Link na imagem](/help/user-guide/templates/customize-template.md#link-on-image).
+* **Modelos do AJO e do Marketo**—Carregue um modelo criado no Adobe Journey Optimizer (AJO) ou no Marketo. Consulte [Trabalhar com modelos do AJO e do Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Correções e aprimoramentos
 
@@ -336,7 +336,7 @@ Os programas da Beta fornecem uma maneira de ajudar a moldar o desenvolvimento d
 
 ### Gerar novas chamadas para ação
 
-Agora é possível gerar novas frases do call-to-action (CTA) ao gerenciar variantes. Use as novas opções _Rephrase_ e _Adicionar link_ para gerar novas frases e editar o link CTA. Seu modelo deve ser configurado corretamente para que essas novas funções do CTA funcionem. Siga as diretrizes em _Personalizar um modelo_: [Chamadas para ação](/help/user-guide/content/customize-template.md#calls-to-action). Para obter diretrizes sobre o gerenciamento de CTAs em variantes, consulte [Revise Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Agora é possível gerar novas frases do call-to-action (CTA) ao gerenciar variantes. Use as novas opções _Rephrase_ e _Adicionar link_ para gerar novas frases e editar o link CTA. Seu modelo deve ser configurado corretamente para que essas novas funções do CTA funcionem. Siga as diretrizes em _Personalizar um modelo_: [Chamadas para ação](/help/user-guide/templates/customize-template.md#calls-to-action). Para obter diretrizes sobre o gerenciamento de CTAs em variantes, consulte [Revise Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Correções e aprimoramentos
 
@@ -382,7 +382,7 @@ Os editores agora podem especificar valores personalizados para esses aspectos d
 
 * Dimensões de imagens em experiências de anúncio de exibição durante o carregamento da imagem.<!-- GS-7166 -->
 
-* Consulte as diretrizes específicas do canal nas [Práticas recomendadas para modelos](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+* Consulte as diretrizes específicas do canal nas [Práticas recomendadas para modelos](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 As opções de exportação agora incluem:
 
@@ -446,7 +446,7 @@ Novos recursos adicionais permitem aos editores:
 
 ### Novos recursos
 
-Adição de suporte para exibição de conteúdo estático hospedado em domínios externos. O GenStudio for Performance Marketing valida a fonte de conteúdo definida no modelo e incorpora uma cópia para produzir a pré-visualização do modelo. Consulte [Conteúdo estático](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
+Adição de suporte para exibição de conteúdo estático hospedado em domínios externos. O GenStudio for Performance Marketing valida a fonte de conteúdo definida no modelo e incorpora uma cópia para produzir a pré-visualização do modelo. Consulte [Conteúdo estático](/help/user-guide/templates/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Correções e aprimoramentos
 

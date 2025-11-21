@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portant
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -21,7 +21,7 @@ O [!DNL Create] permite que profissionais de marketing modernos [criem experiên
 
 Ao gerar experiências de banner, quatro variações são criadas e mostradas na Tela.
 
-Consulte [Seguir as diretrizes do modelo específico do canal](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões, nomes de campos reconhecidos e muito mais.
+Consulte [Seguir as diretrizes do modelo específico do canal](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) para obter informações sobre dimensões, nomes de campos reconhecidos e muito mais.
 
 As seções editáveis de uma experiência de anúncio de exibição incluem:
 
@@ -31,7 +31,7 @@ As seções editáveis de uma experiência de anúncio de exibição incluem:
 * Call to action (CTA)
 * Imagem
 
-Consulte [Elementos do modelo](/help/user-guide/content/use-templates.md#template-elements).
+Consulte [Elementos do modelo](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Character counts
 
