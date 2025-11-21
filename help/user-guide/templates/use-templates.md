@@ -59,7 +59,7 @@ Você [personaliza seu modelo](customize-template.md) para uso no GenStudio for 
 
 ## Gerenciar modelos
 
-A galeria _[!DNL Templates]_exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing.
+A galeria _[!DNL Templates]_&#x200B;exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing.
 
 ### Pesquisar modelos
 
