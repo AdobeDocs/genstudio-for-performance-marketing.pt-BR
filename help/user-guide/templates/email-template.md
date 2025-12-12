@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
+source-git-commit: 4f3d8558f37656ccfc67b592e0bb9e90c30a7963
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Os campos máximos permitidos em um modelo são 20. Consulte [Espaços reservado
 
 _Seções_ permitem que você organize o conteúdo em grupos distintos, suportando layouts mais complexos. No GenStudio for Performance Marketing, você pode definir cada seção usando uma convenção de nomenclatura de grupo. Consulte [Personalizar seções de modelo](/help/user-guide/templates/customize-template.md#sections-or-groups).
 
-Os modelos de email de várias seções podem ter até 10 seções:
+Os modelos de várias seções podem ter 0, 2 ou 3 seções:
 
 - Um modelo básico (seções zero) pode gerar um único conjunto de elementos de modelo, o que não requer a convenção de nomenclatura de grupo.
-- Um modelo complexo (várias seções) pode gerar conjuntos de elementos de modelo, o que requer a adesão à convenção de nomenclatura de grupo: `<groupname_fieldname>`.
+- Um modelo complexo (várias seções) pode gerar até três conjuntos de elementos de modelo, o que requer que você siga a convenção de nomenclatura de grupo: `<groupname_fieldname>`.
 - Ao usar várias seções, todos os elementos deixados independentes, fora de uma seção, não serão preenchidos.
 
 Estes são exemplos de nomes de campos, usando a convenção de nomenclatura de grupo, para duas seções:
