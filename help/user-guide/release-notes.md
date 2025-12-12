@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
 workflow-type: tm+mt
-source-wordcount: '4162'
+source-wordcount: '4225'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,15 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2025.11.14 {#latest}
+## 2025.12.12 {#latest}
+
+### Troca de logotipo para modelos
+
+Agora os profissionais de marketing podem trocar logotipos dinamicamente dentro de modelos diretamente no fluxo de trabalho do [!DNL Create], eliminando a necessidade de criar várias variações de modelo para logotipos de marcas, submarcas ou linhas de produto diferentes. Esse recurso permite que os criadores selecionem ou troquem o logotipo apropriado no momento da criação do conteúdo, simplificando o gerenciamento de modelos e reduzindo a sobrecarga de produção.
+
+## Notas de versão anteriores
+
++++Notas de 2025.11.14
 
 ### Integração de público do Real-Time CDP
 
@@ -58,6 +66,7 @@ Estas informações de versão fornecem as atualizações mais recentes para o a
 * Os usuários agora podem aplicar [!DNL Brand] marcas para agrupar [!DNL Product] e [!DNL Persona] registros por [!DNL Brand].
 * O fluxo do [!DNL Experience Translations] foi otimizado junto com o novo recurso de tradução para email e mídia paga.
 
++++
 
 ## Notas de versão anteriores
 
