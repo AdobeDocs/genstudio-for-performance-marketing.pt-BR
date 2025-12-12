@@ -2,13 +2,14 @@
 title: Criar uma experiência de banner
 description: Saiba como criar experiências de banner no Adobe [!DNL GenStudio] para Marketing de desempenho.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
+badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: f323537b698961bb71ffeb830ff06c5993fe38c5
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Quando terminar de adicionar parâmetros, recolha a gaveta do prompt clicando no
 
 Depois de selecionar as diretrizes, use a linguagem natural para criar um prompt para iniciar a geração de conteúdo para sua nova experiência com o banner. Para garantir resultados de alta qualidade, é essencial criar avisos detalhados e descritivos.
 
-![Inserir um prompt](/help/assets/prompt-displayad.png){width="300" align="center"}
+![Inserir um prompt](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
@@ -126,7 +127,7 @@ Consulte [Análises e aprovações](/help/user-guide/approvals/overview.md).
 Para disponibilizar os banners gerados para uso atual e futuro, publique-o no [!UICONTROL Content] e exporte-o para uso em suas campanhas de marketing.
 
 1. **Para publicar suas novas experiências com o banner**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
-   1. Selecione _[!UICONTROL [!DNL Campaigns]]_&#x200B;e adicione&#x200B;_[!UICONTROL &#x200B; Mais detalhes &#x200B;]_, se desejar.
+   1. Selecione _[!UICONTROL [!DNL Campaigns]]_e adicione_[!UICONTROL  Mais detalhes ]_, se desejar.
    1. Clique em **[!UICONTROL Publicar]**.
 
       ![Publicar um banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

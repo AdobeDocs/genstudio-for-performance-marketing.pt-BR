@@ -4,9 +4,9 @@ description: Gere rapidamente conteúdo de alto desempenho na marca com IA gerat
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: c8b9e0b1b78195a648774d383c94ed9974fa8bcd
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -35,68 +35,131 @@ Editores e gerentes de sistema têm acesso total a [!DNL Create]. Consulte [Fun�
 ## Casos de uso do [!DNL Create]
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Criar novo conteúdo" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong>Criar uma experiência de email</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Crie uma experiência de anúncio do Meta" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong>Criar uma experiência de anúncio do Meta</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Criar uma experiência de anúncio do LinkedIn" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong>Criar uma experiência de anúncio do LinkedIn</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Criar uma experiência de anúncio de exibição" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong>Criar uma experiência de anúncio de exibição</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="Criar uma experiência de banner" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong>Criar uma experiência de banner</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="Criar imagens" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong>Gerar imagens</strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 O GenStudio for Performance Marketing permite que os profissionais de marketing **criem novo conteúdo de marketing**. Neste caso de uso, use [diretrizes](/help/user-guide/guidelines/overview.md) definidas e imagens de inspiração para informar sobre a criação de conteúdo alinhado à marca.
@@ -113,11 +176,11 @@ Os modelos são [carregados e armazenados em [!DNL Content]](/help/user-guide/co
 
 ### Parâmetros
 
-Na gaveta de prompts, você pode adicionar _Parâmetros_, como [!DNL Brands], [!DNL Products] e [!DNL Personas] e [!DNL Content], para moldar a experiência gerada.
+Na gaveta de prompts, você pode adicionar _Parâmetros_, como [!DNL Brands], [!DNL Products], [!DNL Personas] (diretrizes) e [!DNL Content] (ativos), para moldar a experiência gerada.
 
-Esses parâmetros adicionados injetam [diretrizes](/help/user-guide/guidelines/overview.md) e [!DNL Content] e fornecem ativos para o processo de geração, garantindo uma saída personalizada alinhada à identidade abrangente de uma marca. Adicionar diretrizes ao seu GenStudio for Performance Marketing e usá-las durante a geração de conteúdo melhora muito a criação de conteúdo adequado na marca.
+Esses parâmetros adicionados injetam [diretrizes](/help/user-guide/guidelines/overview.md) e ativos no processo de geração, garantindo que o conteúdo seja personalizado para alinhar-se à identidade abrangente de uma marca. É recomendável adicionar diretrizes ao seu GenStudio for Performance Marketing e usá-las durante o processo de geração de conteúdo, pois elas melhoram muito a criação de conteúdo adequado na marca.
 
-O conteúdo —ativos de imagem carregados ou adicionados— em _Parâmetros_ é usado em variantes geradas e informa a cópia (texto) gerada para variantes. Você pode fazer upload de ativos ou selecionar ativos já presentes em [!DNL Content] ou em qualquer repositório conectado do AEM Content Hub.
+O conteúdo—ativos de imagem carregados ou adicionados—em _Parâmetros_ são usados em variantes geradas e informam a cópia do conteúdo (texto) gerado para variantes. Você pode fazer upload de ativos ou selecionar ativos já presentes em [!DNL Content] ou em qualquer repositório conectado do AEM Content Hub.
 
 ### Prompts
 
