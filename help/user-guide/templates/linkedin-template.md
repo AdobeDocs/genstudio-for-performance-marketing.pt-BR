@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 85432185-8311-411b-b57b-f482c3d45854
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: ff694925dea4741d13ae71a68e23a5e604134521
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -41,13 +41,15 @@ Consulte [Espaços reservados para conteúdo](/help/user-guide/templates/customi
 
 ## Taxas de proporção suportadas
 
-| Taxa de proporção | Platform | Tamanho mínimo (px) | Tamanho máximo (px) | Notas |
-|-------------------|-----------------|---------------|----------------|-------------------------------------------------------------------------------------|
-| Quadrado 1:1 | Desktop, móvel | 360 x 360 | 4320 x 4320 | Mais versátil. Ideal para aparência consistente em dispositivos e inserções. |
-| Horizontal 1.91:1 | Desktop | 640 x 360 | 7680 x 4320 | Formato paisagem padrão. Geralmente usado para conteúdo patrocinado e anúncios de feed de notícias. |
-| Vertical 1:1.91 | Dispositivos móveis | 360 x 640 | 2430 x 4320 | Formato vertical alto. Otimizado para visualização móvel, oferecendo mais presença na tela. |
-| Vertical 2:3 | Dispositivos móveis | 360 x 640 | 2430 x 4320 | Um pouco menos alto que 1:1.91. Bom para campanhas iniciadas por dispositivos móveis. |
-| Vertical 4:5 | Dispositivos móveis | 360 x 640 | 2430 x 4320 | Recomendado para dispositivos móveis. Equilibra visibilidade e conteúdo, o que geralmente resulta em maior impacto. |
+Todas as larguras dos modelos do LinkedIn são codificadas em 1200 pixels.
+
+| Taxa de proporção | Platform | Dimensões (px) | Notas |
+|-------------------|-----------------|------------|-------------------------------------------------------------------------------------|
+| Quadrado 1:1 | Desktop, móvel | 1200 x 1200 | Mais versátil. Ideal para aparência consistente em dispositivos e inserções. |
+| Horizontal 1.91:1 | Desktop | 1200 x 628 | Formato paisagem padrão. Geralmente usado para conteúdo patrocinado e anúncios de feed de notícias. |
+| Vertical 1:1.91 | Dispositivos móveis | 1200 x 2292 | Formato vertical alto. Otimizado para visualização móvel, oferecendo mais presença na tela. |
+| Vertical 2:3 | Dispositivos móveis | 1200 x 1800 | Um pouco menos alto que 1:1.91. Bom para campanhas iniciadas por dispositivos móveis. |
+| Vertical 4:5 | Dispositivos móveis | 1200 x 1500 | Recomendado para dispositivos móveis. Equilibra visibilidade e conteúdo, o que geralmente resulta em maior impacto. |
 
 <!-- Potentially add an example
 
