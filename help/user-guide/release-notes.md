@@ -4,9 +4,9 @@ description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adob
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
+source-git-commit: c7300b3f531947081253aaf719e099512b419539
 workflow-type: tm+mt
-source-wordcount: '4225'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,31 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2025.12.12 {#latest}
+## 2026,01 {#latest}
+
+### Redesign do painel de prompt do HTML Canvas
+
+A gaveta do prompt do HTML Canvas [!DNL Create] agora aparece como um painel do lado esquerdo em Email, Anúncios de exibição e Anúncios de mídia paga, substituindo a gaveta inferior anterior. Essa atualização mantém a mesma funcionalidade principal enquanto melhora o layout e a consistência do espaço de trabalho ao gerar conteúdo.
+
+### Geração de e-mails com vários pods de até 10 seções
+
+Agora você pode criar emails com até 10 pods/seções no [!DNL Create], expandindo a geração de emails de vários pods além do limite anterior de 1-3 pods. Esse aprimoramento permite layouts de email mais avançados e estruturados em um fluxo de geração única, sem compilar o conteúdo em várias etapas.
+
+### Content Credentials para autenticidade de ativos
+
+[!BADGE Beta]{type=Informative tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."}
+
+O GenStudio for Performance Marketing agora é compatível com o Content Credentials, permitindo que as equipes apliquem e preservem metadados de autenticidade em ativos durante a criação, a revisão e a exportação. Medalhas de credencial e detalhes são exibidos em fluxos de trabalho importantes para que as organizações possam verificar a origem e manter a confiança ao compartilhar conteúdo.
+
+## Notas de versão anteriores
+
++++Notas de 2025.12.12
 
 ### Troca de logotipo para modelos
 
 Agora os profissionais de marketing podem trocar logotipos dinamicamente dentro de modelos diretamente no fluxo de trabalho do [!DNL Create], eliminando a necessidade de criar várias variações de modelo para logotipos de marcas, submarcas ou linhas de produto diferentes. Esse recurso permite que os criadores selecionem ou troquem o logotipo apropriado no momento da criação do conteúdo, simplificando o gerenciamento de modelos e reduzindo a sobrecarga de produção.
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2025.11.14
 
@@ -67,8 +85,6 @@ Agora os profissionais de marketing podem trocar logotipos dinamicamente dentro 
 * O fluxo do [!DNL Experience Translations] foi otimizado junto com o novo recurso de tradução para email e mídia paga.
 
 +++
-
-## Notas de versão anteriores
 
 +++Notas de 2025.10.16
 
