@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
-   ![Escolher persona](/help/assets/persona-select-linkedin2.png){width="300" align="center"}
+   ![Escolher persona](/help/assets/persona-select-linkedin2.png){width="50%" align="center"}
 
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -118,9 +118,9 @@ Para otimizar as variantes geradas e garantir a estrita adesão à identidade da
 
 1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ações à direita, para abrir o painel [_Verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Veja um resumo das *Verificações de Necessidades de revisão* e *Aprovadas* para ver quais seções e diretrizes precisam ser aprimoradas.
 
-   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){width="300"}
 
-1. [Revise manualmente as variantes](#revise-generated-linkedin-ads) para garantir que suas variantes estejam alinhadas às verificações de conteúdo concluídas.
+2. [Revise manualmente as variantes](#revise-generated-linkedin-ads) para garantir que suas variantes estejam alinhadas às verificações de conteúdo concluídas.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
 

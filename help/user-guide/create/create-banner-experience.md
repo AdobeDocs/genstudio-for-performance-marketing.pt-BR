@@ -7,7 +7,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Para criar uma experiência de banner, use um modelo disponível para fornecer a
 
 Incorporar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompts melhora o processo de geração de conteúdo e é uma etapa preparatória crucial para criar uma experiência de banner.
 
-![Inserir parâmetros na gaveta do prompt](/help/assets/prompt-displayad2.png){width="300" align="center"}
+![Inserir parâmetros na gaveta do prompt](/help/assets/prompt-displayad2.png){width="50%" align="center"}
 
 **Para adicionar parâmetros e ativos**:
 
@@ -127,7 +127,7 @@ Consulte [Análises e aprovações](/help/user-guide/approvals/overview.md).
 Para disponibilizar os banners gerados para uso atual e futuro, publique-o no [!UICONTROL Content] e exporte-o para uso em suas campanhas de marketing.
 
 1. **Para publicar suas novas experiências com o banner**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
-   1. Selecione _[!UICONTROL [!DNL Campaigns]]_&#x200B;e adicione&#x200B;_[!UICONTROL &#x200B; Mais detalhes &#x200B;]_, se desejar.
+   1. Selecione _[!UICONTROL [!DNL Campaigns]]_e adicione_[!UICONTROL  Mais detalhes ]_, se desejar.
    1. Clique em **[!UICONTROL Publicar]**.
 
       ![Publicar um banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

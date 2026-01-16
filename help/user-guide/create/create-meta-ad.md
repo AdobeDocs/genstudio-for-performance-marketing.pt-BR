@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
+source-git-commit: 9ac53f3fc88df095f4098693090dafb9416bda27
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Se você estiver usando um modelo com diretrizes predefinidas (como [!DNL Brands
 1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
-   ![Escolher persona](/help/assets/persona-select-meta2.png){width="300" align="center" zoomable="yes"}
+   ![Escolher persona](/help/assets/persona-select-meta2.png){width="50%" align="center"}
 
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -133,9 +133,9 @@ Para otimizar as variantes geradas e garantir a estrita adesão à identidade da
 
 1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ações à direita, para abrir o painel [_Verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Veja um resumo das *Verificações de Necessidades de revisão* e *Aprovadas* para ver quais seções e diretrizes precisam ser aprimoradas.
 
-   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){width="300"}
 
-1. [Revise manualmente as variantes](#revise-generated-variants) para garantir que suas variantes estejam alinhadas às verificações de conteúdo realizadas.
+2. [Revise manualmente as variantes](#revise-generated-variants) para garantir que suas variantes estejam alinhadas às verificações de conteúdo realizadas.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
 
