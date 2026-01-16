@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Para criar uma experiência de banner, use um modelo disponível para fornecer a
 
 Incorporar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na gaveta de prompts melhora o processo de geração de conteúdo e é uma etapa preparatória crucial para criar uma experiência de banner.
 
+![Inserir parâmetros na gaveta do prompt](/help/assets/prompt-displayad2.png){width="300" align="center"}
+
 **Para adicionar parâmetros e ativos**:
 
 1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
@@ -57,8 +59,6 @@ Quando terminar de adicionar parâmetros, recolha a gaveta do prompt clicando no
 ## Digite um prompt
 
 Depois de selecionar as diretrizes, use a linguagem natural para criar um prompt para iniciar a geração de conteúdo para sua nova experiência com o banner. Para garantir resultados de alta qualidade, é essencial criar avisos detalhados e descritivos.
-
-![Inserir um prompt](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
@@ -103,9 +103,9 @@ Para otimizar as variantes geradas e garantir a estrita adesão à identidade da
 
 1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ações à direita, para abrir o painel [_Verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Veja um resumo das _Verificações de Necessidades de revisão_ e _Aprovadas_ para ver quais seções e diretrizes precisam ser aprimoradas.
 
-   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){width="300"}
 
-1. [Revise manualmente as variantes](#revise-generated-banners) para garantir que suas variantes estejam alinhadas às verificações de conteúdo realizadas.
+2. [Revise manualmente as variantes](#revise-generated-banners) para garantir que suas variantes estejam alinhadas às verificações de conteúdo realizadas.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
 
@@ -127,7 +127,7 @@ Consulte [Análises e aprovações](/help/user-guide/approvals/overview.md).
 Para disponibilizar os banners gerados para uso atual e futuro, publique-o no [!UICONTROL Content] e exporte-o para uso em suas campanhas de marketing.
 
 1. **Para publicar suas novas experiências com o banner**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
-   1. Selecione _[!UICONTROL [!DNL Campaigns]]_&#x200B;e adicione&#x200B;_[!UICONTROL &#x200B; Mais detalhes &#x200B;]_, se desejar.
+   1. Selecione _[!UICONTROL [!DNL Campaigns]]_e adicione_[!UICONTROL  Mais detalhes ]_, se desejar.
    1. Clique em **[!UICONTROL Publicar]**.
 
       ![Publicar um banner](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

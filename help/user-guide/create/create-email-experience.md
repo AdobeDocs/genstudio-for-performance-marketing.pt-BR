@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Se você estiver usando um modelo com diretrizes predefinidas (como [!DNL Brands
 1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
-   ![Escolher persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![Escolher persona](/help/assets/persona-select-email2.png){width="300" align="center"}
 
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 

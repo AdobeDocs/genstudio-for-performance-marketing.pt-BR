@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portanto, algumas funcionalidades podem estar limitadas ou sujeitas a alterações."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
-   ![Escolher persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![Escolher persona](/help/assets/persona-select-linkedin2.png){width="300" align="center"}
 
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 

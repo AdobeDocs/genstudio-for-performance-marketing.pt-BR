@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 81923bf493ec6fa2ed1a2fa655a76b01d7c87bc7
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 
 Se você estiver usando um modelo com diretrizes predefinidas (como [!DNL Brands], [!DNL Personas] ou [!DNL Products]), essas diretrizes se aplicam às suas variantes. Você pode alterá-los se desejar.
 
+![Inserir parâmetros na gaveta do prompt](/help/assets/prompt-displayad2.png){width="300" align="center"}
+
 **Para adicionar parâmetros e ativos**:
 
 1. Clique no ícone _Parâmetros_ para expandir a gaveta do prompt.
@@ -59,14 +61,12 @@ Quando terminar de adicionar parâmetros, recolha a gaveta do prompt clicando no
 
 Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para a nova experiência de anúncio de exibição. Para aprimorar a qualidade das experiências de anúncio de exibição geradas, é fundamental criar prompts detalhados e descritivos.
 
-![Inserir um prompt](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
-
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
 **Para inserir um prompt**:
 
 1. Digite um prompt na caixa de prompt _&quot;Descrever as experiências que você deseja gerar&quot;_.
-1. Clique em **[!UICONTROL Gerar]**.
+2. Clique em **[!UICONTROL Gerar]**.
 
 Por padrão, quatro variações, alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado, são geradas e exibidas na Tela de desenho.
 
@@ -106,9 +106,9 @@ Para otimizar as variantes geradas e garantir a estrita adesão à identidade da
 
 1. Clique no ícone do painel _Verificação de conteúdo_, na barra de ações à direita, para abrir o painel [_Verificação de conteúdo_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Veja um resumo das *Verificações de Necessidades de revisão* e *Aprovadas* para ver quais seções e diretrizes precisam ser aprimoradas.
 
-   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Verificação de conteúdo_ painel](/help/assets/content-check-panel.png){width="300"}
 
-1. [Revise manualmente as variantes](#revise-generated-variants) para garantir que suas variantes estejam alinhadas às verificações de conteúdo realizadas.
+2. [Revise manualmente as variantes](#revise-generated-variants) para garantir que suas variantes estejam alinhadas às verificações de conteúdo realizadas.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
 
@@ -130,7 +130,7 @@ Consulte [Análises e aprovações](/help/user-guide/approvals/overview.md).
 Para disponibilizar os anúncios de exibição gerados para uso atual e futuro, publique-os no [!UICONTROL Conteúdo] e exporte-os para uso em suas campanhas de marketing.
 
 1. **Para publicar sua(s) nova(s) experiência(s) de anúncio de exibição**, clique em **[!UICONTROL Publicar]** na barra de ferramentas superior ou no fluxo de aprovações.
-   1. Selecione _[!UICONTROL [!DNL Campaigns]]_&#x200B;e adicione&#x200B;_[!UICONTROL &#x200B; Mais detalhes &#x200B;]_, se desejar.
+   1. Selecione _[!UICONTROL [!DNL Campaigns]]_e adicione_[!UICONTROL  Mais detalhes ]_, se desejar.
    1. Clique em **[!UICONTROL Publicar]**.
 
       ![Publicar um anúncio de exibição](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
