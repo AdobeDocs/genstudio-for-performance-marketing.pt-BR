@@ -4,9 +4,9 @@ description: Saiba como usar os recursos aprimorados de filtro com Insights.
 level: Intermediate
 feature: Reporting and Insights
 exl-id: fbc53c2a-388c-4b51-94e2-626cd1e18e63
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 0eeb41597d547bf806b1728541ca85b598d2aa1c
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Com o tempo, sua lista de campanhas e anúncios pode crescer exponencialmente. C
 
    ![Lista de campanhas](/help/assets/insights-select-campaigns-list.png "Selecionar campanhas a serem incluídas")
 
-As campanhas selecionadas agora aparecem na lista _[!UICONTROL Filtrar por]_ acima da tabela de anúncios ou galeria. Você pode se concentrar exclusivamente nos anúncios vinculados às campanhas escolhidas. Neste exemplo, os resultados filtrados incluem 6 anúncios, fornecendo uma visualização mais direcionada para análise.
+As campanhas selecionadas agora aparecem na lista _[!UICONTROL Filtrar por]_ acima da tabela de anúncios ou galeria. Você pode se concentrar exclusivamente nos anúncios vinculados às campanhas escolhidas. Neste exemplo, os resultados filtrados fornecem uma visualização mais direcionada para análise.
 
 ![Tabela filtrada por campanhas](/help/assets/insights-filter-by-campaigns.png "Tabela com filtro de campanhas"){zoomable="yes"}
 
