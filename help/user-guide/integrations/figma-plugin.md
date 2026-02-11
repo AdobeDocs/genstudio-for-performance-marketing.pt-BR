@@ -3,9 +3,10 @@ title: Plug-in Figma para Adobe GenStudio for Performance Marketing
 description: Saiba como configurar e usar o plug-in do Figma para GenStudio for Performance Marketing.
 feature: Generative AI
 role: User
-source-git-commit: bb6b8de80bdf6089e70756bea5dbf3e6a7945052
+exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
+source-git-commit: c6080555812fa82a7b71eee7e2deb963a881d9f4
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '2124'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Os recursos deste plug-in incluem:
 * Exportação gerada [!DNL Experiences] para o GenStudio for Performance Marketing.
 * Use as opções de plug-in que se adaptam aos elementos selecionados na tela do Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478814?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Criar um modelo
 
@@ -146,6 +147,117 @@ As opções incluem:
 | **[!UICONTROL Ampliar]** | Gere uma variação mais longa do texto. |
 
 Depois de selecionar uma opção **[!UICONTROL Ação]**, gere novamente o conteúdo com o botão **[!UICONTROL Gerar novamente]**.
+
+## Gerar uma imagem
+
+Gere imagens para usar em seus modelos usando um prompt de texto.
+
+1. Selecione **[!UICONTROL Gerar Imagem]**.
+1. Selecione um modelo no menu suspenso. Você também pode escolher qualquer modelo personalizado que tenha criado.
+1. Selecione o ícone de configurações para ajustar as configurações de geração.
+1. Opcional: Selecione uma taxa de proporção.
+1. Opcional: Ajuste o estilo da imagem seguindo um destes procedimentos:
+   * Carregue uma imagem de referência do seu dispositivo ou AEM selecionando **[!UICONTROL Carregar imagem]**.
+   * Escolha uma das imagens de estoque da Adobe selecionando **[!UICONTROL Procurar na Galeria]**.
+   * Escolha um valor de intensidade usando o controle deslizante. A força ajusta a estrita aderência do Firefly ao estilo fornecido.
+1. Selecione o botão **&lt;**.
+1. Digite um prompt.
+1. Selecione o ícone Gerar. As imagens são exibidas no painel do plug-in.
+1. Traga imagens para a tela de desenho usando um destes métodos:
+   * Arraste e solte qualquer imagem na tela de desenho.
+   * Selecione um quadro na tela de desenho do Figma e selecione uma imagem na janela de plug-in para inserir no quadro.
+   * Selecione o ícone de upload para fazer upload de uma imagem na tela.
+   * Selecione os 3 pontos e **[!UICONTROL Baixe tudo para o Figma]**.
+1. Opcional: Selecione os 3 pontos para executar outras ações:
+   * Selecione **[!UICONTROL Gerar mais]** para executar o prompt novamente.
+   * Selecione **[!UICONTROL Copiar prompt]** para copiar o prompt.
+1. Opcional: Selecione o ícone de lápis para usar o preenchimento Gerativo e Gerar ações semelhantes em uma única imagem.
+
+## Gerar imagens semelhantes
+
+Gere um conjunto de imagens semelhantes.
+
+1. Selecione o cartão **[!UICONTROL Gerar semelhante]**.
+1. Selecione uma imagem como referência seguindo um destes procedimentos:
+   * Selecione uma imagem na tela de desenho Figma.
+   * Selecione **[!UICONTROL Carregar imagem]** para carregar do seu dispositivo.
+   * Selecione **[!UICONTROL Procurar ativos do AEM]** para carregar do AEM.
+1. Selecione o ícone Gerar. As variações aparecem no painel de plug-in.
+1. Traga imagens para a tela de desenho usando um destes métodos:
+   * Arraste e solte qualquer imagem na tela de desenho.
+   * Selecione um quadro na tela de desenho do Figma e selecione uma imagem na janela de plug-in para inserir no quadro.
+   * Selecione o ícone de upload para fazer upload de uma imagem na tela.
+   * Selecione os 3 pontos e **[!UICONTROL Baixe tudo para o Figma]**.
+1. Opcional: Selecione os 3 pontos para executar outras ações:
+   * Selecione **[!UICONTROL Gerar mais]** para executar o prompt novamente.
+1. Opcional: Selecione o ícone de lápis para usar o preenchimento Gerativo e Gerar ações semelhantes em uma única imagem.
+
+## Remover fundo
+
+Remover o plano de fundo de uma imagem.
+
+1. Selecione o cartão **[!UICONTROL Remover Plano de Fundo]**.
+1. Selecione uma imagem como referência seguindo um destes procedimentos:
+   * Selecione uma imagem na tela de desenho Figma.
+   * Selecione **[!UICONTROL Carregar imagem]** para carregar do seu dispositivo.
+   * Selecione **[!UICONTROL Procurar ativos do AEM]** para carregar do AEM.
+1. Selecione **[!UICONTROL Remover]**. Se a imagem tiver sido selecionada na tela de desenho, ela será substituída na tela de desenho Figma. Se a imagem tiver sido selecionada de um dispositivo ou AEM, você poderá arrastar e soltar a imagem na tela ou selecionar **[!UICONTROL Inserir Imagem]** para colocar a imagem na tela.
+
+## Preenchimento Gerativo
+
+Aplique preenchimentos generativos para uma área de uma imagem.
+
+1. Selecione o cartão **[!UICONTROL Preenchimento Gerativo]**.
+1. Selecione uma imagem como referência seguindo um destes procedimentos:
+   * Selecione uma imagem na tela de desenho Figma.
+   * Selecione **[!UICONTROL Carregar imagem]** para carregar do seu dispositivo.
+   * Selecione **[!UICONTROL Procurar ativos do AEM]** para carregar do AEM.
+1. Selecione a ferramenta Pincel e crie uma máscara.
+1. Opcional: Selecione o cursor suspenso e ajuste o tamanho do pincel.
+1. Selecione o botão de redefinição para remover a máscara.
+1. Opcionalmente, selecione o ícone remover plano de fundo para remover o plano de fundo.
+1. Digite um prompt para orientar a geração da máscara selecionada e selecione o botão **[!UICONTROL Gerar]**.
+1. Traga imagens para a tela de desenho usando um destes métodos:
+   * Arraste e solte qualquer imagem na tela de desenho.
+   * Selecione um quadro na tela de desenho do Figma e selecione uma imagem na janela de plug-in para inserir no quadro.
+   * Selecione o ícone de upload para fazer upload de uma imagem na tela.
+   * Selecione os 3 pontos e **[!UICONTROL Baixe tudo para o Figma]**.
+1. Opcional: Selecione os 3 pontos para executar outras ações:
+   * Selecione **[!UICONTROL Copiar prompt]** para copiar o prompt.
+1. Opcional: Selecione o ícone de lápis para usar o preenchimento Gerativo e Gerar ações semelhantes em uma única imagem.
+
+## Avisar para editar
+
+Edite o conteúdo de uma imagem com um prompt de texto.
+
+1. Selecione o cartão **[!UICONTROL Avisar para editar]**.
+1. Selecione uma imagem como referência seguindo um destes procedimentos:
+   * Selecione uma imagem na tela de desenho Figma.
+   * Selecione **[!UICONTROL Carregar imagem]** para carregar do seu dispositivo.
+   * Selecione **[!UICONTROL Procurar ativos do AEM]** para carregar do AEM.
+1. Selecione o ícone de configurações para ajustar as configurações de geração.
+1. Opcional: Selecione uma taxa de proporção e o botão **&lt;**.
+1. Digite um prompt para orientar a geração e selecione o botão **[!UICONTROL Gerar]**.
+1. Traga imagens para a tela de desenho usando um destes métodos:
+   * Arraste e solte qualquer imagem na tela de desenho.
+   * Selecione um quadro na tela de desenho do Figma e selecione uma imagem na janela de plug-in para inserir no quadro.
+   * Selecione o ícone de upload para fazer upload de uma imagem na tela.
+   * Selecione os 3 pontos e **[!UICONTROL Baixe tudo para o Figma]**.
+1. Opcional: Selecione os 3 pontos para executar outras ações:
+   * Selecione **[!UICONTROL Gerar mais]** para executar o prompt novamente.
+   * Selecione **[!UICONTROL Copiar prompt]** para copiar o prompt.
+1. Opcional: Selecione o ícone de lápis para usar o preenchimento Gerativo e Gerar ações semelhantes em uma única imagem.
+
+## Expansão gerativa
+
+Expanda as dimensões das suas imagens e adicione conteúdo generativo com a expansão Gerativa. A expansão gerativa permite transformar imagens ajustadas na proporção mais adequada para modelos de Banners, Meta ads, anúncios do LinkedIn ou anúncios de exibição.
+
+1. Selecione o cartão **[!UICONTROL Expansão Gerativa]**.
+1. Selecione uma imagem na tela de desenho.
+1. Redimensione o quadro Gen Expand Temporary para as novas dimensões desejadas.
+1. Opcional: mova a imagem para qualquer lugar dentro do quadro.
+1. Digite um prompt para orientar a geração e selecione o botão **[!UICONTROL Gerar]**.
+1. Selecione qualquer imagem na tela para substituir a imagem original pelo resultado gerado.
 
 ## Exportar experiências
 
