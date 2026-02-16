@@ -29,7 +29,7 @@ Os recursos deste plug-in incluem:
 * Exportação gerada [!DNL Experiences] para o GenStudio for Performance Marketing.
 * Use as opções de plug-in que se adaptam aos elementos selecionados na tela do Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478814?captions=por_br&learn=on)
 
 ## Criar um modelo
 
