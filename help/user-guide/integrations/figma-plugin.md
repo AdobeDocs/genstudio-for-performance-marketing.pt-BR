@@ -4,9 +4,9 @@ description: Saiba como configurar e usar o plug-in do Figma para GenStudio for 
 feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
-source-git-commit: e585c6ff70198fe572b21252ab00b9b1ad368d02
+source-git-commit: 4ab7e82336bfa6907331b0684253e48066e7d021
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 0%
 # Plug-in Figma para GenStudio for Performance Marketing
 
 O plug-in Figma do GenStudio for Performance Marketing adiciona um novo painel ao aplicativo Figma que permite gerar conteúdo na marca.
+[Localize e instale o plug-in do Marketplace da comunidade Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 Esta página descreve como configurar e usar o plug-in.
 
@@ -28,7 +29,7 @@ Os recursos deste plug-in incluem:
 * Exportação gerada [!DNL Experiences] para o GenStudio for Performance Marketing.
 * Use as opções de plug-in que se adaptam aos elementos selecionados na tela do Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478814?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Criar um modelo
 
