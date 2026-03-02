@@ -3,12 +3,12 @@ title: Gerenciamento de dados
 description: Saiba mais sobre a assimilação e o armazenamento de dados do  [!DNL Insights]  no GenStudio for Performance Marketing.
 feature: Reporting and Insights
 level: Experienced
-role: Admin, Data Architect
+role: Admin, Developer
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 7cd8067ab272da971ad41a3853c0fa52c328cf0a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Tenha cuidado e não exclua as seguintes conexões de dados necessárias para qu
 - Conexões do AEP: fluxos de dados com o prefixo `GS Insights`
 - Conexões da AEP: conta do GS Insights
 
-Consulte [Excluir implicações](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/deletion) no guia do _Customer Journey Analytics_ antes de excluir quaisquer componentes de dados no AEP.
+Consulte [Excluir implicações](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) no guia do _Customer Journey Analytics_ antes de excluir quaisquer componentes de dados no AEP.
 
 >[!ENDSHADEBOX]
 

@@ -2,14 +2,14 @@
 title: Conectar a um  [!DNL AEM Assets Content Hub] Repositório
 description: Saiba como conectar o Adobe GenStudio for Performance Marketing a um repositório do Adobe Experience Manager (AEM) [!DNL Content Hub] e aproveitar o conteúdo aprovado existente.
 level: Experienced
-role: Admin, Data Engineer
+role: Admin, Developer
 feature: Content Management
 recommendations: noDisplay
 exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '387'
+ht-degree: 3%
 
 ---
 
@@ -39,20 +39,20 @@ Depois de habilitar [!DNL AEM Assets Content Hub], você terá uma nova instânc
 
 No [!DNL Admin Console], adicione um usuário ou grupo de usuários do GenStudio for Performance Marketing ao perfil de produto [!DNL AEM Assets Content Hub]. Se um revisor de conteúdo não tiver acesso à mesma organização do repositório [!DNL AEM Assets Content Hub], ele poderá ter dificuldades para revisar e aprovar o conteúdo.
 
-- [Integrar [!DNL Content Hub] administrador](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
-- [Integrar [!DNL Content Hub] usuários](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
+- [Integrar [!DNL Content Hub] administrador](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-administrator)
+- [Integrar [!DNL Content Hub] usuários](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/deploy-content-hub#onboard-content-hub-users)
 
 ## Etapa 3: Aprovar ativos
 
 Aprove ativos para uso no [!DNL AEM Assets Content Hub], que os disponibiliza no GenStudio for Performance Marketing.
 
-Consulte [Aprovar ativos no Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) na documentação do _AEM as a Cloud Service_.
+Consulte [Aprovar ativos no Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) na documentação do _AEM as a Cloud Service_.
 
 ## Etapa 4: configurar a visibilidade do ativo
 
 Nas opções de configuração do _[!DNL AEM Assets Content Hub]_, analise cada conjunto de opções de configuração para filtros, detalhes de ativos, pesquisa e identidade visual.
 
-Consulte [Configurar interface do usuário do Content Hub](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) na documentação do _AEM as a Cloud Service_.
+Consulte [Configurar interface do usuário do Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/configure-content-hub-ui-options) na documentação do _AEM as a Cloud Service_.
 
 ## Etapa 5: verificar a conexão
 

@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 71b46454fa6fe2037ea6b103c0dfeedad74b8919
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -39,12 +39,12 @@ Consulte [Elementos do modelo](use-templates.md#template-elements).
 
 O texto para espaço reservado pode ajudar a definir a sintaxe ou a estrutura do conteúdo a ser preenchido posteriormente em um modelo por um usuário. Por exemplo, {first_name}.{last_name}@email.etc. para definir um endereço de email. No entanto, alguns delimitadores comuns já estão reservados para outros significados no GenStudio for Performance Marketing:
 
-❌ &lt; > - Em uso para tags HTML.
-❌ {{ }}{{ }} - Em uso para expressões Handlebar.
+❌ `< >` - Em uso para marcas HTML.
+❌ `{{ }}` - Em uso para expressões Handlebar.
 
 Use colchetes simples (sejam retos ou curvos) para indicar o texto do espaço reservado e evitar confusão com as tags existentes.
 
-✅ {first_name} - Espaço reservado para nome.
+✅ `{first_name}` - Espaço reservado para nome.
 
 ## Configurar diretrizes do canal
 
