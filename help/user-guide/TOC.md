@@ -107,5 +107,5 @@ ht-degree: 18%
    + [Visão geral das integrações](integrations/overview.md)
    + [Plug-in do Photoshop](integrations/photoshop-plugin.md)
    + [Plugin de diagramas](integrations/figma-plugin.md)
-+ {hide-from-toc}[GenStudio Academy - Oculto](genstudioacademy.md)
-+ {hide-from-toc}[Marcação de teste - Oculta](test-markdown.md)
++ [hide-from-tocGenStudio Academy - Oculto](genstudioacademy.md)
++ [hide-from-tocMarcação de teste - Oculta](test-markdown.md)
