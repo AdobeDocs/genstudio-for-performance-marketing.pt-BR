@@ -5,16 +5,35 @@ level: Beginner
 feature: Generative AI, Guidelines
 role: Admin
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 4bef680734ee3369c13b10088fd39f22995a5f0f
+TQID: https://experienceleague.adobe.com/H1MbYm5RniRbZBous-F4nBi-2h5RD1AG4IgydlP22-c
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 1%
+source-wordcount: 1155
+ht-degree: 10%
 
 ---
 
 # Funções e permissões do usuário
 
-A criação e a implantação de campanhas de marketing modernas exigem a colaboração entre as partes interessadas com diferentes responsabilidades e conjuntos de habilidades. _Funções do usuário_ controlam o acesso das partes interessadas aos vários recursos da GenStudio for Performance Marketing. Sua função de usuário atribuída determina as tarefas que você pode executar usando essa plataforma. Um administrador de sistema do Adobe atribui você a uma função no perfil de produto do GenStudio no Adobe Admin Console. O email de boas-vindas identifica a função atribuída.
+A criação e a implantação de campanhas de marketing modernas exigem a colaboração entre as partes interessadas com diferentes responsabilidades e conjuntos de habilidades. _As funções de usuário_ controlam o acesso das partes interessadas aos vários recursos da GenStudio for Performance Marketing. Sua função de usuário atribuída determina as tarefas que você pode executar usando essa plataforma. Um administrador de sistema do Adobe atribui você a uma função no perfil de produto do GenStudio no Adobe Admin Console. O email de boas-vindas identifica a função atribuída.
 
 >[!NOTE]
 >
@@ -26,7 +45,7 @@ Esses títulos de função de usuário podem parecer semelhantes, mas identifica
 
 **Os administradores do sistema do Adobe** têm privilégios de usuário avançado no Adobe Admin Console e executam todas as tarefas de gerenciamento de usuários, como adicionar ou excluir usuários. Essa função de administrador do sistema não fornece privilégios no aplicativo do GenStudio for Performance Marketing, o que explica por que os administradores de sistema do Adobe não exigem uma licença para o GenStudio. Os administradores de sistema do Adobe geralmente usam o Admin Console para adicionar e excluir contas de usuário de implantações do GenStudio e atribuir ou remover direitos ou permissões de usuários individuais ou grupos de usuários.
 
-Os **gerentes de sistema do GenStudio** são usuários avançados do GenStudio for Performance Marketing, mas não têm permissão para executar tarefas no Adobe Admin Console. Esta função de gerente de sistema requer uma licença de produto do GenStudio e corresponde a um Usuário Avançado na [Descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Os gerentes de sistema da GenStudio têm direito total aos recursos do GenStudio for Performance Marketing, incluindo criação, exclusão, atualização e publicação do [!DNL Brands], [!DNL Persona] e [!DNL Product]. A [Descrição de Produto do Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica como as funções de usuário do GenStudio estão relacionadas às licenças de produto.
+Os **gerentes de sistema do GenStudio** são usuários avançados do GenStudio for Performance Marketing, mas não têm permissão para executar tarefas no Adobe Admin Console. Esta função de gerente de sistema requer uma licença de produto do GenStudio e corresponde a um Usuário Avançado na [Descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). Os gerentes de sistema da GenStudio têm direito total aos recursos do GenStudio for Performance Marketing, incluindo criação, exclusão, atualização e publicação do [!DNL Brands], [!DNL Persona] e [!DNL Product]. [Descrição de produto do Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) explica como as funções de usuário do GenStudio estão relacionadas às licenças de produto.
 
 Consulte [Funções administrativas](https://helpx.adobe.com/br/enterprise/using/admin-roles.html#enterprise) no _Guia de administração de empresas e equipes_.
 
@@ -56,7 +75,7 @@ Os editores interagem com as tecnologias de IA gerativa da GenStudio for Perform
 
 A tabela a seguir exibe as permissões padrão do editor:
 
-| Destaque | Criar | Atualizar o | Excluir | Exibir |
+| Recurso | Criar | Atualização | Excluir | Exibir |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | não | não | não | sim |
 | [!DNL Campaigns] | sim | sim | sim | sim |
@@ -78,7 +97,7 @@ Os colaboradores incluem participantes essenciais para o sucesso do processo de 
 
 A tabela a seguir exibe as permissões padrão do colaborador:
 
-| Destaque | Criar | Atualizar o | Excluir | Exibir |
+| Recurso | Criar | Atualização | Excluir | Exibir |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | não | não | não | sim |
 | [!DNL Campaigns] | sim | sim | sim | sim |
@@ -96,7 +115,7 @@ _os gerenciadores de sistemas do GenStudio_ têm o conjunto de permissões mais 
 
 A tabela a seguir exibe as permissões padrão do gerenciador de sistemas:
 
-| Destaque | Criar | Atualizar o | Excluir | Exibir |
+| Recurso | Criar | Atualização | Excluir | Exibir |
 |-----------|----------------|----------------|----------------|----------------|
 | [!DNL Brands] | sim | sim | sim | sim |
 | [!DNL Campaigns] | sim | sim | sim | sim |

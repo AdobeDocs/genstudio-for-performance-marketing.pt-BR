@@ -5,9 +5,30 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a4df9c81339a8fe5197200d58abc8b48df59da6f
+TQID: https://experienceleague.adobe.com/ZBEIHvBGmsFQ42jATObuO7IeANKc3CXCmhJ20p5-QCs
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: afc6e550-6640-4eb4-a143-75ec86d23a66
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: cec71013-cf14-4e28-b808-3d3060935bcb
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: 2499
 ht-degree: 0%
 
 ---
@@ -26,7 +47,7 @@ Ao criar variantes de um modelo com diretrizes de canal predefinidas (como [!DNL
 
 ## Adicionar marcas
 
-Para adicionar uma [!DNL Brand], [carregue um guia de marca](#upload-a-brand) ou [crie uma marca manualmente](#manually-add-brand) selecionando diretrizes e inserindo detalhes da sua marca. [Publique um [!DNL Brand]](#publish-brand) em [!DNL Content] para torná-lo disponível para uso na geração de conteúdo futura.
+Para adicionar uma [!DNL Brand], [carregue um guia de marca](#upload-a-brand) ou [crie uma marca manualmente](#manually-add-brand) selecionando diretrizes e inserindo detalhes da sua marca. [Publique um  [!DNL Brand]](#publish-brand) em [!DNL Content] para torná-lo disponível para uso na geração futura de conteúdo.
 
 Na área de navegação esquerda, clique em **[!DNL Brands]** na lista _Compartilhado_.
 
@@ -310,7 +331,7 @@ Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**&#
 
 O [!DNL Audiences] fornece segmentos de clientes direcionados do Adobe Real-Time Customer Data Platform (RTCDP), trazendo dados precisos de direcionamento para o fluxo de trabalho de geração de conteúdo. O GenStudio for Performance Marketing aproveita as definições de público-alvo para ajudar você a criar conteúdo de marketing personalizado alinhado a segmentos de clientes específicos.
 
-[!DNL Audiences] aparecem como uma lista suspensa no painel de parâmetros, no [fluxo de trabalho _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ pode adicionar especificidade a _[!DNL Personas]_&#x200B;quando ambas as diretrizes são usadas, mas também pode ser efetivamente usada de forma independente.
+[!DNL Audiences] aparecem como uma lista suspensa no painel de parâmetros, no [fluxo de trabalho _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ O pode adicionar especificidade a _[!DNL Personas]_&#x200B;quando ambas as diretrizes são usadas, mas também pode ser efetivamente usado de forma independente.
 
 Durante a integração, as definições de público-alvo são importadas e transformadas em um formato compatível com o GenStudio. Normalmente, esse processo leva alguns dias para ser concluído. Entre em contato com a equipe do Adobe para iniciá-lo.
 

@@ -4,10 +4,23 @@ description: Saiba mais sobre a atribuição de direitos para criadores e editor
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
+TQID: https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 1%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -21,7 +34,7 @@ Adicionar usuários e grupos de usuários é uma tarefa básica comum a todos os
 
 Assista a esta apresentação em vídeo ou siga as etapas abaixo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475002?learn=on&enablevpops&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3475002?captions=por_br&learn=on&enablevpops)
 
 ## Etapa 1: Criar um grupo de usuários
 
@@ -93,7 +106,7 @@ Um _projeto_ fornece um local de armazenamento onde usuários selecionados podem
 
 1. Digite `Adobe GenStudio Brands` no campo de nome do projeto. Digite este nome de projeto exatamente como exibido aqui. Não inclua espaços extras nem altere a caixa da letra.
 
-1. Clique em **[!UICONTROL Criar]**. A janela pop-up _Convidar para projeto_ é aberta.
+1. Clique em **[!UICONTROL Create]**. A janela pop-up _Convidar para projeto_ é aberta.
 
 Consulte [Gerenciar projetos](https://helpx.adobe.com/br/enterprise/using/projects-in-business-storage.html) no _Guia de administração de empresas e equipes_.
 

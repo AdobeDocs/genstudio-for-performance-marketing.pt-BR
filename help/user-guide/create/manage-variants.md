@@ -3,9 +3,28 @@ title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/2VdZdQv90JGEpCM7BE4egbz933eotbeePy3ze35mM0o
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: 2125
 ht-degree: 0%
 
 ---
@@ -49,7 +68,7 @@ As opções de formatação de texto variam de acordo com o canal (Meta, email, 
 1. Insira o novo texto.
 1. Para formatar o texto, realce o texto aplicável e clique em **[!UICONTROL Formatar texto**].
 
-   Aplique qualquer uma (ou todas!) das opções de formatação disponíveis ao texto.
+   Aplicar qualquer (ou todos!) das opções de formatação disponíveis para o texto.
 
 1. Clique no campo de texto para salvá-lo.
 
@@ -297,7 +316,7 @@ O feedback de geração é aplicável a uma variante individual, não para o con
 
 1. Adicione as seguintes informações no pop-up de feedback:
    1. Selecione a opção _[!UICONTROL Incluir também seu conteúdo de referência e dados de camada]_ para incluir essas informações de referência extras no feedback coletado.
-   1. A partir do _[!UICONTROL O que funcionou bem?]_ ou _[!UICONTROL O que deu errado?]_, selecione as opções que descrevem o que torna a geração de conteúdo de alta ou baixa qualidade.
+   1. Do _[!UICONTROL O que funcionou bem?]_ ou _[!UICONTROL O que deu errado?]_ selecione as opções que descrevem o que torna a geração de conteúdo de alta ou baixa qualidade.
    1. Adicione outras informações úteis ou relacionadas no campo _[!UICONTROL Notas]_.
 1. Clique em **[!UICONTROL Enviar]**.
 

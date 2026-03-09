@@ -3,10 +3,20 @@ title: Integração do Workfront Proof com revisão e aprovações
 description: Integração do Workfront Proof com o Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 149db773-4787-4cfb-b29e-c49f13abf39a
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+TQID: https://experienceleague.adobe.com/G9e9Ft0l9OmSX1lCJY8syzP2-pIswt0MkCpOYlox-Zk
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 0%
+source-wordcount: 910
+ht-degree: 1%
 
 ---
 
@@ -38,14 +48,14 @@ A tabela abaixo compara os recursos padrão de revisão e aprovação do GenStud
 
 | Recurso        | GenStudio for Performance Marketing                                                                 | Workfront Proof                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **Ciclo de vida de rascunho/prova**        | O conteúdo de rascunho expira após a publicação. | Cadeias de aprovação de vários estágios, baseadas em função, com registros persistentes com carimbo de data e hora.<br> Todas as versões são retidas indefinidamente. |
+| **Ciclo de vida de rascunho/prova**        | O conteúdo de rascunho expira após a publicação. | Cadeias de aprovação de vários estágios, baseadas em função, com logs persistentes com carimbo de data/hora.<br> Todas as versões são mantidas indefinidamente. |
 | **Comentários**                | Os comentários são vinculados à ID de rascunho e descartados após a publicação.                                           | Comentários e anotações persistentes são retidos para auditoria e conformidade.     |
 | **Versões**           | Os rascunhos são tratados como instâncias exclusivas.<br>Nenhuma comparação lado a lado.                                      | Controle completo da versão com ferramentas de comparação lado a lado e de sobreposição.        |
 | **Gerenciamento de projetos** | Gerenciamento básico de campanhas. | Gerenciamento completo do ciclo de vida da campanha, incluindo personalização, modelos, relatórios e auditorias detalhadas. |
 
 ### Licenças e funções de usuário
 
-As licenças identificam o conjunto de direitos do usuário em um produto. O Workfront Proof fornece mais tipos de licença ou funções de usuário do que o GenStudio for Performance Marketing. [Visão geral das funções de prova](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) apresenta as funções de usuário associadas ao fluxo de trabalho de revisão e aprovação do Workfront Proof.
+As licenças identificam o conjunto de direitos do usuário em um produto. O Workfront Proof fornece mais tipos de licença ou funções de usuário do que o GenStudio for Performance Marketing. [A visão geral das funções de prova](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) apresenta as funções de usuário associadas ao fluxo de trabalho de revisão e aprovação do Workfront Proof.
 
 | Licença do GenStudio for Performance Marketing       | Licença do Workfront                 | Descrição                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,7 +67,7 @@ Os administradores de sistema da Adobe gerenciam o provisionamento de usuários 
 
 >[!NOTE]
 >
-> A Workfront Proof fornece [funções de usuário adicionais](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). Nem todas as funções estão visíveis no Marketing de desempenho. No entanto, o sistema respeita qualquer função definida em um modelo do Workfront Proof.
+>A Workfront Proof fornece [funções de usuário adicionais](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). Nem todas as funções estão visíveis no Marketing de desempenho. No entanto, o sistema respeita qualquer função definida em um modelo do Workfront Proof.
 
 ### Rascunhos e provas
 
