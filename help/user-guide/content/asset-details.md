@@ -3,10 +3,16 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/Hm7qcrP6VcXf6IqZ2pYybduNyjjV8kdWj571gcRpglI
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 0%
+source-wordcount: 732
+ht-degree: 1%
 
 ---
 
@@ -32,7 +38,7 @@ O ativo de imagem a seguir contém metadados do sistema que descrevem o tipo de 
 
 >[!NOTE]
 >
->O Assets dos repositórios AEM exibe metadados diferentes. Consulte [Configurar visibilidade do ativo](connect-aem-repo.md#step-4-configure-asset-visibility) para saber como configurar detalhes do ativo [!DNL AEM Assets Content Hub].
+O Assets dos repositórios AEM exibe metadados diferentes. Consulte [Configurar visibilidade do ativo](connect-aem-repo.md#step-4-configure-asset-visibility) para saber como configurar detalhes do ativo [!DNL AEM Assets Content Hub].
 
 ## Metadados do sistema
 
@@ -68,7 +74,7 @@ Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), vo
 
 A tabela a seguir detalha os metadados (detalhes do ativo) que você pode definir ao criar um ativo.
 
-| Texto | Descrição |
+| Campo | Descrição |
 | -------------- | ----------- |
 | Título | Nome do ativo; o título padrão pode ser o nome do arquivo original |
 | [!DNL Campaigns] | [[!DNL Campaigns]](/help/user-guide/campaigns/overview.md) inclua conteúdo promocional com mensagens consistentes para atingir uma meta comercial<br>Ao clicar em um link de campanha, você será direcionado para a página de visão geral da campanha |
@@ -83,7 +89,7 @@ A tabela a seguir detalha os metadados (detalhes do ativo) que você pode defini
 
 >[!TIP]
 >
->Clique em **[!UICONTROL Editar detalhes]** (lápis) para editar os metadados do ativo. Por exemplo, você pode alterar o nome do ativo ou adicionar ou remover palavras-chave.
+Clique em **[!UICONTROL Editar detalhes]** (lápis) para editar os metadados do ativo. Por exemplo, você pode alterar o nome do ativo ou adicionar ou remover palavras-chave.
 
 ## Contexto gerativo
 

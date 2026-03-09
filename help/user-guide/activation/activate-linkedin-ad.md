@@ -3,9 +3,15 @@ title: Ativar um anúncio do LinkedIn
 description: Saiba como ativar uma experiência de anúncio do LinkedIn.
 feature: Ad Activation
 exl-id: edc95319-36c3-4cbf-a5c0-865b49482b50
-source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
+TQID: https://experienceleague.adobe.com/1mcxWePqYd8tYp3e1D2UTSeBHSvPj4WrqeSyiUCxD8c
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 863
 ht-degree: 0%
 
 ---
@@ -60,7 +66,7 @@ Os detalhes da experiência editável incluem:
 
 **Para selecionar experiências**:
 
-1. Use as ferramentas de pesquisa e filtro da galeria [!DNL Content] para identificar a experiência que você deseja ativar e clique em **[!UICONTROL Ativar]**. Como alternativa, selecione uma experiência e selecione **[!UICONTROL Ativar]** no menu mais (...).
+1. Use as ferramentas de pesquisa e filtro da galeria [!DNL Content] para identificar a experiência que você deseja ativar e clique em **[!UICONTROL Ativar]**. Como alternativa, você pode selecionar uma experiência e selecionar **[!UICONTROL Ativar]** entre os mais (...) menu.
 
    A página _Configuração da experiência_ dos anúncios do LinkedIn é aberta para esta experiência. Ela é pré-preenchida com detalhes da experiência selecionada. Talvez seja necessário selecionar uma plataforma antes de continuar com a ativação.
 

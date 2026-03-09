@@ -3,9 +3,16 @@ title: Content Credentials para organizações
 description: Saiba como aplicar e revisar o Content Credentials no GenStudio for Performance Marketing.
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: 488bc7d7b7447ee6e807dd91f83766844c24abb9
+exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
+TQID: https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -33,11 +40,11 @@ Os administradores são responsáveis por fazer upload de um certificado X.509 v
 
 ## O que são Content Credentials? 
 
-Content Credentials são um tipo de metadados durável e padrão do setor, com detalhes sobre como o conteúdo foi feito e informações de identidade sobre os criadores. O Content Credentials pode ser visualizado quando o conteúdo é publicado online em plataformas de suporte ou usando ferramentas como a [ferramenta Inspect da Adobe](https://contentauthenticity.adobe.com/inspect) ou a [extensão de navegador Adobe Content Authenticity Chrome](https://helpx.adobe.com/br/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials são um tipo de metadados durável e padrão do setor, com detalhes sobre como o conteúdo foi feito e informações de identidade sobre os criadores. O Content Credentials pode ser visualizado quando o conteúdo é publicado online em plataformas de suporte ou usando ferramentas como a [ferramenta Inspect da Adobe](https://contentauthenticity.adobe.com/inspect) ou a [extensão de navegador Adobe Content Authenticity Chrome](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 A aplicação do Content Credentials pode ajudar a aumentar a transparência sobre como o conteúdo foi feito e pode ajudar seus usuários a se conectarem ao conteúdo.
 
-[Saiba mais sobre o Content Credentials](https://helpx.adobe.com/br/creative-cloud/help/content-credentials.html) na Adobe.
+[Saiba mais sobre o Content Credentials](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) na Adobe.
 
 ## Assinatura da marca e rastreamento de ativos
 
@@ -98,4 +105,3 @@ Os arquivos exportados terão credenciais compatíveis com C2PA incorporadas.
 A integridade de credencial é mantida em todos os formatos compatíveis (JPEG, PNG, MP4).
 
 ![Dados de credencial em um ativo exportado](./images/activate-export2.png)
-

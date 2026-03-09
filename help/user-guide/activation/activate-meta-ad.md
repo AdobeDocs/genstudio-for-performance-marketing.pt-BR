@@ -3,9 +3,15 @@ title: Ativar um anúncio do Meta
 description: Saiba como ativar uma experiência de anúncio do Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
+TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: 1931
 ht-degree: 1%
 
 ---
@@ -106,7 +112,7 @@ O [!DNL Content] fornece uma exibição central para os ativos e experiências a
 
 1. Clique em **[!UICONTROL Usar]** para incluir o ativo selecionado na sua experiência com anúncios. A janela _Configuração de experiência_ inclui o ativo em sua taxa de proporção padrão na área _Mídia_. O painel _Visualização_ visualiza o ativo no posicionamento do anúncio que dá suporte a essa taxa de proporção.
 
-Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_&#x200B;será aberta.
+Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_será aberta.
 
 **Para carregar um ativo externo**:
 
@@ -130,7 +136,7 @@ Você pode carregar até seis imagens estáticas externas para a galeria [!DNL C
 
 Use a seção _Texto_ da página _Ativar anúncio do Meta_ para adicionar texto convincente e compatível com a marca aos campos de texto necessários. O texto inclui o texto principal (corpo) do anúncio e do call-to-action. Você não pode editar os campos _Texto primário_, _Títulos_ e _Descrição_. Você pode editar os campos _Call-to-action_, _Exibir link_ e _URL do site_.
 
-| Texto | Obrigatório | Limite de caracteres (máximo) |
+| Campo | Obrigatório | Limite de caracteres (máximo) |
 |-----------------|---------------------------|---------------------------------|
 | Nome do anúncio | sim | 500 |
 | Texto primário | sim | 500 |
@@ -174,7 +180,7 @@ Depois de preparar suas experiências de anúncio, você deve confirmar as infor
 
 ### Criar um novo conjunto de anúncios
 
-Você pode criar um novo conjunto de anúncios durante a configuração da plataforma clonando um conjunto de anúncios existente durante a configuração da plataforma. Os conjuntos de metadados definem o tempo, os detalhes do canal e o público-alvo de um anúncio específico. Uma Meta campanha pode conter vários conjuntos de anúncios, mas um conjunto de anúncios é associado exclusivamente a uma campanha.
+Você pode criar um novo conjunto de anúncios durante a configuração da plataforma clonando um conjunto de anúncios existente durante a configuração da plataforma. Os conjuntos de anúncios do Meta definem o tempo, os detalhes do canal e o público-alvo de um anúncio específico. Uma campanha do Meta pode conter vários conjuntos de anúncios, mas um conjunto de anúncios é associado exclusivamente a uma campanha.
 
 **Para criar um novo conjunto de anúncios**:
 
@@ -198,7 +204,7 @@ Você pode criar um novo conjunto de anúncios durante a configuração da plata
 
 >[!NOTE]
 >
->Se o conjunto de anúncios for criado com êxito, mas não for possível salvar o nome do conjunto de anúncios, o conjunto de anúncios será salvo no Meta Ads Manager com o nome padrão (_nome do conjunto de anúncios original - Cópia_).
+Se o conjunto de anúncios for criado com êxito, mas não for possível salvar o nome do conjunto de anúncios, o conjunto de anúncios será salvo no Meta Ads Manager com o nome padrão (_nome do conjunto de anúncios original - Cópia_).
 
 ### ID de rastreamento
 

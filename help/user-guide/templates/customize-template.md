@@ -5,9 +5,16 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 4f3d8558f37656ccfc67b592e0bb9e90c30a7963
+TQID: https://experienceleague.adobe.com/6gHxPvfz-30X3w2MYIc2Aj5SiGZokzOqSvOHYTQ-u7I
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: 1646
 ht-degree: 0%
 
 ---
@@ -26,7 +33,7 @@ Siga as [diretrizes de acessibilidade](accessibility-for-templates.md) e as [pr�
 
 >[!TIP]
 >
->Os espaços reservados para o conteúdo são **não** o mesmo que o texto de espaço reservado no conteúdo a ser preenchido posteriormente por um usuário. Veja mais sobre [o uso de texto de espaço reservado em modelos](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates).
+Os espaços reservados para o conteúdo são **não** o mesmo que o texto de espaço reservado no conteúdo a ser preenchido posteriormente por um usuário. Veja mais sobre [o uso de texto de espaço reservado em modelos](/help/user-guide/templates/best-practices-for-templates.md#using-placeholder-text-in-templates).
 
 O GenStudio for Performance Marketing reconhece determinados tipos de conteúdo ou [elementos](use-templates.md#template-elements) em um modelo, mas somente se você identificá-los com um [nome de campo reconhecido](#recognized-field-names).
 
@@ -42,7 +49,7 @@ Por exemplo, você pode usar `{{headline}}` com a sintaxe [!DNL Handlebars] para
 
 A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio for Performance Marketing para adicionar um espaço reservado em um modelo. Cada campo segue diretrizes de canal específicas, instruções LLM e regras baseadas em função. Adicione esses nomes de campos usando a sintaxe [!DNL Handlebars] ao modelo em que você precisa do GenStudio for Performance Marketing para gerar um determinado tipo de conteúdo.
 
-| Texto | Função | Modelo de canal |
+| Campo | Função | Modelo de canal |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Pré-cabeçalho | email |
 | `{{headline}}` | Título | email <br>Anúncio do Meta <br>Banner e anúncio de exibição <br>Anúncio do LinkedIn |
@@ -65,13 +72,13 @@ O GenStudio for Performance Marketing gera determinados campos automaticamente n
 
 >[!WARNING]
 >
->Para anúncios do Instagram, o título gerado não aparece na experiência final.
+Para anúncios do Instagram, o título gerado não aparece na experiência final.
 
 Há um limite de 20 campos ao fazer upload de um modelo para o GenStudio for Performance Marketing. Como o campo `subject` é gerado automaticamente em um email, ele conta como um campo. Isso significa que há 19 campos permitidos em um template de email.
 
 >[!TIP]
 >
->Você pode verificar seu modelo usando a [visualização do modelo](#template-preview) no GenStudio for Performance Marketing.
+Você pode verificar seu modelo usando a [visualização do modelo](#template-preview) no GenStudio for Performance Marketing.
 
 ### Planos de ação
 
@@ -245,7 +252,7 @@ A GenStudio for Performance Marketing entende que `pod1_headline` está mais int
 
 >[!TIP]
 >
->Consulte [Prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) para saber como criar um prompt que gera conteúdo variável para cada seção em um email de várias seções.
+Consulte [Prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) para saber como criar um prompt que gera conteúdo variável para cada seção em um email de várias seções.
 
 ## Visualização do modelo
 

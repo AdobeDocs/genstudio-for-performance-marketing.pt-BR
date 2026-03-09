@@ -4,9 +4,15 @@ description: Saiba mais sobre o processo de revisão e aprovação do GenStudio 
 level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-source-git-commit: 7955796949c17f7cd877b115cba45c58cdd614a7
+TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: 890
 ht-degree: 0%
 
 ---
@@ -17,7 +23,7 @@ O fluxo de trabalho de revisão e aprovação garante que todas as partes intere
 
 >[!NOTE]
 >
-> Este recurso também está disponível como uma [integração com o Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Essa integração fornece recursos de Prova na Tela do GenStudio for Performance Marketing. Com a integração do Workfront Proof, a GenStudio for Performance Marketing obtém um processo de revisão mais estruturado, transparente e colaborativo, ajudando as equipes a migrar do rascunho para o final com mais confiança e clareza.
+Este recurso também está disponível como uma [integração com o Adobe Workfront Proof](/help/user-guide/approvals/proof-integration.md). Essa integração fornece recursos de Prova na Tela do GenStudio for Performance Marketing. Com a integração do Workfront Proof, a GenStudio for Performance Marketing obtém um processo de revisão mais estruturado, transparente e colaborativo, ajudando as equipes a migrar do rascunho para o final com mais confiança e clareza.
 
 ## Vantagens do fluxo de trabalho de revisão e aprovação
 
@@ -57,17 +63,17 @@ Status de rascunho disponíveis:
 
 >[!NOTE]
 >
-> Os rascunhos correspondem a _provas_ para usuários da integração com o Workfront Proof. [Rascunhos e provas](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) diferem em termos de persistência e controle de versão.
+Os rascunhos correspondem a _provas_ para usuários da integração com o Workfront Proof. [Rascunhos e provas ](/help/user-guide/approvals/proof-integration.md#drafts-and-proofs) diferem em termos de persistência e controle de versão.
 
 ## Funções de aprovação
 
-_Revisores_ podem adicionar comentários, mas não podem aprovar conteúdo. A participação do revisor é útil, mas não essencial. _Os aprovadores_ devem aprovar o conteúdo para que ele possa avançar no processo de aprovação. A integração do Workfront Proof oferece suporte a uma variedade maior de funções de usuário.
+_Revisores_ podem adicionar comentários, mas não podem aprovar conteúdo. A participação do revisor é útil, mas não essencial. _Os aprovadores_ devem aprovar o conteúdo antes que ele possa prosseguir com o processo de aprovação. A integração do Workfront Proof oferece suporte a uma variedade maior de funções de usuário.
 
 ## Notificações
 
 As notificações no produto da GenStudio for Performance Marketing atualizam os aprovadores e editores de conteúdo em tempo real das alterações de status do ativo e `@mention` comentários. As notificações suportam iteração rápida por meio de vários ciclos de revisão, edição e aprovação.
 
-Os editores de conteúdo e aprovadores podem se inscrever para receber essas notificações no Slack. Consulte [Assinar serviços no Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/services/customer-attributes/subscription).
+Os editores de conteúdo e aprovadores podem se inscrever para receber essas notificações no Slack. Consulte [Assinar serviços no Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription).
 
 As ações executadas pelos participantes da aprovação acionam notificações automáticas no produto e notificações por email. Ao iniciar um processo de aprovação, os aprovadores designados recebem notificações por email e no produto. Você é mantido no loop com notificações no produto e por email sempre que um aprovador adiciona `@mention` comentários ou toma uma decisão. As notificações incluem links para o rascunho do conteúdo.
 

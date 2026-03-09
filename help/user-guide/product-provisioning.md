@@ -5,16 +5,21 @@ level: Beginner
 feature: Generative AI
 role: Admin
 exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+TQID: https://experienceleague.adobe.com/cAOdJx0J4GtlITBp0dd-gJqDwM55ynoZNfN2eYWd5SI
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 0%
+source-wordcount: 473
+ht-degree: 1%
 
 ---
 
 # Provisionar Adobe GenStudio for Performance Marketing
 
-Um administrador de sistema do Adobe executa tarefas de provisionamento iniciais no [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html#Overview). No Admin Console, um administrador de sistema do Adobe pode acessar o perfil de produto do GenStudio e atribuir licenças de produto disponíveis aos usuários.
+Um administrador de sistema do Adobe executa tarefas de provisionamento iniciais no [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). No Admin Console, um administrador de sistema do Adobe pode acessar o perfil de produto do GenStudio e atribuir licenças de produto disponíveis aos usuários.
 
 >[!NOTE]
 >
@@ -30,7 +35,7 @@ Na Admin Console, o perfil de produto define regras e perfis de usuário exclusi
 
 **Para acessar o perfil de produto do GenStudio**
 
-1. Clique no link **Introdução** no email de boas-vindas para navegar até a [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html#Overview).
+1. Clique no link **Introdução** no email de boas-vindas para navegar até a [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview).
 
 1. Faça logon na Admin Console usando sua Adobe ID.
 
@@ -62,8 +67,8 @@ Consulte [Funções e permissões de usuário](user-roles.md) para obter orienta
 
 Você pode adicionar usuários individualmente ou importar informações de conta de vários usuários:
 
-* [Gerenciar usuário individualmente](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html#add-users)
+* [Gerenciar usuário individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
 
-* [Gerenciar vários usuários/carregar CSV em massa](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html)
+* [Gerenciar o upload de vários usuários/CSV em massa](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html)
 
 Depois de integrar os usuários à GenStudio for Performance Marketing da sua organização, um gerente de sistema da GenStudio poderá [configurar as diretrizes de marca e mídia da sua organização](get-started.md).

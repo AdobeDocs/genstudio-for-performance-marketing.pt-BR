@@ -4,14 +4,20 @@ description: Saiba mais sobre conceitos e terminologia do Adobe GenStudio for Pe
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+TQID: https://experienceleague.adobe.com/i3VF7S-ndAMDoF1akF3l20tStW-IPS--MSysxD-MArc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32id: f912fa8d-7beb-4468-9ea7-1c0f198b59ef
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ec92a2bc-afe3-4ff0-a985-0c8ef22b4da0id: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: 754
 ht-degree: 0%
 
 ---
 
-# Conceitos 
+# Conceitos
 
 O GenStudio for Performance Marketing é um produto corporativo independente que incorpora o conteúdo supply chain da Adobe para simplificar campanhas de marketing. É desafiador criar conteúdo personalizado e aprovado pela marca em escala, monitorar a eficácia e adaptar-se rapidamente ao mercado em constante mudança. O GenStudio for Performance Marketing reúne o Creative Cloud e o Experience Cloud em um único aplicativo que usa a IA gerativa como um multiplicador de desempenho para equipes de marketing corporativas.
 
@@ -39,20 +45,20 @@ O GenStudio for Performance Marketing usa a série GPT de LLMs de terceiros por 
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
+_[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
 How they re-up their genactions
 If genactions roll over month to month or not -->
 
-### Taxas
+### Preços
 
-Você receberá uma alocação padrão de [!DNL Generative Actions], conforme descrito na [descrição do produto GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Você receberá uma alocação padrão de [!DNL Generative Actions], conforme descrito na [descrição do produto GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 >[!NOTE]
 >
->As taxas de uso podem variar. Os planos estão sujeitos a mudanças. Consulte a [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obter informações atualizadas sobre tarifas.
+As taxas de uso podem variar. Os planos estão sujeitos a mudanças. Consulte a [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obter informações atualizadas sobre tarifas.
 
 As funções a seguir consomem [!DNL Generative Actions] na taxa especificada.
 
@@ -77,7 +83,7 @@ As funções a seguir consomem [!DNL Generative Actions] na taxa especificada.
 
 >[!TIP]
 >
->Se você exceder seu direito de [!DNL Generative Actions], poderá comprar mais diretamente do seu representante de conta.
+Se você exceder seu direito de [!DNL Generative Actions], poderá comprar mais diretamente do seu representante de conta.
 
 ## Governança de dados
 
@@ -94,85 +100,44 @@ Quando esta mensagem for exibida, você poderá editar o prompt e tentar novamen
 A demanda é alta por experiências de qualidade em vários canais em um ritmo mais rápido. O GenStudio for Performance Marketing simplifica o conteúdo supply chain em um fluxo de trabalho bem organizado para profissionais de marketing. A GenStudio for Performance Marketing utiliza a tecnologia Adobe em cada estágio do ciclo de vida.
 
 <table style="table-layout:auto">
-
 <tr style="border: 0;">
-
     <td>
-
        <p><strong>Fluxo de trabalho e planejamento</strong></p>
-
     </td>
-
     <td>
-
         <p>Elabore ideias, defina diretrizes e crie uma estratégia em torno do conteúdo para envolver seu público-alvo.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Criação e produção</strong></p>
-
     </td>
-
     <td>
-
         <p>Produza o conteúdo com base no plano. Colabore em tempo real, receba feedback, faça edições e aprove o conteúdo.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Gestão de conteúdo</strong></p>
-
     </td>
-
     <td>
-
         <p>Armazene, compartilhe e encontre ativos criativos no repositório centralizado. Reutilizar e revitalizar conteúdo com base no desempenho.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Entrega e ativação</strong></p>
-
     </td>
-
     <td>
-
         <p>Ative o conteúdo e publique em vários canais de marketing.</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td>
-
         <p><strong>Relatórios e insights</strong></p>
-
     </td>
-
     <td>
-
         <p>Colete dados e obtenha insights para a otimização do desempenho do ativo.</p>
-
     </td>
-
 </tr>
-
 </table>

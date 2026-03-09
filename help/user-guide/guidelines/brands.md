@@ -3,10 +3,16 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: O GenStudio for Performance Marketing [!DNL Brands] é uma coleção abrangente de ativos da marca—cópia de marketing, imagens, experiências e muito mais—para informar a criação de conteúdo alinhado à marca.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
+TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 1%
+source-wordcount: 1525
+ht-degree: 2%
 
 ---
 
@@ -34,7 +40,7 @@ As diretrizes fornecem à GenStudio for Performance Marketing uma imagem clara d
 
 >[!NOTE]
 >
->Se você fizer upload das diretrizes da marca redigidas em um idioma diferente do inglês, ou criar uma marca manualmente usando um idioma diferente do inglês, o GenStudio for Performance Marketing exibirá essas diretrizes nesse mesmo idioma.
+Se você fizer upload das diretrizes da marca redigidas em um idioma diferente do inglês, ou criar uma marca manualmente usando um idioma diferente do inglês, o GenStudio for Performance Marketing exibirá essas diretrizes nesse mesmo idioma.
 
 Algumas diretrizes de canal, abstratas de [diretrizes de plataforma e padrões de acessibilidade do ADA](/help/user-guide/guidelines/overview.md#compliance), são pré-populadas como valores padrão.
 
@@ -49,9 +55,9 @@ A tabela a seguir mostra cada categoria das diretrizes e exemplos de diretrizes 
 | Categoria de diretriz | Descrição | Práticas recomendadas |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL Tom de voz] | A personalidade da marca expressa através de comunicação escrita | Use palavras descritivas para transmitir claramente a emoção e o tom da marca. <br>_Exemplos_: &quot;genuíno&quot;, &quot;divertido&quot;<br><br>Seja conciso (3-6 diretrizes) e concentre-se nos principais atributos de voz da marca.<br><br>Selecione palavras/frases consistentes em todos os canais de comunicação para criar uma identidade de marca coerente. |
-| [!UICONTROL Valores da marca] | Princípios que impulsionam a cultura da marca, a experiência do cliente e as estratégias de negócios | Use palavras descritivas para transmitir a missão, a visão e as necessidades do público-alvo da marca. <br>_Exemplos_: &quot;autenticidade&quot;, &quot;inspirador&quot;, &quot;progressivo&quot;<br><br>Seja conciso (3-6 diretrizes) e concentre-se nos valores/temas principais da marca. |
-| [!UICONTROL Diretrizes editoriais] | Diretrizes de comunicação que definem as práticas recomendadas para criar mensagens de marca | Use frases positivas (5-10 diretrizes) para estabelecer uma base sólida.<br>_Exemplos_: &quot;Use uma linguagem simples e acessível&quot; em vez de &quot;Evitar o uso de jargão&quot;<br><br>Forneça uma orientação clara e acionável. <br>_Exemplos_: &quot;Mantenha as frases abaixo de 20 palavras&quot; em vez de &quot;Seja conciso&quot;<br><br>Reflita o estilo da sua marca, como o uso de preferências específicas de sintaxe. <br>_Exemplos_: &quot;Use um traço eme em vez de dois-pontos&quot;, &quot;Use caso de sentença&quot;<br><br>Crie diretrizes precisas que mantenham a consistência entre as saídas. |
-| [!UICONTROL Restrições editoriais] | Diretrizes de comunicação que definem o que evitar nas mensagens da marca | Use frases negativas diretas (5-10 diretrizes) para especificar o que deve ser evitado. <br>_Exemplo_: &quot;Evite usar...&quot;<br><br>Forneça uma orientação clara e acionável. <br>_Exemplo_: &quot;Evitar perguntas retóricas&quot; |
+| [!UICONTROL Valores da marca] | Princípios que impulsionam a cultura da marca, a experiência do cliente e as estratégias de negócios | Use palavras descritivas para transmitir a missão, a visão e as necessidades do público-alvo da marca. <br>_Exemplos_: &quot;autenticidade&quot;, &quot;inspirador&quot;, &quot;progressivo&quot;<br><br>Seja conciso (3-6 diretrizes) e se concentre nos valores/temas principais da marca. |
+| [!UICONTROL Diretrizes editoriais] | Diretrizes de comunicação que definem as práticas recomendadas para criar mensagens de marca | Use frases positivas (5-10 diretrizes) para estabelecer uma base sólida.<br>_Exemplos_: &quot;Use uma linguagem simples e acessível&quot; em vez de &quot;Evite usar jargões&quot;<br><br>Forneça orientações claras e acionáveis. <br>_Exemplos_: &quot;Mantenha as frases abaixo de 20 palavras&quot; em vez de &quot;Seja conciso&quot;<br><br>Reflita o estilo da sua marca, como o uso de preferências específicas de sintaxe. <br>_Exemplos_: &quot;Use um traço eme em vez de dois-pontos&quot;, &quot;Use caso de sentença&quot;<br><br>Crie diretrizes precisas que mantenham a consistência entre as saídas. |
+| [!UICONTROL Restrições editoriais] | Diretrizes de comunicação que definem o que evitar nas mensagens da marca | Use frases negativas diretas (5-10 diretrizes) para especificar o que deve ser evitado. <br>_Exemplo_: &quot;Evitar usar...&quot;<br><br>Forneça uma orientação clara e acionável. <br>_Exemplo_: &quot;Evitar perguntas retóricas&quot; |
 
 ### Diretrizes de imagem
 
@@ -76,15 +82,15 @@ A tabela a seguir mostra cada seção de canal, canais para os quais ela está d
 
 | Seções | Canais | Descrição | Práticas recomendadas |
 | ------------------| --------- | --------- | -------- |
-| Geral | email, Meta, Banner e anúncios de exibição | Uma segunda linha de assunto ou texto de visualização de email | Defina o tom/emoção geral para ser consistente em todo o email (2-5 diretrizes).<br>_Exemplos_: &quot;Manter um tom amigável e acessível&quot;, &quot;Evitar linguagem excessivamente formal&quot;<br><br> |
-| Assunto | email | Um título atraente e interessante para resumir o conteúdo de um email | Forneça orientação específica (2 a 5 diretrizes) sobre tom, comprimento, etc. Adicione linhas de assunto anteriormente bem-sucedidas na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplo_: &quot;Alinhar assunto ao corpo do email&quot; |
-| Pré-cabeçalho | email | Uma segunda linha de assunto ou texto de visualização de email | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione pré-cabeçalhos anteriormente bem-sucedidos na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplo_: &quot;Limite de 60 a 80 caracteres&quot; |
-| Título | email, Meta, Banner e anúncios de exibição, LinkedIn | Um título ou frase para chamar a atenção do leitor | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione títulos anteriormente bem-sucedidos na seção _Exemplos_ para obter resultados de melhor qualidade.<br>_Exemplos_: &quot;Use instruções furtivas para chamar atenção&quot; |
+| Geral | email, Meta, banner e anúncios de exibição | Uma segunda linha de assunto ou texto de visualização de email | Defina o tom/emoção geral para ser consistente em todo o email (2-5 diretrizes).<br>_Exemplos_: &quot;Mantenha um tom amigável e acessível&quot;, &quot;Evite linguagem excessivamente formal&quot;<br><br> |
+| Assunto | email | Um título atraente e interessante para resumir o conteúdo de um email | Forneça orientação específica (2 a 5 diretrizes) sobre tom, comprimento, etc. Adicione linhas de assunto anteriormente bem-sucedidas na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplo_: &quot;Alinhar assunto com corpo do email&quot; |
+| Pré-cabeçalho | email | Uma segunda linha de assunto ou texto de visualização de email | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione pré-cabeçalhos anteriormente bem-sucedidos na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplo_: &quot;Limite para 60-80 caracteres&quot; |
+| Título | email, Meta, Anúncios de banner e exibição, LinkedIn | Um título ou frase para chamar a atenção do leitor | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione títulos anteriormente bem-sucedidos na seção _Exemplos_ para obter resultados de melhor qualidade.<br>_Exemplos_: &quot;Use instruções furtivas para chamar atenção&quot; |
 | Subtítulo | email, banner e anúncios de exibição | Um segundo ou terceiro título ou frase para chamar a atenção do leitor | Fornecer orientação específica (2-5 diretrizes) que definem o tom, o comprimento ideal, etc. Adicione subtítulos anteriormente bem-sucedidos na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Use instruções furtivas para chamar atenção&quot; |
-| Descrição | LinkedIn | Frases descritivas que definem a emoção geral do tom | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione descrições anteriormente bem-sucedidas na seção _Exemplos_ para obter resultados de melhor qualidade.<br>_Exemplos_: &quot;Manter um tom amigável e acessível&quot; |
-| Corpo | email, Meta, Banner e anúncios de exibição, LinkedIn | Conteúdo de marketing que inclui mensagens, links e imagens | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione uma cópia anteriormente bem-sucedida à seção _Exemplos_ para obter uma saída com melhor qualidade.<br>_Exemplos_: &quot;Limitar a 80-100 caracteres&quot;, &quot;Evitar acrônimos em excesso&quot; |
-| Texto na imagem | Meta, LinkedIn | Orientação específica sobre o tom, comprimento ideal, etc. para texto que aparece sobre imagens | Forneça orientação específica (1-2 frases) sobre o tom, o comprimento ideal, etc. Adicione um texto anteriormente bem-sucedido à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Concentre-se no momento&quot; |
-| Call-to-action (CTA) | email, Meta, Banner e anúncios de exibição | (Call to action) Uma instrução dada ao leitor que inspira uma resposta. Geralmente uma ou duas palavras, como `Get started` | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione CTAs anteriormente bem-sucedidos à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Não use pontuação final&quot; |
+| Descrição | LinkedIn | Frases descritivas que definem a emoção geral do tom | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione descrições anteriormente bem-sucedidas na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Mantenha um tom amigável e acessível&quot; |
+| Corpo | email, Meta, Anúncios de banner e exibição, LinkedIn | Conteúdo de marketing que inclui mensagens, links e imagens | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione uma cópia anteriormente bem-sucedida à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Limite de 80 a 100 caracteres&quot;, &quot;Evitar acrônimos em excesso&quot; |
+| Texto na imagem | Meta, LinkedIn | Orientação específica sobre o tom, o comprimento ideal etc. para o texto que aparece sobre as imagens | Forneça orientação específica (1-2 frases) sobre o tom, o comprimento ideal, etc. Adicione texto anteriormente bem-sucedido à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Concentre-se no momento&quot; |
+| Call-to-action (CTA) | email, Meta, banner e anúncios de exibição | (Call to action) Uma instrução dada ao leitor que inspira uma resposta. Geralmente uma ou duas palavras, como `Get started` | Fornecer orientação específica (2-5 diretrizes) sobre o tom, comprimento ideal, etc. Adicione CTAs anteriormente bem-sucedidos à seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplos_: &quot;Não use pontuação final&quot; |
 
 #### Diretrizes de canal padrão
 
@@ -145,7 +151,7 @@ Os logotipos do [!DNL Brand] servem como símbolos visuais que representam a ide
 
 Cada logotipo carregado inclui os seguintes detalhes no bloco do logotipo:
 
-- Tipo de arquivo
+- Tipo do arquivo
 - Tamanho do arquivo
 - Resolução
 

@@ -5,10 +5,17 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+TQID: https://experienceleague.adobe.com/ESQljlBQv9vk7Zz-SU-hMNkY2zFy6qawEfkonjXaCkQ
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 2%
+source-wordcount: 758
+ht-degree: 0%
 
 ---
 
@@ -47,7 +54,7 @@ Para [emails](/help/user-guide/create/email-experiences.md), os critérios de pr
 
 >[!NOTE]
 >
->Se as diretrizes forem adicionadas em _Parâmetros_ na gaveta do prompt, não será necessário incluir uma referência a elas no prompt. O GenStudio for Performance Marketing aproveita automaticamente aqueles na geração de conteúdo.
+Se as diretrizes forem adicionadas em _Parâmetros_ na gaveta do prompt, não será necessário incluir uma referência a elas no prompt. O GenStudio for Performance Marketing aproveita automaticamente aqueles na geração de conteúdo.
 
 ### Diretrizes
 
@@ -55,7 +62,7 @@ As diretrizes do GenStudio for Performance Marketing ajudam a IA gerativa a pers
 
 >[!TIP]
 >
->Você controla como e quando a GenStudio for Performance Marketing usa suas diretrizes do [!DNL Brand]. Consulte [Diretrizes](/help/user-guide/guidelines/overview.md) para saber como configurar e gerenciar as diretrizes da sua marca.
+Você controla como e quando a GenStudio for Performance Marketing usa suas diretrizes do [!DNL Brand]. Consulte [Diretrizes](/help/user-guide/guidelines/overview.md) para saber como configurar e gerenciar as diretrizes da sua marca.
 
 ### Prompts estruturados
 
