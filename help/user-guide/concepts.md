@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 242ab858144fd152fd55645143f869fddf7b6fe0
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 0%
@@ -67,10 +67,12 @@ O GenStudio for Performance Marketing usa a série GPT de LLMs de terceiros por 
 
 _[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
 
-<!-- Add example about usage mode?
+<!-- 
+Add example about usage mode?
 Where users check how many generative actions they have left
 How they re-up their genactions
-If genactions roll over month to month or not -->
+If genactions roll over month to month or not 
+-->
 
 ### Preços
 
@@ -89,10 +91,12 @@ As funções a seguir consomem [!DNL Generative Actions] na taxa especificada.
 | Criar anúncios de exibição | 5 por geração |
 | Gerar seções novamente | 1 por geração |
 
-<!-- | Generate on-brand images | 1 per prompt  |
+<!-- 
+| Generate on-brand images | 1 per prompt  |
 | Translation              | 1 per prompt  |
 | Video: ADLS              | 1 per prompt  |
-| Video: TTS + Avatar      | 1 per prompt  | -->
+| Video: TTS + Avatar      | 1 per prompt  | 
+-->
 
 [!DNL Generative Actions] _não_ são consumidos quando:
 
@@ -120,44 +124,85 @@ Quando esta mensagem for exibida, você poderá editar o prompt e tentar novamen
 A demanda é alta por experiências de qualidade em vários canais em um ritmo mais rápido. O GenStudio for Performance Marketing simplifica o conteúdo supply chain em um fluxo de trabalho bem organizado para profissionais de marketing. A GenStudio for Performance Marketing utiliza a tecnologia Adobe em cada estágio do ciclo de vida.
 
 <table style="table-layout:auto">
+
 <tr style="border: 0;">
+
     <td>
+
        <p><strong>Fluxo de trabalho e planejamento</strong></p>
+
     </td>
+
     <td>
+
         <p>Elabore ideias, defina diretrizes e crie uma estratégia em torno do conteúdo para envolver seu público-alvo.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Criação e produção</strong></p>
+
     </td>
+
     <td>
+
         <p>Produza o conteúdo com base no plano. Colabore em tempo real, receba feedback, faça edições e aprove o conteúdo.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Gestão de conteúdo</strong></p>
+
     </td>
+
     <td>
+
         <p>Armazene, compartilhe e encontre ativos criativos no repositório centralizado. Reutilizar e revitalizar conteúdo com base no desempenho.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Entrega e ativação</strong></p>
+
     </td>
+
     <td>
+
         <p>Ative o conteúdo e publique em vários canais de marketing.</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
+
     <td>
+
         <p><strong>Relatórios e insights</strong></p>
+
     </td>
+
     <td>
+
         <p>Colete dados e obtenha insights para a otimização do desempenho do ativo.</p>
+
     </td>
+
 </tr>
+
 </table>
