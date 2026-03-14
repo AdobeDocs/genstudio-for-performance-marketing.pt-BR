@@ -11,7 +11,7 @@ Este site contém a documentação mais recente do produto GenStudio for Perform
 
 ## Código de conduta do Adobe Open Source
 
-Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [ Código de Conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Consulte o artigo [Contribuição](contributing.md).
+Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [&#x200B; Código de Conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Consulte o artigo [Contribuição](contributing.md).
 
 ### Pequenas alterações
 
