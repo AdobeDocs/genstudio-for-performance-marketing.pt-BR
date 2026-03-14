@@ -15,7 +15,7 @@ Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.
 
 ### Pequenas alterações
 
-Se você estiver contribuindo com pequenas atualizações, abra o artigo e clique no link **Editar**, que direciona você à origem GitHub do artigo. Use a interface do GitHub para fazer suas atualizações. Consulte o [guia geral do colaborador do Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Se você estiver contribuindo com pequenas atualizações, abra o artigo e clique no link **Editar**, que direciona você à origem GitHub do artigo. Use a interface do GitHub para fazer suas atualizações. Consulte o [guia geral do colaborador do Adobe Docs](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction).
 
 Pequenas correções ou esclarecimentos que você envia para documentação e exemplos de código neste repositório são cobertos pelos termos de uso da Adobe.
 
@@ -31,7 +31,7 @@ Se você for um autor técnico, gerente de programa ou desenvolvedor de uma equi
 
 Os colaboradores da comunidade podem usar a interface do usuário do GitHub para a edição básica ou bifurcar o repositório para fazer grandes contribuições.
 
-Consulte o [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) para obter mais detalhes.
+Consulte o [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction) para obter mais detalhes.
 
 ## Markdown
 
