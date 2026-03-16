@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3af756e5bc0e2731187c3879c1593605706d6a2c
+source-git-commit: 28ad1f3a659fd1f44283c8e5913810f8637b87a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -11,7 +11,7 @@ Este site contém a documentação mais recente do produto GenStudio for Perform
 
 ## Código de conduta do Adobe Open Source
 
-Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [&#x200B; Código de Conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Consulte o artigo [Contribuição](contributing.md).
+Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [&#x200B; Código de Conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Consulte a página [Contribuição](contributing.md).
 
 ### Pequenas alterações
 
