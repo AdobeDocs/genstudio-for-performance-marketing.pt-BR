@@ -4,7 +4,7 @@ description: Explore os recursos do GenStudio for Performance Marketing que pode
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 26d8f8a7f25679ced3fc3030a3e9d32b1ea554b0
+source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 0%
@@ -19,12 +19,12 @@ Este guia explica os requisitos e os recursos com modelos do [!DNL Adobe Express
 
 ## Sobre modelos em [!DNL Adobe Express]
 
-Em [!DNL Adobe Express], [novos documentos podem ser criados usando modelos iniciais existentes](https://helpx.adobe.com/br/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) fornecidos no aplicativo ou com [modelos personalizados que podem incluir restrições úteis de marca](https://helpx.adobe.com/br/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html), como:
+Em [!DNL Adobe Express], [novos documentos podem ser criados usando modelos iniciais existentes](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) fornecidos no aplicativo ou com [modelos personalizados que podem incluir restrições úteis de marca](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html), como:
 
-- [Elementos bloqueados](https://helpx.adobe.com/br/express/web/invite-collaborate/object-locking.html) que não podem ser alterados
+- [Elementos bloqueados](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) que não podem ser alterados
 - Bloquear restrições que controlam como os usuários podem desbloquear elementos quando necessário
 
-As configurações de bloqueio definidas no modelo em [!DNL Adobe Express] também serão aplicadas em [!DNL GenStudio for Performance Marketing]. Use as [instruções [!DNL Adobe Express] para criar um modelo personalizado com restrições de marca](https://helpx.adobe.com/br/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
+As configurações de bloqueio definidas no modelo em [!DNL Adobe Express] também serão aplicadas em [!DNL GenStudio for Performance Marketing]. Use as [instruções [!DNL Adobe Express] para criar um modelo personalizado com restrições de marca](https://helpx.adobe.com/express/web/brands-libraries-projects/create-manage-brands/template-control.html).
 
 Para usar fontes personalizadas em um modelo expresso, os administradores devem primeiro aceitar a oferta de qualificação Fontes personalizadas no Admin Console, que está incluído como parte do direito de licença do Express.
 
@@ -57,11 +57,11 @@ Ao selecionar um modelo [!DNL Express] e clicar em **[!UICONTROL Usar]**, os par
 
 ## Sobre variantes e [!DNL Experiences] com [!DNL Adobe Express] modelos
 
-[!DNL Express] modelos oferecem muitos dos mesmos recursos com os quais você estará familiarizado ao [gerenciar outras variantes](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). No entanto, há algumas adições importantes para simplificar qualquer fluxo de trabalho para o conteúdo de [!DNL Express]. Esta seção descreve recursos exclusivos para a implementação [!DNL Adobe Express].
+[!DNL Express] modelos oferecem muitos dos mesmos recursos com os quais você estará familiarizado ao [gerenciar outras variantes](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/manage-variants#manually-edit-text). No entanto, há algumas adições importantes para simplificar qualquer fluxo de trabalho para o conteúdo de [!DNL Express]. Esta seção descreve recursos exclusivos para a implementação [!DNL Adobe Express].
 
 ### Gerar automaticamente vários tamanhos
 
-Quando [várias páginas foram criadas para um ativo em [!DNL Express]](https://helpx.adobe.com/br/express/web/arrange-layers-and-pages/add-pages.html), essas páginas são transferidas para qualquer modelo criado a partir desse ativo. Cada página expressa será gerada como tamanhos diferentes do conteúdo criativo no [!DNL GenStudio for Performance Marketing].
+Quando [várias páginas foram criadas para um ativo em [!DNL Express]](https://helpx.adobe.com/express/web/arrange-layers-and-pages/add-pages.html), essas páginas são transferidas para qualquer modelo criado a partir desse ativo. Cada página expressa será gerada como tamanhos diferentes do conteúdo criativo no [!DNL GenStudio for Performance Marketing].
 
 Quando existe conteúdo de vários tamanhos para um ativo em [!DNL Express], as variantes podem ser geradas para todos esses tamanhos em uma única geração.
 
@@ -192,7 +192,7 @@ As opções de marcação variam dependendo do tipo de elemento.
 
 ### Restrições de bloqueio de modelo
 
-Os modelos podem incluir [elementos bloqueados](https://helpx.adobe.com/br/express/web/invite-collaborate/object-locking.html) que são transferidos de [!DNL Express] e controlam como alguns recursos podem ser alterados. Essas configurações são respeitadas pelo modelo e também podem ser alteradas no modelo:
+Os modelos podem incluir [elementos bloqueados](https://helpx.adobe.com/express/web/invite-collaborate/object-locking.html) que são transferidos de [!DNL Express] e controlam como alguns recursos podem ser alterados. Essas configurações são respeitadas pelo modelo e também podem ser alteradas no modelo:
 
 1. Selecione um elemento bloqueado no modelo.
 1. Clique no ícone de bloqueio na parte superior esquerda do elemento selecionado.
@@ -242,4 +242,5 @@ Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md)
 
 ## Revisar e aprovar
 
-Depois de editar e ajustar as variantes, aprove e publique o conteúdo com o [fluxo de trabalho Revisões e Aprovações](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+Depois de editar e ajustar as variantes, aprove e publique o conteúdo com o [fluxo de trabalho Revisões e Aprovações](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/overview).
+
