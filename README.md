@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3af756e5bc0e2731187c3879c1593605706d6a2c
+source-git-commit: 28ad1f3a659fd1f44283c8e5913810f8637b87a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -11,11 +11,11 @@ Este site contém a documentação mais recente do produto GenStudio for Perform
 
 ## Código de conduta do Adobe Open Source
 
-Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [&#x200B; Código de Conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Consulte o artigo [Contribuição](contributing.md).
+Este projeto adotou o [Código de Conduta do Adobe Open Source](code-of-conduct.md) ou o [ Código de Conduta do .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Consulte a página [Contribuição](contributing.md).
 
 ### Pequenas alterações
 
-Se você estiver contribuindo com pequenas atualizações, abra o artigo e clique no link **Editar**, que direciona você à origem GitHub do artigo. Use a interface do GitHub para fazer suas atualizações. Consulte o [guia geral do colaborador do Adobe Docs](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction).
+Se você estiver contribuindo com pequenas atualizações, abra o artigo e clique no link **Editar**, que direciona você à origem GitHub do artigo. Use a interface do GitHub para fazer suas atualizações. Consulte o [guia geral do colaborador do Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 Pequenas correções ou esclarecimentos que você envia para documentação e exemplos de código neste repositório são cobertos pelos termos de uso da Adobe.
 
@@ -31,7 +31,7 @@ Se você for um autor técnico, gerente de programa ou desenvolvedor de uma equi
 
 Os colaboradores da comunidade podem usar a interface do usuário do GitHub para a edição básica ou bifurcar o repositório para fazer grandes contribuições.
 
-Consulte o [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction) para obter mais detalhes.
+Consulte o [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) para obter mais detalhes.
 
 ## Markdown
 
