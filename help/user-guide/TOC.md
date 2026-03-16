@@ -5,9 +5,9 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 9cd03372041056483e94ae324124e791a8c8d7ba
+source-git-commit: 689c259f8766848815850d38cc0b13d3669dd718
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 18%
 
 ---
@@ -70,6 +70,7 @@ ht-degree: 18%
    + [Personalizar um modelo](templates/customize-template.md)
    + [Editor de código de modelo](templates/code-editor.md)
    + [Criar modelos acessíveis](templates/accessibility-for-templates.md)
+   + [Usando modelos Expressos](templates/express-templates.md)
    + [Práticas recomendadas para modelos](templates/best-practices-for-templates.md)
    + Prática recomendada do canal {#channel-best-practice}
       + [Guia de exibição de anúncios](templates/display-template.md)
@@ -107,5 +108,5 @@ ht-degree: 18%
    + [Visão geral das integrações](integrations/overview.md)
    + [Plug-in do Photoshop](integrations/photoshop-plugin.md)
    + [Plugin de diagramas](integrations/figma-plugin.md)
-+ [hide-from-tocGenStudio Academy - Oculto](genstudioacademy.md)
-+ [hide-from-tocMarcação de teste - Oculta](test-markdown.md)
++ {hide-from-toc}[GenStudio Academy - Oculto](genstudioacademy.md)
++ {hide-from-toc}[Marcação de teste - Oculta](test-markdown.md)
