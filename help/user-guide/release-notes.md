@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: b3ebb731f7b9a7968a232fe2283b5ef2441c3f6c
 workflow-type: tm+mt
-source-wordcount: 4448
+source-wordcount: 4584
 ht-degree: 0%
 
 ---
@@ -50,7 +50,28 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2026.01 {#latest}
+## 2026.03 {#latest}
+
+### Modelos expressos para Meta, LinkedIn e Display
+
+[!DNL Create] agora oferece suporte a [Modelos do Express na Tela do Horizon](/help/user-guide/templates/express-templates.md) para Meta, LinkedIn e Display. Você pode usar modelos do Adobe Express, incluindo modelos iniciais e layouts com marca personalizada, diretamente no fluxo de trabalho de criação.
+
+A tela é compatível com recursos de modelos, incluindo:
+
+* vários tamanhos por modelo
+* bloqueio de camadas e opções de desbloqueio definidas no Express
+* Edição do WYSIWYG para elementos de modelo
+* controles mais avançados para texto, troca de mídia, substituição de logotipo, reframe do vídeo e muito mais
+
+Explore os detalhes em [Usando modelos do Adobe Express no GenStudio for Performance Marketing](/help/user-guide/templates/express-templates.md).
+
+### Conteúdo do TikTok no GenStudio for Performance Marketing
+
+Agora você pode criar, aprovar e ativar anúncios de vídeo no feed do TikTok no GenStudio for Performance Marketing. Gere anúncios facilmente no fluxo de trabalho do [!DNL Create] e publique a experiência no [!DNL Content]. Use o [!DNL Insights] for TikTok para monitorar o desempenho e informar a próxima atualização criativa.
+
+## Notas de versão anteriores
+
++++Notas de 2026.01.15
 
 ### Redesign do painel de prompt do HTML Canvas
 
@@ -66,7 +87,7 @@ Agora você pode criar emails com até 10 pods/seções no [!DNL Create], expand
 
 O GenStudio for Performance Marketing agora é compatível com o Content Credentials, permitindo que as equipes apliquem e preservem metadados de autenticidade em ativos durante a criação, a revisão e a exportação. Medalhas de credencial e detalhes são exibidos em fluxos de trabalho importantes para que as organizações possam verificar a origem e manter a confiança ao compartilhar conteúdo.
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2025.12.12
 
