@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 87ea02eca400ec5c2144126156ebf2450e3c3049
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 856
 ht-degree: 1%
 
 ---
@@ -146,6 +146,10 @@ Novos documentos são adicionados ao espaço de trabalho do Photoshop com conte�
 Os usuários podem selecionar a exportação após a geração ou tradução do conteúdo. Experiências exportadas são preenchidas na seção de conteúdo do GenStudio for Performance Marketing.
 
 ![Ativos exportados mostrados na seção Conteúdo](./content-assets.png){width="90%"}
+
+## Converter quadros Figma em Photoshop
+
+Quadros de figuras podem ser convertidos em documentos do Photoshop e exportados para uso com o plug-in do Photoshop. Para entender como converter quadros, consulte a seção [Converter quadros Figma em Photoshop](figma-plugin.md#convert-figma-frames-to-photoshop) na página de plug-in Figma.
 
 ## Solução de problemas
 
