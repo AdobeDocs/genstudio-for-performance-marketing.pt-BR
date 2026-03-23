@@ -5,22 +5,15 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 4b3f2ae27b9368b95e440a58cb04f4b063da616e
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
 workflow-type: tm+mt
-source-wordcount: 1725
-ht-degree: 1%
+source-wordcount: 1713
+ht-degree: 93%
 
 ---
 
@@ -42,7 +35,7 @@ Os recursos deste plug-in incluem:
 * Exportação gerada [!DNL Experiences] para o GenStudio for Performance Marketing.
 * Use as opções de plug-in que se adaptam aos elementos selecionados na tela do Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478814?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Criar um modelo
 
@@ -182,9 +175,9 @@ Um arquivo ZIP foi criado no painel de plug-in ou um link para **[!UICONTROL Abr
 
 >[!NOTE]
 >
-> Para executar esta tarefa, você precisa do plug-in Figma e do [plug-in Photoshop para GenStudio for Performance Marketing](photoshop-plugin.md).
+> Para executar esta tarefa, você precisa do plug-in Figma e do [GenStudio Photoshop](photoshop-plugin.md).
 
-Você pode usar o plug-in Figma para converter um quadro Figma, vários quadros ou um documento inteiro para o formato Photoshop e exportá-lo para uso com o [plug-in Photoshop](photoshop-plugin.md). Atualmente, somente as principais propriedades, como visibilidade, tamanho da fonte e atributos básicos da camada, são compatíveis durante a conversão. Recursos como tachado, sobrescrito, subscrito, opacidade como porcentagens, gradientes e propriedades avançadas semelhantes ainda não são compatíveis.
+Você pode usar o plug-in Figma para converter um quadro Figma, vários quadros ou um documento inteiro para o formato Photoshop e exportá-lo para uso com o [GenStudio Photoshop](photoshop-plugin.md). Atualmente, somente as principais propriedades, como visibilidade, tamanho da fonte e atributos básicos da camada, são compatíveis durante a conversão. Recursos como tachado, sobrescrito, subscrito, opacidade como porcentagens, gradientes e propriedades avançadas semelhantes ainda não são compatíveis.
 
 O plug-in é compatível com os seguintes tipos de camadas Figma para conversão:
 
@@ -215,8 +208,8 @@ Para converter quadros:
 1. Siga um destes procedimentos:
 
    * Clique em **[!UICONTROL Exportar]** para exportar o arquivo convertido para um local escolhido ou
-   * Clique em **[!UICONTROL Transferir para o plug-in do Photoshop]** para armazenar o arquivo convertido em cache para uso imediato no plug-in do Photoshop.
-     ![Botão Transferir para o plug-in do Photoshop](./transfer-to-ps-button.png){width="60%"}
+   * Clique em **[!UICONTROL Transferir para o GenStudio Photoshop]** para armazenar o arquivo convertido em cache para uso imediato no GenStudio Photoshop.
+     ![Botão Transferir para o GenStudio Photoshop](./transfer-to-ps-button.png){width="40%"}
 1. Quando a caixa de diálogo **[!UICONTROL Chave de arquivo necessária]** for exibida, o plug-in precisará de uma URL de arquivo de arquivo de arquivo de figura para concluir a conversão. Adicione o URL do documento:
 
    1. Em Figma, clique em **[!UICONTROL Compartilhar]** no canto superior direito da tela.
@@ -224,14 +217,14 @@ Para converter quadros:
    1. Cole o link copiado no campo **[!UICONTROL URL do Arquivo de Figura]** na caixa de diálogo do plug-in.
 
 1. Clique em **[!UICONTROL Enviar]**. O plug-in lê os quadros selecionados no Figma e os converte em um documento JSON, um formato intermediário para os dados do arquivo.
-   ![Caixa de diálogo Chave de Arquivo Necessária](./file-key-required.png){width="40%"}
-1. No Photoshop, abra o plug-in do GenStudio e clique na guia **[!UICONTROL Importar]**.
+   ![Caixa de diálogo Chave de Arquivo Necessária](./file-key-required.png){width="35%"}
+1. No Photoshop, abra o GenStudio Photoshop e clique na guia **[!UICONTROL Importar]**.
 1. Siga um destes procedimentos:
 
-   * Clique em **[!UICONTROL Do Plug-in]** para escolher um arquivo convertido com **[!UICONTROL Transferir para o Plug-in do Photoshop]** na lista de arquivos em cache ou
+   * Clique em **[!UICONTROL Do Plug-in]** para escolher um arquivo convertido com **[!UICONTROL Transferir para o GenStudio Photoshop]** da lista de arquivos em cache ou
    * Clique em **[!UICONTROL Carregar JSON]** para procurar e selecionar o arquivo JSON a ser carregado.
      ![Botão Carregar JSON](./upload-json.png){width="40%"}
-1. O plug-in GenStudio no Photoshop converte as informações do documento JSON em um documento aberto do Photoshop.
+1. O GenStudio Photoshop converte as informações do documento JSON em um documento aberto do Photoshop.
 1. Clique em **[!UICONTROL Concluído]**. O novo arquivo é aberto no Photoshop e está pronto para uso. Ou clique em **[!UICONTROL Salvar como...]** para escolher um local para salvar o arquivo.
    ![Caixa de diálogo do botão Concluído](./import-done-button.png){width="40%"}
 
