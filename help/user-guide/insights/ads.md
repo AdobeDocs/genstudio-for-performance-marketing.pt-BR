@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 59f51bf35c5ad81845d2cd11c6659a0833e4de7b
 workflow-type: tm+mt
-source-wordcount: 1449
-ht-degree: 0%
+source-wordcount: 1457
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Os formatos de anúncios se referem a vários elementos criativos e layouts usad
 | Meta | <ul><li>Anúncios dinâmicos</li><li>Vincular anúncios</li><li>Anúncios de imagem simples</li><li>Anúncios de vídeo simples</li><li>Comprar anúncios</li></ul> | <ul><li>Anúncios do catálogo do Advantage+</li><li>Anúncios do carrossel</li><li>Anúncios do Messenger</li><li>Anúncios principais</li><li>Anúncios da coleção</li><li>Anúncios de chamada</li><li>Anúncios de postagem de página próprios</li><li>Anúncios de parcerias</li><li>Anúncios flexíveis</li></ul> |
 | LinkedIn | <ul><li>Anúncios de imagem única</li><li>Anúncios de vídeo único</li><li>Anúncios de artigo</li></ul> | <ul><li>Anúncios do carrossel</li><li>Anúncios de documentos</li><li>Anúncios de evento</li><li>Anúncios dos líderes de pensamento</li><li>Anúncios da geração líder</li><li>Anúncios dos seguidores</li><li>Anúncios de conversa</li><li>Anúncios em destaque</li><li>Anúncios de tarefa</li><li>Anúncios de conteúdo</li><li>Anúncios de mensagem</li></ul> |
 | TikTok | <ul><li>Anúncios de imagem única</li><li>Anúncios de vídeo único</li></ul> | <ul><li>Anúncios No Feed (Vídeo, Spark, Carousel)</li><li>Anúncios de reconhecimento Premium (TopView, Aquisição da marca)</li><li>Anúncios interativos (Desafios de hashtag, efeitos de marca)</li><li>Anúncios do Commerce (Compras, Catálogo, AO VIVO)</li><li>Anúncios de clientes potenciais e mensagens</li><li>Difícil de classificar, pois não temos os ativos para determinar o tipo de anúncio</li></ul> |
-| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Difícil de classificar. Não temos os ativos para determinar o tipo de anúncio. |
+| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | O canal de mídia paga não fornece acesso à recuperação de ativos criativos, o que dificulta a classificação precisa dos tipos de anúncios. |
 | Innovid | N/D | Difícil de classificar, pois não temos os ativos para determinar o tipo de anúncio. |
 
 ### Posicionamentos de anúncios
