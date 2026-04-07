@@ -1,18 +1,15 @@
 ---
-title: Desculpe
-description: Isto é um teste
-source-git-commit: 0a1722df22906a64c6854ce0b6ffde21ea1d7cad
+source-git-commit: f597a73a3663a8e430800924e39a10e1b8765cd2
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
-
 # Atributos gerados
 
 Quando ativos e experiências são aprovados e armazenados em [!DNL Content], ou quando inserções de anúncios são assimiladas de canais de terceiros, a GenStudio for Performance Marketing [gera marcas](/help/user-guide/content/asset-details.md#generated-tags) com base em seus recursos inerentes.
 
-As categorias de recursos incluem o seguinte:
+As categorias de recursos incluem:
 
 - [Recursos da imagem](/help/user-guide/insights/image-features.md)
 - [Recursos de texto](/help/user-guide/insights/text-features.md)
