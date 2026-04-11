@@ -22,7 +22,7 @@ Este tópico é para **administradores** que instalam o aplicativo, coletam cred
 
 ## Instalar o aplicativo do Adobe Exchange
 
->[!VIDEO](https://video.tv.adobe.com/v/3483299?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3483316?captions=por_br&learn=on)
 
 1. Abra o [Adobe Exchange](https://exchange.adobe.com) e vá para o **[!UICONTROL Experience Cloud]**.
 1. Abra a lista [Marketo para GenStudio](https://exchange.adobe.com/apps/ec/ab6p21vo8r/marketo-for-genstudio).
