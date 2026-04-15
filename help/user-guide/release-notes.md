@@ -68,7 +68,7 @@ e revise a CPA de forma consistente nas tabelas de Anúncios, Assets (Mídia) e 
 
 ### Públicos-alvo da RTCDP no fluxo de trabalho Criar
 
-[Públicos-alvo do Adobe Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences) estão disponíveis no fluxo de trabalho [!DNL Create] para que você possa basear as experiências geradas nas definições de público-alvo junto com as diretrizes existentes.
+[Públicos-alvo do Adobe Real-Time Customer Data Platform (RTCDP)](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines#add-audiences) estão disponíveis no fluxo de trabalho [!DNL Create] para que você possa basear as experiências geradas nas definições de público-alvo junto com as diretrizes existentes.
 
 ### Canal de exibição innovid em [!DNL Insights]
 
