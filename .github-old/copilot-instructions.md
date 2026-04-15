@@ -73,5 +73,5 @@ markdownlint --config markdownlint_custom.json "help/**/*.md"
 yarn lint
 ```
 
----
+&#x200B;---
 Se desejar, posso mesclar isto em `.github/copilot-instructions.md` no repositório (ou ajustar o texto/comprimento). O que devo alterar ou adicionar?
