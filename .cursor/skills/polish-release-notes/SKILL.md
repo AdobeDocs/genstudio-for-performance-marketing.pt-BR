@@ -2,9 +2,9 @@
 name: polish-release-notes
 description: ""
 notes: refines only newly added
-source-git-commit: 1a33b08048233c5f9a82b5f428082aa5c71b0052
+source-git-commit: ee2875f35035e23e2577adbde5f408702b77d233
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,15 @@ Manter diferenças **mínimas**: somente quebras de texto e parágrafo, sem refa
 - **Conteúdo de procedimento &quot;como fazer&quot;**: etapas numeradas, &quot;clique em **[!UICONTROL ...]** e depois...&quot;, apresentações completas da interface do usuário ou frases de tutorial. As notas de versão resumem **o que foi enviado** e **por que é importante**, não lições práticas.
 - Conteúdo que viola [Conteúdo proibido](../generate-release-notes/SKILL.md#prohibited-content) na habilidade de geração (sem chaves Jira, URLs somente internas, wiki as-proof etc.).
 
+## Remover durante a polir (programação de lançamento)
+
+Os rascunhos às vezes incluem **linhas em itálico** (`_…_` ou `*…*`) sobre **disponibilidade** — por exemplo, lançamento limitado, tempo de Summit, GA, implantação mais ampla ou Beta **windows**. Esse idioma pertence ao **gerenciamento de versões**, não às anotações sofisticadas voltadas para o cliente desta página.
+
+- **Remova totalmente** essas **itálico** linhas ou **cláusulas itálicas finais** quando sua **finalidade principal** for o agendamento ou o status de implantação (incluindo **GA**, **versão limitada**, **Summit** ou semelhante).
+- **Não** remova as frases comuns (em itálico) que descrevem o comportamento do produto, somente a cópia do agendamento que foi definida em **itálico** como um aviso de isenção de responsabilidade.
+- **Mantenha** o bloco **[!BADGE Beta]** quando o recurso for Beta; o símbolo é o padrão com suporte para o Beta, não uma linha de agendamento em itálico separada.
+- Após a remoção, **aperte a prosa ao redor** se um parágrafo agora começar ou terminar de forma estranha; não substitua o itálico removido por novas frases de agendamento, a menos que o usuário solicite explicitamente.
+
 ## Preservar (não retirar nem reescrever estruturalmente)
 
 - `[!DNL …]`, `[!UICONTROL …]`, `[!BADGE …]` e outros códigos de atalho ExL.
@@ -57,12 +66,14 @@ Manter diferenças **mínimas**: somente quebras de texto e parágrafo, sem refa
 1. [ ] Confirmar **quais** `###` em `## … {#latest}` estão no escopo (novo nesta rodada).
 2. [ ] Para cada `###` dentro do escopo, restringir cópia por [Voz e tom](#voice-and-tone) e [Regras de parágrafo](#paragraph-rules).
 3. [ ] Remova ou reduza quaisquer **instruções passo a passo**; mantenha os **resultados do usuário**.
-4. [ ] Verifique se os links e os códigos de atalho ainda são válidos; execute uma verificação rápida de IDs internas ou padrões proibidos por [Verificações de qualidade](#quality-checks).
+4. [ ] Remover **agendamento e disponibilidade de itálico (ou estilo em itálico)** linhas por [Remover durante o polimento (agendamento de lançamento)](#remove-during-polish-release-scheduling).
+5. [ ] Verifique se os links e os códigos de atalho ainda são válidos; execute uma verificação rápida de IDs internas ou padrões proibidos por [Verificações de qualidade](#quality-checks).
 
 ## Verificações de qualidade
 
 - [ ] Apenas os **novos** `###` blocos acordados em `{#latest}` foram alterados; arquivos e meses mais antigos permanecem intocados.
 - [ ] Nenhuma ID de estilo Jira nova, URLs wiki internas ou linguagem &quot;ver tíquete&quot;.
+- [ ] Não há **isenções de responsabilidade somente de agendamento** itálico (disponibilidade geral, versão limitada, implantação do Summit etc.) permanecer nas subseções `{#latest}` polidas — elas foram removidas a cada [Remover durante a polimento (agendamento de lançamento)](#remove-during-polish-release-scheduling); os blocos de selo da Beta estão funcionando, quando aplicável.
 - [ ] Os parágrafos são **2-3 frases** cada (máximo de três frases por parágrafo).
 - [ A cópia ] permanece **fatual** e alinhada com o recurso descrito.
 

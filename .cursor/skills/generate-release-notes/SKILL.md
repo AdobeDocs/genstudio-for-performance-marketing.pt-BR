@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 1a33b08048233c5f9a82b5f428082aa5c71b0052
+source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,23 @@ ht-degree: 0%
 
 **Mapeamento de campo KT/wiki e caminhos de documento:** [reference.md](reference.md)
 
+## Escopo de edição (estrito)
+
+Ao usar esta habilidade, **o único local** onde você pode **adicionar** ou **editar** o conteúdo do corpo da nota de versão é a seção chefiada com **`## … {#latest}`** (o único bloco que contém a âncora `{#latest}`).
+
+- **Não** edite as **notas de versão anteriores**—qualquer `+++Notes from YYYY.MM.DD+++` bloco recolhível—ou **qualquer** seção mensal `##` mais antiga que não tenha mais `{#latest}`, mesmo quando o tópico parecer relacionado, um link pareça incorreto ou uma cópia pareça duplicada ou desatualizada.
+- **Não** &quot;retocar&quot; antes de `###` subseções, marcadores, links ou palavras fora do bloco `{#latest}` atual, a menos que o usuário dê uma solicitação **explícita, separada** que não seja coberta por esta habilidade.
+- **Exceção:** [Arquivar a última](#archive-previous-latest) anterior ao introduzir um **novo** bloco `{#latest}` superior: **mover** toda a seção `{#latest}` anterior em uma **nova** recolhível em **notas de versão anteriores** conforme descrito abaixo. Durante essa passagem, **não** regravar ou adicionar a **outros blocos de arquivos** mais antigos.
+
+Se novas informações pertencerem ao documento, coloque-as no cabeçalho **`{#latest}`** atual (ou arquive primeiro e, em seguida, adicione somente no novo `{#latest}`).
+
 ## Lista de verificação do fluxo de trabalho
 
 Trabalhe nesta ordem. Copie a lista de verificação e rastreie o progresso das edições de várias etapas.
 
-1. [ ] Abra `help/user-guide/release-notes.md` e leia o bloco `## YYYY.MM {#latest}` atual e a área **Notas de versão anteriores**.
+1. [ ] Abra `help/user-guide/release-notes.md` e leia o bloco `## YYYY.MM {#latest}` atual. Trate as **notas de versão anteriores** como um contexto **somente leitura**, a menos que você esteja executando a etapa de arquivamento na etapa 2.
 2. [ ] Se estiver adicionando uma **nova** versão mensal: arquive a versão mais recente atual (consulte [Arquivar versões mais recentes](#archive-previous-latest)).
-3. [ ] Adicionar ou editar a seção `## YYYY.MM {#latest}` superior (mês mais recente na parte superior da lista de versões).
+3. [ ] Adicionar ou editar **somente** a seção `## YYYY.MM {#latest}` principal (mês mais recente na parte superior da lista de versões).
 4. [ ] Para cada item, aplique as [Regras de decisão](#decision-rules) (recurso `###` versus **Correções e aprimoramentos**, selo do Beta ou não).
 5. [ ] Adicione ou verifique os links de documentação na frase mais relevante (consulte [reference.md](reference.md#documentation-linking)).
 6. [ ] Execute [Verificações de qualidade](#quality-checks) antes de concluir.
@@ -47,10 +57,12 @@ Use estas regras if/then para que o conteúdo chegue ao lugar certo:
 Ao introduzir um novo `## YYYY.MM {#latest}`:
 
 1. Recortar toda a seção `## YYYY.MM {#latest}` anterior (do seu cabeçalho até o final do conteúdo dessa versão, antes das próximas `##` ou **notas de versão anteriores**).
-2. Cole-o nas **notas de versão anteriores**, dentro de um bloco recolhível.
+2. Cole-o nas **notas de versão anteriores**, dentro de um bloco recolhível **novo**.
 3. Substitua o cabeçalho antigo por: `+++Notes from YYYY.MM.DD+++` (use a data de lançamento real; formato definido nas notas existentes no arquivo).
 4. Remover `{#latest}` do cabeçalho arquivado; a nova seção superior é a única com `{#latest}`.
 5. Mantenha a ordem cronológica dentro das **notas de versão anteriores** (os blocos arquivados mais recentes estão na parte superior, a menos que o arquivo já use uma ordem diferente—**corresponda ao arquivo existente**).
+
+**não** edite o corpo dos **blocos `+++Notes from …+++`** preexistentes ao executar este arquivo—apenas insira o bloco recém-arquivado e preserve os arquivos antigos como estão.
 
 ## Estrutura necessária
 
@@ -108,6 +120,7 @@ Usar exatamente:
 
 Antes de concluir a tarefa:
 
+- [ ] **Escopo:** Somente o bloco `## … {#latest}` foi adicionado ou editado; as **notas de versão anteriores** e as seções mensais mais antigas não foram modificadas, exceto pelo [Arquivar último](#archive-previous-latest) recortar/colar do antigo `{#latest}` em um bloco de arquivo **novo**.
 - [ ] Todos os links relativos novos ou alterados são resolvidos para caminhos reais em `help/`, quando possível.
 - [ Os recursos do Beta ] incluem o trecho de selo do Beta, quando necessário.
 - [ ] A terminologia corresponde às notas de versão existentes (`[!DNL …]`, `[!UICONTROL …]`).
