@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 943
 ht-degree: 0%
 
 ---
@@ -42,6 +42,24 @@ No painel [!DNL Insights], é possível:
 - **Otimizar conteúdo de baixo desempenho**: encontre conteúdo que não esteja funcionando bem e use a IA gerativa integrada para criar variações imediatamente, possivelmente melhorando sua eficácia sem começar do zero.
 - **Revitalize conteúdo de alto desempenho**: pegue o conteúdo bem-sucedido e ajuste-o para atualizar o anúncio para o público ou adaptar o conteúdo principal para uso em novas campanhas, potencialmente estendendo seu ciclo de vida e desempenho.
 
+O módulo [!DNL Insights] inclui o **[!UICONTROL Insights 2.0]**, uma experiência de desempenho entre canais para redes sociais pagas. Funciona junto com as exibições detalhadas de tabela e galeria na seção [Painel](#dashboard) deste artigo.
+
+## Insights 2.0 {#insights-20}
+
+O **[!UICONTROL Insights 2.0]** fornece uma camada de inteligência de desempenho que fornece aos profissionais de marketing uma visão clara do desempenho do marketing social pago em contas conectadas.
+
+**No [!UICONTROL Insights 2.0], você pode:**
+
+- **Revise as visões gerais entre canais ou canais únicos (Meta e LinkedIn)**: veja um instantâneo consolidado em ambos os canais sociais pagos ou faça drill-down em um canal.
+- **Use o relatório de desempenho entre canais**: visualize a participação de cada canal nos resultados com uma visualização de contribuição em porcentagem, incluindo o gasto total (porcentagem e valor) e métricas de participação de desempenho, como CTR, CPC e CPM.
+- **Usar o relatório de desempenho de anúncios**: identifique anúncios de alto e baixo desempenho com classificações e métricas que dão suporte a decisões de otimização.
+- **Analisar métricas de conversão do Meta**: concentre-se nas conversões com visibilidade em CPAs nos estágios do funnel (por exemplo, visitas engajadas, solicitação de informações, início do aplicativo, prospecto e conclusão de aplicativo) e revise tendências de conversão ao longo do tempo, com dados de conversão disponíveis no GenStudio for Performance Marketing.
+- **Explorar insights de marcas de anúncio**: as IDs de rastreamento de anúncios são analisadas em marcas estruturadas para que você possa analisar o desempenho por dimensões definidas (como call to action, geografia, formato ou conceito), ver a alocação de orçamento nessas dimensões e gastar menos tempo decodificando convenções de nomenclatura manualmente.
+
+>[!NOTE]
+>
+>O **[!UICONTROL Insights 2.0]** atualmente inclui APENAS o **Meta** e o **LinkedIn**. TikTok, DV360 e Innovid não estão incluídos na visão geral do **[!UICONTROL Insights 2.0]** no momento. As **[!UICONTROL Campanhas]**, **[!UICONTROL Anúncios]**, **[!UICONTROL Mídia]** e **[!UICONTROL Atributos]** exibições na seção [Dashboard](#dashboard) continuam a oferecer suporte ao conjunto de canais mais amplo descrito em [Canais com suporte](#channels-supported).
+
 ## Conectores de dados
 
 Na primeira vez que você abrir o [!DNL Insights], poderá ver um banner para orientá-lo a conectar o Adobe GenStudio for Performance Marketing a uma conta de canal.
@@ -50,7 +68,7 @@ Essa conexão permite que o GenStudio for Performance Marketing receba dados est
 
 {{connect-insights}}
 
-## Canais compatíveis
+## Canais compatíveis {#channels-supported}
 
 Os canais compatíveis com o Insights incluem Meta, LinkedIn, TikTok, DV360 e Innovid.
 
@@ -60,7 +78,7 @@ No momento, os dados de Mídia não estão disponíveis para DV360 e Innovid, o 
 
 Essa limitação se deve a restrições nas próprias plataformas de mídia paga e não a um problema com o GenStudio for Performance Marketing.
 
-## Painel
+## Painel {#dashboard}
 
 O painel [!DNL Insights] tem uma tabela configurável para cada tipo de conteúdo: [!UICONTROL Canais], [!UICONTROL Anúncios], [!UICONTROL Mídia] e [!UICONTROL Atributos].
 
