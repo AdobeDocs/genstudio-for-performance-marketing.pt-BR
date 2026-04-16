@@ -5,26 +5,15 @@ feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Conten
 role: User
 level: Beginner
 TQID: https://experienceleague.adobe.com/aK9mP2vR8xT4nW6yB1cF3hJ5kL7mN9pQ2rS4tU6vW8x
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 5f02a3076ca875f9819e5da55824bbf9c5337bb4
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: be495d08-ecd1-455f-951e-c22de504e667id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 4d6a7fafb895ad1e2429978c8ee58d750fff8970
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 100%
+source-wordcount: 931
+ht-degree: 89%
 
 ---
 
@@ -32,7 +21,7 @@ ht-degree: 100%
 
 Usando o [!DNL GenStudio for Performance Marketing], você pode criar anúncios do TikTok como experiências de mídia paga no fluxo de trabalho [[!DNL Create]](/help/user-guide/create/overview.md). Gere variantes criativas, execute verificações de marca e canal, publique no [!DNL Content] e ative no [[!DNL Activate]](/help/user-guide/activation/overview.md) para fornecer conteúdo ao TikTok Ads Manager para análise final e lançamento.
 
-O TikTok no [!DNL GenStudio for Performance Marketing] se encaixa em um fluxo de trabalho omnicanal mais amplo: você pode analisar o desempenho da campanha e dos anúncios do TikTok no [[!DNL Insights]](/help/user-guide/insights/overview.md) junto com outros canais sociais e de exibição (como Meta e LinkedIn), em vez de alternar para ferramentas de relatório separadas.
+O TikTok no [!DNL GenStudio for Performance Marketing] se encaixa em um fluxo de trabalho omnicanal mais amplo: você pode analisar o desempenho da campanha e dos anúncios TikTok nas [!DNL Insights] exibições padrão—[!UICONTROL Campanhas], [!UICONTROL Anúncios], [!UICONTROL Mídia] e [!UICONTROL Atributos]—no [[!DNL Insights]](/help/user-guide/insights/overview.md#dashboard) junto com outros canais sociais e de exibição (como Meta e LinkedIn), em vez de alternar para ferramentas de relatório separadas. A visão geral entre canais do **[!UICONTROL Insights 2.0]** ([Visão geral do Insights — Insights 2.0](/help/user-guide/insights/overview.md#insights-20)) concentra-se somente no Meta e no LinkedIn; o TikTok não está incluído nesse momento.
 
 [!DNL Insights] métricas de superfícies, incluindo:
 
@@ -183,7 +172,7 @@ Um modal _Publicação em andamento_ é exibido e fechado automaticamente. Você
 
 ![modal de publicação do GenStudio](../../assets/tiktok/publishing-modal.png){width="30%"}
 
-A tabela de ativação mostra as ativações mais recentes, com um status **Pendente** durante o processamento de conclusões. Você pode sair enquanto a publicação é concluída.
+A tabela de ativação mostra as ativações mais recentes, com um status **Pendente** enquanto o processamento é concluído.Você pode sair enquanto a publicação é concluída.
 
 ![Página de detalhes do TikTok](../../assets/tiktok/tiktok-details-page.png){width="90%"}
 
