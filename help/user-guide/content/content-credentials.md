@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: 723
 ht-degree: 0%
 
 ---
@@ -32,8 +32,12 @@ Saiba como as credenciais à prova de adulteração para conteúdo que comprovam
 >
 > No momento, esse recurso está na versão beta e só está disponível para organizações que receberam acesso. Se estiver interessado, entre em contato com o representante da equipe de contas da Adobe ou [use este link para solicitar a inscrição](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
+## Introdução ao Content Credentials {#content-credentials}
 
-## Introdução ao Content Credentials
+>[!CONTEXTUALHELP]
+>id="gspm_content_credentials"
+>title="Content Credentials em [!DNL GenStudio for Performance Marketing]"
+>abstract="Credenciais à prova de adulteração para conteúdo que comprovam a autenticidade da marca e impulsionam a conformidade podem ser incorporadas diretamente no seu fluxo de trabalho de marketing."
 
 Depois que o Content Credentials for ativado na Admin Console, os usuários da GenStudio for Performance Marketing poderão ativar o Content Credentials para todos os ativos globalmente no aplicativo. Se a opção global para aplicar credenciais estiver desativada, os usuários terão a opção de aplicar o Content Credentials para cada ativo individual.
 
