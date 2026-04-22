@@ -5,21 +5,14 @@ level: Intermediate
 feature: Content Management, Content Attributes
 exl-id: 9fc1e428-7fa7-4f00-84ba-51c9318766f4
 TQID: https://experienceleague.adobe.com/ATpH1AXBAhr5tJDVkgx0ZaK20YYBmP7NQF0BUCtGiGw
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: 723
 ht-degree: 0%
 
 ---
@@ -32,8 +25,12 @@ Saiba como as credenciais à prova de adulteração para conteúdo que comprovam
 >
 > No momento, esse recurso está na versão beta e só está disponível para organizações que receberam acesso. Se estiver interessado, entre em contato com o representante da equipe de contas da Adobe ou [use este link para solicitar a inscrição](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
+## Introdução ao Content Credentials {#content-credentials}
 
-## Introdução ao Content Credentials
+>[!CONTEXTUALHELP]
+>id="gspm_content_credentials"
+>title="Content Credentials em [!DNL GenStudio for Performance Marketing]"
+>abstract="Credenciais à prova de adulteração para conteúdo que comprovam a autenticidade da marca e impulsionam a conformidade podem ser incorporadas diretamente no seu fluxo de trabalho de marketing."
 
 Depois que o Content Credentials for ativado na Admin Console, os usuários da GenStudio for Performance Marketing poderão ativar o Content Credentials para todos os ativos globalmente no aplicativo. Se a opção global para aplicar credenciais estiver desativada, os usuários terão a opção de aplicar o Content Credentials para cada ativo individual.
 
@@ -47,11 +44,11 @@ Os administradores são responsáveis por fazer upload de um certificado X.509 v
 
 ## O que são Content Credentials? 
 
-Content Credentials são um tipo de metadados durável e padrão do setor, com detalhes sobre como o conteúdo foi feito e informações de identidade sobre os criadores. O Content Credentials pode ser visualizado quando o conteúdo é publicado online em plataformas de suporte ou usando ferramentas como a [ferramenta Inspect da Adobe](https://contentauthenticity.adobe.com/inspect) ou a [extensão de navegador Adobe Content Authenticity Chrome](https://helpx.adobe.com/br/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials são um tipo de metadados durável e padrão do setor, com detalhes sobre como o conteúdo foi feito e informações de identidade sobre os criadores. O Content Credentials pode ser visualizado quando o conteúdo é publicado online em plataformas de suporte ou usando ferramentas como a [ferramenta Inspect da Adobe](https://contentauthenticity.adobe.com/inspect) ou a [extensão de navegador Adobe Content Authenticity Chrome](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 A aplicação do Content Credentials pode ajudar a aumentar a transparência sobre como o conteúdo foi feito e pode ajudar seus usuários a se conectarem ao conteúdo.
 
-[Saiba mais sobre o Content Credentials](https://helpx.adobe.com/br/creative-cloud/help/content-credentials.html) na Adobe.
+[Saiba mais sobre o Content Credentials](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) na Adobe.
 
 ## Assinatura da marca e rastreamento de ativos
 
