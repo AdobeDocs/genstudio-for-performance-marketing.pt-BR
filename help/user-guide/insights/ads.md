@@ -24,24 +24,24 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 10082fcc357e53ce6a084fb466d60a5674ea9f9e
+source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1469
 ht-degree: 1%
 
 ---
 
-# Visão geral de anúncios e posicionamento de anúncios
+# Visão geral das tags de anúncios e do posicionamento de anúncios
 
-A exibição [!DNL Insights] _[!UICONTROL Anúncios]_ mostra uma lista de anúncios para a conta de anúncio do canal conectado. Um _anúncio_ é um ativo promocional que inclui conteúdo visual e interativo destinado à distribuição para um público específico como parte de uma campanha de marketing.
+A exibição [!DNL Insights] _[!UICONTROL Marcas de anúncios]_ mostra uma lista de anúncios para a conta de anúncio do canal conectado. Um _anúncio_ é um ativo promocional que inclui conteúdo visual e interativo destinado à distribuição para um público específico como parte de uma campanha de marketing.
 
 {{connect-insights}}
 
-A tabela _[!UICONTROL Anúncios]_ é organizada com o uso de [!UICONTROL Nomes de anúncios]. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis.
+A tabela _[!UICONTROL Marcas de anúncios]_ é organizada com o uso de [!UICONTROL Nomes de anúncios]. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis.
 
-![Filtro de anúncios e tabela](/help/assets/insights-ads-filter.png){zoomable="yes"}
+![Métricas de desempenho do Insights de tags de anúncios](./ad-tags-tab.png)
 
-A exibição de galeria _[!UICONTROL Anúncio]_ mostra uma colagem de visualizações de anúncios e uma métrica, como taxa de cliques. Clique no ícone de configurações (cog) acima do lado direito da galeria para abrir **[!UICONTROL Configurações de cartão]** e alternar uma das três métricas visualizáveis:
+A exibição de galeria das _[!UICONTROL Marcas de anúncios]_ mostra uma intercalação de visualizações de anúncios e uma métrica, como a taxa de cliques. Clique no ícone de configurações (cog) acima do lado direito da galeria para abrir **[!UICONTROL Configurações de cartão]** e alternar uma das três métricas visualizáveis:
 
 - CPA (Custo por ação)
 - CTR (taxa de cliques)
