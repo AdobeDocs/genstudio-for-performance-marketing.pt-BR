@@ -17,17 +17,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
+source-git-commit: b6ee6bef6552cf0a48316c4ce788e7a22f9daf16
 workflow-type: tm+mt
-source-wordcount: 1713
-ht-degree: 93%
+source-wordcount: 1731
+ht-degree: 90%
 
 ---
 
 # Plug-in Figma para GenStudio for Performance Marketing
 
 O plug-in Figma do GenStudio for Performance Marketing adiciona um novo painel ao aplicativo Figma que permite gerar conteúdo na marca.
-[Localize e instale o plug-in no Marketplace da comunidade Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
+[Localize e instale o plug-in do Marketplace da comunidade Figma](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 Esta página descreve como configurar e usar o plug-in.
 
@@ -85,7 +85,11 @@ Para atribuir funções de elemento:
 1. Selecione um elemento no modelo (texto, imagem etc.).
 1. Use o menu suspenso para atribuir uma função.
 
-O plug-in lembra desses mapeamentos para usar no conteúdo gerado. Uma função de campo\ pode ser mapeada para vários elementos de modelo.
+>[!IMPORTANT]
+>
+> Você deve mapear uma imagem: atribua a função de campo `image` a pelo menos um elemento de imagem em seu modelo.
+
+O plug-in lembra desses mapeamentos para usar no conteúdo gerado. Uma função de campo pode ser mapeada para vários elementos de modelo.
 
 ![Mapeamento de função de campo](./field-role-mapping.png){width="60%"}
 
