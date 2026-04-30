@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6b964da5bf0d0d10508a43f17f68faf1114270c1
+source-git-commit: 1dbfb6115c9340f9c14cef75d5144a303314fa71
 workflow-type: tm+mt
 source-wordcount: 1835
 ht-degree: 85%
@@ -93,9 +93,9 @@ O plug-in precisa entender os diferentes elementos do seu modelo, como título, 
 
 Veja abaixo como algumas dessas funções de campo são mapeadas.
 
-| ![Uma postagem do Facebook com funções de campo indicadas](./facebook-post.png){width="50%" align="center"}<br> | ![Uma história do Facebook com funções de campo indicadas](./facebook-story.png){width="60%" align="center"}<br> |
+| ![Uma postagem do Facebook com funções de campo indicadas](./facebook-post.png){width="60%" align="center" zoomable="yes"}<br> | ![Uma história do Facebook com funções de campo indicadas](./facebook-story.png){width="70%" align="center" zoomable="yes"}<br> |
 |:---:|:---:|
-| ![Uma publicação do Instagram com funções de campo indicadas](./instagram-post.png){width="50%" align="center"}<br> | ![Uma história do Instagram com funções de campo indicadas](./instagram-story.png){width="60%" align="center"}<br> |
+| ![Uma publicação do Instagram com funções de campo indicadas](./instagram-post.png){width="60%" align="center" zoomable="yes"}<br> | ![Uma história do Instagram com funções de campo indicadas](./instagram-story.png){width="70%" align="center" zoomable="yes"}<br> |
 
 **As funções do campo LinkedIn incluem**:
 
@@ -109,7 +109,7 @@ Veja abaixo como algumas dessas funções de campo são mapeadas.
 
 Veja abaixo como algumas dessas funções de campo são mapeadas.
 
-![Uma publicação do LinkedIn com funções de campo indicadas](./linkedin-ad.png){width="20%" align="center"}
+![Uma publicação do LinkedIn com funções de campo indicadas](./linkedin-ad.png){width="30%" align="center" zoomable="yes"}
 
 O plug-in lembra desses mapeamentos para usar no conteúdo gerado. Uma função de campo pode ser mapeada para vários elementos de modelo. Os campos manuais são para elementos que você gostaria de preservar a edição de texto, mas não serão marcados para geração.
 
@@ -122,7 +122,7 @@ Para atribuir funções de elemento:
 1. Selecione um elemento no modelo (texto, imagem etc.).
 1. Use o menu suspenso para atribuir uma função.
 
-![Mapeamento de função de campo](./field-role-mapping.png){width="60%"}
+![Mapeamento de função de campo](./field-role-mapping.png){width="60%" zoomable="yes"}
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
