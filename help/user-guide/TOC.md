@@ -5,10 +5,10 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 8c7ac98d651195c28a2c82341c68d40b067b2c76
+source-git-commit: d1ead032ce38f7487fd83439324f19a805941585
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 98%
+source-wordcount: '260'
+ht-degree: 93%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 98%
    + [Experiências do Meta](create/meta-experiences.md)
    + [Experiências do LinkedIn](create/linkedin-experiences.md)
    + [Experiências do TikTok](create/tiktok-experiences.md)
+   + [Anúncios de TV conectados](create/create-ctv.md)
    + [Exibir experiências de anúncio](create/display-ad-experiences.md)
    + [Experiências com o banner](create/banner-experiences.md)
    + [Gerenciar variantes](create/manage-variants.md)
