@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b6ee6bef6552cf0a48316c4ce788e7a22f9daf16
+source-git-commit: 6b964da5bf0d0d10508a43f17f68faf1114270c1
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 90%
+source-wordcount: 1835
+ht-degree: 85%
 
 ---
 
@@ -80,20 +80,49 @@ Não há requisito de tamanho fixo. Os modelos de exibição são compatíveis c
 
 O plug-in precisa entender os diferentes elementos do seu modelo, como título, corpo de texto ou imagem.
 
+**As funções de campo do Meta incluem**:
+
+* Imagem
+* Texto da imagem
+* CTA
+* Corpo de texto
+* Título
+* URL do site
+* Exibir link
+* Campos manuais
+
+Veja abaixo como algumas dessas funções de campo são mapeadas.
+
+| ![Uma postagem do Facebook com funções de campo indicadas](./facebook-post.png){width="50%" align="center"}<br> | ![Uma história do Facebook com funções de campo indicadas](./facebook-story.png){width="60%" align="center"}<br> |
+|:---:|:---:|
+| ![Uma publicação do Instagram com funções de campo indicadas](./instagram-post.png){width="50%" align="center"}<br> | ![Uma história do Instagram com funções de campo indicadas](./instagram-story.png){width="60%" align="center"}<br> |
+
+**As funções do campo LinkedIn incluem**:
+
+* Imagem
+* Texto introdutório
+* Texto da imagem
+* Título
+* CTA
+* URL do site
+* Campos manuais
+
+Veja abaixo como algumas dessas funções de campo são mapeadas.
+
+![Uma publicação do LinkedIn com funções de campo indicadas](./linkedin-ad.png){width="20%" align="center"}
+
+O plug-in lembra desses mapeamentos para usar no conteúdo gerado. Uma função de campo pode ser mapeada para vários elementos de modelo. Os campos manuais são para elementos que você gostaria de preservar a edição de texto, mas não serão marcados para geração.
+
+>[!IMPORTANT]
+>
+> **Você deve mapear uma imagem** atribuindo a função de campo `image` a pelo menos um elemento de imagem em seu modelo.
+
 Para atribuir funções de elemento:
 
 1. Selecione um elemento no modelo (texto, imagem etc.).
 1. Use o menu suspenso para atribuir uma função.
 
->[!IMPORTANT]
->
-> Você deve mapear uma imagem: atribua a função de campo `image` a pelo menos um elemento de imagem em seu modelo.
-
-O plug-in lembra desses mapeamentos para usar no conteúdo gerado. Uma função de campo pode ser mapeada para vários elementos de modelo.
-
 ![Mapeamento de função de campo](./field-role-mapping.png){width="60%"}
-
-### Exceções de mapeamento de campo
 
 {{$include /help/_includes/field-mapping-exceptions.md}}
 
