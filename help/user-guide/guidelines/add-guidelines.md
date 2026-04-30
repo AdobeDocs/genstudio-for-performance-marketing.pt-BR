@@ -6,12 +6,26 @@ role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
 TQID: https://experienceleague.adobe.com/ZBEIHvBGmsFQ42jATObuO7IeANKc3CXCmhJ20p5-QCs
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: afc6e550-6640-4eb4-a143-75ec86d23a66id: be495d08-ecd1-455f-951e-c22de504e667id: cec71013-cf14-4e28-b808-3d3060935bcbid: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: afc6e550-6640-4eb4-a143-75ec86d23a66
+  - id: be495d08-ecd1-455f-951e-c22de504e667
+  - id: cec71013-cf14-4e28-b808-3d3060935bcb
+  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7417595bdb075a49cdcfc988be5b900801816019
 workflow-type: tm+mt
 source-wordcount: 3052
@@ -107,7 +121,7 @@ Você pode adicionar detalhes da marca manualmente, em vez de carregar documento
    - _Quando usar esta marca_: clique em **[!UICONTROL Adicionar]** (ou clique no campo de texto para alterar o texto existente) e insira a visão geral e as informações de uso sobre a marca. Clique em **[!UICONTROL Salvar alterações]**.
    - [_[!DNL Brand] diretrizes de voz _](brands.md#brand-voice-guidelines): adicione as informações aplicáveis em cada campo de diretrizes.
 
-     ![Adicionar [!DNL Brand] diretrizes de voz ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Adicionar [!DNL Brand] diretrizes de voz &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Diretrizes de imagem_](brands.md#image-guidelines): clique em **[!UICONTROL Adicionar categoria]** para adicionar categorias de diretriz, como &quot;Diretrizes gerais de arte&quot; ou &quot;Fotografia do produto&quot;. Preencha as diretrizes em cada categoria adicionada.
    - [_Diretrizes do canal_](brands.md#channel-guidelines): clique em cada canal disponível e adicione as diretrizes apropriadas.
@@ -278,7 +292,7 @@ Você pode adicionar detalhes de persona manualmente, em vez de carregar documen
 
 ### Gerenciar [!DNL Personas]
 
-Na página inicial de _[!DNL Personas]_, você pode **abrir um[!DNL Persona]**já criado para editá-lo ou revisá-lo, ou **excluir um**da lista:
+Na página inicial de _[!DNL Personas]_, você pode **abrir um[!DNL Persona]**&#x200B;já criado para editá-lo ou revisá-lo, ou **excluir um**&#x200B;da lista:
 
 - Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Personas] para revisar e revisar um perfil existente.
 - Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Personas] para **Excluir** um perfil.
@@ -362,7 +376,7 @@ Você pode adicionar detalhes do produto manualmente, em vez de carregar documen
 
 ### Gerenciar [!DNL Products]
 
-Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**já criado para editá-lo ou revisá-lo, ou **excluir um produto**da lista:
+Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**&#x200B;já criado para editá-lo ou revisá-lo, ou **excluir um produto**&#x200B;da lista:
 
 - Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Products] para revisar e analisar um produto existente.
 - Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Products] para **Excluir** um produto.
@@ -372,11 +386,11 @@ Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**j�
 
 >[!NOTE]
 >
->O recurso [!DNL Audiences] exige integração da equipe do Adobe para ser exibido no GenStudio. Se _[!DNL Audiences]_não aparecer nos parâmetros do modelo, contate o representante da Adobe.
+>O recurso [!DNL Audiences] exige integração da equipe do Adobe para ser exibido no GenStudio. Se _[!DNL Audiences]_&#x200B;não aparecer nos parâmetros do modelo, contate o representante da Adobe.
 
 O [!DNL Audiences] fornece segmentos de clientes direcionados do Adobe Real-Time Customer Data Platform (RTCDP), trazendo dados precisos de direcionamento para o fluxo de trabalho de geração de conteúdo. O GenStudio for Performance Marketing aproveita as definições de público-alvo para ajudar você a criar conteúdo de marketing personalizado alinhado a segmentos de clientes específicos.
 
-[!DNL Audiences] aparecem como uma lista suspensa no painel de parâmetros, no [fluxo de trabalho _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ pode adicionar especificidade a _[!DNL Personas]_quando ambas as diretrizes são usadas, mas também pode ser efetivamente usada de forma independente.
+[!DNL Audiences] aparecem como uma lista suspensa no painel de parâmetros, no [fluxo de trabalho _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ pode adicionar especificidade a _[!DNL Personas]_&#x200B;quando ambas as diretrizes são usadas, mas também pode ser efetivamente usada de forma independente.
 
 Durante a integração, as definições de público-alvo são importadas e transformadas em um formato compatível com o GenStudio. Normalmente, esse processo leva alguns dias para ser concluído. Entre em contato com a equipe do Adobe para iniciá-lo.
 
@@ -384,11 +398,11 @@ Durante a integração, as definições de público-alvo são importadas e trans
 
 - Acesso organizacional ao Adobe Real-Time Customer Data Platform
 - Públicos-alvo existentes já configurados em sandboxes do RTCDP
-- A integração do _[!DNL Audience]_requer um processo de integração manual pela equipe do Adobe
+- A integração do _[!DNL Audience]_&#x200B;requer um processo de integração manual pela equipe do Adobe
 
 **Para selecionar uma audiência**:
 
-1. Em [o fluxo de trabalho _[!DNL Create]_](../create/overview.md#templates), selecione um modelo e clique no botão **[!UICONTROL Usar]**para abrir o rascunho.
+1. Em [o fluxo de trabalho _[!DNL Create]_](../create/overview.md#templates), selecione um modelo e clique no botão **[!UICONTROL Usar]**&#x200B;para abrir o rascunho.
 1. Na lista de parâmetros, clique na lista suspensa _[!UICONTROL Público-alvo]_ para exibir todos os públicos-alvo disponíveis.
    ![Lista suspensa de público-alvo no painel Parâmetros de persona](./audience-dropdown.png){width=450}
 1. Selecione um público a ser atribuído na lista. O sistema sugere públicos-alvo recomendados que se alinhem com o [!DNL Persona] selecionado, se um [!DNL Persona] for selecionado.
