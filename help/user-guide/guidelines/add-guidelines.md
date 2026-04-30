@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7417595bdb075a49cdcfc988be5b900801816019
+source-git-commit: e43c9569f3fc5a2353a6fc0e15189ac31f216050
 workflow-type: tm+mt
-source-wordcount: 3052
+source-wordcount: 3019
 ht-degree: 0%
 
 ---
@@ -44,26 +44,6 @@ As diretrizes podem ser definidas pelo usuário ou podem existir como diretrizes
 Ao criar variantes de um modelo com diretrizes de canal predefinidas (como [!DNL Brands], [!DNL Personas] ou [!DNL Products]), essas diretrizes se aplicam às variantes. Você pode alterá-los se desejar.
 
 {{in-academy}}
-
-## Orientação ao adicionar de um URL
-
-Quando você optar por adicionar um [!DNL Brand], [!DNL Product] ou [!DNL Persona] de uma URL em [!DNL GenStudio for Performance Marketing], considere as informações abaixo.
-
-**Pré-requisitos para fluxos de trabalho baseados em URL**:
-
-- Você tem uma **conta [!DNL GenStudio for Performance Marketing] ativa** com o Brand Manager ou permissões superiores.
-- A **URL está acessível publicamente**. Páginas protegidas por senha ou acessadas por logon produzirão saída limitada.
-- **Para obter melhores resultados, use a URL** do próprio site da marca (uma página inicial ou uma página de produto/categoria) em vez de uma retailer, revendedor ou agregador.
-
-**Tipos de URL e suas saídas esperadas**:
-
-| Tipo de URL | O que esperar |
-| --- | --- |
-| Página inicial da marca | Você recebe as diretrizes completas de marca, e o sistema exibe uma ampla cobertura de produtos e persona. |
-| Página de categoria do produto | Produtos e personalidades têm como escopo a categoria representada nessa página. |
-| Página de aterrissagem da campanha | Os sinais de persona são especialmente úteis, mas a saída da marca pode refletir a campanha em vez da marca completa. |
-| Página do retailer ou de parceiros | O sistema prioriza o conteúdo de terceiros, portanto, a saída será limitada. |
-| Página com acesso / logon obrigatório | O conteúdo da página não está disponível, portanto, o resultado será conservador. |
 
 ## Adicionar marcas
 
@@ -136,7 +116,7 @@ Você não precisa [publicar](#publish-brand) seu [!DNL Brand] para tornar as in
 
 ### Criação de uma marca a partir de um URL
 
-**Pré-requisitos:** Consulte [Pré-requisitos para fluxos de trabalho baseados em URL](#prerequisites-for-url-based-workflows). Para saber como URLs diferentes afetam os resultados, consulte [Tipos de URL e saída esperada](#url-types-and-expected-output).
+**Pré-requisitos:** Consulte [Orientação ao adicionar de uma URL](#guidance-when-adding-from-a-url).
 
 **Para criar uma marca a partir de uma URL:**
 
@@ -279,7 +259,7 @@ Você pode adicionar detalhes de persona manualmente, em vez de carregar documen
 
 ### Adicionando [!DNL Personas] da URL
 
-**Pré-requisitos:** Consulte [Pré-requisitos para fluxos de trabalho baseados em URL](#prerequisites-for-url-based-workflows). Para saber como URLs diferentes afetam os resultados, consulte [Tipos de URL e saída esperada](#url-types-and-expected-output).
+**Pré-requisitos:** Consulte [Orientação ao adicionar de uma URL](#guidance-when-adding-from-a-url).
 
 **Para adicionar personalidades de uma URL:**
 
@@ -363,7 +343,7 @@ Você pode adicionar detalhes do produto manualmente, em vez de carregar documen
 
 ### Adicionar produtos do URL
 
-**Pré-requisitos:** Consulte [Pré-requisitos para fluxos de trabalho baseados em URL](#prerequisites-for-url-based-workflows). Para saber como URLs diferentes afetam os resultados, consulte [Tipos de URL e saída esperada](#url-types-and-expected-output).
+**Pré-requisitos:** Consulte [Orientação ao adicionar de uma URL](#guidance-when-adding-from-a-url).
 
 **Para adicionar [!DNL Products] de uma URL:**
 
@@ -408,3 +388,23 @@ Durante a integração, as definições de público-alvo são importadas e trans
 1. Selecione um público a ser atribuído na lista. O sistema sugere públicos-alvo recomendados que se alinhem com o [!DNL Persona] selecionado, se um [!DNL Persona] for selecionado.
 1. Clique em **[!UICONTROL Ver detalhes do público-alvo]** para exibir a descrição expandida e as preferências de mensagens geradas para o público-alvo selecionado. Os detalhes do público-alvo informam a geração de conteúdo, garantindo que a criação se alinhe às características e preferências específicas do segmento do público-alvo.
    ![Painel de detalhes do público-alvo](./audience-details.png){width=450}
+
+## Orientação ao adicionar de um URL
+
+Quando você optar por adicionar um [!DNL Brand], [!DNL Product] ou [!DNL Persona] de uma URL em [!DNL GenStudio for Performance Marketing], considere as informações abaixo.
+
+**Pré-requisitos para fluxos de trabalho baseados em URL**:
+
+- Você tem uma **conta [!DNL GenStudio for Performance Marketing] ativa** com o Brand Manager ou permissões superiores.
+- A **URL está acessível publicamente**. Páginas protegidas por senha ou acessadas por logon produzirão saída limitada.
+- **Para obter melhores resultados, use a URL** do próprio site da marca (uma página inicial ou uma página de produto/categoria) em vez de uma retailer, revendedor ou agregador.
+
+**Tipos de URL e suas saídas esperadas**:
+
+| Tipo de URL | O que esperar |
+| --- | --- |
+| Página inicial da marca | Você recebe as diretrizes completas de marca, e o sistema exibe uma ampla cobertura de produtos e persona. |
+| Página de categoria do produto | Produtos e personalidades têm como escopo a categoria representada nessa página. |
+| Página de aterrissagem da campanha | Os sinais de persona são especialmente úteis, mas a saída da marca pode refletir a campanha em vez da marca completa. |
+| Página do retailer ou de parceiros | O sistema prioriza o conteúdo de terceiros, portanto, a saída será limitada. |
+| Página com acesso / logon obrigatório | O conteúdo da página não está disponível, portanto, o resultado será conservador. |
