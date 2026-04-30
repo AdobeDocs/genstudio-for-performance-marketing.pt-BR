@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5f02a3076ca875f9819e5da55824bbf9c5337bb4
+source-git-commit: 605ae7a178cd0ad10e302457a9717bb286e81ebb
 workflow-type: tm+mt
-source-wordcount: 724
-ht-degree: 100%
+source-wordcount: 727
+ht-degree: 89%
 
 ---
 
@@ -51,6 +51,7 @@ Com o [!DNL Create], você pode gerar conteúdo para os seguintes canais:
 * [Anúncios do Meta](meta-experiences.md)
 * [Anúncios do LinkedIn](linkedin-experiences.md)
 * [Anúncios do TikTok](tiktok-experiences.md)
+* [Anúncios de TV conectados](create-ctv.md)
 * [Exibir anúncios](display-ad-experiences.md)
 * [Faixas](banner-experiences.md)
 * [Imagens](generate-assets.md)
@@ -217,7 +218,7 @@ Para criar conteúdo gerado por IA, insira um [prompt descritivo](/help/user-gui
 
 ### Verificações de conteúdo
 
-A GenStudio for Performance Marketing realiza [verificações de conteúdo](/help/user-guide/guidelines/brand-validation.md#content-check-panel) comparando-se às [diretrizes de marca](/help/user-guide/guidelines/brands.md), diretrizes de plataforma e [padrões de acessibilidade](/help/user-guide/guidelines/overview.md#compliance) em cada variante para garantir que elas atendam o máximo possível nos padrões [!DNL Brand], plataforma e acessibilidade. [As informações de verificação de conteúdo ](/help/user-guide/guidelines/brand-validation.md#content-check-summary) estão disponíveis para qualquer conteúdo gerado, indicando sua conformidade com verificações de conteúdo abrangentes e coerência entre texto e imagens. Você pode usar essas informações para revisar ou melhorar a experiência gerada para um melhor alinhamento com a sua marca.
+A GenStudio for Performance Marketing realiza [verificações de conteúdo](/help/user-guide/guidelines/brand-validation.md#content-check-panel) comparando-se às [diretrizes de marca](/help/user-guide/guidelines/brands.md), diretrizes de plataforma e [padrões de acessibilidade](/help/user-guide/guidelines/overview.md#compliance) em cada variante para garantir que elas atendam o máximo possível nos padrões [!DNL Brand], plataforma e acessibilidade. As informações de [Verificação de conteúdo](/help/user-guide/guidelines/brand-validation.md#content-check-summary) estão disponíveis para qualquer conteúdo gerado, indicando sua conformidade com verificações de conteúdo abrangentes e coerência entre texto e imagens. Você pode usar essas informações para revisar ou melhorar a experiência gerada para um melhor alinhamento com a sua marca.
 
 ### Revisões e aprovações
 
