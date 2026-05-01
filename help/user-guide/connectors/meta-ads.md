@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: 875
 ht-degree: 0%
 
 ---
@@ -89,6 +89,23 @@ Esta página explica como conectar e gerenciar a conta de perfil do Meta Ads com
 
 Use **[!UICONTROL Adicionar conta]** para adicionar mais contas à lista. O fluxo de autorização pode ser um pouco diferente quando você adiciona contas vinculadas ao mesmo perfil do Meta Business. Você seleciona somente as novas contas do Meta Ads durante o processo de conexão.
 
+## Conectar uma conta do Instagram
+
+>[!IMPORTANT]
+>
+>Antes de ativar um anúncio do Meta, verifique no Meta Business Manager se a conta do Instagram que você deseja usar está conectada à mesma conta de anúncio selecionada durante a integração. Se essa conexão estiver ausente, a conta do Instagram pode não aparecer no menu suspenso [!DNL GenStudio for Performance Marketing] _conta do Instagram_ durante a ativação.
+
+**Para verificar ou atualizar a conexão de conta do Instagram no Meta Business Manager**:
+
+1. Vá para **[!UICONTROL Configurações]**.
+1. Em _Contas_, selecione **[!UICONTROL Contas do Instagram]**.
+1. Escolha a conta do Instagram que deseja usar.
+1. Clique em **[!UICONTROL Ativos conectados]**.
+1. Em _Contas de anúncio_, confirme se a Conta de anúncio usada durante a integração está listada.
+1. Se não estiver listado, clique em **[!UICONTROL Conectar ativos]** e adicione a Conta de anúncio correta.
+
+Depois que a conta de anúncio for conectada, volte para [!DNL GenStudio for Performance Marketing] e continue o fluxo de ativação.
+
 ## Práticas recomendadas de conexão
 
 Para evitar erros, considere estas práticas recomendadas ao configurar conexões:
@@ -140,5 +157,3 @@ Problemas podem ocorrer quando contas do Instagram são selecionadas sem conecta
 1. NÃO selecione a conta do Instagram durante a primeira tentativa de conexão.
 1. Verifique se a conexão foi bem-sucedida antes de adicionar outros ativos.
 1. Quando a conexão de Page estiver estável, adicione contas do Instagram separadamente.
-
-
