@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 501
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Você pode forçar uma criação e implantação do seu aplicativo sem reenviá-
 
 >[!NOTE]
 >
->Forçar uma criação e implantação substitui a implantação existente. **Primeiro teste minuciosamente seu aplicativo** em um ambiente de teste.
+>Forçar uma criação e implantação substitui a implantação existente. **Primeiro teste completamente seu aplicativo** em um ambiente de teste.
 
 ```bash
 aio app build --force-build
@@ -111,6 +111,10 @@ As extensões de validação podem ser encontradas após uma geração de prompt
 Execute a extensão selecionada para validar o conteúdo gerado.
 
 ![Validação válida](./validation-valid.png){width="600" zoomable="yes"}
+
+Quando houver erros, você poderá usar a extensão para atualizar a cópia das experiências de forma programática. Clicar no botão **[!UICONTROL Copiar]** copiará o texto sugerido para a área de transferência. O botão **[!UICONTROL Aplicar]** aplicará o texto a uma caixa de texto específica na experiência gerada.
+
+![Um erro de validação mostrando os botões copiar e aplicar](./validation-copy-apply.png){width="600" zoomable="yes"}
 
 ### Localizar extensões DAM
 
