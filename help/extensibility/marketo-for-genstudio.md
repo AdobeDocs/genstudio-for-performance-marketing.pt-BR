@@ -2,9 +2,9 @@
 title: Marketo para GenStudio
 description: Instale e configure o aplicativo Marketo para GenStudio Adobe Exchange para que sua organização possa usar modelos do Marketo Engage no GenStudio for Performance Marketing.
 feature: Extensibility
-source-git-commit: 4118624b479905cd2f2193d542c000678daaf4b8
+source-git-commit: c9bfee479a433a1303a66a66917b0bbe60f24a74
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,20 @@ Este tópico é para **administradores** que instalam o aplicativo, coletam cred
 
 ## Obter credenciais do Marketo
 
-Você usa credenciais da instância do **Marketo** (não do Adobe Developer Console). Colete os itens a seguir antes de implantar no Exchange.
+Você usa credenciais da instância do **Marketo** (não do Adobe Developer Console). Colete as credenciais a seguir usando as etapas abaixo antes de implantar no Exchange.
+
+>[!NOTE]
+>
+>Para gerar e recuperar credenciais do Marketo, é necessário ter acesso de Administrador de produto do Marketo, caso contrário, a guia Administrador não estará visível no Marketo.
 
 ### Criar um usuário somente API (opcional se você reutilizar um usuário API existente)
 
 1. No Marketo, vá para **[!UICONTROL Admin]**.
-1. Em **[!UICONTROL Segurança]**, abra **[!UICONTROL Usuários e Funções]**.
-1. Para um novo usuário da API, clique em **[!UICONTROL Criar somente usuário da API]** (use um email exclusivo para cada usuário da API). Atribua a função **[!UICONTROL Funções de API (todos os Espaços de Trabalho)]** (ou as funções exigidas por sua organização). Se você já tiver um usuário de API que deseja usar, pule para [Criar ou selecione um serviço do LaunchPoint](#create-or-select-a-launchpoint-service).
+   ![Guia Administrador do Marketo](/help/extensibility/marketo-admin-global.png){width="80%"}
+1. Em **[!UICONTROL Segurança]**, abra **[!UICONTROL Usuários e Funções]** e vá para a guia **[!UICONTROL Funções]**.
+1. Crie uma nova função ou edite uma função existente, com as seguintes permissões adicionadas: _Access API_ e _Access Design Studio_.
+1. Para um novo usuário da API, clique em **[!UICONTROL Criar somente usuário da API]** (use um email exclusivo para cada usuário da API).
+1. Marque a caixa de seleção das Funções e atribua a nova função criada. Se você já tiver um usuário de API que deseja usar, pule para [Criar ou selecione um serviço do LaunchPoint](#create-or-select-a-launchpoint-service).
 
 ![Usuários e funções com API somente e funções de usuário e API](/help/extensibility/marketo-users-roles-api-user.png){width="80%"}
 
@@ -66,12 +73,26 @@ Para disponibilizar a extensão no GenStudio, implante o aplicativo do Adobe Exc
 1. Selecione **[!UICONTROL Gerenciar]** e abra o aplicativo **Marketo para GenStudio** (por exemplo, em **[!UICONTROL aplicativos App Builder]** ou em aplicativos gerenciados de sua organização).
 1. Em **[!UICONTROL Ambientes]**, escolha um ambiente existente na lista suspensa ou selecione **[!UICONTROL Adicionar ambiente]** para criar um.
 1. Abrir **[!UICONTROL Configuração]** para o ambiente selecionado.
-1. Insira a **[!UICONTROL ID do Cliente]** e o **[!UICONTROL Segredo do Cliente]** do [LaunchPoint](#create-or-select-a-launchpoint-service), a **[!UICONTROL URL da Identidade do Marketo Engage]** e a **[!UICONTROL URL Base da API REST do Marketo Engage]** (o host base dos [Serviços da Web](#note-your-marketo-rest-api-base-url)).
+1. Insira a **[!UICONTROL ID do Cliente]** e o **[!UICONTROL Segredo do Cliente]** do [LaunchPoint](#create-or-select-a-launchpoint-service), a **[!UICONTROL URL da Identidade da Marketo Engage]** e a **[!UICONTROL URL da Base da API REST do Marketo Engage]** (o host base dos [Serviços da Web](#note-your-marketo-rest-api-base-url)) para a URL da Identidade da Marketo Engage &#x200B;e a URL da Base da API REST do Marketo Engage.
 1. Clique em **[!UICONTROL Implantar]**. Quando a implantação for bem-sucedida, a ação será alterada para **[!UICONTROL Desimplantar]**.
 
 ### Atualizar configuração
 
 Para alterar os valores de configuração de um ambiente, **[!UICONTROL Desimplantar]** primeiro, atualize os campos e **[!UICONTROL Implante]** novamente.
+
+### Configuração do Workspace (opcional)
+
+Você pode ignorar esta etapa se pretende usar o espaço de trabalho padrão. Por padrão, os campos **ID do Workspace** e **Tamanho da Página de Lista de Modelos** são pré-configurados.
+
+No entanto, se você precisar buscar modelos de um espaço de trabalho diferente:
+
+1. No Marketo, navegue até **[!UICONTROL Admin]** → **[!UICONTROL Segurança]** → **[!UICONTROL Espaços de trabalho e partições]**.
+1. A coluna **Workspace ID** está oculta por padrão. Para habilitá-la, clique com o botão direito do mouse na linha de cabeçalho (onde os nomes das colunas são exibidos).
+1. Selecione **[!UICONTROL Colunas]**.
+1. Habilitar **[!UICONTROL ID]** da lista.
+   ![Espaços de trabalho e partições com a coluna Workspace ID habilitada](/help/extensibility/marketo-workspace-id.png){width="80%"}
+
+Depois de visível, use a **Workspace ID** apropriada para sua configuração.
 
 ## Acessar modelos do Marketo no GenStudio
 
@@ -94,3 +115,12 @@ Depois que o Marketo for GenStudio for instalado e configurado, uma guia **[!UIC
 
 * Recarregue a página ou saia e entre novamente na GenStudio.
 * No painel de ferramentas do desenvolvedor do navegador **[!UICONTROL Rede]**, procure chamadas de API com falha para sua instância do Marketo e verifique se a URL base REST corresponde a **[!UICONTROL Serviços da Web]** no Marketo (nenhum caminho extra após o host).
+
+### Erro &quot;Nenhum modelo encontrado&quot;
+
+Se a extensão for instalada com sucesso e a guia Modelos do Marketo estiver visível, mas exibir &quot;Nenhum modelo encontrado&quot;, o problema pode ser causado pelo aplicativo exceder os limites de tamanho ao renderizar os modelos, resultando em uma falha.
+Para resolver isso:
+
+1. Desimplante o aplicativo do Exchange.
+1. Reduza o tamanho da página da lista de modelos (por exemplo, defina como 1 ou 2).
+1. Reimplante o aplicativo.
