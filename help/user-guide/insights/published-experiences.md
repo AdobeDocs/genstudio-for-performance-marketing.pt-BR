@@ -1,0 +1,89 @@
+---
+title: Detalhes das experiências publicadas
+description: Consulte uma visão geral do envolvimento do cliente, orçamento e despesas para experiências publicadas e desempenho de posicionamento no Adobe GenStudio for Performance Marketing.
+level: Intermediate
+feature: Ad Performance, Text Attributes, Reporting and Insights
+exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
+TQID: https://experienceleague.adobe.com/TVvHSbmD8vvc4y9xmg4iPnT-eWKwjln5730LUdgUW0k
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d61c45100a8ec4973e87948315f5500e023a29eb
+workflow-type: tm+mt
+source-wordcount: 1320
+ht-degree: 1%
+
+---
+
+
+# Detalhes das experiências publicadas {#ad-details}
+
+Selecione uma experiência publicada e visualize as métricas de desempenho, os atributos de texto e os posicionamentos associados a cada experiência. Os _[!UICONTROL Detalhes das experiências publicadas]_ incluem métricas para a experiência `click-through rate`, `cost per action` e `spend`—quanto do orçamento foi gasto na experiência. Como as experiências podem ter vários posicionamentos, como um feed ou um banner, você pode ver um detalhamento das mesmas métricas para cada posicionamento. Use as setas para a esquerda e para a direita em **[!UICONTROL Desempenho por posicionamento]** para percorrer as métricas de posicionamento.
+
+![Detalhes de experiências publicadas com métricas e posicionamentos](/help/assets/insights-ad-details.png){zoomable="yes"}
+
+## Formatos de publicidade
+
+Os formatos de anúncios se referem a vários elementos criativos e layouts usados para alinhar-se aos objetivos da campanha, engajar o público-alvo e ajudar a rastrear as métricas de desempenho.
+
+[!DNL Insights] no GenStudio for Performance Marketing atualmente suporta os seguintes formatos de anúncios disponíveis.
+
+| Canal | Compatível | Não compatível |
+|---|---|---|
+| Meta | <ul><li>Anúncios dinâmicos</li><li>Vincular anúncios</li><li>Anúncios de imagem simples</li><li>Anúncios de vídeo simples</li><li>Comprar anúncios</li></ul> | <ul><li>Anúncios do catálogo do Advantage+</li><li>Anúncios do carrossel</li><li>Anúncios do Messenger</li><li>Anúncios principais</li><li>Anúncios da coleção</li><li>Anúncios de chamada</li><li>Anúncios de postagem de página próprios</li><li>Anúncios de parcerias</li><li>Anúncios flexíveis</li></ul> |
+| LinkedIn | <ul><li>Anúncios de imagem única</li><li>Anúncios de vídeo único</li><li>Anúncios de artigo</li></ul> | <ul><li>Anúncios do carrossel</li><li>Anúncios de documentos</li><li>Anúncios de evento</li><li>Anúncios dos líderes de pensamento</li><li>Anúncios da geração líder</li><li>Anúncios dos seguidores</li><li>Anúncios de conversa</li><li>Anúncios em destaque</li><li>Anúncios de tarefa</li><li>Anúncios de conteúdo</li><li>Anúncios de mensagem</li></ul> |
+| TikTok | <ul><li>Anúncios de imagem única</li><li>Anúncios de vídeo único</li></ul> | <ul><li>Anúncios No Feed (Vídeo, Spark, Carousel)</li><li>Anúncios de reconhecimento Premium (TopView, Aquisição da marca)</li><li>Anúncios interativos (Desafios de hashtag, efeitos de marca)</li><li>Anúncios do Commerce (Compras, Catálogo, AO VIVO)</li><li>Anúncios de clientes potenciais e mensagens</li><li>Difícil de classificar, pois não temos os ativos para determinar o tipo de anúncio</li></ul> |
+| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | O canal de mídia paga não fornece acesso à recuperação de ativos criativos, o que dificulta a classificação precisa dos tipos de anúncios. |
+| Innovid | N/D | O canal de mídia paga não fornece acesso à recuperação de ativos criativos, o que dificulta a classificação precisa dos tipos de anúncios. |
+
+## Posicionamentos de anúncios
+
+Os posicionamentos de anúncios se referem a locais ou plataformas específicas em que seus anúncios aparecem em uma campanha. Esses posicionamentos determinam como e onde o público-alvo interage com o conteúdo. Os posicionamentos de anúncios ampliam o alcance do público, o que ajuda a maximizar a visibilidade, o engajamento e a eficácia geral da campanha.
+
+Ao criar uma campanha, você pode ter selecionado onde executar seus anúncios com base no [objetivo](campaigns.md#objectives) da campanha.
+
+Veja a seguir uma lista dos posicionamentos de anúncios compatíveis com o Meta:
+
+| Rede de público-alvo | Facebook/Meta \* | Instagram | Messenger |
+|--------------------|--------------------|-------------------------|---------------------|
+| Vídeo premiado | Feed<br>Feeds de vídeo<br>Histórias<br>Marketplace<br>Coluna direita<br>Sobreposição de bobinas<br>Vídeo em fluxo<br>Pesquisa<br>Feed de discoteca de negócios<br>Feed de perfil<br> | Histórias<br>Feed<br>Explorar<br>Bobinas<br>Explorar Página Inicial da grade<br>Feed do perfil<br>Pesquisa<br>Fluxo | Histórias<br>Caixa de entrada |
+
+\* Consulte [Sobre posicionamento de anúncios em tecnologias da Meta](https://www.facebook.com/business/help/407108559393196?id=369787570424415) na _Central de Ajuda Comercial da Meta_.
+
+## Desempenho do anúncio
+
+As métricas de Insights podem ajudar a avaliar quais anúncios contribuem para o sucesso de uma campanha e quais posicionamentos de anúncios são mais eficazes.
+
+A tabela a seguir fornece definições e insights para as métricas principais de marketing digital na exibição de tabela [!UICONTROL Anúncios]. Cada métrica inclui uma breve definição, pois se relaciona a nomes de anúncios, como a métrica é calculada, e um ou mais insights para ajudar a entender sua importância e impacto em um anúncio.
+
+| Métrica | Definição | Insight |
+| ---------------------------- | ----------------------------- | -------------------------------- |
+| **[!UICONTROL Nome do anúncio]** | Uma lista de anúncios para a conta de canal conectada. Filtre anúncios selecionando uma campanha. | Classifique a lista de anúncios clicando em qualquer uma das métricas principais. |
+| **[!UICONTROL Campanha]** | Uma campanha é um conjunto de anúncios projetados para atingir um objetivo específico. | Ao filtrar a tabela Anúncios por campanha, as métricas de resumo de todos os anúncios da campanha podem ser diferentes da linha de resumo da campanha na exibição [!UICONTROL Canais]. Essa discrepância pode ocorrer se a origem do canal, como Meta e GenStudio, usarem cálculos de resumo ligeiramente diferentes. |
+| **[!UICONTROL Posicionamentos]** | Uma contagem de [posicionamentos](#ad-placements) de anúncios, locais em que um anúncio apareceu na campanha. | Os posicionamentos aumentam o alcance do público-alvo.<p>Anúncios que mostram zero posicionamento e mídia zero podem indicar um [tipo de anúncio sem suporte](#unsupported-placements).</p> |
+| **[!UICONTROL Mídia]** | O número de ativos usados nos posicionamentos de anúncios e anúncios | A contagem na tabela Anúncios pode ser diferente da contagem na visualização Detalhes do anúncio. Essa discrepância pode ocorrer se a origem do canal, como Meta e GenStudio, usarem cálculos de resumo ligeiramente diferentes. |
+| **[!UICONTROL Impressões]** | Uma contagem de cada vez que o posicionamento do anúncio ou o anúncio é carregado no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para um verdadeiro desempenho do insight, considere-a em relação a outras métricas de envolvimento. |
+| **[!UICONTROL Cliques]** | O número de vezes que os usuários interagem com um elemento clicável, como um link ou um botão do call-to-action, em um posicionamento de anúncio. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
+| **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultou em cliques no anúncio em uma campanha.<br>**Cálculo**: `clicks` dividido por `impressions` | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
+| **[!UICONTROL CPM ]**<br>_Custo por mil_ | O custo médio para cada mil impressões de anúncios.<br>**Cálculo**: valor total `spent` dividido pelo alcance, então multiplicado por 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
+| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | O custo médio gasto para realizar uma ação específica do cliente, como uma compra ou uma assinatura.<br>**Cálculo**: valor total `spent` dividido pelo número de ações do cliente concluídas | Use para monitorar os gastos com anúncios que resultam em ações valiosas do cliente. |
+| **[!UICONTROL CPC ]**<br>_Custo por clique_ | O custo médio associado a cada clique em um posicionamento de anúncio.<br>**Cálculo**: valor total `spent` dividido por `clicks` | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
+| **[!UICONTROL Gastar]** | O valor gasto com o orçamento da campanha durante um determinado período para fazer esse anúncio. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor gasto em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
+| **Atributos** | Lista de recursos inerentes presentes neste anúncio. | Os atributos ajudam a identificar elementos criativos que mais refletem em seu público-alvo. Consulte [Categorias](/help/user-guide/insights/attributes.md#categories). |
+
+## Desempenho de posicionamento
+
+Na exibição da _[!UICONTROL página de detalhes do anúncio]_, as três métricas principais refletem o desempenho geral do anúncio selecionado. No entanto, a seção _Desempenho por posicionamento_ mostra as métricas detalhadas para cada posicionamento de anúncio. Use as setas para a direita e para a esquerda para navegar pelos diferentes posicionamentos de anúncios.
+
+A tabela a seguir fornece definições para as métricas de desempenho de posicionamento de anúncios:
+
+| Métrica | Definição | Insight |
+| ---------------------------- | ----------------------------- | --------------------------------- |
+| **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | A porcentagem (%) de impressões para um único posicionamento de anúncio que resultou em cliques.<p>**Cálculo**:`clicks` dividido por `impressions`<p>Essa métrica ajuda a determinar a eficácia do posicionamento do anúncio em envolver o público-alvo. | Um CTR alto indica que o posicionamento do anúncio é relevante e atraente para o público-alvo, resultando em mais interações. |
+| **[!UICONTROL CPA ]**<br>_Custo por Ação_ | O custo médio gasto em um único posicionamento de anúncio para atingir a ação desejada do cliente, como uma compra ou assinatura.<p>**Cálculo**: valor total `spent` dividido pelo número de ações de clientes concluídas<p>Essa métrica ajuda a avaliar a relação custo-eficiência do posicionamento do anúncio ao gerar ações valiosas. | Um CPA mais baixo sugere que a inserção de anúncios é eficaz na conversão de interações de público-alvo em ações desejadas a um custo mais baixo. |
+| **[!UICONTROL CPC ]**<br>_Custo por clique_ | O custo médio associado a cada clique em um único posicionamento de anúncio.<p>**Cálculo**: valor total `spent` dividido por `clicks`<p>Essa métrica ajuda a avaliar a relação custo-eficácia do posicionamento do anúncio na geração de cliques. | Um CPC menor indica que o posicionamento do anúncio está gerando cliques a um custo menor, o que pode ser benéfico para maximizar o retorno sobre o investimento. |
+| **[!UICONTROL Gastar]** | O valor gasto em um único posicionamento de anúncio, representando uma fração do valor total gasto em todo o anúncio. Essa métrica ajuda a rastrear a alocação de orçamento e a eficiência dos gastos para cada posicionamento de anúncio. | O monitoramento dos gastos pode ajudar a garantir que os recursos estejam sendo usados de maneira eficaz em diferentes posicionamentos. |
+| **Atributos** | Lista de recursos inerentes presentes neste posicionamento de anúncio. | Os atributos ajudam a identificar elementos criativos que mais refletem em seu público-alvo. Consulte [Categorias](/help/user-guide/insights/attributes.md#categories). |
