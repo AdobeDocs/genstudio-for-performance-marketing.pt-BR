@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f7f72c23c8bc7a52040af2c897b94d107a7c95bf
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
 source-wordcount: 4727
 ht-degree: 0%
@@ -151,7 +151,7 @@ Agora os profissionais de marketing podem trocar logotipos dinamicamente dentro 
 
 ### CPA por tipo de ação para campanhas do Meta
 
-* Analise o [Custo por ação (CPA) com o rastreamento de conversão flexível](/help/user-guide/insights/ads.md) para campanhas publicitárias do Meta.
+* Analise o [Custo por ação (CPA) com o rastreamento de conversão flexível](/help/user-guide/insights/published-experiences.md) para campanhas publicitárias do Meta.
 * Em vez de utilizar uma única métrica fixa, selecione um dos vários tipos de ação — como compras, eventos de adição ao carrinho, clientes potenciais, exibições de vídeo ou conversões personalizadas — para calcular e exibir CPA em campanhas, anúncios, ativos e atributos em [!DNL Insights].
 
 ### Correções e aprimoramentos
@@ -276,7 +276,7 @@ O Adobe GenStudio for Performance Marketing agora oferece recursos de tradução
 
 ### Filtro de ativos compatíveis
 
-Um novo filtro no módulo [!DNL Insights] oculta automaticamente [ativos de imagem e vídeo não suportados](/help/user-guide/insights/ads.md#ad-formats) das visualizações de anúncios, eliminando a confusão visual e os blocos com falha. Esse aprimoramento garante que os usuários vejam apenas as mídias que estão realmente disponíveis e prontas para uso, criando uma experiência mais limpa e confiável. O filtro funciona junto com o filtro de anúncios de Compatibilidade existente.
+Um novo filtro no módulo [!DNL Insights] oculta automaticamente [ativos de imagem e vídeo não suportados](/help/user-guide/insights/published-experiences.md#ad-formats) das visualizações de anúncios, eliminando a confusão visual e os blocos com falha. Esse aprimoramento garante que os usuários vejam apenas as mídias que estão realmente disponíveis e prontas para uso, criando uma experiência mais limpa e confiável. O filtro funciona junto com o filtro de anúncios de Compatibilidade existente.
 
 ### Ativação de vários ativos para o Meta
 

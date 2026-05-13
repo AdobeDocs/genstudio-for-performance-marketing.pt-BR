@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 3a50cdb378d024370808680ec9b606c789429dc2
+source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 622
 ht-degree: 0%
 
 ---
@@ -91,6 +91,7 @@ Novas extensões são encontradas em diferentes locais na interface do usuário,
 * [Extensão do Gerenciamento de ativos digitais (DAM)](#find-dam-extensions)
 * [Extensão do modelo](#find-template-extensions)
 * [Extensão de tradução](#find-translation-extensions)
+* [Extensão de fragmento de conteúdo](#find-content-fragment-extension)
 
 ### Localizar extensões de prompt
 
@@ -128,7 +129,6 @@ As extensões de modelo são encontradas na guia **Aplicativo de modelo externo*
 
 ![Extensões do modelo](./template-ext.png){width="600" zoomable="yes"}
 
-
 ### Localizar extensões de tradução
 
 Use Pontos de extensão de tradução para trazer seu próprio serviço de tradução por meio de um proxy, em vez de usar a tradução padrão do GenStudio.
@@ -136,7 +136,21 @@ Não há local na interface do usuário para essas extensões.
 
 Se a extensão for registrada, o serviço de tradução fornecido será usado. Caso contrário, o serviço de tradução padrão do GenStudio será usado.
 
+### Encontrar extensão de fragmento de conteúdo
 
+A extensão de Fragmento de Conteúdo no [!DNL GenStudio for Performance Marketing] substitui o texto em experiências de email geradas na Tela [!DNL Create] por entradas de um repositório conectado de terceiros (3P). Depois de configurar e implantar a extensão, você troca a cópia da Tela sem sair do fluxo de trabalho.
+
+>[!NOTE]
+>
+>A troca de extensão do Fragmento de conteúdo está disponível para experiências de **email** na Tela hoje. O suporte ao canal **Horizon** será lançado em breve.
+
+**Para trocar texto usando a extensão de Fragmento de Conteúdo**:
+
+1. Na Tela de desenho, clique em um campo de texto editável em uma variante de email gerada.
+1. Clique em **[!UICONTROL Trocar]**.
+   ![Trocar texto](./subject-line-swap.png){width="400" zoomable="yes"}
+1. Selecione seu repositório de terceiros. Sua organização controla quais repositórios são exibidos e como a interface do usuário do repositório se comporta.
+1. Selecione a reclamação que deseja usar como texto substituto para o campo.
 
 Se estiver satisfeito com o Complemento, você estará pronto para distribuí-lo sem o parâmetro `query`.
 

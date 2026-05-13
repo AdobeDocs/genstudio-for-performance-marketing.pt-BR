@@ -1,6 +1,6 @@
 ---
-title: Visão geral dos anúncios e do posicionamento do anúncio
-description: Consulte uma visão geral do envolvimento do cliente, orçamento e despesas para desempenho de anúncios e disposição de anúncios no Adobe GenStudio for Performance Marketing.
+title: Detalhes das experiências publicadas
+description: Consulte uma visão geral do envolvimento do cliente, orçamento e despesas para experiências publicadas e desempenho de posicionamento no Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
@@ -24,45 +24,21 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: acdd8a2f6b066a7b4849e92c94127011dc6daed5
+source-git-commit: d61c45100a8ec4973e87948315f5500e023a29eb
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: 1320
 ht-degree: 1%
 
 ---
 
-# Visão geral das tags de anúncios e do posicionamento de anúncios
 
-A exibição [!DNL Insights] _[!UICONTROL Marcas de anúncios]_ mostra uma lista de anúncios para a conta de anúncio do canal conectado. Um _anúncio_ é um ativo promocional que inclui conteúdo visual e interativo destinado à distribuição para um público específico como parte de uma campanha de marketing.
+# Detalhes das experiências publicadas {#ad-details}
 
-{{connect-insights}}
+Selecione uma experiência publicada e visualize as métricas de desempenho, os atributos de texto e os posicionamentos associados a cada experiência. Os _[!UICONTROL Detalhes das experiências publicadas]_ incluem métricas para a experiência `click-through rate`, `cost per action` e `spend`—quanto do orçamento foi gasto na experiência. Como as experiências podem ter vários posicionamentos, como um feed ou um banner, você pode ver um detalhamento das mesmas métricas para cada posicionamento. Use as setas para a esquerda e para a direita em **[!UICONTROL Desempenho por posicionamento]** para percorrer as métricas de posicionamento.
 
-A tabela _[!UICONTROL Marcas de anúncios]_ é organizada com o uso de [!UICONTROL Nomes de anúncios]. Clique no ícone de configurações (cog) acima do lado direito da tabela para alternar as colunas visualizáveis.
+![Detalhes de experiências publicadas com métricas e posicionamentos](/help/assets/insights-ad-details.png){zoomable="yes"}
 
-![Métricas de desempenho do Insights de tags de anúncios](./ad-tags-tab.png)
-
-A exibição de galeria das _[!UICONTROL Marcas de anúncios]_ mostra uma intercalação de visualizações de anúncios e uma métrica, como a taxa de cliques. Clique no ícone de configurações (cog) acima do lado direito da galeria para abrir **[!UICONTROL Configurações de cartão]** e alternar uma das três métricas visualizáveis:
-
-- CPA (Custo por ação)
-- CTR (taxa de cliques)
-- CPC (Custo por clique)
-- Gastos
-
-{{filter-table}}
-
-## Detalhes do anúncio
-
-Selecione um anúncio e visualize as métricas de desempenho, os atributos de texto e os posicionamentos associados a cada anúncio. A _[!UICONTROL Página de detalhes do anúncio]_ inclui métricas para o anúncio `click-through rate`, `cost per action` e `spend`—quanto do orçamento foi gasto no anúncio. Como os anúncios podem ter vários posicionamentos, como um feed ou um banner, você pode ver um detalhamento das mesmas métricas para cada posicionamento de anúncio. Use as setas para a esquerda e para a direita em **[!UICONTROL Desempenho por posicionamento de anúncio]** para percorrer as métricas de posicionamento.
-
-![Detalhes do anúncio com métricas e posicionamentos de anúncios](/help/assets/insights-ad-details.png){zoomable="yes"}
-
-### Atributos do anúncio
-
-Abaixo da visualização do anúncio há uma lista de atributos associados ao anúncio.
-
-{{$include /help/_includes/generated-attributes.md}}
-
-### Formatos de publicidade
+## Formatos de publicidade
 
 Os formatos de anúncios se referem a vários elementos criativos e layouts usados para alinhar-se aos objetivos da campanha, engajar o público-alvo e ajudar a rastrear as métricas de desempenho.
 
@@ -76,7 +52,7 @@ Os formatos de anúncios se referem a vários elementos criativos e layouts usad
 | DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | O canal de mídia paga não fornece acesso à recuperação de ativos criativos, o que dificulta a classificação precisa dos tipos de anúncios. |
 | Innovid | N/D | O canal de mídia paga não fornece acesso à recuperação de ativos criativos, o que dificulta a classificação precisa dos tipos de anúncios. |
 
-### Posicionamentos de anúncios
+## Posicionamentos de anúncios
 
 Os posicionamentos de anúncios se referem a locais ou plataformas específicas em que seus anúncios aparecem em uma campanha. Esses posicionamentos determinam como e onde o público-alvo interage com o conteúdo. Os posicionamentos de anúncios ampliam o alcance do público, o que ajuda a maximizar a visibilidade, o engajamento e a eficácia geral da campanha.
 
@@ -124,4 +100,3 @@ A tabela a seguir fornece definições para as métricas de desempenho de posici
 | **[!UICONTROL CPC &#x200B;]**<br>_Custo por clique_ | O custo médio associado a cada clique em um único posicionamento de anúncio.<p>**Cálculo**: valor total `spent` dividido por `clicks`<p>Essa métrica ajuda a avaliar a relação custo-eficácia do posicionamento do anúncio na geração de cliques. | Um CPC menor indica que o posicionamento do anúncio está gerando cliques a um custo menor, o que pode ser benéfico para maximizar o retorno sobre o investimento. |
 | **[!UICONTROL Gastar]** | O valor gasto em um único posicionamento de anúncio, representando uma fração do valor total gasto em todo o anúncio. Essa métrica ajuda a rastrear a alocação de orçamento e a eficiência dos gastos para cada posicionamento de anúncio. | O monitoramento dos gastos pode ajudar a garantir que os recursos estejam sendo usados de maneira eficaz em diferentes posicionamentos. |
 | **Atributos** | Lista de recursos inerentes presentes neste posicionamento de anúncio. | Os atributos ajudam a identificar elementos criativos que mais refletem em seu público-alvo. Consulte [Categorias](/help/user-guide/insights/attributes.md#categories). |
-

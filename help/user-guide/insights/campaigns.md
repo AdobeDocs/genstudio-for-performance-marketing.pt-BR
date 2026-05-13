@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -41,7 +41,7 @@ A tabela _[!UICONTROL Campanhas]_ é organizada usando a campanha publicitária 
 
 ![Filtro de campanhas e tabela](/help/assets/insights-campaigns-filter.png){zoomable="yes"}
 
-Quando você seleciona uma campanha, a [[!UICONTROL guia Anúncios]](ads.md) abre uma lista de nomes de anúncios associados a essa campanha, o que permite identificar quais anúncios contribuíram para seu sucesso geral.
+Quando você seleciona uma campanha, a [[!UICONTROL guia Anúncios]](published-experiences.md) abre uma lista de nomes de anúncios associados a essa campanha, o que permite identificar quais anúncios contribuíram para seu sucesso geral.
 
 {{filter-table}}
 
