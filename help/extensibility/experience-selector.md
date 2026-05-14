@@ -14,9 +14,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 8caee588140b91f81a8c77f7da4b930674f46865
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 620
 ht-degree: 4%
 
 ---
@@ -32,6 +32,8 @@ O GenStudio Experience Seletor MFE permite aos usuários:
 - Suporta os modos de seleção única e múltipla
 - Gerenciar autenticação por meio da integração SUSI (Logon de inscrição)
 - Fornecer uma interface consistente em diferentes estruturas
+
+Para incorporar este MFE ao Salesforce Lightning com LWC e modelos de email opcionais, consulte [MFE do Seletor de Experiência no Salesforce](experience-selector-salesforce.md).
 
 ## Opções de integração
 
