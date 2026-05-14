@@ -5,26 +5,13 @@ level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
 TQID: https://experienceleague.adobe.com/2U5hz1iDNFnxkrGDBPxAAne8rW8Jp0FypcwHkpRVTE8
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-subfeature_v2:
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4cac970f46ab08bcec2f23fd882c552af088c4ea
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -70,9 +57,9 @@ A tabela a seguir fornece definições e insights para as principais métricas d
 | **[!UICONTROL Iniciar]** | A data em que a campanha foi lançada ou publicada no mercado. | Uma alta contagem de impressões pode indicar que o anúncio está atingindo o público-alvo desejado. |
 | **[!UICONTROL Impressões]** | Uma contagem de cada vez que o conteúdo é carregado no canal, independentemente da interação ou da visualização. | Uma contagem de alta impressão pode indicar ampla visibilidade, mas, para um verdadeiro desempenho do insight, considere-a junto com outras métricas de envolvimento. |
 | **[!UICONTROL Cliques]** | O número de vezes que os usuários interagem com um elemento clicável, como um link ou um botão do call-to-action, na campanha publicitária. | Uma alta contagem de cliques indica forte interesse e envolvimento com o conteúdo, que pode ser eficaz e alcançar o público-alvo correto. |
-| **[!UICONTROL CTR &#x200B;]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultou em cliques de campanha em um canal.<br>**Cálculo**: (`clicks` dividido por `impressions`) x 100 = % | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
-| **[!UICONTROL CPM &#x200B;]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncios da campanha publicitária. <br>**Cálculo**: (valor total `spent` dividido por `impressions`) x 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
-| **[!UICONTROL CPC &#x200B;]**<br>_Custo por clique_ | Custo médio associado a cada clique em uma campanha publicitária.<br>**Cálculo**: valor total `spent` dividido por `clicks` = $ | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
+| **[!UICONTROL CTR ]**<br>_Taxa de cliques_ | Porcentagem (%) de impressões que resultou em cliques de campanha em um canal.<br>**Cálculo**: (`clicks` dividido por `impressions`) x 100 = % | Uma alta taxa de cliques indica que o conteúdo é altamente relevante e motivador para o público-alvo nas mensagens e no design e está efetivamente direcionando os interesses do público-alvo. |
+| **[!UICONTROL CPM ]**<br>_Custo por mil_ | Custo para cada mil impressões de anúncios da campanha publicitária. <br>**Cálculo**: (valor total `spent` dividido por `impressions`) x 1000 | Um valor baixo pode indicar visibilidade com boa relação custo-benefício, especialmente quando combinado a uma alta taxa de cliques. |
+| **[!UICONTROL CPC ]**<br>_Custo por clique_ | Custo médio associado a cada clique em uma campanha publicitária.<br>**Cálculo**: valor total `spent` dividido por `clicks` = $ | Custos médios mais baixos podem indicar anúncios e gastos econômicos, especialmente quando comparados a um aumento nas conversões. |
 | **[!UICONTROL Reproduções de vídeo]** | O número de vezes que um vídeo começa a ser reproduzido em uma campanha publicitária, excluindo as repetições. Um vídeo começa a ser reproduzido quando um usuário clica em Reproduzir ou o vídeo é reproduzido automaticamente. | Uma alta contagem de reproduções de vídeo pode indicar que o vídeo está capturando atenção e pode significar que a miniatura, o título ou a disposição estão efetivamente atraindo os visualizadores. |
 | **[!UICONTROL Orçamento]** | Fundos totais alocados para uma campanha publicitária para atingir as metas da campanha. | Um orçamento alto significa mais recursos para maior alcance e impacto potencialmente maior. |
 | **[!UICONTROL Gastar]** | O valor gasto do orçamento durante um determinado período para colocar anúncios em diferentes plataformas. | Um alto valor de gasto em um curto período pode indicar uso rápido, o que pode levar ao esgotamento antecipado de recursos. Acompanhe o valor gasto em relação às principais métricas de desempenho para ajudar a monitorar o retorno geral sobre o investimento. |
