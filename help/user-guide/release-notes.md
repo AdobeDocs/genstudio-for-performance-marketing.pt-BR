@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+source-git-commit: d8bce70c1e5cd80df2a8b6789de6ee3acda4b643
 workflow-type: tm+mt
-source-wordcount: 4727
+source-wordcount: 4991
 ht-degree: 0%
 
 ---
@@ -50,7 +50,35 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2026.04.16 {#latest}
+## 2026.05.15 {#latest}
+
+### Edição colaborativa na tela do Horizon
+
+Os rascunhos de mídia paga na tela do Horizonte não são mais um exercício individual. Os proprietários agora podem convidar colaboradores por email com as funções de **[!UICONTROL Editor]** ou **[!UICONTROL Visualizador]**, para que todos trabalhem com o mesmo rascunho dinâmico em vez de rejeitar exportações entre ferramentas.
+
+Usando o botão [!UICONTROL Compartilhar] na tela, os editores assistem às atualizações de prancheta e campo (incluindo títulos, CTAs e descrições) chegando em tempo real.
+
+### Layout de cartão atualizado na página [!DNL Create] [!DNL Content]
+
+O ponto de entrada [!DNL Create] dentro de [!DNL Content] depura um layout de cartão atualizado.
+
+### Os fragmentos de conteúdo do AEM trocam experiências de email na tela do HTML
+
+As [experiências de email](/help/user-guide/create/email-experiences.md) na tela do HTML agora oferecem troca de conteúdo com os **Fragmentos de conteúdo do AEM** pré-aprovados para conteúdo modular pré-governado; sem colar de canais laterais.
+
+Conte com os fragmentos de sua organização já publicados no AEM sem sair do GenStudio for Performance Marketing.
+
+### Adicionar [!DNL Brands], [!DNL Products] e [!DNL Personas] de uma URL
+
+[!DNL GenStudio for Performance Marketing] assimila sinais publicados de **[!DNL Brand]**, **[!DNL Product]** e **[!DNL Persona]** diretamente de uma URL, reduzindo horas de digitação manual enquanto mantém as saídas baseadas no que a marca realmente publica online. [Adicionar diretrizes de uma URL pública](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url) finalmente espelha como os profissionais de marketing pesquisam na Web antes de abrirem um resumo.
+
+As diretrizes de marca chegam em uma única passagem, enquanto os produtos e personas começam em uma pequena lista inteligente para que você faça a preparação do que pertence antes que o sistema enriqueça os registros. A detecção assistida por IA permanece deliberadamente conservadora quando um site é fino ou fechado, o que protege as equipes regulamentadas sem bloquear o momentum.
+
+As organizações que exigem um **[!UICONTROL Gerente de marca]** ou superior ainda aplicam essas medidas de proteção automaticamente. Os domínios de marca acessíveis publicamente continuam a desbloquear as orientações mais avançadas ao dimensionar programas em regiões ou portfólios.
+
+## Notas de versão anteriores
+
++++Notas de 2026.04.16
 
 ### Recomendações com reconhecimento de contexto em [!DNL Create]
 
@@ -68,7 +96,7 @@ Você pode montar cenas, apoiar-se na ajuda da IA gerativa quando o áudio ou os
 
 Você pode **carregar um arquivo zip do HTML5 baseado em DOM para desenvolver um modelo de exibição** em [!DNL Create], produzir variações de anúncios do HTML5 e redimensionar taxas de proporção criativas para adicionais. Experiências concluídas podem ser ativadas para [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) e [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2026.03.15
 
