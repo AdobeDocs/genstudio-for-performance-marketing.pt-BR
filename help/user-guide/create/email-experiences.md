@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
+source-git-commit: e41ca23a135e2cacfcc029c04992bbff1b515bd6
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: 580
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Depois de gerar um conjunto de variantes de email, você pode ver a contagem de 
 >
 >A troca de fragmento de conteúdo está disponível para experiências de **email** na Tela hoje. O suporte ao canal **Horizon** será lançado em breve.
 
-O conteúdo de e-mail corporativo geralmente precisa de uma cópia recém-gerada e de blocos modulares aprovados (como avisos de isenção de responsabilidade, idioma de segurança, ofertas e avisos de sinistro regulamentados), juntamente com o conteúdo que você cria para os modelos. As equipes que armazenam conteúdo modular em [!DNL Adobe Experience Manager], [!DNL Marketo Engage], [!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] podem localizar e trocar esse conteúdo para usar em experiências de email sem sair de [!DNL GenStudio for Performance Marketing]. Isso pode ser útil para:
+O conteúdo de e-mail corporativo geralmente precisa de uma cópia recém-gerada e de blocos modulares aprovados (como avisos de isenção de responsabilidade, idioma de segurança, ofertas e avisos de sinistro regulamentados), juntamente com o conteúdo que você cria para os modelos. As equipes que armazenam conteúdo modular no [!DNL Adobe Experience Manager] podem localizar e trocar esse conteúdo para usar em experiências de email sem sair do [!DNL GenStudio for Performance Marketing]. Isso pode ser útil para:
 
 * **Conteúdo com reconhecimento de conformidade:** a IA pode preencher slots criativos, enquanto fragmentos aprovados para conformidade substituem slots injetáveis; as áreas legais bloqueadas permanecem inalteradas durante a exportação.
 * **Componentes de conteúdo aprovado reutilizáveis:** títulos aprovados, avisos de isenção de responsabilidade regionais ou descrições de produtos podem permanecer no sistema de registro em [!DNL Adobe Experience Manager], enquanto os autores os colocam em variantes sem soluções alternativas de copiar e colar.
