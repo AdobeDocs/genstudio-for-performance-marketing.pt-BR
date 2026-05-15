@@ -5,43 +5,14 @@ recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
 TQID: https://experienceleague.adobe.com/V33xtE9DNQS4PXKR0hfGuwpQyuAFApllCSYbR03xAjs
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
-  - id: b03d2162-d906-40a0-9cbd-001391e22d4a
-  - id: b286a442-6f0d-405a-adea-abb4a98e2d7b
-  - id: bb0d2eba-617d-4fdd-b920-2f535b5c031c
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: d1558755-1618-43a0-bf5d-134ebe62e93b
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: ee4b6e5f-5b7a-421b-9859-0f964841a866
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: b03d2162-d906-40a0-9cbd-001391e22d4aid: b286a442-6f0d-405a-adea-abb4a98e2d7bid: bb0d2eba-617d-4fdd-b920-2f535b5c031cid: be495d08-ecd1-455f-951e-c22de504e667id: d1558755-1618-43a0-bf5d-134ebe62e93bid: d87258a7-722c-4afd-b632-adddc447c7aaid: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: ee4b6e5f-5b7a-421b-9859-0f964841a866id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d8bce70c1e5cd80df2a8b6789de6ee3acda4b643
 workflow-type: tm+mt
-source-wordcount: 4727
+source-wordcount: 4991
 ht-degree: 0%
 
 ---
@@ -50,7 +21,35 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2026.04.16 {#latest}
+## 2026.05.15 {#latest}
+
+### Edição colaborativa na tela do Horizon
+
+Os rascunhos de mídia paga na tela do Horizonte não são mais um exercício individual. Os proprietários agora podem convidar colaboradores por email com as funções de **[!UICONTROL Editor]** ou **[!UICONTROL Visualizador]**, para que todos trabalhem com o mesmo rascunho dinâmico em vez de rejeitar exportações entre ferramentas.
+
+Usando o botão [!UICONTROL Compartilhar] na tela, os editores assistem às atualizações de prancheta e campo (incluindo títulos, CTAs e descrições) chegando em tempo real.
+
+### Layout de cartão atualizado na página [!DNL Create] [!DNL Content]
+
+O ponto de entrada [!DNL Create] dentro de [!DNL Content] depura um layout de cartão atualizado.
+
+### Os fragmentos de conteúdo do AEM trocam experiências de email na tela do HTML
+
+As [experiências de email](/help/user-guide/create/email-experiences.md) na tela do HTML agora oferecem troca de conteúdo com os **Fragmentos de conteúdo do AEM** pré-aprovados para conteúdo modular pré-governado; sem colar de canais laterais.
+
+Conte com os fragmentos de sua organização já publicados no AEM sem sair do GenStudio for Performance Marketing.
+
+### Adicionar [!DNL Brands], [!DNL Products] e [!DNL Personas] de uma URL
+
+[!DNL GenStudio for Performance Marketing] assimila sinais publicados de **[!DNL Brand]**, **[!DNL Product]** e **[!DNL Persona]** diretamente de uma URL, reduzindo horas de digitação manual enquanto mantém as saídas baseadas no que a marca realmente publica online. [Adicionar diretrizes de uma URL pública](/help/user-guide/guidelines/add-guidelines.md#guidance-when-adding-from-a-url) finalmente espelha como os profissionais de marketing pesquisam na Web antes de abrirem um resumo.
+
+As diretrizes de marca chegam em uma única passagem, enquanto os produtos e personas começam em uma pequena lista inteligente para que você faça a preparação do que pertence antes que o sistema enriqueça os registros. A detecção assistida por IA permanece deliberadamente conservadora quando um site é fino ou fechado, o que protege as equipes regulamentadas sem bloquear o momentum.
+
+As organizações que exigem um **[!UICONTROL Gerente de marca]** ou superior ainda aplicam essas medidas de proteção automaticamente. Os domínios de marca acessíveis publicamente continuam a desbloquear as orientações mais avançadas ao dimensionar programas em regiões ou portfólios.
+
+## Notas de versão anteriores
+
++++Notas de 2026.04.16
 
 ### Recomendações com reconhecimento de contexto em [!DNL Create]
 
@@ -68,7 +67,7 @@ Você pode montar cenas, apoiar-se na ajuda da IA gerativa quando o áudio ou os
 
 Você pode **carregar um arquivo zip do HTML5 baseado em DOM para desenvolver um modelo de exibição** em [!DNL Create], produzir variações de anúncios do HTML5 e redimensionar taxas de proporção criativas para adicionais. Experiências concluídas podem ser ativadas para [Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) e [[!DNL Innovid]](/help/user-guide/activation/activate-innovid-ad.md).
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2026.03.15
 
