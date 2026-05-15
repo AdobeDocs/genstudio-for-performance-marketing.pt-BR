@@ -4,9 +4,9 @@ description: Explore os recursos do GenStudio for Performance Marketing que pode
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 05bc285ff614c8d3e15beab3411c7666b01d1155
+source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL GenStudio for Performance Marketing] pode usar modelos que foram criados e criados em [!DNL Adobe Express]. Traga ativos de marca de [!DNL Adobe Express] e use essas ferramentas poderosas para integrá-los em campanhas de marketing atraentes e [!DNL Experiences].
 
-Este guia explica os requisitos e os recursos com modelos do [!DNL Adobe Express].
+Este guia explica os requisitos e os recursos com modelos do [!DNL Adobe Express]. Para obter mais dicas e práticas recomendadas, consulte [Práticas recomendadas para usar modelos](/help/user-guide/templates/best-practices-for-templates.md#express-to-genstudio-template-best-practices).
 
 ## Sobre modelos em [!DNL Adobe Express]
 
