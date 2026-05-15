@@ -2,9 +2,9 @@
 title: Seletor de experiência MFE no Salesforce
 description: Saiba como implantar e configurar o MFE do Seletor de experiência no Salesforce Lightning, incluindo CSP, autenticação do Adobe, modelos de email Apex e validação.
 feature: Extensibility, Extensions, Experiences
-source-git-commit: 4cac970f46ab08bcec2f23fd882c552af088c4ea
+source-git-commit: 99a2b657560d20642b7b92aefb976ba2373ebc7f
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,8 @@ A integração também pode:
 
 * **Visualizar e decodificar:** mostra a carga selecionada como JSON, HTML decodificado e uma visualização limpa do HTML dentro do LWC.
 * **Modelos de email (opcional):** Um fluxo **[!UICONTROL Criar Modelo de Email]** no Salesforce pode chamar o Apex (`EmailTemplateController.createEmailTemplate`) para inserir um registro `EmailTemplate` (HTML, assunto e pasta).
-* **Carregamento em tempo de execução:** o script do GenStudio é carregado da URL hospedada do Adobe em `experience.adobe.com`, não de um Recurso Estático do Salesforce na implementação típica.
+
+O script do Seletor de Experiência para [!DNL GenStudio for Performance Marketing] é carregado da URL hospedada da Adobe em `experience.adobe.com`, não de um Recurso Estático do Salesforce na implementação típica.
 
 ## Pré-requisitos
 
@@ -42,7 +43,7 @@ A integração também pode:
 
 ## Implantar o pacote (desenvolvedor)
 
-A integração segue um layout de estilo Salesforce DX. O diretório de pacote padrão geralmente é `force-app` em seu projeto Salesforce DX.
+O projeto usa o layout Salesforce DX; o diretório de pacote padrão é `force-app`.
 
 1. Na raiz do projeto, implante o código-fonte na organização de destino:
 
@@ -52,12 +53,10 @@ A integração segue um layout de estilo Salesforce DX. O diretório de pacote p
 
 2. Confirme se a implantação é concluída sem erros.
 
-Os metadados típicos do seu projeto incluem:
+* `force-app/main/default/lwc/sfgsmfe` — Pacote LWC (HTML, JS, CSS, meta).
+* `force-app/main/default/classes/EmailTemplateController.cls` — Apêndice para criação de modelo.
 
-* Um pacote LWC chamado `sfgsmfe` (HTML, JavaScript, CSS e meta XML) que hospeda a interface do usuário do seletor e o carregamento de script.
-* Uma classe Apex (por exemplo, `EmailTemplateController`) que cria modelos de email quando você usa esse fluxo opcional.
-
-Seu projeto também pode definir Recursos estáticos. Se o carregador do LWC usar a URL da CDN da Adobe para `standalone.js`, esses recursos não serão necessários para esse caminho de carregamento, a menos que você altere a implementação.
+O repositório também pode conter Recursos Estáticos (`reactApp`, `sfgsmfe_react`). O carregador [!DNL GenStudio for Performance Marketing] atual em `sfgsmfe.js` usa a URL CDN da Adobe para `standalone.js`; esses Recursos Estáticos não são necessários para esse caminho de carregamento, a menos que você altere a implementação.
 
 ## Adicionar o componente a uma página Lightning (admin)
 
@@ -66,7 +65,7 @@ O componente `sfgsmfe` é exposto por:
 * Páginas do aplicativo Lightning
 * Home pages
 * Gravar páginas
-* Guias (ao colocar o componente em uma página Lightning que é aberta de uma guia personalizada)
+* Guias (em uma página Lightning em uma guia personalizada)
 
 Para adicionar o componente:
 
@@ -92,7 +91,8 @@ Se o script não carregar:
 
 1. Abra as ferramentas do desenvolvedor do navegador.
 1. Verifique as guias **[!UICONTROL Console]** e **[!UICONTROL Rede]** em busca de solicitações bloqueadas ou violações de CSP.
-1. Adicione ou ajuste os **[!UICONTROL Sites Confiáveis da CSP]** (e qualquer configuração relacionada à sua versão do Salesforce) para `https://experience.adobe.com`, seguindo a documentação atual do Salesforce para Lightning.
+1. Adicione ou ajuste as **[!UICONTROL URLs confiáveis]** (e qualquer configuração relacionada à sua versão do Salesforce) para `https://experience.adobe.com`, seguindo a documentação atual do Salesforce para Lightning.
+   ![Sites Confiáveis do Salesforce CSP](./sf-trusted-urls.png){width="80%" zoomable="yes"}
 
 ## Configurar valores de integração (desenvolvedor/implementação)
 
@@ -125,13 +125,13 @@ Dicas operacionais:
 
 ## Lista de verificação de validação
 
-Usar esta lista após implantação e configuração:
+Confirme os itens nesta lista após a implantação e a configuração para obter uma validação confiável da integração:
 
-* [ A implantação ] é concluída sem erros.
-* [ ] Usuários podem abrir a página Lightning que contém `sfgsmfe`.
-* [ ] O componente não mostra um erro de carregamento; a guia Rede retorna HTTP 200 para `standalone.js`.
-* [ ] **[!UICONTROL Selecionar uma Experiência do GenStudio]** abre o seletor e executa retornos de chamada de seleção.
-* [ ] **[!UICONTROL Criar Modelo de Email]** é bem-sucedido quando você usa esse fluxo e o modelo aparece na pasta configurada em **[!UICONTROL Configuração]**.
+1. A implantação é concluída sem erros.
+1. Os usuários podem abrir a página Lightning que contém `sfgsmfe` e ver a interface do usuário do Seletor de Experiência.
+1. O componente não mostra um erro de carregamento; a guia Rede retorna HTTP 200 para `standalone.js`.
+1. **[!UICONTROL Selecionar uma Experiência GenStudio]** abre o seletor e executa retornos de chamada de seleção.
+1. **[!UICONTROL Criar Modelo de Email]** é bem-sucedido quando você usa esse fluxo e o modelo aparece na pasta configurada em **[!UICONTROL Configuração]**.
 
 ## Consulte também
 
