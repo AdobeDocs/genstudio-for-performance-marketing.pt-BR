@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: 1132
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 * **Para [editar o nome do rascunho do email](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique em qualquer um dos campos de texto editáveis (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário
+* **Para usar [fragmentos de conteúdo aprovados em variantes de email](/help/user-guide/create/email-experiences.md#content-fragment-swap)**, saiba como o [!DNL GenStudio for Performance Marketing] combina campos gerativos, campos de fragmento de conteúdo injetável e campos bloqueados em uma Tela. Os administradores configuram as origens de fragmento conforme descrito em [Localizar extensão de fragmento de conteúdo](/help/extensibility/deploy-app.md#find-content-fragment-extension).
 * **Para [alterar ou selecionar o Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, clique no botão call-to-action e selecione _[!UICONTROL Refrase]_ ou _[!UICONTROL Adicionar link]_.
 * **Para [aplicar a formatação do texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** a uma variante, clique no texto da imagem de uma variante e clique em **[!UICONTROL Formatar texto]**.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.

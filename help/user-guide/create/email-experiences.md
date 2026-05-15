@@ -1,6 +1,6 @@
 ---
 title: Experiências de email
-description: Saiba mais sobre experiências de email no Adobe GenStudio for Performance Marketing.
+description: Saiba mais sobre experiências de email no Adobe GenStudio for Performance Marketing, incluindo o comportamento da Tela e a troca de fragmento de conteúdo de bibliotecas aprovadas.
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 853b63dbc04410c09a0b44c05f3655c06e5dfbcb
 workflow-type: tm+mt
-source-wordcount: 309
+source-wordcount: 581
 ht-degree: 0%
 
 ---
@@ -81,3 +81,30 @@ Cada campo e seção de experiências de email são carregados progressivamente 
 Depois de gerar um conjunto de variantes de email, você pode ver a contagem de caracteres exibida para cada seção. Passe o mouse sobre ou clique em uma seção gerada, como a linha de assunto ou o corpo, e veja o nome da seção e a contagem de caracteres para essa seção.
 
 ![Contagem de caracteres](/help/assets/character-count.png){width="500" zoomable="yes"}
+
+## Troca de fragmento de conteúdo {#content-fragment-swap}
+
+>[!NOTE]
+>
+>A troca de fragmento de conteúdo está disponível para experiências de **email** na Tela hoje. O suporte ao canal **Horizon** será lançado em breve.
+
+O conteúdo de e-mail corporativo geralmente precisa de uma cópia recém-gerada e de blocos modulares aprovados (como avisos de isenção de responsabilidade, idioma de segurança, ofertas e avisos de sinistro regulamentados), juntamente com o conteúdo que você cria para os modelos. As equipes que armazenam conteúdo modular em [!DNL Adobe Experience Manager], [!DNL Marketo Engage], [!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] podem localizar e trocar esse conteúdo para usar em experiências de email sem sair de [!DNL GenStudio for Performance Marketing]. Isso pode ser útil para:
+
+* **Conteúdo com reconhecimento de conformidade:** a IA pode preencher slots criativos, enquanto fragmentos aprovados para conformidade substituem slots injetáveis; as áreas legais bloqueadas permanecem inalteradas durante a exportação.
+* **Componentes de conteúdo aprovado reutilizáveis:** títulos aprovados, avisos de isenção de responsabilidade regionais ou descrições de produtos podem permanecer no sistema de registro em [!DNL Adobe Experience Manager], enquanto os autores os colocam em variantes sem soluções alternativas de copiar e colar.
+
+Os criadores reúnem experiências na Canvas; as equipes de conformidade e marca mantêm fluxos de trabalho de aprovação no [!DNL Adobe Experience Manager]; as equipes de TI e de integração conectam repositórios e permissões exigidos por sua organização.
+
+![Troca de fragmento de conteúdo](./cf-swap.png){width="500" zoomable="yes"}
+
+Quando sua organização habilita a troca de fragmento de conteúdo, você pode esperar:
+
+* Os campos de fragmento de conteúdo podem ser preenchidos a partir de uma biblioteca de conteúdo conectada, em vez de somente digitação manual ou geração de IA.
+* Navegue, pesquise e filtre fragmentos usando metadados como campanha, persona, canal, idioma e marca.
+* Um seletor de repositório está disponível quando vários repositórios são configurados.
+* Visualização de um fragmento antes da substituição do texto do campo.
+* Propagação de uma seleção de fragmento em todas as variantes em uma ação.
+
+![Painel da interface do usuário de fragmentos de conteúdo](./cf-pane.png){width="500" zoomable="yes"}
+
+Sua organização escolhe quais fontes e repositórios de fragmento de conteúdo estão disponíveis. Consulte [Localizar extensão de fragmento de conteúdo](/help/extensibility/deploy-app.md#find-content-fragment-extension) para saber como os administradores configuram fontes e como os autores trocam cópias da Tela com o **[!UICONTROL Swap]**.
