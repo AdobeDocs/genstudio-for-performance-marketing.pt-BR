@@ -14,7 +14,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2f451a5fc53507d84b19166b5dde5a412ac0c508
+source-git-commit: 08523446942270522adf69eab5c6c63a85b6d180
 workflow-type: tm+mt
 source-wordcount: 655
 ht-degree: 4%
@@ -25,7 +25,9 @@ ht-degree: 4%
 
 O Seletor de experiência é um Micro Frontend (MFE) que fornece um componente `ExperienceSelectorDialog` para selecionar experiências do GenStudio. Use o componente em seu aplicativo importando a função `renderExperienceSelectorWithSUSI` do pacote JavaScript independente, que carrega automaticamente o Micro Frontend implantado mais recente e apresenta uma interface de componente natural.
 
-> Serviço de API disponível> A API do GenStudio oferece uma API RESTful para gerenciar experiências. Se você quiser usar a API do GenStudio para gerenciar experiências, consulte a [documentação da API do GenStudio](https://developer.adobe.com/genstudio-api/).
+>[!TIP]
+>
+> **Serviço de API disponível** A API do GenStudio oferece uma API RESTful para gerenciar experiências. Se você quiser usar a API do GenStudio para gerenciar experiências, consulte a [documentação da API do GenStudio](https://developer.adobe.com/genstudio-api/).
 
 O GenStudio Experience Seletor MFE permite aos usuários:
 
