@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d8bce70c1e5cd80df2a8b6789de6ee3acda4b643
+source-git-commit: a080850e354d2306a2947a2295c22fd0ddf38480
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5011
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ Conte com os fragmentos de sua organização já publicados no AEM sem sair do G
 As diretrizes de marca chegam em uma única passagem, enquanto os produtos e personas começam em uma pequena lista inteligente para que você faça a preparação do que pertence antes que o sistema enriqueça os registros. A detecção assistida por IA permanece deliberadamente conservadora quando um site é fino ou fechado, o que protege as equipes regulamentadas sem bloquear o momentum.
 
 As organizações que exigem um **[!UICONTROL Gerente de marca]** ou superior ainda aplicam essas medidas de proteção automaticamente. Os domínios de marca acessíveis publicamente continuam a desbloquear as orientações mais avançadas ao dimensionar programas em regiões ou portfólios.
+
+### Anúncios de ChatGPT agora disponíveis em [!DNL Create], [!DNL Content] e [!DNL Activate]
+
+A IA de conversa é uma nova superfície de mídia paga, e [!DNL GenStudio for Performance Marketing] agora carrega o ChatGPT de ponta a ponta. [Crie experiências de anúncio de ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) com variações de cópia na marca, execute verificações de marca e canal, direcione trabalhos por meio de aprovações e publique experiências aprovadas em [!DNL Content] para reutilização e ativação.
 
 ## Notas de versão anteriores
 
