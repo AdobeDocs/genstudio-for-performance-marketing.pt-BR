@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8867ca0d3cdc7d6e52a4947b4836c02d2ac58f03
+source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
 workflow-type: tm+mt
-source-wordcount: 1797
+source-wordcount: 1775
 ht-degree: 77%
 
 ---
@@ -256,8 +256,8 @@ Para converter quadros:
    1. Em **[!UICONTROL Compartilhar este arquivo]**, clique em **[!UICONTROL Copiar link]**.
    1. Cole o link copiado no campo **[!UICONTROL Link do arquivo de diagrama]** na caixa de diálogo do plug-in [!DNL GenStudio for Performance Marketing]. Isso precisa ser feito PARA CADA ARQUIVO:
       ![Caixa de diálogo Chave de Arquivo Necessária](./file-key-required.png){width="35%"}
-   1. Clique em **[!UICONTROL Enviar]**. O plug-in lê os quadros selecionados no Figma e os converte em um documento JSON, um formato intermediário para os dados do arquivo.
-1. Uma janela pop-up será exibida solicitando acesso para ler o conteúdo e os metadados do arquivo. Isso só precisa ser feito uma vez para todos os arquivos. Clique em **[!UICONTROL Permitir acesso]**.
+   1. Clique em **[!UICONTROL Enviar]**.
+1. Uma janela pop-up será exibida solicitando acesso para ler o conteúdo e os metadados do arquivo. Isso só precisa ser feito uma vez para todos os arquivos. Clique em **[!UICONTROL Permitir acesso]**. O plug-in lerá os quadros selecionados no Figma e os converterá em um documento JSON, um formato intermediário para os dados do arquivo.
    ![Permitir acesso para ler o conteúdo e os metadados do arquivo](./figma-access-request.png){width="35%"}
 1. No Photoshop, abra [!DNL GenStudio Photoshop] e clique na guia **[!UICONTROL Importar]**.
 1. Para selecionar os arquivos convertidos, siga um destes procedimentos:
