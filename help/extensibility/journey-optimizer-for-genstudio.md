@@ -2,9 +2,9 @@
 title: Journey Optimizer para GenStudio
 description: Instale e configure o aplicativo Journey Optimizer para GenStudio Adobe Exchange para que sua organização possa usar modelos do Adobe Journey Optimizer no GenStudio for Performance Marketing.
 feature: Extensibility
-source-git-commit: fbec4567d960a6e3607c5e5e43057e2f22e9f6ea
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Este tópico é para **administradores e desenvolvedores** que instalam o aplica
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483304?captions=por_br&learn=on)
 
-1. Abra o [Adobe Exchange](https://exchange.adobe.com) e vá para o **[!UICONTROL Experience Cloud]**.
+1. Abra o [Adobe Exchange](https://exchange.adobe.com) e vá para o **[!UICONTROL CX Enterprise]**.
 1. Abra a lista [Journey Optimizer para GenStudio](https://exchange.adobe.com/apps/ec/abpopqqr1q/journey-optimizer-for-genstudio).
    ![Listagem do Journey Optimizer for GenStudio no Adobe Exchange, incluindo requisitos e instalação gratuita](/help/extensibility/ajo-adobe-exchange.png){width="75%"}
 1. Selecione **[!UICONTROL Gratuito]** para solicitar o aplicativo para sua organização.
@@ -36,7 +36,7 @@ Este tópico é para **administradores e desenvolvedores** que instalam o aplica
 Crie um **projeto** no [Adobe Developer Console](https://developer.adobe.com/console/) que forneça credenciais OAuth para a API do Journey Optimizer. Você precisará de valores como **ID do Cliente**, **Segredo do Cliente**, **ID da Organização** e **Escopo** ao configurar o aplicativo no Exchange.
 
 1. Faça logon na Adobe Developer Console e crie um **novo projeto**.
-1. Adicione a **API do Adobe Journey Optimizer (AJO)** ao projeto clicando em **[!UICONTROL Adicionar API]** e selecionando **[!UICONTROL Adobe Journey Optimizer]** na lista de APIs de produto **[!DNL Experience Cloud]**.
+1. Adicione a **API do Adobe Journey Optimizer (AJO)** ao projeto clicando em **[!UICONTROL Adicionar API]** e selecionando **[!UICONTROL Adobe Journey Optimizer]** na lista de APIs de produto **[!DNL CX Enterprise]**.
 1. Gere credenciais no espaço de trabalho do projeto e copie a **ID do Cliente**, **Segredo do Cliente**, **ID da Organização**, **Escopo** e quaisquer outros valores solicitados pelo fluxo de implantação. Armazene-os com segurança na próxima seção.
 
 >[!NOTE]
@@ -60,7 +60,7 @@ Crie um **projeto** no [Adobe Developer Console](https://developer.adobe.com/con
 1. Clique em **[!UICONTROL Implantar]**. Quando a implantação for concluída, o status será exibido como implantado. O texto do botão será alterado para **[!UICONTROL Desimplantar]**.
    ![Aplicativo implantado com Undeploy disponível na exibição de aplicativos do App Builder](/help/extensibility/ajo-config-005.png){width="80%"}
 
-Após a implantação, a Adobe Developer Console inclui um novo projeto gerado automaticamente chamado **Journey Optimizer para o GenStudio &lt;Your_Environment_Name>** com APIs do AJO e Adobe Runtime. Este projeto é somente leitura e não pode ser editado ou excluído.
+Após a implantação, a Adobe Developer Console inclui um novo projeto gerado automaticamente chamado **Journey Optimizer para o GenStudio &lt;Your_Environment_Name>** com APIs do AJO e do Adobe Runtime. Este projeto é somente leitura e não pode ser editado ou excluído.
 ![Projeto Developer Console gerado automaticamente somente leitura após a implantação](/help/extensibility/ajo-auto-project.png){width="100%"}
 
 ### Atualizar configuração

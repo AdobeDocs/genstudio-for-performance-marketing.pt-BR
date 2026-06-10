@@ -1,6 +1,6 @@
 ---
 title: Visão geral da Ativação
-description: Saiba como ativar conteúdo com o Adobe Experience Cloud e aplicativos de terceiros.
+description: Saiba como ativar conteúdo com o Adobe CX Enterprise e aplicativos de terceiros.
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 # Adobe GenStudio for Performance Marketing Ativate
 
-O GenStudio for Performance Marketing [!DNL Activate] fornece um local central para preparar sua experiência de anúncio para ativação para selecionar canais de anúncios pagos. _Ativação_ é o processo de preparar experiências de anúncios, ativos e texto como uma experiência de anúncio criativo personalizado para posicionamento em um canal pago específico. A Ativation fornece a experiência criativa para os canais designados em um estado inativo, pronta para a revisão final e implantação a partir do canal. As experiências de anúncios podem então ser distribuídas nos mercados a que se destinam.
+O GenStudio for Performance Marketing [!DNL Activate] fornece um local central para preparar sua experiência de anúncio para ativação para selecionar canais de anúncios pagos. A _Ativação_ é o processo de preparar experiências de anúncios, ativos e texto como uma experiência de anúncio criativo personalizada exclusivamente para posicionamento em um canal pago específico. A Ativation fornece a experiência criativa para os canais designados em um estado inativo, pronta para a revisão final e implantação a partir do canal. As experiências de anúncios podem então ser distribuídas nos mercados a que se destinam.
 
 Os editores de conteúdo e gerentes de sistema podem publicar experiências cujos ativos são gerados no GenStudio for Performance Marketing ou carregados nele.
 

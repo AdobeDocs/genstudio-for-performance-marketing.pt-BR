@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 694
 ht-degree: 0%
@@ -36,7 +36,7 @@ Como um aprovador designado, você pode acessar o conteúdo para revisão de vá
 
 * **Acesse o rascunho para revisão diretamente do link de rascunho na solicitação de aprovação**. Clique no link de rascunho no email de solicitação de aprovação ou na notificação no produto. A Tela é aberta, exibindo o ativo ou a experiência. O painel _Aprovação_ é exibido à direita.
 
-* **Acesse o rascunho para revisão a partir da lista de solicitações de aprovação**. Se for solicitado que você revise vários rascunhos de conteúdo, seu email de notificação incluirá o botão **[!UICONTROL Exibir todas as notificações]**. Clique nesse botão para navegar até uma página que exibe todas as notificações recebidas, incluindo solicitações de aprovação e notificações ativadas de outros produtos da Adobe Experience Cloud.
+* **Acesse o rascunho para revisão a partir da lista de solicitações de aprovação**. Se for solicitado que você revise vários rascunhos de conteúdo, seu email de notificação incluirá o botão **[!UICONTROL Exibir todas as notificações]**. Clique nesse botão para navegar até uma página que exibe todas as notificações recebidas, incluindo solicitações de aprovação e notificações ativadas de outros produtos Adobe CX Enterprise.
 
 ## Acessar conteúdo para revisão
 
