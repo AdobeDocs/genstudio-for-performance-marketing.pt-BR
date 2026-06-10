@@ -4,16 +4,11 @@ description: Saiba como revisar e editar conteúdo interativamente com o Adobe G
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
 TQID: https://experienceleague.adobe.com/YAUeZkKC0UzOt1fCKgFfXLxGEi2896IpcRTdfwG8KXA
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 694
 ht-degree: 0%
@@ -36,7 +31,7 @@ Como um aprovador designado, você pode acessar o conteúdo para revisão de vá
 
 * **Acesse o rascunho para revisão diretamente do link de rascunho na solicitação de aprovação**. Clique no link de rascunho no email de solicitação de aprovação ou na notificação no produto. A Tela é aberta, exibindo o ativo ou a experiência. O painel _Aprovação_ é exibido à direita.
 
-* **Acesse o rascunho para revisão a partir da lista de solicitações de aprovação**. Se for solicitado que você revise vários rascunhos de conteúdo, seu email de notificação incluirá o botão **[!UICONTROL Exibir todas as notificações]**. Clique nesse botão para navegar até uma página que exibe todas as notificações recebidas, incluindo solicitações de aprovação e notificações ativadas de outros produtos da Adobe Experience Cloud.
+* **Acesse o rascunho para revisão a partir da lista de solicitações de aprovação**. Se for solicitado que você revise vários rascunhos de conteúdo, seu email de notificação incluirá o botão **[!UICONTROL Exibir todas as notificações]**. Clique nesse botão para navegar até uma página que exibe todas as notificações recebidas, incluindo solicitações de aprovação e notificações ativadas de outros produtos Adobe CX Enterprise.
 
 ## Acessar conteúdo para revisão
 
@@ -74,7 +69,7 @@ O criador do conteúdo pode continuar suas edições enquanto recebe e responde 
 
 ## Revisar conteúdo com o Workfront Proof
 
-[!DNL Proofing Viewer] fornece [ferramentas de marcação robustas](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) para anotar provas e rastrear alterações. Você também pode comparar duas versões da prova.
+[!DNL Proofing Viewer] fornece [ferramentas de marcação robustas](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) para anotar provas e rastrear alterações. Você também pode comparar duas versões da prova.
 
 **Para examinar o conteúdo**:
 
@@ -94,7 +89,7 @@ O criador do conteúdo pode continuar suas edições enquanto recebe e responde 
 
 ### Comparar provas
 
-A partir de [!DNL Proofing Viewer], você pode [comparar versões de prova](https://experienceleague.adobe.com/pt-br/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+A partir de [!DNL Proofing Viewer], você pode [comparar versões de prova](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
 
 **Para comparar provas**:
 
@@ -104,4 +99,4 @@ A partir de [!DNL Proofing Viewer], você pode [comparar versões de prova](http
 
    As provas são exibidas lado a lado, com a versão mais recente no lado esquerdo.
 
-O Workfront Proof fornece várias ferramentas para comparar provas, incluindo uma ferramenta de comparação automática. Consulte [Usar as ferramentas de comparação](https://experienceleague.adobe.com/pt-br/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
+O Workfront Proof fornece várias ferramentas para comparar provas, incluindo uma ferramenta de comparação automática. Consulte [Usar as ferramentas de comparação](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
