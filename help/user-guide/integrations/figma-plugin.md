@@ -5,22 +5,15 @@ feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
 TQID: https://experienceleague.adobe.com/JKHpT5m-4KZvq-iWF2u11hRaFFRhKMo-ofbWk-xvRMI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: e0aa398c-6185-4e77-8cf7-2561c578c181
-subfeature_v2:
-  - id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d2e2de8b867264daaa05908dd1d2dc56e3feb071
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: e0aa398c-6185-4e77-8cf7-2561c578c181
+subfeature_v2: id: f8fb16a4-19e5-44e1-8db9-d45f8e266e2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 2c5e5166bfe9d4b1c6cb56495613ff5cf20fab34
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 77%
+source-wordcount: 1793
+ht-degree: 76%
 
 ---
 
@@ -42,7 +35,7 @@ Os recursos deste plug-in incluem:
 * Exportação gerada [!DNL Experiences] para o GenStudio for Performance Marketing.
 * Use as opções de plug-in que se adaptam aos elementos selecionados na tela do Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478814?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Criar um modelo
 
@@ -219,6 +212,9 @@ Um arquivo ZIP foi criado no painel de plug-in ou um link para **[!UICONTROL Abr
 
 Você pode usar o plug-in Figma para converter um quadro Figma, vários quadros ou um documento inteiro para o formato Photoshop e exportá-lo para uso com o [GenStudio Photoshop](photoshop-plugin.md). Atualmente, somente as principais propriedades, como visibilidade, tamanho da fonte e atributos básicos da camada, são compatíveis durante a conversão. Recursos como tachado, sobrescrito, subscrito, opacidade como porcentagens, gradientes e propriedades avançadas semelhantes ainda não são compatíveis.
 
+<!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
+>[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+
 O plug-in é compatível com os seguintes tipos de camadas Figma para conversão:
 
 * **Quadro**
@@ -245,6 +241,11 @@ Para converter quadros:
 
 1. Abra o plug-in do Firefly Enterprise e do GenStudio no Figma e clique na guia **[!UICONTROL Exportar]** na interface do usuário do plug-in.
 1. Na tela de desenho, selecione o quadro ou quadros a serem exportados. Você pode escolher um único quadro ou vários quadros.
+
+   >[!NOTE]
+   >
+   > Os quadros não podem estar dentro de uma seção durante a conversão. Selecione quadros que não estão aninhados dentro de um nó de seção.
+
 1. Para migrar os quadros selecionados, siga um destes procedimentos:
 
    * Clique em **[!UICONTROL Exportar]** para exportar o arquivo convertido para um local escolhido ou
