@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: da699f7dc5bd4f0994af4a912017dd2503afed69
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: 729
-ht-degree: 88%
+source-wordcount: 794
+ht-degree: 81%
 
 ---
 
@@ -234,6 +234,18 @@ Na seção _Recentes_ do [!DNL Create], você pode acessar e gerenciar todos os 
 Os rascunhos são salvos automaticamente e mostrados na seção _Recentes_ da página inicial [!DNL Create]. Cada rascunho desta seção exibe um status, como _Rascunho_ ou _Aprovado_.
 
 Clique no ícone de exibição de galeria (grade) para exibir itens de _Recentes_ em uma exibição de grade ou tabela.
+
+### Edição colaborativa
+
+Os criadores de rascunho agora podem compartilhar seus rascunhos com colaboradores, atribuir funções e trabalhar para criar conteúdo em tempo real. Esse recurso oferece algumas vantagens significativas do fluxo de trabalho, além da simples análise e aprovação:
+
+* **Fácil colaboração em um rascunho existente** com notificações rápidas, sem precisar recriar ou exportar nada.
+
+* **Coedição em tempo real** entre membros da equipe ao vivo sem atualizar ou mesclar os arquivos posteriormente.
+
+* **Acesso somente leitura** para partes interessadas curiosas verem a tela antes do início do fluxo de R&amp;A.
+
+Saiba como [usar a edição colaborativa com seus rascunhos](collaborative-editing.md).
 
 ### Gerenciar variantes
 

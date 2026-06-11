@@ -5,10 +5,10 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: c9b8177a564cfcdfd2b63cd28fa22eb93a52d3a7
+source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 87%
+source-wordcount: '277'
+ht-degree: 86%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 87%
    + [Exibir experiências de anúncio](create/display-ad-experiences.md)
    + [Experiências com o banner](create/banner-experiences.md)
    + [Gerenciar variantes](create/manage-variants.md)
+   + [Edição colaborativa](create/collaborative-editing.md)
    + [Usar troca de logotipo](create/logo-swap.md)
    + [Configurar a troca de logotipos em modelos](create/logo-swap-setup.md)
    + [Criar uma experiência de email](create/create-email-experience.md)
