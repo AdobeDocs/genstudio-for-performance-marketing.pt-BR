@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5aa02e34bb69b8d6254c9a38dc7cd752eadfcad0
+source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
 workflow-type: tm+mt
-source-wordcount: 794
-ht-degree: 81%
+source-wordcount: 820
+ht-degree: 79%
 
 ---
 
@@ -234,6 +234,10 @@ Na seção _Recentes_ do [!DNL Create], você pode acessar e gerenciar todos os 
 Os rascunhos são salvos automaticamente e mostrados na seção _Recentes_ da página inicial [!DNL Create]. Cada rascunho desta seção exibe um status, como _Rascunho_ ou _Aprovado_.
 
 Clique no ícone de exibição de galeria (grade) para exibir itens de _Recentes_ em uma exibição de grade ou tabela.
+
+### Traduzir e localizar
+
+Você pode traduzir experiências de email aprovadas e de mídia paga em vários idiomas da página de aterrissagem do [!DNL Create] ou do [!DNL Content]. Consulte [Traduzir e traduzir experiências](/help/user-guide/create/translate-experiences.md).
 
 ### Edição colaborativa
 

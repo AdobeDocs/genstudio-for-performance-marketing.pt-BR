@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
 workflow-type: tm+mt
-source-wordcount: 5011
+source-wordcount: 5016
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Agora os profissionais de marketing podem trocar logotipos dinamicamente dentro 
 
 ### Tradução pronta para uso para mídia paga e email
 
-* Traduza instantaneamente experiências aprovadas de mídia paga e email para mais de 40 idiomas diretamente no GenStudio for Performance Marketing.
+* Traduza instantaneamente experiências aprovadas de mídia paga e email para mais de 40 idiomas diretamente no GenStudio for Performance Marketing. Consulte [Traduzir e traduzir experiências](/help/user-guide/create/translate-experiences.md).
 * Usando os serviços de tradução do Azure Open AI, as equipes podem traduzir conteúdo em massa em vários idiomas de destino simultaneamente.
 
 ### Exportação do PDF para experiências

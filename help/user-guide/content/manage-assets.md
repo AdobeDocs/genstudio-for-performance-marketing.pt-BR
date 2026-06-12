@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 1518
-ht-degree: 0%
+source-wordcount: 1546
+ht-degree: 1%
 
 ---
 
@@ -153,6 +153,10 @@ Ao adicionar ativos a [!DNL Content], eles são armazenados no repositório `Gen
 1. Na exibição do ativo, clique em **[!UICONTROL Excluir]** (lixeira) no canto superior direito.
 
 1. No pop-up _Excluir ativo_, verifique o ativo e clique em **[!UICONTROL Excluir]**.
+
+## Traduza experiências
+
+Você pode traduzir uma experiência aprovada para um ou mais idiomas da galeria _[!UICONTROL Experiências]_ ou de uma exibição detalhada da experiência. Consulte [Traduzir e traduzir experiências](/help/user-guide/create/translate-experiences.md#translate-from-content).
 
 ## Exportar experiências
 

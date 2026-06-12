@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: 357
 ht-degree: 1%
 
 ---
@@ -100,3 +100,8 @@ Quando você salva os ativos aprovados, o [!DNL Content] mantém os metadados av
 ### Trabalhar com modelos
 
 Os modelos aceleram o processo de criação para que você possa gerar conteúdo consistente em vários canais. Faça upload do modelo personalizado para usar como ponto de partida no processo de criação com layouts e elementos de design pré-configurados. Saiba mais sobre elementos e procedimentos básicos do modelo em [Trabalhar com modelos](../templates/use-templates.md). Veja em detalhes a criação de modelos com o tópico [Personalizar um modelo](../templates/customize-template.md).
+
+### Traduzir experiências aprovadas
+
+Você pode traduzir experiências de email aprovadas e de mídia paga em vários idiomas diretamente da galeria [!DNL Content] _[!UICONTROL Experiências]_ ou da página de aterrissagem [!DNL Create]. Consulte [Traduzir do Conteúdo](../create/translate-experiences.md#translate-from-content) ou [Traduzir da Criação](../create/translate-experiences.md#translate-from-create).
+

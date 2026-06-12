@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
+source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 126
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ O [!DNL Create] capacita os profissionais de marketing modernos a [produzir expe
 Ao gerar experiências de anúncio de exibição, quatro variações são criadas e mostradas na Tela.
 
 Consulte [Exibir diretrizes de modelo de anúncio](/help/user-guide/templates/display-template.md) para obter informações sobre dimensões com suporte, nomes de campos reconhecidos e muito mais.
+
+Você pode traduzir uma experiência de anúncio de exibição aprovada em vários idiomas na tela do HTML. Consulte [Traduzir e traduzir experiências](/help/user-guide/create/translate-experiences.md).
 
 As seções editáveis de uma experiência de anúncio de exibição incluem:
 
