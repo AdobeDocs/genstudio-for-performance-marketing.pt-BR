@@ -4,11 +4,23 @@ description: Simplifique e aprimore o gerenciamento de ativos aprovados pela mar
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
 TQID: https://experienceleague.adobe.com/G9pgYplVoU0cVTOveP57W7MtUehg1E5GAiuGzjL8wRc
-product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c95c94c1-727b-457a-9184-a4dda4c95ab2id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f321b88b-6bb7-49cc-a16a-ae2b665ebd32id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2: id: a98e0185-3180-4e8c-8f31-f72af4cc21a2id: dd48f9df-f2e2-49fe-a918-332a8e240ffeid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2:
+  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+  - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+  - id: f321b88b-6bb7-49cc-a16a-ae2b665ebd32
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2:
+  - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+  - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3890f933a4cccae2e5dbe7ef2184e1dfd089b20b
 workflow-type: tm+mt
 source-wordcount: 1546
@@ -48,7 +60,7 @@ Se determinadas opções de filtro não estiverem visíveis, isso indicará que 
 
    >[!IMPORTANT]
    >
-   A lista _Local_ está disponível somente quando você [se conecta a um repositório do AEM](connect-aem-repo.md).
+   >A lista _Local_ está disponível somente quando você [se conecta a um repositório do AEM](connect-aem-repo.md).
 
 1. Clique em **[!UICONTROL Pesquisar]** (lupa) para inserir uma palavra-chave ou descrição.
 
@@ -152,7 +164,7 @@ Você pode traduzir uma experiência aprovada para um ou mais idiomas da galeria
 
 >[!WARNING]
 >
-Os ativos recuperados não são seguros para exibir sem limpeza. Todos os usuários devem lidar com script entre sites (XSS) a partir dos modelos usando técnicas de limpeza de entrada no seu lado.
+>Os ativos recuperados não são seguros para exibir sem limpeza. Todos os usuários devem lidar com script entre sites (XSS) a partir dos modelos usando técnicas de limpeza de entrada no seu lado.
 
 **Para exportar ou baixar experiências**:
 
@@ -207,6 +219,6 @@ Critérios para aprimorar imagens com o recurso [!DNL Edit in Adobe Express]:
 
    >[!TIP]
    >
-   Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio for Performance Marketing. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
+   >Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio for Performance Marketing. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
 
 1. Clique em **[!UICONTROL Salvar]**.
