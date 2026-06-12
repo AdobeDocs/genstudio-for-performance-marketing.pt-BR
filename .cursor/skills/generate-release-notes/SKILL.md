@@ -1,9 +1,9 @@
 ---
 name: generate-release-notes
 description: ""
-source-git-commit: 85ad74d3f24fb809b11f57b23bd24a7ae3310f43
+source-git-commit: c3c6aa86f4f520d020f8928612d1be6be1599652
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Se novas informações pertencerem ao documento, coloque-as no cabeçalho **`{#l
 
 Trabalhe nesta ordem. Copie a lista de verificação e rastreie o progresso das edições de várias etapas.
 
+&#x200B;0. [ ] Se o MCP do **Jira** e do **Confluence** estiverem disponíveis, execute o [consume-release-sources](../consume-release-sources/SKILL.md) primeiro para assimilar o tíquete de trabalho, o wiki de cerimônia (grupos de recursos GA e Beta) e as páginas do KT. Se o MCP estiver indisponível, use o conteúdo do KT/wiki colado e o mapeamento de campos [reference.md](reference.md#internal-sources-kt-and-release-wikis).
 1. [ ] Abra `help/user-guide/release-notes.md` e leia o bloco `## YYYY.MM {#latest}` atual. Trate as **notas de versão anteriores** como um contexto **somente leitura**, a menos que você esteja executando a etapa de arquivamento na etapa 2.
 2. [ ] Se estiver adicionando uma **nova** versão mensal: arquive a versão mais recente atual (consulte [Arquivar versões mais recentes](#archive-previous-latest)).
 3. [ ] Adicionar ou editar **somente** a seção `## YYYY.MM {#latest}` principal (mês mais recente na parte superior da lista de versões).
@@ -130,7 +131,7 @@ Antes de concluir a tarefa:
 
 ## Fontes de conteúdo (resumo)
 
-Ao extrair dos documentos de Transferência de conhecimento ou dos wikis de versão internamente, mapeie os campos conforme descrito em [reference.md](reference.md#internal-sources-kt-and-release-wikis). A página remetida deve ser lida como documentação do usuário independente.
+Quando o **MCP de Jira/Confluência** estiver disponível, comece com [consume-release-sources](../consume-release-sources/SKILL.md) (cerimônia wiki → KT pages → entrega estruturada). Caso contrário, mapeie os campos wiki de versão ou Transferência de Conhecimento colados conforme descrito em [reference.md](reference.md#internal-sources-kt-and-release-wikis). A página remetida deve ser lida como documentação do usuário independente.
 
 ## Opcional: polir novas subseções
 

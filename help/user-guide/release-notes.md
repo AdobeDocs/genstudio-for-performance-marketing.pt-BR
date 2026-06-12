@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
+source-git-commit: 8e00ddcb542ae0b8965f2ea7135d184c14b51fa3
 workflow-type: tm+mt
-source-wordcount: 5016
+source-wordcount: 5284
 ht-degree: 0%
 
 ---
@@ -50,7 +50,39 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2026.05.15 {#latest}
+## 2026.06.11 {#latest}
+
+**NOVOS RECURSOS**
+
+### YouTube Shorts em [!DNL Create] e [!DNL Activate]
+
+O vídeo de forma curta agora é um canal controlado em [!DNL GenStudio for Performance Marketing]. Crie e ative o YouTube Shorts sob marca no fluxo de trabalho [!DNL Create] com as medidas de proteção de marca, produto e persona aplicadas desde o início.
+
+A ativação fecha o loop sem uma entrega manual: envie o Shorts para campanhas do Google Ads Demand Gen ou faça upload deles como vídeos não listados no YouTube quando sua equipe traficar anúncios do YouTube por meio do DV360.
+
+### Ativação de vídeo CM360
+
+Os anúncios de exibição de vídeo criados em [!DNL GenStudio for Performance Marketing] não param mais na porta de ativação do CM360. Selecione experiências de vídeo controladas do canal de exibição, visualize-as no fluxo de trabalho de ativação e [publique criações diretamente no Google Campaign Manager 360](/help/user-guide/activation/activate-cm360-ad.md) junto com formatos de imagem e HTML5.
+
+### Campanhas de promoção do aplicativo Meta em [!DNL Activate]
+
+Os profissionais de marketing de aplicativos móveis agora podem [ativar experiências para campanhas do Meta](/help/user-guide/activation/activate-meta-ad.md) com o objetivo de Promoção do Aplicativo, incluindo conjuntos de anúncios que direcionam Instalações de Aplicativos e Eventos de Aplicativos. Anteriormente, somente os objetivos de campanha que não eram do aplicativo eram compatíveis.
+
+### Tradução na tela do Horizonte
+
+A tradução pronta para uso agora se estende às experiências de mídia paga na Tela do Horizonte, para que as equipes regionais possam localizar rascunhos aprovados de Meta, LinkedIn e Exibição sem exportar cópia para ferramentas externas.
+
+Consulte [Traduzir e traduzir experiências](/help/user-guide/create/translate-experiences.md) para obter um fluxo de trabalho de tradução mais amplo.
+
+### Várias imagens por pod em modelos de email
+
+Os modelos de email no [!DNL Create] agora podem carregar mais de uma imagem em um único pod, dando aos designers espaço para layouts de herói mais avançados, galerias de produtos e narrativas de vários ativos sem dividir o conteúdo em seções extras.
+
+Faça upload ou crie modelos com os campos de imagem adicionais e gere variantes na marca que respeitem a estrutura do seu pod. Consulte [Experiências de email](/help/user-guide/create/email-experiences.md) para obter o fluxo de trabalho de email completo.
+
+## Notas de versão anteriores
+
++++Notas de 2026.05.15
 
 ### Edição colaborativa na tela do Horizon
 
@@ -80,7 +112,7 @@ As organizações que exigem um **[!UICONTROL Gerente de marca]** ou superior ai
 
 A IA de conversa é uma nova superfície de mídia paga, e [!DNL GenStudio for Performance Marketing] agora carrega o ChatGPT de ponta a ponta. [Crie experiências de anúncio de ChatGPT](/help/user-guide/create/create-chatgpt-ad.md) com variações de cópia na marca, execute verificações de marca e canal, direcione trabalhos por meio de aprovações e publique experiências aprovadas em [!DNL Content] para reutilização e ativação.
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2026.04.16
 
