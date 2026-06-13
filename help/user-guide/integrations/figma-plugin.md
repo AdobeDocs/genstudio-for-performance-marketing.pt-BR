@@ -220,7 +220,7 @@ Um arquivo ZIP foi criado no painel de plug-in ou um link para **[!UICONTROL Abr
 Você pode usar o plug-in Figma para converter um quadro Figma, vários quadros ou um documento inteiro para o formato Photoshop e exportá-lo para uso com o [GenStudio Photoshop](photoshop-plugin.md). Atualmente, somente as principais propriedades, como visibilidade, tamanho da fonte e atributos básicos da camada, são compatíveis durante a conversão. Recursos como tachado, sobrescrito, subscrito, opacidade como porcentagens, gradientes e propriedades avançadas semelhantes ainda não são compatíveis.
 
 <!-- GS-34076: Demo video placement is hardcoded in the tool UI; keep this video above "The plugin supports the following Figma layer types for conversion." -->
->[!VIDEO](https://video.tv.adobe.com/v/3492271?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492275?captions=por_br&learn=on)
 
 O plug-in é compatível com os seguintes tipos de camadas Figma para conversão:
 
