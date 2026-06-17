@@ -4,10 +4,10 @@ description: Saiba como compartilhar rascunhos de mídia paga com colaboradores,
 feature: Create Canvas
 role: User
 level: Beginner
-source-git-commit: 80f96e0db22ab9215660991f0833da719bdc6393
+source-git-commit: 519c4d0273c996dbebcc28ee90a6b31006581305
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 4%
+source-wordcount: '469'
+ht-degree: 5%
 
 ---
 
@@ -30,11 +30,11 @@ A edição colaborativa na tela do Horizon oferece estes recursos:
 
 Todos os colaboradores convidados podem abrir e exibir o rascunho. A tabela a seguir lista as ações de edição e fluxo de trabalho por função.
 
-| Função | Editar elementos da prancheta | Editar campos do Chrome | Compartilhar rascunho | Iniciar revisão e aprovação | Publicação | Notas |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[!UICONTROL Proprietário]** | Sim | Sim | Sim | Sim | Sim | Somente criador do documento |
-| **[!UICONTROL Editor]** | Sim | Sim | Sim | Sim | Sim | Usuários convidados explicitamente como **[!UICONTROL Editor]** |
-| **[!UICONTROL Visualizador]** | Não | Não | Não | Não | Não | Usuários convidados como **[!UICONTROL Visualizador]** |
+| Função | Editar elementos da prancheta | Editar campos do Chrome | Compartilhar rascunho | Excluir rascunho | Iniciar revisão e aprovação | Publicação | Notas |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **[!UICONTROL Proprietário]** | Sim | Sim | Sim | Sim | Sim | Sim | Somente criador do documento |
+| **[!UICONTROL Editor]** | Sim | Sim | Sim | Não | Sim | Sim | Usuários convidados explicitamente como **[!UICONTROL Editor]** |
+| **[!UICONTROL Visualizador]** | Não | Não | Não | Não | Não | Não | Usuários convidados como **[!UICONTROL Visualizador]** |
 
 ## Pré-requisitos
 
