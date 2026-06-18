@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b739e84a2345c8bceceff150aa0aa51ba960b0e7
+source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
 workflow-type: tm+mt
-source-wordcount: 5284
+source-wordcount: 5467
 ht-degree: 0%
 
 ---
@@ -152,6 +152,26 @@ Explore os detalhes em [Usando modelos do Adobe Express no GenStudio for Perform
 ### Conteúdo do TikTok no GenStudio for Performance Marketing
 
 Agora você pode criar, aprovar e ativar anúncios de vídeo no feed do TikTok no GenStudio for Performance Marketing. Gere anúncios facilmente no fluxo de trabalho do [!DNL Create] e publique a experiência no [!DNL Content]. Use o [!DNL Insights] for TikTok para monitorar o desempenho e informar a próxima atualização criativa.
+
+### Recurso De Inteligência De Conteúdo V4
+
+A V4 de destaque representa uma atualização abrangente da V3, introduzindo um design de anúncio com vários novos recursos específicos de publicidade em tipos de conteúdo de imagem, texto e vídeo.
+
+Os benefícios da V4 incluem:
+
+* **Advertising-First Design**: criado especificamente para análise de publicidade com o conjunto abrangente de análises de CTA/Oferta/Logotipo (18 recursos combinados).
+* **Taxonomia Granular**: aumento de 249% no total de recursos com categorização clara e definições de recursos consistentes em imagem/texto/vídeo.
+* **Avaliação de Qualidade de Produção**: 13 recursos de qualidade de vídeo para avaliação de qualidade técnica, otimização móvel e classificação de tipo de produção (CLC/Studio/UGC).
+* **Entendimento semântico aprimorado**: novos recursos, incluindo personas da marca, desejos humanos, acionadores cognitivos e reconhecimento de entidade abrangente.
+* **Consistência entre canais**: recursos unificados entre tipos de conteúdo que habilitam a análise de publicidade entre canais.
+* **Otimização para dispositivos móveis**: recursos dedicados para taxa de proporção, ajuste de posicionamento e detecção nativa para dispositivos móveis.
+
+**Principais adições de Recursos:**
+
+* Advertising Suite (mais de 20 recursos): análise de CTA/Oferta/Logotipo, Compartilhamento de marcas, Detecção de influenciadores
+* Contexto de Campanha e Produto (7 recursos): Produto, Objetivo/Tema da campanha, Público-alvo, País, Geografia
+* Métricas de qualidade do vídeo (13 recursos): qualidade técnica, classificação da produção, otimização móvel
+* Reconhecimento de entidade (9 recursos): Influenciador, Eventos, Locais, Menções de marca/produto, Mídia popular
 
 +++
 

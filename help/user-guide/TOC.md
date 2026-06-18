@@ -5,10 +5,10 @@ user-guide-description: Explore os recursos do Adobe GenStudio for Performance M
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 8565bb7f27db5d641613d56e5767882dcaaf60ae
+source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -105,9 +105,9 @@ ht-degree: 85%
    + [Campanhas](insights/campaigns.md)
    + [Detalhes das experiências publicadas](insights/published-experiences.md)
    + [Mídia](insights/media.md)
-   + [Atributos](insights/attributes.md)
    + [Marcas de anúncio](insights/ad-tags.md)
-   + Categorias de atributo {#categories}
+   + Atributos {#attributes}
+      + [Visão geral dos atributos](insights/attributes.md)
       + [Recursos de imagem](insights/image-features.md)
       + [Recursos de vídeo](insights/video-features.md)
       + [Recursos de texto](insights/text-features.md)
