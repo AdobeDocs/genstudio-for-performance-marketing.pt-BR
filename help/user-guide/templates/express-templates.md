@@ -4,9 +4,9 @@ description: Explore os recursos do GenStudio for Performance Marketing que pode
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: de08604b8968e6ae49cabd6632eb40516983d841
+source-git-commit: 96249838f5ec957edc22eadf51ec828f54002adf
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -126,6 +126,14 @@ A formatação de texto disponível inclui:
 1. Insira o novo texto.
 1. Para formatar o texto, clique ou digite no elemento da caixa de texto. As opções de formatação serão exibidas em uma barra pop-up. Manter Shift pressionado oculta a barra para exibir o texto.
 1. Clique fora do campo de texto para salvar as alterações.
+
+### Usar caixas de fluxo de texto vinculadas
+
+[!DNL Adobe Express] oferece suporte ao Fluxo de Texto, que permite ao autor do modelo vincular duas caixas de texto para que uma única frase flua em ambas as caixas. Por exemplo, um título pode começar em uma caixa e terminar em outra, ou parte de uma frase pode usar um estilo diferente do restante. Quando um modelo com Fluxo de Texto é importado para o [!DNL GenStudio for Performance Marketing], a Tela reconhece e respeita essa vinculação. Saiba mais sobre como criar caixas de texto vinculadas no [Fluxo de Texto no Adobe Express](https://helpx.adobe.com/br/express/web/create-and-edit-documents-and-webpages/create-and-edit-documents/text-flow-faq.html).
+
+Você gera uma cópia para caixas de texto vinculadas da mesma forma que gera qualquer outro campo, sem nenhuma configuração extra necessária. As caixas vinculadas se comportam como uma única frase conectada em toda a geração, edição e revisão de variantes, de modo que nunca é necessário dividir, copiar ou reposicionar o texto entre as caixas.
+
+Se a cópia gerada for muito longa para caber nas caixas vinculadas, uma linha vermelha aparecerá ao longo da parte inferior da última caixa para indicar o excesso, correspondendo ao mesmo indicador usado em [!DNL Adobe Express]. Encurte a cópia ou gere novamente o campo para remover o estouro.
 
 ### Visualizar camadas
 

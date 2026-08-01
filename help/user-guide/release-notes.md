@@ -39,9 +39,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3f40cc7affba7d49430e3a0e6cf01f76ac31a02a
+source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
 workflow-type: tm+mt
-source-wordcount: 5467
+source-wordcount: 5723
 ht-degree: 0%
 
 ---
@@ -50,9 +50,25 @@ ht-degree: 0%
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2026.06.11 {#latest}
+## 2026.07.16 {#latest}
 
 **NOVOS RECURSOS:**
+
+### Edição de itens em massa na tela do Horizon
+
+A tela do Horizon agora vincula campos de texto e imagem relacionados entre os tamanhos e páginas em um modelo de vários tamanhos ou de várias páginas, de modo que uma edição de última milha só precisa ocorrer uma vez. Escolha o escopo **[!UICONTROL Aplicar a]** no painel RTE — deste tamanho, de todos os tamanhos ou de todos os conceitos — e a edição será propagada automaticamente, com a opção de ajustar manualmente a marcação de campo quando necessário.
+
+### Ativar anúncios de exibição diretamente para a Trade Desk
+
+Os profissionais de marketing agora podem publicar anúncios de exibição aprovados diretamente do [!DNL GenStudio for Performance Marketing] nas campanhas existentes da Trade Desk. Conecte uma conta com um token de API, inicie a ativação do [!DNL Activate] ou do [!DNL Content] e rastreie o status de ativação com deep links de volta para a Trade Desk.
+
+### Troca de fragmento de conteúdo na tela do Horizon
+
+Agora você pode trocar um bloco de texto na tela do Horizon por um fragmento de conteúdo reutilizável e pré-aprovado extraído diretamente da biblioteca de fragmentos de conteúdo do AEM. As trocas de fragmentos de conteúdo funcionam com a edição em massa, de modo que uma troca pode ser aplicada a um único tamanho ou propagada em todos os tamanhos e conceitos ao mesmo tempo, mantendo a cópia regulamentada exatamente como aprovada, sem reentrada manual.
+
+## Notas de versão anteriores
+
++++Notas de 2026.06.11
 
 ### YouTube Shorts em [!DNL Create] e [!DNL Activate]
 
@@ -80,7 +96,11 @@ Os modelos de email no [!DNL Create] agora podem carregar mais de uma imagem em 
 
 Faça upload ou crie modelos com os campos de imagem adicionais e gere variantes na marca que respeitem a estrutura do seu pod. Consulte [Experiências de email](/help/user-guide/create/email-experiences.md) para obter o fluxo de trabalho de email completo.
 
-## Notas de versão anteriores
+### Suporte a Fluxo de texto para modelos Express
+
+[!DNL Create] agora homenageia o Fluxo de Texto, o recurso do Adobe Express que vincula duas caixas de texto para que uma única frase flua em ambas, na Tela do Horizonte. A cópia gerada preenche as caixas vinculadas como uma frase conectada, de modo que os designs de anúncio cujas mensagens se dividem em duas caixas possam finalmente ser modelados para geração sem cópia ou reposicionamento manual. Saiba mais sobre [caixas de fluxo de texto vinculadas](/help/user-guide/templates/express-templates.md#use-linked-text-flow-boxes).
+
++++
 
 +++Notas de 2026.05.15
 
@@ -260,9 +280,9 @@ Agora os profissionais de marketing podem trocar logotipos dinamicamente dentro 
 ### Insights estendidos para o LinkedIn, o Meta e o TikTok
 
 * O GenStudio Insights agora inclui relatórios de desempenho do LinkedIn Ads, permitindo que os profissionais de marketing visualizem e analisem o desempenho de suas campanhas e anúncios diretamente na plataforma para:
-   * Anúncios do LinkedIn
-   * Anúncios do Meta
-   * Anúncios do TikTok
+  * Anúncios do LinkedIn
+  * Anúncios do Meta
+  * Anúncios do TikTok
 
 ### Ativação do Amazon Ads
 
@@ -285,10 +305,10 @@ Agora os profissionais de marketing podem trocar logotipos dinamicamente dentro 
 
 * O GenStudio for Performance Marketing agora oferece suporte à integração perfeita com sistemas de design de email de terceiros por meio de uma estrutura de extensibilidade. Os principais recursos incluem:
 
-   * Importar automaticamente modelos de sistemas de design de email de terceiros durante a criação do conteúdo
-   * Traga os metadados do modelo junto com os modelos importados
-   * Mantenha uma única fonte de verdade conectando-se diretamente a sistemas de terceiros
-   * SDK e aplicativo de amostra fornecidos para criação de integrações personalizadas
+  * Importar automaticamente modelos de sistemas de design de email de terceiros durante a criação do conteúdo
+  * Traga os metadados do modelo junto com os modelos importados
+  * Mantenha uma única fonte de verdade conectando-se diretamente a sistemas de terceiros
+  * SDK e aplicativo de amostra fornecidos para criação de integrações personalizadas
 
 +++
 
