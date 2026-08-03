@@ -39,7 +39,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b886e9e46f386a6b81e7430fd462b662403b9bcb
+source-git-commit: 86c5e5236bf256694858ae5b0ca1f6930cf35033
 workflow-type: tm+mt
 source-wordcount: 5723
 ht-degree: 0%
@@ -56,7 +56,7 @@ Estas informações de versão fornecem as atualizações mais recentes para o a
 
 ### Edição de itens em massa na tela do Horizon
 
-A tela do Horizon agora vincula campos de texto e imagem relacionados entre os tamanhos e páginas em um modelo de vários tamanhos ou de várias páginas, de modo que uma edição de última milha só precisa ocorrer uma vez. Escolha o escopo **[!UICONTROL Aplicar a]** no painel RTE — deste tamanho, de todos os tamanhos ou de todos os conceitos — e a edição será propagada automaticamente, com a opção de ajustar manualmente a marcação de campo quando necessário.
+A tela do Horizon agora vincula campos de texto e imagem relacionados entre os tamanhos e páginas em um modelo de vários tamanhos ou de várias páginas, de modo que uma edição de última milha só precisa ocorrer uma vez. Escolha o escopo **[!UICONTROL Aplicar a]** no menu de edição — deste tamanho, de todos os tamanhos ou de todos os conceitos — e a edição será propagada automaticamente, com a opção de ajustar manualmente a marcação de campo quando necessário.
 
 ### Ativar anúncios de exibição diretamente para a Trade Desk
 
