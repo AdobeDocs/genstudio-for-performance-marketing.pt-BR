@@ -4,22 +4,14 @@ description: Saiba como ativar uma experiência de anúncio do Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
 TQID: https://experienceleague.adobe.com/hDR0ngNiGnCXCCOgNhVG8gX4kHGrNvfybPbuMLwYk7U
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: d87258a7-722c-4afd-b632-adddc447c7aa
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: d87258a7-722c-4afd-b632-adddc447c7aaid: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1980
+source-wordcount: 1981
 ht-degree: 1%
 
 ---
@@ -106,7 +98,7 @@ Se você optar por não ativar diretamente uma experiência aprovada do [!DNL Co
 
 Use a seção _Mídia_ para selecionar pelo menos um ativo de imagem a ser incluído na sua experiência. Os posicionamentos de anúncios estão associados a proporções de imagem com suporte, que estão listadas como opções no menu suspenso _Posicionamentos_. Esse menu exibe os posicionamentos de anúncios compatíveis com postagens do Facebook ou histórias do Instagram, organizados por taxa de proporção.
 
-Após o carregamento, os ativos são salvos em [!DNL Content]. A área _Mídia_ exibe a imagem por padrão com uma proporção de 1:1. As taxas de aspecto alternativas incluem apenas os valores compatíveis com o canal de anúncios pagos. Eles são agrupados por orientação vertical e horizontal. O GenStudio for Performance Marketing oferece suporte à inclusão de até seis taxas de aspecto por experiência ativada.
+Após o carregamento, os ativos são salvos em [!DNL Content]. A área _Mídia_ exibe a imagem por padrão com uma taxa de proporção de 1:1. As taxas de aspecto alternativas incluem apenas os valores compatíveis com o canal de anúncios pagos. Eles são agrupados por orientação vertical e horizontal. O GenStudio for Performance Marketing oferece suporte à inclusão de até seis taxas de aspecto por experiência ativada.
 
 **Para carregar um ativo do Conteúdo**:
 
@@ -120,7 +112,7 @@ O [!DNL Content] fornece uma exibição central para os ativos e experiências a
 
 1. Clique em **[!UICONTROL Usar]** para incluir o ativo selecionado na sua experiência com anúncios. A janela _Configuração de experiência_ inclui o ativo em sua taxa de proporção padrão na área _Mídia_. O painel _Visualização_ visualiza o ativo no posicionamento do anúncio que dá suporte a essa taxa de proporção.
 
-Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_&#x200B;será aberta.
+Se o upload não for bem-sucedido, uma mensagem de erro informativa que inclui um link para o ativo em _[!DNL Content]_será aberta.
 
 **Para carregar um ativo externo**:
 

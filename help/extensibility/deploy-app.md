@@ -4,16 +4,10 @@ description: Implante seu aplicativo ou complemento do App Builder para o GenStu
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
 TQID: https://experienceleague.adobe.com/7Z4Fb-jPi4FHrTeOgHxxO4fl982sqri-7uEDoylFF-s
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: bfaa655b-e017-428d-80d0-09de2183b296
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: bfaa655b-e017-428d-80d0-09de2183b296id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: ca8bfb11a301697c92e97bad41ea3ba8aa359847
 workflow-type: tm+mt
 source-wordcount: 622
@@ -86,8 +80,8 @@ https://experience.adobe.com/?ext=https://<my-deployed-add-on>.adobeio-static.ne
 Novas extensões são encontradas em diferentes locais na interface do usuário, dependendo do tipo de extensão implantada. Os pontos de extensão disponíveis no momento são:
 
 * Extensão de conformidade, que inclui:
-   * [*pontos de extensão de prompt*](#find-prompt-extensions), que permitem aos clientes adicionar contexto adicional à geração de LLM e
-   * [*pontos de extensão de validação*](#find-validation-extensions), que permitem aos clientes validar o conteúdo gerado do LLM. A validação geralmente é combinada com a extensão Prompt para garantir que o conteúdo gerado com um prompt estendido esteja de acordo com as exigências do cliente (por exemplo, solicitações de medicamentos ou informações legais)
+  * [*pontos de extensão de prompt*](#find-prompt-extensions), que permitem aos clientes adicionar contexto adicional à geração de LLM e
+  * [*pontos de extensão de validação*](#find-validation-extensions), que permitem aos clientes validar o conteúdo gerado do LLM. A validação geralmente é combinada com a extensão Prompt para garantir que o conteúdo gerado com um prompt estendido esteja de acordo com as exigências do cliente (por exemplo, solicitações de medicamentos ou informações legais)
 * [Extensão do Gerenciamento de ativos digitais (DAM)](#find-dam-extensions)
 * [Extensão do modelo](#find-template-extensions)
 * [Extensão de tradução](#find-translation-extensions)

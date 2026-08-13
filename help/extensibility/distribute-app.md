@@ -4,14 +4,12 @@ description: Distribua seu aplicativo ou Complemento para GenStudio for Performa
 feature: Extensibility
 exl-id: 4935356b-08df-402c-b1a2-b89627afc188
 TQID: https://experienceleague.adobe.com/6SHsqsafwqCWS3dspM65BTVAqZ09WwW2IxF-PIecINE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
 source-wordcount: 303
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +19,7 @@ A distribuição do complemento o torna disponível para uso por sua organizaç�
 
 Este tópico discute a distribuição privada. A distribuição privada restringe a implantação do complemento na organização, identificada pela organização IMS, para a qual foi desenvolvido.
 
-A distribuição pública disponibiliza o Complemento como um aplicativo na Adobe Exchange. [A Distribuição Pública](https://developer.adobe.com/app-builder/docs/guides/distribution/public/), na documentação do desenvolvedor do _App Builder_, descreve como disponibilizar seu aplicativo para qualquer organização da Adobe.
+A distribuição pública disponibiliza o Complemento como um aplicativo na Adobe Exchange. A [Distribuição pública](https://developer.adobe.com/app-builder/docs/guides/distribution/public/), na documentação do desenvolvedor do _App Builder_, descreve como disponibilizar seu aplicativo para qualquer organização da Adobe.
 
 >[!BEGINSHADEBOX]
 

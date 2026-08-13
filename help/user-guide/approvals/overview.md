@@ -5,17 +5,11 @@ level: Beginner
 feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
 TQID: https://experienceleague.adobe.com/2oFwfqVPlW24irHth-mkEx-ciO5tQgNv2hwAYmkfi-g
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
 workflow-type: tm+mt
 source-wordcount: 890
@@ -79,7 +73,7 @@ _Revisores_ podem adicionar comentários, mas não podem aprovar conteúdo. A pa
 
 As notificações no produto da GenStudio for Performance Marketing atualizam os aprovadores e editores de conteúdo em tempo real das alterações de status do ativo e `@mention` comentários. As notificações suportam iteração rápida por meio de vários ciclos de revisão, edição e aprovação.
 
-Os editores de conteúdo e aprovadores podem se inscrever para receber essas notificações no Slack. Consulte [Assinar serviços no CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/services/customer-attributes/subscription).
+Os editores de conteúdo e aprovadores podem se inscrever para receber essas notificações no Slack. Consulte [Assinar serviços no CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription).
 
 As ações executadas pelos participantes da aprovação acionam notificações automáticas no produto e notificações por email. Ao iniciar um processo de aprovação, os aprovadores designados recebem notificações por email e no produto. Você é mantido no loop com notificações no produto e por email sempre que um aprovador adiciona `@mention` comentários ou toma uma decisão. As notificações incluem links para o rascunho do conteúdo.
 

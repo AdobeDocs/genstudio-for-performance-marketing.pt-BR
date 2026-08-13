@@ -17,18 +17,18 @@ ht-degree: 42%
 
 + [Guia de extensibilidade](home.md)
 + Introdução {#get-started}
-   + [Configurar o ambiente](setup.md)
+  + [Configurar o ambiente](setup.md)
 + Desenvolvimento de aplicativo {#apps}
-   + [Criar um projeto do App Builder](create-project.md)
-   + [Desenvolver um aplicativo do App Builder](create-app.md)
-   + [Implante seu aplicativo](deploy-app.md)
-   + [Distribuir seu aplicativo](distribute-app.md)
-   + [Seletor de experiência MFE](experience-selector.md)
+  + [Criar um projeto do App Builder](create-project.md)
+  + [Desenvolver um aplicativo do App Builder](create-app.md)
+  + [Implante seu aplicativo](deploy-app.md)
+  + [Distribuir seu aplicativo](distribute-app.md)
+  + [Seletor de experiência MFE](experience-selector.md)
 + Extensões próprias {#first-party}
-   + [Journey Optimizer para GenStudio](journey-optimizer-for-genstudio.md)
-   + [Marketo para GenStudio](marketo-for-genstudio.md)
+  + [Journey Optimizer para GenStudio](journey-optimizer-for-genstudio.md)
+  + [Marketo para GenStudio](marketo-for-genstudio.md)
 + Extensões 3P {#third-party-extensions}
-   + [Seletor de experiência MFE no Salesforce](experience-selector-salesforce.md)
+  + [Seletor de experiência MFE no Salesforce](experience-selector-salesforce.md)
 
 <!--
   + UI Extensions {#ui}

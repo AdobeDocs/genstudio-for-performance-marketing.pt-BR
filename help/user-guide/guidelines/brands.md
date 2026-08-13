@@ -4,25 +4,14 @@ description: O GenStudio for Performance Marketing [!DNL Brands] é uma coleçã
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
 TQID: https://experienceleague.adobe.com/mZ70azBCwP8KshE6iX7hwGvEWawBkU36aDejZbAkRAY
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: ad3738c7-91ac-48ed-a914-fd0b03f89396id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: f54ee13b-9545-4d68-9842-a12026e60aafid: fee2c7a9-112e-463c-b451-44aaecaa6966
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1525
+source-wordcount: 1526
 ht-degree: 2%
 
 ---
@@ -66,9 +55,9 @@ A tabela a seguir mostra cada categoria das diretrizes e exemplos de diretrizes 
 | Categoria de diretriz | Descrição | Práticas recomendadas |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL Tom de voz] | A personalidade da marca expressa através de comunicação escrita | Use palavras descritivas para transmitir claramente a emoção e o tom da marca. <br>_Exemplos_: &quot;genuíno&quot;, &quot;divertido&quot;<br><br>Seja conciso (3-6 diretrizes) e concentre-se nos principais atributos de voz da marca.<br><br>Selecione palavras/frases consistentes em todos os canais de comunicação para criar uma identidade de marca coerente. |
-| [!UICONTROL Valores da marca] | Princípios que impulsionam a cultura da marca, a experiência do cliente e as estratégias de negócios | Use palavras descritivas para transmitir a missão, a visão e as necessidades do público-alvo da marca. <br>_Exemplos_: &quot;autenticidade&quot;, &quot;inspirador&quot;, &quot;progressivo&quot;<br><br>Seja conciso (3-6 diretrizes) e se concentre nos valores/temas principais da marca. |
+| [!UICONTROL Valores da marca] | Princípios que impulsionam a cultura da marca, a experiência do cliente e as estratégias de negócios | Use palavras descritivas para transmitir a missão, a visão e as necessidades do público-alvo da marca. <br>_Exemplos_: &quot;autenticidade&quot;, &quot;inspirador&quot;, &quot;progressivo&quot;<br><br>Seja conciso (3-6 diretrizes) e concentre-se nos valores/temas principais da marca. |
 | [!UICONTROL Diretrizes editoriais] | Diretrizes de comunicação que definem as práticas recomendadas para criar mensagens de marca | Use frases positivas (5-10 diretrizes) para estabelecer uma base sólida.<br>_Exemplos_: &quot;Use uma linguagem simples e acessível&quot; em vez de &quot;Evite usar jargões&quot;<br><br>Forneça orientações claras e acionáveis. <br>_Exemplos_: &quot;Mantenha as frases abaixo de 20 palavras&quot; em vez de &quot;Seja conciso&quot;<br><br>Reflita o estilo da sua marca, como o uso de preferências específicas de sintaxe. <br>_Exemplos_: &quot;Use um traço eme em vez de dois-pontos&quot;, &quot;Use caso de sentença&quot;<br><br>Crie diretrizes precisas que mantenham a consistência entre as saídas. |
-| [!UICONTROL Restrições editoriais] | Diretrizes de comunicação que definem o que evitar nas mensagens da marca | Use frases negativas diretas (5-10 diretrizes) para especificar o que deve ser evitado. <br>_Exemplo_: &quot;Evitar usar...&quot;<br><br>Forneça uma orientação clara e acionável. <br>_Exemplo_: &quot;Evitar perguntas retóricas&quot; |
+| [!UICONTROL Restrições editoriais] | Diretrizes de comunicação que definem o que evitar nas mensagens da marca | Use frases negativas diretas (5-10 diretrizes) para especificar o que deve ser evitado. <br>_Exemplo_: &quot;Evite usar...&quot;<br><br>Forneça uma orientação clara e acionável. <br>_Exemplo_: &quot;Evitar perguntas retóricas&quot; |
 
 ### Diretrizes de imagem
 

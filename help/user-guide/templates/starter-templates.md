@@ -7,18 +7,14 @@ badgeBeta: label="Beta" tooltip="No momento, esse recurso está no Beta, portant
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
 TQID: https://experienceleague.adobe.com/wM0dD2t751PHH9UkmPpZDzwv-1L90UW5vdcKXDeIBHE
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 3%
+source-wordcount: 415
+ht-degree: 5%
 
 ---
 
@@ -42,7 +38,7 @@ A seguir, é feito um resumo dos modelos iniciais disponíveis, seus tipos de m�
 
 ### Modelos de anúncios do LinkedIn
 
-Todas as taxas de proporção são compatíveis com imagens estáticas. Para vídeo, use o 9:16 para Histórias do LinkedIn e certifique-se de que seu vídeo esteja otimizado para formatos curtos e verticais.
+Todas as taxas de proporção são compatíveis com imagens estáticas. Para vídeos, use 9:16 para histórias do LinkedIn e certifique-se de que seu vídeo esteja otimizado para formatos curtos e verticais.
 
 | Taxa de proporção | Orientação | Orientação |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
