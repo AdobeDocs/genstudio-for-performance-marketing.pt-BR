@@ -43,9 +43,9 @@ Conecte sua conta de perfil do LinkedIn Ads ao GenStudio for Performance Marketi
 
 - _Controle total_ sobre contas de anúncios do LinkedIn, incluindo:
 
-   - Contas do gerente
-   - Gerenciar campanhas
-   - Exibir desempenho
+  - Contas do gerente
+  - Gerenciar campanhas
+  - Exibir desempenho
 
 - Remova os bloqueadores de pop-up do navegador
 

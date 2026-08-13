@@ -82,10 +82,10 @@ Por exemplo, você pode instruir o GenStudio for Performance Marketing a gerar c
 O prompt estruturado deve:
 
 - Use uma das seguintes referências ao nome da seção no template de email:
-   - Pod
-   - Grupo
-   - Seção
-   - Módulo
+  - Pod
+  - Grupo
+  - Seção
+  - Módulo
 
   Por exemplo, se o modelo usa `moduleA` ou `Group-3` como um nome de seção, você pode fazer referência a esses nomes de seção no prompt.
 

@@ -33,7 +33,7 @@ ht-degree: 0%
 
 # Visão geral da mídia
 
-A exibição [!DNL Insights] _[!UICONTROL Mídia]_ mostra uma lista de mídias usadas em anúncios e campanhas publicitárias para a conta selecionada. _A mídia_ representa uma imagem, vídeo, texto ou outro conteúdo criativo aprovado para uso em suas iniciativas de marketing.
+A exibição [!DNL Insights] _[!UICONTROL Mídia]_ mostra uma lista de mídias usadas em anúncios e campanhas publicitárias para a conta selecionada. A _Mídia_ representa uma imagem, vídeo, texto ou outro conteúdo criativo aprovado para uso em suas iniciativas de marketing.
 
 {{connect-insights}}
 

@@ -33,7 +33,7 @@ ht-degree: 0%
 
 # Experiências do LinkedIn
 
-Com o Adobe GenStudio for Performance Marketing, você pode aproveitar a IA gerativa para [criar com eficiência experiências avançadas do LinkedIn](/help/user-guide/create/create-linkedin.md). [!DNL Create] permite que criadores de conteúdo e profissionais de marketing empreguem [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt instrutivo](/help/user-guide/effective-prompts.md) para [gerar experiências do LinkedIn aderentes à marca](/help/user-guide/create/create-email-experience.md).
+Com o Adobe GenStudio for Performance Marketing, você pode aproveitar a IA gerativa para [criar com eficiência experiências avançadas do LinkedIn](/help/user-guide/create/create-linkedin.md). O [!DNL Create] permite que os criadores de conteúdo e profissionais de marketing empreguem [diretrizes](/help/user-guide/guidelines/overview.md), ativos de imagem e um [prompt instrutivo](/help/user-guide/effective-prompts.md) para [gerar experiências do LinkedIn aderentes à marca](/help/user-guide/create/create-email-experience.md).
 
 Ao gerar experiências no LinkedIn, quatro variações são criadas e mostradas na Tela.
 

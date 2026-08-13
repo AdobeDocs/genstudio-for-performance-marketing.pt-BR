@@ -45,19 +45,19 @@ Os principais componentes dos aplicativos App Builder incluem esses arquivos de 
 
 * Arquivos do aplicativo TS:
 
-   * `package.json`
-   * `package-lock.json`
-   * `eslint`
-   * `tsconfig`
-   * `jest test up`
+  * `package.json`
+  * `package-lock.json`
+  * `eslint`
+  * `tsconfig`
+  * `jest test up`
 
 * Arquivos de configuração do App Builder:
 
-   * `app.config.yaml`
-   * `ext.config.yaml`: Arquivo de configuração do Complemento.
-   * `app.config.yaml`: Arquivo de configuração para o Complemento (inclui definir seu aplicativo como um Complemento do GenStudio for Performance Marketing).
-   * `.aio`
-   * `.env`: não confirmar o arquivo `.env` no controle do código-fonte.
+  * `app.config.yaml`
+  * `ext.config.yaml`: Arquivo de configuração do Complemento.
+  * `app.config.yaml`: Arquivo de configuração para o Complemento (inclui definir seu aplicativo como um Complemento do GenStudio for Performance Marketing).
+  * `.aio`
+  * `.env`: não confirmar o arquivo `.env` no controle do código-fonte.
 
 ### código Source
 

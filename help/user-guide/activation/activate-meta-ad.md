@@ -19,7 +19,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: afce03c5167b728fe04e4722a1e4f39868d523df
 workflow-type: tm+mt
-source-wordcount: 1980
+source-wordcount: 1981
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ Se você optar por não ativar diretamente uma experiência aprovada do [!DNL Co
 
 Use a seção _Mídia_ para selecionar pelo menos um ativo de imagem a ser incluído na sua experiência. Os posicionamentos de anúncios estão associados a proporções de imagem com suporte, que estão listadas como opções no menu suspenso _Posicionamentos_. Esse menu exibe os posicionamentos de anúncios compatíveis com postagens do Facebook ou histórias do Instagram, organizados por taxa de proporção.
 
-Após o carregamento, os ativos são salvos em [!DNL Content]. A área _Mídia_ exibe a imagem por padrão com uma proporção de 1:1. As taxas de aspecto alternativas incluem apenas os valores compatíveis com o canal de anúncios pagos. Eles são agrupados por orientação vertical e horizontal. O GenStudio for Performance Marketing oferece suporte à inclusão de até seis taxas de aspecto por experiência ativada.
+Após o carregamento, os ativos são salvos em [!DNL Content]. A área _Mídia_ exibe a imagem por padrão com uma taxa de proporção de 1:1. As taxas de aspecto alternativas incluem apenas os valores compatíveis com o canal de anúncios pagos. Eles são agrupados por orientação vertical e horizontal. O GenStudio for Performance Marketing oferece suporte à inclusão de até seis taxas de aspecto por experiência ativada.
 
 **Para carregar um ativo do Conteúdo**:
 

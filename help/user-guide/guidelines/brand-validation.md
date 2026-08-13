@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ O GenStudio for Performance Marketing inclui verificações de conteúdo projeta
 Esse recurso inclui as seguintes verificações de conteúdo:
 
 * As imagens fornecem um atributo `<alt>`.
-* O texto gerado tem 4,5:1 de contraste com seu plano de fundo.
+* O texto gerado tem um contraste de 4.5:1 em relação ao seu plano de fundo.
 * Palavras ou frases usadas de forma incomum ou restrita, incluindo expressões idiomáticas e jargões, são evitadas.
 * Formas expandidas ou significado de abreviações estão disponíveis.
 * O conteúdo é legível em um nível de ensino médio inferior.

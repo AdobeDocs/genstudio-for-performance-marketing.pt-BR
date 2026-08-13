@@ -23,8 +23,8 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 360
-ht-degree: 0%
+source-wordcount: 361
+ht-degree: 1%
 
 ---
 
@@ -56,4 +56,4 @@ A tabela a seguir mostra cada categoria de diretrizes de [!DNL Personas] e exemp
 | ------------------| :---------- |-------------|
 | Nome pessoal | Representa um segmento de público-alvo específico para o qual os materiais de marketing gerados são adaptados | Adicione um nome de persona claro e conciso.<br><br>_Exemplos_: &quot;CMOs de Varejo&quot;, &quot;Estudantes em potencial de Enfermagem&quot;, &quot;Novos Clientes de Conta de Poupança&quot; |
 | Descrição | Resumo definindo as principais características, necessidades e comportamentos | Use uma linguagem concisa para descrever claramente a segmentação de persona e de público-alvo único (1-2 frases).<br><br>Concentre-se no que direciona este segmento de público-alvo (necessidades, características principais etc.)<br><br>Mantenha a descrição sucinta e sem dados demográficos profundos ou informações extras. |
-| Preferências de mensagens | Resumo claro de estilos de comunicação preferidos que refletem em um perfil específico | Defina requisitos de mensagens exclusivos e motivações para a persona, com foco em como ela prefere receber e interagir com as comunicações.<br><br>Forneça preferências de mensagens específicas na lista (cada item de lista 1-2 frases).<br><br>Limite a lista ao total de 10 frases ou menos, garantindo que as informações mais críticas sejam destacadas.<br><br>_Exemplo_: &quot;Preferências de mensagens para profissionais com conhecimento técnico:<li>Prefere comunicação concisa e sem jargões.</li><li>Responde positivamente a insights orientados por dados e conselhos acionáveis.</li><li>Prefere recursos visuais, como infográficos e gráficos, para compreender rapidamente informações complexas.</li><li>Valoriza a transparência com uma abordagem honesta e direta.</li>&quot; |
+| Preferências de mensagens | Resumo claro de estilos de comunicação preferidos que refletem em um perfil específico | Defina requisitos de mensagem exclusivos e motivações para persona, com foco em como a persona prefere receber e interagir com as comunicações.<br><br>Forneça preferências de mensagens específicas na lista (cada item de lista 1-2 frases).<br><br>Limite a lista a um total de 10 frases ou menos, garantindo que as informações mais críticas sejam destacadas.<br><br>_Exemplo_: &quot;Preferências de mensagens para profissionais com conhecimento técnico:<li>Prefere comunicação concisa e sem jargões.</li><li>Responde positivamente a insights orientados por dados e conselhos acionáveis.</li><li>Prefere recursos visuais, como infográficos e gráficos, para compreender rapidamente informações complexas.</li><li>Valoriza a transparência com uma abordagem honesta e direta.</li>&quot; |

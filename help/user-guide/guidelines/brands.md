@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e8e0898054576454bad9ecdbd1a48b17f955e138
 workflow-type: tm+mt
-source-wordcount: 1525
+source-wordcount: 1526
 ht-degree: 2%
 
 ---
@@ -66,9 +66,9 @@ A tabela a seguir mostra cada categoria das diretrizes e exemplos de diretrizes 
 | Categoria de diretriz | Descrição | Práticas recomendadas |
 | ------------------| :---------- | :---------- |
 | [!UICONTROL Tom de voz] | A personalidade da marca expressa através de comunicação escrita | Use palavras descritivas para transmitir claramente a emoção e o tom da marca. <br>_Exemplos_: &quot;genuíno&quot;, &quot;divertido&quot;<br><br>Seja conciso (3-6 diretrizes) e concentre-se nos principais atributos de voz da marca.<br><br>Selecione palavras/frases consistentes em todos os canais de comunicação para criar uma identidade de marca coerente. |
-| [!UICONTROL Valores da marca] | Princípios que impulsionam a cultura da marca, a experiência do cliente e as estratégias de negócios | Use palavras descritivas para transmitir a missão, a visão e as necessidades do público-alvo da marca. <br>_Exemplos_: &quot;autenticidade&quot;, &quot;inspirador&quot;, &quot;progressivo&quot;<br><br>Seja conciso (3-6 diretrizes) e se concentre nos valores/temas principais da marca. |
+| [!UICONTROL Valores da marca] | Princípios que impulsionam a cultura da marca, a experiência do cliente e as estratégias de negócios | Use palavras descritivas para transmitir a missão, a visão e as necessidades do público-alvo da marca. <br>_Exemplos_: &quot;autenticidade&quot;, &quot;inspirador&quot;, &quot;progressivo&quot;<br><br>Seja conciso (3-6 diretrizes) e concentre-se nos valores/temas principais da marca. |
 | [!UICONTROL Diretrizes editoriais] | Diretrizes de comunicação que definem as práticas recomendadas para criar mensagens de marca | Use frases positivas (5-10 diretrizes) para estabelecer uma base sólida.<br>_Exemplos_: &quot;Use uma linguagem simples e acessível&quot; em vez de &quot;Evite usar jargões&quot;<br><br>Forneça orientações claras e acionáveis. <br>_Exemplos_: &quot;Mantenha as frases abaixo de 20 palavras&quot; em vez de &quot;Seja conciso&quot;<br><br>Reflita o estilo da sua marca, como o uso de preferências específicas de sintaxe. <br>_Exemplos_: &quot;Use um traço eme em vez de dois-pontos&quot;, &quot;Use caso de sentença&quot;<br><br>Crie diretrizes precisas que mantenham a consistência entre as saídas. |
-| [!UICONTROL Restrições editoriais] | Diretrizes de comunicação que definem o que evitar nas mensagens da marca | Use frases negativas diretas (5-10 diretrizes) para especificar o que deve ser evitado. <br>_Exemplo_: &quot;Evitar usar...&quot;<br><br>Forneça uma orientação clara e acionável. <br>_Exemplo_: &quot;Evitar perguntas retóricas&quot; |
+| [!UICONTROL Restrições editoriais] | Diretrizes de comunicação que definem o que evitar nas mensagens da marca | Use frases negativas diretas (5-10 diretrizes) para especificar o que deve ser evitado. <br>_Exemplo_: &quot;Evite usar...&quot;<br><br>Forneça uma orientação clara e acionável. <br>_Exemplo_: &quot;Evitar perguntas retóricas&quot; |
 
 ### Diretrizes de imagem
 

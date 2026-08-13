@@ -15,7 +15,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 369
+source-wordcount: 371
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Use fontes fáceis de ler. Por exemplo, as fontes Sans Serif têm uma aparência
 
 Forneça um contraste apropriado entre o texto e o plano de fundo. Evite usar cores de fonte que produzem texto escuro em um plano de fundo escuro e texto claro em um plano de fundo claro. Considere as diretrizes de contraste para obter uma proporção ideal:
 
-- Texto e imagens de texto: taxa de contraste de pelo menos 4,5:1
+- Texto e imagens de texto: taxa de contraste de pelo menos 4.5:1
 - Texto e imagens grandes de texto em grande escala: taxa de contraste de pelo menos 3:1
 
 ## Finalidade do link (somente link)

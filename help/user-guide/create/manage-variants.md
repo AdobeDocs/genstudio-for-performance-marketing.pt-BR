@@ -24,7 +24,7 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
 workflow-type: tm+mt
-source-wordcount: 2125
+source-wordcount: 2129
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Ao [criar experiências](/help/user-guide/create/overview.md), você pode modifi
 
 Os rascunhos de variante gerados têm um nome padrão mostrado na parte superior da Tela. Os nomes de rascunho padrão usam a seguinte convenção que inclui o tipo de canal, a data e a hora de geração.
 
-*Exemplo*: &quot;Meta: Rascunho sem Título - 09.5.24, 9:56 AM&quot;
+*Exemplo*: &quot;Meta: Rascunho Sem Título - 09.5.24, 9:56 AM&quot;
 
 **Para alterar o nome padrão**:
 
@@ -181,7 +181,7 @@ Esse recurso de expansão gerativa é combinado com a ferramenta Corte Demarcado
 
 ## Alterar taxa de proporção
 
-Você pode alterar rapidamente a [proporção dos anúncios do Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada de 1:1 pode cortar as laterais, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
+Você pode alterar rapidamente a [proporção dos anúncios do Meta](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) para acomodar o tamanho de anúncio desejado. Escolha uma taxa de proporção de imagem que corresponda às dimensões do modelo para evitar recorte ou alongamento indesejados. Por exemplo, se o modelo tiver 1200 × 628 pixels (um retângulo largo), o uso de uma imagem quadrada 1:1 pode cortar os lados, potencialmente cortando conteúdo importante. O tamanho de imagem ideal seria de 628 x 628 pixels, o que corresponde à altura do modelo.
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Você pode alterar rapidamente a [proporção dos anúncios do Meta](/help/user-
 
    [!DNL Create] cria uma cópia de cada variante com base na nova taxa de proporção selecionada. Todas as variantes, incluindo as da taxa de proporção inicial, estão presentes na Tela de desenho.
 
-   Por exemplo, se você gerar quatro variantes em uma taxa de proporção de 1:1 inicialmente e, em seguida, alterar a taxa de proporção para 4:5, _oito_ variantes totais agora estarão disponíveis na Tela.
+   Por exemplo, se você gerar quatro variantes em uma proporção de 1:1 inicialmente e, em seguida, alterar a proporção para 4:5, _oito_ as variantes totais agora estarão disponíveis na Tela de desenho.
 
 ## Trocar imagem
 

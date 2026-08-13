@@ -44,10 +44,10 @@ Esta página explica como conectar e gerenciar a conta de perfil do Meta Ads com
 
 - Um logon do Facebook/Meta que pode acessar todos os serviços da Meta
 - _Controle total_ sobre o Meta Business Portfolio e contas de anúncios, incluindo:
-   - Gerenciar campanhas
-   - Exibir desempenho
-   - Gerenciar modelos de hub do Creative
-   - Análises avançadas
+  - Gerenciar campanhas
+  - Exibir desempenho
+  - Gerenciar modelos de hub do Creative
+  - Análises avançadas
 - Desative qualquer bloqueador de pop-up no navegador
 - Verifique quaisquer associações de página de conta do Instagram no Meta Business Manager antes de tentar uma conexão
 - Confirmar o acesso de administrador a todos os ativos que estão sendo conectados

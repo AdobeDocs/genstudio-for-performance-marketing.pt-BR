@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
 workflow-type: tm+mt
-source-wordcount: 1347
+source-wordcount: 1352
 ht-degree: 0%
 
 ---
@@ -90,9 +90,9 @@ Para determinar o tamanho e a proporção de uma imagem no navegador:
 
 1. Inspecione a imagem.
    - No Windows/Linux:
-      - Pressione F12.
+     - Pressione F12.
    - No macOS:
-      - Pressione Command + Option + I.
+     - Pressione Command + Option + I.
 
 1. Passe o mouse sobre a imagem.
 
