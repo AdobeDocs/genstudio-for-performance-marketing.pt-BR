@@ -19,7 +19,7 @@ Este guia explica os requisitos e os recursos com modelos do [!DNL Adobe Express
 
 ## Sobre modelos em [!DNL Adobe Express]
 
-Em [!DNL Adobe Express], [novos documentos podem ser criados usando modelos iniciais existentes](https://helpx.adobe.com/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) fornecidos no aplicativo ou com [modelos personalizados que podem incluir restrições úteis de marca](https://helpx.adobe.com/br/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html), como:
+Em [!DNL Adobe Express], [novos documentos podem ser criados usando modelos iniciais existentes](https://helpx.adobe.com/br/express/web/documents-and-presentations/text-flow-template.html?x-product=Helpx%2F1.0.0&x-product-location=Search%3AForums%3Alink%2F3.7.5) fornecidos no aplicativo ou com [modelos personalizados que podem incluir restrições úteis de marca](https://helpx.adobe.com/br/express/web/brands-libraries-projects/create-manage-brands/edit-shared-template.html), como:
 
 - [Elementos bloqueados](https://helpx.adobe.com/br/express/web/invite-collaborate/object-locking.html) que não podem ser alterados
 - Bloquear restrições que controlam como os usuários podem desbloquear elementos quando necessário
