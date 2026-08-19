@@ -17,20 +17,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7aed06dbb249cfc7e0f15d792563699e63b1a390
+source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 3%
+source-wordcount: 670
+ht-degree: 4%
 
 ---
 
 # Content Credentials para organizações
 
 Saiba como as credenciais à prova de adulteração para conteúdo que comprovam a autenticidade da marca e impulsionam a conformidade são incorporadas diretamente em seu fluxo de trabalho de marketing.
-
->[!WARNING]
->
-> No momento, esse recurso está na versão beta e só está disponível para organizações que receberam acesso. Se estiver interessado, entre em contato com o representante da equipe de contas da Adobe ou [use este link para solicitar a inscrição](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
 ## Introdução a Content Credentials {#content-credentials}
 
@@ -39,15 +35,11 @@ Saiba como as credenciais à prova de adulteração para conteúdo que comprovam
 >title="Content Credentials no [!DNL GenStudio for Performance Marketing]"
 >abstract="É possível incorporar credenciais à prova de violação para conteúdo diretamente no fluxo de trabalho de marketing com o objetivo de comprovar a autenticidade da marca e impulsionar a conformidade."
 
-Depois que o Content Credentials for ativado na Admin Console, os usuários da GenStudio for Performance Marketing poderão ativar o Content Credentials para todos os ativos globalmente no aplicativo. Se a opção global para aplicar credenciais estiver desativada, os usuários terão a opção de aplicar o Content Credentials para cada ativo individual.
+O GenStudio for Performance Marketing aplica o Content Credentials globalmente a todos os ativos, automaticamente. Não há etapa de configuração e nenhuma configuração por ativo a ser ativada: as credenciais são incorporadas, preservadas e atualizadas em todo o fluxo de trabalho de marketing.
 
 Quando o conteúdo for publicado, o Content Credentials estará visível nas plataformas externas, como o LinkedIn.
 
-Os administradores são responsáveis por fazer upload de um certificado X.509 válido no Admin Console. Esta etapa garante que a assinatura digital da empresa esteja configurada corretamente e pronta para uso nos aplicativos Adobe DX suportados.
-
->[!NOTE]
->
->O controle sobre essa configuração pode mudar para a Admin Console no futuro, simplificando o gerenciamento do Content Credentials entre aplicativos e melhorando a supervisão administrativa.
+O Content Credentials compatível com C2PA não requer configuração de certificado. A assinatura da marca é a exceção: para assinar o conteúdo com a assinatura da própria organização, um administrador deve carregar um certificado X.509 válido na Admin Console. Esta etapa garante que a assinatura digital da empresa esteja configurada corretamente e pronta para uso nos aplicativos Adobe DX suportados.
 
 ## O que são Content Credentials? 
 
@@ -71,7 +63,7 @@ A aplicação do Content Credentials pode ser feita em todo o fluxo de trabalho 
 
 Na galeria Conteúdo, as credenciais são exibidas nos ativos importados.
 
-O selo do Content Credential no canto superior direito da miniatura indica o conteúdo &quot;Assinado com marca&quot;.
+O selo do Content Credential, no canto superior direito da miniatura, indica o conteúdo [!UICONTROL Brand signed].
 
 ![Um ativo importado com credenciais](./images/import-discovery1.png)
 
@@ -93,7 +85,7 @@ Os metadados de credencial são preservados à medida que os ativos são selecio
 
 Durante as exportações de um rascunho, os ativos modificados são automaticamente assinados novamente e as novas credenciais são vinculadas ao original.
 
-![Dados de credencial em um ativo exportado](./images/edit-and-transformation1.png){width="60%"}
+![A caixa de diálogo Baixar com opções de formato de exportação](./images/edit-and-transformation2.png){width="60%"}
 
 ### Revisão e aprovação
 
@@ -103,7 +95,7 @@ Na visualização Revisar e aprovar, o status da credencial é exibido para ativ
 
 Os detalhes da credencial por variante são mostrados à medida que os revisores inspecionam os ativos. As experiências aprovadas são assinadas novamente quando os usuários clicam em **[!UICONTROL Salvar no Conteúdo]**.
 
-![Dados de credencial em um ativo aprovado](./images/review-and-approve2.png)
+![A caixa de diálogo Confirmar detalhes do conteúdo aprovado, com o botão Salvar no Conteúdo](./images/review-and-approve3.png)
 
 ### Ativação e exportação
 
