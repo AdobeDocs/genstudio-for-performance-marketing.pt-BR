@@ -7,29 +7,15 @@ level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
 TQID: https://experienceleague.adobe.com/RPeJQ02q9HXBSpn-uFqjzLCYbbzv5eNnFBXkFn9j5JI
-product_v2:
-  - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
-feature_v2:
-  - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
-  - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
-  - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
-  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
-subfeature_v2:
-  - id: a8b28c00-da6e-4d27-8667-80f790ad8972
-  - id: be495d08-ecd1-455f-951e-c22de504e667
-  - id: de1f9646-abd3-4e21-9de2-df62ce55c8dc
-  - id: dee4e9a9-78d1-4953-8179-f8da6117027d
-  - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
-  - id: f54ee13b-9545-4d68-9842-a12026e60aaf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: ecda1f61abaafe858629fc4700f61d89e2ab9e3e
+product_v2: id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+feature_v2: id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3aid: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+subfeature_v2: id: a8b28c00-da6e-4d27-8667-80f790ad8972id: be495d08-ecd1-455f-951e-c22de504e667id: de1f9646-abd3-4e21-9de2-df62ce55c8dcid: dee4e9a9-78d1-4953-8179-f8da6117027did: e3878dde-4b87-4290-9e81-ed7ee6eb83feid: f54ee13b-9545-4d68-9842-a12026e60aaf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: e47c6644de51ead57f1c2e780aa287eb1de7ac87
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1547
 ht-degree: 0%
 
 ---
@@ -111,10 +97,57 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 * **Para [aplicar a formatação do texto](/help/user-guide/create/manage-variants.md#manually-edit-text)** a uma variante, clique no texto da imagem de uma variante e clique em **[!UICONTROL Formatar texto]**.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
 * **Para [adicionar ou trocar imagens em uma variante](/help/user-guide/create/manage-variants.md#swap-image)**, clique em um ativo de imagem (ou na área do ativo de imagem, se uma imagem não existir no momento) e clique no ícone **[!UICONTROL Trocar do conteúdo]**.
+* **Para [editar uma imagem em uma variante](#edit-images-in-the-canvas)**, clique em um campo de imagem e em **[!UICONTROL Editar]** (ícone de lápis) para recortar, reposicionar ou expandir a imagem diretamente na Tela.
 * **Para [adicionar um link a uma imagem em uma variante](/help/user-guide/create/manage-variants.md#add-image-link)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique no ícone de link.
 * **Para [adicionar texto alternativo para imagens em uma variante](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)**, clique em um ativo de imagem e use a opção _Texto alternativo_ para adicionar ou gerar manualmente texto alternativo por imagem.
 * **Para [adicionar rótulos de acessibilidade](/help/user-guide/create/manage-variants.md#add-accessibility-labels) às suas variantes**, clique em uma imagem ou em um link do call-to-action e forneça uma breve descrição que explique o que o link ou o botão faz.
 * **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique para selecionar o título do email (por exemplo, &quot;Email 1/4&quot;) e clique em **[!UICONTROL Excluir variante]**.
+
+## Editar imagens na Tela de Pintura
+
+Ajuste imagens sem sair da Tela ou depender de ferramentas de design externas. Você pode cortar e reposicionar uma imagem para focalizar um assunto, ou usar Expansão Gerativa para estender uma imagem além de seus limites originais. As edições se aplicam somente ao rascunho do seu email. Os ativos do Source em [!DNL Content] e nos repositórios de ativos conectados nunca são modificados.
+
+Acesse a edição de imagens de qualquer campo de imagem na Tela de email. As imagens editadas são indicadas visualmente para que você possa rastrear quais imagens foram alteradas em relação ao ativo original.
+
+### Cortar e reposicionar uma imagem
+
+Recorte uma imagem para usar somente a região desejada. O recorte no email é de forma livre, sem restrição de proporção, portanto, você tem controle total sobre qual parte da imagem aparece e em qual proporção.
+
+**Para recortar e reposicionar uma imagem**:
+
+1. Em um rascunho de email, passe o mouse sobre ele e clique em um campo de imagem.
+1. Clique em **[!UICONTROL Editar]** (lápis).
+1. Clique em **[!UICONTROL Cortar]**.
+1. Ajuste a região de corte e arraste a imagem para a posição desejada.
+1. Clique em **[!UICONTROL Aplicar]** para recortar a imagem selecionada, ou **[!UICONTROL Aplicar a todas as imagens]** para aplicar o recorte em todos os campos de imagem no rascunho.
+
+Para sair sem salvar as alterações, clique em **[!UICONTROL Cancelar]**.
+
+![A exibição Editar Imagem com a ferramenta Corte Demarcado ativa em uma imagem na Tela de email](/help/assets/edit-image-crop-email.png){width="650" zoomable="yes"}
+
+### Expandir uma imagem com Expansão Gerativa
+
+Use Expansão gerativa para estender uma imagem além de seus limites originais com IA gerativa. A expansão no email não está restrita a um tamanho ou proporção fixa, portanto, você pode ajustar uma imagem ao espaço necessário.
+
+**Para expandir uma imagem**:
+
+1. Em um rascunho de email, passe o mouse sobre ele e clique em um campo de imagem.
+1. Clique em **[!UICONTROL Editar]** (lápis).
+1. Clique em **[!UICONTROL Expandir]**.
+
+   A imagem é aberta na exibição _[!UICONTROL Editar Imagem]_ em uma tela expandida, e [!DNL GenStudio for Performance Marketing] gera opções de expansão.
+
+1. Mova a imagem para posicioná-la dentro da área expandida.
+1. Selecione uma opção gerada ou clique em **[!UICONTROL Mais]** (ícone de adição) para ver mais opções.
+1. Clique em **[!UICONTROL Aplicar]** para aplicar o resultado à imagem selecionada ou em **[!UICONTROL Aplicar a todas as imagens]** para aplicá-lo a todos os campos de imagem no rascunho.
+
+Para sair sem salvar as alterações, clique em **[!UICONTROL Cancelar]**.
+
+>[!NOTE]
+>
+>O tamanho de saída de Expansão gerativa não é restrito, portanto, a qualidade pode variar para expansões muito grandes. Clique em **[!UICONTROL Mais]** para gerar opções adicionais se o resultado não atender às suas necessidades.
+
+![Um resultado de Expansão Gerativa selecionado e pronto para ser aplicado na exibição Editar Imagem](/help/assets/generative-expand-email.png){width="650" zoomable="yes"}
 
 ## Enviar feedback de geração
 
