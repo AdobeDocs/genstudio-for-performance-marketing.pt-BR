@@ -17,10 +17,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: abf48a907a72b060f684865c29b3a42f1ebdc3dc
+source-git-commit: 5fe8dccdcf24d26706b7d3621acc1715fd9eb164
 workflow-type: tm+mt
-source-wordcount: 670
-ht-degree: 4%
+source-wordcount: 750
+ht-degree: 3%
 
 ---
 
@@ -105,6 +105,13 @@ Durante a Ativação, o status da credencial é exibido no seletor de Experiênc
 
 Os arquivos exportados terão credenciais compatíveis com C2PA incorporadas.
 
+Os ativos exportados também retêm a linhagem. A credencial incorporada registra os ativos dos quais a exportação foi derivada, para que uma experiência exportada possa ser rastreada por meio de suas edições no ativo importado original. Como a linhagem viaja dentro do arquivo, ela permanece inspecionável depois que o ativo deixa o GenStudio for Performance Marketing.
+
 A integridade de credencial é mantida em todos os formatos compatíveis (JPEG, PNG, MP4).
 
 ![Dados de credencial em um ativo exportado](./images/activate-export2.png)
+
+## Informações relacionadas
+
+* [Transparência do conteúdo](https://experienceleague.adobe.com/pt-br/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Content Credentials](https://helpx.adobe.com/br/creative-cloud/help/content-credentials.html) na Adobe
