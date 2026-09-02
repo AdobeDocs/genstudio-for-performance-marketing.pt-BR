@@ -21,7 +21,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+source-git-commit: b92dff810b9f780d2f7c2f737787bcb07fec6a61
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 0%
@@ -35,6 +35,8 @@ A comunicação com a IA gerativa é essencial para trabalhar com eficiência no
 O GenStudio for Performance Marketing fornece um prompt de IA generativo sempre que há uma oportunidade de modificar um ativo. Os componentes de um prompt efetivo devem incluir linguagem descritiva, exemplos e informações não fornecidas através das diretrizes configuradas.
 
 Como prática recomendada, forneça à GenStudio for Performance Marketing as informações da sua marca usando as [diretrizes](/help/user-guide/guidelines/overview.md) e, em seguida, você poderá aproveitar totalmente a IA gerativa para produzir experiências de conteúdo alinhadas à marca.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502672?learn=on)
 
 ## Linguagem descritiva
 
