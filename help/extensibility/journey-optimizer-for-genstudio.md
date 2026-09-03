@@ -79,9 +79,9 @@ Exiba a extensão em **[!UICONTROL Administrador do Jornada]** em **[!UICONTROL 
 
 **Consulte também** (controle de acesso do Journey Optimizer):
 
-* [Controle de acesso](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/access-control-landing-page)
-* [Permissões no Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)
-* [Introdução para administradores do sistema](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/quick-start/administrator)
+* [Controle de acesso](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/access-control/access-control-landing-page)
+* [Permissões no Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/access-control/permissions)
+* [Introdução para administradores do sistema](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/quick-start/administrator)
 
 ## Acessar modelos do AJO no GenStudio
 

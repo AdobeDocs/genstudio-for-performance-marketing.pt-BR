@@ -65,7 +65,7 @@ O GenStudio for Performance Marketing usa a série GPT de LLMs de terceiros por 
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
+_[!DNL Generative Actions]_, conforme definido na [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), são as unidades que quantificam o uso de recursos de IA generativa no GenStudio for Performance Marketing.
 
 <!-- 
 Add example about usage mode?
@@ -76,11 +76,11 @@ If genactions roll over month to month or not
 
 ### Preços
 
-Você receberá uma alocação padrão de [!DNL Generative Actions], conforme descrito na [descrição do produto GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Você receberá uma alocação padrão de [!DNL Generative Actions], conforme descrito na [descrição do produto GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 >[!NOTE]
 >
->As taxas de uso podem variar. Os planos estão sujeitos a mudanças. Consulte a [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obter informações atualizadas sobre tarifas.
+>As taxas de uso podem variar. Os planos estão sujeitos a mudanças. Consulte a [descrição do produto Adobe GenStudio for Performance Marketing](https://helpx.adobe.com/br/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) para obter informações atualizadas sobre tarifas.
 
 As funções a seguir consomem [!DNL Generative Actions] na taxa especificada.
 
