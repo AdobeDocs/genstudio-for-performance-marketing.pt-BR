@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3322f783cd49ddcb897942e5e91590d53b554bdd
+source-git-commit: 0ff827501580099c4fc08fa8f59dddcf0fb14f12
 workflow-type: tm+mt
 source-wordcount: 1352
 ht-degree: 0%
@@ -126,6 +126,8 @@ Consulte mais dicas e restrições ao trabalhar com cada tipo de modelo para gar
 - [Anúncios do Meta](/help/user-guide/templates/meta-template.md)
 
 ## Práticas recomendadas do modelo Express para GenStudio
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502403?learn=on&enablevpops)
 
 As dicas a seguir ajudam a obter resultados confiáveis ao converter designs do [!DNL Adobe Express] em modelos para [!DNL GenStudio for Performance Marketing].
 
