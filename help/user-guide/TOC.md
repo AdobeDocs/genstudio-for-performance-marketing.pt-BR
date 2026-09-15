@@ -6,13 +6,11 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: ea05f9614304388b2e8a5d0c87d5bac47b4164b4
+source-git-commit: 1b407c1c66a2426b21cbbf423774ebdff16a7dec
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 84%
-
+source-wordcount: '287'
+ht-degree: 82%
 ---
-
 
 # Guia do Adobe GenStudio for Performance Marketing {#user-guide}
 
@@ -54,6 +52,7 @@ ht-degree: 84%
   + [Configurar a troca de logotipos em modelos](create/logo-swap-setup.md)
   + [Criar uma experiência de email](create/create-email-experience.md)
   + [Criar uma experiência de anúncio do Meta](create/create-meta-ad.md)
+  + [Criar experiência de anúncio do Meta - Anúncios do carrossel](create/create-meta-carousel-ad.md)
   + [Criar uma experiência de anúncio de ChatGPT](create/create-chatgpt-ad.md)
   + [Criar uma experiência do LinkedIn](create/create-linkedin.md)
   + [Criar uma experiência de anúncio de exibição](create/create-display-ad.md)
