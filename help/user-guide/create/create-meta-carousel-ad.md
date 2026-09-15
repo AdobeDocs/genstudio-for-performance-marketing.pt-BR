@@ -22,7 +22,7 @@ Antes de criar um anúncio no carrossel, verifique se você tem um modelo cujas 
 
 Depois de selecionar um modelo e abrir a Tela de Pintura, escolha o formato do carrossel na gaveta do prompt.
 
-1. No painel _[!DNL Create your ads]_, expanda_[!UICONTROL  Parâmetros ]_.
+1. No painel _[!DNL Create your ads]_, expanda&#x200B;_[!UICONTROL &#x200B; Parâmetros &#x200B;]_.
 1. No menu suspenso **[!UICONTROL Formatar]**, selecione **[!UICONTROL Anúncio do carrossel]**.
 
    ![O painel Criar seus anúncios com a lista suspensa Formatar definida como Anúncio do carrossel e uma lista de cartões](./carousel-format-cards.png){width="70%" zoomable="yes"}
