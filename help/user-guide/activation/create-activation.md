@@ -6,62 +6,123 @@ exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
 TQID: https://experienceleague.adobe.com/HSwFeL1qCzgFao2Ii64Hx-kaADRnd3dxaswFMzJ7nfA
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: dd48f9df-f2e2-49fe-a918-332a8e240ffe
+    internal-label: Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2694ca42a231d75df755936f80b398d554f42842
+    internal-label: Insights
+source-git-commit: 6cb428b368f75e0b646cfa4e6536a4728fdf40e2
 workflow-type: tm+mt
-source-wordcount: 575
+source-wordcount: '1158'
 ht-degree: 1%
-
 ---
-
 # Fluxo de trabalho de ativação
 
-O [!DNL Activate] oferece suporte à ativação de experiências de anúncio em formatos específicos de canal, como uma experiência de anúncio do Meta ou do Google Campaign Manager 360.
+[!DNL Activate] ativa experiências publicadas nos canais de anúncios pagos. Uma experiência do GenStudio for Performance Marketing é um componente de campanha de marketing, como um anúncio, preparado para um público específico em um canal de anúncio pago. As experiências para ativação contêm três componentes principais:
 
-Uma experiência do GenStudio for Performance Marketing é um componente de campanha de marketing, como um anúncio, que é preparado como uma experiência de anúncio para um público específico em um canal de anúncio pago ou email. As experiências para ativação contêm três componentes principais:
+* **Ativos de mídia**: imagens ou vídeos incluídos na sua experiência com anúncios. Os tipos de arquivos suportados e as taxas de proporção variam de acordo com o canal e o formato.
 
-* **Ativos de mídia**: os ativos de mídia são as imagens (GIFs, PNG, JPEG) incluídas na sua experiência com anúncios. A ativação atualmente suporta imagens estáticas.
+* **Texto**: todas as formas de cópia incluídas no anúncio, incluindo títulos, corpo de texto e elementos call-to-action.
 
-  A seleção de um ativo de imagem para sua experiência de anúncio requer a escolha de uma taxa de proporção apropriada. As taxas de proporção definem a relação proporcional entre a largura e a altura de uma imagem e são cruciais para a eficácia dos posicionamentos de anúncios. Os canais de mídia paga especificam cuidadosamente as taxas de aspecto válidas para cada posicionamento de anúncio em suas plataformas. Ao adicionar ativos de imagem à sua ativação, você deve selecionar a taxa de proporção com base nos posicionamentos finais dos anúncios para sua experiência. Os tipos de arquivos são restritos ao JPEG, PNG e GIF.
+* **Metadados**: atributos definidos pelo usuário que aprimoram a análise, a filtragem e o rastreamento de desempenho. Normalmente, os metadados não são visíveis para o público-alvo do anúncio final.
 
-* **Texto**: o texto compreende todas as formas de cópia incluídas no anúncio, incluindo títulos, corpo de texto e elementos call-to-action.
+Você prepara e aprova esses componentes no [!DNL Content] antes da ativação. [!DNL Activate] não cria ou edita ativos, títulos ou cópia do corpo aprovados. Ela aplica apenas a configuração de que cada canal precisa e publica a experiência.
 
-* **Metadados**: atributos definidos pelo usuário que você pode atribuir ao conteúdo. Os metadados aprimoram a análise, a filtragem e o rastreamento do desempenho. Normalmente, não é visível para usuários.
+Uma única tabela de ativação pode incluir experiências para vários canais de anúncios pagos e formatos de anúncios ao mesmo tempo.
 
-A criação de uma ativação envolve o refinamento de cada um desses componentes de anúncio para uma campanha de marketing e inserção de canal designada. O GenStudio for Performance Marketing permite ativar uma experiência para um canal pago.
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
-## Fases do fluxo de trabalho
+## Conectar suas contas de canal
 
-Embora requisitos exclusivos de posicionamento definam cada canal pago, todas as ativações de anúncios compartilham as mesmas etapas de alto nível. A ativação de uma experiência para qualquer canal pago tem três fases principais:
+Um gerente de sistema ou editor do GenStudio deve conectar as contas de anúncio de cada canal de anúncio pago antes de você poder ativar uma experiência para esse canal. Para ver as etapas deste processo, consulte [Conectar contas de mídia paga](/help/user-guide/connectors/connect-channel.md).
 
-1. **Conecte o GenStudio for Performance Marketing ao seu canal de destino**. Um gerente de sistema da GenStudio deve conectar suas contas de canal antes que você possa ativar uma experiência.
+## Iniciar uma ativação
 
-1. **Prepare sua experiência para ativação**. Você pode preparar experiências para ativação de duas maneiras:
+Inicie uma ativação de um de dois pontos de entrada:
 
-   * Ativar uma experiência aprovada com configurações predefinidas diretamente do [!DNL Content]. Essa maneira simplificada de ativar uma ou mais experiências de anúncio em um único canal. Depois de selecionar uma experiência na galeria [!DNL Content], não é possível editar nem adicionar ativos à sua experiência com anúncios. Ativar de [!DNL Content] está disponível para experiências de anúncio do Meta e do Google Campaign Manager 360.
+* **De[!DNL Content]**: filtre por Experiências, selecione uma ou mais experiências publicadas e clique em **[!UICONTROL Ativar]** na barra de ações superior.
+* **De[!DNL Activate]**: na página de aterrissagem [!DNL Activate], clique em **[!UICONTROL + Nova ativação]**. Isso abre a galeria Experiência, onde você seleciona experiências para ativação.
 
-   * Combine sua experiência de anúncio selecionando ativos visuais de [!DNL Content], adicionando elementos de texto e selecionando taxas de proporções. Esse método envolve mais etapas, mas oferece maior flexibilidade criativa. A preparação inclui selecionar os ativos de mídia na proporção apropriada para seu posicionamento de anúncio específico e atribuir texto aos elementos e à cópia do corpo do call-to-action. Você pode adicionar metadados informativos que ajudam os usuários a pesquisar a experiência após a ativação. Cada posicionamento de canal de anúncio especifica taxas de proporção válidas para ativos visuais incluídos no posicionamento.
+Em ambos os casos, pesquise por nome de experiência ou filtre por vários canais para encontrar as experiências desejadas.
 
-1. **Revise e publique sua experiência no canal de destino**. Use o painel _Visualização_ durante a configuração da experiência para avaliar sua escolha de posicionamento de anúncio e elementos de texto antes de finalizar sua ativação. Sua revisão final antes da publicação ocorre no aplicativo de gerenciamento de anúncios do canal de destino. Por exemplo, depois de ativar uma experiência de anúncio do Meta no GenStudio for Performance Marketing, você deve fazer logon no Meta Ads Manager, revisar a experiência de anúncio e selecionar os atributos específicos antes de publicá-la.
+Se sua seleção incluir experiências de formato de exibição, especifique qual plataforma de exibição usar: Google Campaign Manager 360, Innovid, Amazon Ads ou The Trade Desk. Em seguida, clique em **[!UICONTROL Iniciar ativação]**. Para outros formatos, como Meta, LinkedIn, TikTok, YouTube e ChatGPT, o [!DNL Activate] infere a plataforma do canal da experiência e ignora esta etapa.
 
-Quando uma experiência de anúncio estiver ativa em seu canal de mídia paga de destino, o [!DNL Insights] poderá acompanhar e analisar seus dados de desempenho.
+[!DNL Activate] gera uma tabela de ativação listando todas as experiências selecionadas. A tabela é organizada em subtabelas por formato de anúncio e canal, por exemplo, imagem única do Meta ou imagem única do LinkedIn. Cada linha representa um anúncio. Para a maioria dos canais, como LinkedIn, TikTok e canais de exibição, uma experiência com várias taxas de proporção gera uma linha por taxa de proporção; exclua todas as linhas desnecessárias. O Meta é a exceção. Um anúncio do Meta pode incluir várias taxas de proporção em um único anúncio, de modo que uma experiência de Meta com várias taxas de proporção ainda gera apenas uma linha.
+
+A tabela de ativação é salva como rascunho automaticamente ao ser aberta. Você pode sair e retomar o rascunho a qualquer momento antes de publicar.
+
+Para adicionar mais experiências a uma tabela de ativação já aberta, clique em **[!UICONTROL Adicionar mais experiências]** na parte superior direita da tabela. Isso reabre a Galeria de experiências para que você possa selecionar experiências adicionais, que [!DNL Activate] adiciona à tabela existente.
+
+**[!UICONTROL Adicionar mais experiências]** também permite ativar para mais de uma plataforma de exibição na mesma tabela. As experiências de formato de exibição exigem que você escolha primeiro uma única plataforma de exibição, mas você pode clicar em **[!UICONTROL Adicionar mais experiências]**, selecionar mais experiências de formato de exibição e escolher uma plataforma de exibição diferente da que já está na tabela. Por exemplo, é possível adicionar anúncios da Trade Desk a uma tabela que já contém anúncios inóvios.
+
+## Definir detalhes de configuração do anúncio e da plataforma
+
+Os ativos, títulos e cópia do corpo aprovados estão bloqueados e não podem ser editados na tabela de ativação, pois já passaram por revisão e aprovação em [!DNL Content]. Os campos restantes podem ser editados e variam de acordo com o canal:
+
+>[!NOTE]
+>
+>[!DNL Content] chama um destino como Meta ou LinkedIn de um **canal**. [!DNL Activate] chama o mesmo destino de **plataforma** (por exemplo, em **[!UICONTROL Configuração de plataforma]** e na coluna **Campos de configuração de plataforma editáveis** abaixo). Os dois termos se referem à mesma coisa.
+
+Você não precisa pesquisar os campos do seu canal antecipadamente. [!DNL Activate] mostra apenas as colunas relevantes aos canais e formatos selecionados. Use a tabela abaixo como referência para o que é editável por canal.
+
+**Campos editáveis por canal**
+
+| Canal | Formatos compatíveis | Cópia bloqueada | Campos de texto editáveis | Campos editáveis de configuração da plataforma |
+|---|---|---|---|---|
+| Meta | Imagem, Vídeo, Carrossel | Título, corpo | Descrição, Call-to-action, URL de destino, Parâmetros de URL, ID de rastreamento | Conta de anúncio, página do Facebook, perfil do Instagram, campanha do Meta, conjunto de anúncios do Meta |
+| LinkedIn | Imagem única, Vídeo único | Título, texto introdutório | Descrição, Call-to-action, URL de destino, Parâmetros de URL, ID de rastreamento | Conta do anúncio, Campanha, Conjunto de anúncios |
+| Google Campaign Manager 360 | Tela estática, Tela de vídeo, Tela com CEP HTML5 | n/a | ID de rastreamento | Anunciante |
+| Anúncios do Amazon | Exibição estática | n/a | ID de rastreamento | Conta |
+| Innovid | Exibição estática, exibição de zip HTML5 | n/a | ID de rastreamento | Conta, Biblioteca da Creative, Nome do conceito |
+| TikTok | Anúncios de vídeo no feed | Texto primário | Call-to-action, URL de destino, ID de rastreamento | Conta de anúncio, Campanha, Grupo de publicidade |
+| YouTube | Shorts em campanhas da geração de demanda do Google Ads | Descrição | Call-to-action, Nome da empresa, URL de destino, Parâmetros de URL, ID de rastreamento | Conta, Campanha, Grupo de publicidade, Logotipo |
+| ChatGPT | Cartões de chat | Título, corpo | URL de direcionamento, ID de rastreamento | Conta de anúncio OpenAI, Campanha OpenAI, grupo de anúncios OpenAI |
+| A Trade Desk | Exibição estática | n/a | ID de rastreamento | Conta, Campanha |
+
+Uma **ID de rastreamento** é um rótulo exclusivo que você atribui a uma linha de anúncio. Ele é transmitido para a plataforma de destino como o anúncio ou nome criativo, portanto, use-o para identificar esse anúncio para relatórios e solução de problemas.
+
+Edite campos em linha por linha ou selecione várias linhas na mesma tabela de formato e clique em **[!UICONTROL Editar detalhes]** na barra de ferramentas que aparece para editar esses campos em massa de uma só vez. Para configurar campos de configuração de plataforma para um grupo de formatos de anúncio, clique em **[!UICONTROL Gerenciar configurações da plataforma]** e edite os campos na caixa de diálogo resultante.
+
+Para mover entre campos de **[!UICONTROL ID de rastreamento]** mais rapidamente, use estes atalhos de teclado:
+
+* Pressione **Enter** para abrir o campo de edição para a **[!UICONTROL ID de Acompanhamento]** selecionada.
+* Pressione a tecla de seta **Para cima** ou **Para baixo** para mover para o campo **[!UICONTROL ID de rastreamento]** anterior ou seguinte nessa coluna.
+* Pressione **Enter** novamente para salvar sua edição.
+
+## Revise e publique suas experiências nos canais de publicidade deles
+
+Confirme se cada linha mostra [!UICONTROL Pronto para Ativar]. [!DNL Activate] sinalizadores sem campos ou com campos inválidos, chamadas de ação incompatíveis e IDs de rastreamento duplicadas, pois [!UICONTROL Requer Atenção]. Quando cada linha estiver pronta, clique em **[!UICONTROL Enviar para a Platform]** e confirme na caixa de diálogo de publicação.
+
+[!DNL Activate] relata o status de cada anúncio em tempo quase real: Pending, Published ou Failed. Se um anúncio falhar, passe o mouse sobre o status para ver o erro da plataforma. Você pode repetir cada anúncio com falha na tabela de uma só vez clicando em **[!UICONTROL Tentar novamente]**, em vez de repetir cada um individualmente. As linhas publicadas são bloqueadas para reenvio e incluem um deep link para o anúncio no gerenciador de anúncios nativo da plataforma de destino. A revisão final de pré-publicação e a inicialização de anúncios ocorrem no próprio gerenciador de anúncios do canal de destino: o [!DNL Activate] sempre fornece anúncios em um estado inativo.
+
+Suas tabelas de ativação aparecem na página de aterrissagem [!DNL Activate].
 
 ## Canais compatíveis
 
-Cada canal de mídia paga tem um fluxo de trabalho de ativação exclusivo. Selecione o canal pago para as diretrizes de ativação:
+Cada canal de anúncio pago tem campos de configuração e pré-requisitos específicos do canal. Selecione o canal de anúncios pagos para obter as diretrizes de ativação:
 
-* [Google Campaign Manager 360](activate-cm360-ad.md)
-* [LinkedIn](activate-linkedin-ad.md)
 * [Meta](activate-meta-ad.md)
-* [GPTchat](../create/create-chatgpt-ad.md#activate-a-chatgpt-ad)
+* [LinkedIn](activate-linkedin-ad.md)
+* [Google Campaign Manager 360](activate-cm360-ad.md)
+* [Anúncios do Amazon](activate-amazon-ad.md)
+* [Innovid](activate-innovid-ad.md)
+* [TikTok](activate-tiktok-ad.md)
+* [YouTube](activate-youtube-ad.md)
+* [GPTchat](activate-chatgpt-ad.md)
+* [Trade Desk](activate-trade-desk-ad.md)
