@@ -44,7 +44,7 @@ Um gerente de sistema ou editor do GenStudio deve conectar a conta de anúncio d
 
 Use o [!DNL Activate] para preparar experiências de anúncio para seus canais de anúncios pagos de destino. [Ativar experiências em massa](create-activation.md) em vários canais de anúncios pagos em uma única tabela de ativação. Em seguida, [gerencie suas ativações](manage-activations.md) para ver o status e os detalhes de cada experiência ativada.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503542?captions=por_br&learn=on)
 
 ### Ativar experiências aprovadas a partir do conteúdo
 
