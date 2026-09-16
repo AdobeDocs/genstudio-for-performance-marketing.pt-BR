@@ -7,59 +7,57 @@ exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
 TQID: https://experienceleague.adobe.com/-Nal0YqjTzKw4g2SM3IuMf0a13e87CWdTqBZPd0dBkU
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: d87258a7-722c-4afd-b632-adddc447c7aa
+    internal-label: Ad activation
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e5011c95e9536d73b1f09d6bc76bb83f121573cd
+    internal-label: Metadata
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # Adobe GenStudio for Performance Marketing Ativate
 
-O GenStudio for Performance Marketing [!DNL Activate] fornece um local central para preparar sua experiência de anúncio para ativação para selecionar canais de anúncios pagos. A _Ativação_ é o processo de preparar experiências de anúncios, ativos e texto como uma experiência de anúncio criativo personalizada exclusivamente para posicionamento em um canal pago específico. A Ativation fornece a experiência criativa para os canais designados em um estado inativo, pronta para a revisão final e implantação a partir do canal. As experiências de anúncios podem então ser distribuídas nos mercados a que se destinam.
+O GenStudio for Performance Marketing [!DNL Activate] é o local para onde você prepara e envia experiências de anúncios para canais de anúncios pagos, como Meta ou LinkedIn. A _Ativação_ pega uma experiência de anúncio aprovada e seus ativos, aplica a configuração de um canal específico e a entrega diretamente a esse canal em um status inativo e desativado. A partir daí, você pode fazer uma análise final no próprio gerenciador de anúncios do canal antes que seu anúncio seja publicado.
 
-Os editores de conteúdo e gerentes de sistema podem publicar experiências cujos ativos são gerados no GenStudio for Performance Marketing ou carregados nele.
+O [!DNL Activate] fornece sua experiência diretamente para o canal, portanto, você não precisa exportar arquivos ou carregá-los manualmente para o próprio gerenciador de anúncios do canal.
 
-O [!DNL Activate] exibe um cartão de produto para cada canal de mídia paga com suporte. Este bloco identifica o canal de mídia paga e lista o número de ativações de anúncios bem-sucedidas que ocorreram nos últimos 30 dias. Ele também fornece um ponto de entrada para gerenciar ativações e criar uma nova ativação.
-
-Cada conta de canal de mídia paga deve estar conectada ao GenStudio for Performance Marketing para que você possa ativar uma experiência de anúncio.
-
-## Ativar casos de uso
-
-* Ative experiências aprovadas diretamente de [!DNL Content] para canais de anúncios pagos selecionados.
-
-* [Criar uma ativação](create-activation.md). Você pode criar uma experiência de anúncio selecionando ativos visuais, atribuindo texto e definindo metadados antes de enviar para um canal pago.
-
-* [Gerenciar ativações](manage-activations.md). _[!DNL Activate]_&#x200B;fornece uma visão geral de todas as experiências ativadas. Você também pode exibir os detalhes de ativações individuais.
+Um gerente de sistema ou editor do GenStudio deve conectar a conta de anúncio de cada canal de anúncio pago antes de ativar uma experiência de anúncio para esse canal.
 
 ## Ativar recursos
 
-O [!DNL Activate] facilita a preparação das experiências de anúncio para distribuição nos canais pagos de destino.
+Use o [!DNL Activate] para preparar experiências de anúncio para seus canais de anúncios pagos de destino. [Ativar experiências em massa](create-activation.md) em vários canais de anúncios pagos em uma única tabela de ativação. Em seguida, [gerencie suas ativações](manage-activations.md) para ver o status e os detalhes de cada experiência ativada.
 
-### Ativar uma experiência aprovada diretamente do Conteúdo
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
-Você pode ativar uma experiência aprovada diretamente do [!DNL Content] ou ativar várias experiências aprovadas como um grupo de ativação para canais pagos selecionados. Todas as experiências em um grupo devem direcionar o mesmo canal pago.
+### Ativar experiências aprovadas a partir do conteúdo
 
-### Preparar uma experiência para ativação
+Selecione uma ou mais experiências aprovadas, publicadas de [!DNL Content] ou comece na página de aterrissagem [!DNL Activate]. Ao contrário das versões anteriores do [!DNL Activate], uma única tabela de ativação pode incluir experiências para vários canais de anúncios pagos de uma só vez, organizadas por formato de anúncio e canal.
 
-A página _Configuração da experiência_ consolida as ferramentas necessárias para selecionar os elementos visuais de uma experiência de anúncio, ajustar o texto do anúncio (incluindo o texto do call-to-action) e adicionar metadados úteis que melhoram o rastreamento da experiência e a visibilidade.
+>[!NOTE]
+>
+>[!DNL Content] chama um destino como Meta ou LinkedIn de um **canal**. [!DNL Activate] chama o mesmo destino de **plataforma** (por exemplo, em **[!UICONTROL Configuração de plataforma]**). Os dois termos se referem à mesma coisa.
 
-### Selecionar ativos para experiência de anúncio
+### Definir detalhes de configuração do anúncio e da plataforma
 
-Procure e selecione ativos visuais aprovados de [!DNL Content] ou carregue ativos do Dropbox ou OneDrive. Você pode fazer upload de ativos diretamente do seu dispositivo. Uma experiência de anúncio pode ser executada em vários posicionamentos. O Assets pode ser carregado nas taxas de proporção exigidas pelos posicionamentos do anúncio.
+Cada linha na tabela de ativação representa um anúncio. Os ativos criativos, as manchetes e a cópia do corpo aprovados estão bloqueados porque já passaram por revisão e aprovação. Você pode editar os campos restantes, como texto do call-to-action, URL de destino e detalhes de configuração da plataforma, como conta de anúncio, campanha e conjunto de anúncios. Edite campos para uma linha por vez ou selecione várias linhas para editar campos compartilhados em massa.
 
-### Pré-visualizar e ativar sua experiência em um canal de publicidade
+### Revise e publique suas experiências nos canais de publicidade deles
 
-Confirme as contas de canal pago, os conjuntos de anúncios e as campanhas do Meta associadas a essa ativação de anúncio. O painel _Visualizar_ permite exibir experiências de anúncio em diferentes posicionamentos antes de você finalizá-lo. (Quando você seleciona um posicionamento no painel _Visualização_, somente sua exibição do anúncio é afetada. Sua seleção de posicionamento no painel _Visualização_ não foi salva.) Quando estiver satisfeito com sua experiência de anúncio, clique em **[!UICONTROL Publicar]** para enviar a experiência e seus metadados associados para o canal de anúncio pago.
+Confirme se cada linha mostra [!UICONTROL Pronto para Ativar]. [!DNL Activate] sinalizadores sem campos ou com campos inválidos, chamadas de ação incompatíveis e IDs de rastreamento duplicadas, pois [!UICONTROL Requer Atenção]. Quando cada linha estiver pronta, clique em **[!UICONTROL Enviar para a Platform]** para publicar todos os anúncios na tabela. [!DNL Activate] relata o status de cada anúncio em tempo quase real e os anúncios publicados com êxito incluem um deep link para o anúncio no gerenciador de anúncios nativo da plataforma de destino. Anúncios com falha retornam uma mensagem de erro e podem ser repetidos.

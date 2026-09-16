@@ -6,52 +6,46 @@ exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
 TQID: https://experienceleague.adobe.com/ird0IiW8L5Axjj2FmEjlUcD1sPaNCNfxj9XNqGfQWiI
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Troubleshooting
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '294'
 ht-degree: 1%
-
 ---
-
 # Gerenciar ativações
 
-O [!DNL Activate] oferece uma exibição centralizada do status de ativação de cada canal de publicidade, incluindo ativações Publicadas (bem-sucedidas), Falha (malsucedidas) e Publicação (pendentes). A exibição _Experiências Ativadas_ exibe todas as ativações de uma conta de anúncio de canal conectada.
+Suas tabelas de ativação aparecem na página de aterrissagem [!DNL Activate]. Cada tabela lista seus anúncios, juntamente com seus status:
 
-[!DNL Activate] organiza experiências ativadas por canal de anúncio. Clique em **[!UICONTROL Exibir]** no bloco de canais. A exibição _Experiências ativadas_ do canal selecionado é aberta. Essa exibição lista as experiências por nome e as ordena por data de ativação. Se sua organização não ativou as experiências para esse canal, o bloco de produtos não inclui o botão **[!UICONTROL Exibir]**.
+| Status | Significado |
+|---|---|
+| [!UICONTROL Precisa de Atenção] | Pelo menos um anúncio na tabela de ativação tem um campo ausente ou inválido, como uma call to action incompatível, ou uma ID de rastreamento duplicada. |
+| [!UICONTROL Pronto para Ativar] | Todos os anúncios na tabela de ativação passaram na validação e estão prontos para publicação. |
+| [!UICONTROL Pendente] | A tabela de ativação inteira foi enviada e está sendo processada pela plataforma de destino. |
+| [!UICONTROL Publicado] | A tabela de ativação inteira foi publicada com sucesso. |
+| [!UICONTROL Falha] | A plataforma de destino rejeitou pelo menos um dos anúncios da tabela. Passe o mouse sobre a dica de ferramenta de status para ver a mensagem de erro da plataforma. |
 
-## Exibição de experiência ativada
+Você pode repetir automaticamente as ativações com falha clicando em **[!UICONTROL Tentar novamente]** no canto superior direito.
 
-Essa exibição lista as ativações por nome de experiência em ordem cronológica decrescente (as mais recentes listadas primeiro).
-
-A tabela a seguir lista os atributos que definem cada experiência.
-
-| Atributo | Valor |
-|------------------|---------------------------------------------------------------------------------------------|
-| Nome da experiência | Nome da experiência no GenStudio for Performance Marketing<br>Este nome identifica a experiência no _[!DNL Content]_ |
-| Nome do anúncio | Nome do anúncio no canal de anúncio |
-| Data de publicação | Data em que a experiência de anúncio foi publicada com êxito<br>Usa o formato mês-dia-ano |
-| Publicado por | Nome do usuário do GenStudio for Performance Marketing que ativou a experiência |
-| Regiões | Região geográfica na qual a experiência é iniciada |
-| Status | O status da experiência de anúncio selecionada<br>Os valores incluem Falha, Publicado e Publicação |
-
-Use a **[!UICONTROL Pesquisa]** (lupa) ou role a lista de experiências para localizar uma ativação pelo nome da experiência.
-
-Clique na ativação para abrir uma exibição focalizada dos detalhes da ativação.
+As linhas publicadas são bloqueadas para reenvio e incluem um deep link para o anúncio no gerenciador de anúncios nativo da plataforma de destino, para que você possa ir diretamente para ele para revisá-lo ou iniciá-lo.
 
 ## Exibição de detalhes
 
-Na exibição _Experiências ativadas_, clique em uma ativação. A exibição somente leitura _Detalhes de ativação_ captura os detalhes de definição de uma experiência ativada, incluindo ativações com falha. Essa visualização inclui informações derivadas do GenStudio for Performance Marketing e do canal de publicidade.
+Clique em uma linha de anúncio para abrir uma exibição focalizada dos detalhes de ativação. A visualização de detalhes somente leitura captura os detalhes de definição de um anúncio ativado, incluindo ativações com falha, com informações derivadas do GenStudio for Performance Marketing e da plataforma de destino:
 
-* **Hora e data da publicação**: hora e data da publicação do gerenciador de canal de publicidade
-* **ID do anúncio**: ID atribuída pelo canal pago e usada para rastreamento. Clique no botão **[!UICONTROL Abrir]** adjacente a este campo para exibir o anúncio publicado no Meta Ads Manager
-* **Detalhes da experiência**: os ativos de imagem, textos e metadados selecionados atribuídos durante o fluxo de trabalho de ativação do GenStudio for Performance Marketing
-* **Configuração do canal**: as contas de canal pagas usadas para ativar a experiência de anúncio
+* **Hora e data da publicação**: hora e data da publicação da plataforma de destino
+* **ID do anúncio**: ID atribuída pela plataforma de destino e usada para rastreamento, com um deep link para o anúncio publicado no gerenciador de anúncios nativo da plataforma
+* **Detalhes do anúncio**: os ativos, a cópia e os metadados aprovados usados para o anúncio
+* **Configuração da plataforma**: a conta, a campanha e outros campos de configuração de plataforma usados para ativar o anúncio
 
-A exibição _Detalhes_ de uma ativação com falha inclui o motivo da falha.
+A visualização de detalhes de uma ativação com falha inclui o motivo da falha.

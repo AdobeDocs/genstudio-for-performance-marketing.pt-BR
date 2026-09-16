@@ -6,73 +6,58 @@ exl-id: ebb2aa9e-8efb-45b0-9ba2-7b27b8888708
 TQID: https://experienceleague.adobe.com/VTzk2CDlTqawM1ckdHPVzs2ES-y0Ui0mkOLnVD88bJk
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: bffd9bc2-7f41-4bf6-9f08-f14cbd37afd7
+    internal-label: Campaigns
   - id: c95c94c1-727b-457a-9184-a4dda4c95ab2
+    internal-label: Insights
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 subfeature_v2:
   - id: a98e0185-3180-4e8c-8f31-f72af4cc21a2
+    internal-label: Assets
   - id: e3878dde-4b87-4290-9e81-ed7ee6eb83fe
+    internal-label: Experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Insights
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: '268'
 ht-degree: 0%
-
 ---
-
 # Ativar um anúncio innovid
 
-O Adobe GenStudio for Performance Marketing permite que os gerentes e editores de sistema da GenStudio publiquem experiências de anúncios na plataforma Innovid.
+O Adobe GenStudio for Performance Marketing oferece suporte à ativação de experiências de anúncios para o Innovid.
 
-Inicie a publicação de uma experiência de anúncio Innovid na galeria de Conteúdo ou na página inicial Ativar.
+**Formatos com suporte**: Exibição Estática, Exibição com Zip HTML5.
 
-## Etapa 1: configurar suas contas Innovid
+A ativação de uma experiência Innovid segue as [mesmas etapas gerais](create-activation.md) necessárias para a ativação em outros canais de anúncios pagos. Esta página aborda os pré-requisitos e campos de configuração específicos do Innovid. Depois de ativar uma experiência no GenStudio for Performance Marketing, use o Innovid para revisar a experiência e iniciar o anúncio.
 
-O Innovid permite que profissionais de marketing organizem campanhas e anúncios em diferentes contas do. Cada anunciante tem uma biblioteca criativa e o GenStudio for Performance Marketing publica experiências de anúncios em uma biblioteca criativa.
+Os gerentes e editores de sistema da GenStudio podem ativar experiências de anúncios.
 
-Antes de tentar uma ativação, [faça logon em sua conta do Innovid][1]. Confirme se você tem acesso às contas Innovid. Quando você publica uma experiência Innovid do GenStudio for Performance Marketing, ela é entregue à biblioteca criativa que foi selecionada durante a criação.
+## Pré-requisitos
 
-## Etapa 2: conectar-se às contas do Innovid
+* Acesso à conta do Target Innovid.
+* Acesso de administrador a essa conta para ler e gravar no Innovid.
 
-Para que sua organização possa publicar ativos em uma biblioteca criativa, um gerente de sistema da GenStudio deve conectar suas contas do Innovid à GenStudio for Performance Marketing. Você deve ter acesso de administrador à conta adicionada para ler e gravar no Innovid. Consulte [Conectar contas de mídia paga][2].
+O Innovid organiza campanhas e anúncios em diferentes contas, e cada conta tem uma biblioteca criativa. A biblioteca criativa de destino já deve existir no Innovid; o GenStudio for Performance Marketing publica experiências de anúncio nessa biblioteca criativa, mas não cria contas ou bibliotecas criativas.
 
-Após a conclusão da sincronização, você poderá visualizar as contas adicionadas.
+## Conectar sua conta do Innovid
 
-## Etapa 3: Selecione o conteúdo para sua experiência de anúncio
+Para que sua organização possa publicar ativos em uma biblioteca criativa, um gerente de sistema da GenStudio deve conectar sua conta da Innovid à GenStudio for Performance Marketing. Você deve ter acesso de administrador a essa conta para ler e gravar no Innovid. Consulte [Conectar contas de mídia paga](/help/user-guide/connectors/connect-channel.md).
 
-Inicie o processo de publicação na galeria de Experiências de conteúdo ou na página inicial de Ativação. Experiências aprovadas não podem ser editadas. Cada experiência pode conter apenas um ativo.
+Depois que a sincronização for concluída, você poderá visualizar as contas adicionadas.
 
-Para selecionar experiências:
+## Campos de configuração innovid
 
-1. Use as ferramentas de pesquisa e filtro da galeria de conteúdo para identificar a experiência que você deseja ativar. Depois clique em **[!UICONTROL Usar]**. Como alternativa, você pode selecionar uma experiência em Ativar clicando em **[!UICONTROL Novo]** no cartão de produto da Innovid.
-1. Você será solicitado a selecionar uma plataforma antes de continuar com a ativação. Selecione *Innovid*. A página Configuração da experiência inovadora é aberta para essa experiência. Ela está pré-preenchida com os detalhes da experiência e não pode ser revisada. 
-1. (Opcional) Clique em **[!UICONTROL Adicionar experiência]** para adicionar experiências a este grupo de ativação.
-1. Clique em **[!UICONTROL Avançar]** para confirmar a configuração da plataforma Innovid. A exibição **[!UICONTROL Configuração da plataforma]** é aberta.Esta visualização mostra as opções derivadas das contas do Innovid configuradas.
+Os ativos aprovados estão bloqueados e não podem ser editados durante a ativação, pois já passaram por revisão e aprovação em [!DNL Content]. É possível editar:
 
-## Etapa 4: confirmar a configuração da plataforma Innovid
+* **Campos de texto**: ID de rastreamento (usada como o nome criativo da plataforma)
+* **Campos de configuração da plataforma**: conta, biblioteca Creative, nome do conceito
 
-1. Selecione uma conta no menu suspenso **[!UICONTROL Conta]**. 
-1. Selecione uma Biblioteca Creative na lista suspensa **[!UICONTROL Biblioteca Creative]**. As configurações da sua conta do Innovid determinam as bibliotecas da Creative disponíveis. Sua experiência criativa é fornecida para esta Biblioteca da Creative no Innovid quando a ativação é concluída.
-1. Adicione um nome ao campo **[!UICONTROL Nome do Creative]**. Innovid identifica a experiência com este nome.
-1. Repita o procedimento para cada experiência selecionada.
-1. Clique em **[!UICONTROL Avançar]** para confirmar a configuração do Innovid.
-
-## Etapa 5: visualize e ative seu anúncio
-
-A página Revisar fornece uma oportunidade final de revisar sua ativação antes de publicar.
-
-1. (Opcional) Clique em **[!UICONTROL Editar seção]** ao lado do rótulo **[!UICONTROL Configuração da plataforma]** para editar a configuração da plataforma. Não é possível editar o conteúdo da experiência.
-1. Clique em **[!UICONTROL Publicar]**.
-
-Suas experiências de anúncio da Innovid são encaminhadas diretamente para a biblioteca criativa na conta da Innovid selecionada.
-
-## Etapa 6: Conclua a publicação de sua experiência com anúncios
-
-Visite o [site da Innovid][1] para gerenciar as etapas finais de configuração e implantar seu anúncio dentro da experiência publicada.
-
-[1]: https://www.innovid.com/
-[2]: /help/user-guide/connectors/connect-channel.md
+Sua experiência criativa é entregue à biblioteca criativa selecionada no Innovid quando a ativação é concluída.
