@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6cb428b368f75e0b646cfa4e6536a4728fdf40e2
+source-git-commit: 0844f7407c4b3a3f8eafe248f498ef7fcd51555d
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1238'
 ht-degree: 1%
 ---
 # Fluxo de trabalho de ativação
@@ -46,7 +46,7 @@ Você prepara e aprova esses componentes no [!DNL Content] antes da ativação. 
 
 Uma única tabela de ativação pode incluir experiências para vários canais de anúncios pagos e formatos de anúncios ao mesmo tempo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503542?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
 
 ## Conectar suas contas de canal
 
@@ -58,6 +58,8 @@ Inicie uma ativação de um de dois pontos de entrada:
 
 * **De[!DNL Content]**: filtre por Experiências, selecione uma ou mais experiências publicadas e clique em **[!UICONTROL Ativar]** na barra de ações superior.
 * **De[!DNL Activate]**: na página de aterrissagem [!DNL Activate], clique em **[!UICONTROL + Nova ativação]**. Isso abre a galeria Experiência, onde você seleciona experiências para ativação.
+
+![Selecionando experiências publicadas em Conteúdo e clicando em Ativar para iniciar uma ativação](./images/content-select-activate.png)
 
 Em ambos os casos, pesquise por nome de experiência ou filtre por vários canais para encontrar as experiências desejadas.
 
@@ -99,17 +101,27 @@ Uma **ID de rastreamento** é um rótulo exclusivo que você atribui a uma linha
 
 Edite campos em linha por linha ou selecione várias linhas na mesma tabela de formato e clique em **[!UICONTROL Editar detalhes]** na barra de ferramentas que aparece para editar esses campos em massa de uma só vez. Para configurar campos de configuração de plataforma para um grupo de formatos de anúncio, clique em **[!UICONTROL Gerenciar configurações da plataforma]** e edite os campos na caixa de diálogo resultante.
 
+![Selecionar vários anúncios em uma tabela de ativação para editar detalhes ou configurações da plataforma em massa](./images/bulk-edit-action-bar.png)
+
+![A caixa de diálogo Gerenciar configurações da plataforma para escolher uma conta de anúncio, campanha e conjunto de anúncios da Meta](./images/manage-platform-settings.png)
+
 Para mover entre campos de **[!UICONTROL ID de rastreamento]** mais rapidamente, use estes atalhos de teclado:
 
 * Pressione **Enter** para abrir o campo de edição para a **[!UICONTROL ID de Acompanhamento]** selecionada.
 * Pressione a tecla de seta **Para cima** ou **Para baixo** para mover para o campo **[!UICONTROL ID de rastreamento]** anterior ou seguinte nessa coluna.
 * Pressione **Enter** novamente para salvar sua edição.
 
+![Editando um campo de ID de Acompanhamento em linha na tabela de ativação](./images/tracking-id-edit.png)
+
 ## Revise e publique suas experiências nos canais de publicidade deles
 
 Confirme se cada linha mostra [!UICONTROL Pronto para Ativar]. [!DNL Activate] sinalizadores sem campos ou com campos inválidos, chamadas de ação incompatíveis e IDs de rastreamento duplicadas, pois [!UICONTROL Requer Atenção]. Quando cada linha estiver pronta, clique em **[!UICONTROL Enviar para a Platform]** e confirme na caixa de diálogo de publicação.
 
+![Uma tabela de ativação onde cada linha mostra Pronto para ativar, habilitando Enviar para plataformas](./images/ready-to-activate.png)
+
 [!DNL Activate] relata o status de cada anúncio em tempo quase real: Pending, Published ou Failed. Se um anúncio falhar, passe o mouse sobre o status para ver o erro da plataforma. Você pode repetir cada anúncio com falha na tabela de uma só vez clicando em **[!UICONTROL Tentar novamente]**, em vez de repetir cada um individualmente. As linhas publicadas são bloqueadas para reenvio e incluem um deep link para o anúncio no gerenciador de anúncios nativo da plataforma de destino. A revisão final de pré-publicação e a inicialização de anúncios ocorrem no próprio gerenciador de anúncios do canal de destino: o [!DNL Activate] sempre fornece anúncios em um estado inativo.
+
+![Uma tabela de ativação que mostra uma combinação dos status Pendente e Enviado para plataformas após a publicação](./images/activation-status-pending.png)
 
 Suas tabelas de ativação aparecem na página de aterrissagem [!DNL Activate].
 
