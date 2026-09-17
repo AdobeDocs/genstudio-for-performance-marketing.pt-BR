@@ -7,35 +7,43 @@ exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
 TQID: https://experienceleague.adobe.com/-D3DGxTpZ-0J-grE5-jKPrptf4C1Z-OE1t0DCoqhRLQ
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Security
+source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '530'
 ht-degree: 1%
-
 ---
-
 # Otimizar ativações
 
 A ativação de uma experiência de anúncio para canais de anúncios pagos envolve duas fases principais:
 
-* Preparando sua experiência para ativação
+* Configuração dos detalhes de anúncio e configuração da plataforma para cada linha na tabela de ativação
 
-* Publicar sua experiência para os gerentes de anúncio de canal pago designados
+* Publicar sua ativação para os gerentes de anúncios dos canais de anúncios pagos designados
 
-Seguir as práticas recomendadas ao criar e ativar sua experiência de anúncio pode ajudar a minimizar possíveis complicações ou erros durante a entrega aos canais de público-alvo.
+Seguir as práticas recomendadas ao configurar e ativar suas experiências de anúncio pode ajudar a minimizar possíveis complicações ou erros durante o delivery para os canais de público-alvo.
 
 ## Práticas recomendadas
 
 Estas são algumas práticas recomendadas comuns e os erros que podem ser evitados.
+
+* **Usar uma ID de rastreamento exclusiva para cada linha**
+
+  O [!DNL Activate] sinaliza IDs de rastreamento duplicadas como [!UICONTROL Precisa de Atenção] e não permitirá a publicação até que cada linha no formato afetado e na tabela da plataforma tenha uma ID de rastreamento exclusiva. Se você editar uma ID de rastreamento em massa em várias linhas, confirme se deseja aplicar o mesmo valor a cada linha selecionada.
 
 * **Usar URLs de destino válidas e completas**
 
@@ -43,7 +51,7 @@ Estas são algumas práticas recomendadas comuns e os erros que podem ser evitad
 
 * **Verifique se o aplicativo lida corretamente com a expiração do token**
 
-  Os aplicativos devem solicitar novos tokens conforme necessário. Conforme necessário, reautentique e obtenha um novo token de acesso fazendo logon novamente ou atualizando a sessão. Erro de exemplo: _Erro ao validar o token de acesso: a sessão foi invalidada porque o usuário alterou a senha ou o Facebook alterou a sessão por motivos de segurança. (190)_
+  Os aplicativos devem solicitar novos tokens conforme necessário. Reautentique e obtenha um novo token de acesso fazendo logon novamente ou atualizando a sessão. Erro de exemplo: _Erro ao validar o token de acesso: a sessão foi invalidada porque o usuário alterou a senha ou o Facebook alterou a sessão por motivos de segurança. (190)_
 
 * **Revise seu conjunto de anúncios e certifique-se de que apenas um anúncio esteja ativo a qualquer momento**
 
