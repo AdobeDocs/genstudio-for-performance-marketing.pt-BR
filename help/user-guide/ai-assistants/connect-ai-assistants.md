@@ -36,8 +36,8 @@ Claude exige um plano Pro, Max, Team ou Enterprise. O mesmo conector remoto func
 1. Faça logon com sua Adobe ID.
 1. Selecione a organização IMS que tem acesso a [!DNL GenStudio for Performance Marketing].
 
-> [!NOTE]
-> Em um plano Team ou Enterprise, o proprietário de uma organização pode precisar adicionar o conector primeiro. Se o conector já estiver disponível, selecione **[!UICONTROL Conectar]**.
+&#x200B;> [!NOTE]
+&#x200B;> Em um plano Team ou Enterprise, o proprietário de uma organização pode precisar adicionar o conector primeiro. Se o conector já estiver disponível, selecione **[!UICONTROL Conectar]**.
 
 ## Conectar o ChatGPT
 
@@ -52,7 +52,7 @@ O ChatGPT requer uma conta Plus, Pro, Business, Enterprise ou Education. As cone
 1. Faça logon com sua Adobe ID.
 1. Selecione a organização IMS que tem acesso a [!DNL GenStudio for Performance Marketing].
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 > O ChatGPT pode alterar o local das configurações do desenvolvedor e do conector. Se esses rótulos forem diferentes em sua conta, siga as instruções atuais do OpenAI para adicionar um conector MCP remoto.
 
 ## Conectar códex
@@ -106,8 +106,8 @@ Após a configuração, confirme se as ferramentas estão disponíveis.
 
 O assistente retorna os dados de desempenho disponíveis ou explica por que nenhum dado corresponde à solicitação.
 
-> [!TIP]
-> Se a autenticação falhar, reconecte e confirme se você selecionou a organização IMS correta. Se nenhuma ferramenta for exibida, confirme se sua conta tem acesso ao [!DNL GenStudio for Performance Marketing].
+&#x200B;> [!TIP]
+&#x200B;> Se a autenticação falhar, reconecte e confirme se você selecionou a organização IMS correta. Se nenhuma ferramenta for exibida, confirme se sua conta tem acesso ao [!DNL GenStudio for Performance Marketing].
 
 ## Recursos relacionados
 

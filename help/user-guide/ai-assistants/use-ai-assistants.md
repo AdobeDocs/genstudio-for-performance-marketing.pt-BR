@@ -89,7 +89,7 @@ Transformar uma recomendação ou modelo em um rascunho editável:
 - &quot;O que posso alterar neste modelo?&quot;
 - &quot;Crie um anúncio do Meta com base neste modelo. Use o título Vendas de verão e a call to action Comprar agora. Este é o resumo criativo: [descreva a campanha, o tom e a oferta].&quot;
 
-> [!TIP]
+&#x200B;> [!TIP]
 > Criar um rascunho torna um documento real no Creative Cloud. Não é uma visualização. Prepare o resumo criativo e copie antes de perguntar.
 
 ## Revisar e compartilhar um rascunho
@@ -109,7 +109,7 @@ Depois que um rascunho for aprovado e publicado como uma experiência, publique-
 - &quot;Configure essa experiência para minha conta de anúncio e campanha do Meta.&quot;
 - &quot;Publicar esta experiência no LinkedIn.&quot;
 
-> [!IMPORTANT]
+&#x200B;> [!IMPORTANT]
 > A publicação cria um posicionamento de anúncio ao vivo e pode gerar gastos com anúncios. Não é reversível com o assistente. Confirme a conta, a campanha e a experiência do público-alvo antes de publicar. Repetir a solicitação cria outro anúncio.
 
 ## Interpretar resultados vazios ou indisponíveis
