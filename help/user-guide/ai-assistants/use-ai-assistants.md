@@ -2,7 +2,7 @@
 title: Usar assistentes de IA
 description: Saiba como consultar dados de desempenho, criar rascunhos e publicar anúncios aprovados usando um assistente de IA conectado ao [!DNL GenStudio for Performance Marketing].
 role: User
-source-git-commit: 6fb7ddb7549ea6bcd66b6139fbde9ebe12ddaa22
+source-git-commit: 3d22af77d3893233e497a22f7b00c1faf0070cff
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -89,8 +89,9 @@ Transformar uma recomendação ou modelo em um rascunho editável:
 - &quot;O que posso alterar neste modelo?&quot;
 - &quot;Crie um anúncio do Meta com base neste modelo. Use o título Vendas de verão e a call to action Comprar agora. Este é o resumo criativo: [descreva a campanha, o tom e a oferta].&quot;
 
-&#x200B;> [!TIP]
-> Criar um rascunho torna um documento real no Creative Cloud. Não é uma visualização. Prepare o resumo criativo e copie antes de perguntar.
+>[!TIP]
+>
+>Criar um rascunho torna um documento real no Creative Cloud. Não é uma visualização. Prepare o resumo criativo e copie antes de perguntar.
 
 ## Revisar e compartilhar um rascunho
 
@@ -109,8 +110,9 @@ Depois que um rascunho for aprovado e publicado como uma experiência, publique-
 - &quot;Configure essa experiência para minha conta de anúncio e campanha do Meta.&quot;
 - &quot;Publicar esta experiência no LinkedIn.&quot;
 
-&#x200B;> [!IMPORTANT]
-> A publicação cria um posicionamento de anúncio ao vivo e pode gerar gastos com anúncios. Não é reversível com o assistente. Confirme a conta, a campanha e a experiência do público-alvo antes de publicar. Repetir a solicitação cria outro anúncio.
+>[!IMPORTANT]
+>
+>A publicação cria um posicionamento de anúncio ao vivo e pode gerar gastos com anúncios. Não é reversível com o assistente. Confirme a conta, a campanha e a experiência do público-alvo antes de publicar. Repetir a solicitação cria outro anúncio.
 
 ## Interpretar resultados vazios ou indisponíveis
 
