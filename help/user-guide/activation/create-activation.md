@@ -46,7 +46,7 @@ Você prepara e aprova esses componentes no [!DNL Content] antes da ativação. 
 
 Uma única tabela de ativação pode incluir experiências para várias plataformas de anúncios pagos e formatos de anúncios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503538?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503542?captions=por_br&learn=on)
 
 ## Conectar as contas da plataforma
 
