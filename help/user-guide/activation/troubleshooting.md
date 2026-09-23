@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 17b2262615e10d82905ce7ebec65857e9a0b9f2a
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 1%
 ---
 # Otimizar ativações
@@ -43,7 +43,7 @@ Estas são algumas práticas recomendadas comuns e os erros que podem ser evitad
 
 * **Usar uma ID de rastreamento exclusiva para cada linha**
 
-  O [!DNL Activate] sinaliza IDs de rastreamento duplicadas como [!UICONTROL Precisa de Atenção] e não permitirá a publicação até que cada linha no formato afetado e na tabela da plataforma tenha uma ID de rastreamento exclusiva. Se você editar uma ID de rastreamento em massa em várias linhas, confirme se deseja aplicar o mesmo valor a cada linha selecionada.
+  O [!DNL Activate] sinaliza IDs de rastreamento duplicadas como [!UICONTROL Precisa de Atenção] e não permitirá a publicação até que cada linha no formato afetado e na tabela da plataforma tenha uma ID de rastreamento exclusiva. Cada campo **[!UICONTROL ID de Rastreamento]** é pré-preenchido com o nome da experiência, de modo que as linhas que compartilham uma experiência em formatos de anúncio ou plataformas começam com o mesmo valor. Verifique e resolva essas duplicatas, não apenas as introduzidas por edições em massa. Se você editar uma ID de rastreamento em massa em várias linhas, confirme se deseja aplicar o mesmo valor a cada linha selecionada.
 
 * **Usar URLs de destino válidas e completas**
 

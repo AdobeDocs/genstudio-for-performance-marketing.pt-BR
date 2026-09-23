@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: c8d964aa325aee782c175abf3fce880fb17ae6ca
+source-git-commit: db0cebfe795569d9913757d190db853097a00405
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1233'
 ht-degree: 1%
 ---
 # Fluxo de trabalho de ativação
@@ -108,7 +108,7 @@ Para configurar campos de configuração de plataforma para um grupo de formatos
 
 ![A caixa de diálogo Gerenciar configurações da plataforma para escolher uma conta de anúncio, campanha e conjunto de anúncios da Meta](./images/manage-platform-settings.png)
 
-Os campos **[!UICONTROL ID de rastreamento]** estão inicialmente em branco. Uma ID de rastreamento é a mesma coisa que o nome do anúncio ou nome criativo da plataforma de anúncio, e a plataforma de anúncio a usa como o nome de identificação do anúncio. Use esse campo para identificar esse anúncio para relatórios e solução de problemas. Insira os valores que deseja usar nos campos **[!UICONTROL ID de rastreamento]**.
+Cada campo **[!UICONTROL ID de rastreamento]** é pré-preenchido com o nome da experiência: a plataforma de anúncio usa esse valor como o nome do anúncio ou nome criativo para relatórios e solução de problemas. Edite o valor no local se quiser usar outra coisa.
 
 ![Editando um campo de ID de Acompanhamento em linha na tabela de ativação](./images/tracking-id-edit.png)
 
