@@ -6,10 +6,10 @@ feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
 nudge: true
-source-git-commit: e577c7b1e55c629fb3ab7155eb012963884731cd
+source-git-commit: 22db02c07a9f33cb1c70df9286ad6eb143dafd38
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 77%
+source-wordcount: '316'
+ht-degree: 75%
 ---
 
 # Guia do Adobe GenStudio for Performance Marketing {#user-guide}
@@ -51,6 +51,7 @@ ht-degree: 77%
   + [Exibir experiências de anúncio](create/display-ad-experiences.md)
   + [Experiências com o banner](create/banner-experiences.md)
   + [Gerenciar variantes](create/manage-variants.md)
+  + [Gerar e refinar conteúdo com a Geração com Monitoração de Estado](create/stateful-generation.md)
   + [Traduzir e localizar experiências](create/translate-experiences.md)
   + [Edição colaborativa](create/collaborative-editing.md)
   + [Usar troca de logotipo](create/logo-swap.md)
