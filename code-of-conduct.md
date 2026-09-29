@@ -1,9 +1,8 @@
 ---
 source-git-commit: c9672d8899b54c7998e9cb8b64fe1834339f8010
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 17%
-
+source-wordcount: '443'
+ht-degree: 0%
 ---
 # Código de conduta da Adobe
 
@@ -21,17 +20,17 @@ orientação.
 Exemplos de comportamento que contribuem para criar um ambiente positivo
 incluem:
 
-* Uso de linguagem acolhedora e inclusiva
+* Uso de idioma acolhedor e inclusivo
 * Respeito pelos diferentes pontos de vista e experiências
-* Aceitação de críticas construtivas
-* Foco no que é melhor para a comunidade
-* Demonstrar empatia com outros membros da comunidade
+* Aceitar críticas construtivas
+* Focar no que é melhor para a comunidade
+* Mostrar empatia com outros membros da comunidade
 
-Os exemplos de comportamentos inaceitáveis dos participantes incluem:
+Exemplos de comportamento inaceitável por parte dos participantes incluem:
 
 * O uso de linguagem ou imagens sexualizadas e atenção sexual indesejada
 adiantamentos
-* Trolar, insultos/comentários depreciativos e ataques pessoais ou políticos
+* Brincadeiras de mal gosto, insultos/comentários depreciativos e ataques pessoais ou políticos
 * Assédio público ou privado
 * Publicação de informações privadas de outras pessoas, como informações físicas ou eletrônicas
 sem permissão explícita
@@ -66,7 +65,7 @@ relatado ao entrar em contato com a equipe do projeto em Grp-opensourceoffice@ad
 queixas serão analisadas e investigadas e darão origem a uma resposta que
 for considerada necessária e adequada às circunstâncias. A equipe do projeto é
 obrigado a manter a confidencialidade em relação ao relator de um incidente.
-Mais detalhes sobre as políticas de execução específicas podem ser publicados separadamente.
+Mais detalhes sobre políticas de aplicação específicas podem ser publicados separadamente.
 
 Os administradores de projeto que não seguem ou aplicam o Código de Conduta em boas condições
 poderá ter repercussões temporárias ou permanentes, conforme determinado por
@@ -75,4 +74,4 @@ membros da liderança do projeto.
 ## Atribuição
 
 Este Código de conduta foi adaptado a partir do [Contrato do colaborador](https://contributor-covenant.org), versão 1.4,
-disponível em [https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/pt/version/1/4/code-of-conduct.html)
+disponível em [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
