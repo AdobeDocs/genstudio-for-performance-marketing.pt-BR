@@ -796,6 +796,6 @@ O **[!DNL Campaigns]** organiza e gerencia campanhas de marketing, garantindo ex
 
 O **[!DNL Insights]** oferece avaliação em tempo real do desempenho do conteúdo, ajudando os profissionais de marketing a otimizarem suas estratégias e tomarem decisões orientadas por dados.
 
-A GenStudio for Performance Marketing integra-se com outros produtos Adobe CX Enterprise, incluindo o Adobe Express e o Adobe AEM Assets.
+A GenStudio for Performance Marketing integra-se com outros produtos da Adobe CX Enterprise, incluindo o Adobe Express e o Adobe AEM Assets.
 
 +++
