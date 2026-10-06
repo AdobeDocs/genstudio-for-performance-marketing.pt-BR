@@ -90,7 +90,7 @@ Você [personaliza seu modelo](customize-template.md) para uso no GenStudio for 
 
 ## Gerenciar modelos
 
-A galeria _[!DNL Templates]_exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing.
+A galeria _[!DNL Templates]_&#x200B;exibe seu inventário de modelos personalizados para gerar experiências no GenStudio for Performance Marketing.
 
 ### Pesquisar modelos
 
@@ -113,7 +113,7 @@ Antes de carregar um modelo, verifique se ele está totalmente preparado e pront
 
 **Para adicionar um modelo**:
 
-1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Modelos do HTML]**na barra superior.
+1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Modelos do HTML]**&#x200B;na barra superior.
 
 1. Clique em **[!UICONTROL + Adicionar modelo]**.
 

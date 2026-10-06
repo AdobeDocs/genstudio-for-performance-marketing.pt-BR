@@ -54,7 +54,7 @@ Siga as seguintes recomendações ao usar modelos com o GenStudio for Performanc
 1. Crie com [padrões de acessibilidade](accessibility-for-templates.md) para obter uma experiência ideal
 1. Siga as [diretrizes do modelo específico do canal](#follow-channel-specific-template-guidelines)
 1. Ao usar os [modelos do Express](/help/user-guide/templates/express-templates.md), considere as dicas específicas em [Práticas recomendadas do modelo do Express para o GenStudio](#express-to-genstudio-template-best-practices).
->>
+&#x200B;>>
 Saiba mais sobre as noções básicas dos elementos e procedimentos do modelo em [Trabalhar com modelos](use-templates.md). Veja em detalhes o [personalização de um modelo](customize-template.md) para obter instruções específicas sobre como usá-lo na próxima campanha.
 
 ## Usar os elementos de modelo corretos
