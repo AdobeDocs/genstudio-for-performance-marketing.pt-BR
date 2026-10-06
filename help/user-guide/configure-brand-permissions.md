@@ -1,40 +1,50 @@
 ---
 title: Configurar permissões de marca
-description: Saiba mais sobre a atribuição de direitos para criadores e editores do GenStudio for Performance Marketing [!DNL Brand] .
+description: Saiba mais sobre a atribuição de direitos para criadores e editores do GenStudio for Performance Marketing [!DNL Brand].
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-TQID: https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE
+TQID: 'https://experienceleague.adobe.com/13RaDoLWSm8KjpzgsMkxAUOULez15KTUj6xF3QSb3vE'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
+  - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+subfeature_v2:
+  - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+    internal-label: Brand personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Administration
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: '743'
 ht-degree: 4%
-
 ---
-
 # Atribuir [!DNL Brand] permissões
 
 Por padrão, os gerentes de sistema da GenStudio podem criar e editar [!DNL Brands]. As funções de editor de conteúdo e colaborador têm permissões de edição e criação, mas podem não exigir direitos de gerenciamento do sistema.
 
-Para conceder aos editores de conteúdo e colaboradores esses direitos relacionados ao [!DNL Brand], um administrador do sistema do Adobe deve executar algumas tarefas de configuração adicionais na Adobe Admin Console. Consulte [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html#Overview) em _Guia de administração de empresas e equipes_.
+Para conceder aos editores de conteúdo e colaboradores esses direitos relacionados ao [!DNL Brand], um administrador do sistema do Adobe deve executar algumas tarefas de configuração adicionais na Adobe Admin Console. Consulte [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) em _Guia de administração de empresas e equipes_.
 
 Adicionar usuários e grupos de usuários é uma tarefa básica comum a todos os produtos da Adobe com direitos gerenciados pela Admin Console. Consulte [Usuários do Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/users.html) no _Guia de administração de empresas e equipes_ para obter uma visão geral do gerenciamento de usuários e dos procedimentos para adicionar usuários e grupos de usuários.
 
 Assista a esta apresentação em vídeo ou siga as etapas abaixo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475002?captions=por_br&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
 
 ## Etapa 1: Criar um grupo de usuários
 
@@ -108,7 +118,7 @@ Um _projeto_ fornece um local de armazenamento onde usuários selecionados podem
 
 1. Clique em **[!UICONTROL Create]**. A janela pop-up _Convidar para projeto_ é aberta.
 
-Consulte [Gerenciar projetos](https://helpx.adobe.com/br/enterprise/using/projects-in-business-storage.html) no _Guia de administração de empresas e equipes_.
+Consulte [Gerenciar projetos](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) no _Guia de administração de empresas e equipes_.
 
 ## Etapa 5: Convidar grupo de usuários para projeto
 
