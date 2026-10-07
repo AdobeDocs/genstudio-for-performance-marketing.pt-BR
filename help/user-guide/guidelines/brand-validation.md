@@ -3,30 +3,43 @@ title: Validação de marca no Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre o sistema integrado de validação de marca na GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-TQID: https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY
+TQID: 'https://experienceleague.adobe.com/0avyL5lvm9hWdlxGE0RwPhP0dX2bA91GNnlKLG1oqEY'
 product_v2:
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: ad3738c7-91ac-48ed-a914-fd0b03f89396
+    internal-label: Compliance
   - id: c7c3a4ab-6b96-4f2f-8931-4d2b360c3d12
+    internal-label: Generative AI
   - id: cd5564d5-2a4e-4a5a-8064-57a804f6fd3a
+    internal-label: Create
   - id: f71bd2fc-e9ca-4cb6-8088-82e250211e32
+    internal-label: Guidelines
+  - id: c5a86ad9-9158-4ab1-a7ea-9e29985087b8
+    internal-label: Content lifecycle
 subfeature_v2:
   - id: be495d08-ecd1-455f-951e-c22de504e667
+    internal-label: Content generation
   - id: f54ee13b-9545-4d68-9842-a12026e60aaf
+    internal-label: Variant generation
   - id: fee2c7a9-112e-463c-b451-44aaecaa6966
+    internal-label: Brand personalization
+  - id: dae8b49d-2853-4f33-a27d-a2bad09cbeb6
+    internal-label: Content review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 621f137c2c71c8ab6188c438f877eb3b3e457beb
+    internal-label: Personalization
+source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
 workflow-type: tm+mt
-source-wordcount: 787
+source-wordcount: '787'
 ht-degree: 0%
-
 ---
-
 # Validação da marca
 
 Na GenStudio for Performance Marketing, a validação da marca é um componente essencial que funciona em colaboração com a funcionalidade e as diretrizes da IA gerativa—[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Ele garante que todo o seu conteúdo esteja alinhado à identidade da sua marca, aos padrões ADA e à orientação individual da plataforma de canal.
@@ -91,7 +104,7 @@ Para maximizar a eficácia do conteúdo gerado e manter a identidade de marca co
 
    >[!NOTE]
    >
-   >A diretriz _Voz da marca_ anotada no painel _Verificação de conteúdo_ aplica-se a toda a variante, não a uma seção individual. Toda a variante de conteúdo é destacada para melhoria sugerida.
+   > A diretriz _Voz da marca_ anotada no painel _Verificação de conteúdo_ aplica-se a toda a variante, não a uma seção individual. Toda a variante de conteúdo é destacada para melhoria sugerida.
 
 1. Clique para corrigir as diretrizes que não estão em conformidade no momento.
 1. Clique para expandir e inspecionar cada verificação que precisa de revisão em seções disponíveis, como _Título_, _Cor_ e _Voz da marca_.
