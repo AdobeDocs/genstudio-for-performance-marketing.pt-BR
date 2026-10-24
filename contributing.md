@@ -1,17 +1,16 @@
 ---
 source-git-commit: c9672d8899b54c7998e9cb8b64fe1834339f8010
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 19%
-
+source-wordcount: '309'
+ht-degree: 1%
 ---
 # Contribuição
 
-Agradecemos sua contribuição!
+Obrigado por colaborar!
 
-Veja a seguir um conjunto de orientações a serem seguidas ao contribuir para esse projeto.
+A seguir, há um conjunto de orientações que devem ser seguidas ao contribuir para esse projeto.
 
-## Código de Conduta
+## Código de conduta
 
 Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar,
 espera-se que você mantenha esse código. Denuncie comportamento inaceitável para
@@ -19,23 +18,23 @@ espera-se que você mantenha esse código. Denuncie comportamento inaceitável p
 
 ## Documentação do Guia do colaborador
 
-Consulte o [Guia do colaborador para obter a documentação do Adobe](https://experienceleague.adobe.com/br/docs/contributor/contributor-guide/introduction).
+Consulte o [Guia do colaborador para a documentação do Adobe](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/introduction).
 
-## Tem alguma pergunta?
+## Você tem dúvidas?
 
-Comece ao denunciar um problema. Os executores existentes neste projeto trabalham para alcançar
+Comece registrando um problema. Os executores existentes neste projeto trabalham para alcançar
 consenso sobre a direção do projeto e soluções de problemas nos threads de problemas
 (quando apropriado).
 
-## Contrato de licença do colaborador
+## Contrato de licença de colaborador
 
 Todas as contribuições de terceiros a este projeto devem assinar o contribuidor
-contrato de licença (CLA), que dá permissão ao Adobe para redistribuir suas contribuições
+contrato de licença (CLA), que concede à Adobe permissão para redistribuir suas contribuições
 como parte do projeto. [Assine o Adobe CLA](https://opensource.adobe.com/cla.html). Você
-é necessário enviar apenas um CLA de Adobe por vez. Se já tiver enviado anteriormente,
+é necessário enviar apenas um Adobe CLA por vez. Se já tiver enviado anteriormente,
 você está pronto para ir!
 
-## Revisões de código
+## Revisões do código
 
 Todos os envios devem ser enviados como um pull request. O responsável pela PR deve participar de um processo de revisão por pares com os responsáveis pela manutenção do projeto. Leia [Sobre solicitações de pull](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) em _Documentos do GitHub_.
 
@@ -48,4 +47,4 @@ Adoramos contribuições da comunidade! Se você quiser se tornar um mantenedor 
 
 ## Problemas de segurança
 
-Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [registre um problema junto aos especialistas em segurança do Adobe](https://helpx.adobe.com/br/security/alertus.html).
+Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [registre um problema com os especialistas em segurança da Adobe](https://helpx.adobe.com/br/security/alertus.html).
