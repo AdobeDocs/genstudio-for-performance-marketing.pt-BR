@@ -68,18 +68,34 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 5d651c7ec00aff866ce1f3698521b5baf48b3385
+source-git-commit: 87749b66644ae6b322ccf872a9b21696d87b4b99
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5942'
 ht-degree: 0%
 ---
 # Notas de versão do GenStudio for Performance Marketing
 
 Estas informações de versão fornecem as atualizações mais recentes para o aplicativo do GenStudio for Performance Marketing.
 
-## 2026.09.15 {#latest}
+## 2026.10.15 {#latest}
 
 **NOVOS RECURSOS:**
+
+### Geração com monitoramento de estado com impressão de voz e dicas visuais
+
+A geração com monitoração de estado permite refinar o conteúdo por vez em uma conversa, em vez de recomeçar com um novo prompt a cada vez. A geração se lembra de suas instruções anteriores e das variantes que você mantém, e aplica somente a alteração solicitada.
+
+A impressão de voz mantém a cópia da voz da sua marca em canais com o [!DNL Insights], como o LinkedIn e o Meta. O visual indica uma cópia de aterramento em uma imagem ou vídeo selecionado, e você pode adicionar um URL de página da Web como contexto de referência no seu prompt.
+
+Saiba mais em [Gerar e refinar conteúdo com a Geração com Monitoração de Estado](/help/user-guide/create/stateful-generation.md).
+
+### Correções e aprimoramentos
+
+* A ID de rastreamento em uma ativação em massa agora é preenchida automaticamente com o nome da Experiência.
+
+## Notas de versão anteriores
+
++++Notas de 2026.09.15
 
 ### Ativação em massa
 
@@ -87,7 +103,7 @@ O [!DNL Activate] agora oferece suporte para ativação em massa: selecione vár
 
 Saiba mais em [Fluxo de trabalho de ativação](/help/user-guide/activation/create-activation.md).
 
-## Notas de versão anteriores
++++
 
 +++Notas de 2026.07.16
 
