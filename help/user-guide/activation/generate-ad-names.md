@@ -2,9 +2,9 @@
 title: Gerar nomes de anúncios
 description: Saiba como configurar modelos de nomenclatura, gerar nomes de anúncio consistentes e revisar ou personalizar nomes antes de enviar anúncios às plataformas de ativação compatíveis.
 role: User
-source-git-commit: 6db986fefd199181e568e5fbc7a3b23554e5e70d
+source-git-commit: 888a9509ed1c3705f67fbf541b38a49b7890ac7d
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1746'
 ht-degree: 1%
 ---
 
@@ -122,6 +122,13 @@ O exemplo abaixo mostra a visualização do modelo, a ordem dos campos, as regra
 
 Prepare a ativação antes de gerar nomes. Os metadados de cada experiência contêm informações como campanha, produto ou persona. Verifique se os metadados fornecem os valores de que seu modelo precisa. Consulte [Fluxo de trabalho de ativação](create-activation.md) para obter ajuda sobre como preparar uma ativação.
 
+Ao criar uma ativação pela primeira vez, o nome inicial de cada anúncio depende da atribuição do modelo da sua plataforma:
+
+| Configuração da plataforma | Nome do anúncio inicial |
+| --- | --- |
+| Um modelo de nomenclatura é atribuído no projeto atual. | Campos de modelo vazios aparecem como espaços reservados, como `[market]_[year]`. Os nomes só são gerados depois que você seleciona **[!UICONTROL Gerar nome do anúncio]**. |
+| Nenhum modelo de nomenclatura foi atribuído ao projeto atual. | O anúncio usa o nome da experiência. A geração de nomes deixa esse nome inalterado. |
+
 1. Abra **[!UICONTROL Ativar]** no projeto pretendido.
 1. Adicione suas experiências a uma ativação.
 1. Complete a configuração da plataforma e todas as informações necessárias, incluindo cópia, call-to-action (CTA) e URL do site.
@@ -134,13 +141,13 @@ Prepare a ativação antes de gerar nomes. Os metadados de cada experiência con
 
 A geração se aplica a todos os anúncios nas plataformas com um modelo atribuído, exceto anúncios com [substituições de nome personalizado](#use-a-custom-ad-name). Os nomes não são gerados automaticamente ao abrir a tabela.
 
-Inicialmente, cada anúncio usa o nome da experiência. Se uma plataforma não tiver um template atribuído, a geração deixará os nomes inalterados. Edite esses nomes manualmente conforme necessário.
+Para plataformas sem um modelo atribuído, edite os nomes de anúncios baseados em experiência manualmente, conforme necessário.
 
 Se nenhuma plataforma tiver templates atribuídos, nenhum nome será gerado.
 
 ## Corrigir um nome de anúncio individual
 
-Analise os nomes gerados antes de enviar seus anúncios. Os valores ausentes aparecem como espaços reservados para o campo destacado, como `[market]`, e os anúncios afetados mostram **[!UICONTROL Precisa de atenção]**.
+Analise os nomes gerados antes de enviar seus anúncios. Todos os campos que permanecem vazios após a geração aparecem como espaços reservados destacados, como `[market]`. Os anúncios afetados mostram **[!UICONTROL Precisa de atenção]**.
 
 Para localizar nomes que precisam de correções, procure os espaços reservados destacados e os status **[!UICONTROL Precisa de atenção]** na tabela de ativação:
 
