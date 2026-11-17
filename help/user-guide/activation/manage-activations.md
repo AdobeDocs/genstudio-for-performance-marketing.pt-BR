@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4d35c796d2968255c3e1f525215cfe71434f8e23
+source-git-commit: 7863995df08681a8a427277121a5fbeca131c6a9
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 0%
 ---
 # Gerenciar ativações
 
@@ -43,6 +43,10 @@ Suas tabelas de ativação aparecem na página de aterrissagem [!DNL Activate]. 
 Você pode repetir automaticamente as ativações com falha clicando em **[!UICONTROL Tentar novamente]** no canto superior direito.
 
 As linhas publicadas são bloqueadas para reenvio e incluem um deep link para o anúncio no gerenciador de anúncios nativo da plataforma de destino, para que você possa ir diretamente para ele para revisá-lo ou iniciá-lo.
+
+## Gerar nomes de anúncios
+
+Use a convenção de nomenclatura de sua organização para gerar nomes de anúncios consistentes a partir de informações de experiência. Você pode revisar, editar ou substituir nomes antes de enviar anúncios para plataformas. Consulte [Gerar nomes de anúncios](generate-ad-names.md).
 
 ## Exibição de detalhes
 
